@@ -42,7 +42,7 @@
 | 35 | timestamp | Unix时间戳 | 开发辅助 | todo | - | - |
 | 36 | timestamp-batch | 批量时间戳 | 开发辅助 | todo | - | - |
 | 37 | datetime-converter | 日期格式转换 | 开发辅助 | todo | - | - |
-| 38 | hex-converter | 进制转换器 | 开发辅助 | done | pending push | build Pass + vitest 10/10,待Vercel验证 |
+| 38 | hex-converter | 进制转换器 | 开发辅助 | deployed | fb76846+727f96c | 2026-08-20 200 Pass，playwright 255→11111111/377/FF/7V/73/Ev/5Q/47/_w 与原站一致 |
 | 39 | camel | 下划线/驼峰 | 开发辅助 | todo | - | - |
 | 40 | html-escape | HTML转义 | 开发辅助 | todo | - | - |
 | 41 | json-flatten | JSON扁平化 | 开发辅助 | todo | - | - |
