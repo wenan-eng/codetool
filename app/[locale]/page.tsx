@@ -22,7 +22,8 @@ export default function Home({params}:{params:{locale:string}}){
         {tools.map(t=>{
           const h1 = locale==='en' ? (t as any).h1_en : locale==='es' ? (t as any).h1_es : t.h1
           const desc = locale==='en' ? (t as any).description_en : locale==='es' ? (t as any).description_es : t.description
-          return <a key={t.id} href={`/${locale}/${t.id}`} className="bg-white border rounded-xl p-4 hover:shadow-md"><div className="font-medium text-sm">{h1}</div><div className="text-xs text-gray-500 mt-1">{desc.slice(0,40)}...</div></a>
+          const icon = (t as any).icon as string
+          return <a key={t.id} href={`/${locale}/${t.id}`} className="bg-white border rounded-xl p-4 hover:shadow-md hover:border-blue-200 flex flex-col gap-2"><div className="flex items-center gap-3"><img src={icon} alt="" width={36} height={36} className="w-9 h-9 rounded-lg bg-blue-50 p-1.5 shrink-0" loading="lazy" /><div className="font-medium text-sm leading-tight">{h1}</div></div><div className="text-xs text-gray-500 line-clamp-2">{desc.slice(0,60)}...</div></a>
         })}
       </div>
     </div>

@@ -87,7 +87,8 @@
     ],
     "related": [
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json.svg"
   },
   {
     "id": "hex-converter",
@@ -179,7 +180,8 @@
       "json-formatter",
       "timestamp",
       "camel"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-binary.svg"
   },
   {
     "id": "html-escape",
@@ -270,7 +272,8 @@
     "related": [
       "camel",
       "hex-converter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-html-escape.svg"
   },
   {
     "id": "datetime-converter",
@@ -362,7 +365,8 @@
       "hex-converter",
       "camel",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-datetime-converter.svg"
   },
   {
     "id": "camel",
@@ -453,7 +457,8 @@
     "related": [
       "json-formatter",
       "hex-converter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-camel.svg"
   },
   {
     "id": "json-flatten",
@@ -545,7 +550,8 @@
       "json-unflatten",
       "json-sort",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-flatten.svg"
   },
   {
     "id": "json-unflatten",
@@ -637,7 +643,8 @@
       "json-flatten",
       "json-sort",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-unflatten.svg"
   },
   {
     "id": "json-sort",
@@ -729,7 +736,8 @@
       "json-flatten",
       "json-unflatten",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-sort.svg"
   },
   {
     "id": "timestamp",
@@ -821,7 +829,8 @@
       "timestamp-batch",
       "hex-converter",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-timestamp.svg"
   },
   {
     "id": "timestamp-batch",
@@ -913,7 +922,8 @@
       "timestamp",
       "hex-converter",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-timestamp-batch.svg"
   },
   {
     "id": "js-formatter",
@@ -1005,7 +1015,8 @@
       "html-formatter",
       "css-formatter",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-js-formatter.svg"
   },
   {
     "id": "html-formatter",
@@ -1097,7 +1108,8 @@
       "js-formatter",
       "css-formatter",
       "html-escape"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-html.svg"
   },
   {
     "id": "css-formatter",
@@ -1189,7 +1201,8 @@
       "js-formatter",
       "html-formatter",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-css3.svg"
   },
   {
     "id": "sql-format",
@@ -1281,7 +1294,8 @@
       "yaml-formatter",
       "js-formatter",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-sql.svg"
   },
   {
     "id": "yaml-formatter",
@@ -1373,7 +1387,8 @@
       "sql-format",
       "js-formatter",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-yaml-formatter.svg"
   },
   {
     "id": "json-sql",
@@ -1465,7 +1480,8 @@
       "sql-json",
       "json-excel",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-sql.svg"
   },
   {
     "id": "sql-json",
@@ -1557,7 +1573,8 @@
       "json-sql",
       "excel-json",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-sql-json.svg"
   },
   {
     "id": "json-cookie",
@@ -1649,7 +1666,8 @@
       "cookie-json",
       "json-formatter",
       "html-escape"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-cookie.svg"
   },
   {
     "id": "cookie-json",
@@ -1741,7 +1759,8 @@
       "json-cookie",
       "json-formatter",
       "html-escape"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-cookie-json.svg"
   },
   {
     "id": "json-base64",
@@ -1833,7 +1852,8 @@
       "xml-base64",
       "json-formatter",
       "hex-converter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-base64.svg"
   },
   {
     "id": "xml-base64",
@@ -1925,7 +1945,8 @@
       "json-base64",
       "html-escape",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-xml-base64.svg"
   },
   {
     "id": "json-excel",
@@ -2017,7 +2038,8 @@
       "excel-json",
       "json-sql",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-excel.svg"
   },
   {
     "id": "excel-json",
@@ -2109,7 +2131,8 @@
       "json-excel",
       "sql-json",
       "json-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-excel-json.svg"
   },
   {
     "id": "json-csv",
@@ -2201,7 +2224,8 @@
       "csv-json",
       "json-yaml",
       "json-xml"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-csv.svg"
   },
   {
     "id": "csv-json",
@@ -2293,7 +2317,8 @@
       "json-csv",
       "json-yaml",
       "json-xml"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-csv-json.svg"
   },
   {
     "id": "json-yaml",
@@ -2385,7 +2410,8 @@
       "yaml-json",
       "json-csv",
       "json-xml"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-yaml.svg"
   },
   {
     "id": "yaml-json",
@@ -2477,7 +2503,8 @@
       "json-yaml",
       "json-csv",
       "json-xml"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-yaml-json.svg"
   },
   {
     "id": "json-xml",
@@ -2569,7 +2596,8 @@
       "xml-json",
       "json-csv",
       "json-yaml"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-xml.svg"
   },
   {
     "id": "xml-json",
@@ -2661,7 +2689,8 @@
       "json-xml",
       "json-csv",
       "json-yaml"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-xml-json.svg"
   },
   {
     "id": "screen-inspector",
@@ -2753,7 +2782,8 @@
       "json-formatter",
       "timestamp",
       "hex-converter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-screen-inspector.svg"
   },
   {
     "id": "php-serialize",
@@ -2845,7 +2875,8 @@
       "json-formatter",
       "json-flatten",
       "json-base64"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-php-serialize.svg"
   },
   {
     "id": "pwa-manifest",
@@ -2937,7 +2968,8 @@
       "button-css",
       "json-formatter",
       "html-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-pwa-manifest.svg"
   },
   {
     "id": "button-css",
@@ -3029,7 +3061,8 @@
       "pwa-manifest",
       "loading",
       "css-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-button-css.svg"
   },
   {
     "id": "loading",
@@ -3121,7 +3154,8 @@
       "button-css",
       "pwa-manifest",
       "css-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-loading.svg"
   },
   {
     "id": "strip-comments",
@@ -3213,7 +3247,8 @@
       "html-filter",
       "js-formatter",
       "css-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-strip-comments.svg"
   },
   {
     "id": "html-filter",
@@ -3305,7 +3340,8 @@
       "strip-comments",
       "image-extract",
       "html-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-html-filter.svg"
   },
   {
     "id": "csv-merge",
@@ -3397,7 +3433,8 @@
       "csv-json",
       "image-extract",
       "strip-comments"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-csv-merge.svg"
   },
   {
     "id": "image-extract",
@@ -3489,7 +3526,8 @@
       "html-filter",
       "csv-merge",
       "html-formatter"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-extract.svg"
   },
   {
     "id": "line-chart",
@@ -3581,7 +3619,8 @@
       "bar-chart",
       "pie-chart",
       "horizontal-bar-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-line-chart.svg"
   },
   {
     "id": "bar-chart",
@@ -3673,7 +3712,8 @@
       "line-chart",
       "pie-chart",
       "horizontal-bar-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-bar-chart.svg"
   },
   {
     "id": "pie-chart",
@@ -3765,7 +3805,8 @@
       "line-chart",
       "bar-chart",
       "horizontal-bar-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-pie-chart.svg"
   },
   {
     "id": "horizontal-bar-chart",
@@ -3857,7 +3898,8 @@
       "line-chart",
       "bar-chart",
       "pie-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-horizontal-bar-chart.svg"
   },
   {
     "id": "area-chart",
@@ -3949,7 +3991,8 @@
       "line-chart",
       "bar-chart",
       "pie-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-area-chart.svg"
   },
   {
     "id": "doughnut-chart",
@@ -4041,7 +4084,8 @@
       "line-chart",
       "bar-chart",
       "pie-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-doughnut-chart.svg"
   },
   {
     "id": "scatter-chart",
@@ -4133,7 +4177,8 @@
       "line-chart",
       "bar-chart",
       "pie-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-scatter-chart.svg"
   },
   {
     "id": "radar-chart",
@@ -4225,7 +4270,8 @@
       "line-chart",
       "bar-chart",
       "pie-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-radar-chart.svg"
   },
   {
     "id": "histogram-chart",
@@ -4317,7 +4363,8 @@
       "line-chart",
       "bar-chart",
       "pie-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-histogram-chart.svg"
   },
   {
     "id": "multi-line-chart",
@@ -4409,7 +4456,8 @@
       "line-chart",
       "bar-chart",
       "pie-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-multi-line-chart.svg"
   },
   {
     "id": "stacked-area-chart",
@@ -4501,7 +4549,8 @@
       "line-chart",
       "bar-chart",
       "pie-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-stacked-area-chart.svg"
   },
   {
     "id": "waterfall-chart",
@@ -4593,6 +4642,7 @@
       "line-chart",
       "bar-chart",
       "pie-chart"
-    ]
+    ],
+    "icon": "https://www.lanren-tools.com/static/images/logo-waterfall-chart.svg"
   }
 ]

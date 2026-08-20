@@ -13,7 +13,7 @@ export function generateMetadata({params}:{params:{locale:string}}){
 }
 export default function CodeCategory({params}:{params:{locale:string}}){
   const locale = params.locale
-  const filtered = (tools as any[]).filter(t=>t.category==="编程开发")
+  const filtered = (tools as any[]).filter(t=>t.category==="编程开发" || ["line-chart","bar-chart","pie-chart","horizontal-bar-chart","area-chart","doughnut-chart","scatter-chart","radar-chart","histogram-chart","multi-line-chart","stacked-area-chart","waterfall-chart"].includes(t.id))
   const title = locale==='en' ? 'Development' : locale==='es' ? 'Desarrollo' : '编程开发'
   return (
     <div>
@@ -23,7 +23,8 @@ export default function CodeCategory({params}:{params:{locale:string}}){
         {filtered.map(t=>{
           const h1 = locale==='en' ? t.h1_en : locale==='es' ? t.h1_es : t.h1
           const desc = locale==='en' ? t.description_en : locale==='es' ? t.description_es : t.description
-          return <a key={t.id} href={`/${locale}/${t.id}`} className="bg-white border rounded-xl p-4 hover:shadow-md hover:border-blue-200"><div className="font-medium text-sm">{h1}</div><div className="text-xs text-gray-500 mt-1 line-clamp-2">{desc.slice(0,60)}...</div></a>
+          const icon = t.icon as string
+          return <a key={t.id} href={`/${locale}/${t.id}`} className="bg-white border rounded-xl p-4 hover:shadow-md hover:border-blue-200 flex flex-col gap-2"><div className="flex items-center gap-3"><img src={icon} alt="" width={36} height={36} className="w-9 h-9 rounded-lg bg-blue-50 p-1.5 shrink-0" loading="lazy" /><div className="font-medium text-sm leading-tight">{h1}</div></div><div className="text-xs text-gray-500 line-clamp-2">{desc.slice(0,60)}...</div></a>
         })}
       </div>
     </div>
