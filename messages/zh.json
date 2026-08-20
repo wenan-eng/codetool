@@ -1,14 +1,79 @@
 {
-  "header": { "title": "工具箱", "code": "编程开发", "text": "文本处理", "encode": "编码加密", "search": "搜索工具" },
-  "editor": { "beautify": "JSON美化", "compress": "JSON压缩", "sample": "查看示例", "copy": "复制结果", "clear": "清空数据", "placeholder": "请输入要格式化/压缩的JSON代码", "localNote": "所有操作均在浏览器本地完成，不上传数据", "copied": "已复制" },
-  "tool": { "h1": "在线JSON格式化/压缩工具", "desc": "使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性。" },
-  "home": { "title": "免费在线工具箱", "more": "查看更多" },
-  "footer": { "popular": "热门推荐", "tools": "站长工具", "about": "关于", "compliance": "合规", "aboutUs": "关于我们", "privacy": "隐私政策", "terms": "服务条款", "contact": "联系我们", "rights": "© 2026 工具箱 All Rights Reserved" },
+  "header": {
+    "title": "工具箱",
+    "code": "编程开发",
+    "text": "文本处理",
+    "encode": "编码加密",
+    "search": "搜索工具"
+  },
+  "editor": {
+    "beautify": "JSON美化",
+    "compress": "JSON压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "placeholder": "请输入要格式化/压缩的JSON代码",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据",
+    "copied": "已复制"
+  },
+  "tool": {
+    "h1": "在线JSON格式化/压缩工具",
+    "desc": "使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性。"
+  },
+  "home": {
+    "title": "免费在线工具箱",
+    "more": "查看更多"
+  },
+  "footer": {
+    "popular": "热门推荐",
+    "tools": "站长工具",
+    "about": "关于",
+    "compliance": "合规",
+    "aboutUs": "关于我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们",
+    "rights": "© 2026 工具箱 All Rights Reserved"
+  },
   "pages": {
-    "privacy": { "title": "隐私政策", "h1": "隐私政策", "p1": "所有工具在浏览器本地运行，不上传、不存储你的 JSON 数据。我们使用 Google AdSense 展示广告，Google 可能会使用 Cookie。联系：cirirude15@gmail.com", "date": "生效日期：2026-08-20" },
-    "about": { "title": "关于我们", "h1": "关于我们", "p1": "我们提供免费在线开发者工具，专注本地处理与隐私安全。所有工具在浏览器本地运行，你的数据不会上传到服务器。", "p2": "本站由独立开发者维护，目标是为开发者提供轻量、快速、无需注册的日常工具集，涵盖 JSON 格式化、编码转换、文本处理等常用场景。", "p3": "我们使用 Google AdSense 展示广告以维持站点运营，Google 可能会使用 Cookie 来展示个性化广告。你可以在浏览器设置中管理或禁用 Cookie。", "p4": "如有任何建议或合作意向，欢迎联系：cirirude15@gmail.com", "date": "生效日期：2026-08-20" },
-    "contact": { "title": "联系我们", "h1": "联系我们", "p1": "如有问题、建议或商务合作，欢迎通过以下方式联系我们，我们会尽快回复。", "email": "邮箱：", "namePlaceholder": "你的姓名", "emailPlaceholder": "你的邮箱", "messagePlaceholder": "留言内容", "send": "发送（演示占位）", "privacyNote": "隐私说明：所有工具在浏览器本地运行，不上传、不存储你的数据。我们使用 Google AdSense 展示广告，Google 可能会使用 Cookie。你可以在浏览器中管理 Cookie 偏好。", "date": "生效日期：2026-08-20" },
-    "terms": { "title": "服务条款", "h1": "服务条款", "intro": "欢迎使用本站提供的在线工具服务。使用本站即表示你已阅读并同意以下条款。", "p1": "1. 服务内容：本站提供免费在线工具，所有工具在浏览器本地运行，不保证 100% 可用性，亦不存储用户数据。", "p2": "2. 用户行为：请勿滥用服务、尝试攻击或干扰站点正常运行。", "p3": "3. 免责声明：工具结果仅供参考，因使用本站服务产生的任何直接或间接损失，本站不承担责任。", "p4": "4. 广告与 Cookie：我们使用 Google AdSense 展示广告，Google 可能会使用 Cookie 来提供和衡量广告效果。你可以通过浏览器设置或访问 Google 广告设置来管理 Cookie。", "p5": "5. 联系方式：如对本条款有疑问，请联系 cirirude15@gmail.com。", "date": "生效日期：2026-08-20" }
+    "privacy": {
+      "title": "隐私政策",
+      "h1": "隐私政策",
+      "p1": "所有工具在浏览器本地运行，不上传、不存储你的 JSON 数据。我们使用 Google AdSense 展示广告，Google 可能会使用 Cookie。联系：cirirude15@gmail.com",
+      "date": "生效日期：2026-08-20"
+    },
+    "about": {
+      "title": "关于我们",
+      "h1": "关于我们",
+      "p1": "我们提供免费在线开发者工具，专注本地处理与隐私安全。所有工具在浏览器本地运行，你的数据不会上传到服务器。",
+      "p2": "本站由独立开发者维护，目标是为开发者提供轻量、快速、无需注册的日常工具集，涵盖 JSON 格式化、编码转换、文本处理等常用场景。",
+      "p3": "我们使用 Google AdSense 展示广告以维持站点运营，Google 可能会使用 Cookie 来展示个性化广告。你可以在浏览器设置中管理或禁用 Cookie。",
+      "p4": "如有任何建议或合作意向，欢迎联系：cirirude15@gmail.com",
+      "date": "生效日期：2026-08-20"
+    },
+    "contact": {
+      "title": "联系我们",
+      "h1": "联系我们",
+      "p1": "如有问题、建议或商务合作，欢迎通过以下方式联系我们，我们会尽快回复。",
+      "email": "邮箱：",
+      "namePlaceholder": "你的姓名",
+      "emailPlaceholder": "你的邮箱",
+      "messagePlaceholder": "留言内容",
+      "send": "发送（演示占位）",
+      "privacyNote": "隐私说明：所有工具在浏览器本地运行，不上传、不存储你的数据。我们使用 Google AdSense 展示广告，Google 可能会使用 Cookie。你可以在浏览器中管理 Cookie 偏好。",
+      "date": "生效日期：2026-08-20"
+    },
+    "terms": {
+      "title": "服务条款",
+      "h1": "服务条款",
+      "intro": "欢迎使用本站提供的在线工具服务。使用本站即表示你已阅读并同意以下条款。",
+      "p1": "1. 服务内容：本站提供免费在线工具，所有工具在浏览器本地运行，不保证 100% 可用性，亦不存储用户数据。",
+      "p2": "2. 用户行为：请勿滥用服务、尝试攻击或干扰站点正常运行。",
+      "p3": "3. 免责声明：工具结果仅供参考，因使用本站服务产生的任何直接或间接损失，本站不承担责任。",
+      "p4": "4. 广告与 Cookie：我们使用 Google AdSense 展示广告，Google 可能会使用 Cookie 来提供和衡量广告效果。你可以通过浏览器设置或访问 Google 广告设置来管理 Cookie。",
+      "p5": "5. 联系方式：如对本条款有疑问，请联系 cirirude15@gmail.com。",
+      "date": "生效日期：2026-08-20"
+    }
   },
   "toolLayout": {
     "usageTitle": "使用说明",
@@ -162,5 +227,242 @@
     "outputPlaceholder": "转换结果将显示在这里",
     "localNote": "所有操作均在浏览器本地完成，不上传数据",
     "count": "条"
+  },
+  "codeBeautify": {
+    "beautify": "美化",
+    "compress": "压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的代码",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "jsFormatter": {
+    "beautify": "JS美化",
+    "compress": "JS压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的 JavaScript 代码",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "htmlFormatter": {
+    "beautify": "HTML美化",
+    "compress": "HTML压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的 HTML 代码",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "cssFormatter": {
+    "beautify": "CSS美化",
+    "compress": "CSS压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的 CSS 代码",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "sqlFormatter": {
+    "beautify": "SQL美化",
+    "compress": "SQL压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的 SQL 语句",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "yamlFormatter": {
+    "beautify": "YAML美化",
+    "compress": "YAML压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的 YAML 内容",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "js-formatter": {
+    "beautify": "JS美化",
+    "compress": "JS压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的 JavaScript 代码",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "html-formatter": {
+    "beautify": "HTML美化",
+    "compress": "HTML压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的 HTML 代码",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "css-formatter": {
+    "beautify": "CSS美化",
+    "compress": "CSS压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的 CSS 代码",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "sql-format": {
+    "beautify": "SQL美化",
+    "compress": "SQL压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的 SQL 语句",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "yaml-formatter": {
+    "beautify": "YAML美化",
+    "compress": "YAML压缩",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "placeholder": "请输入要美化/压缩的 YAML 内容",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "dataConvert2": {
+    "convert": "转换",
+    "reverse": "逆向转换",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "inputLabel": "输入",
+    "outputLabel": "结果",
+    "placeholderInput": "请输入要转换的内容",
+    "placeholderOutput": "转换结果将显示在这里",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "jsonSql": {
+    "convert": "JSON转SQL",
+    "reverse": "SQL转JSON",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "inputLabel": "JSON 数组",
+    "outputLabel": "SQL 语句",
+    "placeholderInput": "请输入 JSON 数组，如 [{\"a\":1,\"b\":2}]",
+    "placeholderOutput": "SQL 结果将显示在这里",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "sqlJson": {
+    "convert": "SQL转JSON",
+    "reverse": "JSON转SQL",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "inputLabel": "SQL 语句",
+    "outputLabel": "JSON 结果",
+    "placeholderInput": "请输入 INSERT 语句，如 INSERT INTO users (a,b) VALUES (1,2)",
+    "placeholderOutput": "JSON 结果将显示在这里",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "jsonCookie": {
+    "convert": "JSON转Cookie",
+    "reverse": "Cookie转JSON",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "inputLabel": "JSON 对象",
+    "outputLabel": "Cookie 字符串",
+    "placeholderInput": "请输入 JSON 对象，如 {\"a\":\"1\",\"b\":\"2\"}",
+    "placeholderOutput": "Cookie 结果将显示在这里",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "cookieJson": {
+    "convert": "Cookie转JSON",
+    "reverse": "JSON转Cookie",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "inputLabel": "Cookie 字符串",
+    "outputLabel": "JSON 对象",
+    "placeholderInput": "请输入 Cookie，如 a=1; b=2",
+    "placeholderOutput": "JSON 结果将显示在这里",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "jsonBase64": {
+    "convert": "JSON转Base64",
+    "reverse": "Base64转JSON",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "inputLabel": "JSON",
+    "outputLabel": "Base64",
+    "placeholderInput": "请输入要编码的 JSON",
+    "placeholderOutput": "Base64 结果将显示在这里",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "xmlBase64": {
+    "convert": "XML转Base64",
+    "reverse": "Base64转XML",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "inputLabel": "XML",
+    "outputLabel": "Base64",
+    "placeholderInput": "请输入要编码的 XML",
+    "placeholderOutput": "Base64 结果将显示在这里",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "jsonExcel": {
+    "convert": "JSON转Excel",
+    "reverse": "Excel转JSON",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "inputLabel": "JSON 数组",
+    "outputLabel": "CSV 表格",
+    "placeholderInput": "请输入 JSON 数组，如 [{\"name\":\"Alice\",\"age\":30}]",
+    "placeholderOutput": "CSV 结果将显示在这里",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "excelJson": {
+    "convert": "Excel转JSON",
+    "reverse": "JSON转Excel",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "inputLabel": "CSV 表格",
+    "outputLabel": "JSON 数组",
+    "placeholderInput": "请输入 CSV，如 name,age\nAlice,30",
+    "placeholderOutput": "JSON 结果将显示在这里",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "dataConvert": {
+    "convert": "转换",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "copied": "已复制",
+    "inputLabel": "输入",
+    "outputLabel": "结果",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
   }
 }

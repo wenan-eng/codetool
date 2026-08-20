@@ -6,27 +6,27 @@
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
 | 1 | json-formatter | JSON格式化/压缩 | 代码美化 | deployed | 72823c1 | 2026-08-20 Vercel Ready /zh/json-formatter Pass |
-| 2 | js-formatter | JavaScript美化/压缩 | 代码美化 | todo | - | - |
-| 3 | html-formatter | HTML美化/压缩 | 代码美化 | todo | - | - |
-| 4 | css-formatter | CSS格式化/压缩 | 代码美化 | todo | - | - |
-| 5 | sql-format | SQL格式化/压缩 | 代码美化 | todo | - | - |
-| 6 | yaml-formatter | YAML格式化 | 代码美化 | todo | - | - |
+| 2 | js-formatter | JavaScript美化/压缩 | 代码美化 | done | pending | jsFormatter 5/5, build 29工具 |
+| 3 | html-formatter | HTML美化/压缩 | 代码美化 | done | pending | htmlFormatter 5/5 |
+| 4 | css-formatter | CSS格式化/压缩 | 代码美化 | done | pending | cssFormatter 5/5 |
+| 5 | sql-format | SQL格式化/压缩 | 代码美化 | done | pending | sqlFormatter 5/5 |
+| 6 | yaml-formatter | YAML格式化 | 代码美化 | done | pending | yamlFormatter 5/5 |
 | 7 | strip-comments | 代码注释清理 | 代码美化 | todo | - | - |
 | 8 | html-filter | HTML代码过滤 | 代码美化 | todo | - | - |
-| 9 | json-csv | JSON转CSV | 数据转换 | todo | - | - |
-| 10 | csv-json | CSV转JSON | 数据转换 | todo | - | - |
-| 11 | json-excel | JSON转EXCEL | 数据转换 | todo | - | - |
-| 12 | excel-json | EXCEL转JSON | 数据转换 | todo | - | - |
-| 13 | json-sql | JSON转SQL | 数据转换 | todo | - | - |
-| 14 | sql-json | SQL转JSON | 数据转换 | todo | - | - |
-| 15 | json-yaml | JSON转YAML | 数据转换 | todo | - | - |
-| 16 | yaml-json | YAML转JSON | 数据转换 | todo | - | - |
-| 17 | json-xml | JSON转XML | 数据转换 | todo | - | - |
-| 18 | xml-json | XML转JSON | 数据转换 | todo | - | - |
-| 19 | json-base64 | JSON转Base64 | 数据转换 | todo | - | - |
-| 20 | xml-base64 | XML转Base64 | 数据转换 | todo | - | - |
-| 21 | json-cookie | JSON转Cookie | 数据转换 | todo | - | - |
-| 22 | cookie-json | Cookie转JSON | 数据转换 | todo | - | - |
+| 9 | json-csv | JSON转CSV | 数据转换 | done | pending | 6/6 dataConvert Pass |
+| 10 | csv-json | CSV转JSON | 数据转换 | done | pending | 6/6 |
+| 11 | json-excel | JSON转EXCEL | 数据转换 | done | pending | 8/8 dataConvert2 |
+| 12 | excel-json | EXCEL转JSON | 数据转换 | done | pending | 8/8 |
+| 13 | json-sql | JSON转SQL | 数据转换 | done | pending | 8/8 |
+| 14 | sql-json | SQL转JSON | 数据转换 | done | pending | 8/8 |
+| 15 | json-yaml | JSON转YAML | 数据转换 | done | pending | 6/6 |
+| 16 | yaml-json | YAML转JSON | 数据转换 | done | pending | 6/6 |
+| 17 | json-xml | JSON转XML | 数据转换 | done | pending | 6/6 |
+| 18 | xml-json | XML转JSON | 数据转换 | done | pending | 6/6 |
+| 19 | json-base64 | JSON转Base64 | 数据转换 | done | pending | 8/8 |
+| 20 | xml-base64 | XML转Base64 | 数据转换 | done | pending | 8/8 |
+| 21 | json-cookie | JSON转Cookie | 数据转换 | done | pending | 8/8 |
+| 22 | cookie-json | Cookie转JSON | 数据转换 | done | pending | 8/8 |
 | 23 | line-chart | 折线图 | 图表 | todo | - | - |
 | 24 | bar-chart | 柱状图 | 图表 | todo | - | - |
 | 25 | pie-chart | 饼图 | 图表 | todo | - | - |

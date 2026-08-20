@@ -1,14 +1,79 @@
 {
-  "header": { "title": "Toolbox", "code": "Development", "text": "Text", "encode": "Encode", "search": "Search tools" },
-  "editor": { "beautify": "Beautify", "compress": "Minify", "sample": "Load Sample", "copy": "Copy", "clear": "Clear", "placeholder": "Paste JSON to format/minify", "localNote": "All processing is done locally in your browser, no upload", "copied": "Copied" },
-  "tool": { "h1": "Online JSON Formatter & Minifier", "desc": "Beautify, minify and validate any JSON with instant local processing." },
-  "home": { "title": "Free Online Toolbox", "more": "Explore" },
-  "footer": { "popular": "Popular", "tools": "Webmaster", "about": "About", "compliance": "Compliance", "aboutUs": "About Us", "privacy": "Privacy Policy", "terms": "Terms of Service", "contact": "Contact", "rights": "© 2026 Toolbox All Rights Reserved" },
+  "header": {
+    "title": "Toolbox",
+    "code": "Development",
+    "text": "Text",
+    "encode": "Encode",
+    "search": "Search tools"
+  },
+  "editor": {
+    "beautify": "Beautify",
+    "compress": "Minify",
+    "sample": "Load Sample",
+    "copy": "Copy",
+    "clear": "Clear",
+    "placeholder": "Paste JSON to format/minify",
+    "localNote": "All processing is done locally in your browser, no upload",
+    "copied": "Copied"
+  },
+  "tool": {
+    "h1": "Online JSON Formatter & Minifier",
+    "desc": "Beautify, minify and validate any JSON with instant local processing."
+  },
+  "home": {
+    "title": "Free Online Toolbox",
+    "more": "Explore"
+  },
+  "footer": {
+    "popular": "Popular",
+    "tools": "Webmaster",
+    "about": "About",
+    "compliance": "Compliance",
+    "aboutUs": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "rights": "© 2026 Toolbox All Rights Reserved"
+  },
   "pages": {
-    "privacy": { "title": "Privacy Policy", "h1": "Privacy Policy", "p1": "All tools run locally in your browser. We do not upload or store your JSON data. We use Google AdSense to display ads; Google may use cookies. Contact: cirirude15@gmail.com", "date": "Effective date: 2026-08-20" },
-    "about": { "title": "About Us", "h1": "About Us", "p1": "We provide free online developer tools focused on local processing and privacy. All tools run locally in your browser; your data is never uploaded.", "p2": "Maintained by independent developers, we aim to offer lightweight, fast, no-registration tools for everyday use, covering JSON formatting, encoding conversion, text processing and more.", "p3": "We use Google AdSense to sustain the site. Google may use cookies to deliver personalized ads. You can manage or disable cookies in your browser settings.", "p4": "For suggestions or collaboration, contact: cirirude15@gmail.com", "date": "Effective date: 2026-08-20" },
-    "contact": { "title": "Contact Us", "h1": "Contact Us", "p1": "For questions, feedback or business inquiries, feel free to reach us and we will reply soon.", "email": "Email: ", "namePlaceholder": "Your name", "emailPlaceholder": "Your email", "messagePlaceholder": "Your message", "send": "Send (demo)", "privacyNote": "Privacy: All tools run locally, no upload. We use Google AdSense; Google may use cookies. Manage cookie preferences in your browser.", "date": "Effective date: 2026-08-20" },
-    "terms": { "title": "Terms of Service", "h1": "Terms of Service", "intro": "Welcome to our online tools. By using this site you agree to the following terms.", "p1": "1. Service: Free online tools run locally in your browser, without 100% availability guarantee and without storing user data.", "p2": "2. User conduct: Do not abuse the service or attempt to attack or disrupt the site.", "p3": "3. Disclaimer: Tool outputs are for reference only; we are not liable for any direct or indirect loss from using the service.", "p4": "4. Ads & Cookies: We use Google AdSense; Google may use cookies to deliver and measure ads. Manage via browser settings or Google Ad Settings.", "p5": "5. Contact: For questions about these terms, contact cirirude15@gmail.com.", "date": "Effective date: 2026-08-20" }
+    "privacy": {
+      "title": "Privacy Policy",
+      "h1": "Privacy Policy",
+      "p1": "All tools run locally in your browser. We do not upload or store your JSON data. We use Google AdSense to display ads; Google may use cookies. Contact: cirirude15@gmail.com",
+      "date": "Effective date: 2026-08-20"
+    },
+    "about": {
+      "title": "About Us",
+      "h1": "About Us",
+      "p1": "We provide free online developer tools focused on local processing and privacy. All tools run locally in your browser; your data is never uploaded.",
+      "p2": "Maintained by independent developers, we aim to offer lightweight, fast, no-registration tools for everyday use, covering JSON formatting, encoding conversion, text processing and more.",
+      "p3": "We use Google AdSense to sustain the site. Google may use cookies to deliver personalized ads. You can manage or disable cookies in your browser settings.",
+      "p4": "For suggestions or collaboration, contact: cirirude15@gmail.com",
+      "date": "Effective date: 2026-08-20"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "h1": "Contact Us",
+      "p1": "For questions, feedback or business inquiries, feel free to reach us and we will reply soon.",
+      "email": "Email: ",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Your message",
+      "send": "Send (demo)",
+      "privacyNote": "Privacy: All tools run locally, no upload. We use Google AdSense; Google may use cookies. Manage cookie preferences in your browser.",
+      "date": "Effective date: 2026-08-20"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "h1": "Terms of Service",
+      "intro": "Welcome to our online tools. By using this site you agree to the following terms.",
+      "p1": "1. Service: Free online tools run locally in your browser, without 100% availability guarantee and without storing user data.",
+      "p2": "2. User conduct: Do not abuse the service or attempt to attack or disrupt the site.",
+      "p3": "3. Disclaimer: Tool outputs are for reference only; we are not liable for any direct or indirect loss from using the service.",
+      "p4": "4. Ads & Cookies: We use Google AdSense; Google may use cookies to deliver and measure ads. Manage via browser settings or Google Ad Settings.",
+      "p5": "5. Contact: For questions about these terms, contact cirirude15@gmail.com.",
+      "date": "Effective date: 2026-08-20"
+    }
   },
   "toolLayout": {
     "usageTitle": "How to Use",
@@ -162,5 +227,242 @@
     "outputPlaceholder": "Result will appear here",
     "localNote": "All processing is done locally, no upload",
     "count": "lines"
+  },
+  "codeBeautify": {
+    "beautify": "Beautify",
+    "compress": "Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste code to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "jsFormatter": {
+    "beautify": "JS Beautify",
+    "compress": "JS Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste JavaScript code to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "htmlFormatter": {
+    "beautify": "HTML Beautify",
+    "compress": "HTML Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste HTML code to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "cssFormatter": {
+    "beautify": "CSS Beautify",
+    "compress": "CSS Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste CSS code to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "sqlFormatter": {
+    "beautify": "SQL Beautify",
+    "compress": "SQL Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste SQL to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "yamlFormatter": {
+    "beautify": "YAML Beautify",
+    "compress": "YAML Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste YAML to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "js-formatter": {
+    "beautify": "JS Beautify",
+    "compress": "JS Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste JavaScript code to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "html-formatter": {
+    "beautify": "HTML Beautify",
+    "compress": "HTML Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste HTML code to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "css-formatter": {
+    "beautify": "CSS Beautify",
+    "compress": "CSS Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste CSS code to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "sql-format": {
+    "beautify": "SQL Beautify",
+    "compress": "SQL Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste SQL to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "yaml-formatter": {
+    "beautify": "YAML Beautify",
+    "compress": "YAML Minify",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "placeholder": "Paste YAML to beautify/minify",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "dataConvert2": {
+    "convert": "Convert",
+    "reverse": "Reverse",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "inputLabel": "Input",
+    "outputLabel": "Result",
+    "placeholderInput": "Paste content to convert",
+    "placeholderOutput": "Result will appear here",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "jsonSql": {
+    "convert": "JSON → SQL",
+    "reverse": "SQL → JSON",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "inputLabel": "JSON Array",
+    "outputLabel": "SQL",
+    "placeholderInput": "Paste JSON array, e.g. [{\"a\":1,\"b\":2}]",
+    "placeholderOutput": "SQL will appear here",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "sqlJson": {
+    "convert": "SQL → JSON",
+    "reverse": "JSON → SQL",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "inputLabel": "SQL INSERT",
+    "outputLabel": "JSON",
+    "placeholderInput": "Paste INSERT INTO ... VALUES ...",
+    "placeholderOutput": "JSON will appear here",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "jsonCookie": {
+    "convert": "JSON → Cookie",
+    "reverse": "Cookie → JSON",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "inputLabel": "JSON Object",
+    "outputLabel": "Cookie String",
+    "placeholderInput": "Paste JSON object, e.g. {\"a\":\"1\",\"b\":\"2\"}",
+    "placeholderOutput": "Cookie will appear here",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "cookieJson": {
+    "convert": "Cookie → JSON",
+    "reverse": "JSON → Cookie",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "inputLabel": "Cookie String",
+    "outputLabel": "JSON Object",
+    "placeholderInput": "Paste cookie, e.g. a=1; b=2",
+    "placeholderOutput": "JSON will appear here",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "jsonBase64": {
+    "convert": "JSON → Base64",
+    "reverse": "Base64 → JSON",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "inputLabel": "JSON",
+    "outputLabel": "Base64",
+    "placeholderInput": "Paste JSON to encode",
+    "placeholderOutput": "Base64 will appear here",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "xmlBase64": {
+    "convert": "XML → Base64",
+    "reverse": "Base64 → XML",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "inputLabel": "XML",
+    "outputLabel": "Base64",
+    "placeholderInput": "Paste XML to encode",
+    "placeholderOutput": "Base64 will appear here",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "jsonExcel": {
+    "convert": "JSON → Excel (CSV)",
+    "reverse": "Excel → JSON",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "inputLabel": "JSON Array",
+    "outputLabel": "CSV / Excel",
+    "placeholderInput": "Paste JSON array, e.g. [{\"name\":\"Alice\",\"age\":30}]",
+    "placeholderOutput": "CSV will appear here",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "excelJson": {
+    "convert": "Excel → JSON",
+    "reverse": "JSON → Excel",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "inputLabel": "CSV / Excel",
+    "outputLabel": "JSON Array",
+    "placeholderInput": "Paste CSV, e.g. name,age\nAlice,30",
+    "placeholderOutput": "JSON will appear here",
+    "localNote": "All processing is done locally, no upload"
+  },
+  "dataConvert": {
+    "convert": "Convert",
+    "sample": "Load Sample",
+    "copy": "Copy Result",
+    "clear": "Clear",
+    "copied": "Copied",
+    "inputLabel": "Input",
+    "outputLabel": "Result",
+    "localNote": "All processing is done locally, no upload"
   }
 }

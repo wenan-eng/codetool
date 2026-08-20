@@ -1,14 +1,79 @@
 {
-  "header": { "title": "Caja de Herramientas", "code": "Desarrollo", "text": "Texto", "encode": "Codificación", "search": "Buscar herramientas" },
-  "editor": { "beautify": "Embellecer", "compress": "Comprimir", "sample": "Ver Ejemplo", "copy": "Copiar", "clear": "Limpiar", "placeholder": "Pegue el JSON para formatear/comprimir", "localNote": "Todo el procesamiento se realiza localmente en su navegador, sin subida", "copied": "Copiado" },
-  "tool": { "h1": "Formateador y Compresor JSON en Línea", "desc": "Embellece, comprime y valida cualquier JSON con procesamiento local instantáneo." },
-  "home": { "title": "Caja de Herramientas Gratuita", "more": "Ver más" },
-  "footer": { "popular": "Popular", "tools": "Webmaster", "about": "Acerca", "compliance": "Cumplimiento", "aboutUs": "Sobre Nosotros", "privacy": "Política de Privacidad", "terms": "Términos de Servicio", "contact": "Contacto", "rights": "© 2026 Caja de Herramientas Todos los derechos reservados" },
+  "header": {
+    "title": "Caja de Herramientas",
+    "code": "Desarrollo",
+    "text": "Texto",
+    "encode": "Codificación",
+    "search": "Buscar herramientas"
+  },
+  "editor": {
+    "beautify": "Embellecer",
+    "compress": "Comprimir",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar",
+    "clear": "Limpiar",
+    "placeholder": "Pegue el JSON para formatear/comprimir",
+    "localNote": "Todo el procesamiento se realiza localmente en su navegador, sin subida",
+    "copied": "Copiado"
+  },
+  "tool": {
+    "h1": "Formateador y Compresor JSON en Línea",
+    "desc": "Embellece, comprime y valida cualquier JSON con procesamiento local instantáneo."
+  },
+  "home": {
+    "title": "Caja de Herramientas Gratuita",
+    "more": "Ver más"
+  },
+  "footer": {
+    "popular": "Popular",
+    "tools": "Webmaster",
+    "about": "Acerca",
+    "compliance": "Cumplimiento",
+    "aboutUs": "Sobre Nosotros",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "contact": "Contacto",
+    "rights": "© 2026 Caja de Herramientas Todos los derechos reservados"
+  },
   "pages": {
-    "privacy": { "title": "Política de Privacidad", "h1": "Política de Privacidad", "p1": "Todas las herramientas se ejecutan localmente en su navegador, no subimos ni almacenamos sus datos JSON. Usamos Google AdSense para mostrar anuncios; Google puede usar cookies. Contacto: cirirude15@gmail.com", "date": "Fecha efectiva: 2026-08-20" },
-    "about": { "title": "Sobre Nosotros", "h1": "Sobre Nosotros", "p1": "Ofrecemos herramientas gratuitas para desarrolladores centradas en el procesamiento local y la privacidad. Todas las herramientas se ejecutan localmente; sus datos nunca se suben.", "p2": "Mantenido por desarrolladores independientes, buscamos ofrecer herramientas ligeras, rápidas y sin registro para el uso diario, cubriendo formato JSON, conversión de codificación, procesamiento de texto y más.", "p3": "Usamos Google AdSense para mantener el sitio. Google puede usar cookies para mostrar anuncios personalizados. Puede gestionarlas en la configuración del navegador.", "p4": "Para sugerencias o colaboración, contacte: cirirude15@gmail.com", "date": "Fecha efectiva: 2026-08-20" },
-    "contact": { "title": "Contacto", "h1": "Contacto", "p1": "Para consultas, comentarios o negocios, contáctenos y responderemos pronto.", "email": "Correo: ", "namePlaceholder": "Tu nombre", "emailPlaceholder": "Tu correo", "messagePlaceholder": "Tu mensaje", "send": "Enviar (demo)", "privacyNote": "Privacidad: Todo se procesa localmente, sin subida. Usamos Google AdSense; Google puede usar cookies. Gestione las cookies en su navegador.", "date": "Fecha efectiva: 2026-08-20" },
-    "terms": { "title": "Términos de Servicio", "h1": "Términos de Servicio", "intro": "Bienvenido a nuestras herramientas en línea. Al usar este sitio acepta los siguientes términos.", "p1": "1. Servicio: Herramientas gratuitas que se ejecutan localmente, sin garantía de disponibilidad del 100% y sin almacenar datos.", "p2": "2. Conducta: No abuse del servicio ni intente atacar o interrumpir el sitio.", "p3": "3. Descargo: Los resultados son solo de referencia; no somos responsables por pérdidas directas o indirectas.", "p4": "4. Anuncios y Cookies: Usamos Google AdSense; Google puede usar cookies para entregar y medir anuncios. Gestione en la configuración del navegador o en Google Ad Settings.", "p5": "5. Contacto: Para dudas sobre estos términos, contacte cirirude15@gmail.com.", "date": "Fecha efectiva: 2026-08-20" }
+    "privacy": {
+      "title": "Política de Privacidad",
+      "h1": "Política de Privacidad",
+      "p1": "Todas las herramientas se ejecutan localmente en su navegador, no subimos ni almacenamos sus datos JSON. Usamos Google AdSense para mostrar anuncios; Google puede usar cookies. Contacto: cirirude15@gmail.com",
+      "date": "Fecha efectiva: 2026-08-20"
+    },
+    "about": {
+      "title": "Sobre Nosotros",
+      "h1": "Sobre Nosotros",
+      "p1": "Ofrecemos herramientas gratuitas para desarrolladores centradas en el procesamiento local y la privacidad. Todas las herramientas se ejecutan localmente; sus datos nunca se suben.",
+      "p2": "Mantenido por desarrolladores independientes, buscamos ofrecer herramientas ligeras, rápidas y sin registro para el uso diario, cubriendo formato JSON, conversión de codificación, procesamiento de texto y más.",
+      "p3": "Usamos Google AdSense para mantener el sitio. Google puede usar cookies para mostrar anuncios personalizados. Puede gestionarlas en la configuración del navegador.",
+      "p4": "Para sugerencias o colaboración, contacte: cirirude15@gmail.com",
+      "date": "Fecha efectiva: 2026-08-20"
+    },
+    "contact": {
+      "title": "Contacto",
+      "h1": "Contacto",
+      "p1": "Para consultas, comentarios o negocios, contáctenos y responderemos pronto.",
+      "email": "Correo: ",
+      "namePlaceholder": "Tu nombre",
+      "emailPlaceholder": "Tu correo",
+      "messagePlaceholder": "Tu mensaje",
+      "send": "Enviar (demo)",
+      "privacyNote": "Privacidad: Todo se procesa localmente, sin subida. Usamos Google AdSense; Google puede usar cookies. Gestione las cookies en su navegador.",
+      "date": "Fecha efectiva: 2026-08-20"
+    },
+    "terms": {
+      "title": "Términos de Servicio",
+      "h1": "Términos de Servicio",
+      "intro": "Bienvenido a nuestras herramientas en línea. Al usar este sitio acepta los siguientes términos.",
+      "p1": "1. Servicio: Herramientas gratuitas que se ejecutan localmente, sin garantía de disponibilidad del 100% y sin almacenar datos.",
+      "p2": "2. Conducta: No abuse del servicio ni intente atacar o interrumpir el sitio.",
+      "p3": "3. Descargo: Los resultados son solo de referencia; no somos responsables por pérdidas directas o indirectas.",
+      "p4": "4. Anuncios y Cookies: Usamos Google AdSense; Google puede usar cookies para entregar y medir anuncios. Gestione en la configuración del navegador o en Google Ad Settings.",
+      "p5": "5. Contacto: Para dudas sobre estos términos, contacte cirirude15@gmail.com.",
+      "date": "Fecha efectiva: 2026-08-20"
+    }
   },
   "toolLayout": {
     "usageTitle": "Cómo Usar",
@@ -162,5 +227,242 @@
     "outputPlaceholder": "El resultado aparecerá aquí",
     "localNote": "Todo se procesa localmente, sin subida",
     "count": "líneas"
+  },
+  "codeBeautify": {
+    "beautify": "Embellecer",
+    "compress": "Comprimir",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue código para embellecer/comprimir",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "jsFormatter": {
+    "beautify": "Embellecer JS",
+    "compress": "Comprimir JS",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue código JavaScript",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "htmlFormatter": {
+    "beautify": "Embellecer HTML",
+    "compress": "Comprimir HTML",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue código HTML",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "cssFormatter": {
+    "beautify": "Embellecer CSS",
+    "compress": "Comprimir CSS",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue código CSS",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "sqlFormatter": {
+    "beautify": "Embellecer SQL",
+    "compress": "Comprimir SQL",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue SQL",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "yamlFormatter": {
+    "beautify": "Embellecer YAML",
+    "compress": "Comprimir YAML",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue YAML",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "js-formatter": {
+    "beautify": "Embellecer JS",
+    "compress": "Comprimir JS",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue código JavaScript",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "html-formatter": {
+    "beautify": "Embellecer HTML",
+    "compress": "Comprimir HTML",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue código HTML",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "css-formatter": {
+    "beautify": "Embellecer CSS",
+    "compress": "Comprimir CSS",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue código CSS",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "sql-format": {
+    "beautify": "Embellecer SQL",
+    "compress": "Comprimir SQL",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue SQL",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "yaml-formatter": {
+    "beautify": "Embellecer YAML",
+    "compress": "Comprimir YAML",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "placeholder": "Pegue YAML",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "dataConvert2": {
+    "convert": "Convertir",
+    "reverse": "Invertir",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "inputLabel": "Entrada",
+    "outputLabel": "Resultado",
+    "placeholderInput": "Pegue contenido para convertir",
+    "placeholderOutput": "El resultado aparecerá aquí",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "jsonSql": {
+    "convert": "JSON → SQL",
+    "reverse": "SQL → JSON",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "inputLabel": "Arreglo JSON",
+    "outputLabel": "SQL",
+    "placeholderInput": "Pegue arreglo JSON, ej. [{\"a\":1,\"b\":2}]",
+    "placeholderOutput": "SQL aparecerá aquí",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "sqlJson": {
+    "convert": "SQL → JSON",
+    "reverse": "JSON → SQL",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "inputLabel": "SQL INSERT",
+    "outputLabel": "JSON",
+    "placeholderInput": "Pegue INSERT INTO ... VALUES ...",
+    "placeholderOutput": "JSON aparecerá aquí",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "jsonCookie": {
+    "convert": "JSON → Cookie",
+    "reverse": "Cookie → JSON",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "inputLabel": "Objeto JSON",
+    "outputLabel": "Cookie",
+    "placeholderInput": "Pegue objeto JSON, ej. {\"a\":\"1\",\"b\":\"2\"}",
+    "placeholderOutput": "Cookie aparecerá aquí",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "cookieJson": {
+    "convert": "Cookie → JSON",
+    "reverse": "JSON → Cookie",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "inputLabel": "Cookie",
+    "outputLabel": "Objeto JSON",
+    "placeholderInput": "Pegue cookie, ej. a=1; b=2",
+    "placeholderOutput": "JSON aparecerá aquí",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "jsonBase64": {
+    "convert": "JSON → Base64",
+    "reverse": "Base64 → JSON",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "inputLabel": "JSON",
+    "outputLabel": "Base64",
+    "placeholderInput": "Pegue JSON para codificar",
+    "placeholderOutput": "Base64 aparecerá aquí",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "xmlBase64": {
+    "convert": "XML → Base64",
+    "reverse": "Base64 → XML",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "inputLabel": "XML",
+    "outputLabel": "Base64",
+    "placeholderInput": "Pegue XML para codificar",
+    "placeholderOutput": "Base64 aparecerá aquí",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "jsonExcel": {
+    "convert": "JSON → Excel (CSV)",
+    "reverse": "Excel → JSON",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "inputLabel": "Arreglo JSON",
+    "outputLabel": "CSV / Excel",
+    "placeholderInput": "Pegue arreglo JSON, ej. [{\"name\":\"Alicia\",\"age\":30}]",
+    "placeholderOutput": "CSV aparecerá aquí",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "excelJson": {
+    "convert": "Excel → JSON",
+    "reverse": "JSON → Excel",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "inputLabel": "CSV / Excel",
+    "outputLabel": "Arreglo JSON",
+    "placeholderInput": "Pegue CSV, ej. name,age\nAlicia,30",
+    "placeholderOutput": "JSON aparecerá aquí",
+    "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "dataConvert": {
+    "convert": "Convertir",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "copied": "Copiado",
+    "inputLabel": "Entrada",
+    "outputLabel": "Resultado",
+    "localNote": "Todo se procesa localmente, sin subida"
   }
 }

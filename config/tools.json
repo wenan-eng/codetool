@@ -10,31 +10,84 @@
     "title_es": "Formateador y Compresor JSON en Línea",
     "h1_es": "Formateador y Compresor JSON en Línea",
     "description_es": "Embellece, comprime y valida cualquier JSON con procesamiento local instantáneo.",
-    "tags": ["JSON美化", "JSON压缩", "JSON解析", "JSON校验"],
-    "tags_en": ["Beautify", "Minify", "Parse", "Validate"],
-    "tags_es": ["Embellecer", "Comprimir", "Parsear", "Validar"],
+    "tags": [
+      "JSON美化",
+      "JSON压缩",
+      "JSON解析",
+      "JSON校验"
+    ],
+    "tags_en": [
+      "Beautify",
+      "Minify",
+      "Parse",
+      "Validate"
+    ],
+    "tags_es": [
+      "Embellecer",
+      "Comprimir",
+      "Parsear",
+      "Validar"
+    ],
     "category": "编程开发",
     "category_en": "Development",
     "category_es": "Desarrollo",
     "faqs": [
-      {"q": "什么是JSON美化与压缩？", "a": "美化是通过缩进换行重建清晰结构，压缩是移除空白生成单行最小体积。"},
-      {"q": "如何美化混乱的JSON？", "a": "粘贴到输入框点击“JSON美化”即可。"},
-      {"q": "如何压缩JSON？", "a": "点击“JSON压缩”生成最小单行。"},
-      {"q": "会被上传吗？", "a": "不会，所有操作在浏览器本地完成。"}
+      {
+        "q": "什么是JSON美化与压缩？",
+        "a": "美化是通过缩进换行重建清晰结构，压缩是移除空白生成单行最小体积。"
+      },
+      {
+        "q": "如何美化混乱的JSON？",
+        "a": "粘贴到输入框点击“JSON美化”即可。"
+      },
+      {
+        "q": "如何压缩JSON？",
+        "a": "点击“JSON压缩”生成最小单行。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有操作在浏览器本地完成。"
+      }
     ],
     "faqs_en": [
-      {"q": "What is JSON beautify and minify?", "a": "Beautify rebuilds readable structure with indentation; minify removes whitespace to a single line."},
-      {"q": "How to beautify messy JSON?", "a": "Paste into the input and click Beautify."},
-      {"q": "How to minify JSON?", "a": "Click Minify to generate the smallest single line."},
-      {"q": "Will my data be uploaded?", "a": "No, all operations run locally in your browser."}
+      {
+        "q": "What is JSON beautify and minify?",
+        "a": "Beautify rebuilds readable structure with indentation; minify removes whitespace to a single line."
+      },
+      {
+        "q": "How to beautify messy JSON?",
+        "a": "Paste into the input and click Beautify."
+      },
+      {
+        "q": "How to minify JSON?",
+        "a": "Click Minify to generate the smallest single line."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all operations run locally in your browser."
+      }
     ],
     "faqs_es": [
-      {"q": "¿Qué es embellecer y comprimir JSON?", "a": "Embellecer reconstruye una estructura legible con indentación; comprimir elimina espacios a una sola línea."},
-      {"q": "¿Cómo embellecer JSON desordenado?", "a": "Pegue en la entrada y haga clic en Embellecer."},
-      {"q": "¿Cómo comprimir JSON?", "a": "Haga clic en Comprimir para generar una sola línea mínima."},
-      {"q": "¿Se subirán mis datos?", "a": "No, todo se ejecuta localmente en su navegador."}
+      {
+        "q": "¿Qué es embellecer y comprimir JSON?",
+        "a": "Embellecer reconstruye una estructura legible con indentación; comprimir elimina espacios a una sola línea."
+      },
+      {
+        "q": "¿Cómo embellecer JSON desordenado?",
+        "a": "Pegue en la entrada y haga clic en Embellecer."
+      },
+      {
+        "q": "¿Cómo comprimir JSON?",
+        "a": "Haga clic en Comprimir para generar una sola línea mínima."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se ejecuta localmente en su navegador."
+      }
     ],
-    "related": ["json-formatter"]
+    "related": [
+      "json-formatter"
+    ]
   },
   {
     "id": "hex-converter",
@@ -47,31 +100,86 @@
     "title_es": "Conversor de Bases en Línea",
     "h1_es": "Conversor de Bases en Línea",
     "description_es": "Convierte números entre bases 2/8/10/16/32/36/52/58/62/64 al instante con procesamiento local.",
-    "tags": ["进制转换", "二进制", "十六进制", "Base58"],
-    "tags_en": ["Base Convert", "Binary", "Hex", "Base58"],
-    "tags_es": ["Conversor", "Binario", "Hex", "Base58"],
+    "tags": [
+      "进制转换",
+      "二进制",
+      "十六进制",
+      "Base58"
+    ],
+    "tags_en": [
+      "Base Convert",
+      "Binary",
+      "Hex",
+      "Base58"
+    ],
+    "tags_es": [
+      "Conversor",
+      "Binario",
+      "Hex",
+      "Base58"
+    ],
     "category": "编程开发",
     "category_en": "Development",
     "category_es": "Desarrollo",
     "faqs": [
-      {"q": "支持哪些进制？", "a": "支持 2、8、10、16、32、36、52、58、62、64 共 10 种，覆盖常用与扩展编码。"},
-      {"q": "如何转换？", "a": "选择输入进制、输入数值，点击“进制转换”即可在下表查看所有结果。"},
-      {"q": "Base58/62/64是什么？", "a": "Base58 去除易混淆字符用于区块链地址；Base62 最大压缩用于短链；Base64 用于二进制转文本。"},
-      {"q": "会被上传吗？", "a": "不会，所有计算在浏览器本地完成。"}
+      {
+        "q": "支持哪些进制？",
+        "a": "支持 2、8、10、16、32、36、52、58、62、64 共 10 种，覆盖常用与扩展编码。"
+      },
+      {
+        "q": "如何转换？",
+        "a": "选择输入进制、输入数值，点击“进制转换”即可在下表查看所有结果。"
+      },
+      {
+        "q": "Base58/62/64是什么？",
+        "a": "Base58 去除易混淆字符用于区块链地址；Base62 最大压缩用于短链；Base64 用于二进制转文本。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有计算在浏览器本地完成。"
+      }
     ],
     "faqs_en": [
-      {"q": "Which bases are supported?", "a": "10 bases: 2,8,10,16,32,36,52,58,62,64 covering common and extended encodings."},
-      {"q": "How to convert?", "a": "Select input base, enter value, click Convert to see all results."},
-      {"q": "What are Base58/62/64?", "a": "Base58 for blockchain, Base62 for short URLs, Base64 for binary-to-text."},
-      {"q": "Will my data be uploaded?", "a": "No, all computation runs locally."}
+      {
+        "q": "Which bases are supported?",
+        "a": "10 bases: 2,8,10,16,32,36,52,58,62,64 covering common and extended encodings."
+      },
+      {
+        "q": "How to convert?",
+        "a": "Select input base, enter value, click Convert to see all results."
+      },
+      {
+        "q": "What are Base58/62/64?",
+        "a": "Base58 for blockchain, Base62 for short URLs, Base64 for binary-to-text."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all computation runs locally."
+      }
     ],
     "faqs_es": [
-      {"q": "¿Qué bases soporta?", "a": "10 bases: 2,8,10,16,32,36,52,58,62,64."},
-      {"q": "¿Cómo convertir?", "a": "Seleccione la base, ingrese el valor y haga clic en Convertir."},
-      {"q": "¿Qué es Base58/62/64?", "a": "Base58 para blockchain, Base62 para URLs cortas, Base64 para binario a texto."},
-      {"q": "¿Se subirán mis datos?", "a": "No, todo se ejecuta localmente."}
+      {
+        "q": "¿Qué bases soporta?",
+        "a": "10 bases: 2,8,10,16,32,36,52,58,62,64."
+      },
+      {
+        "q": "¿Cómo convertir?",
+        "a": "Seleccione la base, ingrese el valor y haga clic en Convertir."
+      },
+      {
+        "q": "¿Qué es Base58/62/64?",
+        "a": "Base58 para blockchain, Base62 para URLs cortas, Base64 para binario a texto."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se ejecuta localmente."
+      }
     ],
-    "related": ["json-formatter", "timestamp", "camel"]
+    "related": [
+      "json-formatter",
+      "timestamp",
+      "camel"
+    ]
   },
   {
     "id": "html-escape",
@@ -84,31 +192,85 @@
     "title_es": "Escape / Desescape HTML en Línea",
     "h1_es": "Escape / Desescape HTML en Línea",
     "description_es": "Escapa y desescapa entidades HTML al instante. Convierte < > & \" ' a &lt; &gt; &amp; &quot; &#39; y decodifica entidades numéricas &#x / &# con procesamiento local.",
-    "tags": ["HTML转义", "HTML反转义", "字符转义", "HTML实体"],
-    "tags_en": ["Escape", "Unescape", "Entity", "HTML Encode"],
-    "tags_es": ["Escapar", "Desescapar", "Entidad", "HTML"],
+    "tags": [
+      "HTML转义",
+      "HTML反转义",
+      "字符转义",
+      "HTML实体"
+    ],
+    "tags_en": [
+      "Escape",
+      "Unescape",
+      "Entity",
+      "HTML Encode"
+    ],
+    "tags_es": [
+      "Escapar",
+      "Desescapar",
+      "Entidad",
+      "HTML"
+    ],
     "category": "编程开发",
     "category_en": "Development",
     "category_es": "Desarrollo",
     "faqs": [
-      {"q": "什么是HTML字符转义？为什么需要它？", "a": "HTML转义是将 < > & \" ' 等特殊字符转换为 &lt; &gt; &amp; &quot; &#39; 实体编码，用于防止 XSS、正确展示代码与安全存储。"},
-      {"q": "会影响哪些字符？中文和数字会被转换吗？", "a": "仅转义 5 个 HTML 特殊字符 < > & \" '，中文、数字、普通字母及其他符号保持原样。"},
-      {"q": "什么时候用转义/反转义？", "a": "转义用于用户输入展示、代码展示、防 XSS；反转义用于还原数据库中已转义内容、解析 API 返回数据。"},
-      {"q": "会被上传吗？", "a": "不会，所有转义/反转义在浏览器本地完成，不上传数据。"}
+      {
+        "q": "什么是HTML字符转义？为什么需要它？",
+        "a": "HTML转义是将 < > & \" ' 等特殊字符转换为 &lt; &gt; &amp; &quot; &#39; 实体编码，用于防止 XSS、正确展示代码与安全存储。"
+      },
+      {
+        "q": "会影响哪些字符？中文和数字会被转换吗？",
+        "a": "仅转义 5 个 HTML 特殊字符 < > & \" '，中文、数字、普通字母及其他符号保持原样。"
+      },
+      {
+        "q": "什么时候用转义/反转义？",
+        "a": "转义用于用户输入展示、代码展示、防 XSS；反转义用于还原数据库中已转义内容、解析 API 返回数据。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转义/反转义在浏览器本地完成，不上传数据。"
+      }
     ],
     "faqs_en": [
-      {"q": "What is HTML escaping and why is it needed?", "a": "Escaping converts < > & \" ' to &lt; &gt; &amp; &quot; &#39; to prevent XSS and display code safely."},
-      {"q": "Which characters are affected? Are Chinese/numbers converted?", "a": "Only the 5 HTML special characters are escaped; Chinese, numbers and other symbols remain unchanged."},
-      {"q": "When to escape vs unescape?", "a": "Escape for displaying user input/code and XSS prevention; unescape to restore stored escaped content or parse API data."},
-      {"q": "Will my data be uploaded?", "a": "No, all operations run locally in your browser."}
+      {
+        "q": "What is HTML escaping and why is it needed?",
+        "a": "Escaping converts < > & \" ' to &lt; &gt; &amp; &quot; &#39; to prevent XSS and display code safely."
+      },
+      {
+        "q": "Which characters are affected? Are Chinese/numbers converted?",
+        "a": "Only the 5 HTML special characters are escaped; Chinese, numbers and other symbols remain unchanged."
+      },
+      {
+        "q": "When to escape vs unescape?",
+        "a": "Escape for displaying user input/code and XSS prevention; unescape to restore stored escaped content or parse API data."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all operations run locally in your browser."
+      }
     ],
     "faqs_es": [
-      {"q": "¿Qué es el escape HTML y por qué es necesario?", "a": "Convierte < > & \" ' a &lt; &gt; &amp; &quot; &#39; para prevenir XSS y mostrar código de forma segura."},
-      {"q": "¿Qué caracteres afecta? ¿Se convierten chino/números?", "a": "Solo los 5 caracteres especiales HTML; chino, números y otros símbolos no cambian."},
-      {"q": "¿Cuándo escapar vs desescapar?", "a": "Escapar para mostrar entrada/código y prevenir XSS; desescapar para restaurar contenido almacenado o analizar datos de API."},
-      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente en su navegador."}
+      {
+        "q": "¿Qué es el escape HTML y por qué es necesario?",
+        "a": "Convierte < > & \" ' a &lt; &gt; &amp; &quot; &#39; para prevenir XSS y mostrar código de forma segura."
+      },
+      {
+        "q": "¿Qué caracteres afecta? ¿Se convierten chino/números?",
+        "a": "Solo los 5 caracteres especiales HTML; chino, números y otros símbolos no cambian."
+      },
+      {
+        "q": "¿Cuándo escapar vs desescapar?",
+        "a": "Escapar para mostrar entrada/código y prevenir XSS; desescapar para restaurar contenido almacenado o analizar datos de API."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
     ],
-    "related": ["camel", "hex-converter"]
+    "related": [
+      "camel",
+      "hex-converter"
+    ]
   },
   {
     "id": "datetime-converter",
@@ -121,31 +283,86 @@
     "title_es": "Conversor de Fecha y Hora en Línea",
     "h1_es": "Conversor de Fecha y Hora en Línea",
     "description_es": "Convierte fechas entre YYYY-MM-DD, YYYY/MM/DD, MM-DD-YYYY, ISO 8601, timestamp (s/ms), YYYYMMDD y más. Formato personalizado con YYYY/MM/DD/HH/mm/ss, conversión por lotes, procesamiento local.",
-    "tags": ["日期转换", "时间戳", "格式转换", "批量转换"],
-    "tags_en": ["Date Convert", "Timestamp", "Format", "Batch"],
-    "tags_es": ["Convertir Fecha", "Timestamp", "Formato", "Lotes"],
+    "tags": [
+      "日期转换",
+      "时间戳",
+      "格式转换",
+      "批量转换"
+    ],
+    "tags_en": [
+      "Date Convert",
+      "Timestamp",
+      "Format",
+      "Batch"
+    ],
+    "tags_es": [
+      "Convertir Fecha",
+      "Timestamp",
+      "Formato",
+      "Lotes"
+    ],
     "category": "编程开发",
     "category_en": "Development",
     "category_es": "Desarrollo",
     "faqs": [
-      {"q": "支持哪些输入格式？", "a": "支持 YYYY-MM-DD、YYYY/MM/DD、YYYY.MM.DD、YYYY-MM-DD HH:mm:ss、MM-DD-YYYY、MM/DD/YYYY、DD/MM/YYYY、YYYYMMDD、ISO 8601、时间戳秒/毫秒及自动识别。"},
-      {"q": "如何自定义输出格式？", "a": "在输出格式中勾选“自定义”并输入含 YYYY、MM、DD、HH、mm、ss、SSS 占位符的模板，如 YYYY年MM月DD日 HH:mm:ss。"},
-      {"q": "如何批量转换？", "a": "每行输入一条日期，选择输入/输出格式后点击“转换”，空行会保留，解析失败的行会标注 ERROR。"},
-      {"q": "会被上传吗？", "a": "不会，所有解析与格式化在浏览器本地完成，不上传数据。"}
+      {
+        "q": "支持哪些输入格式？",
+        "a": "支持 YYYY-MM-DD、YYYY/MM/DD、YYYY.MM.DD、YYYY-MM-DD HH:mm:ss、MM-DD-YYYY、MM/DD/YYYY、DD/MM/YYYY、YYYYMMDD、ISO 8601、时间戳秒/毫秒及自动识别。"
+      },
+      {
+        "q": "如何自定义输出格式？",
+        "a": "在输出格式中勾选“自定义”并输入含 YYYY、MM、DD、HH、mm、ss、SSS 占位符的模板，如 YYYY年MM月DD日 HH:mm:ss。"
+      },
+      {
+        "q": "如何批量转换？",
+        "a": "每行输入一条日期，选择输入/输出格式后点击“转换”，空行会保留，解析失败的行会标注 ERROR。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析与格式化在浏览器本地完成，不上传数据。"
+      }
     ],
     "faqs_en": [
-      {"q": "Which input formats are supported?", "a": "YYYY-MM-DD, YYYY/MM/DD, YYYY.MM.DD, YYYY-MM-DD HH:mm:ss, MM-DD-YYYY, MM/DD/YYYY, DD/MM/YYYY, YYYYMMDD, ISO 8601, timestamp s/ms and auto detection."},
-      {"q": "How to customize output format?", "a": "Check Custom and enter a template with YYYY, MM, DD, HH, mm, ss, SSS placeholders, e.g., YYYY年MM月DD日 HH:mm:ss."},
-      {"q": "How to batch convert?", "a": "Enter one date per line, select from/to formats and click Convert. Empty lines are preserved; failed lines show ERROR."},
-      {"q": "Will my data be uploaded?", "a": "No, all parsing and formatting runs locally in your browser."}
+      {
+        "q": "Which input formats are supported?",
+        "a": "YYYY-MM-DD, YYYY/MM/DD, YYYY.MM.DD, YYYY-MM-DD HH:mm:ss, MM-DD-YYYY, MM/DD/YYYY, DD/MM/YYYY, YYYYMMDD, ISO 8601, timestamp s/ms and auto detection."
+      },
+      {
+        "q": "How to customize output format?",
+        "a": "Check Custom and enter a template with YYYY, MM, DD, HH, mm, ss, SSS placeholders, e.g., YYYY年MM月DD日 HH:mm:ss."
+      },
+      {
+        "q": "How to batch convert?",
+        "a": "Enter one date per line, select from/to formats and click Convert. Empty lines are preserved; failed lines show ERROR."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing and formatting runs locally in your browser."
+      }
     ],
     "faqs_es": [
-      {"q": "¿Qué formatos de entrada soporta?", "a": "YYYY-MM-DD, YYYY/MM/DD, YYYY.MM.DD, YYYY-MM-DD HH:mm:ss, MM-DD-YYYY, MM/DD/YYYY, DD/MM/YYYY, YYYYMMDD, ISO 8601, timestamp s/ms y detección automática."},
-      {"q": "¿Cómo personalizar el formato de salida?", "a": "Marque Personalizado e ingrese una plantilla con YYYY, MM, DD, HH, mm, ss, SSS, ej. YYYY年MM月DD日 HH:mm:ss."},
-      {"q": "¿Cómo convertir por lotes?", "a": "Ingrese una fecha por línea, seleccione formatos y haga clic en Convertir. Líneas vacías se conservan; fallos muestran ERROR."},
-      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente en su navegador."}
+      {
+        "q": "¿Qué formatos de entrada soporta?",
+        "a": "YYYY-MM-DD, YYYY/MM/DD, YYYY.MM.DD, YYYY-MM-DD HH:mm:ss, MM-DD-YYYY, MM/DD/YYYY, DD/MM/YYYY, YYYYMMDD, ISO 8601, timestamp s/ms y detección automática."
+      },
+      {
+        "q": "¿Cómo personalizar el formato de salida?",
+        "a": "Marque Personalizado e ingrese una plantilla con YYYY, MM, DD, HH, mm, ss, SSS, ej. YYYY年MM月DD日 HH:mm:ss."
+      },
+      {
+        "q": "¿Cómo convertir por lotes?",
+        "a": "Ingrese una fecha por línea, seleccione formatos y haga clic en Convertir. Líneas vacías se conservan; fallos muestran ERROR."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
     ],
-    "related": ["hex-converter", "camel", "json-formatter"]
+    "related": [
+      "hex-converter",
+      "camel",
+      "json-formatter"
+    ]
   },
   {
     "id": "camel",
@@ -158,31 +375,85 @@
     "title_es": "Conversor CamelCase / Snake_case en Línea",
     "h1_es": "Conversor CamelCase / Snake_case en Línea",
     "description_es": "Convierte entre camelCase y snake_case al instante. Transformación por lotes para Java, JavaScript, Python y más, con procesamiento local sin subida.",
-    "tags": ["驼峰转下划线", "下划线转驼峰", "变量命名", "代码重构"],
-    "tags_en": ["Camel to Snake", "Snake to Camel", "Variable Naming", "Refactor"],
-    "tags_es": ["Camel a Snake", "Snake a Camel", "Nombres", "Refactorizar"],
+    "tags": [
+      "驼峰转下划线",
+      "下划线转驼峰",
+      "变量命名",
+      "代码重构"
+    ],
+    "tags_en": [
+      "Camel to Snake",
+      "Snake to Camel",
+      "Variable Naming",
+      "Refactor"
+    ],
+    "tags_es": [
+      "Camel a Snake",
+      "Snake a Camel",
+      "Nombres",
+      "Refactorizar"
+    ],
     "category": "编程开发",
     "category_en": "Development",
     "category_es": "Desarrollo",
     "faqs": [
-      {"q": "什么是驼峰与下划线命名？", "a": "驼峰（camelCase）如 myVariableName，下划线（snake_case）如 my_variable_name，常见于不同语言规范。"},
-      {"q": "如何批量转换？", "a": "粘贴多行代码或变量名，点击“驼峰转下划线”或“下划线转驼峰”即可批量处理，符号与结构保持不变。"},
-      {"q": "支持哪些语言？", "a": "通用标识符规则，适用于 Java、JavaScript、TypeScript、Python、Go、PHP 等；通过正则匹配 [a-zA-Z_$][a-zA-Z0-9_$]*。"},
-      {"q": "会被上传吗？", "a": "不会，所有转换在浏览器本地完成，参考 lanren-tools 原逻辑但简化为全文本正则处理。"}
+      {
+        "q": "什么是驼峰与下划线命名？",
+        "a": "驼峰（camelCase）如 myVariableName，下划线（snake_case）如 my_variable_name，常见于不同语言规范。"
+      },
+      {
+        "q": "如何批量转换？",
+        "a": "粘贴多行代码或变量名，点击“驼峰转下划线”或“下划线转驼峰”即可批量处理，符号与结构保持不变。"
+      },
+      {
+        "q": "支持哪些语言？",
+        "a": "通用标识符规则，适用于 Java、JavaScript、TypeScript、Python、Go、PHP 等；通过正则匹配 [a-zA-Z_$][a-zA-Z0-9_$]*。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换在浏览器本地完成，参考 lanren-tools 原逻辑但简化为全文本正则处理。"
+      }
     ],
     "faqs_en": [
-      {"q": "What are camelCase and snake_case?", "a": "camelCase like myVariableName, snake_case like my_variable_name, common in different language conventions."},
-      {"q": "How to batch convert?", "a": "Paste multi-line code, click Camel to Snake or Snake to Camel; symbols and line breaks are preserved."},
-      {"q": "Which languages are supported?", "a": "Generic identifier regex [a-zA-Z_$][a-zA-Z0-9_$]*, works for Java, JS, TS, Python, Go, PHP, etc."},
-      {"q": "Will my data be uploaded?", "a": "No, all conversion runs locally in your browser."}
+      {
+        "q": "What are camelCase and snake_case?",
+        "a": "camelCase like myVariableName, snake_case like my_variable_name, common in different language conventions."
+      },
+      {
+        "q": "How to batch convert?",
+        "a": "Paste multi-line code, click Camel to Snake or Snake to Camel; symbols and line breaks are preserved."
+      },
+      {
+        "q": "Which languages are supported?",
+        "a": "Generic identifier regex [a-zA-Z_$][a-zA-Z0-9_$]*, works for Java, JS, TS, Python, Go, PHP, etc."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversion runs locally in your browser."
+      }
     ],
     "faqs_es": [
-      {"q": "¿Qué son camelCase y snake_case?", "a": "camelCase como myVariableName, snake_case como my_variable_name, comunes en distintas convenciones."},
-      {"q": "¿Cómo convertir por lotes?", "a": "Pegue código multilínea y haga clic en Camel a Snake o Snake a Camel; se conservan símbolos y saltos."},
-      {"q": "¿Qué lenguajes soporta?", "a": "Regex genérico [a-zA-Z_$][a-zA-Z0-9_$]*, válido para Java, JS, TS, Python, Go, PHP, etc."},
-      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente en su navegador."}
+      {
+        "q": "¿Qué son camelCase y snake_case?",
+        "a": "camelCase como myVariableName, snake_case como my_variable_name, comunes en distintas convenciones."
+      },
+      {
+        "q": "¿Cómo convertir por lotes?",
+        "a": "Pegue código multilínea y haga clic en Camel a Snake o Snake a Camel; se conservan símbolos y saltos."
+      },
+      {
+        "q": "¿Qué lenguajes soporta?",
+        "a": "Regex genérico [a-zA-Z_$][a-zA-Z0-9_$]*, válido para Java, JS, TS, Python, Go, PHP, etc."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
     ],
-    "related": ["json-formatter", "hex-converter"]
+    "related": [
+      "json-formatter",
+      "hex-converter"
+    ]
   },
   {
     "id": "json-flatten",
@@ -195,31 +466,86 @@
     "title_es": "Aplanar JSON en Línea",
     "h1_es": "Aplanar JSON en Línea",
     "description_es": "Aplana JSON anidado a notación de puntos al instante, ej. {a:{b:1}} → {\"a.b\":1}, con soporte para índices de arreglo y procesamiento local.",
-    "tags": ["JSON扁平化", "点号", "嵌套转扁平", "JSON工具"],
-    "tags_en": ["Flatten", "Dot Notation", "Nested", "JSON"],
-    "tags_es": ["Aplanar", "Notación Punto", "Anidado", "JSON"],
+    "tags": [
+      "JSON扁平化",
+      "点号",
+      "嵌套转扁平",
+      "JSON工具"
+    ],
+    "tags_en": [
+      "Flatten",
+      "Dot Notation",
+      "Nested",
+      "JSON"
+    ],
+    "tags_es": [
+      "Aplanar",
+      "Notación Punto",
+      "Anidado",
+      "JSON"
+    ],
     "category": "编程开发",
     "category_en": "Development",
     "category_es": "Desarrollo",
     "faqs": [
-      {"q": "什么是 JSON 扁平化？", "a": "将嵌套对象按点号展开为单层键值，如 {a:{b:1}} 转为 {\"a.b\":1}，数组按索引展开为 a.0、a.1。"},
-      {"q": "如何使用扁平化工具？", "a": "粘贴嵌套 JSON，点击“扁平化”即可在右侧查看点号扁平结果。"},
-      {"q": "支持数组吗？", "a": "支持，数组按点号索引展开，如 {arr:[1,2]} → {\"arr.0\":1,\"arr.1\":2}。"},
-      {"q": "会被上传吗？", "a": "不会，所有操作在浏览器本地完成。"}
+      {
+        "q": "什么是 JSON 扁平化？",
+        "a": "将嵌套对象按点号展开为单层键值，如 {a:{b:1}} 转为 {\"a.b\":1}，数组按索引展开为 a.0、a.1。"
+      },
+      {
+        "q": "如何使用扁平化工具？",
+        "a": "粘贴嵌套 JSON，点击“扁平化”即可在右侧查看点号扁平结果。"
+      },
+      {
+        "q": "支持数组吗？",
+        "a": "支持，数组按点号索引展开，如 {arr:[1,2]} → {\"arr.0\":1,\"arr.1\":2}。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有操作在浏览器本地完成。"
+      }
     ],
     "faqs_en": [
-      {"q": "What is JSON flatten?", "a": "Expands nested objects to dot-notation single-level keys, e.g. {a:{b:1}} → {\"a.b\":1}, arrays as a.0, a.1."},
-      {"q": "How to use flatten?", "a": "Paste nested JSON and click Flatten to see dotted result."},
-      {"q": "Does it support arrays?", "a": "Yes, arrays expand by dot index, e.g. {arr:[1,2]} → {\"arr.0\":1,\"arr.1\":2}."},
-      {"q": "Will my data be uploaded?", "a": "No, all operations run locally in your browser."}
+      {
+        "q": "What is JSON flatten?",
+        "a": "Expands nested objects to dot-notation single-level keys, e.g. {a:{b:1}} → {\"a.b\":1}, arrays as a.0, a.1."
+      },
+      {
+        "q": "How to use flatten?",
+        "a": "Paste nested JSON and click Flatten to see dotted result."
+      },
+      {
+        "q": "Does it support arrays?",
+        "a": "Yes, arrays expand by dot index, e.g. {arr:[1,2]} → {\"arr.0\":1,\"arr.1\":2}."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all operations run locally in your browser."
+      }
     ],
     "faqs_es": [
-      {"q": "¿Qué es aplanar JSON?", "a": "Expande objetos anidados a claves de un nivel con notación de puntos, ej. {a:{b:1}} → {\"a.b\":1}, arreglos como a.0, a.1."},
-      {"q": "¿Cómo usar aplanar?", "a": "Pegue JSON anidado y haga clic en Aplanar."},
-      {"q": "¿Soporta arreglos?", "a": "Sí, los arreglos se expanden por índice, ej. {arr:[1,2]} → {\"arr.0\":1,\"arr.1\":2}."},
-      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente."}
+      {
+        "q": "¿Qué es aplanar JSON?",
+        "a": "Expande objetos anidados a claves de un nivel con notación de puntos, ej. {a:{b:1}} → {\"a.b\":1}, arreglos como a.0, a.1."
+      },
+      {
+        "q": "¿Cómo usar aplanar?",
+        "a": "Pegue JSON anidado y haga clic en Aplanar."
+      },
+      {
+        "q": "¿Soporta arreglos?",
+        "a": "Sí, los arreglos se expanden por índice, ej. {arr:[1,2]} → {\"arr.0\":1,\"arr.1\":2}."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se procesa localmente."
+      }
     ],
-    "related": ["json-unflatten", "json-sort", "json-formatter"]
+    "related": [
+      "json-unflatten",
+      "json-sort",
+      "json-formatter"
+    ]
   },
   {
     "id": "json-unflatten",
@@ -232,31 +558,86 @@
     "title_es": "Desaplanar JSON en Línea",
     "h1_es": "Desaplanar JSON en Línea",
     "description_es": "Desaplana JSON con notación de puntos a estructura anidada, ej. {\"a.b\":1} → {a:{b:1}}, detecta índices de arreglo automáticamente.",
-    "tags": ["JSON还原", "反扁平化", "点号还原", "JSON工具"],
-    "tags_en": ["Unflatten", "Nested", "Dot Notation", "JSON"],
-    "tags_es": ["Desaplanar", "Anidado", "Notación Punto", "JSON"],
+    "tags": [
+      "JSON还原",
+      "反扁平化",
+      "点号还原",
+      "JSON工具"
+    ],
+    "tags_en": [
+      "Unflatten",
+      "Nested",
+      "Dot Notation",
+      "JSON"
+    ],
+    "tags_es": [
+      "Desaplanar",
+      "Anidado",
+      "Notación Punto",
+      "JSON"
+    ],
     "category": "编程开发",
     "category_en": "Development",
     "category_es": "Desarrollo",
     "faqs": [
-      {"q": "什么是 JSON 反扁平化？", "a": "将点号扁平的键还原为嵌套对象，如 {\"a.b\":1} 还原为 {a:{b:1}}，数字段自动还原为数组。"},
-      {"q": "如何还原扁平 JSON？", "a": "粘贴扁平 JSON，点击“还原嵌套”即可得到嵌套结构。"},
-      {"q": "如何识别数组？", "a": "点号后的纯数字段会被识别为数组索引，如 {\"a.0\":1} 还原为 {a:[1]}。"},
-      {"q": "会被上传吗？", "a": "不会，所有操作在浏览器本地完成。"}
+      {
+        "q": "什么是 JSON 反扁平化？",
+        "a": "将点号扁平的键还原为嵌套对象，如 {\"a.b\":1} 还原为 {a:{b:1}}，数字段自动还原为数组。"
+      },
+      {
+        "q": "如何还原扁平 JSON？",
+        "a": "粘贴扁平 JSON，点击“还原嵌套”即可得到嵌套结构。"
+      },
+      {
+        "q": "如何识别数组？",
+        "a": "点号后的纯数字段会被识别为数组索引，如 {\"a.0\":1} 还原为 {a:[1]}。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有操作在浏览器本地完成。"
+      }
     ],
     "faqs_en": [
-      {"q": "What is JSON unflatten?", "a": "Restores dot-flattened keys to nested objects, e.g. {\"a.b\":1} → {a:{b:1}}, numeric segments become arrays."},
-      {"q": "How to unflatten?", "a": "Paste flattened JSON and click Unflatten."},
-      {"q": "How are arrays detected?", "a": "Pure numeric segments are treated as array indices, e.g. {\"a.0\":1} → {a:[1]}."},
-      {"q": "Will my data be uploaded?", "a": "No, all operations run locally."}
+      {
+        "q": "What is JSON unflatten?",
+        "a": "Restores dot-flattened keys to nested objects, e.g. {\"a.b\":1} → {a:{b:1}}, numeric segments become arrays."
+      },
+      {
+        "q": "How to unflatten?",
+        "a": "Paste flattened JSON and click Unflatten."
+      },
+      {
+        "q": "How are arrays detected?",
+        "a": "Pure numeric segments are treated as array indices, e.g. {\"a.0\":1} → {a:[1]}."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all operations run locally."
+      }
     ],
     "faqs_es": [
-      {"q": "¿Qué es desaplanar JSON?", "a": "Restaura claves con puntos a objetos anidados, ej. {\"a.b\":1} → {a:{b:1}}, segmentos numéricos se vuelven arreglos."},
-      {"q": "¿Cómo desaplanar?", "a": "Pegue JSON aplanado y haga clic en Desaplanar."},
-      {"q": "¿Cómo detecta arreglos?", "a": "Segmentos numéricos se tratan como índices, ej. {\"a.0\":1} → {a:[1]}."},
-      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente."}
+      {
+        "q": "¿Qué es desaplanar JSON?",
+        "a": "Restaura claves con puntos a objetos anidados, ej. {\"a.b\":1} → {a:{b:1}}, segmentos numéricos se vuelven arreglos."
+      },
+      {
+        "q": "¿Cómo desaplanar?",
+        "a": "Pegue JSON aplanado y haga clic en Desaplanar."
+      },
+      {
+        "q": "¿Cómo detecta arreglos?",
+        "a": "Segmentos numéricos se tratan como índices, ej. {\"a.0\":1} → {a:[1]}."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se procesa localmente."
+      }
     ],
-    "related": ["json-flatten", "json-sort", "json-formatter"]
+    "related": [
+      "json-flatten",
+      "json-sort",
+      "json-formatter"
+    ]
   },
   {
     "id": "json-sort",
@@ -269,31 +650,86 @@
     "title_es": "Ordenar JSON en Línea",
     "h1_es": "Ordenar JSON en Línea",
     "description_es": "Ordena claves JSON alfabéticamente en todos los niveles de forma recursiva, soporta objetos y arreglos con procesamiento local.",
-    "tags": ["JSON排序", "键排序", "格式化", "JSON工具"],
-    "tags_en": ["Sort", "Sort Keys", "Format", "JSON"],
-    "tags_es": ["Ordenar", "Claves", "Formatear", "JSON"],
+    "tags": [
+      "JSON排序",
+      "键排序",
+      "格式化",
+      "JSON工具"
+    ],
+    "tags_en": [
+      "Sort",
+      "Sort Keys",
+      "Format",
+      "JSON"
+    ],
+    "tags_es": [
+      "Ordenar",
+      "Claves",
+      "Formatear",
+      "JSON"
+    ],
     "category": "编程开发",
     "category_en": "Development",
     "category_es": "Desarrollo",
     "faqs": [
-      {"q": "JSON 排序是做什么？", "a": "按字母序对对象的所有键递归排序，便于对比、去重与规范化。"},
-      {"q": "如何排序 JSON？", "a": "粘贴 JSON，点击“排序”即可得到键已排序的格式化结果。"},
-      {"q": "数组会被排序吗？", "a": "不会对数组元素重排，仅对数组内对象的键排序，保持数组顺序。"},
-      {"q": "会被上传吗？", "a": "不会，所有操作在浏览器本地完成。"}
+      {
+        "q": "JSON 排序是做什么？",
+        "a": "按字母序对对象的所有键递归排序，便于对比、去重与规范化。"
+      },
+      {
+        "q": "如何排序 JSON？",
+        "a": "粘贴 JSON，点击“排序”即可得到键已排序的格式化结果。"
+      },
+      {
+        "q": "数组会被排序吗？",
+        "a": "不会对数组元素重排，仅对数组内对象的键排序，保持数组顺序。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有操作在浏览器本地完成。"
+      }
     ],
     "faqs_en": [
-      {"q": "What does JSON sort do?", "a": "Recursively sorts all object keys alphabetically for diff and normalization."},
-      {"q": "How to sort JSON?", "a": "Paste JSON and click Sort to get keys sorted."},
-      {"q": "Are arrays sorted?", "a": "Array order is preserved; only keys of objects inside arrays are sorted."},
-      {"q": "Will my data be uploaded?", "a": "No, all operations run locally."}
+      {
+        "q": "What does JSON sort do?",
+        "a": "Recursively sorts all object keys alphabetically for diff and normalization."
+      },
+      {
+        "q": "How to sort JSON?",
+        "a": "Paste JSON and click Sort to get keys sorted."
+      },
+      {
+        "q": "Are arrays sorted?",
+        "a": "Array order is preserved; only keys of objects inside arrays are sorted."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all operations run locally."
+      }
     ],
     "faqs_es": [
-      {"q": "¿Qué hace ordenar JSON?", "a": "Ordena recursivamente todas las claves alfabéticamente para diff y normalización."},
-      {"q": "¿Cómo ordenar JSON?", "a": "Pegue JSON y haga clic en Ordenar."},
-      {"q": "¿Se ordenan los arreglos?", "a": "El orden del arreglo se preserva; solo se ordenan claves de objetos dentro."},
-      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente."}
+      {
+        "q": "¿Qué hace ordenar JSON?",
+        "a": "Ordena recursivamente todas las claves alfabéticamente para diff y normalización."
+      },
+      {
+        "q": "¿Cómo ordenar JSON?",
+        "a": "Pegue JSON y haga clic en Ordenar."
+      },
+      {
+        "q": "¿Se ordenan los arreglos?",
+        "a": "El orden del arreglo se preserva; solo se ordenan claves de objetos dentro."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se procesa localmente."
+      }
     ],
-    "related": ["json-flatten", "json-unflatten", "json-formatter"]
+    "related": [
+      "json-flatten",
+      "json-unflatten",
+      "json-formatter"
+    ]
   },
   {
     "id": "timestamp",
@@ -306,31 +742,86 @@
     "title_es": "Conversor de Timestamp Unix en Línea",
     "h1_es": "Conversor de Timestamp Unix en Línea",
     "description_es": "Convierte entre timestamp Unix (segundos/ms) y fecha con soporte de zona horaria. Timestamp actual en vivo, conversión bidireccional, procesamiento local.",
-    "tags": ["时间戳转换", "Unix时间", "时区转换", "毫秒时间戳"],
-    "tags_en": ["Timestamp", "Unix Time", "Timezone", "Milliseconds"],
-    "tags_es": ["Timestamp", "Tiempo Unix", "Zona Horaria", "Milisegundos"],
+    "tags": [
+      "时间戳转换",
+      "Unix时间",
+      "时区转换",
+      "毫秒时间戳"
+    ],
+    "tags_en": [
+      "Timestamp",
+      "Unix Time",
+      "Timezone",
+      "Milliseconds"
+    ],
+    "tags_es": [
+      "Timestamp",
+      "Tiempo Unix",
+      "Zona Horaria",
+      "Milisegundos"
+    ],
     "category": "编程开发",
     "category_en": "Development",
     "category_es": "Desarrollo",
     "faqs": [
-      {"q": "什么是Unix时间戳？", "a": "Unix时间戳是从1970-01-01 00:00:00 UTC起经过的秒数（10位）或毫秒数（13位），不计闰秒，广泛用于系统时间存储。"},
-      {"q": "10位和13位时间戳有什么区别？", "a": "10位以秒为单位，13位以毫秒为单位，后者提供毫秒精度，适用于金融交易、性能监控等高精度场景。"},
-      {"q": "如何将时间戳转为日期？", "a": "在时间戳输入框填入10位或13位值，选择目标时区，点击“转成日期时间”即可。"},
-      {"q": "如何将日期转为时间戳？", "a": "输入标准日期如 2023-11-14 22:13:20，选择其所在时区，点击“转成时间戳”即可得到秒级与毫秒级结果。"}
+      {
+        "q": "什么是Unix时间戳？",
+        "a": "Unix时间戳是从1970-01-01 00:00:00 UTC起经过的秒数（10位）或毫秒数（13位），不计闰秒，广泛用于系统时间存储。"
+      },
+      {
+        "q": "10位和13位时间戳有什么区别？",
+        "a": "10位以秒为单位，13位以毫秒为单位，后者提供毫秒精度，适用于金融交易、性能监控等高精度场景。"
+      },
+      {
+        "q": "如何将时间戳转为日期？",
+        "a": "在时间戳输入框填入10位或13位值，选择目标时区，点击“转成日期时间”即可。"
+      },
+      {
+        "q": "如何将日期转为时间戳？",
+        "a": "输入标准日期如 2023-11-14 22:13:20，选择其所在时区，点击“转成时间戳”即可得到秒级与毫秒级结果。"
+      }
     ],
     "faqs_en": [
-      {"q": "What is Unix timestamp?", "a": "Unix timestamp is seconds (10-digit) or milliseconds (13-digit) since 1970-01-01 00:00:00 UTC, excluding leap seconds."},
-      {"q": "Difference between 10 and 13 digit?", "a": "10-digit is seconds, 13-digit is milliseconds for high-precision scenarios like finance and monitoring."},
-      {"q": "How to convert timestamp to date?", "a": "Enter 10 or 13 digit timestamp, select timezone, click Convert to Date."},
-      {"q": "How to convert date to timestamp?", "a": "Enter date like 2023-11-14 22:13:20, select its timezone, click Convert to Timestamp."}
+      {
+        "q": "What is Unix timestamp?",
+        "a": "Unix timestamp is seconds (10-digit) or milliseconds (13-digit) since 1970-01-01 00:00:00 UTC, excluding leap seconds."
+      },
+      {
+        "q": "Difference between 10 and 13 digit?",
+        "a": "10-digit is seconds, 13-digit is milliseconds for high-precision scenarios like finance and monitoring."
+      },
+      {
+        "q": "How to convert timestamp to date?",
+        "a": "Enter 10 or 13 digit timestamp, select timezone, click Convert to Date."
+      },
+      {
+        "q": "How to convert date to timestamp?",
+        "a": "Enter date like 2023-11-14 22:13:20, select its timezone, click Convert to Timestamp."
+      }
     ],
     "faqs_es": [
-      {"q": "¿Qué es timestamp Unix?", "a": "Es segundos (10 dígitos) o milisegundos (13 dígitos) desde 1970-01-01 00:00:00 UTC, sin segundos intercalares."},
-      {"q": "¿Diferencia entre 10 y 13 dígitos?", "a": "10 dígitos son segundos, 13 dígitos son milisegundos para alta precisión."},
-      {"q": "¿Cómo convertir timestamp a fecha?", "a": "Ingrese timestamp de 10 o 13 dígitos, seleccione zona horaria y haga clic en Convertir."},
-      {"q": "¿Cómo convertir fecha a timestamp?", "a": "Ingrese fecha como 2023-11-14 22:13:20, seleccione zona horaria y haga clic en Convertir."}
+      {
+        "q": "¿Qué es timestamp Unix?",
+        "a": "Es segundos (10 dígitos) o milisegundos (13 dígitos) desde 1970-01-01 00:00:00 UTC, sin segundos intercalares."
+      },
+      {
+        "q": "¿Diferencia entre 10 y 13 dígitos?",
+        "a": "10 dígitos son segundos, 13 dígitos son milisegundos para alta precisión."
+      },
+      {
+        "q": "¿Cómo convertir timestamp a fecha?",
+        "a": "Ingrese timestamp de 10 o 13 dígitos, seleccione zona horaria y haga clic en Convertir."
+      },
+      {
+        "q": "¿Cómo convertir fecha a timestamp?",
+        "a": "Ingrese fecha como 2023-11-14 22:13:20, seleccione zona horaria y haga clic en Convertir."
+      }
     ],
-    "related": ["timestamp-batch", "hex-converter", "json-formatter"]
+    "related": [
+      "timestamp-batch",
+      "hex-converter",
+      "json-formatter"
+    ]
   },
   {
     "id": "timestamp-batch",
@@ -343,30 +834,1833 @@
     "title_es": "Conversor Masivo de Timestamp en Línea",
     "h1_es": "Conversor Masivo de Timestamp en Línea",
     "description_es": "Convierte timestamps Unix por lotes a fechas formateadas con 7 formatos personalizados. Auto-detección s/ms, uno por línea, ideal para logs y limpieza de datos.",
-    "tags": ["批量转换", "时间戳批量", "日期格式化", "日志分析"],
-    "tags_en": ["Batch", "Timestamp", "Date Format", "Log Analysis"],
-    "tags_es": ["Lote", "Timestamp", "Formato", "Logs"],
+    "tags": [
+      "批量转换",
+      "时间戳批量",
+      "日期格式化",
+      "日志分析"
+    ],
+    "tags_en": [
+      "Batch",
+      "Timestamp",
+      "Date Format",
+      "Log Analysis"
+    ],
+    "tags_es": [
+      "Lote",
+      "Timestamp",
+      "Formato",
+      "Logs"
+    ],
     "category": "编程开发",
     "category_en": "Development",
     "category_es": "Desarrollo",
     "faqs": [
-      {"q": "支持哪些类型的时间戳？", "a": "支持10位秒级和13位毫秒级，逐行自动识别，无需手动区分。"},
-      {"q": "可以批量转换多少条？", "a": "每行一条，不限条数，点击“批量转换”后按统一格式输出，结果分行展示。"},
-      {"q": "支持哪些输出格式？", "a": "内置7种：YYYY/MM/DD H:i:s、YYYY-MM-DD H:i:s、DD/MM/YYYY H:i:s、MM/DD/YYYY H:i:s、DD-MM-YYYY H:i:s、MM-DD-YYYY H:i:s、YYYY年MM月DD日 H:i:s。"},
-      {"q": "无效时间戳会怎样？", "a": "无效行将标记为 ❌ 无效时间戳: 原始内容，便于快速定位和清理后重试。"}
+      {
+        "q": "支持哪些类型的时间戳？",
+        "a": "支持10位秒级和13位毫秒级，逐行自动识别，无需手动区分。"
+      },
+      {
+        "q": "可以批量转换多少条？",
+        "a": "每行一条，不限条数，点击“批量转换”后按统一格式输出，结果分行展示。"
+      },
+      {
+        "q": "支持哪些输出格式？",
+        "a": "内置7种：YYYY/MM/DD H:i:s、YYYY-MM-DD H:i:s、DD/MM/YYYY H:i:s、MM/DD/YYYY H:i:s、DD-MM-YYYY H:i:s、MM-DD-YYYY H:i:s、YYYY年MM月DD日 H:i:s。"
+      },
+      {
+        "q": "无效时间戳会怎样？",
+        "a": "无效行将标记为 ❌ 无效时间戳: 原始内容，便于快速定位和清理后重试。"
+      }
     ],
     "faqs_en": [
-      {"q": "Which timestamp types are supported?", "a": "Both 10-digit seconds and 13-digit milliseconds, auto-detected per line."},
-      {"q": "How many can I batch?", "a": "One per line, unlimited, converted in one click with uniform formatting."},
-      {"q": "Which output formats?", "a": "7 formats: YYYY/MM/DD H:i:s, YYYY-MM-DD H:i:s, DD/MM/YYYY H:i:s, etc."},
-      {"q": "What about invalid lines?", "a": "They are marked as ❌ Invalid timestamp: original content for easy fixing."}
+      {
+        "q": "Which timestamp types are supported?",
+        "a": "Both 10-digit seconds and 13-digit milliseconds, auto-detected per line."
+      },
+      {
+        "q": "How many can I batch?",
+        "a": "One per line, unlimited, converted in one click with uniform formatting."
+      },
+      {
+        "q": "Which output formats?",
+        "a": "7 formats: YYYY/MM/DD H:i:s, YYYY-MM-DD H:i:s, DD/MM/YYYY H:i:s, etc."
+      },
+      {
+        "q": "What about invalid lines?",
+        "a": "They are marked as ❌ Invalid timestamp: original content for easy fixing."
+      }
     ],
     "faqs_es": [
-      {"q": "¿Qué tipos soporta?", "a": "Timestamps de 10 dígitos (s) y 13 dígitos (ms), detección automática por línea."},
-      {"q": "¿Cuántos por lote?", "a": "Uno por línea, ilimitado, conversión en un clic."},
-      {"q": "¿Qué formatos?", "a": "7 formatos: YYYY/MM/DD H:i:s, YYYY-MM-DD H:i:s, etc."},
-      {"q": "¿Y líneas inválidas?", "a": "Se marcan como ❌ Timestamp inválido: contenido original."}
+      {
+        "q": "¿Qué tipos soporta?",
+        "a": "Timestamps de 10 dígitos (s) y 13 dígitos (ms), detección automática por línea."
+      },
+      {
+        "q": "¿Cuántos por lote?",
+        "a": "Uno por línea, ilimitado, conversión en un clic."
+      },
+      {
+        "q": "¿Qué formatos?",
+        "a": "7 formatos: YYYY/MM/DD H:i:s, YYYY-MM-DD H:i:s, etc."
+      },
+      {
+        "q": "¿Y líneas inválidas?",
+        "a": "Se marcan como ❌ Timestamp inválido: contenido original."
+      }
     ],
-    "related": ["timestamp", "hex-converter", "json-formatter"]
+    "related": [
+      "timestamp",
+      "hex-converter",
+      "json-formatter"
+    ]
+  },
+  {
+    "id": "js-formatter",
+    "title": "在线 JS 代码美化/压缩工具",
+    "h1": "在线 JS 代码美化/压缩工具",
+    "description": "在线 JavaScript 代码美化与压缩工具，支持一键美化缩进换行与压缩去空白，2 空格缩进，本地处理即时格式化，提升代码可读性与体积优化。",
+    "title_en": "Online JS Formatter & Minifier",
+    "h1_en": "Online JS Formatter & Minifier",
+    "description_en": "Beautify and minify JavaScript instantly with 2-space indent and local processing. Format messy JS and compress to single line.",
+    "title_es": "Formateador y Compresor JS en Línea",
+    "h1_es": "Formateador y Compresor JS en Línea",
+    "description_es": "Embellece y comprime JavaScript al instante con indentación de 2 espacios y procesamiento local.",
+    "tags": [
+      "JS美化",
+      "JS压缩",
+      "JavaScript格式化",
+      "代码美化"
+    ],
+    "tags_en": [
+      "JS Beautify",
+      "JS Minify",
+      "JavaScript",
+      "Formatter"
+    ],
+    "tags_es": [
+      "Embellecer JS",
+      "Comprimir JS",
+      "JavaScript",
+      "Formateador"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "JS 美化是做什么？",
+        "a": "将压缩或混乱的 JS 按 2 空格缩进重建换行与层次结构，提升可读性。"
+      },
+      {
+        "q": "如何压缩 JS？",
+        "a": "点击“压缩”移除换行与多余空白，生成单行最小体积，便于部署。"
+      },
+      {
+        "q": "会校验语法吗？",
+        "a": "会尝试基础语法校验，错误会在下方提示，但不阻止格式化。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有格式化在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does JS beautify do?",
+        "a": "Rebuilds readable structure with 2-space indent and line breaks."
+      },
+      {
+        "q": "How to minify JS?",
+        "a": "Click Minify to remove whitespace into a single line."
+      },
+      {
+        "q": "Does it validate syntax?",
+        "a": "Basic syntax check via Function constructor; errors shown inline."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all processing runs locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué hace embellecer JS?",
+        "a": "Reconstruye estructura legible con indentación de 2 espacios."
+      },
+      {
+        "q": "¿Cómo comprimir JS?",
+        "a": "Haga clic en Comprimir para eliminar espacios a una sola línea."
+      },
+      {
+        "q": "¿Valida sintaxis?",
+        "a": "Validación básica; errores se muestran."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo local."
+      }
+    ],
+    "related": [
+      "html-formatter",
+      "css-formatter",
+      "json-formatter"
+    ]
+  },
+  {
+    "id": "html-formatter",
+    "title": "在线 HTML 代码美化/压缩工具",
+    "h1": "在线 HTML 代码美化/压缩工具",
+    "description": "在线 HTML 代码美化与压缩工具，自动在标签间换行并按层级 2 空格缩进，美化混乱 HTML；一键压缩移除空白到单行，本地处理保障隐私。",
+    "title_en": "Online HTML Formatter & Minifier",
+    "h1_en": "Online HTML Formatter & Minifier",
+    "description_en": "Beautify and minify HTML instantly with 2-space indent per nesting level and local processing.",
+    "title_es": "Formateador y Compresor HTML en Línea",
+    "h1_es": "Formateador y Compresor HTML en Línea",
+    "description_es": "Embellece y comprime HTML al instante con indentación de 2 espacios por nivel.",
+    "tags": [
+      "HTML美化",
+      "HTML压缩",
+      "HTML格式化",
+      "代码美化"
+    ],
+    "tags_en": [
+      "HTML Beautify",
+      "HTML Minify",
+      "HTML Format",
+      "Formatter"
+    ],
+    "tags_es": [
+      "Embellecer HTML",
+      "Comprimir HTML",
+      "HTML",
+      "Formateador"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "HTML 美化是做什么？",
+        "a": "在标签间插入换行并按嵌套层级 2 空格缩进，重建清晰结构。"
+      },
+      {
+        "q": "如何压缩 HTML？",
+        "a": "点击“压缩”移除标签间空白生成单行最小体积。"
+      },
+      {
+        "q": "会处理自闭合标签吗？",
+        "a": "会识别 br、img、input 等 void 标签，不额外缩进。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有操作本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does HTML beautify do?",
+        "a": "Inserts line breaks between tags with 2-space indent per level."
+      },
+      {
+        "q": "How to minify HTML?",
+        "a": "Click Minify to remove whitespace between tags."
+      },
+      {
+        "q": "Does it handle void tags?",
+        "a": "Yes, void tags like br, img, input are not indented extra."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué hace embellecer HTML?",
+        "a": "Inserta saltos entre etiquetas con 2 espacios por nivel."
+      },
+      {
+        "q": "¿Cómo comprimir HTML?",
+        "a": "Haga clic en Comprimir para eliminar espacios."
+      },
+      {
+        "q": "¿Maneja etiquetas vacías?",
+        "a": "Sí, br, img, input sin indentación extra."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "js-formatter",
+      "css-formatter",
+      "html-escape"
+    ]
+  },
+  {
+    "id": "css-formatter",
+    "title": "在线 CSS 代码美化/压缩工具",
+    "h1": "在线 CSS 代码美化/压缩工具",
+    "description": "在线 CSS 代码美化与压缩工具，支持花括号换行、属性缩进 2 空格、移除注释，压缩到单行最小体积，本地处理即时生效。",
+    "title_en": "Online CSS Formatter & Minifier",
+    "h1_en": "Online CSS Formatter & Minifier",
+    "description_en": "Beautify and minify CSS instantly with 2-space indent, brace line breaks and local processing.",
+    "title_es": "Formateador y Compresor CSS en Línea",
+    "h1_es": "Formateador y Compresor CSS en Línea",
+    "description_es": "Embellece y comprime CSS con indentación de 2 espacios y procesamiento local.",
+    "tags": [
+      "CSS美化",
+      "CSS压缩",
+      "CSS格式化",
+      "代码美化"
+    ],
+    "tags_en": [
+      "CSS Beautify",
+      "CSS Minify",
+      "CSS Format",
+      "Formatter"
+    ],
+    "tags_es": [
+      "Embellecer CSS",
+      "Comprimir CSS",
+      "CSS",
+      "Formateador"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "CSS 美化是做什么？",
+        "a": "将压缩的 CSS 按 { 换行、每属性缩进 2 空格、} 换行重建可读结构。"
+      },
+      {
+        "q": "如何压缩 CSS？",
+        "a": "点击“压缩”移除换行、注释与多余空白，生成单行。"
+      },
+      {
+        "q": "会移除注释吗？",
+        "a": "压缩时会移除 /* 注释 */，美化时保留结构。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，本地处理。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does CSS beautify do?",
+        "a": "Rebuilds readable structure with braces and 2-space indent per property."
+      },
+      {
+        "q": "How to minify CSS?",
+        "a": "Click Minify to remove line breaks and comments."
+      },
+      {
+        "q": "Does it remove comments?",
+        "a": "Minify removes /* comments */."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué hace embellecer CSS?",
+        "a": "Reconstruye con llaves y 2 espacios por propiedad."
+      },
+      {
+        "q": "¿Cómo comprimir CSS?",
+        "a": "Comprimir elimina saltos y comentarios."
+      },
+      {
+        "q": "¿Elimina comentarios?",
+        "a": "Minify elimina /* */."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "js-formatter",
+      "html-formatter",
+      "json-formatter"
+    ]
+  },
+  {
+    "id": "sql-format",
+    "title": "在线 SQL 格式化/压缩工具",
+    "h1": "在线 SQL 格式化/压缩工具",
+    "description": "在线 SQL 格式化与压缩工具，自动将关键字大写并在 SELECT/FROM/WHERE/JOIN 等前换行缩进 2 空格，压缩到单行，本地处理保障隐私。",
+    "title_en": "Online SQL Formatter & Minifier",
+    "h1_en": "Online SQL Formatter & Minifier",
+    "description_en": "Format and minify SQL instantly with keyword uppercasing, line breaks before major clauses and local processing.",
+    "title_es": "Formateador y Compresor SQL en Línea",
+    "h1_es": "Formateador y Compresor SQL en Línea",
+    "description_es": "Formatea y comprime SQL con mayúsculas y saltos antes de SELECT/FROM/WHERE/JOIN.",
+    "tags": [
+      "SQL美化",
+      "SQL压缩",
+      "SQL格式化",
+      "代码美化"
+    ],
+    "tags_en": [
+      "SQL Beautify",
+      "SQL Minify",
+      "SQL Format",
+      "Formatter"
+    ],
+    "tags_es": [
+      "Embellecer SQL",
+      "Comprimir SQL",
+      "SQL",
+      "Formateador"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "SQL 美化是做什么？",
+        "a": "将关键字大写并在 SELECT、FROM、WHERE、JOIN 等前换行缩进，重建清晰结构。"
+      },
+      {
+        "q": "如何压缩 SQL？",
+        "a": "点击“压缩”将多行 SQL 合并为单行并规范空白。"
+      },
+      {
+        "q": "支持哪些 SQL？",
+        "a": "通用 SELECT/INSERT/UPDATE/DELETE，能处理 JOIN、ORDER BY、GROUP BY、LIMIT 等。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，本地处理。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does SQL format do?",
+        "a": "Uppercases keywords and breaks lines before major clauses."
+      },
+      {
+        "q": "How to minify SQL?",
+        "a": "Click Minify to collapse to single line."
+      },
+      {
+        "q": "Which SQL is supported?",
+        "a": "SELECT/INSERT/UPDATE/DELETE with JOIN, ORDER BY, etc."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué hace formatear SQL?",
+        "a": "Mayúsculas y saltos antes de cláusulas principales."
+      },
+      {
+        "q": "¿Cómo comprimir SQL?",
+        "a": "Comprimir a una sola línea."
+      },
+      {
+        "q": "¿Qué SQL soporta?",
+        "a": "SELECT/INSERT/UPDATE/DELETE con JOIN, ORDER BY, etc."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "yaml-formatter",
+      "js-formatter",
+      "json-formatter"
+    ]
+  },
+  {
+    "id": "yaml-formatter",
+    "title": "在线 YAML 格式化/压缩工具",
+    "h1": "在线 YAML 格式化/压缩工具",
+    "description": "在线 YAML 格式化与压缩工具，美化时按 key 边界换行并 2 空格缩进嵌套，压缩时合并为单行并规范冒号空格，本地处理保障隐私。",
+    "title_en": "Online YAML Formatter & Minifier",
+    "h1_en": "Online YAML Formatter & Minifier",
+    "description_en": "Format and minify YAML instantly with 2-space indent and key-based line breaks, local processing.",
+    "title_es": "Formateador y Compresor YAML en Línea",
+    "h1_es": "Formateador y Compresor YAML en Línea",
+    "description_es": "Formatea y comprime YAML con indentación de 2 espacios y saltos por clave.",
+    "tags": [
+      "YAML美化",
+      "YAML压缩",
+      "YAML格式化",
+      "代码美化"
+    ],
+    "tags_en": [
+      "YAML Beautify",
+      "YAML Minify",
+      "YAML Format",
+      "Formatter"
+    ],
+    "tags_es": [
+      "Embellecer YAML",
+      "Comprimir YAML",
+      "YAML",
+      "Formateador"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "YAML 美化是做什么？",
+        "a": "按 key 边界换行并对嵌套 2 空格缩进，重建清晰层级。"
+      },
+      {
+        "q": "如何压缩 YAML？",
+        "a": "点击“压缩”将多行合并为单行并规范冒号与列表空格。"
+      },
+      {
+        "q": "会移除注释吗？",
+        "a": "压缩时会移除 # 注释行，美化时忽略注释。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，本地处理。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does YAML beautify do?",
+        "a": "Breaks lines by keys with 2-space indent for nesting."
+      },
+      {
+        "q": "How to minify YAML?",
+        "a": "Click Minify to collapse to single line."
+      },
+      {
+        "q": "Does it remove comments?",
+        "a": "Minify removes # comment lines."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué hace embellecer YAML?",
+        "a": "Saltos por clave con 2 espacios para anidación."
+      },
+      {
+        "q": "¿Cómo comprimir YAML?",
+        "a": "Comprimir a una sola línea."
+      },
+      {
+        "q": "¿Elimina comentarios?",
+        "a": "Minify elimina líneas #."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "sql-format",
+      "js-formatter",
+      "json-formatter"
+    ]
+  },
+  {
+    "id": "json-sql",
+    "title": "在线JSON转SQL工具",
+    "h1": "在线JSON转SQL工具",
+    "description": "在线JSON转SQL工具，将JSON数组一键生成 INSERT INTO 语句，自动识别列名、处理字符串转义与 NULL，支持自定义表名，本地处理保障隐私。",
+    "title_en": "Online JSON to SQL Converter",
+    "h1_en": "Online JSON to SQL Converter",
+    "description_en": "Convert JSON array to SQL INSERT statements instantly. Auto-detects columns, escapes strings, handles NULL, custom table name, local processing.",
+    "title_es": "Convertidor JSON a SQL en Línea",
+    "h1_es": "Convertidor JSON a SQL en Línea",
+    "description_es": "Convierte arreglo JSON a sentencias SQL INSERT al instante. Detecta columnas, escapa cadenas, maneja NULL, nombre de tabla personalizado y procesamiento local.",
+    "tags": [
+      "JSON转SQL",
+      "SQL生成",
+      "INSERT",
+      "JSON工具"
+    ],
+    "tags_en": [
+      "JSON to SQL",
+      "INSERT",
+      "SQL Generate",
+      "JSON"
+    ],
+    "tags_es": [
+      "JSON a SQL",
+      "INSERT",
+      "Generar SQL",
+      "JSON"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "如何将JSON转为SQL？",
+        "a": "粘贴JSON数组如 [{a:1,b:2}]，输入表名点击“JSON转SQL”即可生成 INSERT 语句。"
+      },
+      {
+        "q": "支持字符串转义吗？",
+        "a": "支持，单引号会转义为''，NULL保持为NULL，对象/数组会JSON序列化后转义。"
+      },
+      {
+        "q": "列名如何确定？",
+        "a": "自动取所有对象键的并集，按首次出现顺序作为列，缺失字段对应行填充NULL。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to convert JSON to SQL?",
+        "a": "Paste JSON array like [{\"a\":1,\"b\":2}], enter table name and click JSON to SQL."
+      },
+      {
+        "q": "Does it escape strings?",
+        "a": "Yes, single quotes become '', NULL stays NULL, objects are JSON stringified."
+      },
+      {
+        "q": "How are columns determined?",
+        "a": "Union of all object keys in first-appearance order; missing fields become NULL."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir JSON a SQL?",
+        "a": "Pegue arreglo JSON como [{\"a\":1,\"b\":2}], ingrese tabla y haga clic."
+      },
+      {
+        "q": "¿Escapa cadenas?",
+        "a": "Sí, comilla simple se duplica '', NULL se mantiene."
+      },
+      {
+        "q": "¿Cómo determina columnas?",
+        "a": "Unión de claves en orden de primera aparición; faltantes son NULL."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "sql-json",
+      "json-excel",
+      "json-formatter"
+    ]
+  },
+  {
+    "id": "sql-json",
+    "title": "在线SQL转JSON工具",
+    "h1": "在线SQL转JSON工具",
+    "description": "在线SQL转JSON工具，解析 INSERT INTO 语句还原为JSON数组，支持多行 VALUES、字符串转义与 NULL 自动识别，本地处理。",
+    "title_en": "Online SQL to JSON Converter",
+    "h1_en": "Online SQL to JSON Converter",
+    "description_en": "Parse SQL INSERT statements back to JSON array. Supports multiple VALUES tuples, string escaping and NULL handling with local processing.",
+    "title_es": "Convertidor SQL a JSON en Línea",
+    "h1_es": "Convertidor SQL a JSON en Línea",
+    "description_es": "Analiza sentencias SQL INSERT a arreglo JSON. Soporta múltiples VALUES, escape y NULL con procesamiento local.",
+    "tags": [
+      "SQL转JSON",
+      "INSERT解析",
+      "SQL工具",
+      "JSON"
+    ],
+    "tags_en": [
+      "SQL to JSON",
+      "Parse INSERT",
+      "SQL",
+      "JSON"
+    ],
+    "tags_es": [
+      "SQL a JSON",
+      "Parsear INSERT",
+      "SQL",
+      "JSON"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "支持哪些SQL？",
+        "a": "支持标准 INSERT INTO table (col, ...) VALUES (...), (...); 多条语句以分号分隔。"
+      },
+      {
+        "q": "如何处理字符串中的逗号？",
+        "a": "解析时会尊重单引号包裹的字符串，逗号在引号内不会被误分割，会还原为单引号。"
+      },
+      {
+        "q": "NULL会如何转换？",
+        "a": "SQL中的NULL会转为JSON的null，数字保持数字。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部本地解析。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which SQL is supported?",
+        "a": "Standard INSERT INTO table (col, ...) VALUES (...), (...); multiple statements separated by ;."
+      },
+      {
+        "q": "How to handle commas in strings?",
+        "a": "Strings in single quotes are respected; commas inside are not split,  becomes single quote."
+      },
+      {
+        "q": "How is NULL handled?",
+        "a": "SQL NULL becomes JSON null, numbers stay numbers."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local parsing."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué SQL soporta?",
+        "a": "INSERT INTO tabla (col, ...) VALUES (...), (...); múltiples con ;."
+      },
+      {
+        "q": "¿Y comas en cadenas?",
+        "a": "Respeta comillas simples; comas dentro no se dividen,  se restaura."
+      },
+      {
+        "q": "¿Cómo maneja NULL?",
+        "a": "NULL SQL se vuelve null JSON."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "json-sql",
+      "excel-json",
+      "json-formatter"
+    ]
+  },
+  {
+    "id": "json-cookie",
+    "title": "在线JSON转Cookie工具",
+    "h1": "在线JSON转Cookie工具",
+    "description": "在线JSON转Cookie工具，将扁平JSON对象转为 Cookie 字符串 k=v; k2=v2，自动 encodeURIComponent 编码，适用于调试 Set-Cookie 与请求头。",
+    "title_en": "Online JSON to Cookie Converter",
+    "h1_en": "Online JSON to Cookie Converter",
+    "description_en": "Convert flat JSON object to Cookie string k=v; k2=v2 with encodeURIComponent encoding, ideal for debugging Set-Cookie and headers.",
+    "title_es": "Convertidor JSON a Cookie en Línea",
+    "h1_es": "Convertidor JSON a Cookie en Línea",
+    "description_es": "Convierte objeto JSON plano a cadena Cookie k=v; k2=v2 con encodeURIComponent, ideal para depurar Set-Cookie.",
+    "tags": [
+      "JSON转Cookie",
+      "Cookie生成",
+      "Header",
+      "JSON工具"
+    ],
+    "tags_en": [
+      "JSON to Cookie",
+      "Cookie",
+      "Header",
+      "JSON"
+    ],
+    "tags_es": [
+      "JSON a Cookie",
+      "Cookie",
+      "Cabecera",
+      "JSON"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "输入JSON有什么要求？",
+        "a": "需为扁平对象如 {\"a\":\"1\",\"b\":\"2\"}，嵌套对象会JSON序列化后编码。"
+      },
+      {
+        "q": "如何编码特殊字符？",
+        "a": "键和值均经 encodeURIComponent 编码，空格转为%20，分号等保留分隔作用。"
+      },
+      {
+        "q": "支持数组吗？",
+        "a": "不支持，Cookie本质是键值对，请传入对象。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，本地转换。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What JSON is required?",
+        "a": "Flat object like {\"a\":\"1\",\"b\":\"2\"}; nested objects are JSON stringified."
+      },
+      {
+        "q": "How are special chars encoded?",
+        "a": "Keys and values via encodeURIComponent, space as %20."
+      },
+      {
+        "q": "Does it support arrays?",
+        "a": "No, Cookie is key-value, pass an object."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué JSON requiere?",
+        "a": "Objeto plano como {\"a\":\"1\",\"b\":\"2\"}; anidados se serializan."
+      },
+      {
+        "q": "¿Cómo codifica especiales?",
+        "a": "Claves y valores con encodeURIComponent."
+      },
+      {
+        "q": "¿Soporta arreglos?",
+        "a": "No, Cookie es clave-valor."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "cookie-json",
+      "json-formatter",
+      "html-escape"
+    ]
+  },
+  {
+    "id": "cookie-json",
+    "title": "在线Cookie转JSON工具",
+    "h1": "在线Cookie转JSON工具",
+    "description": "在线Cookie转JSON工具，将 Cookie 字符串解析为JSON对象，自动 decodeURIComponent 解码，支持 ; 分隔与空值处理，本地处理。",
+    "title_en": "Online Cookie to JSON Converter",
+    "h1_en": "Online Cookie to JSON Converter",
+    "description_en": "Parse Cookie string to JSON object with decodeURIComponent, supports ; separator and empty values, local processing.",
+    "title_es": "Convertidor Cookie a JSON en Línea",
+    "h1_es": "Convertidor Cookie a JSON en Línea",
+    "description_es": "Analiza cadena Cookie a objeto JSON con decodeURIComponent, soporta separador ; y valores vacíos.",
+    "tags": [
+      "Cookie转JSON",
+      "Cookie解析",
+      "Header解析",
+      "JSON工具"
+    ],
+    "tags_en": [
+      "Cookie to JSON",
+      "Parse Cookie",
+      "Header",
+      "JSON"
+    ],
+    "tags_es": [
+      "Cookie a JSON",
+      "Parsear Cookie",
+      "Cabecera",
+      "JSON"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "Cookie格式是怎样的？",
+        "a": "以分号分隔的 k=v 对，如 a=1; b=hello%20world; c=;"
+      },
+      {
+        "q": "会解码吗？",
+        "a": "会，键和值均尝试 decodeURIComponent，如%20还原为空格。"
+      },
+      {
+        "q": "没有等号的键如何处理？",
+        "a": "视为键对应空字符串值。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，本地解析。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is Cookie format?",
+        "a": "Semicolon separated k=v pairs like a=1; b=hello%20world;"
+      },
+      {
+        "q": "Does it decode?",
+        "a": "Yes, keys and values via decodeURIComponent, e.g., %20 to space."
+      },
+      {
+        "q": "Keys without = ?",
+        "a": "Treated as key with empty string."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Formato Cookie?",
+        "a": "Pares k=v separados por ; como a=1; b=hello%20world;"
+      },
+      {
+        "q": "¿Decodifica?",
+        "a": "Sí, con decodeURIComponent."
+      },
+      {
+        "q": "¿Claves sin =?",
+        "a": "Clave con cadena vacía."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "json-cookie",
+      "json-formatter",
+      "html-escape"
+    ]
+  },
+  {
+    "id": "json-base64",
+    "title": "在线JSON转Base64工具",
+    "h1": "在线JSON转Base64工具",
+    "description": "在线JSON转Base64工具，将JSON字符串UTF-8编码为Base64，支持中文与 Emoji，解码时校验JSON合法性，全部本地处理。",
+    "title_en": "Online JSON to Base64 Converter",
+    "h1_en": "Online JSON to Base64 Converter",
+    "description_en": "Encode JSON string to Base64 with UTF-8, supports Chinese and Emoji, validates JSON on decode, local processing.",
+    "title_es": "Convertidor JSON a Base64 en Línea",
+    "h1_es": "Convertidor JSON a Base64 en Línea",
+    "description_es": "Codifica JSON a Base64 con UTF-8, soporta chino y Emoji, valida JSON al decodificar, local.",
+    "tags": [
+      "JSON转Base64",
+      "Base64编码",
+      "JSON工具",
+      "编码"
+    ],
+    "tags_en": [
+      "JSON to Base64",
+      "Base64",
+      "Encode",
+      "JSON"
+    ],
+    "tags_es": [
+      "JSON a Base64",
+      "Base64",
+      "Codificar",
+      "JSON"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "会先校验JSON吗？",
+        "a": "会，编码前会JSON.parse校验，非合法JSON会报错。"
+      },
+      {
+        "q": "支持中文吗？",
+        "a": "支持，内部按UTF-8编码后再Base64，非 latin1 截断。"
+      },
+      {
+        "q": "如何解码？",
+        "a": "在同一工具点击“Base64转JSON”或使用对应逆向页面，自动格式化输出。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部本地编解码。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Does it validate JSON?",
+        "a": "Yes, JSON.parse before encoding, invalid JSON throws."
+      },
+      {
+        "q": "Does it support Chinese?",
+        "a": "Yes, UTF-8 before Base64, not latin1 truncation."
+      },
+      {
+        "q": "How to decode?",
+        "a": "Click Base64 to JSON in same tool or use reverse page."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Valida JSON?",
+        "a": "Sí, JSON.parse antes de codificar."
+      },
+      {
+        "q": "¿Soporta chino?",
+        "a": "Sí, UTF-8 antes de Base64."
+      },
+      {
+        "q": "¿Cómo decodificar?",
+        "a": "Clic en Base64 a JSON."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "xml-base64",
+      "json-formatter",
+      "hex-converter"
+    ]
+  },
+  {
+    "id": "xml-base64",
+    "title": "在线XML转Base64工具",
+    "h1": "在线XML转Base64工具",
+    "description": "在线XML转Base64工具，将XML字符串UTF-8编码为Base64并可逆向解码，支持中文标签与声明头，全部本地处理。",
+    "title_en": "Online XML to Base64 Converter",
+    "h1_en": "Online XML to Base64 Converter",
+    "description_en": "Encode XML string to Base64 with UTF-8 and decode back, supports Chinese tags and declaration, local processing.",
+    "title_es": "Convertidor XML a Base64 en Línea",
+    "h1_es": "Convertidor XML a Base64 en Línea",
+    "description_es": "Codifica XML a Base64 con UTF-8 y decodifica, soporta etiquetas en chino y declaración, local.",
+    "tags": [
+      "XML转Base64",
+      "Base64编码",
+      "XML工具",
+      "编码"
+    ],
+    "tags_en": [
+      "XML to Base64",
+      "Base64",
+      "XML",
+      "Encode"
+    ],
+    "tags_es": [
+      "XML a Base64",
+      "Base64",
+      "XML",
+      "Codificar"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "会校验XML吗？",
+        "a": "轻量校验需包含<和>标签，否则提示不像XML。"
+      },
+      {
+        "q": "支持中文标签吗？",
+        "a": "支持，UTF-8编码后Base64，中文不会乱码。"
+      },
+      {
+        "q": "如何解码？",
+        "a": "点击“Base64转XML”，输入Base64即可还原XML。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，本地编解码。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Does it validate XML?",
+        "a": "Light check for < and > tags."
+      },
+      {
+        "q": "Does it support Chinese tags?",
+        "a": "Yes, UTF-8 before Base64."
+      },
+      {
+        "q": "How to decode?",
+        "a": "Click Base64 to XML with Base64 input."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Valida XML?",
+        "a": "Chequeo ligero de < y >."
+      },
+      {
+        "q": "¿Soporta chino?",
+        "a": "Sí, UTF-8."
+      },
+      {
+        "q": "¿Cómo decodificar?",
+        "a": "Clic en Base64 a XML."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "json-base64",
+      "html-escape",
+      "json-formatter"
+    ]
+  },
+  {
+    "id": "json-excel",
+    "title": "在线JSON转Excel工具",
+    "h1": "在线JSON转Excel工具",
+    "description": "在线JSON转Excel工具，将JSON数组转为CSV表格，自动提取表头、处理逗号引号转义与中文，支持Excel直接打开，本地处理。",
+    "title_en": "Online JSON to Excel Converter",
+    "h1_en": "Online JSON to Excel Converter",
+    "description_en": "Convert JSON array to CSV/Excel. Auto-extracts header, escapes commas/quotes, supports Chinese, opens in Excel, local processing.",
+    "title_es": "Convertidor JSON a Excel en Línea",
+    "h1_es": "Convertidor JSON a Excel en Línea",
+    "description_es": "Convierte arreglo JSON a CSV/Excel. Extrae cabecera, escapa comas/comillas, soporta chino, abre en Excel, local.",
+    "tags": [
+      "JSON转Excel",
+      "JSON转CSV",
+      "表格生成",
+      "JSON工具"
+    ],
+    "tags_en": [
+      "JSON to Excel",
+      "JSON to CSV",
+      "Excel",
+      "JSON"
+    ],
+    "tags_es": [
+      "JSON a Excel",
+      "JSON a CSV",
+      "Excel",
+      "JSON"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "如何将JSON转为Excel？",
+        "a": "粘贴JSON数组如 [{name:\"Alice\",age:30}]，点击“JSON转Excel”生成CSV，可保存为.csv用Excel打开。"
+      },
+      {
+        "q": "列名如何确定？",
+        "a": "取所有对象键的并集作为表头，按首次出现顺序，缺失字段留空。"
+      },
+      {
+        "q": "逗号和引号如何处理？",
+        "a": "含逗号/引号/换行的字段会自动用双引号包裹，内部双引号转义为\"\"，符合CSV规范。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，本地转换。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to convert JSON to Excel?",
+        "a": "Paste JSON array like [{\"name\":\"Alice\",\"age\":30}], click JSON to Excel to get CSV for Excel."
+      },
+      {
+        "q": "How are columns determined?",
+        "a": "Union of keys in first-appearance order; missing fields empty."
+      },
+      {
+        "q": "How are commas/quotes handled?",
+        "a": "Fields with comma/quote/newline are quoted with \"\", inner \" becomes \"\"."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo JSON a Excel?",
+        "a": "Pegue arreglo JSON y haga clic para obtener CSV."
+      },
+      {
+        "q": "¿Columnas?",
+        "a": "Unión de claves en orden."
+      },
+      {
+        "q": "¿Comas/comillas?",
+        "a": "Campos con coma/comilla se citan con \"\"."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "excel-json",
+      "json-sql",
+      "json-formatter"
+    ]
+  },
+  {
+    "id": "excel-json",
+    "title": "在线Excel转JSON工具",
+    "h1": "在线Excel转JSON工具",
+    "description": "在线Excel转JSON工具，将CSV表格解析为JSON数组，自动识别表头、处理引号转义与数值类型推断，支持中文，本地处理。",
+    "title_en": "Online Excel to JSON Converter",
+    "h1_en": "Online Excel to JSON Converter",
+    "description_en": "Parse CSV/Excel to JSON array. Auto-detects header, handles quoted escapes and numeric type inference, supports Chinese, local.",
+    "title_es": "Convertidor Excel a JSON en Línea",
+    "h1_es": "Convertidor Excel a JSON en Línea",
+    "description_es": "Analiza CSV/Excel a arreglo JSON. Detecta cabecera, maneja escapes y deduce números, soporta chino, local.",
+    "tags": [
+      "Excel转JSON",
+      "CSV转JSON",
+      "表格解析",
+      "JSON工具"
+    ],
+    "tags_en": [
+      "Excel to JSON",
+      "CSV to JSON",
+      "Parse Excel",
+      "JSON"
+    ],
+    "tags_es": [
+      "Excel a JSON",
+      "CSV a JSON",
+      "Parsear Excel",
+      "JSON"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "支持哪种Excel格式？",
+        "a": "支持CSV文本（逗号分隔），可从Excel另存为CSV后粘贴，或直接粘贴表格复制的制表符文本（按CSV解析）。"
+      },
+      {
+        "q": "如何处理引号和逗号？",
+        "a": "按CSV规范解析，双引号包裹的字段内逗号不分割，\"\"还原为单引号。"
+      },
+      {
+        "q": "数值类型会保留吗？",
+        "a": "会尝试推断：纯数字转为number，true/false转为boolean，null转为null，其余为字符串。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，本地解析。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which Excel format?",
+        "a": "CSV text (comma separated). Save Excel as CSV and paste."
+      },
+      {
+        "q": "How to handle quotes/commas?",
+        "a": "Per CSV spec, quoted fields commas not split, \"\" to \"."
+      },
+      {
+        "q": "Are number types kept?",
+        "a": "Inferred: pure numbers to number, true/false to boolean, null to null."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué formato Excel?",
+        "a": "Texto CSV separado por comas."
+      },
+      {
+        "q": "¿Comillas/comas?",
+        "a": "Según CSV, campos citados no se dividen."
+      },
+      {
+        "q": "¿Tipos numéricos?",
+        "a": "Infiere números, booleanos y null."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "json-excel",
+      "sql-json",
+      "json-formatter"
+    ]
+  },
+  {
+    "id": "json-csv",
+    "title": "在线JSON转CSV工具",
+    "h1": "在线JSON转CSV工具",
+    "description": "在线JSON转CSV工具，支持JSON数组转CSV表格，自动提取表头、处理引号与逗号转义，本地处理保障隐私，适用于数据导出与表格转换。",
+    "title_en": "Online JSON to CSV Converter",
+    "h1_en": "Online JSON to CSV Converter",
+    "description_en": "Convert JSON arrays to CSV instantly with header extraction and quoting, local processing for data export.",
+    "title_es": "Conversor JSON a CSV en Línea",
+    "h1_es": "Conversor JSON a CSV en Línea",
+    "description_es": "Convierte arreglos JSON a CSV al instante con extracción de cabeceras y escape, procesamiento local.",
+    "tags": [
+      "JSON转CSV",
+      "CSV转换",
+      "数据导出",
+      "表格转换"
+    ],
+    "tags_en": [
+      "JSON to CSV",
+      "CSV",
+      "Export",
+      "Convert"
+    ],
+    "tags_es": [
+      "JSON a CSV",
+      "CSV",
+      "Exportar",
+      "Convertir"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "如何将JSON转为CSV？",
+        "a": "粘贴JSON数组如 [{\"a\":1}]，点击“JSON转CSV”即可生成带表头的CSV。"
+      },
+      {
+        "q": "支持嵌套吗？",
+        "a": "工具提取顶层键为表头，嵌套对象建议先扁平化或保持为JSON字符串值。"
+      },
+      {
+        "q": "如何处理逗号和引号？",
+        "a": "含逗号、引号或换行的字段会自动用双引号包裹并转义内部引号。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to convert JSON to CSV?",
+        "a": "Paste JSON array like [{\"a\":1}] and click JSON to CSV to generate header CSV."
+      },
+      {
+        "q": "Does it support nesting?",
+        "a": "Top-level keys become headers; flatten nested objects first if needed."
+      },
+      {
+        "q": "How are commas/quotes handled?",
+        "a": "Fields with commas/quotes/newlines are quoted and escaped with double quotes."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversion runs locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir JSON a CSV?",
+        "a": "Pegue arreglo JSON como [{\"a\":1}] y haga clic en JSON a CSV."
+      },
+      {
+        "q": "¿Soporta anidación?",
+        "a": "Claves de nivel superior son cabeceras; aplana objetos anidados si es necesario."
+      },
+      {
+        "q": "¿Cómo maneja comas/comillas?",
+        "a": "Campos con comas/comillas/saltos se citan y escapan con comillas dobles."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se procesa localmente."
+      }
+    ],
+    "related": [
+      "csv-json",
+      "json-yaml",
+      "json-xml"
+    ]
+  },
+  {
+    "id": "csv-json",
+    "title": "在线CSV转JSON工具",
+    "h1": "在线CSV转JSON工具",
+    "description": "在线CSV转JSON工具，将CSV表格转为JSON数组，首行作表头，自动识别数字与布尔值，支持引号转义，本地处理即时转换。",
+    "title_en": "Online CSV to JSON Converter",
+    "h1_en": "Online CSV to JSON Converter",
+    "description_en": "Convert CSV to JSON arrays instantly, first row as header, auto-detect numbers/booleans with local processing.",
+    "title_es": "Conversor CSV a JSON en Línea",
+    "h1_es": "Conversor CSV a JSON en Línea",
+    "description_es": "Convierte CSV a arreglos JSON al instante, primera fila como cabecera, detección automática de números/booleanos.",
+    "tags": [
+      "CSV转JSON",
+      "CSV解析",
+      "表格转JSON",
+      "数据转换"
+    ],
+    "tags_en": [
+      "CSV to JSON",
+      "CSV Parse",
+      "Table",
+      "Convert"
+    ],
+    "tags_es": [
+      "CSV a JSON",
+      "Parsear CSV",
+      "Tabla",
+      "Convertir"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "如何将CSV转为JSON？",
+        "a": "粘贴CSV文本，首行为表头，点击“CSV转JSON”生成JSON数组。"
+      },
+      {
+        "q": "支持引号字段吗？",
+        "a": "支持，含逗号或引号的字段需用双引号包裹，内部引号用双引号转义。"
+      },
+      {
+        "q": "会转换数字类型吗？",
+        "a": "会尝试将纯数字转为数值，true/false 转为布尔，null 转为空值，其余保留字符串。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to convert CSV to JSON?",
+        "a": "Paste CSV with header row and click CSV to JSON."
+      },
+      {
+        "q": "Does it support quoted fields?",
+        "a": "Yes, fields with commas/quotes should be double-quoted with escaped quotes."
+      },
+      {
+        "q": "Are numbers converted?",
+        "a": "Pure numbers become numbers, true/false become booleans, null becomes null."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing runs locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir CSV a JSON?",
+        "a": "Pegue CSV con cabecera y haga clic en CSV a JSON."
+      },
+      {
+        "q": "¿Soporta campos citados?",
+        "a": "Sí, campos con comas/comillas deben estar entre comillas dobles."
+      },
+      {
+        "q": "¿Convierte números?",
+        "a": "Números puros a número, true/false a booleano."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, procesamiento local."
+      }
+    ],
+    "related": [
+      "json-csv",
+      "json-yaml",
+      "json-xml"
+    ]
+  },
+  {
+    "id": "json-yaml",
+    "title": "在线JSON转YAML工具",
+    "h1": "在线JSON转YAML工具",
+    "description": "在线JSON转YAML工具，将JSON转为YAML格式，支持嵌套对象与数组，保持缩进与类型，本地处理即时转换，适用于配置转换。",
+    "title_en": "Online JSON to YAML Converter",
+    "h1_en": "Online JSON to YAML Converter",
+    "description_en": "Convert JSON to YAML instantly with nested object/array support and local processing for config conversion.",
+    "title_es": "Conversor JSON a YAML en Línea",
+    "h1_es": "Conversor JSON a YAML en Línea",
+    "description_es": "Convierte JSON a YAML al instante con soporte para objetos/arreglos anidados y procesamiento local.",
+    "tags": [
+      "JSON转YAML",
+      "YAML转换",
+      "配置转换",
+      "数据格式"
+    ],
+    "tags_en": [
+      "JSON to YAML",
+      "YAML",
+      "Config",
+      "Convert"
+    ],
+    "tags_es": [
+      "JSON a YAML",
+      "YAML",
+      "Config",
+      "Convertir"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "如何将JSON转为YAML？",
+        "a": "粘贴JSON，点击“JSON转YAML”即可生成缩进的YAML文本。"
+      },
+      {
+        "q": "支持数组吗？",
+        "a": "支持，数组转为 - 列表，嵌套对象自动缩进。"
+      },
+      {
+        "q": "字符串如何处理？",
+        "a": "含特殊字符如 : # 的字符串会自动加引号并转义。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to convert JSON to YAML?",
+        "a": "Paste JSON and click JSON to YAML for indented YAML."
+      },
+      {
+        "q": "Does it support arrays?",
+        "a": "Yes, arrays become - lists with nested indent."
+      },
+      {
+        "q": "How are strings handled?",
+        "a": "Strings with special chars like : # are quoted and escaped."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversion runs locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir JSON a YAML?",
+        "a": "Pegue JSON y haga clic en JSON a YAML."
+      },
+      {
+        "q": "¿Soporta arreglos?",
+        "a": "Sí, arreglos se vuelven listas - con indentación."
+      },
+      {
+        "q": "¿Cómo maneja strings?",
+        "a": "Strings con : # se citan y escapan."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "yaml-json",
+      "json-csv",
+      "json-xml"
+    ]
+  },
+  {
+    "id": "yaml-json",
+    "title": "在线YAML转JSON工具",
+    "h1": "在线YAML转JSON工具",
+    "description": "在线YAML转JSON工具，将YAML配置转为JSON格式，支持缩进嵌套与列表解析，自动识别类型，本地处理保障隐私。",
+    "title_en": "Online YAML to JSON Converter",
+    "h1_en": "Online YAML to JSON Converter",
+    "description_en": "Convert YAML to JSON instantly with indent and list parsing, auto type detection and local processing.",
+    "title_es": "Conversor YAML a JSON en Línea",
+    "h1_es": "Conversor YAML a JSON en Línea",
+    "description_es": "Convierte YAML a JSON al instante con análisis de indentación y listas, detección automática de tipos.",
+    "tags": [
+      "YAML转JSON",
+      "YAML解析",
+      "配置转换",
+      "数据格式"
+    ],
+    "tags_en": [
+      "YAML to JSON",
+      "YAML Parse",
+      "Config",
+      "Convert"
+    ],
+    "tags_es": [
+      "YAML a JSON",
+      "Parsear YAML",
+      "Config",
+      "Convertir"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "如何将YAML转为JSON？",
+        "a": "粘贴YAML文本，点击“YAML转JSON”生成格式化的JSON。"
+      },
+      {
+        "q": "支持哪些YAML特性？",
+        "a": "支持对象 k: v、列表 - item、嵌套缩进、引号字符串、布尔与数值自动识别。"
+      },
+      {
+        "q": "如何处理空值？",
+        "a": "null、~ 或空值会转为 JSON null，[] / {} 转为空数组/对象。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to convert YAML to JSON?",
+        "a": "Paste YAML and click YAML to JSON for formatted JSON."
+      },
+      {
+        "q": "Which YAML features are supported?",
+        "a": "Objects k: v, lists - item, nested indent, quoted strings, booleans/numbers."
+      },
+      {
+        "q": "How are empty values handled?",
+        "a": "null/~ or empty becomes JSON null, []/{} become empty array/object."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local processing."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir YAML a JSON?",
+        "a": "Pegue YAML y haga clic en YAML a JSON."
+      },
+      {
+        "q": "¿Qué características soporta?",
+        "a": "Objetos k: v, listas - item, indentación, strings citados, booleanos/números."
+      },
+      {
+        "q": "¿Cómo maneja vacíos?",
+        "a": "null/~ o vacío a null, []/{} a arreglo/objeto vacío."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "json-yaml",
+      "json-csv",
+      "json-xml"
+    ]
+  },
+  {
+    "id": "json-xml",
+    "title": "在线JSON转XML工具",
+    "h1": "在线JSON转XML工具",
+    "description": "在线JSON转XML工具，将JSON转为XML格式，自动以 root 为根节点，数组用 item 包裹，支持嵌套与转义，本地处理即时转换。",
+    "title_en": "Online JSON to XML Converter",
+    "h1_en": "Online JSON to XML Converter",
+    "description_en": "Convert JSON to XML instantly with root wrapper, arrays as item elements, nested and escaped, local processing.",
+    "title_es": "Conversor JSON a XML en Línea",
+    "h1_es": "Conversor JSON a XML en Línea",
+    "description_es": "Convierte JSON a XML al instante con raíz root, arreglos como item, anidación y escape, procesamiento local.",
+    "tags": [
+      "JSON转XML",
+      "XML转换",
+      "数据格式",
+      "配置转换"
+    ],
+    "tags_en": [
+      "JSON to XML",
+      "XML",
+      "Convert",
+      "Data Format"
+    ],
+    "tags_es": [
+      "JSON a XML",
+      "XML",
+      "Convertir",
+      "Formato"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "如何将JSON转为XML？",
+        "a": "粘贴JSON，点击“JSON转XML”生成带 <?xml?> 声明的XML，根节点为 <root>。"
+      },
+      {
+        "q": "数组如何表示？",
+        "a": "数组会包裹在原键下并以 <item> 表示每一项，对象数组则在 item 内展开键。"
+      },
+      {
+        "q": "如何处理特殊字符？",
+        "a": "自动转义 & < > \" ' 为 &amp; &lt; &gt; &quot; &apos;。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to convert JSON to XML?",
+        "a": "Paste JSON and click JSON to XML for XML with <?xml?> and root wrapper."
+      },
+      {
+        "q": "How are arrays represented?",
+        "a": "Arrays are wrapped under key with <item> per element, objects expanded inside item."
+      },
+      {
+        "q": "How are special chars handled?",
+        "a": "Escaped as &amp; &lt; &gt; &quot; &apos;."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local processing."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir JSON a XML?",
+        "a": "Pegue JSON y haga clic en JSON a XML para XML con <?xml?> y raíz root."
+      },
+      {
+        "q": "¿Cómo representa arreglos?",
+        "a": "Arreglos bajo clave con <item> por elemento."
+      },
+      {
+        "q": "¿Cómo maneja caracteres especiales?",
+        "a": "Escapados como &amp; &lt; &gt; &quot; &apos;."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "xml-json",
+      "json-csv",
+      "json-yaml"
+    ]
+  },
+  {
+    "id": "xml-json",
+    "title": "在线XML转JSON工具",
+    "h1": "在线XML转JSON工具",
+    "description": "在线XML转JSON工具，将XML转为JSON格式，自动解析根节点与重复标签为数组，识别数值与布尔，支持实体解码，本地处理保障隐私。",
+    "title_en": "Online XML to JSON Converter",
+    "h1_en": "Online XML to JSON Converter",
+    "description_en": "Convert XML to JSON instantly, parse root and repeated tags as arrays, detect numbers/booleans, decode entities, local processing.",
+    "title_es": "Conversor XML a JSON en Línea",
+    "h1_es": "Conversor XML a JSON en Línea",
+    "description_es": "Convierte XML a JSON al instante, analiza raíz y etiquetas repetidas como arreglos, detecta números/booleanos, decodifica entidades.",
+    "tags": [
+      "XML转JSON",
+      "XML解析",
+      "数据格式",
+      "配置转换"
+    ],
+    "tags_en": [
+      "XML to JSON",
+      "XML Parse",
+      "Convert",
+      "Data Format"
+    ],
+    "tags_es": [
+      "XML a JSON",
+      "Parsear XML",
+      "Convertir",
+      "Formato"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "如何将XML转为JSON？",
+        "a": "粘贴XML（含或不含 <?xml?>），点击“XML转JSON”生成格式化JSON。"
+      },
+      {
+        "q": "重复标签如何处理？",
+        "a": "同名相邻标签会自动合并为数组，如 <a>1</a><a>2</a> → \"a\":[1,2]；<item> 列表也会转为数组。"
+      },
+      {
+        "q": "会识别类型吗？",
+        "a": "会，纯数字转数值，true/false 转布尔，实体如 &amp; 自动解码，其余保留字符串。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to convert XML to JSON?",
+        "a": "Paste XML with or without <?xml?> and click XML to JSON."
+      },
+      {
+        "q": "How are repeated tags handled?",
+        "a": "Same-name tags merge to array, e.g. <a>1</a><a>2</a> → \"a\":[1,2]; item lists also become arrays."
+      },
+      {
+        "q": "Does it detect types?",
+        "a": "Pure numbers to numbers, true/false to booleans, entities decoded."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local processing."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir XML a JSON?",
+        "a": "Pegue XML con o sin <?xml?> y haga clic en XML a JSON."
+      },
+      {
+        "q": "¿Cómo maneja etiquetas repetidas?",
+        "a": "Mismo nombre se fusiona a arreglo, ej. <a>1</a><a>2</a> → \"a\":[1,2]; listas item también."
+      },
+      {
+        "q": "¿Detecta tipos?",
+        "a": "Números a número, true/false a booleano, entidades decodificadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "json-xml",
+      "json-csv",
+      "json-yaml"
+    ]
   }
 ]
