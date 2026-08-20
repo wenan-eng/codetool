@@ -1,5 +1,4 @@
 {
   "framework": "nextjs",
-  "regions": ["hkg1", "sfo1", "iad1"],
   "cleanUrls": true
 }
