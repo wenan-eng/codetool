@@ -10,9 +10,9 @@
 
 ## Global Constraints
 
-- AdSense client 必须为 `ca-pub-4188363142718866`，脚本注入于 `app/layout.tsx:head` 使用 `async` + `crossorigin="anonymous"`，来源 `google_adsense_link.md:9`
+- AdSense client 必须为 `ca-pub-4188363142718866`，脚本注入于 `app/[locale]/layout.tsx:head` 使用 `async` + `crossorigin="anonymous"`，来源 `google_adsense_link.md:9`
 - 框架：Next.js 14 SSG，`next.config.js` 中 `output: 'export'` 可选，默认 SSR+SSG 混合
-- 语言：UI 中文，文件编码 UTF-8
+- 语言：支持中文(zh)、英文(en)、西班牙语(es)三语，文件编码 UTF-8，URL 结构 `/{locale}/{tool}`，`{locale}` 枚举 `zh|en|es`，默认 `zh`，按地区/Browser `Accept-Language` 自动重定向（middleware），缺省回退 zh，SEO 需 `hreflang` + `sitemap` 多语言
 - 部署：Vercel + 自有域名，自动 HTTPS
 - SEO：每工具页含 FAQ Schema + Breadcrumb + sitemap.xml + robots.txt
 - 功能：首版仅 美化/压缩/校验/示例/复制/清空，100% 浏览器本地处理，0 网络请求
@@ -26,32 +26,40 @@
 
 ```
 google_adsense_site/
-├── package.json                 # 新增 next 14, tailwind, vitest 依赖
-├── next.config.js               # 新建
+├── package.json                 # 新增 next 14, tailwind, vitest, next-intl 依赖
+├── next.config.js               # 需配置 i18n 重定向（可选）
 ├── tailwind.config.ts           # 新建
 ├── tsconfig.json                # 新建
+├── middleware.ts                # 新建：locale 检测与重定向 zh|en|es
+├── i18n.ts                      # 新建：语言配置与字典加载
+├── messages/
+│   ├── zh.json                  # 中文文案
+│   ├── en.json                  # 英文文案
+│   └── es.json                  # 西班牙语文案
 ├── app/
-│   ├── layout.tsx               # 注入 AdSense, Header, Footer, font
 │   ├── globals.css              # Tailwind base
-│   ├── page.tsx                 # 首页：分类导航 + 热门工具网格
-│   ├── [tool]/page.tsx          # 动态工具页，SSG generateStaticParams
-│   ├── privacy/page.tsx         # 隐私政策
-│   ├── about/page.tsx
-│   ├── contact/page.tsx
-│   ├── terms/page.tsx
 │   ├── sitemap.ts
-│   └── robots.ts
+│   ├── robots.ts
+│   └── [locale]/
+│       ├── layout.tsx           # 注入 AdSense, Header, Footer, lang 属性 + hreflang
+│       ├── page.tsx             # 首页：分类导航 + 热门工具网格（多语言）
+│       ├── [tool]/page.tsx      # 动态工具页，SSG generateStaticParams 含 locale
+│       ├── privacy/page.tsx     # 隐私政策（多语言）
+│       ├── about/page.tsx
+│       ├── contact/page.tsx
+│       └── terms/page.tsx
 ├── components/
-│   ├── Header.tsx               # 复刻懒人顶部：Logo + 10分类 + 搜索占位
-│   ├── Footer.tsx               # 热门推荐4列 + 版权 + 合规链接
-│   ├── ToolLayout.tsx           # 统一布局：H1+Tag+编辑器+广告位+说明+相关推荐+FAQ
-│   ├── Editor.tsx               # textarea + 行号 + 错误高亮
+│   ├── Header.tsx               # 接收 locale，语言切换器
+│   ├── Footer.tsx               # 多语言版权 + 合规链接
+│   ├── LanguageSwitcher.tsx     # 新建：zh/en/es 切换
+│   ├── ToolLayout.tsx           # 统一布局：H1+Tag+编辑器+广告位+说明+相关推荐+FAQ（多语言）
+│   ├── Editor.tsx               # textarea + 行号 + 错误高亮（文案多语言）
 │   └── AdSlot.tsx               # 封装 <ins class="adsbygoogle">
 ├── config/
-│   └── tools.json               # 工具定义唯一源
+│   └── tools.json               # 工具定义唯一源（含多语言 title/description）
 ├── lib/
 │   ├── jsonTool.ts              # 纯函数：beautify/compress/validate
-│   ├── seo.ts                   # 生成 JSON-LD
+│   ├── seo.ts                   # 生成 JSON-LD（含多语言 hreflang）
 │   └── cn.ts                    # tailwind merge
 └── tests/
     ├── lib/jsonTool.test.ts
@@ -731,6 +739,148 @@ Expected: 2 passed
 git add tests/e2e/json-formatter.spec.ts
 git commit -m "test: add e2e for json formatter and adsense"
 ```
+
+---
+
+### Task 10: 多语言 i18n (zh/en/es) 与地域自动适配
+
+**Files:**
+- Create: `middleware.ts`
+- Create: `i18n.ts`
+- Create: `messages/zh.json`
+- Create: `messages/en.json`
+- Create: `messages/es.json`
+- Modify: `app/layout.tsx` -> `app/[locale]/layout.tsx`（含 lang 与 hreflang）
+- Modify: `components/Header.tsx` + Create `components/LanguageSwitcher.tsx`
+- Modify: `config/tools.json` 支持多语言 title/description
+
+**Interfaces:**
+- Consumes: Task2 的 Layout, Task6 的 ToolLayout, Task7 的路由
+- Produces: `/{locale}/json-formatter` 三语 SSG，`/` 自动重定向到地域语言，`hreflang` 与多语言 sitemap
+
+- [ ] **Step 1: 创建 i18n.ts**
+
+```ts
+export const locales = ['zh','en','es'] as const
+export type Locale = typeof locales[number]
+export const defaultLocale: Locale = 'zh'
+export const localeNames: Record<Locale,string> = { zh: '中文', en: 'English', es: 'Español' }
+export function isValidLocale(l: string): l is Locale { return (locales as readonly string[]).includes(l) }
+```
+
+- [ ] **Step 2: 创建 messages/zh.json (示例)**
+
+```json
+{
+  "header": { "title": "工具箱", "code": "编程开发", "text": "文本处理" },
+  "editor": { "beautify": "JSON美化", "compress": "JSON压缩", "sample": "查看示例", "copy": "复制结果", "clear": "清空数据", "placeholder": "请输入要格式化/压缩的JSON代码", "localNote": "所有操作均在浏览器本地完成，不上传数据", "copied": "已复制" },
+  "tool": { "h1": "在线JSON格式化/压缩工具", "desc": "使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性。" }
+}
+```
+
+- [ ] **Step 3: 创建 messages/en.json**
+
+```json
+{
+  "header": { "title": "Toolbox", "code": "Development", "text": "Text" },
+  "editor": { "beautify": "Beautify", "compress": "Minify", "sample": "Load Sample", "copy": "Copy", "clear": "Clear", "placeholder": "Paste JSON to format/minify", "localNote": "All processing is done locally in your browser, no upload", "copied": "Copied" },
+  "tool": { "h1": "Online JSON Formatter & Minifier", "desc": "Beautify, minify and validate any JSON with instant local processing." }
+}
+```
+
+- [ ] **Step 4: 创建 messages/es.json**
+
+```json
+{
+  "header": { "title": "Caja de Herramientas", "code": "Desarrollo", "text": "Texto" },
+  "editor": { "beautify": "Embellecer", "compress": "Comprimir", "sample": "Ver Ejemplo", "copy": "Copiar", "clear": "Limpiar", "placeholder": "Pegue el JSON para formatear/comprimir", "localNote": "Todo el procesamiento se realiza localmente en su navegador, sin subida", "copied": "Copiado" },
+  "tool": { "h1": "Formateador y Compresor JSON en Línea", "desc": "Embellece, comprime y valida cualquier JSON con procesamiento local instantáneo." }
+}
+```
+
+- [ ] **Step 5: 创建 middleware.ts**
+
+```ts
+import { NextRequest, NextResponse } from 'next/server'
+import { locales, defaultLocale, isValidLocale } from './i18n'
+export function middleware(req: NextRequest){
+  const { pathname } = req.nextUrl
+  if (pathname.startsWith('/_next') || pathname.startsWith('/api') || pathname.match(/\.(.*)$/)) return
+  const hasLocale = locales.some(l=> pathname===`/${l}` || pathname.startsWith(`/${l}/`))
+  if (hasLocale) return
+  if (pathname==='/' || pathname==='') {
+    const accept = req.headers.get('accept-language') || ''
+    let locale = defaultLocale
+    if (accept.includes('es')) locale='es'
+    else if (accept.includes('en')) locale='en'
+    else locale='zh'
+    return NextResponse.redirect(new URL(`/${locale}`, req.url))
+  }
+}
+export const config = { matcher: ['/((?!_next|api|.*\\.).*)'] }
+```
+
+- [ ] **Step 6: 改造 app/[locale]/layout.tsx**
+
+```tsx
+import "../globals.css"
+import { locales } from "@/i18n"
+export function generateStaticParams(){ return locales.map(locale=>({locale})) }
+export default function LocaleLayout({children, params:{locale}}:{children:React.ReactNode, params:{locale:string}}){
+  return (
+    <html lang={locale}>
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4188363142718866" crossOrigin="anonymous"></script>
+        {locales.map(l=><link key={l} rel="alternate" hrefLang={l} href={`https://example.com/${l}`} />)}
+      </head>
+      <body className="bg-[#f8fafc]">{children}</body>
+    </html>
+  )
+}
+```
+
+- [ ] **Step 7: 创建 LanguageSwitcher.tsx**
+
+```tsx
+"use client"
+import { locales, localeNames } from "@/i18n"
+import { usePathname, useParams } from "next/navigation"
+export default function LanguageSwitcher(){
+  const pathname = usePathname(); const params = useParams()
+  const current = params.locale as string
+  return (
+    <div className="flex gap-1 text-xs">
+      {locales.map(l=>{
+        const href = pathname.replace(`/${current}`, `/${l}`)
+        return <a key={l} href={href} className={`px-2 py-1 rounded ${l===current?'bg-blue-600 text-white':'bg-gray-100'}`}>{localeNames[l as keyof typeof localeNames]}</a>
+      })}
+    </div>
+  )
+}
+```
+
+- [ ] **Step 8: 多语言 sitemap 改造**
+
+```ts
+// app/sitemap.ts 需为每个 locale 生成 /zh/json-formatter, /en/json-formatter, /es/json-formatter + hreflang
+```
+
+- [ ] **Step 9: 验证**
+
+```bash
+npm run build
+# 应生成 /zh /en /es 三套静态页
+# 手动：curl -H "Accept-Language: es" http://localhost:3000/ -> 302 to /es
+```
+
+- [ ] **Step 10: Commit**
+
+```bash
+git add middleware.ts i18n.ts messages/ app/\[locale\] components/LanguageSwitcher.tsx
+git commit -m "feat: add i18n zh/en/es with locale routing and middleware"
+```
+
+**注：** 此任务需在 Task2/6/7/8 之后执行，或与之合并实现；后续所有组件需通过 `messages/[locale].json` 读取文案。
 
 ---
 
