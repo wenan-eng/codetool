@@ -1,7 +1,7 @@
 import tools from "@/config/tools.json"
 import { locales } from "@/i18n"
 export default function sitemap(){
-  const base='https://example.com'
+  const base='https://codetool.site'
   const now = new Date()
   const entries: any[] = []
   for(const locale of locales){

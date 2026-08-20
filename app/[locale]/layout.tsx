@@ -8,8 +8,8 @@ export default function LocaleLayout({children, params:{locale}}:{children:React
     <html lang={locale}>
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4188363142718866" crossOrigin="anonymous"></script>
-        {locales.map(l=><link key={l} rel="alternate" hrefLang={l} href={`https://example.com/${l}`} />)}
-        <link rel="alternate" hrefLang="x-default" href="https://example.com/zh" />
+        {locales.map(l=><link key={l} rel="alternate" hrefLang={l} href={`https://codetool.site/${l}`} />)}
+        <link rel="alternate" hrefLang="x-default" href="https://codetool.site/zh" />
       </head>
       <body className="bg-[#f8fafc] text-gray-900">
         <Header locale={locale} />
