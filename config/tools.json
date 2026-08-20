@@ -4,13 +4,35 @@
     "title": "在线JSON格式化/压缩工具",
     "h1": "在线JSON格式化/压缩工具",
     "description": "使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性，实时处理，全面提升开发调试效率。",
+    "title_en": "Online JSON Formatter & Minifier",
+    "h1_en": "Online JSON Formatter & Minifier",
+    "description_en": "Beautify, minify and validate any JSON with instant local processing.",
+    "title_es": "Formateador y Compresor JSON en Línea",
+    "h1_es": "Formateador y Compresor JSON en Línea",
+    "description_es": "Embellece, comprime y valida cualquier JSON con procesamiento local instantáneo.",
     "tags": ["JSON美化", "JSON压缩", "JSON解析", "JSON校验"],
+    "tags_en": ["Beautify", "Minify", "Parse", "Validate"],
+    "tags_es": ["Embellecer", "Comprimir", "Parsear", "Validar"],
     "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
     "faqs": [
       {"q": "什么是JSON美化与压缩？", "a": "美化是通过缩进换行重建清晰结构，压缩是移除空白生成单行最小体积。"},
       {"q": "如何美化混乱的JSON？", "a": "粘贴到输入框点击“JSON美化”即可。"},
       {"q": "如何压缩JSON？", "a": "点击“JSON压缩”生成最小单行。"},
       {"q": "会被上传吗？", "a": "不会，所有操作在浏览器本地完成。"}
+    ],
+    "faqs_en": [
+      {"q": "What is JSON beautify and minify?", "a": "Beautify rebuilds readable structure with indentation; minify removes whitespace to a single line."},
+      {"q": "How to beautify messy JSON?", "a": "Paste into the input and click Beautify."},
+      {"q": "How to minify JSON?", "a": "Click Minify to generate the smallest single line."},
+      {"q": "Will my data be uploaded?", "a": "No, all operations run locally in your browser."}
+    ],
+    "faqs_es": [
+      {"q": "¿Qué es embellecer y comprimir JSON?", "a": "Embellecer reconstruye una estructura legible con indentación; comprimir elimina espacios a una sola línea."},
+      {"q": "¿Cómo embellecer JSON desordenado?", "a": "Pegue en la entrada y haga clic en Embellecer."},
+      {"q": "¿Cómo comprimir JSON?", "a": "Haga clic en Comprimir para generar una sola línea mínima."},
+      {"q": "¿Se subirán mis datos?", "a": "No, todo se ejecuta localmente en su navegador."}
     ],
     "related": ["base64-encode", "sql-format", "html-formatter", "css-formatter"]
   }

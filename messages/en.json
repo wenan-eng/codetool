@@ -1,0 +1,22 @@
+{
+  "header": { "title": "Toolbox", "code": "Development", "text": "Text", "encode": "Encode", "search": "Search tools" },
+  "editor": { "beautify": "Beautify", "compress": "Minify", "sample": "Load Sample", "copy": "Copy", "clear": "Clear", "placeholder": "Paste JSON to format/minify", "localNote": "All processing is done locally in your browser, no upload", "copied": "Copied" },
+  "tool": { "h1": "Online JSON Formatter & Minifier", "desc": "Beautify, minify and validate any JSON with instant local processing." },
+  "home": { "title": "Free Online Toolbox", "more": "Explore" },
+  "footer": { "popular": "Popular", "tools": "Webmaster", "about": "About", "compliance": "Compliance", "aboutUs": "About Us", "privacy": "Privacy Policy", "terms": "Terms of Service", "contact": "Contact", "rights": "© 2026 Toolbox All Rights Reserved" },
+  "pages": {
+    "privacy": { "title": "Privacy Policy", "h1": "Privacy Policy", "p1": "All tools run locally in your browser. We do not upload or store your JSON data. We use Google AdSense to display ads; Google may use cookies. Contact: privacy@example.com", "date": "Effective date: 2026-08-20" },
+    "about": { "title": "About Us", "h1": "About Us", "p1": "We provide free online developer tools focused on local processing and privacy. All tools run locally in your browser; your data is never uploaded.", "p2": "Maintained by independent developers, we aim to offer lightweight, fast, no-registration tools for everyday use, covering JSON formatting, encoding conversion, text processing and more.", "p3": "We use Google AdSense to sustain the site. Google may use cookies to deliver personalized ads. You can manage or disable cookies in your browser settings.", "p4": "For suggestions or collaboration, contact: privacy@example.com", "date": "Effective date: 2026-08-20" },
+    "contact": { "title": "Contact Us", "h1": "Contact Us", "p1": "For questions, feedback or business inquiries, feel free to reach us and we will reply soon.", "email": "Email: ", "namePlaceholder": "Your name", "emailPlaceholder": "Your email", "messagePlaceholder": "Your message", "send": "Send (demo)", "privacyNote": "Privacy: All tools run locally, no upload. We use Google AdSense; Google may use cookies. Manage cookie preferences in your browser.", "date": "Effective date: 2026-08-20" },
+    "terms": { "title": "Terms of Service", "h1": "Terms of Service", "intro": "Welcome to our online tools. By using this site you agree to the following terms.", "p1": "1. Service: Free online tools run locally in your browser, without 100% availability guarantee and without storing user data.", "p2": "2. User conduct: Do not abuse the service or attempt to attack or disrupt the site.", "p3": "3. Disclaimer: Tool outputs are for reference only; we are not liable for any direct or indirect loss from using the service.", "p4": "4. Ads & Cookies: We use Google AdSense; Google may use cookies to deliver and measure ads. Manage via browser settings or Google Ad Settings.", "p5": "5. Contact: For questions about these terms, contact privacy@example.com.", "date": "Effective date: 2026-08-20" }
+  },
+  "toolLayout": {
+    "usageTitle": "How to Use",
+    "usage1": "Paste any valid JSON, supports nesting, arrays and escapes",
+    "usage2": "Click Beautify to auto indent and format",
+    "usage3": "Click Minify to remove whitespace into one line",
+    "usage4": "All operations run locally for privacy",
+    "relatedTitle": "Related Tools",
+    "faqTitle": "FAQ"
+  }
+}
