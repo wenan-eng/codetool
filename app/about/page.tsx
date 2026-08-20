@@ -1,2 +1,0 @@
-export const metadata={title:"关于我们"}
-export default function Page(){ return <article className="bg-white rounded-xl border p-6 prose prose-sm max-w-none"><h1>关于我们</h1><p>我们提供免费在线开发者工具，专注本地处理与隐私安全。所有工具在浏览器本地运行，你的数据不会上传到服务器。</p><p>本站由独立开发者维护，目标是为开发者提供轻量、快速、无需注册的日常工具集，涵盖 JSON 格式化、编码转换、文本处理等常用场景。</p><p>我们使用 Google AdSense 展示广告以维持站点运营，Google 可能会使用 Cookie 来展示个性化广告。你可以在浏览器设置中管理或禁用 Cookie。</p><p>如有任何建议或合作意向，欢迎联系：cirirude15@gmail.com</p><p>生效日期：2026-08-20</p></article>}
