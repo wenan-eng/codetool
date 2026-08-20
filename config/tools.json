@@ -34,6 +34,6 @@
       {"q": "¿Cómo comprimir JSON?", "a": "Haga clic en Comprimir para generar una sola línea mínima."},
       {"q": "¿Se subirán mis datos?", "a": "No, todo se ejecuta localmente en su navegador."}
     ],
-    "related": ["base64-encode", "sql-format", "html-formatter", "css-formatter"]
+    "related": ["json-formatter"]
   }
 ]
