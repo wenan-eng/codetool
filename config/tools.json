@@ -2662,5 +2662,1937 @@
       "json-csv",
       "json-yaml"
     ]
+  },
+  {
+    "id": "screen-inspector",
+    "title": "在线屏幕信息查看工具",
+    "h1": "在线屏幕信息查看工具",
+    "description": "在线屏幕信息查看工具，实时显示屏幕分辨率、可用区域、视口大小、设备像素比、颜色深度、像素深度、屏幕方向、宽高比等，一键复制，全部本地处理保障隐私。",
+    "title_en": "Online Screen Inspector",
+    "h1_en": "Online Screen Inspector",
+    "description_en": "Inspect screen resolution, available area, viewport, devicePixelRatio, colorDepth, pixelDepth, orientation and aspect ratio in real time with one-click copy, all local processing.",
+    "title_es": "Inspector de Pantalla en Línea",
+    "h1_es": "Inspector de Pantalla en Línea",
+    "description_es": "Inspecciona resolución, área disponible, viewport, devicePixelRatio, colorDepth, pixelDepth, orientación y relación de aspecto en tiempo real con copia en un clic y procesamiento local.",
+    "tags": [
+      "屏幕分辨率",
+      "视口",
+      "像素比",
+      "颜色深度"
+    ],
+    "tags_en": [
+      "Resolution",
+      "Viewport",
+      "DPR",
+      "ColorDepth"
+    ],
+    "tags_es": [
+      "Resolución",
+      "Viewport",
+      "DPR",
+      "Color"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "屏幕信息包含哪些？",
+        "a": "包含 screen.width/height、availWidth/availHeight、viewport (innerWidth/innerHeight)、outerWidth/outerHeight、devicePixelRatio、colorDepth/pixelDepth、orientation、宽高比与总像素等。"
+      },
+      {
+        "q": "数据会上传吗？",
+        "a": "不会，所有读取在浏览器本地完成，仅通过 window.screen 与 window.innerWidth 等 API 获取，不上传任何数据。"
+      },
+      {
+        "q": "视口大小会实时更新吗？",
+        "a": "会，监听 resize 与 orientationchange 事件，窗口变化时自动刷新；也可点击“刷新”手动更新。"
+      },
+      {
+        "q": "如何复制结果？",
+        "a": "每项右侧有“复制”按钮，顶部有“复制 JSON”可一键复制完整 JSON，便于提交 bug 或适配调试。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What info is shown?",
+        "a": "screen.width/height, availWidth/availHeight, viewport (innerWidth/innerHeight), outerWidth/outerHeight, devicePixelRatio, colorDepth/pixelDepth, orientation, aspect ratio and megapixels."
+      },
+      {
+        "q": "Will data be uploaded?",
+        "a": "No, all reading is local via window.screen and window.innerWidth, nothing is uploaded."
+      },
+      {
+        "q": "Does viewport update in real time?",
+        "a": "Yes, listens to resize and orientationchange and auto refreshes; you can also click Refresh."
+      },
+      {
+        "q": "How to copy results?",
+        "a": "Each row has a Copy button; top Copy JSON copies the full JSON for bug reports or responsive debugging."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué información muestra?",
+        "a": "screen.width/height, availWidth/availHeight, viewport (innerWidth/innerHeight), outerWidth/outerHeight, devicePixelRatio, colorDepth/pixelDepth, orientación, relación de aspecto y megapíxeles."
+      },
+      {
+        "q": "¿Se subirán los datos?",
+        "a": "No, toda la lectura es local vía window.screen y window.innerWidth, nada se sube."
+      },
+      {
+        "q": "¿El viewport se actualiza en tiempo real?",
+        "a": "Sí, escucha resize y orientationchange y se actualiza automáticamente; también puede hacer clic en Actualizar."
+      },
+      {
+        "q": "¿Cómo copiar resultados?",
+        "a": "Cada fila tiene Copiar; Copiar JSON copia el JSON completo para informes o depuración."
+      }
+    ],
+    "related": [
+      "json-formatter",
+      "timestamp",
+      "hex-converter"
+    ]
+  },
+  {
+    "id": "php-serialize",
+    "title": "在线PHP序列化/反序列化工具",
+    "h1": "在线PHP序列化/反序列化工具",
+    "description": "在线 PHP serialize/unserialize 工具，支持字符串、整数、布尔、数组与对象与 JSON 双向互转，自动处理 UTF-8 字节长度，本地处理保障隐私。",
+    "title_en": "Online PHP Serialize / Unserialize",
+    "h1_en": "Online PHP Serialize / Unserialize",
+    "description_en": "Convert between JSON and PHP serialize format for strings, ints, booleans, arrays and objects with UTF-8 byte length handling, all local processing.",
+    "title_es": "Serializar / Deserializar PHP en Línea",
+    "h1_es": "Serializar / Deserializar PHP en Línea",
+    "description_es": "Convierte entre JSON y formato PHP serialize para strings, enteros, booleanos, arreglos y objetos con manejo UTF-8, procesamiento local.",
+    "tags": [
+      "PHP序列化",
+      "反序列化",
+      "JSON转PHP",
+      "PHP工具"
+    ],
+    "tags_en": [
+      "PHP Serialize",
+      "Unserialize",
+      "JSON to PHP",
+      "PHP"
+    ],
+    "tags_es": [
+      "PHP Serialize",
+      "Deserializar",
+      "JSON a PHP",
+      "PHP"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "什么是 PHP 序列化？",
+        "a": "PHP serialize 将数组/对象编码为如 a:2:{i:0;s:3:\"foo\";} 的字符串，用于存储或传输，unserialize 可还原。"
+      },
+      {
+        "q": "如何 JSON 转 PHP 序列化？",
+        "a": "粘贴 JSON 如 [\"foo\",\"bar\"] 点击“JSON转PHP序列化”即可得到 a:2:{i:0;s:3:\"foo\";i:1;s:3:\"bar\";}。"
+      },
+      {
+        "q": "支持哪些类型？",
+        "a": "支持 string、int、float、bool、null、数组（索引与关联）及嵌套结构；暂不支持 PHP 对象 O:... 与引用。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有序列化/反序列化在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is PHP serialize?",
+        "a": "PHP serialize encodes arrays/objects to strings like a:2:{i:0;s:3:\"foo\";} for storage, unserialize restores them."
+      },
+      {
+        "q": "How to convert JSON to PHP serialize?",
+        "a": "Paste JSON like [\"foo\",\"bar\"] and click JSON to PHP to get a:2:{i:0;s:3:\"foo\";i:1;s:3:\"bar\";}."
+      },
+      {
+        "q": "Which types are supported?",
+        "a": "string, int, float, bool, null, indexed and associative arrays with nesting; objects O:... not yet supported."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all operations run locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es PHP serialize?",
+        "a": "Codifica arreglos/objetos a cadenas como a:2:{i:0;s:3:\"foo\";} para almacenamiento."
+      },
+      {
+        "q": "¿Cómo JSON a PHP?",
+        "a": "Pegue JSON como [\"foo\",\"bar\"] y haga clic en JSON a PHP."
+      },
+      {
+        "q": "¿Qué tipos soporta?",
+        "a": "string, int, float, bool, null, arreglos indexados y asociativos anidados."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "json-formatter",
+      "json-flatten",
+      "json-base64"
+    ]
+  },
+  {
+    "id": "pwa-manifest",
+    "title": "在线PWA Manifest生成器",
+    "h1": "在线PWA Manifest生成器",
+    "description": "可视化配置 PWA manifest.json：填写 name、short_name、icons、theme_color、display、start_url 等表单字段，实时生成可下载的 JSON，支持导入已有 manifest 回填表单，本地处理。",
+    "title_en": "Online PWA Manifest Generator",
+    "h1_en": "Online PWA Manifest Generator",
+    "description_en": "Visually configure PWA manifest.json: fill name, short_name, icons, theme_color, display, start_url etc, generate downloadable JSON, import existing manifest to form, local processing.",
+    "title_es": "Generador de Manifest PWA en Línea",
+    "h1_es": "Generador de Manifest PWA en Línea",
+    "description_es": "Configura visualmente manifest.json PWA: name, short_name, icons, theme_color, display, start_url, genera JSON descargable, importa existentes, local.",
+    "tags": [
+      "PWA",
+      "Manifest",
+      "图标配置",
+      "生成器"
+    ],
+    "tags_en": [
+      "PWA",
+      "Manifest",
+      "Icons",
+      "Generator"
+    ],
+    "tags_es": [
+      "PWA",
+      "Manifest",
+      "Iconos",
+      "Generador"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "PWA Manifest 是什么？",
+        "a": "manifest.json 描述 PWA 的名称、图标、主题色、启动地址等，浏览器据此提供安装与启动体验。"
+      },
+      {
+        "q": "如何生成 manifest？",
+        "a": "填写表单中 name、short_name、icons 等字段，点击“生成 JSON”可在右侧预览并下载 manifest.json。"
+      },
+      {
+        "q": "如何配置图标？",
+        "a": "在图标区域添加多行，填写 src 与 sizes 如 192x192，支持 type 与 purpose，自动过滤空行。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有配置与生成在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is PWA manifest?",
+        "a": "manifest.json describes PWA name, icons, theme color, start_url etc for install experience."
+      },
+      {
+        "q": "How to generate?",
+        "a": "Fill name, short_name, icons etc and click Generate JSON to preview and download."
+      },
+      {
+        "q": "How to configure icons?",
+        "a": "Add rows with src and sizes like 192x192, type and purpose supported, empty rows filtered."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local processing."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es manifest PWA?",
+        "a": "manifest.json describe nombre, iconos, color, start_url para instalación."
+      },
+      {
+        "q": "¿Cómo generar?",
+        "a": "Complete name, short_name, icons y haga clic en Generar."
+      },
+      {
+        "q": "¿Cómo configurar iconos?",
+        "a": "Añada filas con src y sizes como 192x192."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "button-css",
+      "json-formatter",
+      "html-formatter"
+    ]
+  },
+  {
+    "id": "button-css",
+    "title": "在线按钮CSS生成器",
+    "h1": "在线按钮CSS生成器",
+    "description": "可视化按钮 CSS 生成器：拖动调节背景色、圆角、内边距、字号、边框、阴影等，实时预览效果，一键复制 CSS 与 HTML，本地处理即时生效。",
+    "title_en": "Online Button CSS Generator",
+    "h1_en": "Online Button CSS Generator",
+    "description_en": "Visual button CSS generator: adjust bg, radius, padding, font size, border, shadow with live preview, copy CSS and HTML instantly, local processing.",
+    "title_es": "Generador CSS de Botón en Línea",
+    "h1_es": "Generador CSS de Botón en Línea",
+    "description_es": "Generador visual CSS de botón: ajusta fondo, radio, padding, fuente, borde, sombra con vista previa en vivo, copia CSS y HTML, local.",
+    "tags": [
+      "按钮CSS",
+      "CSS生成器",
+      "样式预览",
+      "前端工具"
+    ],
+    "tags_en": [
+      "Button CSS",
+      "CSS Generator",
+      "Preview",
+      "Frontend"
+    ],
+    "tags_es": [
+      "Botón CSS",
+      "Generador CSS",
+      "Vista previa",
+      "Frontend"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "按钮 CSS 生成器做什么？",
+        "a": "通过表单调节背景、文字色、圆角、内边距、字号、边框与阴影，实时预览并生成可复制的 CSS 与 HTML。"
+      },
+      {
+        "q": "如何复制结果？",
+        "a": "在右侧点击“复制 CSS”或“复制 HTML”，可直接粘贴到项目中使用，包含 hover 样式。"
+      },
+      {
+        "q": "支持悬停效果吗？",
+        "a": "支持，可配置 hover 背景与文字色，生成 :hover 规则。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有调节与生成在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does button CSS generator do?",
+        "a": "Adjust bg, text color, radius, padding, font, border and shadow with live preview and copyable CSS/HTML."
+      },
+      {
+        "q": "How to copy results?",
+        "a": "Click Copy CSS or Copy HTML on the right to paste into your project, includes hover."
+      },
+      {
+        "q": "Does it support hover?",
+        "a": "Yes, configure hover bg and text color, generates :hover rule."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, local processing."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué hace el generador?",
+        "a": "Ajusta fondo, color, radio, padding, fuente, borde y sombra con vista previa y CSS copiable."
+      },
+      {
+        "q": "¿Cómo copiar?",
+        "a": "Clic en Copiar CSS o Copiar HTML."
+      },
+      {
+        "q": "¿Soporta hover?",
+        "a": "Sí, genera regla :hover."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "pwa-manifest",
+      "loading",
+      "css-formatter"
+    ]
+  },
+  {
+    "id": "loading",
+    "title": "在线CSS加载动画画廊",
+    "h1": "在线CSS加载动画画廊",
+    "description": "CSS 加载动画画廊：展示旋转圆环、跳动圆点、条形、脉冲、双环、骨架屏、进度条、输入中等 8 种纯 CSS 动画，带实时预览与一键复制 HTML/CSS，本地处理。",
+    "title_en": "Online CSS Loading Gallery",
+    "h1_en": "Online CSS Loading Gallery",
+    "description_en": "CSS loading animation gallery: 8 pure CSS animations including spinner, dots, bars, pulse, dual ring, skeleton, progress, typing with live preview and copy HTML/CSS, local processing.",
+    "title_es": "Galería de Loading CSS en Línea",
+    "h1_es": "Galería de Loading CSS en Línea",
+    "description_es": "Galería de animaciones de carga CSS: 8 animaciones puras como spinner, puntos, barras, pulso, doble anillo, esqueleto, progreso, escribiendo con vista previa y copia, local.",
+    "tags": [
+      "加载动画",
+      "Loading",
+      "CSS动画",
+      "Spinner"
+    ],
+    "tags_en": [
+      "Loading",
+      "Spinner",
+      "CSS Animation",
+      "Gallery"
+    ],
+    "tags_es": [
+      "Loading",
+      "Spinner",
+      "Animación CSS",
+      "Galería"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "加载动画有哪些？",
+        "a": "包含旋转圆环、跳动圆点、条形、脉冲、双环、骨架屏、进度条、输入中 8 种，均为纯 CSS 无需 JS。"
+      },
+      {
+        "q": "如何复制使用？",
+        "a": "每张卡片可单独复制 HTML、CSS 或全部，粘贴到项目中即可使用，包含 @keyframes。"
+      },
+      {
+        "q": "可以自定义颜色吗？",
+        "a": "可以，复制后修改 CSS 中的 #3b82f6 等色值为你的主题色即可。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部为静态 CSS 展示与复制，本地处理。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which animations are included?",
+        "a": "Spinner, bouncing dots, bars, pulse, dual ring, skeleton, progress, typing — all pure CSS."
+      },
+      {
+        "q": "How to copy and use?",
+        "a": "Each card can copy HTML, CSS or all, paste with @keyframes included."
+      },
+      {
+        "q": "Can I customize colors?",
+        "a": "Yes, change #3b82f6 in the CSS to your theme color."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all static CSS display and copy, local."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué animaciones incluye?",
+        "a": "Spinner, puntos, barras, pulso, doble anillo, esqueleto, progreso, escribiendo — puro CSS."
+      },
+      {
+        "q": "¿Cómo copiar y usar?",
+        "a": "Cada tarjeta copia HTML, CSS o todo con @keyframes."
+      },
+      {
+        "q": "¿Puedo personalizar colores?",
+        "a": "Sí, cambie #3b82f6 por su color."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, local."
+      }
+    ],
+    "related": [
+      "button-css",
+      "pwa-manifest",
+      "css-formatter"
+    ]
+  },
+  {
+    "id": "strip-comments",
+    "title": "在线代码注释移除工具",
+    "h1": "在线代码注释移除工具",
+    "description": "在线移除代码中的注释，支持 JavaScript、Python、HTML、CSS、SQL 等多语言，自动识别 // /* */ # <!-- --> 等注释格式，保留字符串内注释符号，全部本地处理保障隐私。",
+    "title_en": "Online Strip Comments",
+    "h1_en": "Online Strip Comments",
+    "description_en": "Remove code comments by language: JS // /* */, Python #, HTML <!-- -->, CSS /* */, SQL --. Preserves strings, regex-based, local processing.",
+    "title_es": "Eliminar Comentarios en Línea",
+    "h1_es": "Eliminar Comentarios en Línea",
+    "description_es": "Elimina comentarios por lenguaje: JS // /* */, Python #, HTML <!-- -->, CSS /* */, SQL --. Preserva cadenas, basado en regex, procesamiento local.",
+    "tags": [
+      "移除注释",
+      "代码清理",
+      "JS注释",
+      "Python注释"
+    ],
+    "tags_en": [
+      "Strip Comments",
+      "Clean Code",
+      "JS",
+      "Python"
+    ],
+    "tags_es": [
+      "Eliminar Comentarios",
+      "Limpiar Código",
+      "JS",
+      "Python"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "支持哪些语言的注释移除？",
+        "a": "支持 JS/TS/Java/C/Go 的 // 与 /* */，Python/Shell 的 #，HTML 的 <!-- -->，CSS 的 /* */，SQL 的 -- 与 /* */。"
+      },
+      {
+        "q": "会误删字符串内的注释符号吗？",
+        "a": "不会，工具先用占位符保护单引号、双引号与反引号字符串，再移除注释，最后还原。"
+      },
+      {
+        "q": "如何使用？",
+        "a": "粘贴代码、选择语言，点击“移除注释”即可，支持多行批量处理。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有移除在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which languages are supported?",
+        "a": "JS/TS/Java/C/Go // and /* */, Python/Shell #, HTML <!-- -->, CSS /* */, SQL -- and /* */."
+      },
+      {
+        "q": "Will it remove comment-like content inside strings?",
+        "a": "No, strings in single, double and backtick quotes are protected via placeholders before stripping."
+      },
+      {
+        "q": "How to use?",
+        "a": "Paste code, select language and click Strip Comments."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all processing runs locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué lenguajes soporta?",
+        "a": "JS/TS/Java/C/Go // y /* */, Python/Shell #, HTML <!-- -->, CSS /* */, SQL -- y /* */."
+      },
+      {
+        "q": "¿Eliminará contenido similar a comentarios dentro de cadenas?",
+        "a": "No, las cadenas con comillas simples, dobles y backtick se protegen antes de eliminar."
+      },
+      {
+        "q": "¿Cómo usar?",
+        "a": "Pegue código, seleccione lenguaje y haga clic en Eliminar Comentarios."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, procesamiento local."
+      }
+    ],
+    "related": [
+      "html-filter",
+      "js-formatter",
+      "css-formatter"
+    ]
+  },
+  {
+    "id": "html-filter",
+    "title": "在线HTML过滤工具",
+    "h1": "在线HTML过滤工具",
+    "description": "在线过滤 HTML 标签，支持移除 <script> <style>、提取纯文本、按白名单保留标签，自动解码实体与合并空白，全部本地处理。",
+    "title_en": "Online HTML Filter",
+    "h1_en": "Online HTML Filter",
+    "description_en": "Filter HTML instantly: remove <script>/<style>, extract text, allowlist tags, decode entities and collapse whitespace with local processing.",
+    "title_es": "Filtro HTML en Línea",
+    "h1_es": "Filtro HTML en Línea",
+    "description_es": "Filtra HTML al instante: elimina <script>/<style>, extrae texto, lista blanca de etiquetas, decodifica entidades y colapsa espacios con procesamiento local.",
+    "tags": [
+      "HTML过滤",
+      "提取文本",
+      "移除脚本",
+      "HTML工具"
+    ],
+    "tags_en": [
+      "HTML Filter",
+      "Extract Text",
+      "Strip Scripts",
+      "HTML"
+    ],
+    "tags_es": [
+      "Filtro HTML",
+      "Extraer Texto",
+      "Eliminar Scripts",
+      "HTML"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "可以移除 <script> 和 <style> 吗？",
+        "a": "可以，勾选对应选项即可通过正则移除标签及内容，支持大小写不敏感与多行。"
+      },
+      {
+        "q": "如何提取纯文本？",
+        "a": "勾选“提取纯文本”，工具会先移除脚本/样式与注释，再剥离所有标签、解码实体并合并空白。"
+      },
+      {
+        "q": "白名单标签如何使用？",
+        "a": "在白名单输入框填入如 p, a, div，逗号分隔，仅保留这些标签，其余标签被移除但保留内部文本。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部正则过滤在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Can it remove <script> and <style>?",
+        "a": "Yes, check the options to regex-remove tags and content case-insensitively."
+      },
+      {
+        "q": "How to extract plain text?",
+        "a": "Check Extract Text to strip scripts/styles/comments, then all tags, decode entities and collapse whitespace."
+      },
+      {
+        "q": "How to use allowlist?",
+        "a": "Enter tags like p, a, div comma separated; only those are kept, others stripped but inner text preserved."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all regex filtering runs locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Puede eliminar <script> y <style>?",
+        "a": "Sí, marque las opciones para eliminar etiquetas y contenido con regex insensible a mayúsculas."
+      },
+      {
+        "q": "¿Cómo extraer texto plano?",
+        "a": "Marque Extraer Texto para eliminar scripts/estilos/comentarios y luego todas las etiquetas, decodificar entidades y colapsar espacios."
+      },
+      {
+        "q": "¿Cómo usar lista blanca?",
+        "a": "Ingrese etiquetas como p, a, div separadas por coma; solo esas se conservan."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, filtrado local."
+      }
+    ],
+    "related": [
+      "strip-comments",
+      "image-extract",
+      "html-formatter"
+    ]
+  },
+  {
+    "id": "csv-merge",
+    "title": "在线CSV合并工具",
+    "h1": "在线CSV合并工具",
+    "description": "在线合并多个 CSV 表格，自动处理表头去重与列对齐，支持不同表头并集、引号逗号转义，空行过滤，全部本地处理。",
+    "title_en": "Online CSV Merge",
+    "h1_en": "Online CSV Merge",
+    "description_en": "Merge multiple CSVs with header deduplication and column alignment. Handles differing headers as union, quoted commas, empty line filtering, local processing.",
+    "title_es": "Fusionar CSV en Línea",
+    "h1_es": "Fusionar CSV en Línea",
+    "description_es": "Fusiona múltiples CSV con deduplicación de cabeceras y alineación de columnas. Unión de cabeceras diferentes, comas citadas, filtrado de líneas vacías, local.",
+    "tags": [
+      "CSV合并",
+      "表头去重",
+      "表格合并",
+      "CSV工具"
+    ],
+    "tags_en": [
+      "CSV Merge",
+      "Header Dedup",
+      "Merge Tables",
+      "CSV"
+    ],
+    "tags_es": [
+      "Fusionar CSV",
+      "Dedup Cabecera",
+      "Fusionar Tablas",
+      "CSV"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "如何合并多个 CSV？",
+        "a": "在多个输入框分别粘贴 CSV（首行为表头），点击“合并 CSV”，工具会合并表头为并集并按列对齐输出。"
+      },
+      {
+        "q": "表头不同会怎样？",
+        "a": "不同 CSV 的表头会取并集按首次出现顺序合并，缺失字段对应行留空。"
+      },
+      {
+        "q": "如何处理逗号和引号？",
+        "a": "按 CSV 规范解析，引号包裹的字段内逗号不分割，输出时含逗号/引号的字段会自动加引号并转义内部引号为 \"\"。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有合并在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to merge multiple CSVs?",
+        "a": "Paste each CSV (first row as header) into separate inputs and click Merge; headers union and columns aligned."
+      },
+      {
+        "q": "What if headers differ?",
+        "a": "Headers become union in first-appearance order; missing fields are empty."
+      },
+      {
+        "q": "How are commas/quotes handled?",
+        "a": "Per CSV spec, quoted commas not split; output quotes fields with comma/quote and escapes \"\" ."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, merging runs locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo fusionar múltiples CSV?",
+        "a": "Pegue cada CSV (primera fila cabecera) en entradas separadas y haga clic en Fusionar; cabeceras en unión y columnas alineadas."
+      },
+      {
+        "q": "¿Si cabeceras difieren?",
+        "a": "Se vuelven unión en orden de aparición; faltantes vacíos."
+      },
+      {
+        "q": "¿Comas/comillas?",
+        "a": "Según CSV, comas citadas no se dividen; salida cita campos con coma/comilla y escapa \"\"."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, fusión local."
+      }
+    ],
+    "related": [
+      "csv-json",
+      "image-extract",
+      "strip-comments"
+    ]
+  },
+  {
+    "id": "image-extract",
+    "title": "在线图片链接提取工具",
+    "h1": "在线图片链接提取工具",
+    "description": "在线从 HTML 中提取 <img> 图片链接，通过正则匹配 src 属性，支持单双引号、无引号及大小写不敏感，每行一个输出，便于批量收集。",
+    "title_en": "Online Image Extractor",
+    "h1_en": "Online Image Extractor",
+    "description_en": "Extract image URLs from HTML via regex <img src>. Supports single/double/unquoted src, case-insensitive, one per line for batch collection.",
+    "title_es": "Extractor de Imágenes en Línea",
+    "h1_es": "Extractor de Imágenes en Línea",
+    "description_es": "Extrae URLs de imágenes desde HTML vía regex <img src>. Soporta src con comillas simple/doble/sin, insensible a mayúsculas, una por línea.",
+    "tags": [
+      "图片提取",
+      "img src",
+      "HTML解析",
+      "链接提取"
+    ],
+    "tags_en": [
+      "Image Extract",
+      "img src",
+      "HTML Parse",
+      "Extractor"
+    ],
+    "tags_es": [
+      "Extraer Imagen",
+      "img src",
+      "Parsear HTML",
+      "Extractor"
+    ],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {
+        "q": "如何提取图片链接？",
+        "a": "粘贴包含 <img> 的 HTML，点击“提取图片”，工具会用正则 /<img[^>]*src=.../gi 提取所有 src，每行一个。"
+      },
+      {
+        "q": "支持哪些 src 写法？",
+        "a": "支持双引号、单引号与无引号三种写法，且标签与属性大小写不敏感，如 <IMG SRC='...'> 也能识别。"
+      },
+      {
+        "q": "会去重吗？",
+        "a": "不会去重，按出现顺序原样输出，便于保留重复引用；如需去重可自行处理。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有提取在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to extract image links?",
+        "a": "Paste HTML with <img> and click Extract; regex /<img[^>]*src=.../gi extracts all src one per line."
+      },
+      {
+        "q": "Which src formats are supported?",
+        "a": "Double, single and unquoted src, case-insensitive for tag and attribute like <IMG SRC='...'>."
+      },
+      {
+        "q": "Does it deduplicate?",
+        "a": "No, preserves order and duplicates for faithful collection; dedup manually if needed."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, extraction runs locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo extraer enlaces de imágenes?",
+        "a": "Pegue HTML con <img> y haga clic en Extraer; regex extrae todos los src uno por línea."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "src con comillas dobles, simples y sin, insensible a mayúsculas como <IMG SRC='...'>."
+      },
+      {
+        "q": "¿Deduplica?",
+        "a": "No, preserva orden y duplicados."
+      },
+      {
+        "q": "¿Se subirán datos?",
+        "a": "No, extracción local."
+      }
+    ],
+    "related": [
+      "html-filter",
+      "csv-merge",
+      "html-formatter"
+    ]
+  },
+  {
+    "id": "line-chart",
+    "title": "在线折线图生成器",
+    "h1": "在线折线图生成器",
+    "description": "在线折线图生成器，输入标签与数值（每行 label,value 或表头 CSV）一键生成折线图，支持曲线平滑、点标记、Chart.js 配置导出与 SVG 下载，全部本地处理。",
+    "title_en": "Online Line Chart Generator",
+    "h1_en": "Online Line Chart Generator",
+    "description_en": "Generate line charts instantly from label,value lines or CSV with header, smooth curves, point markers, Chart.js config export and SVG download, all local processing.",
+    "title_es": "Generador de Gráfico de Líneas en Línea",
+    "h1_es": "Generador de Gráfico de Líneas en Línea",
+    "description_es": "Genera gráficos de líneas al instante desde líneas label,value o CSV con cabecera, curvas suaves y marcadores, exporta config Chart.js y descarga SVG, todo local.",
+    "tags": [
+      "折线图",
+      "趋势",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Line",
+      "Trend",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Líneas",
+      "Tendencia",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "如何输入数据？",
+        "a": "每行输入 标签,数值，如 Jan,100；支持含表头的 CSV，如 label,value 或 Month,Sales,Profit，多系列自动识别；也支持 JSON。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input data?",
+        "a": "One line per label,value like Jan,100; supports header CSV like label,value or Month,Sales,Profit for multi-series auto detection; also JSON."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar datos?",
+        "a": "Una línea por label,value como Jan,100; soporta CSV con cabecera como label,value o Month,Sales,Profit para multiserie; también JSON."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "bar-chart",
+      "pie-chart",
+      "horizontal-bar-chart"
+    ]
+  },
+  {
+    "id": "bar-chart",
+    "title": "在线柱状图生成器",
+    "h1": "在线柱状图生成器",
+    "description": "在线柱状图生成器，输入标签与数值快速生成柱状图，支持多色柱、圆角、数值标注、Chart.js 配置与 SVG 导出，本地处理保障隐私。",
+    "title_en": "Online Bar Chart Generator",
+    "h1_en": "Online Bar Chart Generator",
+    "description_en": "Generate bar charts instantly from label,value data with multicolor bars, rounded corners, value labels, Chart.js config and SVG export, local processing.",
+    "title_es": "Generador de Gráfico de Barras en Línea",
+    "h1_es": "Generador de Gráfico de Barras en Línea",
+    "description_es": "Genera gráficos de barras al instante con barras multicolor, bordes redondeados y etiquetas, exporta Chart.js y SVG, local.",
+    "tags": [
+      "柱状图",
+      "对比",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Bar",
+      "Compare",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Barras",
+      "Comparar",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "如何输入数据？",
+        "a": "每行输入 标签,数值，如 Jan,100；支持含表头的 CSV，如 label,value 或 Month,Sales,Profit，多系列自动识别；也支持 JSON。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input data?",
+        "a": "One line per label,value like Jan,100; supports header CSV like label,value or Month,Sales,Profit for multi-series auto detection; also JSON."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar datos?",
+        "a": "Una línea por label,value como Jan,100; soporta CSV con cabecera como label,value o Month,Sales,Profit para multiserie; también JSON."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "pie-chart",
+      "horizontal-bar-chart"
+    ]
+  },
+  {
+    "id": "pie-chart",
+    "title": "在线饼图生成器",
+    "h1": "在线饼图生成器",
+    "description": "在线饼图生成器，输入分类与数值一键生成饼图，自动计算百分比、图例与配色，支持 Chart.js 配置导出与 SVG 下载，全部本地处理。",
+    "title_en": "Online Pie Chart Generator",
+    "h1_en": "Online Pie Chart Generator",
+    "description_en": "Generate pie charts instantly from categories and values, auto percentage, legend and palette, Chart.js config export and SVG download, local.",
+    "title_es": "Generador de Gráfico Circular en Línea",
+    "h1_es": "Generador de Gráfico Circular en Línea",
+    "description_es": "Genera gráficos circulares al instante con porcentajes automáticos, leyenda y paleta, exporta Chart.js y SVG, local.",
+    "tags": [
+      "饼图",
+      "占比",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Pie",
+      "Proportion",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Circular",
+      "Proporción",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "饼图数据如何输入？",
+        "a": "每行 分类,数值，如 Chrome,64；自动计算百分比与配色，支持表头。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input pie data?",
+        "a": "Each line category,value like Chrome,64; auto percentage and palette, header supported."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar datos de pastel?",
+        "a": "Cada línea categoría,valor como Chrome,64; porcentaje y paleta automáticos."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "bar-chart",
+      "horizontal-bar-chart"
+    ]
+  },
+  {
+    "id": "horizontal-bar-chart",
+    "title": "在线横向柱状图生成器",
+    "h1": "在线横向柱状图生成器",
+    "description": "在线横向柱状图生成器，将标签与数值生成横向条形图，适合排名与对比展示，支持 Chart.js 横向配置与 SVG 导出，本地处理。",
+    "title_en": "Online Horizontal Bar Chart Generator",
+    "h1_en": "Online Horizontal Bar Chart Generator",
+    "description_en": "Generate horizontal bar charts for ranking and comparison, with Chart.js horizontal config and SVG export, local processing.",
+    "title_es": "Generador de Barras Horizontales en Línea",
+    "h1_es": "Generador de Barras Horizontales en Línea",
+    "description_es": "Genera gráficos de barras horizontales para rankings, con config Chart.js horizontal y SVG, local.",
+    "tags": [
+      "横向柱状图",
+      "排名",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Horizontal Bar",
+      "Ranking",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Horizontal",
+      "Ranking",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "如何输入数据？",
+        "a": "每行输入 标签,数值，如 Jan,100；支持含表头的 CSV，如 label,value 或 Month,Sales,Profit，多系列自动识别；也支持 JSON。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input data?",
+        "a": "One line per label,value like Jan,100; supports header CSV like label,value or Month,Sales,Profit for multi-series auto detection; also JSON."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar datos?",
+        "a": "Una línea por label,value como Jan,100; soporta CSV con cabecera como label,value o Month,Sales,Profit para multiserie; también JSON."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "bar-chart",
+      "pie-chart"
+    ]
+  },
+  {
+    "id": "area-chart",
+    "title": "在线面积图生成器",
+    "h1": "在线面积图生成器",
+    "description": "在线面积图生成器，基于折线的填充面积图，适合展示趋势与累计效果，支持平滑填充、透明度与 Chart.js 配置导出，本地处理。",
+    "title_en": "Online Area Chart Generator",
+    "h1_en": "Online Area Chart Generator",
+    "description_en": "Generate area charts (filled line) for trend and cumulative view, with smooth fill, opacity and Chart.js export, local.",
+    "title_es": "Generador de Gráfico de Área en Línea",
+    "h1_es": "Generador de Gráfico de Área en Línea",
+    "description_es": "Genera gráficos de área (línea rellena) para tendencia y acumulado, con relleno suave y exportación Chart.js, local.",
+    "tags": [
+      "面积图",
+      "趋势累计",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Area",
+      "Trend",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Área",
+      "Tendencia",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "如何输入数据？",
+        "a": "每行输入 标签,数值，如 Jan,100；支持含表头的 CSV，如 label,value 或 Month,Sales,Profit，多系列自动识别；也支持 JSON。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input data?",
+        "a": "One line per label,value like Jan,100; supports header CSV like label,value or Month,Sales,Profit for multi-series auto detection; also JSON."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar datos?",
+        "a": "Una línea por label,value como Jan,100; soporta CSV con cabecera como label,value o Month,Sales,Profit para multiserie; también JSON."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "bar-chart",
+      "pie-chart"
+    ]
+  },
+  {
+    "id": "doughnut-chart",
+    "title": "在线环形图生成器",
+    "h1": "在线环形图生成器",
+    "description": "在线环形图生成器，生成带中心空白的环形图，适合占比展示，支持环形切割、配色与 Chart.js 配置导出，SVG 下载，本地处理。",
+    "title_en": "Online Doughnut Chart Generator",
+    "h1_en": "Online Doughnut Chart Generator",
+    "description_en": "Generate doughnut charts with center cutout for proportion display, with cutout, palette and Chart.js export, SVG download, local.",
+    "title_es": "Generador de Gráfico de Anillo en Línea",
+    "h1_es": "Generador de Gráfico de Anillo en Línea",
+    "description_es": "Genera gráficos de anillo con recorte central para proporciones, con paleta y exportación Chart.js, descarga SVG, local.",
+    "tags": [
+      "环形图",
+      "占比",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Doughnut",
+      "Proportion",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Anillo",
+      "Proporción",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "如何输入数据？",
+        "a": "每行输入 标签,数值，如 Jan,100；支持含表头的 CSV，如 label,value 或 Month,Sales,Profit，多系列自动识别；也支持 JSON。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input data?",
+        "a": "One line per label,value like Jan,100; supports header CSV like label,value or Month,Sales,Profit for multi-series auto detection; also JSON."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar datos?",
+        "a": "Una línea por label,value como Jan,100; soporta CSV con cabecera como label,value o Month,Sales,Profit para multiserie; también JSON."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "bar-chart",
+      "pie-chart"
+    ]
+  },
+  {
+    "id": "scatter-chart",
+    "title": "在线散点图生成器",
+    "h1": "在线散点图生成器",
+    "description": "在线散点图生成器，输入 x,y 坐标点生成散点图，支持表头 x,y、数值散点与回归趋势，支持 Chart.js 散点配置与 SVG 导出，本地处理。",
+    "title_en": "Online Scatter Chart Generator",
+    "h1_en": "Online Scatter Chart Generator",
+    "description_en": "Generate scatter plots from x,y points, supports header x,y, numeric scatter and trend, Chart.js scatter config and SVG export, local.",
+    "title_es": "Generador de Gráfico de Dispersión en Línea",
+    "h1_es": "Generador de Gráfico de Dispersión en Línea",
+    "description_es": "Genera diagramas de dispersión desde puntos x,y, soporta cabecera x,y y tendencia, exporta Chart.js y SVG, local.",
+    "tags": [
+      "散点图",
+      "相关性",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Scatter",
+      "Correlation",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Dispersión",
+      "Correlación",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "散点图如何输入？",
+        "a": "输入 x,y 坐标，如 1,2.3；支持表头 x,y ，每行一个点，或 JSON 点数组。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input scatter data?",
+        "a": "Enter x,y points like 1,2.3; header x,y supported, one point per line."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar dispersión?",
+        "a": "Ingrese puntos x,y como 1,2.3; cabecera x,y soportada."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "bar-chart",
+      "pie-chart"
+    ]
+  },
+  {
+    "id": "radar-chart",
+    "title": "在线雷达图生成器",
+    "h1": "在线雷达图生成器",
+    "description": "在线雷达图生成器，多维度指标对比的蜘蛛网图，支持多系列、填充与网线，适合能力评估与对比，Chart.js 配置与 SVG 导出，本地处理。",
+    "title_en": "Online Radar Chart Generator",
+    "h1_en": "Online Radar Chart Generator",
+    "description_en": "Generate radar/spider charts for multi-dimension comparison, supports multi-series, fill and grid, ideal for assessment, Chart.js and SVG, local.",
+    "title_es": "Generador de Gráfico Radar en Línea",
+    "h1_es": "Generador de Gráfico Radar en Línea",
+    "description_es": "Genera gráficos radar para comparación multidimensional, soporta multiserie y malla, ideal para evaluación, Chart.js y SVG, local.",
+    "tags": [
+      "雷达图",
+      "多维度",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Radar",
+      "Spider",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Radar",
+      "Multidimensional",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "如何输入数据？",
+        "a": "每行输入 标签,数值，如 Jan,100；支持含表头的 CSV，如 label,value 或 Month,Sales,Profit，多系列自动识别；也支持 JSON。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input data?",
+        "a": "One line per label,value like Jan,100; supports header CSV like label,value or Month,Sales,Profit for multi-series auto detection; also JSON."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar datos?",
+        "a": "Una línea por label,value como Jan,100; soporta CSV con cabecera como label,value o Month,Sales,Profit para multiserie; también JSON."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "bar-chart",
+      "pie-chart"
+    ]
+  },
+  {
+    "id": "histogram-chart",
+    "title": "在线直方图生成器",
+    "h1": "在线直方图生成器",
+    "description": "在线直方图生成器，输入区间与频数生成直方图，柱间无缝适合分布展示，支持 Chart.js 直方图配置与 SVG 导出，本地处理。",
+    "title_en": "Online Histogram Chart Generator",
+    "h1_en": "Online Histogram Chart Generator",
+    "description_en": "Generate histograms from bins and frequencies, seamless bars for distribution, Chart.js histogram config and SVG export, local.",
+    "title_es": "Generador de Histograma en Línea",
+    "h1_es": "Generador de Histograma en Línea",
+    "description_es": "Genera histogramas desde intervalos y frecuencias, barras continuas para distribución, config Chart.js y SVG, local.",
+    "tags": [
+      "直方图",
+      "分布",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Histogram",
+      "Distribution",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Histograma",
+      "Distribución",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "直方图如何输入？",
+        "a": "每行 区间,频数，如 0-10,5；柱间无缝展示分布，可带表头。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input histogram?",
+        "a": "Each line bin,count like 0-10,5; seamless bars for distribution, header optional."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar histograma?",
+        "a": "Cada línea intervalo,frecuencia como 0-10,5; barras continuas."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "bar-chart",
+      "pie-chart"
+    ]
+  },
+  {
+    "id": "multi-line-chart",
+    "title": "在线多折线图生成器",
+    "h1": "在线多折线图生成器",
+    "description": "在线多折线图生成器，支持表头 Month,Series1,Series2 多系列折线对比，自动配色与图例，Chart.js 多数据集配置与 SVG 下载，本地处理。",
+    "title_en": "Online Multi-Line Chart Generator",
+    "h1_en": "Online Multi-Line Chart Generator",
+    "description_en": "Generate multi-line charts from header Month,Series1,Series2, auto palette and legend, Chart.js multi-dataset config and SVG, local.",
+    "title_es": "Generador de Múltiples Líneas en Línea",
+    "h1_es": "Generador de Múltiples Líneas en Línea",
+    "description_es": "Genera gráficos de múltiples líneas desde cabecera Month,Series1,Series2, paleta automática y leyenda, Chart.js y SVG, local.",
+    "tags": [
+      "多折线图",
+      "多系列",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Multi Line",
+      "Series",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Múltiples Líneas",
+      "Series",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "如何输入数据？",
+        "a": "每行输入 标签,数值，如 Jan,100；支持含表头的 CSV，如 label,value 或 Month,Sales,Profit，多系列自动识别；也支持 JSON。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input data?",
+        "a": "One line per label,value like Jan,100; supports header CSV like label,value or Month,Sales,Profit for multi-series auto detection; also JSON."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar datos?",
+        "a": "Una línea por label,value como Jan,100; soporta CSV con cabecera como label,value o Month,Sales,Profit para multiserie; también JSON."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "bar-chart",
+      "pie-chart"
+    ]
+  },
+  {
+    "id": "stacked-area-chart",
+    "title": "在线堆叠面积图生成器",
+    "h1": "在线堆叠面积图生成器",
+    "description": "在线堆叠面积图生成器，多系列堆叠面积展示总量与构成，支持堆叠填充、透明度与图例，Chart.js 堆叠配置与 SVG 导出，本地处理。",
+    "title_en": "Online Stacked Area Chart Generator",
+    "h1_en": "Online Stacked Area Chart Generator",
+    "description_en": "Generate stacked area charts for total and composition, with stacked fill, opacity and legend, Chart.js stacked config and SVG, local.",
+    "title_es": "Generador de Área Apilada en Línea",
+    "h1_es": "Generador de Área Apilada en Línea",
+    "description_es": "Genera áreas apiladas para total y composición, con relleno apilado y leyenda, config Chart.js apilado y SVG, local.",
+    "tags": [
+      "堆叠面积图",
+      "构成",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Stacked Area",
+      "Composition",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Área Apilada",
+      "Composición",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "如何输入数据？",
+        "a": "每行输入 标签,数值，如 Jan,100；支持含表头的 CSV，如 label,value 或 Month,Sales,Profit，多系列自动识别；也支持 JSON。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input data?",
+        "a": "One line per label,value like Jan,100; supports header CSV like label,value or Month,Sales,Profit for multi-series auto detection; also JSON."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar datos?",
+        "a": "Una línea por label,value como Jan,100; soporta CSV con cabecera como label,value o Month,Sales,Profit para multiserie; también JSON."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "bar-chart",
+      "pie-chart"
+    ]
+  },
+  {
+    "id": "waterfall-chart",
+    "title": "在线瀑布图生成器",
+    "h1": "在线瀑布图生成器",
+    "description": "在线瀑布图生成器，展示增减累计过程的瀑布图，自动区分正负与总计柱，支持浮动条与 Chart.js 配置导出，SVG 下载，本地处理。",
+    "title_en": "Online Waterfall Chart Generator",
+    "h1_en": "Online Waterfall Chart Generator",
+    "description_en": "Generate waterfall charts for增减 cumulative process, auto positive/negative and total, with floating bars, Chart.js export and SVG, local.",
+    "title_es": "Generador de Gráfico de Cascada en Línea",
+    "h1_es": "Generador de Gráfico de Cascada en Línea",
+    "description_es": "Genera gráficos de cascada para proceso acumulativo, distingue positivos/negativos y total, barras flotantes, Chart.js y SVG, local.",
+    "tags": [
+      "瀑布图",
+      "累计",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_en": [
+      "Waterfall",
+      "Cumulative",
+      "Chart.js",
+      "SVG"
+    ],
+    "tags_es": [
+      "Cascada",
+      "Acumulado",
+      "Chart.js",
+      "SVG"
+    ],
+    "category": "图表工具",
+    "category_en": "Charts",
+    "category_es": "Gráficos",
+    "faqs": [
+      {
+        "q": "瀑布图如何输入？",
+        "a": "每行 标签,增减值，如 Start,100、Sales,60、Cost,-20、Total,145；正负自动着色，最后 Total 自动识别为总计。"
+      },
+      {
+        "q": "如何生成与导出？",
+        "a": "点击“生成图表”预览 SVG 与 Chart.js 配置 JSON，可复制配置、复制 SVG 或下载 SVG 文件，Canvas 在安装 chart.js 后自动启用。"
+      },
+      {
+        "q": "支持哪些数据格式？",
+        "a": "支持 CSV（逗号/分号/制表符）、带引号字段、JSON 数组或对象，数值自动解析，非法行会提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析、配置生成与 SVG 渲染均在浏览器本地完成，不上传数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to input waterfall?",
+        "a": "Each line label,change like Start,100, Sales,60, Cost,-20, Total,145; positive/negative auto colored, Total detected."
+      },
+      {
+        "q": "How to generate and export?",
+        "a": "Click Generate to preview SVG and Chart.js config JSON, copy config, copy SVG or download SVG; Canvas auto enables if chart.js installed."
+      },
+      {
+        "q": "Which formats are supported?",
+        "a": "CSV (comma/semicolon/tab), quoted fields, JSON arrays/objects, numbers auto parsed, invalid lines flagged."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing, config generation and SVG rendering run locally, no upload."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo ingresar cascada?",
+        "a": "Cada línea etiqueta,cambio como Start,100, Sales,60, Cost,-20, Total,145; colores auto, Total detectado."
+      },
+      {
+        "q": "¿Cómo generar y exportar?",
+        "a": "Haga clic en Generar para vista SVG y JSON Chart.js, copie config, SVG o descargue SVG; Canvas se activa con chart.js."
+      },
+      {
+        "q": "¿Qué formatos soporta?",
+        "a": "CSV (coma/; /tab), campos citados, arreglos/objetos JSON, números auto, líneas inválidas marcadas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se analiza y renderiza localmente, sin subida."
+      }
+    ],
+    "related": [
+      "line-chart",
+      "bar-chart",
+      "pie-chart"
+    ]
   }
 ]
