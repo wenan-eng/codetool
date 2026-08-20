@@ -1,0 +1,17 @@
+[
+  {
+    "id": "json-formatter",
+    "title": "在线JSON格式化/压缩工具",
+    "h1": "在线JSON格式化/压缩工具",
+    "description": "使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性，实时处理，全面提升开发调试效率。",
+    "tags": ["JSON美化", "JSON压缩", "JSON解析", "JSON校验"],
+    "category": "编程开发",
+    "faqs": [
+      {"q": "什么是JSON美化与压缩？", "a": "美化是通过缩进换行重建清晰结构，压缩是移除空白生成单行最小体积。"},
+      {"q": "如何美化混乱的JSON？", "a": "粘贴到输入框点击“JSON美化”即可。"},
+      {"q": "如何压缩JSON？", "a": "点击“JSON压缩”生成最小单行。"},
+      {"q": "会被上传吗？", "a": "不会，所有操作在浏览器本地完成。"}
+    ],
+    "related": ["base64-encode", "sql-format", "html-formatter", "css-formatter"]
+  }
+]
