@@ -18,5 +18,14 @@
     "usage4": "所有操作本地完成，保障隐私",
     "relatedTitle": "同类推荐",
     "faqTitle": "常见问题"
+  },
+  "hexConverter": {
+    "selectBase": "请选择进制类型、对应的数值：",
+    "convert": "进制转换",
+    "clear": "清空数据",
+    "resultTitle": "转换结果：",
+    "copy": "复制",
+    "placeholder": "请输入要转换的数值",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
   }
 }

@@ -35,5 +35,42 @@
       {"q": "¿Se subirán mis datos?", "a": "No, todo se ejecuta localmente en su navegador."}
     ],
     "related": ["json-formatter"]
+  },
+  {
+    "id": "hex-converter",
+    "title": "在线进制转换工具",
+    "h1": "在线进制转换工具",
+    "description": "使用我们的进制转换工具，支持2/8/10/16/32/36/52/58/62/64进制间的在线互转，输入数值后实时计算并展示各进制结果，兼容常用及扩展编码格式，适用于开发调试与数据编码查看。",
+    "title_en": "Online Base Converter",
+    "h1_en": "Online Base Converter",
+    "description_en": "Convert numbers between bases 2/8/10/16/32/36/52/58/62/64 instantly with local processing, ideal for debugging and ID encoding.",
+    "title_es": "Conversor de Bases en Línea",
+    "h1_es": "Conversor de Bases en Línea",
+    "description_es": "Convierte números entre bases 2/8/10/16/32/36/52/58/62/64 al instante con procesamiento local.",
+    "tags": ["进制转换", "二进制", "十六进制", "Base58"],
+    "tags_en": ["Base Convert", "Binary", "Hex", "Base58"],
+    "tags_es": ["Conversor", "Binario", "Hex", "Base58"],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {"q": "支持哪些进制？", "a": "支持 2、8、10、16、32、36、52、58、62、64 共 10 种，覆盖常用与扩展编码。"},
+      {"q": "如何转换？", "a": "选择输入进制、输入数值，点击“进制转换”即可在下表查看所有结果。"},
+      {"q": "Base58/62/64是什么？", "a": "Base58 去除易混淆字符用于区块链地址；Base62 最大压缩用于短链；Base64 用于二进制转文本。"},
+      {"q": "会被上传吗？", "a": "不会，所有计算在浏览器本地完成。"}
+    ],
+    "faqs_en": [
+      {"q": "Which bases are supported?", "a": "10 bases: 2,8,10,16,32,36,52,58,62,64 covering common and extended encodings."},
+      {"q": "How to convert?", "a": "Select input base, enter value, click Convert to see all results."},
+      {"q": "What are Base58/62/64?", "a": "Base58 for blockchain, Base62 for short URLs, Base64 for binary-to-text."},
+      {"q": "Will my data be uploaded?", "a": "No, all computation runs locally."}
+    ],
+    "faqs_es": [
+      {"q": "¿Qué bases soporta?", "a": "10 bases: 2,8,10,16,32,36,52,58,62,64."},
+      {"q": "¿Cómo convertir?", "a": "Seleccione la base, ingrese el valor y haga clic en Convertir."},
+      {"q": "¿Qué es Base58/62/64?", "a": "Base58 para blockchain, Base62 para URLs cortas, Base64 para binario a texto."},
+      {"q": "¿Se subirán mis datos?", "a": "No, todo se ejecuta localmente."}
+    ],
+    "related": ["json-formatter", "timestamp", "camel"]
   }
 ]

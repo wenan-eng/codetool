@@ -1,4 +1,5 @@
 import Editor from "./Editor"
+import HexConverterEditor from "./HexConverterEditor"
 import AdSlot from "./AdSlot"
 import { faqJsonLd } from "@/lib/seo"
 import zh from "@/messages/zh.json"
@@ -19,7 +20,7 @@ export default function ToolLayout({ tool, locale = "zh" }: { tool: any, locale?
         <p className="text-sm text-gray-600 mt-3">{description}</p>
       </div>
       <AdSlot slot="top" />
-      <Editor locale={locale} />
+      {tool.id === "hex-converter" ? <HexConverterEditor locale={locale} /> : <Editor locale={locale} />}
       <AdSlot slot="editor-bottom" />
       <section className="bg-white rounded-xl border p-6">
         <h2 className="font-semibold mb-4">{msgs.usageTitle}</h2>

@@ -18,5 +18,14 @@
     "usage4": "Todo se procesa localmente para privacidad",
     "relatedTitle": "Herramientas Relacionadas",
     "faqTitle": "Preguntas Frecuentes"
+  },
+  "hexConverter": {
+    "selectBase": "Seleccione base e ingrese valor:",
+    "convert": "Convertir",
+    "clear": "Limpiar",
+    "resultTitle": "Resultados:",
+    "copy": "Copiar",
+    "placeholder": "Ingrese valor a convertir",
+    "localNote": "Todo se procesa localmente, sin subida"
   }
 }

@@ -18,5 +18,14 @@
     "usage4": "All operations run locally for privacy",
     "relatedTitle": "Related Tools",
     "faqTitle": "FAQ"
+  },
+  "hexConverter": {
+    "selectBase": "Select base and enter value:",
+    "convert": "Convert",
+    "clear": "Clear",
+    "resultTitle": "Results:",
+    "copy": "Copy",
+    "placeholder": "Enter value to convert",
+    "localNote": "All processing is done locally, no upload"
   }
 }
