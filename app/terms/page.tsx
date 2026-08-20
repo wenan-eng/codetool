@@ -1,0 +1,2 @@
+export const metadata={title:"服务条款"}
+export default function Page(){ return <article className="bg-white rounded-xl border p-6 prose prose-sm max-w-none"><h1>服务条款</h1><p>欢迎使用本站提供的在线工具服务。使用本站即表示你已阅读并同意以下条款。</p><p>1. 服务内容：本站提供免费在线工具，所有工具在浏览器本地运行，不保证 100% 可用性，亦不存储用户数据。</p><p>2. 用户行为：请勿滥用服务、尝试攻击或干扰站点正常运行。</p><p>3. 免责声明：工具结果仅供参考，因使用本站服务产生的任何直接或间接损失，本站不承担责任。</p><p>4. 广告与 Cookie：我们使用 Google AdSense 展示广告，Google 可能会使用 Cookie 来提供和衡量广告效果。你可以通过浏览器设置或访问 Google 广告设置来管理 Cookie。</p><p>5. 联系方式：如对本条款有疑问，请联系 privacy@example.com。</p><p>生效日期：2026-08-20</p></article>}
