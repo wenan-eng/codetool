@@ -27,5 +27,16 @@
     "copy": "Copiar",
     "placeholder": "Ingrese valor a convertir",
     "localNote": "Todo se procesa localmente, sin subida"
+  },
+  "camel": {
+    "toSnake": "Camel a Snake",
+    "toCamel": "Snake a Camel",
+    "sample": "Ver Ejemplo",
+    "copy": "Copiar Resultado",
+    "clear": "Limpiar",
+    "inputPlaceholder": "Ingrese texto a convertir, multilínea soportada, ej.: myVariableName o my_variable_name",
+    "outputPlaceholder": "El resultado convertido aparecerá aquí",
+    "copied": "Copiado",
+    "localNote": "Todo se procesa localmente, sin subida"
   }
 }

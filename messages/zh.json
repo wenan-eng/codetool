@@ -27,5 +27,16 @@
     "copy": "复制",
     "placeholder": "请输入要转换的数值",
     "localNote": "所有操作均在浏览器本地完成，不上传数据"
+  },
+  "camel": {
+    "toSnake": "驼峰转下划线",
+    "toCamel": "下划线转驼峰",
+    "sample": "查看示例",
+    "copy": "复制结果",
+    "clear": "清空数据",
+    "inputPlaceholder": "请输入要转换的文本，支持多行代码，如：myVariableName 或 my_variable_name",
+    "outputPlaceholder": "转换结果将显示在这里",
+    "copied": "已复制",
+    "localNote": "所有操作均在浏览器本地完成，不上传数据"
   }
 }

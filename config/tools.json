@@ -72,5 +72,42 @@
       {"q": "¿Se subirán mis datos?", "a": "No, todo se ejecuta localmente."}
     ],
     "related": ["json-formatter", "timestamp", "camel"]
+  },
+  {
+    "id": "camel",
+    "title": "在线驼峰/下划线互转工具",
+    "h1": "在线驼峰/下划线互转工具",
+    "description": "在线驼峰与下划线互转工具，支持批量转换变量名，自动识别驼峰命名（camelCase）与下划线命名（snake_case），一键互转，适用于 Java、JavaScript、Python 等多语言代码重构，全部本地处理，保障隐私。",
+    "title_en": "Online CamelCase / Snake_Case Converter",
+    "h1_en": "Online CamelCase / Snake_Case Converter",
+    "description_en": "Convert between camelCase and snake_case instantly. Batch transform identifiers for Java, JavaScript, Python and more with local processing, no upload.",
+    "title_es": "Conversor CamelCase / Snake_case en Línea",
+    "h1_es": "Conversor CamelCase / Snake_case en Línea",
+    "description_es": "Convierte entre camelCase y snake_case al instante. Transformación por lotes para Java, JavaScript, Python y más, con procesamiento local sin subida.",
+    "tags": ["驼峰转下划线", "下划线转驼峰", "变量命名", "代码重构"],
+    "tags_en": ["Camel to Snake", "Snake to Camel", "Variable Naming", "Refactor"],
+    "tags_es": ["Camel a Snake", "Snake a Camel", "Nombres", "Refactorizar"],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {"q": "什么是驼峰与下划线命名？", "a": "驼峰（camelCase）如 myVariableName，下划线（snake_case）如 my_variable_name，常见于不同语言规范。"},
+      {"q": "如何批量转换？", "a": "粘贴多行代码或变量名，点击“驼峰转下划线”或“下划线转驼峰”即可批量处理，符号与结构保持不变。"},
+      {"q": "支持哪些语言？", "a": "通用标识符规则，适用于 Java、JavaScript、TypeScript、Python、Go、PHP 等；通过正则匹配 [a-zA-Z_$][a-zA-Z0-9_$]*。"},
+      {"q": "会被上传吗？", "a": "不会，所有转换在浏览器本地完成，参考 lanren-tools 原逻辑但简化为全文本正则处理。"}
+    ],
+    "faqs_en": [
+      {"q": "What are camelCase and snake_case?", "a": "camelCase like myVariableName, snake_case like my_variable_name, common in different language conventions."},
+      {"q": "How to batch convert?", "a": "Paste multi-line code, click Camel to Snake or Snake to Camel; symbols and line breaks are preserved."},
+      {"q": "Which languages are supported?", "a": "Generic identifier regex [a-zA-Z_$][a-zA-Z0-9_$]*, works for Java, JS, TS, Python, Go, PHP, etc."},
+      {"q": "Will my data be uploaded?", "a": "No, all conversion runs locally in your browser."}
+    ],
+    "faqs_es": [
+      {"q": "¿Qué son camelCase y snake_case?", "a": "camelCase como myVariableName, snake_case como my_variable_name, comunes en distintas convenciones."},
+      {"q": "¿Cómo convertir por lotes?", "a": "Pegue código multilínea y haga clic en Camel a Snake o Snake a Camel; se conservan símbolos y saltos."},
+      {"q": "¿Qué lenguajes soporta?", "a": "Regex genérico [a-zA-Z_$][a-zA-Z0-9_$]*, válido para Java, JS, TS, Python, Go, PHP, etc."},
+      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente en su navegador."}
+    ],
+    "related": ["json-formatter", "hex-converter"]
   }
 ]
