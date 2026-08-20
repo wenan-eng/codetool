@@ -74,6 +74,80 @@
     "related": ["json-formatter", "timestamp", "camel"]
   },
   {
+    "id": "html-escape",
+    "title": "在线HTML字符转义/反转义工具",
+    "h1": "在线HTML字符转义/反转义工具",
+    "description": "在线HTML字符转义与反转义工具，支持将 < > & \" ' 等特殊字符与 HTML 实体 &lt; &gt; &amp; &quot; &#39; 双向转换，支持数值实体 &#x / &# 编码，一键转义/反转义、示例与复制，全部本地处理保障隐私。",
+    "title_en": "Online HTML Escape / Unescape",
+    "h1_en": "Online HTML Escape / Unescape",
+    "description_en": "Escape and unescape HTML entities instantly. Convert < > & \" ' to &lt; &gt; &amp; &quot; &#39; and decode numeric entities &#x / &# with local processing, no upload.",
+    "title_es": "Escape / Desescape HTML en Línea",
+    "h1_es": "Escape / Desescape HTML en Línea",
+    "description_es": "Escapa y desescapa entidades HTML al instante. Convierte < > & \" ' a &lt; &gt; &amp; &quot; &#39; y decodifica entidades numéricas &#x / &# con procesamiento local.",
+    "tags": ["HTML转义", "HTML反转义", "字符转义", "HTML实体"],
+    "tags_en": ["Escape", "Unescape", "Entity", "HTML Encode"],
+    "tags_es": ["Escapar", "Desescapar", "Entidad", "HTML"],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {"q": "什么是HTML字符转义？为什么需要它？", "a": "HTML转义是将 < > & \" ' 等特殊字符转换为 &lt; &gt; &amp; &quot; &#39; 实体编码，用于防止 XSS、正确展示代码与安全存储。"},
+      {"q": "会影响哪些字符？中文和数字会被转换吗？", "a": "仅转义 5 个 HTML 特殊字符 < > & \" '，中文、数字、普通字母及其他符号保持原样。"},
+      {"q": "什么时候用转义/反转义？", "a": "转义用于用户输入展示、代码展示、防 XSS；反转义用于还原数据库中已转义内容、解析 API 返回数据。"},
+      {"q": "会被上传吗？", "a": "不会，所有转义/反转义在浏览器本地完成，不上传数据。"}
+    ],
+    "faqs_en": [
+      {"q": "What is HTML escaping and why is it needed?", "a": "Escaping converts < > & \" ' to &lt; &gt; &amp; &quot; &#39; to prevent XSS and display code safely."},
+      {"q": "Which characters are affected? Are Chinese/numbers converted?", "a": "Only the 5 HTML special characters are escaped; Chinese, numbers and other symbols remain unchanged."},
+      {"q": "When to escape vs unescape?", "a": "Escape for displaying user input/code and XSS prevention; unescape to restore stored escaped content or parse API data."},
+      {"q": "Will my data be uploaded?", "a": "No, all operations run locally in your browser."}
+    ],
+    "faqs_es": [
+      {"q": "¿Qué es el escape HTML y por qué es necesario?", "a": "Convierte < > & \" ' a &lt; &gt; &amp; &quot; &#39; para prevenir XSS y mostrar código de forma segura."},
+      {"q": "¿Qué caracteres afecta? ¿Se convierten chino/números?", "a": "Solo los 5 caracteres especiales HTML; chino, números y otros símbolos no cambian."},
+      {"q": "¿Cuándo escapar vs desescapar?", "a": "Escapar para mostrar entrada/código y prevenir XSS; desescapar para restaurar contenido almacenado o analizar datos de API."},
+      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente en su navegador."}
+    ],
+    "related": ["camel", "hex-converter"]
+  },
+  {
+    "id": "datetime-converter",
+    "title": "在线日期时间格式转换工具",
+    "h1": "在线日期时间格式转换工具",
+    "description": "在线日期时间格式转换工具，支持 YYYY-MM-DD、YYYY/MM/DD、MM-DD-YYYY、ISO 8601、时间戳（秒/毫秒）、YYYYMMDD 等多种格式互转，自定义输出格式（YYYY、MM、DD、HH、mm、ss），批量按行转换，全部本地处理保障隐私。",
+    "title_en": "Online DateTime Converter",
+    "h1_en": "Online DateTime Converter",
+    "description_en": "Convert dates between YYYY-MM-DD, YYYY/MM/DD, MM-DD-YYYY, ISO 8601, timestamp (s/ms), YYYYMMDD and more. Custom output format with YYYY/MM/DD/HH/mm/ss tokens, batch line-by-line conversion, all local processing.",
+    "title_es": "Conversor de Fecha y Hora en Línea",
+    "h1_es": "Conversor de Fecha y Hora en Línea",
+    "description_es": "Convierte fechas entre YYYY-MM-DD, YYYY/MM/DD, MM-DD-YYYY, ISO 8601, timestamp (s/ms), YYYYMMDD y más. Formato personalizado con YYYY/MM/DD/HH/mm/ss, conversión por lotes, procesamiento local.",
+    "tags": ["日期转换", "时间戳", "格式转换", "批量转换"],
+    "tags_en": ["Date Convert", "Timestamp", "Format", "Batch"],
+    "tags_es": ["Convertir Fecha", "Timestamp", "Formato", "Lotes"],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {"q": "支持哪些输入格式？", "a": "支持 YYYY-MM-DD、YYYY/MM/DD、YYYY.MM.DD、YYYY-MM-DD HH:mm:ss、MM-DD-YYYY、MM/DD/YYYY、DD/MM/YYYY、YYYYMMDD、ISO 8601、时间戳秒/毫秒及自动识别。"},
+      {"q": "如何自定义输出格式？", "a": "在输出格式中勾选“自定义”并输入含 YYYY、MM、DD、HH、mm、ss、SSS 占位符的模板，如 YYYY年MM月DD日 HH:mm:ss。"},
+      {"q": "如何批量转换？", "a": "每行输入一条日期，选择输入/输出格式后点击“转换”，空行会保留，解析失败的行会标注 ERROR。"},
+      {"q": "会被上传吗？", "a": "不会，所有解析与格式化在浏览器本地完成，不上传数据。"}
+    ],
+    "faqs_en": [
+      {"q": "Which input formats are supported?", "a": "YYYY-MM-DD, YYYY/MM/DD, YYYY.MM.DD, YYYY-MM-DD HH:mm:ss, MM-DD-YYYY, MM/DD/YYYY, DD/MM/YYYY, YYYYMMDD, ISO 8601, timestamp s/ms and auto detection."},
+      {"q": "How to customize output format?", "a": "Check Custom and enter a template with YYYY, MM, DD, HH, mm, ss, SSS placeholders, e.g., YYYY年MM月DD日 HH:mm:ss."},
+      {"q": "How to batch convert?", "a": "Enter one date per line, select from/to formats and click Convert. Empty lines are preserved; failed lines show ERROR."},
+      {"q": "Will my data be uploaded?", "a": "No, all parsing and formatting runs locally in your browser."}
+    ],
+    "faqs_es": [
+      {"q": "¿Qué formatos de entrada soporta?", "a": "YYYY-MM-DD, YYYY/MM/DD, YYYY.MM.DD, YYYY-MM-DD HH:mm:ss, MM-DD-YYYY, MM/DD/YYYY, DD/MM/YYYY, YYYYMMDD, ISO 8601, timestamp s/ms y detección automática."},
+      {"q": "¿Cómo personalizar el formato de salida?", "a": "Marque Personalizado e ingrese una plantilla con YYYY, MM, DD, HH, mm, ss, SSS, ej. YYYY年MM月DD日 HH:mm:ss."},
+      {"q": "¿Cómo convertir por lotes?", "a": "Ingrese una fecha por línea, seleccione formatos y haga clic en Convertir. Líneas vacías se conservan; fallos muestran ERROR."},
+      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente en su navegador."}
+    ],
+    "related": ["hex-converter", "camel", "json-formatter"]
+  },
+  {
     "id": "camel",
     "title": "在线驼峰/下划线互转工具",
     "h1": "在线驼峰/下划线互转工具",
@@ -109,5 +183,190 @@
       {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente en su navegador."}
     ],
     "related": ["json-formatter", "hex-converter"]
+  },
+  {
+    "id": "json-flatten",
+    "title": "在线JSON扁平化工具",
+    "h1": "在线JSON扁平化工具",
+    "description": "在线 JSON 扁平化工具，将嵌套 JSON 转为点号扁平结构，如 {a:{b:1}} → {\"a.b\":1}，支持数组索引扁平，本地处理即时转换。",
+    "title_en": "Online JSON Flatten",
+    "h1_en": "Online JSON Flatten",
+    "description_en": "Flatten nested JSON to dot notation instantly, e.g. {a:{b:1}} → {\"a.b\":1}, with array index support and local processing.",
+    "title_es": "Aplanar JSON en Línea",
+    "h1_es": "Aplanar JSON en Línea",
+    "description_es": "Aplana JSON anidado a notación de puntos al instante, ej. {a:{b:1}} → {\"a.b\":1}, con soporte para índices de arreglo y procesamiento local.",
+    "tags": ["JSON扁平化", "点号", "嵌套转扁平", "JSON工具"],
+    "tags_en": ["Flatten", "Dot Notation", "Nested", "JSON"],
+    "tags_es": ["Aplanar", "Notación Punto", "Anidado", "JSON"],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {"q": "什么是 JSON 扁平化？", "a": "将嵌套对象按点号展开为单层键值，如 {a:{b:1}} 转为 {\"a.b\":1}，数组按索引展开为 a.0、a.1。"},
+      {"q": "如何使用扁平化工具？", "a": "粘贴嵌套 JSON，点击“扁平化”即可在右侧查看点号扁平结果。"},
+      {"q": "支持数组吗？", "a": "支持，数组按点号索引展开，如 {arr:[1,2]} → {\"arr.0\":1,\"arr.1\":2}。"},
+      {"q": "会被上传吗？", "a": "不会，所有操作在浏览器本地完成。"}
+    ],
+    "faqs_en": [
+      {"q": "What is JSON flatten?", "a": "Expands nested objects to dot-notation single-level keys, e.g. {a:{b:1}} → {\"a.b\":1}, arrays as a.0, a.1."},
+      {"q": "How to use flatten?", "a": "Paste nested JSON and click Flatten to see dotted result."},
+      {"q": "Does it support arrays?", "a": "Yes, arrays expand by dot index, e.g. {arr:[1,2]} → {\"arr.0\":1,\"arr.1\":2}."},
+      {"q": "Will my data be uploaded?", "a": "No, all operations run locally in your browser."}
+    ],
+    "faqs_es": [
+      {"q": "¿Qué es aplanar JSON?", "a": "Expande objetos anidados a claves de un nivel con notación de puntos, ej. {a:{b:1}} → {\"a.b\":1}, arreglos como a.0, a.1."},
+      {"q": "¿Cómo usar aplanar?", "a": "Pegue JSON anidado y haga clic en Aplanar."},
+      {"q": "¿Soporta arreglos?", "a": "Sí, los arreglos se expanden por índice, ej. {arr:[1,2]} → {\"arr.0\":1,\"arr.1\":2}."},
+      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente."}
+    ],
+    "related": ["json-unflatten", "json-sort", "json-formatter"]
+  },
+  {
+    "id": "json-unflatten",
+    "title": "在线JSON还原嵌套工具",
+    "h1": "在线JSON还原嵌套工具",
+    "description": "在线 JSON 反扁平化工具，将点号扁平的 JSON 还原为嵌套结构，如 {\"a.b\":1} → {a:{b:1}}，自动识别数组索引，本地处理。",
+    "title_en": "Online JSON Unflatten",
+    "h1_en": "Online JSON Unflatten",
+    "description_en": "Unflatten dot-notation JSON back to nested structure, e.g. {\"a.b\":1} → {a:{b:1}}, auto-detects array indices with local processing.",
+    "title_es": "Desaplanar JSON en Línea",
+    "h1_es": "Desaplanar JSON en Línea",
+    "description_es": "Desaplana JSON con notación de puntos a estructura anidada, ej. {\"a.b\":1} → {a:{b:1}}, detecta índices de arreglo automáticamente.",
+    "tags": ["JSON还原", "反扁平化", "点号还原", "JSON工具"],
+    "tags_en": ["Unflatten", "Nested", "Dot Notation", "JSON"],
+    "tags_es": ["Desaplanar", "Anidado", "Notación Punto", "JSON"],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {"q": "什么是 JSON 反扁平化？", "a": "将点号扁平的键还原为嵌套对象，如 {\"a.b\":1} 还原为 {a:{b:1}}，数字段自动还原为数组。"},
+      {"q": "如何还原扁平 JSON？", "a": "粘贴扁平 JSON，点击“还原嵌套”即可得到嵌套结构。"},
+      {"q": "如何识别数组？", "a": "点号后的纯数字段会被识别为数组索引，如 {\"a.0\":1} 还原为 {a:[1]}。"},
+      {"q": "会被上传吗？", "a": "不会，所有操作在浏览器本地完成。"}
+    ],
+    "faqs_en": [
+      {"q": "What is JSON unflatten?", "a": "Restores dot-flattened keys to nested objects, e.g. {\"a.b\":1} → {a:{b:1}}, numeric segments become arrays."},
+      {"q": "How to unflatten?", "a": "Paste flattened JSON and click Unflatten."},
+      {"q": "How are arrays detected?", "a": "Pure numeric segments are treated as array indices, e.g. {\"a.0\":1} → {a:[1]}."},
+      {"q": "Will my data be uploaded?", "a": "No, all operations run locally."}
+    ],
+    "faqs_es": [
+      {"q": "¿Qué es desaplanar JSON?", "a": "Restaura claves con puntos a objetos anidados, ej. {\"a.b\":1} → {a:{b:1}}, segmentos numéricos se vuelven arreglos."},
+      {"q": "¿Cómo desaplanar?", "a": "Pegue JSON aplanado y haga clic en Desaplanar."},
+      {"q": "¿Cómo detecta arreglos?", "a": "Segmentos numéricos se tratan como índices, ej. {\"a.0\":1} → {a:[1]}."},
+      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente."}
+    ],
+    "related": ["json-flatten", "json-sort", "json-formatter"]
+  },
+  {
+    "id": "json-sort",
+    "title": "在线JSON排序工具",
+    "h1": "在线JSON排序工具",
+    "description": "在线 JSON 键排序工具，递归按字母序对所有层级键排序，支持对象与数组，保持值不变，本地处理。",
+    "title_en": "Online JSON Sort",
+    "h1_en": "Online JSON Sort",
+    "description_en": "Sort JSON keys alphabetically at all levels recursively, supports objects and arrays with values preserved and local processing.",
+    "title_es": "Ordenar JSON en Línea",
+    "h1_es": "Ordenar JSON en Línea",
+    "description_es": "Ordena claves JSON alfabéticamente en todos los niveles de forma recursiva, soporta objetos y arreglos con procesamiento local.",
+    "tags": ["JSON排序", "键排序", "格式化", "JSON工具"],
+    "tags_en": ["Sort", "Sort Keys", "Format", "JSON"],
+    "tags_es": ["Ordenar", "Claves", "Formatear", "JSON"],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {"q": "JSON 排序是做什么？", "a": "按字母序对对象的所有键递归排序，便于对比、去重与规范化。"},
+      {"q": "如何排序 JSON？", "a": "粘贴 JSON，点击“排序”即可得到键已排序的格式化结果。"},
+      {"q": "数组会被排序吗？", "a": "不会对数组元素重排，仅对数组内对象的键排序，保持数组顺序。"},
+      {"q": "会被上传吗？", "a": "不会，所有操作在浏览器本地完成。"}
+    ],
+    "faqs_en": [
+      {"q": "What does JSON sort do?", "a": "Recursively sorts all object keys alphabetically for diff and normalization."},
+      {"q": "How to sort JSON?", "a": "Paste JSON and click Sort to get keys sorted."},
+      {"q": "Are arrays sorted?", "a": "Array order is preserved; only keys of objects inside arrays are sorted."},
+      {"q": "Will my data be uploaded?", "a": "No, all operations run locally."}
+    ],
+    "faqs_es": [
+      {"q": "¿Qué hace ordenar JSON?", "a": "Ordena recursivamente todas las claves alfabéticamente para diff y normalización."},
+      {"q": "¿Cómo ordenar JSON?", "a": "Pegue JSON y haga clic en Ordenar."},
+      {"q": "¿Se ordenan los arreglos?", "a": "El orden del arreglo se preserva; solo se ordenan claves de objetos dentro."},
+      {"q": "¿Se subirán mis datos?", "a": "No, todo se procesa localmente."}
+    ],
+    "related": ["json-flatten", "json-unflatten", "json-formatter"]
+  },
+  {
+    "id": "timestamp",
+    "title": "在线Unix时间戳转换工具",
+    "h1": "在线Unix时间戳转换工具",
+    "description": "使用我们的在线Unix时间戳转换工具，轻松实现时间戳与标准时间之间的双向转换，支持秒级与毫秒级、25个时区切换，实时显示当前时间戳，全部本地处理保障隐私。",
+    "title_en": "Online Unix Timestamp Converter",
+    "h1_en": "Online Unix Timestamp Converter",
+    "description_en": "Convert between Unix timestamp (seconds/ms) and datetime with timezone support. Live current timestamp, bidirectional conversion, local processing.",
+    "title_es": "Conversor de Timestamp Unix en Línea",
+    "h1_es": "Conversor de Timestamp Unix en Línea",
+    "description_es": "Convierte entre timestamp Unix (segundos/ms) y fecha con soporte de zona horaria. Timestamp actual en vivo, conversión bidireccional, procesamiento local.",
+    "tags": ["时间戳转换", "Unix时间", "时区转换", "毫秒时间戳"],
+    "tags_en": ["Timestamp", "Unix Time", "Timezone", "Milliseconds"],
+    "tags_es": ["Timestamp", "Tiempo Unix", "Zona Horaria", "Milisegundos"],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {"q": "什么是Unix时间戳？", "a": "Unix时间戳是从1970-01-01 00:00:00 UTC起经过的秒数（10位）或毫秒数（13位），不计闰秒，广泛用于系统时间存储。"},
+      {"q": "10位和13位时间戳有什么区别？", "a": "10位以秒为单位，13位以毫秒为单位，后者提供毫秒精度，适用于金融交易、性能监控等高精度场景。"},
+      {"q": "如何将时间戳转为日期？", "a": "在时间戳输入框填入10位或13位值，选择目标时区，点击“转成日期时间”即可。"},
+      {"q": "如何将日期转为时间戳？", "a": "输入标准日期如 2023-11-14 22:13:20，选择其所在时区，点击“转成时间戳”即可得到秒级与毫秒级结果。"}
+    ],
+    "faqs_en": [
+      {"q": "What is Unix timestamp?", "a": "Unix timestamp is seconds (10-digit) or milliseconds (13-digit) since 1970-01-01 00:00:00 UTC, excluding leap seconds."},
+      {"q": "Difference between 10 and 13 digit?", "a": "10-digit is seconds, 13-digit is milliseconds for high-precision scenarios like finance and monitoring."},
+      {"q": "How to convert timestamp to date?", "a": "Enter 10 or 13 digit timestamp, select timezone, click Convert to Date."},
+      {"q": "How to convert date to timestamp?", "a": "Enter date like 2023-11-14 22:13:20, select its timezone, click Convert to Timestamp."}
+    ],
+    "faqs_es": [
+      {"q": "¿Qué es timestamp Unix?", "a": "Es segundos (10 dígitos) o milisegundos (13 dígitos) desde 1970-01-01 00:00:00 UTC, sin segundos intercalares."},
+      {"q": "¿Diferencia entre 10 y 13 dígitos?", "a": "10 dígitos son segundos, 13 dígitos son milisegundos para alta precisión."},
+      {"q": "¿Cómo convertir timestamp a fecha?", "a": "Ingrese timestamp de 10 o 13 dígitos, seleccione zona horaria y haga clic en Convertir."},
+      {"q": "¿Cómo convertir fecha a timestamp?", "a": "Ingrese fecha como 2023-11-14 22:13:20, seleccione zona horaria y haga clic en Convertir."}
+    ],
+    "related": ["timestamp-batch", "hex-converter", "json-formatter"]
+  },
+  {
+    "id": "timestamp-batch",
+    "title": "在线批量时间戳转换工具",
+    "h1": "在线批量时间戳转换工具",
+    "description": "使用我们的批量时间戳转换工具，实现时间戳的快速批量转换与格式化输出，可自定义7种日期格式、自动识别秒级毫秒级、支持批量处理，适用于日志分析与数据清洗。",
+    "title_en": "Online Batch Timestamp Converter",
+    "h1_en": "Online Batch Timestamp Converter",
+    "description_en": "Batch convert Unix timestamps to formatted dates with 7 custom formats. Auto-detect seconds/ms, one per line, ideal for log analysis and data cleaning.",
+    "title_es": "Conversor Masivo de Timestamp en Línea",
+    "h1_es": "Conversor Masivo de Timestamp en Línea",
+    "description_es": "Convierte timestamps Unix por lotes a fechas formateadas con 7 formatos personalizados. Auto-detección s/ms, uno por línea, ideal para logs y limpieza de datos.",
+    "tags": ["批量转换", "时间戳批量", "日期格式化", "日志分析"],
+    "tags_en": ["Batch", "Timestamp", "Date Format", "Log Analysis"],
+    "tags_es": ["Lote", "Timestamp", "Formato", "Logs"],
+    "category": "编程开发",
+    "category_en": "Development",
+    "category_es": "Desarrollo",
+    "faqs": [
+      {"q": "支持哪些类型的时间戳？", "a": "支持10位秒级和13位毫秒级，逐行自动识别，无需手动区分。"},
+      {"q": "可以批量转换多少条？", "a": "每行一条，不限条数，点击“批量转换”后按统一格式输出，结果分行展示。"},
+      {"q": "支持哪些输出格式？", "a": "内置7种：YYYY/MM/DD H:i:s、YYYY-MM-DD H:i:s、DD/MM/YYYY H:i:s、MM/DD/YYYY H:i:s、DD-MM-YYYY H:i:s、MM-DD-YYYY H:i:s、YYYY年MM月DD日 H:i:s。"},
+      {"q": "无效时间戳会怎样？", "a": "无效行将标记为 ❌ 无效时间戳: 原始内容，便于快速定位和清理后重试。"}
+    ],
+    "faqs_en": [
+      {"q": "Which timestamp types are supported?", "a": "Both 10-digit seconds and 13-digit milliseconds, auto-detected per line."},
+      {"q": "How many can I batch?", "a": "One per line, unlimited, converted in one click with uniform formatting."},
+      {"q": "Which output formats?", "a": "7 formats: YYYY/MM/DD H:i:s, YYYY-MM-DD H:i:s, DD/MM/YYYY H:i:s, etc."},
+      {"q": "What about invalid lines?", "a": "They are marked as ❌ Invalid timestamp: original content for easy fixing."}
+    ],
+    "faqs_es": [
+      {"q": "¿Qué tipos soporta?", "a": "Timestamps de 10 dígitos (s) y 13 dígitos (ms), detección automática por línea."},
+      {"q": "¿Cuántos por lote?", "a": "Uno por línea, ilimitado, conversión en un clic."},
+      {"q": "¿Qué formatos?", "a": "7 formatos: YYYY/MM/DD H:i:s, YYYY-MM-DD H:i:s, etc."},
+      {"q": "¿Y líneas inválidas?", "a": "Se marcan como ❌ Timestamp inválido: contenido original."}
+    ],
+    "related": ["timestamp", "hex-converter", "json-formatter"]
   }
 ]

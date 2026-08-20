@@ -39,15 +39,15 @@
 | 32 | multi-line-chart | 多系列折线 | 图表 | todo | - | - |
 | 33 | stacked-area-chart | 堆积面积图 | 图表 | todo | - | - |
 | 34 | waterfall-chart | 瀑布图 | 图表 | todo | - | - |
-| 35 | timestamp | Unix时间戳 | 开发辅助 | todo | - | - |
-| 36 | timestamp-batch | 批量时间戳 | 开发辅助 | todo | - | - |
-| 37 | datetime-converter | 日期格式转换 | 开发辅助 | todo | - | - |
-| 38 | hex-converter | 进制转换器 | 开发辅助 | deployed | fb76846+727f96c | 2026-08-20 200 Pass，playwright 255→11111111/377/FF/7V/73/Ev/5Q/47/_w 与原站一致 |
-| 39 | camel | 下划线/驼峰 | 开发辅助 | done | pending push | vitest 5/5 Pass, build 32页 |
-| 40 | html-escape | HTML转义 | 开发辅助 | todo | - | - |
-| 41 | json-flatten | JSON扁平化 | 开发辅助 | todo | - | - |
-| 42 | json-unflatten | JSON反扁平化 | 开发辅助 | todo | - | - |
-| 43 | json-sort | JSON键排序 | 开发辅助 | todo | - | - |
+| 35 | timestamp | Unix时间戳 | 开发辅助 | done | pending | vitest 6/6 Pass, build 10工具 |
+| 36 | timestamp-batch | 批量时间戳 | 开发辅助 | done | pending | vitest batch Pass, playw配置 |
+| 37 | datetime-converter | 日期格式转换 | 开发辅助 | done | pending | 7/7 Pass, build 44页 |
+| 38 | hex-converter | 进制转换器 | 开发辅助 | deployed | fb76846+727f96c | 2026-08-20 200 Pass，playwright 255→11111111 |
+| 39 | camel | 下划线/驼峰 | 开发辅助 | deployed | b156805 | 5/5 Pass, build 32页 |
+| 40 | html-escape | HTML转义 | 开发辅助 | done | pending | 5/5 Pass, build 12路 |
+| 41 | json-flatten | JSON扁平化 | 开发辅助 | done | pending | 5/5 Pass |
+| 42 | json-unflatten | JSON反扁平化 | 开发辅助 | done | pending | 5/5 Pass |
+| 43 | json-sort | JSON键排序 | 开发辅助 | done | pending | 5/5 Pass |
 | 44 | php-serialize | PHP序列化 | 开发辅助 | todo | - | - |
 | 45 | csv-merge | CSV合并器 | 开发辅助 | todo | - | - |
 | 46 | pwa-manifest | PWA配置 | 开发辅助 | todo | - | - |
