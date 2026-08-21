@@ -213,12 +213,12 @@
 | 150 | image-size-revise | 图片尺寸调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
 | 151 | image-cropping | 图片自定义裁剪 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
 | 152 | image-quality | 图片质量调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
-| 153 | image-jpg | 图片转JPG格式 | 图片处理 | todo | - | - |
-| 154 | image-png | 图片转PNG格式 | 图片处理 | todo | - | - |
-| 155 | image-webp | 图片转WebP格式 | 图片处理 | todo | - | - |
-| 156 | image-bmp | 图片转BMP格式 | 图片处理 | todo | - | - |
-| 157 | png2jpg | PNG图片转JPG | 图片处理 | todo | - | - |
-| 158 | webp2jpg | WEBP图片转JPG | 图片处理 | todo | - | - |
+| 153 | image-jpg | 图片转JPG格式 | 图片处理 | deployed | b5w2push | 200 Pass 线上验证 |
+| 154 | image-png | 图片转PNG格式 | 图片处理 | deployed | b5w2push | 200 Pass 线上验证 |
+| 155 | image-webp | 图片转WebP格式 | 图片处理 | deployed | b5w2push | 200 Pass 线上验证 |
+| 156 | image-bmp | 图片转BMP格式 | 图片处理 | deployed | b5w2push | 200 Pass 线上验证 |
+| 157 | png2jpg | PNG图片转JPG | 图片处理 | deployed | b5w2push | 200 Pass 线上验证 |
+| 158 | webp2jpg | WEBP图片转JPG | 图片处理 | deployed | b5w2push | 200 Pass 线上验证 |
 | 159 | watermark | 图片添加水印 | 图片处理 | todo | - | - |
 | 160 | image-compressor | 图片高清压缩 | 图片处理 | todo | - | - |
 | 161 | color-picker | 图片取色器 | 图片处理 | todo | - | - |
