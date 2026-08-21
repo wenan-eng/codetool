@@ -74,13 +74,13 @@
 | 56 | text-hex | 文本与十六进制互转 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
 | 57 | text-octal | 文本与八进制互转 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
 | 58 | text-bin | 文本与二进制互转 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
-| 59 | base32-encode | Base32编码/解码 | 编码转换 | todo | - | - |
-| 60 | base64-encode | Base64编码/解码 | 编码转换 | todo | - | - |
-| 61 | base64-bulk | Base64批量编码/解码 | 编码转换 | todo | - | - |
-| 62 | jwt-decoder | JWT解码查看器 | 编码转换 | todo | - | - |
-| 63 | random-pwd | 随机密码生成器 | 编码转换 | todo | - | - |
-| 64 | entropy-calculator | 密码熵值计算器 | 编码转换 | todo | - | - |
-| 65 | gzip | Gzip编码/解码 | 编码转换 | todo | - | - |
+| 59 | base32-encode | Base32编码/解码 | 编码转换 | deployed | 波2push | 200 Pass 线上验证 |
+| 60 | base64-encode | Base64编码/解码 | 编码转换 | deployed | 波2push | 200 Pass 线上验证 |
+| 61 | base64-bulk | Base64批量编码/解码 | 编码转换 | deployed | 波2push | 200 Pass 线上验证 |
+| 62 | jwt-decoder | JWT解码查看器 | 编码转换 | deployed | 波2push | 200 Pass 线上验证 |
+| 63 | random-pwd | 随机密码生成器 | 编码转换 | deployed | 波2push | 200 Pass 线上验证 |
+| 64 | entropy-calculator | 密码熵值计算器 | 编码转换 | deployed | 波2push | 200 Pass 线上验证 |
+| 65 | gzip | Gzip编码/解码 | 编码转换 | deployed | 波2push | 200 Pass 线上验证 |
 | 66 | md5 | MD5安全加密 | 编码转换 | todo | - | - |
 | 67 | md5-batch | 批量MD5加密 | 编码转换 | todo | - | - |
 | 68 | sha | SHA系列哈希值生成 | 编码转换 | todo | - | - |
