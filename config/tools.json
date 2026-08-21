@@ -9465,5 +9465,541 @@
       "speed-converter",
       "power-converter"
     ]
+  },
+  {
+    "id": "voltage-converter",
+    "title": "电压单位在线换算工具",
+    "h1": "电压单位在线换算工具",
+    "description": "电压单位在线换算工具，支持纳伏微伏毫伏伏特千伏共 5 种电压单位双向换算，千进制精确因子即时计算，适用于电子电路、电池参数与电力工程，全部本地计算不上传。",
+    "title_en": "Voltage Unit Converter Online",
+    "h1_en": "Voltage Unit Converter Online",
+    "description_en": "Convert across 5 voltage units from nanovolts to kilovolts with exact decimal factors — for circuits, batteries and power engineering, fully local.",
+    "title_es": "Conversor de Voltaje en Línea",
+    "h1_es": "Conversor de Voltaje en Línea",
+    "description_es": "Convierta entre 5 unidades de voltaje de nanovoltios a kilovoltios con factores decimales exactos, todo local.",
+    "tags": [
+      "电压换算",
+      "伏特",
+      "毫伏千伏",
+      "电子电路"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-illuminance-converter.svg",
+    "faqs": [
+      {
+        "q": "常见电池电压是多少？",
+        "a": "碱性 AA 电池 1.5V、锂电池 3.7V、汽车电瓶 12V、电动车 48V-72V，均可用本工具与其他单位互转。"
+      },
+      {
+        "q": "毫伏和伏特差多少？",
+        "a": "1V = 1000mV，传感器信号常以 mV 计，换算为千进制倍数关系。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What are common battery voltages?",
+        "a": "Alkaline AA 1.5 V, lithium 3.7 V, car battery 12 V, e-bike 48-72 V — convert to any unit here."
+      },
+      {
+        "q": "Millivolts vs volts?",
+        "a": "1 V = 1000 mV; sensor signals are often in mV, related by decimal factors."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Voltajes típicos de baterías?",
+        "a": "AA alcalina 1,5 V, litio 3,7 V, coche 12 V, bici eléctrica 48-72 V; convierta aquí."
+      },
+      {
+        "q": "¿Milivoltios frente a voltios?",
+        "a": "1 V = 1000 mV; las señales de sensores suelen estar en mV, relación decimal."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "current-converter",
+      "resistance-converter",
+      "power-converter"
+    ]
+  },
+  {
+    "id": "current-converter",
+    "title": "电流单位在线换算工具",
+    "h1": "电流单位在线换算工具",
+    "description": "电流单位在线换算工具，支持纳安微安毫安安培千安共 5 种电流单位双向换算，千进制精确因子即时计算，适用于电路设计、漏电检测与电力系统分析，全部本地计算不上传。",
+    "title_en": "Current Unit Converter Online",
+    "h1_en": "Current Unit Converter Online",
+    "description_en": "Convert across 5 current units from nanoamps to kiloamps with exact decimal factors — for circuit design, leakage detection and power systems, fully local.",
+    "title_es": "Conversor de Corriente en Línea",
+    "h1_es": "Conversor de Corriente en Línea",
+    "description_es": "Convierta entre 5 unidades de corriente de nanoamperios a kiloamperios con factores exactos, todo local.",
+    "tags": [
+      "电流换算",
+      "安培",
+      "毫安",
+      "电路设计"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-illuminance-converter.svg",
+    "faqs": [
+      {
+        "q": "人体安全电流是多少？",
+        "a": "一般公认 30mA 为安全阈值，漏电保护开关按此设计；本工具可快速换算 μA 级微弱电流。"
+      },
+      {
+        "q": "毫安和安培怎么换？",
+        "a": "1A = 1000mA = 1000000μA，充电器输出的 2A 即 2000mA。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is a safe current for the human body?",
+        "a": "30 mA is the widely accepted threshold behind RCD/GFCI breakers; convert μA-level leakage currents here."
+      },
+      {
+        "q": "How do mA and A convert?",
+        "a": "1 A = 1000 mA = 1,000,000 μA; a charger outputting 2 A delivers 2000 mA."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Corriente segura para el cuerpo humano?",
+        "a": "30 mA es el umbral aceptado en los diferenciales; convierta corrientes de fuga en μA aquí."
+      },
+      {
+        "q": "¿Cómo convertir mA y A?",
+        "a": "1 A = 1000 mA = 1.000.000 μA; un cargador de 2 A entrega 2000 mA."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "voltage-converter",
+      "resistance-converter",
+      "charge-converter"
+    ]
+  },
+  {
+    "id": "resistance-converter",
+    "title": "电阻单位在线换算工具",
+    "h1": "电阻单位在线换算工具",
+    "description": "电阻单位在线换算工具，支持毫欧欧姆千欧兆欧共 4 种电阻单位双向换算，千进制精确因子即时计算，适用于电阻选型、绝缘测试与电路分析，全部本地计算不上传。",
+    "title_en": "Resistance Unit Converter Online",
+    "h1_en": "Resistance Unit Converter Online",
+    "description_en": "Convert across 4 resistance units: mΩ, Ω, kΩ and MΩ with exact decimal factors — for resistor selection, insulation testing and circuit analysis, fully local.",
+    "title_es": "Conversor de Resistencia en Línea",
+    "h1_es": "Conversor de Resistencia en Línea",
+    "description_es": "Convierta entre 4 unidades de resistencia: mΩ, Ω, kΩ y MΩ con factores exactos, todo local.",
+    "tags": [
+      "电阻换算",
+      "欧姆",
+      "千欧兆欧",
+      "电路"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-illuminance-converter.svg",
+    "faqs": [
+      {
+        "q": "贴片电阻的 kΩ MΩ 怎么读？",
+        "a": "丝印 103 表示 10×10³=10kΩ，475 表示 47×10⁵=4.7MΩ；先读码再按本工具核对单位。"
+      },
+      {
+        "q": "绝缘电阻多少才合格？",
+        "a": "低压线路一般要求 ≥0.5MΩ，用兆欧表测量后可在本工具换算为 kΩ 对照标准。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to read SMD resistor codes?",
+        "a": "Marking 103 means 10×10³ = 10 kΩ; 475 means 47×10⁵ = 4.7 MΩ — verify units with this tool."
+      },
+      {
+        "q": "What insulation resistance is acceptable?",
+        "a": "Low-voltage wiring typically requires ≥0.5 MΩ; measure with a megger and compare after converting."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo leer resistencias SMD?",
+        "a": "El código 103 significa 10×10³ = 10 kΩ; 475 significa 47×10⁵ = 4,7 MΩ; verifique unidades aquí."
+      },
+      {
+        "q": "¿Qué aislamiento es aceptable?",
+        "a": "Cableado de baja tensión suele requerir ≥0,5 MΩ; mida con megóhmetro y compare tras convertir."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "voltage-converter",
+      "current-converter",
+      "capacitance-converter"
+    ]
+  },
+  {
+    "id": "capacitance-converter",
+    "title": "电容单位在线换算工具",
+    "h1": "电容单位在线换算工具",
+    "description": "电容单位在线换算工具，支持皮法纳法微法毫法法拉共 5 种电容单位双向换算，千进制精确因子即时计算，适用于电容选型、电源滤波与音频耦合电路设计，全部本地计算不上传。",
+    "title_en": "Capacitance Unit Converter Online",
+    "h1_en": "Capacitance Unit Converter Online",
+    "description_en": "Convert across 5 capacitance units from picofarads to farads with exact decimal factors — for capacitor selection, power filtering and audio coupling design, fully local.",
+    "title_es": "Conversor de Capacitancia en Línea",
+    "h1_es": "Conversor de Capacitancia en Línea",
+    "description_es": "Convierta entre 5 unidades de capacitancia de picofaradios a faradios con factores exactos, todo local.",
+    "tags": [
+      "电容换算",
+      "法拉",
+      "微法皮法",
+      "电子元件"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-capacitance-converter.svg",
+    "faqs": [
+      {
+        "q": "104 电容是多少容量？",
+        "a": "瓷片电容丝印 104 表示 10×10⁴ pF = 100nF = 0.1μF，三种标注实为同一容量。"
+      },
+      {
+        "q": "法拉为什么这么大？",
+        "a": "1F 极大，实际电路常用 μF/nF/pF 级；超级电容可达数法拉，普通电解电容约 μF 级。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does a 104 capacitor mean?",
+        "a": "Ceramic marking 104 = 10×10⁴ pF = 100 nF = 0.1 μF — three notations, one value."
+      },
+      {
+        "q": "Why is a farad so large?",
+        "a": "Practical circuits use μF/nF/pF; supercapacitors reach whole farads while regular electrolytics are microfarads."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué significa un condensador 104?",
+        "a": "La marca 104 = 10×10⁴ pF = 100 nF = 0,1 μF; tres notaciones, mismo valor."
+      },
+      {
+        "q": "¿Por qué el faradio es tan grande?",
+        "a": "Los circuitos prácticos usan μF/nF/pF; los supercondensadores llegan a faradios enteros."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "resistance-converter",
+      "voltage-converter",
+      "charge-converter"
+    ]
+  },
+  {
+    "id": "charge-converter",
+    "title": "电荷单位在线换算工具",
+    "h1": "电荷单位在线换算工具",
+    "description": "电荷单位在线换算工具，支持微库毫库库仑千库及安时共 5 种电荷单位双向换算，精确因子即时计算，适用于电池容量核算、电化学实验与静电分析，全部本地计算不上传。",
+    "title_en": "Electric Charge Unit Converter",
+    "h1_en": "Electric Charge Unit Converter",
+    "description_en": "Convert across 5 charge units: μC, mC, C, kC and ampere-hours with exact factors — for battery capacity accounting, electrochemistry and static analysis, fully local.",
+    "title_es": "Conversor de Carga Eléctrica",
+    "h1_es": "Conversor de Carga Eléctrica",
+    "description_es": "Convierta entre 5 unidades de carga: μC, mC, C, kC y amperios-hora con factores exactos, todo local.",
+    "tags": [
+      "电荷换算",
+      "库仑",
+      "安时",
+      "电池容量"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-charge-converter.svg",
+    "faqs": [
+      {
+        "q": "安时和库仑什么关系？",
+        "a": "1 Ah = 3600 C：1 安培电流持续 1 小时通过的电量；手机电池 5000mAh 即 5Ah = 18000 库仑。"
+      },
+      {
+        "q": "静电的电荷有多大？",
+        "a": "人体日常静电约几微库到毫库级，虽电压上万伏但总能量很小，可用本工具量化对比。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Relation between Ah and coulombs?",
+        "a": "1 Ah = 3600 C (one amp for one hour); a 5000 mAh phone battery is 5 Ah = 18,000 C."
+      },
+      {
+        "q": "How much charge is static electricity?",
+        "a": "Everyday body static is a few μC to mC — high voltage but tiny energy; quantify it here."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Relación entre Ah y culombios?",
+        "a": "1 Ah = 3600 C (un amperio durante una hora); una batería de 5000 mAh son 5 Ah = 18.000 C."
+      },
+      {
+        "q": "¿Cuánta carga tiene la estática?",
+        "a": "La estática corporal cotidiana es de unos μC a mC; mucho voltaje pero poca energía; cuantifíquela aquí."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "current-converter",
+      "capacitance-converter",
+      "weight-converter"
+    ]
+  },
+  {
+    "id": "illuminance-converter",
+    "title": "照度单位在线换算工具",
+    "h1": "照度单位在线换算工具",
+    "description": "照度单位在线换算工具，支持勒克斯千勒克斯、辐透与英尺烛光共 4 种照度单位双向换算，精确因子即时计算，适用于灯光设计、摄影测光与办公照明标准对照，全部本地计算不上传。",
+    "title_en": "Illuminance Unit Converter Online",
+    "h1_en": "Illuminance Unit Converter Online",
+    "description_en": "Convert across 4 illuminance units: lux, kilolux, phot and foot-candle with exact factors — for lighting design, photography metering and office standards, fully local.",
+    "title_es": "Conversor de Iluminancia en Línea",
+    "h1_es": "Conversor de Iluminancia en Línea",
+    "description_es": "Convierta entre 4 unidades de iluminancia: lux, kilolux, fot y pie-candela con factores exactos, todo local.",
+    "tags": [
+      "照度换算",
+      "勒克斯",
+      "英尺烛光",
+      "灯光设计"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-illuminance-converter.svg",
+    "faqs": [
+      {
+        "q": "办公室照度标准是多少？",
+        "a": "一般办公区 300-500 lx，精细作业 500-1000 lx；欧美资料常用 fc，1 fc ≈ 10.76 lx 可在此互转。"
+      },
+      {
+        "q": "晴天室外照度有多高？",
+        "a": "正午阳光直射可达 100000 lx（100 klx），阴天约 1000-10000 lx，是室内照度的百倍以上。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is the office lighting standard?",
+        "a": "Typical offices need 300-500 lx, detailed work 500-1000 lx; US sources use fc where 1 fc ≈ 10.76 lx."
+      },
+      {
+        "q": "How bright is outdoor sunlight?",
+        "a": "Direct noon sun reaches ~100,000 lx (100 klx); overcast days about 1,000-10,000 lx — over 100x indoor levels."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cuál es la norma de iluminación de oficinas?",
+        "a": "Oficinas típicas 300-500 lx, trabajo fino 500-1000 lx; en EE.UU. se usa fc, 1 fc ≈ 10,76 lx."
+      },
+      {
+        "q": "¿Qué brillantez tiene el sol?",
+        "a": "El mediodía soleado alcanza ~100.000 lx (100 klx); nublado 1.000-10.000 lx, más de cien veces el interior."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "sound-converter",
+      "cct-converter",
+      "heat-converter"
+    ]
+  },
+  {
+    "id": "sound-converter",
+    "title": "声音强度单位换算",
+    "h1": "声音强度单位换算",
+    "description": "声音强度单位换算工具，支持分贝、奈培与贝尔三种声学级单位双向换算，精确对数因子即时计算，适用于噪声监测、音频工程与环境评估报告，全部本地计算不上传。",
+    "title_en": "Sound Level Unit Converter",
+    "h1_en": "Sound Level Unit Converter",
+    "description_en": "Convert across 3 acoustic level units: decibels, nepers and bels with exact logarithmic factors — for noise monitoring, audio engineering and environmental reports, fully local.",
+    "title_es": "Conversor de Nivel de Sonido",
+    "h1_es": "Conversor de Nivel de Sonido",
+    "description_es": "Convierta entre 3 unidades acústicas: decibelios, neperios y bels con factores logarítmicos exactos, todo local.",
+    "tags": [
+      "分贝换算",
+      "声压级",
+      "噪声监测",
+      "音频工程"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-sound-converter.svg",
+    "faqs": [
+      {
+        "q": "分贝和贝尔什么关系？",
+        "a": "1 贝尔 = 10 分贝，分贝是贝尔的十分之一；日常声学全部使用 dB，B 仅在教科书出现。"
+      },
+      {
+        "q": "奈培是什么单位？",
+        "a": "奈培(Np)是以自然对数为底的对数单位，1 Np ≈ 8.686 dB，常见于传输线理论。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Decibels vs bels?",
+        "a": "1 bel = 10 dB; everyday acoustics use dB exclusively while bels appear mostly in textbooks."
+      },
+      {
+        "q": "What is a neper?",
+        "a": "The neper (Np) is a natural-logarithm level unit where 1 Np ≈ 8.686 dB, common in transmission line theory."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Decibelios frente a belios?",
+        "a": "1 belio = 10 dB; la acústica diaria usa solo dB, los belios aparecen en libros de texto."
+      },
+      {
+        "q": "¿Qué es el neperio?",
+        "a": "El neperio (Np) usa logaritmo natural: 1 Np ≈ 8,686 dB, común en teoría de líneas de transmisión."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "illuminance-converter",
+      "frequency-converter",
+      "cct-converter"
+    ]
+  },
+  {
+    "id": "cct-converter",
+    "title": "色温单位换算",
+    "h1": "色温单位换算",
+    "description": "色温单位换算工具，支持开尔文色温与迈尔德(mired)倒数色温双向换算，摄影滤光片与影视调色领域常用 mired 标注，一键互转即查即得，全部本地计算不上传。",
+    "title_en": "Color Temperature Converter",
+    "h1_en": "Color Temperature Converter",
+    "description_en": "Convert between Kelvin color temperature and reciprocal mired values used in photography filters and color grading — instant two-way conversion, fully local.",
+    "title_es": "Conversor de Temperatura de Color",
+    "h1_es": "Conversor de Temperatura de Color",
+    "description_es": "Convierta entre kelvins y mired recíprocos usados en filtros fotográficos etalonaje, conversión instantánea, todo local.",
+    "tags": [
+      "色温",
+      "开尔文",
+      "迈尔德",
+      "摄影滤镜"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-cct-converter.svg",
+    "faqs": [
+      {
+        "q": "什么是迈尔德(mired)？",
+        "a": "mired = 1000000 ÷ 开尔文值，5000K 对应 200 mired；人眼对低色温变化更敏感，mired 刻度更符合感知。"
+      },
+      {
+        "q": "摄影滤镜上的 mired 怎么用？",
+        "a": "橙色暖滤镜标正值如 +81mired、蓝色冷滤镜标负值；目标 mired = 光源 mired + 滤镜值，再换回 K 即得结果色温。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is mired?",
+        "a": "mired = 1,000,000 ÷ kelvin; 5000 K equals 200 mired. The scale matches human sensitivity better at low color temperatures."
+      },
+      {
+        "q": "How do I use mired filter values?",
+        "a": "Warm orange filters carry positive values (+81 mired), blue cooling filters negative; target mired = source mired + filter, then convert back to K."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es el mired?",
+        "a": "mired = 1.000.000 ÷ kelvin; 5000 K equivale a 200 mired; la escala refleja mejor la percepción humana a bajas temperaturas."
+      },
+      {
+        "q": "¿Cómo uso los valores mired de filtros?",
+        "a": "Los filtros cálidos naranjas suman (+81 mired) y los fríos azules restan; mired objetivo = fuente + filtro, luego vuelva a K."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "temperature-converter",
+      "illuminance-converter",
+      "sound-converter"
+    ]
   }
 ]

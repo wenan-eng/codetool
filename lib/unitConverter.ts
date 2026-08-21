@@ -9,6 +9,8 @@ export type CategoryKey =
   | "speed" | "time" | "angle"
   | "pressure" | "power" | "force" | "torque" | "energy" | "frequency" | "density"
   | "fuel"
+  | "voltage" | "current" | "resistance" | "capacitance" | "charge"
+  | "illuminance" | "sound" | "cct"
 
 interface LinearCategory {
   kind: "linear"
@@ -18,7 +20,7 @@ interface LinearCategory {
 
 const u = (sym: string, name: string, f: number): UnitEntry => ({ sym, name, f })
 
-const LINEAR: Record<Exclude<CategoryKey, "temperature" | "fuel">, LinearCategory> = {
+const LINEAR: Record<Exclude<CategoryKey, "temperature" | "fuel" | "cct">, LinearCategory> = {
   length: {
     kind: "linear",
     baseName: "米",
@@ -135,6 +137,44 @@ const LINEAR: Record<Exclude<CategoryKey, "temperature" | "fuel">, LinearCategor
       u("lb/ft³", "磅/立方英尺", 16.01846337), u("lb/in³", "磅/立方英寸", 27679.90471),
     ],
   },
+  voltage: {
+    kind: "linear",
+    baseName: "伏特",
+    units: [u("nV", "纳伏", 1e-9), u("μV", "微伏", 1e-6), u("mV", "毫伏", 1e-3), u("V", "伏特", 1), u("kV", "千伏", 1e3)],
+  },
+  current: {
+    kind: "linear",
+    baseName: "安培",
+    units: [u("nA", "纳安", 1e-9), u("μA", "微安", 1e-6), u("mA", "毫安", 1e-3), u("A", "安培", 1), u("kA", "千安", 1e3)],
+  },
+  resistance: {
+    kind: "linear",
+    baseName: "欧姆",
+    units: [u("mΩ", "毫欧", 1e-3), u("Ω", "欧姆", 1), u("kΩ", "千欧", 1e3), u("MΩ", "兆欧", 1e6)],
+  },
+  capacitance: {
+    kind: "linear",
+    baseName: "法拉",
+    units: [u("pF", "皮法", 1e-12), u("nF", "纳法", 1e-9), u("μF", "微法", 1e-6), u("mF", "毫法", 1e-3), u("F", "法拉", 1)],
+  },
+  charge: {
+    kind: "linear",
+    baseName: "库仑",
+    units: [u("μC", "微库", 1e-6), u("mC", "毫库", 1e-3), u("C", "库仑", 1), u("kC", "千库", 1e3), u("Ah", "安时", 3600)],
+  },
+  illuminance: {
+    kind: "linear",
+    baseName: "勒克斯",
+    units: [
+      u("lx", "勒克斯", 1), u("klx", "千勒克斯", 1e3), u("phot", "辐透", 1e4),
+      u("fc", "英尺烛光", 10.76391042),
+    ],
+  },
+  sound: {
+    kind: "linear",
+    baseName: "分贝",
+    units: [u("dB", "分贝", 1), u("Np", "奈培", 8.685889638), u("B", "贝尔", 10)],
+  },
 }
 
 const TEMPERATURE_UNITS = ["°C", "°F", "K", "°R"] as const
@@ -152,6 +192,12 @@ const RECIPROCAL: Record<string, { units: ReciprocalUnit[] }> = {
       { sym: "km/L", name: "千米/升", c: 100 },
       { sym: "mpg(US)", name: "美制mpg", c: 235.2145833 },
       { sym: "mpg(UK)", name: "英制mpg", c: 282.4809363 },
+    ],
+  },
+  cct: {
+    units: [
+      { sym: "K", name: "开尔文色温", c: 1e6 },
+      { sym: "mired", name: "迈尔德", c: 1 },
     ],
   },
 }
@@ -187,6 +233,14 @@ export const TOOL_CATEGORY_MAP: Record<string, CategoryKey> = {
   "frequency-converter": "frequency",
   "density-converter": "density",
   "fuel-consumption-converter": "fuel",
+  "voltage-converter": "voltage",
+  "current-converter": "current",
+  "resistance-converter": "resistance",
+  "capacitance-converter": "capacitance",
+  "charge-converter": "charge",
+  "illuminance-converter": "illuminance",
+  "sound-converter": "sound",
+  "cct-converter": "cct",
 }
 
 export function getCategoryKeys(): CategoryKey[] {
@@ -199,7 +253,7 @@ export function getUnits(category: CategoryKey): { sym: string; name: string }[]
     return TEMPERATURE_UNITS.map(sym => ({ sym, name: names[sym] }))
   }
   if (category in RECIPROCAL) return RECIPROCAL[category].units.map(({ sym, name }) => ({ sym, name }))
-  return LINEAR[category as Exclude<CategoryKey, "temperature" | "fuel">].units.map(({ sym, name }) => ({ sym, name }))
+  return LINEAR[category as Exclude<CategoryKey, "temperature" | "fuel" | "cct">].units.map(({ sym, name }) => ({ sym, name }))
 }
 
 export function convertUnit(category: CategoryKey, value: number, from: string, to: string): number {
@@ -216,7 +270,7 @@ export function convertUnit(category: CategoryKey, value: number, from: string, 
     if (value === 0) throw new Error("数值不能为 0")
     return (ut.c * uf.c) / value
   }
-  const cat = LINEAR[category as Exclude<CategoryKey, "temperature" | "fuel">]
+  const cat = LINEAR[category as Exclude<CategoryKey, "temperature" | "fuel" | "cct">]
   const uf = cat.units.find(x => x.sym === from)
   const ut = cat.units.find(x => x.sym === to)
   if (!uf || !ut) throw new Error("未知单位")

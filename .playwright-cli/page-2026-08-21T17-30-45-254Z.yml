@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+      - generic [ref=e10]:
+        - generic [ref=e11]: 搜索工具
+        - generic [ref=e12]:
+          - link "中文" [ref=e13] [cursor=pointer]:
+            - /url: /zh/fuel-consumption-converter
+          - link "English" [ref=e14] [cursor=pointer]:
+            - /url: /en/fuel-consumption-converter
+          - link "Español" [ref=e15] [cursor=pointer]:
+            - /url: /es/fuel-consumption-converter
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e19]:
+        - heading "油耗单位在线换算工具" [level=1] [ref=e20]
+        - generic [ref=e21]:
+          - generic [ref=e22]: 油耗换算
+          - generic [ref=e23]: 百公里油耗
+          - generic [ref=e24]: mpg
+          - generic [ref=e25]: 燃油经济性
+        - paragraph [ref=e26]: 油耗单位在线换算工具，支持升/百公里、千米/升、美制mpg、英制mpg四种油耗表示法互转，采用倒数关系精确换算，适用于购车对比、跨境自驾与油耗经济性评估，全部本地计算不上传。
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: 源单位
+            - textbox "请输入要转换的数值" [ref=e31]: "1"
+            - combobox [ref=e32]:
+              - option "L/100km（升/百公里）" [selected]
+              - option "km/L（千米/升）"
+              - option "mpg(US)（美制mpg）"
+              - option "mpg(UK)（英制mpg）"
+          - button "⇄" [ref=e33] [cursor=pointer]
+          - generic [ref=e34]:
+            - generic [ref=e35]: 目标单位
+            - generic [ref=e36]: —
+            - combobox [ref=e37]:
+              - option "L/100km（升/百公里）"
+              - option "km/L（千米/升）" [selected]
+              - option "mpg(US)（美制mpg）"
+              - option "mpg(UK)（英制mpg）"
+        - generic [ref=e38]:
+          - button "单位转换" [ref=e39] [cursor=pointer]
+          - button "清空数据" [ref=e40] [cursor=pointer]
+        - paragraph [ref=e41]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e42]:
+        - heading "使用说明" [level=2] [ref=e43]
+        - list [ref=e44]:
+          - listitem [ref=e45]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e46]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e47]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e48]: 所有操作本地完成，保障隐私
+      - generic [ref=e49]:
+        - heading "同类推荐" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - link "体积/容积单位在线换算工具" [ref=e52] [cursor=pointer]:
+            - /url: /zh/volume-converter
+            - generic [ref=e53]: 体积/容积单位在线换算工具
+          - link "速度单位在线换算工具" [ref=e54] [cursor=pointer]:
+            - /url: /zh/speed-converter
+            - generic [ref=e55]: 速度单位在线换算工具
+          - link "功率单位在线换算工具" [ref=e56] [cursor=pointer]:
+            - /url: /zh/power-converter
+            - generic [ref=e57]: 功率单位在线换算工具
+      - generic [ref=e58]:
+        - heading "常见问题" [level=2] [ref=e59]
+        - group [ref=e60]:
+          - generic "L/100km 和 mpg 为什么是倒数关系？" [ref=e61] [cursor=pointer]
+        - group [ref=e62]:
+          - generic "美制和英制 mpg 差多少？" [ref=e63] [cursor=pointer]
+        - group [ref=e64]:
+          - generic "会被上传吗？" [ref=e65] [cursor=pointer]
+  - contentinfo [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - heading "热门推荐" [level=4] [ref=e69]
+        - link "JSON" [ref=e70] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e71]:
+        - heading "站长工具" [level=4] [ref=e72]
+        - link "IP" [ref=e73] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e74]:
+        - heading "关于" [level=4] [ref=e75]
+        - link "关于我们" [ref=e76] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e77] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e78]:
+        - heading "合规" [level=4] [ref=e79]
+        - link "服务条款" [ref=e80] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e81] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e82]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e83]

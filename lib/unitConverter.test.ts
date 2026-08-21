@@ -88,3 +88,30 @@ describe("wave2 categories", () => {
     expect(() => convertUnit("fuel", 0, "mpg(US)", "L/100km")).toThrow(/不能为 0/)
   })
 })
+
+describe("wave3 categories", () => {
+  it("电压：千伏转毫伏", () => {
+    expect(convertUnit("voltage", 1, "kV", "mV")).toBeCloseTo(1e6, 0)
+  })
+  it("电流：安转微安", () => {
+    expect(convertUnit("current", 1, "A", "μA")).toBeCloseTo(1e6, 0)
+  })
+  it("电阻：兆欧转千欧", () => {
+    expect(convertUnit("resistance", 1, "MΩ", "kΩ")).toBeCloseTo(1000, 10)
+  })
+  it("电容：微法转皮法", () => {
+    expect(convertUnit("capacitance", 1, "μF", "pF")).toBeCloseTo(1e6, 0)
+  })
+  it("电荷：安时转库仑", () => {
+    expect(convertUnit("charge", 1, "Ah", "C")).toBeCloseTo(3600, 10)
+  })
+  it("照度：英尺烛光转勒克斯", () => {
+    expect(convertUnit("illuminance", 1, "fc", "lx")).toBeCloseTo(10.7639, 4)
+  })
+  it("声学：奈培转分贝", () => {
+    expect(convertUnit("sound", 1, "Np", "dB")).toBeCloseTo(8.6859, 4)
+  })
+  it("色温：5000K 转 mired", () => {
+    expect(convertUnit("cct", 5000, "K", "mired")).toBeCloseTo(200, 6)
+  })
+})
