@@ -90,14 +90,14 @@
 | 72 | aes-encrypt | AES加密/解密 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
 | 73 | des-encrypt | DES加密/解密 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
 | 74 | url-hex-encode | URL16进制编码解码 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
-| 75 | base64-file | Base64转文件 | 编码转换 | todo | - | - |
-| 76 | file-base64 | 文件转Base64 | 编码转换 | todo | - | - |
-| 77 | base64-image | Base64转图片 | 编码转换 | todo | - | - |
-| 78 | image-base64 | 图片转Base64 | 编码转换 | todo | - | - |
-| 79 | lsb-extract | LSB图片隐写提取 | 编码转换 | todo | - | - |
-| 80 | lsb-embed | LSB图片隐写 | 编码转换 | todo | - | - |
-| 81 | md5-verify | 文件MD5哈希值校验 | 编码转换 | todo | - | - |
-| 82 | md5-batch-verify | 批量文件MD5校验 | 编码转换 | todo | - | - |
+| 75 | base64-file | Base64转文件 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
+| 76 | file-base64 | 文件转Base64 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
+| 77 | base64-image | Base64转图片 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
+| 78 | image-base64 | 图片转Base64 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
+| 79 | lsb-extract | LSB图片隐写提取 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
+| 80 | lsb-embed | LSB图片隐写 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
+| 81 | md5-verify | 文件MD5哈希值校验 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
+| 82 | md5-batch-verify | 批量文件MD5校验 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
 | 83 | js-obfuscator | JS混淆加密 | 编码转换 | todo | - | - |
 | 84 | js-obfuscator-advanced | 专业JS代码混淆加密 | 编码转换 | todo | - | - |
 
