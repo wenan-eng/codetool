@@ -150,6 +150,13 @@
 > 跳过 currency-converter（需实时汇率 API）
 > 图标：9 个直命中（shoe-size/blood-type/sound/illuminance/frequency/density/cct/base-converter/rem-px 及 charge/capacitance）；23 个无专属按同族分配见各行 icon
 
+### 批次4 全部完成 32/32 — 2026-08-21
+- 波1 物理量8 + 波2 力热8 + 波3 电光8 + 波4 杂项8，全部 deployed 线上验证
+- vitest 412/412，build 446页 SSG（zh/en/es × 138工具 + 四分类页）
+- 菜单四入口：编程开发/文本处理/编码加密/单位换算
+- 架构：UnitConverterEditor 配置驱动覆盖 24 类线性+温度仿射+油耗色温倒数；杂项 6 个专用组件
+- 关键坑：BigInt 字面量 vs ES2017、cct mired 常数、rmbUpper 跨节补零、LINEAR Record 类型排除
+
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
 | 107 | length-converter | 长度单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
@@ -176,11 +183,11 @@
 | 128 | illuminance-converter | 照度单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
 | 129 | sound-converter | 声音强度单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
 | 130 | cct-converter | 色温单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
-| 131 | wind-speed-converter | 风速单位换算 | 单位换算 | todo | - | - |
-| 132 | bandwidth-converter | 带宽单位转换 | 单位换算 | todo | - | - |
-| 133 | rem-px | REM与PX单位转换 | 单位换算 | todo | - | - |
-| 134 | font-size-converter | 字体字号单位换算 | 单位换算 | todo | - | - |
-| 135 | base-converter | 多进制转换器 | 单位换算 | todo | - | - |
-| 136 | shoe-size | 鞋子尺码换算 | 单位换算 | todo | - | - |
-| 137 | rmb-upper | 人民币大写转换 | 单位换算 | todo | - | - |
-| 138 | blood-type | 血型遗传计算器 | 单位换算 | todo | - | - |
+| 131 | wind-speed-converter | 风速单位换算 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
+| 132 | bandwidth-converter | 带宽单位转换 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
+| 133 | rem-px | REM与PX单位转换 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
+| 134 | font-size-converter | 字体字号单位换算 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
+| 135 | base-converter | 多进制转换器 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
+| 136 | shoe-size | 鞋子尺码换算 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
+| 137 | rmb-upper | 人民币大写转换 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
+| 138 | blood-type | 血型遗传计算器 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
