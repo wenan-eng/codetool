@@ -144,3 +144,43 @@
 | 104 | sequence-generator | 数字序列批量生成器 | 文本处理 | deployed | b3w3push | 200 Pass 线上验证 |
 | 105 | text-formatter | 文本自动排版 | 文本处理 | deployed | b3w3push | 200 Pass 线上验证 |
 | 106 | pinyin-converter | 汉字转拼音 | 文本处理 | deployed | b3w3push | 200 Pass 线上验证 |
+
+
+## 批次4：单位换算 32 项（来源 https://www.lanren-tools.com/unit/ playwright 已验证 33 项中筛选）
+> 跳过 currency-converter（需实时汇率 API）
+> 图标：9 个直命中（shoe-size/blood-type/sound/illuminance/frequency/density/cct/base-converter/rem-px 及 charge/capacitance）；23 个无专属按同族分配见各行 icon
+
+| # | id | 名称 | 分组 | 状态 | commit | 验证 |
+|---|----|------|------|------|--------|------|
+| 107 | length-converter | 长度单位换算 | 单位换算 | todo | - | - |
+| 108 | weight-converter | 重量单位换算 | 单位换算 | todo | - | - |
+| 109 | temperature-converter | 温度单位换算 | 单位换算 | todo | - | - |
+| 110 | area-converter | 面积单位换算 | 单位换算 | todo | - | - |
+| 111 | volume-converter | 体积/容积单位换算 | 单位换算 | todo | - | - |
+| 112 | speed-converter | 速度单位换算 | 单位换算 | todo | - | - |
+| 113 | time-converter | 时间单位换算 | 单位换算 | todo | - | - |
+| 114 | angle-converter | 角度单位换算 | 单位换算 | todo | - | - |
+| 115 | pressure-converter | 压力单位换算 | 单位换算 | todo | - | - |
+| 116 | power-converter | 功率单位换算 | 单位换算 | todo | - | - |
+| 117 | force-converter | 力单位转换器 | 单位换算 | todo | - | - |
+| 118 | torque-converter | 扭矩单位转换器 | 单位换算 | todo | - | - |
+| 119 | heat-converter | 热量单位换算 | 单位换算 | todo | - | - |
+| 120 | frequency-converter | 频率单位换算 | 单位换算 | todo | - | - |
+| 121 | density-converter | 密度单位换算 | 单位换算 | todo | - | - |
+| 122 | fuel-consumption-converter | 油耗单位换算 | 单位换算 | todo | - | - |
+| 123 | voltage-converter | 电压单位换算 | 单位换算 | todo | - | - |
+| 124 | current-converter | 电流单位换算 | 单位换算 | todo | - | - |
+| 125 | resistance-converter | 电阻单位换算 | 单位换算 | todo | - | - |
+| 126 | capacitance-converter | 电容单位换算 | 单位换算 | todo | - | - |
+| 127 | charge-converter | 电荷单位换算 | 单位换算 | todo | - | - |
+| 128 | illuminance-converter | 照度单位换算 | 单位换算 | todo | - | - |
+| 129 | sound-converter | 声音强度单位换算 | 单位换算 | todo | - | - |
+| 130 | cct-converter | 色温单位换算 | 单位换算 | todo | - | - |
+| 131 | wind-speed-converter | 风速单位换算 | 单位换算 | todo | - | - |
+| 132 | bandwidth-converter | 带宽单位转换 | 单位换算 | todo | - | - |
+| 133 | rem-px | REM与PX单位转换 | 单位换算 | todo | - | - |
+| 134 | font-size-converter | 字体字号单位换算 | 单位换算 | todo | - | - |
+| 135 | base-converter | 多进制转换器 | 单位换算 | todo | - | - |
+| 136 | shoe-size | 鞋子尺码换算 | 单位换算 | todo | - | - |
+| 137 | rmb-upper | 人民币大写转换 | 单位换算 | todo | - | - |
+| 138 | blood-type | 血型遗传计算器 | 单位换算 | todo | - | - |
