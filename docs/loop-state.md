@@ -81,15 +81,15 @@
 | 63 | random-pwd | 随机密码生成器 | 编码转换 | deployed | 波2push | 200 Pass 线上验证 |
 | 64 | entropy-calculator | 密码熵值计算器 | 编码转换 | deployed | 波2push | 200 Pass 线上验证 |
 | 65 | gzip | Gzip编码/解码 | 编码转换 | deployed | 波2push | 200 Pass 线上验证 |
-| 66 | md5 | MD5安全加密 | 编码转换 | todo | - | - |
-| 67 | md5-batch | 批量MD5加密 | 编码转换 | todo | - | - |
-| 68 | sha | SHA系列哈希值生成 | 编码转换 | todo | - | - |
-| 69 | mysql-password | MySQL密码哈希生成 | 编码转换 | todo | - | - |
-| 70 | htpasswd | Htpasswd密码生成器 | 编码转换 | todo | - | - |
-| 71 | md4 | MD4安全加密 | 编码转换 | todo | - | - |
-| 72 | aes-encrypt | AES加密/解密 | 编码转换 | todo | - | - |
-| 73 | des-encrypt | DES加密/解密 | 编码转换 | todo | - | - |
-| 74 | url-hex-encode | URL16进制编码解码 | 编码转换 | todo | - | - |
+| 66 | md5 | MD5安全加密 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
+| 67 | md5-batch | 批量MD5加密 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
+| 68 | sha | SHA系列哈希值生成 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
+| 69 | mysql-password | MySQL密码哈希生成 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
+| 70 | htpasswd | Htpasswd密码生成器 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
+| 71 | md4 | MD4安全加密 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
+| 72 | aes-encrypt | AES加密/解密 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
+| 73 | des-encrypt | DES加密/解密 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
+| 74 | url-hex-encode | URL16进制编码解码 | 编码转换 | deployed | 波3push | 200 Pass 线上验证 |
 | 75 | base64-file | Base64转文件 | 编码转换 | todo | - | - |
 | 76 | file-base64 | 文件转Base64 | 编码转换 | todo | - | - |
 | 77 | base64-image | Base64转图片 | 编码转换 | todo | - | - |
