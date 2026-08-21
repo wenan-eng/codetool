@@ -111,7 +111,14 @@
 
 ## 批次3：文本处理 22 项（来源 https://www.lanren-tools.com/text/ playwright 已验证 40 项中筛选）
 > 跳过：word-filter-*×12（词库版权）、image-extract（已有#50）、note/startup-idea/wechat-chat/folder-generator/markdown（应用型后置）
-> 图标：15 个 logo-{id}.svg 直命中；7 个无专属按同族：remove-emoji→logo-emoji、letter-converter→logo-letter-circle、chinese/mars-converter→logo-symbol-converter、net-parser/url-extractor→logo-url-extractor、sequence-generator/string-random→logo-string-random、pinyin-converter→logo-word-count
+> 图标：15 个 logo-{id}.svg 直命中；7 个无专属按同族
+
+### 批次3 全部完成 22/22 — 2026-08-21
+- 波1 基础编辑8 + 波2 提取解析7 + 波3 转换生成7，全部 deployed 线上验证
+- vitest 363/363，build 347页 SSG（zh/en/es × 106工具 + code/encode/text 三分类页）
+- 菜单三件套齐活：Header 文本处理入口 + /text 分类页 + sitemap
+- 沉淀 skill：~/.config/opencode/skills/site-replication-loop（通用版，项目数据全在状态文件）
+- 关键坑：URL 正则字符类被多余]截断、简繁表重复键 TS1117、trim 吃全角缩进、pinyin-pro 多音字词组级识别：remove-emoji→logo-emoji、letter-converter→logo-letter-circle、chinese/mars-converter→logo-symbol-converter、net-parser/url-extractor→logo-url-extractor、sequence-generator/string-random→logo-string-random、pinyin-converter→logo-word-count
 
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
@@ -130,10 +137,10 @@
 | 97 | idcard-extract | 身份证信息提取 | 文本处理 | deployed | b3w2push | 200 Pass 线上验证 |
 | 98 | net-parser | URL地址解析 | 文本处理 | deployed | b3w2push | 200 Pass 线上验证 |
 | 99 | text-extract | 文本信息提取器 | 文本处理 | deployed | b3w2push | 200 Pass 线上验证 |
-| 100 | chinese-converter | 简体繁体转换器 | 文本处理 | todo | - | - |
-| 101 | mars-converter | 火星文生成器 | 文本处理 | todo | - | - |
-| 102 | letter-circle | 圆圈字母生成器 | 文本处理 | todo | - | - |
-| 103 | string-random | 随机字符串批量生成 | 文本处理 | todo | - | - |
-| 104 | sequence-generator | 数字序列批量生成器 | 文本处理 | todo | - | - |
-| 105 | text-formatter | 文本自动排版 | 文本处理 | todo | - | - |
-| 106 | pinyin-converter | 汉字转拼音 | 文本处理 | todo | - | - |
+| 100 | chinese-converter | 简体繁体转换器 | 文本处理 | deployed | b3w3push | 200 Pass 线上验证 |
+| 101 | mars-converter | 火星文生成器 | 文本处理 | deployed | b3w3push | 200 Pass 线上验证 |
+| 102 | letter-circle | 圆圈字母生成器 | 文本处理 | deployed | b3w3push | 200 Pass 线上验证 |
+| 103 | string-random | 随机字符串批量生成 | 文本处理 | deployed | b3w3push | 200 Pass 线上验证 |
+| 104 | sequence-generator | 数字序列批量生成器 | 文本处理 | deployed | b3w3push | 200 Pass 线上验证 |
+| 105 | text-formatter | 文本自动排版 | 文本处理 | deployed | b3w3push | 200 Pass 线上验证 |
+| 106 | pinyin-converter | 汉字转拼音 | 文本处理 | deployed | b3w3push | 200 Pass 线上验证 |
