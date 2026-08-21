@@ -10,6 +10,13 @@ export default function sitemap(){
       lastModified: now,
       alternates: { languages: Object.fromEntries(locales.map(l=>[l, `${base}/${l}`])) }
     })
+    for(const c of ['code','encode']){
+      entries.push({
+        url: `${base}/${locale}/${c}`,
+        lastModified: now,
+        alternates: { languages: Object.fromEntries(locales.map(l=>[l, `${base}/${l}/${c}`])) }
+      })
+    }
     for(const t of tools){
       entries.push({
         url: `${base}/${locale}/${t.id}`,

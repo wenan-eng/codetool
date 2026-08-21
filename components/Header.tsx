@@ -12,7 +12,7 @@ export default function Header({ locale = "zh" }: { locale?: Locale | string }) 
       <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
         <a href={`/${locale}`} className="font-bold text-blue-600">{h.title}</a>
         <nav className="hidden md:flex gap-4 text-sm text-gray-600">
-          <a href={`/${locale}/code`} className="hover:text-blue-600">{h.code}</a><span title="即将上线" className="opacity-60 cursor-not-allowed">{h.text}</span><span title="即将上线" className="opacity-60 cursor-not-allowed">{h.encode}</span>
+          <a href={`/${locale}/code`} className="hover:text-blue-600">{h.code}</a><span title="即将上线" className="opacity-60 cursor-not-allowed">{h.text}</span><a href={`/${locale}/encode`} className="hover:text-blue-600">{h.encode}</a>
         </nav>
         <div className="flex items-center gap-3">
           <span className="hidden md:inline text-sm text-gray-400">{h.search}</span>
