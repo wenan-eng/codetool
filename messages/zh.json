@@ -5,6 +5,7 @@
     "text": "文本处理",
     "encode": "编码加密",
     "unit": "单位换算",
+    "image": "图片处理",
     "search": "搜索工具"
   },
   "editor": {

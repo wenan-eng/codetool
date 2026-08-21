@@ -1,0 +1,603 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+      - generic [ref=e10]:
+        - generic [ref=e11]: 搜索工具
+        - generic [ref=e12]:
+          - link "中文" [ref=e13] [cursor=pointer]:
+            - /url: /zh
+          - link "English" [ref=e14] [cursor=pointer]:
+            - /url: /en
+          - link "Español" [ref=e15] [cursor=pointer]:
+            - /url: /es
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - heading "免费在线工具箱" [level=1] [ref=e18]
+      - generic [ref=e19]:
+        - link "在线JSON格式化/压缩工具 使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性，实时处理，全面提升..." [ref=e20] [cursor=pointer]:
+          - /url: /zh/json-formatter
+          - generic [ref=e22]: 在线JSON格式化/压缩工具
+          - generic [ref=e23]: 使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性，实时处理，全面提升...
+        - link "在线进制转换工具 使用我们的进制转换工具，支持2/8/10/16/32/36/52/58/62/64进制间的在线互转，输入数值后实时计算并..." [ref=e24] [cursor=pointer]:
+          - /url: /zh/hex-converter
+          - generic [ref=e26]: 在线进制转换工具
+          - generic [ref=e27]: 使用我们的进制转换工具，支持2/8/10/16/32/36/52/58/62/64进制间的在线互转，输入数值后实时计算并...
+        - link "在线HTML字符转义/反转义工具 在线HTML字符转义与反转义工具，支持将 < > & \" ' 等特殊字符与 HTML 实体 &lt; &gt; &amp..." [ref=e28] [cursor=pointer]:
+          - /url: /zh/html-escape
+          - generic [ref=e30]: 在线HTML字符转义/反转义工具
+          - generic [ref=e31]: 在线HTML字符转义与反转义工具，支持将 < > & " ' 等特殊字符与 HTML 实体 &lt; &gt; &amp...
+        - link "在线日期时间格式转换工具 在线日期时间格式转换工具，支持 YYYY-MM-DD、YYYY/MM/DD、MM-DD-YYYY、ISO 8601、时间..." [ref=e32] [cursor=pointer]:
+          - /url: /zh/datetime-converter
+          - generic [ref=e34]: 在线日期时间格式转换工具
+          - generic [ref=e35]: 在线日期时间格式转换工具，支持 YYYY-MM-DD、YYYY/MM/DD、MM-DD-YYYY、ISO 8601、时间...
+        - link "在线驼峰/下划线互转工具 在线驼峰与下划线互转工具，支持批量转换变量名，自动识别驼峰命名（camelCase）与下划线命名（snake_case）..." [ref=e36] [cursor=pointer]:
+          - /url: /zh/camel
+          - generic [ref=e38]: 在线驼峰/下划线互转工具
+          - generic [ref=e39]: 在线驼峰与下划线互转工具，支持批量转换变量名，自动识别驼峰命名（camelCase）与下划线命名（snake_case）...
+        - 'link "在线JSON扁平化工具 在线 JSON 扁平化工具，将嵌套 JSON 转为点号扁平结构，如 {a:{b:1}} → {\"a.b\":1}，支持数组..." [ref=e40] [cursor=pointer]':
+          - /url: /zh/json-flatten
+          - generic [ref=e42]: 在线JSON扁平化工具
+          - generic [ref=e43]: "在线 JSON 扁平化工具，将嵌套 JSON 转为点号扁平结构，如 {a:{b:1}} → {\"a.b\":1}，支持数组..."
+        - 'link "在线JSON还原嵌套工具 在线 JSON 反扁平化工具，将点号扁平的 JSON 还原为嵌套结构，如 {\"a.b\":1} → {a:{b:1}}，自..." [ref=e44] [cursor=pointer]':
+          - /url: /zh/json-unflatten
+          - generic [ref=e46]: 在线JSON还原嵌套工具
+          - generic [ref=e47]: "在线 JSON 反扁平化工具，将点号扁平的 JSON 还原为嵌套结构，如 {\"a.b\":1} → {a:{b:1}}，自..."
+        - link "在线JSON排序工具 在线 JSON 键排序工具，递归按字母序对所有层级键排序，支持对象与数组，保持值不变，本地处理。..." [ref=e48] [cursor=pointer]:
+          - /url: /zh/json-sort
+          - generic [ref=e50]: 在线JSON排序工具
+          - generic [ref=e51]: 在线 JSON 键排序工具，递归按字母序对所有层级键排序，支持对象与数组，保持值不变，本地处理。...
+        - link "在线Unix时间戳转换工具 使用我们的在线Unix时间戳转换工具，轻松实现时间戳与标准时间之间的双向转换，支持秒级与毫秒级、25个时区切换，实时显示..." [ref=e52] [cursor=pointer]:
+          - /url: /zh/timestamp
+          - generic [ref=e54]: 在线Unix时间戳转换工具
+          - generic [ref=e55]: 使用我们的在线Unix时间戳转换工具，轻松实现时间戳与标准时间之间的双向转换，支持秒级与毫秒级、25个时区切换，实时显示...
+        - link "在线批量时间戳转换工具 使用我们的批量时间戳转换工具，实现时间戳的快速批量转换与格式化输出，可自定义7种日期格式、自动识别秒级毫秒级、支持批量处..." [ref=e56] [cursor=pointer]:
+          - /url: /zh/timestamp-batch
+          - generic [ref=e58]: 在线批量时间戳转换工具
+          - generic [ref=e59]: 使用我们的批量时间戳转换工具，实现时间戳的快速批量转换与格式化输出，可自定义7种日期格式、自动识别秒级毫秒级、支持批量处...
+        - link "在线 JS 代码美化/压缩工具 在线 JavaScript 代码美化与压缩工具，支持一键美化缩进换行与压缩去空白，2 空格缩进，本地处理即时格式化，提升..." [ref=e60] [cursor=pointer]:
+          - /url: /zh/js-formatter
+          - generic [ref=e62]: 在线 JS 代码美化/压缩工具
+          - generic [ref=e63]: 在线 JavaScript 代码美化与压缩工具，支持一键美化缩进换行与压缩去空白，2 空格缩进，本地处理即时格式化，提升...
+        - link "在线 HTML 代码美化/压缩工具 在线 HTML 代码美化与压缩工具，自动在标签间换行并按层级 2 空格缩进，美化混乱 HTML；一键压缩移除空白到单行，..." [ref=e64] [cursor=pointer]:
+          - /url: /zh/html-formatter
+          - generic [ref=e66]: 在线 HTML 代码美化/压缩工具
+          - generic [ref=e67]: 在线 HTML 代码美化与压缩工具，自动在标签间换行并按层级 2 空格缩进，美化混乱 HTML；一键压缩移除空白到单行，...
+        - link "在线 CSS 代码美化/压缩工具 在线 CSS 代码美化与压缩工具，支持花括号换行、属性缩进 2 空格、移除注释，压缩到单行最小体积，本地处理即时生效。..." [ref=e68] [cursor=pointer]:
+          - /url: /zh/css-formatter
+          - generic [ref=e70]: 在线 CSS 代码美化/压缩工具
+          - generic [ref=e71]: 在线 CSS 代码美化与压缩工具，支持花括号换行、属性缩进 2 空格、移除注释，压缩到单行最小体积，本地处理即时生效。...
+        - link "在线 SQL 格式化/压缩工具 在线 SQL 格式化与压缩工具，自动将关键字大写并在 SELECT/FROM/WHERE/JOIN 等前换行缩进 2 空..." [ref=e72] [cursor=pointer]:
+          - /url: /zh/sql-format
+          - generic [ref=e74]: 在线 SQL 格式化/压缩工具
+          - generic [ref=e75]: 在线 SQL 格式化与压缩工具，自动将关键字大写并在 SELECT/FROM/WHERE/JOIN 等前换行缩进 2 空...
+        - link "在线 YAML 格式化/压缩工具 在线 YAML 格式化与压缩工具，美化时按 key 边界换行并 2 空格缩进嵌套，压缩时合并为单行并规范冒号空格，本地处..." [ref=e76] [cursor=pointer]:
+          - /url: /zh/yaml-formatter
+          - generic [ref=e78]: 在线 YAML 格式化/压缩工具
+          - generic [ref=e79]: 在线 YAML 格式化与压缩工具，美化时按 key 边界换行并 2 空格缩进嵌套，压缩时合并为单行并规范冒号空格，本地处...
+        - link "在线JSON转SQL工具 在线JSON转SQL工具，将JSON数组一键生成 INSERT INTO 语句，自动识别列名、处理字符串转义与 NULL..." [ref=e80] [cursor=pointer]:
+          - /url: /zh/json-sql
+          - generic [ref=e82]: 在线JSON转SQL工具
+          - generic [ref=e83]: 在线JSON转SQL工具，将JSON数组一键生成 INSERT INTO 语句，自动识别列名、处理字符串转义与 NULL...
+        - link "在线SQL转JSON工具 在线SQL转JSON工具，解析 INSERT INTO 语句还原为JSON数组，支持多行 VALUES、字符串转义与 N..." [ref=e84] [cursor=pointer]:
+          - /url: /zh/sql-json
+          - generic [ref=e86]: 在线SQL转JSON工具
+          - generic [ref=e87]: 在线SQL转JSON工具，解析 INSERT INTO 语句还原为JSON数组，支持多行 VALUES、字符串转义与 N...
+        - link "在线JSON转Cookie工具 在线JSON转Cookie工具，将扁平JSON对象转为 Cookie 字符串 k=v; k2=v2，自动 encodeU..." [ref=e88] [cursor=pointer]:
+          - /url: /zh/json-cookie
+          - generic [ref=e90]: 在线JSON转Cookie工具
+          - generic [ref=e91]: 在线JSON转Cookie工具，将扁平JSON对象转为 Cookie 字符串 k=v; k2=v2，自动 encodeU...
+        - link "在线Cookie转JSON工具 在线Cookie转JSON工具，将 Cookie 字符串解析为JSON对象，自动 decodeURIComponent ..." [ref=e92] [cursor=pointer]:
+          - /url: /zh/cookie-json
+          - generic [ref=e94]: 在线Cookie转JSON工具
+          - generic [ref=e95]: 在线Cookie转JSON工具，将 Cookie 字符串解析为JSON对象，自动 decodeURIComponent ...
+        - link "在线JSON转Base64工具 在线JSON转Base64工具，将JSON字符串UTF-8编码为Base64，支持中文与 Emoji，解码时校验JSON..." [ref=e96] [cursor=pointer]:
+          - /url: /zh/json-base64
+          - generic [ref=e98]: 在线JSON转Base64工具
+          - generic [ref=e99]: 在线JSON转Base64工具，将JSON字符串UTF-8编码为Base64，支持中文与 Emoji，解码时校验JSON...
+        - link "在线XML转Base64工具 在线XML转Base64工具，将XML字符串UTF-8编码为Base64并可逆向解码，支持中文标签与声明头，全部本地处理..." [ref=e100] [cursor=pointer]:
+          - /url: /zh/xml-base64
+          - generic [ref=e102]: 在线XML转Base64工具
+          - generic [ref=e103]: 在线XML转Base64工具，将XML字符串UTF-8编码为Base64并可逆向解码，支持中文标签与声明头，全部本地处理...
+        - link "在线JSON转Excel工具 在线JSON转Excel工具，将JSON数组转为CSV表格，自动提取表头、处理逗号引号转义与中文，支持Excel直接打开..." [ref=e104] [cursor=pointer]:
+          - /url: /zh/json-excel
+          - generic [ref=e106]: 在线JSON转Excel工具
+          - generic [ref=e107]: 在线JSON转Excel工具，将JSON数组转为CSV表格，自动提取表头、处理逗号引号转义与中文，支持Excel直接打开...
+        - link "在线Excel转JSON工具 在线Excel转JSON工具，将CSV表格解析为JSON数组，自动识别表头、处理引号转义与数值类型推断，支持中文，本地处..." [ref=e108] [cursor=pointer]:
+          - /url: /zh/excel-json
+          - generic [ref=e110]: 在线Excel转JSON工具
+          - generic [ref=e111]: 在线Excel转JSON工具，将CSV表格解析为JSON数组，自动识别表头、处理引号转义与数值类型推断，支持中文，本地处...
+        - link "在线JSON转CSV工具 在线JSON转CSV工具，支持JSON数组转CSV表格，自动提取表头、处理引号与逗号转义，本地处理保障隐私，适用于数据导..." [ref=e112] [cursor=pointer]:
+          - /url: /zh/json-csv
+          - generic [ref=e114]: 在线JSON转CSV工具
+          - generic [ref=e115]: 在线JSON转CSV工具，支持JSON数组转CSV表格，自动提取表头、处理引号与逗号转义，本地处理保障隐私，适用于数据导...
+        - link "在线CSV转JSON工具 在线CSV转JSON工具，将CSV表格转为JSON数组，首行作表头，自动识别数字与布尔值，支持引号转义，本地处理即时转换..." [ref=e116] [cursor=pointer]:
+          - /url: /zh/csv-json
+          - generic [ref=e118]: 在线CSV转JSON工具
+          - generic [ref=e119]: 在线CSV转JSON工具，将CSV表格转为JSON数组，首行作表头，自动识别数字与布尔值，支持引号转义，本地处理即时转换...
+        - link "在线JSON转YAML工具 在线JSON转YAML工具，将JSON转为YAML格式，支持嵌套对象与数组，保持缩进与类型，本地处理即时转换，适用于配置..." [ref=e120] [cursor=pointer]:
+          - /url: /zh/json-yaml
+          - generic [ref=e122]: 在线JSON转YAML工具
+          - generic [ref=e123]: 在线JSON转YAML工具，将JSON转为YAML格式，支持嵌套对象与数组，保持缩进与类型，本地处理即时转换，适用于配置...
+        - link "在线YAML转JSON工具 在线YAML转JSON工具，将YAML配置转为JSON格式，支持缩进嵌套与列表解析，自动识别类型，本地处理保障隐私。..." [ref=e124] [cursor=pointer]:
+          - /url: /zh/yaml-json
+          - generic [ref=e126]: 在线YAML转JSON工具
+          - generic [ref=e127]: 在线YAML转JSON工具，将YAML配置转为JSON格式，支持缩进嵌套与列表解析，自动识别类型，本地处理保障隐私。...
+        - link "在线JSON转XML工具 在线JSON转XML工具，将JSON转为XML格式，自动以 root 为根节点，数组用 item 包裹，支持嵌套与转义，..." [ref=e128] [cursor=pointer]:
+          - /url: /zh/json-xml
+          - generic [ref=e130]: 在线JSON转XML工具
+          - generic [ref=e131]: 在线JSON转XML工具，将JSON转为XML格式，自动以 root 为根节点，数组用 item 包裹，支持嵌套与转义，...
+        - link "在线XML转JSON工具 在线XML转JSON工具，将XML转为JSON格式，自动解析根节点与重复标签为数组，识别数值与布尔，支持实体解码，本地处..." [ref=e132] [cursor=pointer]:
+          - /url: /zh/xml-json
+          - generic [ref=e134]: 在线XML转JSON工具
+          - generic [ref=e135]: 在线XML转JSON工具，将XML转为JSON格式，自动解析根节点与重复标签为数组，识别数值与布尔，支持实体解码，本地处...
+        - link "在线屏幕信息查看工具 在线屏幕信息查看工具，实时显示屏幕分辨率、可用区域、视口大小、设备像素比、颜色深度、像素深度、屏幕方向、宽高比等，一键复..." [ref=e136] [cursor=pointer]:
+          - /url: /zh/screen-inspector
+          - generic [ref=e138]: 在线屏幕信息查看工具
+          - generic [ref=e139]: 在线屏幕信息查看工具，实时显示屏幕分辨率、可用区域、视口大小、设备像素比、颜色深度、像素深度、屏幕方向、宽高比等，一键复...
+        - link "在线PHP序列化/反序列化工具 在线 PHP serialize/unserialize 工具，支持字符串、整数、布尔、数组与对象与 JSON 双向互转..." [ref=e140] [cursor=pointer]:
+          - /url: /zh/php-serialize
+          - generic [ref=e142]: 在线PHP序列化/反序列化工具
+          - generic [ref=e143]: 在线 PHP serialize/unserialize 工具，支持字符串、整数、布尔、数组与对象与 JSON 双向互转...
+        - link "在线PWA Manifest生成器 可视化配置 PWA manifest.json：填写 name、short_name、icons、theme_color..." [ref=e144] [cursor=pointer]:
+          - /url: /zh/pwa-manifest
+          - generic [ref=e146]: 在线PWA Manifest生成器
+          - generic [ref=e147]: 可视化配置 PWA manifest.json：填写 name、short_name、icons、theme_color...
+        - link "在线按钮CSS生成器 可视化按钮 CSS 生成器：拖动调节背景色、圆角、内边距、字号、边框、阴影等，实时预览效果，一键复制 CSS 与 HTM..." [ref=e148] [cursor=pointer]:
+          - /url: /zh/button-css
+          - generic [ref=e150]: 在线按钮CSS生成器
+          - generic [ref=e151]: 可视化按钮 CSS 生成器：拖动调节背景色、圆角、内边距、字号、边框、阴影等，实时预览效果，一键复制 CSS 与 HTM...
+        - link "在线CSS加载动画画廊 CSS 加载动画画廊：展示旋转圆环、跳动圆点、条形、脉冲、双环、骨架屏、进度条、输入中等 8 种纯 CSS 动画，带实时..." [ref=e152] [cursor=pointer]:
+          - /url: /zh/loading
+          - generic [ref=e154]: 在线CSS加载动画画廊
+          - generic [ref=e155]: CSS 加载动画画廊：展示旋转圆环、跳动圆点、条形、脉冲、双环、骨架屏、进度条、输入中等 8 种纯 CSS 动画，带实时...
+        - link "在线代码注释移除工具 在线移除代码中的注释，支持 JavaScript、Python、HTML、CSS、SQL 等多语言，自动识别 // /*..." [ref=e156] [cursor=pointer]:
+          - /url: /zh/strip-comments
+          - generic [ref=e158]: 在线代码注释移除工具
+          - generic [ref=e159]: 在线移除代码中的注释，支持 JavaScript、Python、HTML、CSS、SQL 等多语言，自动识别 // /*...
+        - link "在线HTML过滤工具 在线过滤 HTML 标签，支持移除 <script> <style>、提取纯文本、按白名单保留标签，自动解码实体与合并空..." [ref=e160] [cursor=pointer]:
+          - /url: /zh/html-filter
+          - generic [ref=e162]: 在线HTML过滤工具
+          - generic [ref=e163]: 在线过滤 HTML 标签，支持移除 <script> <style>、提取纯文本、按白名单保留标签，自动解码实体与合并空...
+        - link "在线CSV合并工具 在线合并多个 CSV 表格，自动处理表头去重与列对齐，支持不同表头并集、引号逗号转义，空行过滤，全部本地处理。..." [ref=e164] [cursor=pointer]:
+          - /url: /zh/csv-merge
+          - generic [ref=e166]: 在线CSV合并工具
+          - generic [ref=e167]: 在线合并多个 CSV 表格，自动处理表头去重与列对齐，支持不同表头并集、引号逗号转义，空行过滤，全部本地处理。...
+        - link "在线图片链接提取工具 在线从 HTML 中提取 <img> 图片链接，通过正则匹配 src 属性，支持单双引号、无引号及大小写不敏感，每行一个..." [ref=e168] [cursor=pointer]:
+          - /url: /zh/image-extract
+          - generic [ref=e170]: 在线图片链接提取工具
+          - generic [ref=e171]: 在线从 HTML 中提取 <img> 图片链接，通过正则匹配 src 属性，支持单双引号、无引号及大小写不敏感，每行一个...
+        - link "在线折线图生成器 在线折线图生成器，输入标签与数值（每行 label,value 或表头 CSV）一键生成折线图，支持曲线平滑、点标记、C..." [ref=e172] [cursor=pointer]:
+          - /url: /zh/line-chart
+          - generic [ref=e174]: 在线折线图生成器
+          - generic [ref=e175]: 在线折线图生成器，输入标签与数值（每行 label,value 或表头 CSV）一键生成折线图，支持曲线平滑、点标记、C...
+        - link "在线柱状图生成器 在线柱状图生成器，输入标签与数值快速生成柱状图，支持多色柱、圆角、数值标注、Chart.js 配置与 SVG 导出，本地..." [ref=e176] [cursor=pointer]:
+          - /url: /zh/bar-chart
+          - generic [ref=e178]: 在线柱状图生成器
+          - generic [ref=e179]: 在线柱状图生成器，输入标签与数值快速生成柱状图，支持多色柱、圆角、数值标注、Chart.js 配置与 SVG 导出，本地...
+        - link "在线饼图生成器 在线饼图生成器，输入分类与数值一键生成饼图，自动计算百分比、图例与配色，支持 Chart.js 配置导出与 SVG 下载..." [ref=e180] [cursor=pointer]:
+          - /url: /zh/pie-chart
+          - generic [ref=e182]: 在线饼图生成器
+          - generic [ref=e183]: 在线饼图生成器，输入分类与数值一键生成饼图，自动计算百分比、图例与配色，支持 Chart.js 配置导出与 SVG 下载...
+        - link "在线横向柱状图生成器 在线横向柱状图生成器，将标签与数值生成横向条形图，适合排名与对比展示，支持 Chart.js 横向配置与 SVG 导出，..." [ref=e184] [cursor=pointer]:
+          - /url: /zh/horizontal-bar-chart
+          - generic [ref=e186]: 在线横向柱状图生成器
+          - generic [ref=e187]: 在线横向柱状图生成器，将标签与数值生成横向条形图，适合排名与对比展示，支持 Chart.js 横向配置与 SVG 导出，...
+        - link "在线面积图生成器 在线面积图生成器，基于折线的填充面积图，适合展示趋势与累计效果，支持平滑填充、透明度与 Chart.js 配置导出，本地..." [ref=e188] [cursor=pointer]:
+          - /url: /zh/area-chart
+          - generic [ref=e190]: 在线面积图生成器
+          - generic [ref=e191]: 在线面积图生成器，基于折线的填充面积图，适合展示趋势与累计效果，支持平滑填充、透明度与 Chart.js 配置导出，本地...
+        - link "在线环形图生成器 在线环形图生成器，生成带中心空白的环形图，适合占比展示，支持环形切割、配色与 Chart.js 配置导出，SVG 下载，..." [ref=e192] [cursor=pointer]:
+          - /url: /zh/doughnut-chart
+          - generic [ref=e194]: 在线环形图生成器
+          - generic [ref=e195]: 在线环形图生成器，生成带中心空白的环形图，适合占比展示，支持环形切割、配色与 Chart.js 配置导出，SVG 下载，...
+        - link "在线散点图生成器 在线散点图生成器，输入 x,y 坐标点生成散点图，支持表头 x,y、数值散点与回归趋势，支持 Chart.js 散点配置..." [ref=e196] [cursor=pointer]:
+          - /url: /zh/scatter-chart
+          - generic [ref=e198]: 在线散点图生成器
+          - generic [ref=e199]: 在线散点图生成器，输入 x,y 坐标点生成散点图，支持表头 x,y、数值散点与回归趋势，支持 Chart.js 散点配置...
+        - link "在线雷达图生成器 在线雷达图生成器，多维度指标对比的蜘蛛网图，支持多系列、填充与网线，适合能力评估与对比，Chart.js 配置与 SVG..." [ref=e200] [cursor=pointer]:
+          - /url: /zh/radar-chart
+          - generic [ref=e202]: 在线雷达图生成器
+          - generic [ref=e203]: 在线雷达图生成器，多维度指标对比的蜘蛛网图，支持多系列、填充与网线，适合能力评估与对比，Chart.js 配置与 SVG...
+        - link "在线直方图生成器 在线直方图生成器，输入区间与频数生成直方图，柱间无缝适合分布展示，支持 Chart.js 直方图配置与 SVG 导出，本..." [ref=e204] [cursor=pointer]:
+          - /url: /zh/histogram-chart
+          - generic [ref=e206]: 在线直方图生成器
+          - generic [ref=e207]: 在线直方图生成器，输入区间与频数生成直方图，柱间无缝适合分布展示，支持 Chart.js 直方图配置与 SVG 导出，本...
+        - link "在线多折线图生成器 在线多折线图生成器，支持表头 Month,Series1,Series2 多系列折线对比，自动配色与图例，Chart.j..." [ref=e208] [cursor=pointer]:
+          - /url: /zh/multi-line-chart
+          - generic [ref=e210]: 在线多折线图生成器
+          - generic [ref=e211]: 在线多折线图生成器，支持表头 Month,Series1,Series2 多系列折线对比，自动配色与图例，Chart.j...
+        - link "在线堆叠面积图生成器 在线堆叠面积图生成器，多系列堆叠面积展示总量与构成，支持堆叠填充、透明度与图例，Chart.js 堆叠配置与 SVG 导..." [ref=e212] [cursor=pointer]:
+          - /url: /zh/stacked-area-chart
+          - generic [ref=e214]: 在线堆叠面积图生成器
+          - generic [ref=e215]: 在线堆叠面积图生成器，多系列堆叠面积展示总量与构成，支持堆叠填充、透明度与图例，Chart.js 堆叠配置与 SVG 导...
+        - link "在线瀑布图生成器 在线瀑布图生成器，展示增减累计过程的瀑布图，自动区分正负与总计柱，支持浮动条与 Chart.js 配置导出，SVG 下载..." [ref=e216] [cursor=pointer]:
+          - /url: /zh/waterfall-chart
+          - generic [ref=e218]: 在线瀑布图生成器
+          - generic [ref=e219]: 在线瀑布图生成器，展示增减累计过程的瀑布图，自动区分正负与总计柱，支持浮动条与 Chart.js 配置导出，SVG 下载...
+        - link "在线URL编码/解码工具 在线 URL 编码与解码工具，基于 encodeURIComponent 标准实现，支持中文、特殊字符与 Emoji 的..." [ref=e220] [cursor=pointer]:
+          - /url: /zh/url-encode
+          - generic [ref=e222]: 在线URL编码/解码工具
+          - generic [ref=e223]: 在线 URL 编码与解码工具，基于 encodeURIComponent 标准实现，支持中文、特殊字符与 Emoji 的...
+        - link "在线Escape编码/解码工具 在线 Escape 编码与解码工具，实现传统 JavaScript escape()/unescape() 算法：字母数..." [ref=e224] [cursor=pointer]:
+          - /url: /zh/escape
+          - generic [ref=e226]: 在线Escape编码/解码工具
+          - generic [ref=e227]: 在线 Escape 编码与解码工具，实现传统 JavaScript escape()/unescape() 算法：字母数...
+        - link "在线UTF-8转码工具 在线 UTF-8 与中文互转工具，将中文及非 ASCII 字符转为 Unicode 转义序列（Emoji 自动拆分代理对..." [ref=e228] [cursor=pointer]:
+          - /url: /zh/utf-8
+          - generic [ref=e230]: 在线UTF-8转码工具
+          - generic [ref=e231]: 在线 UTF-8 与中文互转工具，将中文及非 ASCII 字符转为 Unicode 转义序列（Emoji 自动拆分代理对...
+        - link "在线HTML实体编码/解码工具 在线 HTML 实体编码与解码工具，将 & < > \" ' 及中文等非 ASCII 字符转为命名实体或 &#xxxx; ..." [ref=e232] [cursor=pointer]:
+          - /url: /zh/html-entity
+          - generic [ref=e234]: 在线HTML实体编码/解码工具
+          - generic [ref=e235]: 在线 HTML 实体编码与解码工具，将 & < > " ' 及中文等非 ASCII 字符转为命名实体或 &#xxxx; ...
+        - link "在线摩斯密码编码/解码工具 在线摩斯密码编码与解码工具，支持 A-Z、0-9 及常用标点的标准 ITU 摩斯电码互转，字符间空格分隔、单词间斜杠分隔..." [ref=e236] [cursor=pointer]:
+          - /url: /zh/morse
+          - generic [ref=e238]: 在线摩斯密码编码/解码工具
+          - generic [ref=e239]: 在线摩斯密码编码与解码工具，支持 A-Z、0-9 及常用标点的标准 ITU 摩斯电码互转，字符间空格分隔、单词间斜杠分隔...
+        - link "在线文本与十六进制互转工具 在线文本与十六进制互转工具，基于 UTF-8 编码将任意文本（含中文、emoji）转为十六进制字节序列，字节值两位补零、..." [ref=e240] [cursor=pointer]:
+          - /url: /zh/text-hex
+          - generic [ref=e242]: 在线文本与十六进制互转工具
+          - generic [ref=e243]: 在线文本与十六进制互转工具，基于 UTF-8 编码将任意文本（含中文、emoji）转为十六进制字节序列，字节值两位补零、...
+        - link "在线文本与八进制互转工具 在线文本与八进制互转工具，基于 UTF-8 编码将任意文本（含中文、emoji）转为八进制字节序列，字节值三位补零、空格..." [ref=e244] [cursor=pointer]:
+          - /url: /zh/text-octal
+          - generic [ref=e246]: 在线文本与八进制互转工具
+          - generic [ref=e247]: 在线文本与八进制互转工具，基于 UTF-8 编码将任意文本（含中文、emoji）转为八进制字节序列，字节值三位补零、空格...
+        - link "在线文本与二进制互转工具 在线文本与二进制互转工具，基于 UTF-8 编码将任意文本（含中文、emoji）转为二进制位串，每字节八位补零、空格分隔..." [ref=e248] [cursor=pointer]:
+          - /url: /zh/text-bin
+          - generic [ref=e250]: 在线文本与二进制互转工具
+          - generic [ref=e251]: 在线文本与二进制互转工具，基于 UTF-8 编码将任意文本（含中文、emoji）转为二进制位串，每字节八位补零、空格分隔...
+        - link "在线Base32编码/解码工具 在线Base32编码与解码工具，遵循 RFC 4648 标准（A-Z、2-7，= 填充），支持中文等任意 UTF-8 文..." [ref=e252] [cursor=pointer]:
+          - /url: /zh/base32-encode
+          - generic [ref=e254]: 在线Base32编码/解码工具
+          - generic [ref=e255]: 在线Base32编码与解码工具，遵循 RFC 4648 标准（A-Z、2-7，= 填充），支持中文等任意 UTF-8 文...
+        - link "在线Base64编码/解码工具 在线Base64编码与解码工具，UTF-8 安全支持中文与 emoji，解码兼容 URL-Safe 变体（-_）与缺失填..." [ref=e256] [cursor=pointer]:
+          - /url: /zh/base64-encode
+          - generic [ref=e258]: 在线Base64编码/解码工具
+          - generic [ref=e259]: 在线Base64编码与解码工具，UTF-8 安全支持中文与 emoji，解码兼容 URL-Safe 变体（-_）与缺失填...
+        - link "在线Base64批量编码/解码工具 在线Base64批量编码与解码工具，每行文本独立转换互不影响，输出「原文 → 结果」逐行对应，失败行明确标注不影响其他行..." [ref=e260] [cursor=pointer]:
+          - /url: /zh/base64-bulk
+          - generic [ref=e262]: 在线Base64批量编码/解码工具
+          - generic [ref=e263]: 在线Base64批量编码与解码工具，每行文本独立转换互不影响，输出「原文 → 结果」逐行对应，失败行明确标注不影响其他行...
+        - link "在线JWT解码查看器 在线 JWT 解码查看器，粘贴令牌即可拆解 Header 与 Payload 并以格式化 JSON 展示，自动将 exp..." [ref=e264] [cursor=pointer]:
+          - /url: /zh/jwt-decoder
+          - generic [ref=e266]: 在线JWT解码查看器
+          - generic [ref=e267]: 在线 JWT 解码查看器，粘贴令牌即可拆解 Header 与 Payload 并以格式化 JSON 展示，自动将 exp...
+        - link "在线随机密码生成器 在线随机密码生成器，基于浏览器安全随机数 crypto.getRandomValues 与拒绝采样无偏生成，可自定义数量..." [ref=e268] [cursor=pointer]:
+          - /url: /zh/random-pwd
+          - generic [ref=e270]: 在线随机密码生成器
+          - generic [ref=e271]: 在线随机密码生成器，基于浏览器安全随机数 crypto.getRandomValues 与拒绝采样无偏生成，可自定义数量...
+        - link "在线密码熵值计算器 在线密码熵值计算器，实时检测字符池（小写26/大写26/数字10/特殊符号33/其他 Unicode 字符逐个计入），按..." [ref=e272] [cursor=pointer]:
+          - /url: /zh/entropy-calculator
+          - generic [ref=e274]: 在线密码熵值计算器
+          - generic [ref=e275]: 在线密码熵值计算器，实时检测字符池（小写26/大写26/数字10/特殊符号33/其他 Unicode 字符逐个计入），按...
+        - link "在线Gzip编码/解码工具 在线 Gzip 编码与解码工具，基于浏览器原生 CompressionStream 将文本压缩为 gzip 并输出 Ba..." [ref=e276] [cursor=pointer]:
+          - /url: /zh/gzip
+          - generic [ref=e278]: 在线Gzip编码/解码工具
+          - generic [ref=e279]: 在线 Gzip 编码与解码工具，基于浏览器原生 CompressionStream 将文本压缩为 gzip 并输出 Ba...
+        - link "MD5在线加密工具 MD5在线加密工具，纯前端实现 RFC 1321 标准 MD5 算法，输入任意文本即时生成 32 位大写、32 位小写与..." [ref=e280] [cursor=pointer]:
+          - /url: /zh/md5
+          - generic [ref=e282]: MD5在线加密工具
+          - generic [ref=e283]: MD5在线加密工具，纯前端实现 RFC 1321 标准 MD5 算法，输入任意文本即时生成 32 位大写、32 位小写与...
+        - link "批量MD5加密工具 批量MD5加密工具，逐行独立计算互不影响，支持 32 位/16 位输出与大写小写切换，适合批量校验、清单脱敏等场景，全部..." [ref=e284] [cursor=pointer]:
+          - /url: /zh/md5-batch
+          - generic [ref=e286]: 批量MD5加密工具
+          - generic [ref=e287]: 批量MD5加密工具，逐行独立计算互不影响，支持 32 位/16 位输出与大写小写切换，适合批量校验、清单脱敏等场景，全部...
+        - link "SHA系列哈希值生成器 SHA系列哈希值生成器，支持 SHA-1、SHA-224、SHA-256、SHA-384、SHA-512 五种算法，基于..." [ref=e288] [cursor=pointer]:
+          - /url: /zh/sha
+          - generic [ref=e290]: SHA系列哈希值生成器
+          - generic [ref=e291]: SHA系列哈希值生成器，支持 SHA-1、SHA-224、SHA-256、SHA-384、SHA-512 五种算法，基于...
+        - link "MD4在线加密工具 MD4在线加密工具，按 RFC 1320 标准纯前端实现，输入文本即时生成 32 位小写/大写 MD4 摘要，适用于老旧..." [ref=e292] [cursor=pointer]:
+          - /url: /zh/md4
+          - generic [ref=e294]: MD4在线加密工具
+          - generic [ref=e295]: MD4在线加密工具，按 RFC 1320 标准纯前端实现，输入文本即时生成 32 位小写/大写 MD4 摘要，适用于老旧...
+        - link "MySQL密码哈希生成工具 MySQL密码哈希生成工具，实现 MySQL PASSWORD() 函数算法（星号前缀加双 SHA-1 大写），用于数据..." [ref=e296] [cursor=pointer]:
+          - /url: /zh/mysql-password
+          - generic [ref=e298]: MySQL密码哈希生成工具
+          - generic [ref=e299]: MySQL密码哈希生成工具，实现 MySQL PASSWORD() 函数算法（星号前缀加双 SHA-1 大写），用于数据...
+        - 'link "HTpasswd在线密码生成器 HTpasswd在线密码生成器，一键生成 Apache htpasswd 格式的用户名密码行，支持 {SHA} 与加盐 ..." [ref=e300] [cursor=pointer]':
+          - /url: /zh/htpasswd
+          - generic [ref=e302]: HTpasswd在线密码生成器
+          - generic [ref=e303]: "HTpasswd在线密码生成器，一键生成 Apache htpasswd 格式的用户名密码行，支持 {SHA} 与加盐 ..."
+        - link "AES在线加密/解密工具 AES在线加密/解密工具，基于浏览器 WebCrypto 支持 CBC、CTR、GCM 三种模式，16/24/32 字符..." [ref=e304] [cursor=pointer]:
+          - /url: /zh/aes-encrypt
+          - generic [ref=e306]: AES在线加密/解密工具
+          - generic [ref=e307]: AES在线加密/解密工具，基于浏览器 WebCrypto 支持 CBC、CTR、GCM 三种模式，16/24/32 字符...
+        - link "DES在线加密/解密工具 DES在线加密/解密工具，纯前端实现 FIPS 46-3 标准 DES 算法，支持 CBC/ECB 模式与 PKCS7 ..." [ref=e308] [cursor=pointer]:
+          - /url: /zh/des-encrypt
+          - generic [ref=e310]: DES在线加密/解密工具
+          - generic [ref=e311]: DES在线加密/解密工具，纯前端实现 FIPS 46-3 标准 DES 算法，支持 CBC/ECB 模式与 PKCS7 ...
+        - link "URL网址16进制编码/解码工具 URL网址16进制编码/解码工具，将网址或文本按 UTF-8 全量转义为 %XX 十六进制形式并一键还原，适用于路径隐藏..." [ref=e312] [cursor=pointer]:
+          - /url: /zh/url-hex-encode
+          - generic [ref=e314]: URL网址16进制编码/解码工具
+          - generic [ref=e315]: URL网址16进制编码/解码工具，将网址或文本按 UTF-8 全量转义为 %XX 十六进制形式并一键还原，适用于路径隐藏...
+        - link "Base64转文件在线工具 Base64转文件在线工具，粘贴 base64 或 Data URL 字符串即可自动识别文件类型与大小，自定义文件名一键..." [ref=e316] [cursor=pointer]:
+          - /url: /zh/base64-file
+          - generic [ref=e318]: Base64转文件在线工具
+          - generic [ref=e319]: Base64转文件在线工具，粘贴 base64 或 Data URL 字符串即可自动识别文件类型与大小，自定义文件名一键...
+        - link "文件转Base64在线工具 文件转Base64在线工具，选择或拖拽任意格式文件即时生成完整 Data URL 与纯 base64 数据，展示文件名、..." [ref=e320] [cursor=pointer]:
+          - /url: /zh/file-base64
+          - generic [ref=e322]: 文件转Base64在线工具
+          - generic [ref=e323]: 文件转Base64在线工具，选择或拖拽任意格式文件即时生成完整 Data URL 与纯 base64 数据，展示文件名、...
+        - link "Base64转图片在线工具 Base64转图片在线工具，粘贴 base64 或 Data URL 即时预览图片，展示尺寸、类型与大小，支持一键下载 ..." [ref=e324] [cursor=pointer]:
+          - /url: /zh/base64-image
+          - generic [ref=e326]: Base64转图片在线工具
+          - generic [ref=e327]: Base64转图片在线工具，粘贴 base64 或 Data URL 即时预览图片，展示尺寸、类型与大小，支持一键下载 ...
+        - link "图片转Base64在线工具 图片转Base64在线工具，选择或拖拽图片即时生成 Data URL 与纯 base64 双模式输出，实时预览并展示宽高..." [ref=e328] [cursor=pointer]:
+          - /url: /zh/image-base64
+          - generic [ref=e330]: 图片转Base64在线工具
+          - generic [ref=e331]: 图片转Base64在线工具，选择或拖拽图片即时生成 Data URL 与纯 base64 双模式输出，实时预览并展示宽高...
+        - link "LSB图片隐写提取工具 LSB图片隐写提取工具，从隐写图片的像素最低有效位中还原隐藏文字信息，适用于隐写信息读取、隐私数据恢复与数字水印验证，全..." [ref=e332] [cursor=pointer]:
+          - /url: /zh/lsb-extract
+          - generic [ref=e334]: LSB图片隐写提取工具
+          - generic [ref=e335]: LSB图片隐写提取工具，从隐写图片的像素最低有效位中还原隐藏文字信息，适用于隐写信息读取、隐私数据恢复与数字水印验证，全...
+        - link "LSB图片隐写工具 LSB图片隐写工具，上传图片自动计算可隐藏容量，将秘密文字写入像素最低有效位生成外观不变的隐写图片，PNG 无损下载，适..." [ref=e336] [cursor=pointer]:
+          - /url: /zh/lsb-embed
+          - generic [ref=e338]: LSB图片隐写工具
+          - generic [ref=e339]: LSB图片隐写工具，上传图片自动计算可隐藏容量，将秘密文字写入像素最低有效位生成外观不变的隐写图片，PNG 无损下载，适...
+        - link "文件MD5哈希值在线计算与校验 文件MD5哈希值在线计算与校验工具，上传任意格式文件即时计算 MD5 值，输入期望值一键比对判断文件完整性，适用于下载校..." [ref=e340] [cursor=pointer]:
+          - /url: /zh/md5-verify
+          - generic [ref=e342]: 文件MD5哈希值在线计算与校验
+          - generic [ref=e343]: 文件MD5哈希值在线计算与校验工具，上传任意格式文件即时计算 MD5 值，输入期望值一键比对判断文件完整性，适用于下载校...
+        - link "批量文件MD5校验哈希值校验工具 批量文件MD5校验工具，一次上传多个文件并行计算 MD5 哈希值，表格汇总展示文件名、大小与哈希值，支持单条复制与 CS..." [ref=e344] [cursor=pointer]:
+          - /url: /zh/md5-batch-verify
+          - generic [ref=e346]: 批量文件MD5校验哈希值校验工具
+          - generic [ref=e347]: 批量文件MD5校验工具，一次上传多个文件并行计算 MD5 哈希值，表格汇总展示文件名、大小与哈希值，支持单条复制与 CS...
+        - link "在线JS混淆加密工具 在线JS混淆加密工具，基于 javascript-obfuscator 引擎在浏览器本地完成变量重命名、字符串数组化与控..." [ref=e348] [cursor=pointer]:
+          - /url: /zh/js-obfuscator
+          - generic [ref=e350]: 在线JS混淆加密工具
+          - generic [ref=e351]: 在线JS混淆加密工具，基于 javascript-obfuscator 引擎在浏览器本地完成变量重命名、字符串数组化与控...
+        - link "专业JS代码混淆加密工具 专业JS代码混淆加密工具，在高强度混淆基础上支持授权域名绑定、盗用 Alert 弹窗提醒（首次/每日/每次频率可选）、静..." [ref=e352] [cursor=pointer]:
+          - /url: /zh/js-obfuscator-advanced
+          - generic [ref=e354]: 专业JS代码混淆加密工具
+          - generic [ref=e355]: 专业JS代码混淆加密工具，在高强度混淆基础上支持授权域名绑定、盗用 Alert 弹窗提醒（首次/每日/每次频率可选）、静...
+        - link "英文字母大小写转换工具 英文字母大小写转换工具，一键将文本全部转为大写或小写，支持中英文混排与长文本处理，实时转换即时复制，适用于标题规范、数据..." [ref=e356] [cursor=pointer]:
+          - /url: /zh/letter-converter
+          - generic [ref=e358]: 英文字母大小写转换工具
+          - generic [ref=e359]: 英文字母大小写转换工具，一键将文本全部转为大写或小写，支持中英文混排与长文本处理，实时转换即时复制，适用于标题规范、数据...
+        - link "在线中文英文符号转换工具 在线中文英文符号转换工具，一键互转全角半角标点：逗号句号问号感叹号冒号分号引号括号书名号等二十余种符号双向映射，适用于排..." [ref=e360] [cursor=pointer]:
+          - /url: /zh/symbol-converter
+          - generic [ref=e362]: 在线中文英文符号转换工具
+          - generic [ref=e363]: 在线中文英文符号转换工具，一键互转全角半角标点：逗号句号问号感叹号冒号分号引号括号书名号等二十余种符号双向映射，适用于排...
+        - link "在线Emoji表情去除神器 在线Emoji表情去除神器，智能识别并删除文本中的全部 Emoji 表情符号与变体选择符，保留正常文字数字标点，自动清理..." [ref=e364] [cursor=pointer]:
+          - /url: /zh/remove-emoji
+          - generic [ref=e366]: 在线Emoji表情去除神器
+          - generic [ref=e367]: 在线Emoji表情去除神器，智能识别并删除文本中的全部 Emoji 表情符号与变体选择符，保留正常文字数字标点，自动清理...
+        - link "在线字数统计工具 在线字数统计工具，输入即统计总字符数、不含空格字符数、汉字数、英文单词数、数字组、标点符号、行数与 UTF-8 字节数八..." [ref=e368] [cursor=pointer]:
+          - /url: /zh/word-count
+          - generic [ref=e370]: 在线字数统计工具
+          - generic [ref=e371]: 在线字数统计工具，输入即统计总字符数、不含空格字符数、汉字数、英文单词数、数字组、标点符号、行数与 UTF-8 字节数八...
+        - link "在线换行符转文本行工具 在线换行符转文本行工具，把文本中的字面 \\n、\\r\\n 转义序列还原为真实换行，适用于日志分析、JSON 字符串预览与转..." [ref=e372] [cursor=pointer]:
+          - /url: /zh/line-text
+          - generic [ref=e374]: 在线换行符转文本行工具
+          - generic [ref=e375]: 在线换行符转文本行工具，把文本中的字面 \n、\r\n 转义序列还原为真实换行，适用于日志分析、JSON 字符串预览与转...
+        - link "在线文本行转换行符工具 在线文本行转换行符工具，把多行文本的真实换行统一转为字面 \\n 转义序列，兼容 \\r\\n 与 \\r 输入，适用于生成 J..." [ref=e376] [cursor=pointer]:
+          - /url: /zh/text-line
+          - generic [ref=e378]: 在线文本行转换行符工具
+          - generic [ref=e379]: 在线文本行转换行符工具，把多行文本的真实换行统一转为字面 \n 转义序列，兼容 \r\n 与 \r 输入，适用于生成 J...
+        - link "在线文本批量替换工具 在线文本批量替换工具，输入查找目标与替换内容一键全部替换，实时显示替换次数，支持正则表达式高级模式，适用于批量改词、格式..." [ref=e380] [cursor=pointer]:
+          - /url: /zh/text-replace
+          - generic [ref=e382]: 在线文本批量替换工具
+          - generic [ref=e383]: 在线文本批量替换工具，输入查找目标与替换内容一键全部替换，实时显示替换次数，支持正则表达式高级模式，适用于批量改词、格式...
+        - link "在线文本分割工具 在线文本分割工具，按自定义分隔符拆分文本并以指定连接符合并输出，默认按换行拆分、逗号合并，可快速把列表转为数组字面量、C..." [ref=e384] [cursor=pointer]:
+          - /url: /zh/text-split
+          - generic [ref=e386]: 在线文本分割工具
+          - generic [ref=e387]: 在线文本分割工具，按自定义分隔符拆分文本并以指定连接符合并输出，默认按换行拆分、逗号合并，可快速把列表转为数组字面量、C...
+        - link "在线手机号码去重提取工具 在线手机号码去重提取工具，智能识别文本中的全部 11 位手机号（不含座机与国际号码），自动去重并支持下载 TXT 与一键..." [ref=e388] [cursor=pointer]:
+          - /url: /zh/mobile-extractor
+          - generic [ref=e390]: 在线手机号码去重提取工具
+          - generic [ref=e391]: 在线手机号码去重提取工具，智能识别文本中的全部 11 位手机号（不含座机与国际号码），自动去重并支持下载 TXT 与一键...
+        - link "在线文本邮箱提取器 在线文本邮箱提取器，自动识别文本中的全部邮箱地址并智能去重、统一小写，一键复制或下载 TXT，适用于客户邮箱整理、邮件列..." [ref=e392] [cursor=pointer]:
+          - /url: /zh/email-extractor
+          - generic [ref=e394]: 在线文本邮箱提取器
+          - generic [ref=e395]: 在线文本邮箱提取器，自动识别文本中的全部邮箱地址并智能去重、统一小写，一键复制或下载 TXT，适用于客户邮箱整理、邮件列...
+        - link "通用文本URL去重提取工具 通用文本URL去重提取工具，从文章、日志、HTML 等任意文本中提取 http/https 链接与 www 网址，自动补..." [ref=e396] [cursor=pointer]:
+          - /url: /zh/url-extractor
+          - generic [ref=e398]: 通用文本URL去重提取工具
+          - generic [ref=e399]: 通用文本URL去重提取工具，从文章、日志、HTML 等任意文本中提取 http/https 链接与 www 网址，自动补...
+        - link "在线身份证号提取生日工具 在线身份证号提取生日工具，支持 15 位与 18 位身份证号混排输入，自动识别并批量提取出生日期（格式化为 YYYY-M..." [ref=e400] [cursor=pointer]:
+          - /url: /zh/idcard-date
+          - generic [ref=e402]: 在线身份证号提取生日工具
+          - generic [ref=e403]: 在线身份证号提取生日工具，支持 15 位与 18 位身份证号混排输入，自动识别并批量提取出生日期（格式化为 YYYY-M...
+        - link "身份证号批量提取生日/性别/年龄 身份证号批量信息提取工具，每行一个或混排输入，表格化输出生日、性别、年龄及校验位有效性验证（GB 11643-1999 ..." [ref=e404] [cursor=pointer]:
+          - /url: /zh/idcard-extract
+          - generic [ref=e406]: 身份证号批量提取生日/性别/年龄
+          - generic [ref=e407]: 身份证号批量信息提取工具，每行一个或混排输入，表格化输出生日、性别、年龄及校验位有效性验证（GB 11643-1999 ...
+        - link "URL地址在线解析工具 URL地址在线解析工具，输入任意网址即时拆解协议、域名、端口、路径、查询串、锚点与 Origin，查询参数逐项键值展示，..." [ref=e408] [cursor=pointer]:
+          - /url: /zh/net-parser
+          - generic [ref=e410]: URL地址在线解析工具
+          - generic [ref=e411]: URL地址在线解析工具，输入任意网址即时拆解协议、域名、端口、路径、查询串、锚点与 Origin，查询参数逐项键值展示，...
+        - link "在线文本信息提取器 在线文本信息提取器，六种模式一键切换：电话号码、邮箱地址、URL链接、数字、中文词语、英文单词，智能去重逐行输出，适用于..." [ref=e412] [cursor=pointer]:
+          - /url: /zh/text-extract
+          - generic [ref=e414]: 在线文本信息提取器
+          - generic [ref=e415]: 在线文本信息提取器，六种模式一键切换：电话号码、邮箱地址、URL链接、数字、中文词语、英文单词，智能去重逐行输出，适用于...
+        - link "中文简体繁体在线转换工具 中文简体繁体在线转换工具，内置高频简繁字表一键互转，支持中英混排与长文本处理，适用于文案适配、港台地区交流与古籍阅读辅助..." [ref=e416] [cursor=pointer]:
+          - /url: /zh/chinese-converter
+          - generic [ref=e418]: 中文简体繁体在线转换工具
+          - generic [ref=e419]: 中文简体繁体在线转换工具，内置高频简繁字表一键互转，支持中英混排与长文本处理，适用于文案适配、港台地区交流与古籍阅读辅助...
+        - link "火星文在线转换器 火星文在线转换器，将简体汉字转换为趣味火星文异体字，也可反向还原为简体，适用于个性昵称、社交签名与趣味社交场景，双向互转..." [ref=e420] [cursor=pointer]:
+          - /url: /zh/mars-converter
+          - generic [ref=e422]: 火星文在线转换器
+          - generic [ref=e423]: 火星文在线转换器，将简体汉字转换为趣味火星文异体字，也可反向还原为简体，适用于个性昵称、社交签名与趣味社交场景，双向互转...
+        - link "在线圆圈字母生成器 在线圆圈字母生成器，将英文字母转为带圆圈的装饰字符 Ⓐⓐ、数字转为 ①②③ 样式，非字母数字原样保留，适用于编号列表、个..." [ref=e424] [cursor=pointer]:
+          - /url: /zh/letter-circle
+          - generic [ref=e426]: 在线圆圈字母生成器
+          - generic [ref=e427]: 在线圆圈字母生成器，将英文字母转为带圆圈的装饰字符 Ⓐⓐ、数字转为 ①②③ 样式，非字母数字原样保留，适用于编号列表、个...
+        - link "在线随机字符串批量生成工具 在线随机字符串批量生成工具，自定义长度区间、生成数量与字符集，默认剔除易混淆字符（0O、1lI），一次生成最多一万个随机..." [ref=e428] [cursor=pointer]:
+          - /url: /zh/string-random
+          - generic [ref=e430]: 在线随机字符串批量生成工具
+          - generic [ref=e431]: 在线随机字符串批量生成工具，自定义长度区间、生成数量与字符集，默认剔除易混淆字符（0O、1lI），一次生成最多一万个随机...
+        - link "在线数字序列批量生成器 在线数字序列批量生成器，自定义起始值、步长、数量，支持前置补零到指定位数与前后缀拼接，快速产出编号清单如 NO.0001..." [ref=e432] [cursor=pointer]:
+          - /url: /zh/sequence-generator
+          - generic [ref=e434]: 在线数字序列批量生成器
+          - generic [ref=e435]: 在线数字序列批量生成器，自定义起始值、步长、数量，支持前置补零到指定位数与前后缀拼接，快速产出编号清单如 NO.0001...
+        - link "在线文本自动排版工具 在线文本自动排版工具，四个开关自由组合：段落首行缩进两个全角空格、去除多余空格、去掉 Emoji 表情、去除 HTML ..." [ref=e436] [cursor=pointer]:
+          - /url: /zh/text-formatter
+          - generic [ref=e438]: 在线文本自动排版工具
+          - generic [ref=e439]: 在线文本自动排版工具，四个开关自由组合：段落首行缩进两个全角空格、去除多余空格、去掉 Emoji 表情、去除 HTML ...
+        - link "在线汉字拼音转换器 在线汉字拼音转换器，基于专业拼音词库精准多音字处理，支持无声调与带声调两种输出模式，整句智能注音，适用于教学标注、姓名拼..." [ref=e440] [cursor=pointer]:
+          - /url: /zh/pinyin-converter
+          - generic [ref=e442]: 在线汉字拼音转换器
+          - generic [ref=e443]: 在线汉字拼音转换器，基于专业拼音词库精准多音字处理，支持无声调与带声调两种输出模式，整句智能注音，适用于教学标注、姓名拼...
+        - link "长度单位在线换算工具 长度单位在线换算工具，支持纳米到海里等 12 种公制英制市制单位双向换算，输入数值即时得出结果，适用于工程测量、外贸报价..." [ref=e444] [cursor=pointer]:
+          - /url: /zh/length-converter
+          - generic [ref=e446]: 长度单位在线换算工具
+          - generic [ref=e447]: 长度单位在线换算工具，支持纳米到海里等 12 种公制英制市制单位双向换算，输入数值即时得出结果，适用于工程测量、外贸报价...
+        - link "重量单位在线换算工具 重量单位在线换算工具，支持毫克到吨、盎司磅克拉及市斤市两共 9 种单位双向换算，精确因子即时计算，适用于珠宝计价、跨境物..." [ref=e448] [cursor=pointer]:
+          - /url: /zh/weight-converter
+          - generic [ref=e450]: 重量单位在线换算工具
+          - generic [ref=e451]: 重量单位在线换算工具，支持毫克到吨、盎司磅克拉及市斤市两共 9 种单位双向换算，精确因子即时计算，适用于珠宝计价、跨境物...
+        - link "温度单位在线换算工具 温度单位在线换算工具，支持摄氏度、华氏度、开尔文、兰氏度四种温标仿射换算，公式内置零误差，适用于科研实验、烹饪烘焙与国际..." [ref=e452] [cursor=pointer]:
+          - /url: /zh/temperature-converter
+          - generic [ref=e454]: 温度单位在线换算工具
+          - generic [ref=e455]: 温度单位在线换算工具，支持摄氏度、华氏度、开尔文、兰氏度四种温标仿射换算，公式内置零误差，适用于科研实验、烹饪烘焙与国际...
+        - link "面积单位在线换算工具 面积单位在线换算工具，支持平方毫米到平方千米、公顷、英亩及市亩共 9 种单位双向换算，精确因子即时计算，适用于房产土地、..." [ref=e456] [cursor=pointer]:
+          - /url: /zh/area-converter
+          - generic [ref=e458]: 面积单位在线换算工具
+          - generic [ref=e459]: 面积单位在线换算工具，支持平方毫米到平方千米、公顷、英亩及市亩共 9 种单位双向换算，精确因子即时计算，适用于房产土地、...
+        - link "体积/容积单位在线换算工具 体积容积单位在线换算工具，支持毫升升立方米、立方英寸英尺及美制加仑夸脱品脱共 9 种单位双向换算，适用于烘焙配方、油箱容..." [ref=e460] [cursor=pointer]:
+          - /url: /zh/volume-converter
+          - generic [ref=e462]: 体积/容积单位在线换算工具
+          - generic [ref=e463]: 体积容积单位在线换算工具，支持毫升升立方米、立方英寸英尺及美制加仑夸脱品脱共 9 种单位双向换算，适用于烘焙配方、油箱容...
+        - link "速度单位在线换算工具 速度单位在线换算工具，支持米/秒、千米/小时、英里/小时、节、英尺/秒与马赫共 6 种单位双向换算，适用于行车导航、航空..." [ref=e464] [cursor=pointer]:
+          - /url: /zh/speed-converter
+          - generic [ref=e466]: 速度单位在线换算工具
+          - generic [ref=e467]: 速度单位在线换算工具，支持米/秒、千米/小时、英里/小时、节、英尺/秒与马赫共 6 种单位双向换算，适用于行车导航、航空...
+        - link "时间单位在线换算工具 时间单位在线换算工具，支持纳秒到周共 8 种时间单位双向换算，覆盖编程计时、项目排期与日常时长估算，精确因子即时计算，全..." [ref=e468] [cursor=pointer]:
+          - /url: /zh/time-converter
+          - generic [ref=e470]: 时间单位在线换算工具
+          - generic [ref=e471]: 时间单位在线换算工具，支持纳秒到周共 8 种时间单位双向换算，覆盖编程计时、项目排期与日常时长估算，精确因子即时计算，全...
+        - link "角度单位在线换算工具 角度单位在线换算工具，支持度、弧度、冈、角分、角秒与转共 6 种角度单位双向换算，精确 π 关系即时计算，适用于数学几何..." [ref=e472] [cursor=pointer]:
+          - /url: /zh/angle-converter
+          - generic [ref=e474]: 角度单位在线换算工具
+          - generic [ref=e475]: 角度单位在线换算工具，支持度、弧度、冈、角分、角秒与转共 6 种角度单位双向换算，精确 π 关系即时计算，适用于数学几何...
+        - link "压力单位在线换算工具 压力单位在线换算工具，支持帕斯卡、巴、毫巴、标准大气压、毫米汞柱、psi、托共 9 种压力单位双向换算，精确因子即时计算..." [ref=e476] [cursor=pointer]:
+          - /url: /zh/pressure-converter
+          - generic [ref=e478]: 压力单位在线换算工具
+          - generic [ref=e479]: 压力单位在线换算工具，支持帕斯卡、巴、毫巴、标准大气压、毫米汞柱、psi、托共 9 种压力单位双向换算，精确因子即时计算...
+        - link "功率单位在线换算工具 功率单位在线换算工具，支持瓦特千瓦兆瓦、机械马力公制马力、卡每秒与英热每小时共 7 种功率单位双向换算，适用于电机选型、..." [ref=e480] [cursor=pointer]:
+          - /url: /zh/power-converter
+          - generic [ref=e482]: 功率单位在线换算工具
+          - generic [ref=e483]: 功率单位在线换算工具，支持瓦特千瓦兆瓦、机械马力公制马力、卡每秒与英热每小时共 7 种功率单位双向换算，适用于电机选型、...
+        - link "力单位转换器 力单位转换器，支持牛顿、千牛、达因、千克力、磅力、吨力共 6 种力学单位双向换算，精确重力加速度因子即时计算，适用于工程..." [ref=e484] [cursor=pointer]:
+          - /url: /zh/force-converter
+          - generic [ref=e486]: 力单位转换器
+          - generic [ref=e487]: 力单位转换器，支持牛顿、千牛、达因、千克力、磅力、吨力共 6 种力学单位双向换算，精确重力加速度因子即时计算，适用于工程...
+        - link "扭矩单位转换器 扭矩单位转换器，支持牛米、千牛米、千克力米、磅力英尺、磅力英寸共 5 种扭矩单位双向换算，精确因子即时计算，适用于汽车参..." [ref=e488] [cursor=pointer]:
+          - /url: /zh/torque-converter
+          - generic [ref=e490]: 扭矩单位转换器
+          - generic [ref=e491]: 扭矩单位转换器，支持牛米、千牛米、千克力米、磅力英尺、磅力英寸共 5 种扭矩单位双向换算，精确因子即时计算，适用于汽车参...
+        - link "热量单位在线换算工具 热量能量单位在线换算工具，支持焦耳千焦、卡路里千卡、瓦时千瓦时、英热单位与电子伏特共 8 种能量单位双向换算，适用于食品..." [ref=e492] [cursor=pointer]:
+          - /url: /zh/heat-converter
+          - generic [ref=e494]: 热量单位在线换算工具
+          - generic [ref=e495]: 热量能量单位在线换算工具，支持焦耳千焦、卡路里千卡、瓦时千瓦时、英热单位与电子伏特共 8 种能量单位双向换算，适用于食品...
+        - link "频率单位在线换算工具 频率单位在线换算工具，支持赫兹千赫兆赫吉赫及转每分钟共 5 种频率单位双向换算，精确因子即时计算，适用于无线电频段、CP..." [ref=e496] [cursor=pointer]:
+          - /url: /zh/frequency-converter
+          - generic [ref=e498]: 频率单位在线换算工具
+          - generic [ref=e499]: 频率单位在线换算工具，支持赫兹千赫兆赫吉赫及转每分钟共 5 种频率单位双向换算，精确因子即时计算，适用于无线电频段、CP...
+        - link "密度单位在线换算工具 密度单位在线换算工具，支持千克每立方米、克每立方厘米、克每升、磅每立方英尺英寸共 5 种密度单位双向换算，精确因子即时计..." [ref=e500] [cursor=pointer]:
+          - /url: /zh/density-converter
+          - generic [ref=e502]: 密度单位在线换算工具
+          - generic [ref=e503]: 密度单位在线换算工具，支持千克每立方米、克每立方厘米、克每升、磅每立方英尺英寸共 5 种密度单位双向换算，精确因子即时计...
+        - link "油耗单位在线换算工具 油耗单位在线换算工具，支持升/百公里、千米/升、美制mpg、英制mpg四种油耗表示法互转，采用倒数关系精确换算，适用于购..." [ref=e504] [cursor=pointer]:
+          - /url: /zh/fuel-consumption-converter
+          - generic [ref=e506]: 油耗单位在线换算工具
+          - generic [ref=e507]: 油耗单位在线换算工具，支持升/百公里、千米/升、美制mpg、英制mpg四种油耗表示法互转，采用倒数关系精确换算，适用于购...
+        - link "电压单位在线换算工具 电压单位在线换算工具，支持纳伏微伏毫伏伏特千伏共 5 种电压单位双向换算，千进制精确因子即时计算，适用于电子电路、电池参..." [ref=e508] [cursor=pointer]:
+          - /url: /zh/voltage-converter
+          - generic [ref=e510]: 电压单位在线换算工具
+          - generic [ref=e511]: 电压单位在线换算工具，支持纳伏微伏毫伏伏特千伏共 5 种电压单位双向换算，千进制精确因子即时计算，适用于电子电路、电池参...
+        - link "电流单位在线换算工具 电流单位在线换算工具，支持纳安微安毫安安培千安共 5 种电流单位双向换算，千进制精确因子即时计算，适用于电路设计、漏电检..." [ref=e512] [cursor=pointer]:
+          - /url: /zh/current-converter
+          - generic [ref=e514]: 电流单位在线换算工具
+          - generic [ref=e515]: 电流单位在线换算工具，支持纳安微安毫安安培千安共 5 种电流单位双向换算，千进制精确因子即时计算，适用于电路设计、漏电检...
+        - link "电阻单位在线换算工具 电阻单位在线换算工具，支持毫欧欧姆千欧兆欧共 4 种电阻单位双向换算，千进制精确因子即时计算，适用于电阻选型、绝缘测试与..." [ref=e516] [cursor=pointer]:
+          - /url: /zh/resistance-converter
+          - generic [ref=e518]: 电阻单位在线换算工具
+          - generic [ref=e519]: 电阻单位在线换算工具，支持毫欧欧姆千欧兆欧共 4 种电阻单位双向换算，千进制精确因子即时计算，适用于电阻选型、绝缘测试与...
+        - link "电容单位在线换算工具 电容单位在线换算工具，支持皮法纳法微法毫法法拉共 5 种电容单位双向换算，千进制精确因子即时计算，适用于电容选型、电源滤..." [ref=e520] [cursor=pointer]:
+          - /url: /zh/capacitance-converter
+          - generic [ref=e522]: 电容单位在线换算工具
+          - generic [ref=e523]: 电容单位在线换算工具，支持皮法纳法微法毫法法拉共 5 种电容单位双向换算，千进制精确因子即时计算，适用于电容选型、电源滤...
+        - link "电荷单位在线换算工具 电荷单位在线换算工具，支持微库毫库库仑千库及安时共 5 种电荷单位双向换算，精确因子即时计算，适用于电池容量核算、电化学..." [ref=e524] [cursor=pointer]:
+          - /url: /zh/charge-converter
+          - generic [ref=e526]: 电荷单位在线换算工具
+          - generic [ref=e527]: 电荷单位在线换算工具，支持微库毫库库仑千库及安时共 5 种电荷单位双向换算，精确因子即时计算，适用于电池容量核算、电化学...
+        - link "照度单位在线换算工具 照度单位在线换算工具，支持勒克斯千勒克斯、辐透与英尺烛光共 4 种照度单位双向换算，精确因子即时计算，适用于灯光设计、摄..." [ref=e528] [cursor=pointer]:
+          - /url: /zh/illuminance-converter
+          - generic [ref=e530]: 照度单位在线换算工具
+          - generic [ref=e531]: 照度单位在线换算工具，支持勒克斯千勒克斯、辐透与英尺烛光共 4 种照度单位双向换算，精确因子即时计算，适用于灯光设计、摄...
+        - link "声音强度单位换算 声音强度单位换算工具，支持分贝、奈培与贝尔三种声学级单位双向换算，精确对数因子即时计算，适用于噪声监测、音频工程与环境评..." [ref=e532] [cursor=pointer]:
+          - /url: /zh/sound-converter
+          - generic [ref=e534]: 声音强度单位换算
+          - generic [ref=e535]: 声音强度单位换算工具，支持分贝、奈培与贝尔三种声学级单位双向换算，精确对数因子即时计算，适用于噪声监测、音频工程与环境评...
+        - link "色温单位换算 色温单位换算工具，支持开尔文色温与迈尔德(mired)倒数色温双向换算，摄影滤光片与影视调色领域常用 mired 标注，..." [ref=e536] [cursor=pointer]:
+          - /url: /zh/cct-converter
+          - generic [ref=e538]: 色温单位换算
+          - generic [ref=e539]: 色温单位换算工具，支持开尔文色温与迈尔德(mired)倒数色温双向换算，摄影滤光片与影视调色领域常用 mired 标注，...
+        - link "风速单位在线换算工具 风速单位在线换算工具，支持米/秒、千米/小时、英里/小时、节、英尺/秒共 5 种风速单位双向换算，精确因子即时计算，适用..." [ref=e540] [cursor=pointer]:
+          - /url: /zh/wind-speed-converter
+          - generic [ref=e542]: 风速单位在线换算工具
+          - generic [ref=e543]: 风速单位在线换算工具，支持米/秒、千米/小时、英里/小时、节、英尺/秒共 5 种风速单位双向换算，精确因子即时计算，适用...
+        - link "带宽单位转换 带宽单位转换工具，支持 bit/s、Kbps、Mbps、Gbps 与字节类 B/s、KB/s、MB/s、GB/s 双向换..." [ref=e544] [cursor=pointer]:
+          - /url: /zh/bandwidth-converter
+          - generic [ref=e546]: 带宽单位转换
+          - generic [ref=e547]: 带宽单位转换工具，支持 bit/s、Kbps、Mbps、Gbps 与字节类 B/s、KB/s、MB/s、GB/s 双向换...
+        - link "REM与PX单位转换 REM与PX单位转换工具，基于可自定义的根字号（默认16px）在 rem 与 px 之间双向换算，支持 em/pt/% ..." [ref=e548] [cursor=pointer]:
+          - /url: /zh/rem-px
+          - generic [ref=e550]: REM与PX单位转换
+          - generic [ref=e551]: REM与PX单位转换工具，基于可自定义的根字号（默认16px）在 rem 与 px 之间双向换算，支持 em/pt/% ...
+        - link "字体字号单位换算 字体字号单位换算工具，支持 px、pt、em、rem、百分比五种字号单位互转，内置 pt 与 px 的印刷屏幕换算关系及..." [ref=e552] [cursor=pointer]:
+          - /url: /zh/font-size-converter
+          - generic [ref=e554]: 字体字号单位换算
+          - generic [ref=e555]: 字体字号单位换算工具，支持 px、pt、em、rem、百分比五种字号单位互转，内置 pt 与 px 的印刷屏幕换算关系及...
+        - link "多进制转换器 多进制转换器，输入任意数值一键得出二进制、八进制、十进制、十六进制四种结果，采用 BigInt 大数运算无精度损失，适用..." [ref=e556] [cursor=pointer]:
+          - /url: /zh/base-converter
+          - generic [ref=e558]: 多进制转换器
+          - generic [ref=e559]: 多进制转换器，输入任意数值一键得出二进制、八进制、十进制、十六进制四种结果，采用 BigInt 大数运算无精度损失，适用...
+        - link "鞋子尺码换算 鞋子尺码换算工具，对照中国码、欧码 EU、美码男女款、英码 UK 与脚长厘米五套体系，输入任一尺码高亮整行对照表，海淘购..." [ref=e560] [cursor=pointer]:
+          - /url: /zh/shoe-size
+          - generic [ref=e562]: 鞋子尺码换算
+          - generic [ref=e563]: 鞋子尺码换算工具，对照中国码、欧码 EU、美码男女款、英码 UK 与脚长厘米五套体系，输入任一尺码高亮整行对照表，海淘购...
+        - link "人民币大写转换 人民币大写转换工具，将阿拉伯数字金额转为符合财务规范的中文大写（壹贰叁肆伍陆柒捌玖拾佰仟万亿），自动处理零的读法与角分补..." [ref=e564] [cursor=pointer]:
+          - /url: /zh/rmb-upper
+          - generic [ref=e566]: 人民币大写转换
+          - generic [ref=e567]: 人民币大写转换工具，将阿拉伯数字金额转为符合财务规范的中文大写（壹贰叁肆伍陆柒捌玖拾佰仟万亿），自动处理零的读法与角分补...
+        - link "血型遗传计算器 血型遗传计算器，根据父母 ABO 血型推算子女可能的血型组合，基于经典孟德尔遗传规律，孕期科普与家庭趣味查询两相宜，全部..." [ref=e568] [cursor=pointer]:
+          - /url: /zh/blood-type
+          - generic [ref=e570]: 血型遗传计算器
+          - generic [ref=e571]: 血型遗传计算器，根据父母 ABO 血型推算子女可能的血型组合，基于经典孟德尔遗传规律，孕期科普与家庭趣味查询两相宜，全部...
+  - contentinfo [ref=e572]:
+    - generic [ref=e573]:
+      - generic [ref=e574]:
+        - heading "热门推荐" [level=4] [ref=e575]
+        - link "JSON" [ref=e576] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e577]:
+        - heading "站长工具" [level=4] [ref=e578]
+        - link "IP" [ref=e579] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e580]:
+        - heading "关于" [level=4] [ref=e581]
+        - link "关于我们" [ref=e582] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e583] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e584]:
+        - heading "合规" [level=4] [ref=e585]
+        - link "服务条款" [ref=e586] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e587] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e588]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e589]

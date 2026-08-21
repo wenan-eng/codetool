@@ -1,0 +1,862 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - heading "一站式免费在线工具箱 - 分类齐全，即开即用" [level=1] [ref=e105]
+    - generic [ref=e106]:
+      - generic [ref=e107]: 搜索工具
+      - textbox "搜索工具" [ref=e108]:
+        - /placeholder: 输入关键词，按回车搜索，使用组合键 Alt+Q 调用...
+      - button "清空搜索": ✕
+    - heading "图片美化" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - article [ref=e111]:
+        - link "图片亮度调整 工具图标 图片亮度调整 自动识别上传图片，实时调节亮度强度，支持0-200%平滑亮度调整，一键下载调节后图片。" [ref=e112] [cursor=pointer]:
+          - /url: /image-brightness/
+          - heading "图片亮度调整 工具图标 图片亮度调整" [level=3] [ref=e113]:
+            - img "图片亮度调整 工具图标" [ref=e114]
+            - generic [ref=e115]: 图片亮度调整
+          - paragraph [ref=e116]: 自动识别上传图片，实时调节亮度强度，支持0-200%平滑亮度调整，一键下载调节后图片。
+      - article [ref=e117]:
+        - link "色彩饱和度调整 工具图标 色彩饱和度调整 支持一键调整色彩强度，从上传原图直接调节饱和度效果，实时预览调整后的画面。" [ref=e118] [cursor=pointer]:
+          - /url: /image-saturation/
+          - heading "色彩饱和度调整 工具图标 色彩饱和度调整" [level=3] [ref=e119]:
+            - img "色彩饱和度调整 工具图标" [ref=e120]
+            - generic [ref=e121]: 色彩饱和度调整
+          - paragraph [ref=e122]: 支持一键调整色彩强度，从上传原图直接调节饱和度效果，实时预览调整后的画面。
+      - article [ref=e123]:
+        - link "图片冷暖色调调整 工具图标 图片冷暖色调调整 自动识别上传图片，实时调节冷暖强度，支持从冷色调平滑过渡至暖色调，一键下载调色图片。" [ref=e124] [cursor=pointer]:
+          - /url: /image-temperature/
+          - heading "图片冷暖色调调整 工具图标 图片冷暖色调调整" [level=3] [ref=e125]:
+            - img "图片冷暖色调调整 工具图标" [ref=e126]
+            - generic [ref=e127]: 图片冷暖色调调整
+          - paragraph [ref=e128]: 自动识别上传图片，实时调节冷暖强度，支持从冷色调平滑过渡至暖色调，一键下载调色图片。
+      - article [ref=e129]:
+        - link "图片高光调整 工具图标 图片高光调整 支持一键调整高光强度，从上传原图直接调节高光效果，实时预览调整后的画面。" [ref=e130] [cursor=pointer]:
+          - /url: /image-highlight/
+          - heading "图片高光调整 工具图标 图片高光调整" [level=3] [ref=e131]:
+            - img "图片高光调整 工具图标" [ref=e132]
+            - generic [ref=e133]: 图片高光调整
+          - paragraph [ref=e134]: 支持一键调整高光强度，从上传原图直接调节高光效果，实时预览调整后的画面。
+      - article [ref=e135]:
+        - link "图片色彩淡化器 工具图标 图片色彩淡化器 自动识别上传图片，实时调节减淡强度，支持从原始色彩平滑过渡至完全黑白，一键下载淡化图片。" [ref=e136] [cursor=pointer]:
+          - /url: /image-fader/
+          - heading "图片色彩淡化器 工具图标 图片色彩淡化器" [level=3] [ref=e137]:
+            - img "图片色彩淡化器 工具图标" [ref=e138]
+            - generic [ref=e139]: 图片色彩淡化器
+          - paragraph [ref=e140]: 自动识别上传图片，实时调节减淡强度，支持从原始色彩平滑过渡至完全黑白，一键下载淡化图片。
+      - article [ref=e141]:
+        - link "图片对比度调整 工具图标 图片对比度调整 支持一键调整对比度强度，从上传原图直接调节对比度效果，实时预览调整后的画面。" [ref=e142] [cursor=pointer]:
+          - /url: /image-contrast/
+          - heading "图片对比度调整 工具图标 图片对比度调整" [level=3] [ref=e143]:
+            - img "图片对比度调整 工具图标" [ref=e144]
+            - generic [ref=e145]: 图片对比度调整
+          - paragraph [ref=e146]: 支持一键调整对比度强度，从上传原图直接调节对比度效果，实时预览调整后的画面。
+      - article [ref=e147]:
+        - link "图片颜色替换 工具图标 图片颜色替换 支持图片指定颜色替换、自定义颜色容差精准匹配，适用于图片局部换色、素材调色等场景。" [ref=e148] [cursor=pointer]:
+          - /url: /color-replace/
+          - heading "图片颜色替换 工具图标 图片颜色替换" [level=3] [ref=e149]:
+            - img "图片颜色替换 工具图标" [ref=e150]
+            - generic [ref=e151]: 图片颜色替换
+          - paragraph [ref=e152]: 支持图片指定颜色替换、自定义颜色容差精准匹配，适用于图片局部换色、素材调色等场景。
+      - article [ref=e153]:
+        - link "图片HSL色彩调整 工具图标 图片HSL色彩调整 支持一键调整色相、饱和度和明度三大核心色彩参数，从上传原图直接调节 HSL 效果，实时预览调整后的画面。" [ref=e154] [cursor=pointer]:
+          - /url: /image-hsl/
+          - heading "图片HSL色彩调整 工具图标 图片HSL色彩调整" [level=3] [ref=e155]:
+            - img "图片HSL色彩调整 工具图标" [ref=e156]
+            - generic [ref=e157]: 图片HSL色彩调整
+          - paragraph [ref=e158]: 支持一键调整色相、饱和度和明度三大核心色彩参数，从上传原图直接调节 HSL 效果，实时预览调整后的画面。
+      - article [ref=e159]:
+        - link "图片锐化处理 工具图标 图片锐化处理 支持一键增强图像清晰度，从上传原图直接调节锐化强度，实时预览边缘细节增强效果。" [ref=e160] [cursor=pointer]:
+          - /url: /image-sharpener/
+          - heading "图片锐化处理 工具图标 图片锐化处理" [level=3] [ref=e161]:
+            - img "图片锐化处理 工具图标" [ref=e162]
+            - generic [ref=e163]: 图片锐化处理
+          - paragraph [ref=e164]: 支持一键增强图像清晰度，从上传原图直接调节锐化强度，实时预览边缘细节增强效果。
+      - article [ref=e165]:
+        - link "图片模糊化处理 工具图标 图片虚化处理 自动识别上传图片，实时调节模糊强度，支持边缘均匀模糊不溢出，一键下载模糊图片，适合隐私遮挡、背景虚化、敏感信息脱敏等场景。" [ref=e166] [cursor=pointer]:
+          - /url: /blur-image/
+          - heading "图片模糊化处理 工具图标 图片虚化处理" [level=3] [ref=e167]:
+            - img "图片模糊化处理 工具图标" [ref=e168]
+            - generic [ref=e169]: 图片虚化处理
+          - paragraph [ref=e170]: 自动识别上传图片，实时调节模糊强度，支持边缘均匀模糊不溢出，一键下载模糊图片，适合隐私遮挡、背景虚化、敏感信息脱敏等场景。
+      - article [ref=e171]:
+        - link "图片角度调整 工具图标 图片角度调整 自动识别上传图片，实时调节旋转角度，支持任意角度平滑旋转，一键下载旋转后图片。" [ref=e172] [cursor=pointer]:
+          - /url: /image-rotate/
+          - heading "图片角度调整 工具图标 图片角度调整" [level=3] [ref=e173]:
+            - img "图片角度调整 工具图标" [ref=e174]
+            - generic [ref=e175]: 图片角度调整
+          - paragraph [ref=e176]: 自动识别上传图片，实时调节旋转角度，支持任意角度平滑旋转，一键下载旋转后图片。
+      - article [ref=e177]:
+        - link "四点透视矫正器 工具图标 四点透视矫正器 支持拖拽上传图片，通过拖拽四个角点框选歪斜区域，智能计算透视变换矩阵并一键拉直矫正。" [ref=e178] [cursor=pointer]:
+          - /url: /image-rectify/
+          - heading "四点透视矫正器 工具图标 四点透视矫正器" [level=3] [ref=e179]:
+            - img "四点透视矫正器 工具图标" [ref=e180]
+            - generic [ref=e181]: 四点透视矫正器
+          - paragraph [ref=e182]: 支持拖拽上传图片，通过拖拽四个角点框选歪斜区域，智能计算透视变换矩阵并一键拉直矫正。
+      - article [ref=e183]:
+        - link "图片质量调整 工具图标 图片质量调整 实现图片体积的精准控制，可自定义压缩质量（1%-100%）、实时预览压缩效果。" [ref=e184] [cursor=pointer]:
+          - /url: /image-quality/
+          - heading "图片质量调整 工具图标 图片质量调整" [level=3] [ref=e185]:
+            - img "图片质量调整 工具图标" [ref=e186]
+            - generic [ref=e187]: 图片质量调整
+          - paragraph [ref=e188]: 实现图片体积的精准控制，可自定义压缩质量（1%-100%）、实时预览压缩效果。
+      - article [ref=e189]:
+        - link "图片镜像翻转 工具图标 图片镜像翻转 支持一键水平翻转（左右镜像）和垂直翻转（上下镜像），实时预览翻转效果，瞬间完成镜像变换。" [ref=e190] [cursor=pointer]:
+          - /url: /image-mirror/
+          - heading "图片镜像翻转 工具图标 图片镜像翻转" [level=3] [ref=e191]:
+            - img "图片镜像翻转 工具图标" [ref=e192]
+            - generic [ref=e193]: 图片镜像翻转
+          - paragraph [ref=e194]: 支持一键水平翻转（左右镜像）和垂直翻转（上下镜像），实时预览翻转效果，瞬间完成镜像变换。
+      - article [ref=e195]:
+        - link "图片尺寸快速调整 工具图标 图片尺寸调整 实现图片大小的精准缩放，可自定义缩放比例（1%-100%）、实时预览调整效果。" [ref=e196] [cursor=pointer]:
+          - /url: /image-size-revise/
+          - heading "图片尺寸快速调整 工具图标 图片尺寸调整" [level=3] [ref=e197]:
+            - img "图片尺寸快速调整 工具图标" [ref=e198]
+            - generic [ref=e199]: 图片尺寸调整
+          - paragraph [ref=e200]: 实现图片大小的精准缩放，可自定义缩放比例（1%-100%）、实时预览调整效果。
+      - article [ref=e201]:
+        - link "图片自定义裁剪 工具图标 图片自定义裁剪 支持手动拖拽绘制矩形选区，四边四角自由缩放调整，适配设计裁图、素材修剪等多种场景。" [ref=e202] [cursor=pointer]:
+          - /url: /image-cropping/
+          - heading "图片自定义裁剪 工具图标 图片自定义裁剪" [level=3] [ref=e203]:
+            - img "图片自定义裁剪 工具图标" [ref=e204]
+            - generic [ref=e205]: 图片自定义裁剪
+          - paragraph [ref=e206]: 支持手动拖拽绘制矩形选区，四边四角自由缩放调整，适配设计裁图、素材修剪等多种场景。
+    - heading "批量转图" [level=2] [ref=e207]
+    - generic [ref=e208]:
+      - article [ref=e209]:
+        - link "批量图片转JPG格式 工具图标 批量图片转JPG格式 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。" [ref=e210] [cursor=pointer]:
+          - /url: /images-jpg/
+          - heading "批量图片转JPG格式 工具图标 批量图片转JPG格式" [level=3] [ref=e211]:
+            - img "批量图片转JPG格式 工具图标" [ref=e212]
+            - generic [ref=e213]: 批量图片转JPG格式
+          - paragraph [ref=e214]: 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。
+      - article [ref=e215]:
+        - link "批量图片转PNG格式 工具图标 批量图片转PNG格式 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。" [ref=e216] [cursor=pointer]:
+          - /url: /images-png/
+          - heading "批量图片转PNG格式 工具图标 批量图片转PNG格式" [level=3] [ref=e217]:
+            - img "批量图片转PNG格式 工具图标" [ref=e218]
+            - generic [ref=e219]: 批量图片转PNG格式
+          - paragraph [ref=e220]: 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。
+      - article [ref=e221]:
+        - link "批量图片转Gif格式 工具图标 批量图片转Gif格式 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。" [ref=e222] [cursor=pointer]:
+          - /url: /images-gif/
+          - heading "批量图片转Gif格式 工具图标 批量图片转Gif格式" [level=3] [ref=e223]:
+            - img "批量图片转Gif格式 工具图标" [ref=e224]
+            - generic [ref=e225]: 批量图片转Gif格式
+          - paragraph [ref=e226]: 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。
+      - article [ref=e227]:
+        - link "批量图片转WebP格式 工具图标 批量图片转WebP格式 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。" [ref=e228] [cursor=pointer]:
+          - /url: /images-webp/
+          - heading "批量图片转WebP格式 工具图标 批量图片转WebP格式" [level=3] [ref=e229]:
+            - img "批量图片转WebP格式 工具图标" [ref=e230]
+            - generic [ref=e231]: 批量图片转WebP格式
+          - paragraph [ref=e232]: 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。
+      - article [ref=e233]:
+        - link "批量图片转BMP格式 工具图标 批量图片转BMP格式 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。" [ref=e234] [cursor=pointer]:
+          - /url: /images-bmp/
+          - heading "批量图片转BMP格式 工具图标 批量图片转BMP格式" [level=3] [ref=e235]:
+            - img "批量图片转BMP格式 工具图标" [ref=e236]
+            - generic [ref=e237]: 批量图片转BMP格式
+          - paragraph [ref=e238]: 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。
+      - article [ref=e239]:
+        - link "批量图片转TIFF格式 工具图标 批量图片转TIFF格式 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。" [ref=e240] [cursor=pointer]:
+          - /url: /images-tiff/
+          - heading "批量图片转TIFF格式 工具图标 批量图片转TIFF格式" [level=3] [ref=e241]:
+            - img "批量图片转TIFF格式 工具图标" [ref=e242]
+            - generic [ref=e243]: 批量图片转TIFF格式
+          - paragraph [ref=e244]: 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。
+      - article [ref=e245]:
+        - link "批量图片转HEIC格式 工具图标 批量图片转HEIC格式 一键批量转换多张图片，自动完成格式转换处理，转换后保持原图尺寸不变、分辨率不变、图片名称不变。" [ref=e246] [cursor=pointer]:
+          - /url: /images-heic/
+          - heading "批量图片转HEIC格式 工具图标 批量图片转HEIC格式" [level=3] [ref=e247]:
+            - img "批量图片转HEIC格式 工具图标" [ref=e248]
+            - generic [ref=e249]: 批量图片转HEIC格式
+          - paragraph [ref=e250]: 一键批量转换多张图片，自动完成格式转换处理，转换后保持原图尺寸不变、分辨率不变、图片名称不变。
+      - article [ref=e251]:
+        - link "批量图片转HEIF格式 工具图标 批量图片转HEIF格式 一键批量转换多张图片，转换后保持原图尺寸不变，在保留原始图像画质的同时大幅压缩文件体积。" [ref=e252] [cursor=pointer]:
+          - /url: /images-heif/
+          - heading "批量图片转HEIF格式 工具图标 批量图片转HEIF格式" [level=3] [ref=e253]:
+            - img "批量图片转HEIF格式 工具图标" [ref=e254]
+            - generic [ref=e255]: 批量图片转HEIF格式
+          - paragraph [ref=e256]: 一键批量转换多张图片，转换后保持原图尺寸不变，在保留原始图像画质的同时大幅压缩文件体积。
+      - article [ref=e257]:
+        - link "批量图片转AVIF格式 工具图标 批量图片转AVIF格式 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。" [ref=e258] [cursor=pointer]:
+          - /url: /images-avif/
+          - heading "批量图片转AVIF格式 工具图标 批量图片转AVIF格式" [level=3] [ref=e259]:
+            - img "批量图片转AVIF格式 工具图标" [ref=e260]
+            - generic [ref=e261]: 批量图片转AVIF格式
+          - paragraph [ref=e262]: 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。
+      - article [ref=e263]:
+        - link "批量图片转TIF格式 工具图标 批量图片转TIF格式 一键批量转换多张图片，转换后保持原图尺寸不变，完整保留原始图像的全部像素信息与色彩层次。" [ref=e264] [cursor=pointer]:
+          - /url: /images-tif/
+          - heading "批量图片转TIF格式 工具图标 批量图片转TIF格式" [level=3] [ref=e265]:
+            - img "批量图片转TIF格式 工具图标" [ref=e266]
+            - generic [ref=e267]: 批量图片转TIF格式
+          - paragraph [ref=e268]: 一键批量转换多张图片，转换后保持原图尺寸不变，完整保留原始图像的全部像素信息与色彩层次。
+      - article [ref=e269]:
+        - link "批量图片转JPEG格式 工具图标 批量图片转JPEG格式 一键批量转换多张图片，自动完成格式转换处理，转换后保持原图尺寸不变。" [ref=e270] [cursor=pointer]:
+          - /url: /images-jpeg/
+          - heading "批量图片转JPEG格式 工具图标 批量图片转JPEG格式" [level=3] [ref=e271]:
+            - img "批量图片转JPEG格式 工具图标" [ref=e272]
+            - generic [ref=e273]: 批量图片转JPEG格式
+          - paragraph [ref=e274]: 一键批量转换多张图片，自动完成格式转换处理，转换后保持原图尺寸不变。
+      - article [ref=e275]:
+        - link "批量图片转JXL格式 工具图标 批量图片转JXL格式 一键批量转换多张图片，自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变。" [ref=e276] [cursor=pointer]:
+          - /url: /images-jxl/
+          - heading "批量图片转JXL格式 工具图标 批量图片转JXL格式" [level=3] [ref=e277]:
+            - img "批量图片转JXL格式 工具图标" [ref=e278]
+            - generic [ref=e279]: 批量图片转JXL格式
+          - paragraph [ref=e280]: 一键批量转换多张图片，自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变。
+      - article [ref=e281]:
+        - link "批量图片转APNG格式 工具图标 批量图片转APNG格式 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。" [ref=e282] [cursor=pointer]:
+          - /url: /images-apng/
+          - heading "批量图片转APNG格式 工具图标 批量图片转APNG格式" [level=3] [ref=e283]:
+            - img "批量图片转APNG格式 工具图标" [ref=e284]
+            - generic [ref=e285]: 批量图片转APNG格式
+          - paragraph [ref=e286]: 自动完成格式转换处理，转换后保持原图尺寸不变、图片名称不变，支持单张下载或打包下载。
+      - article [ref=e287]:
+        - link "批量图片转JP2格式 工具图标 批量图片转JP2格式 一键批量转换多张图片，转换后保持原图尺寸不变，完整保留原始图像的全部像素信息与色彩层次。" [ref=e288] [cursor=pointer]:
+          - /url: /images-jp2/
+          - heading "批量图片转JP2格式 工具图标 批量图片转JP2格式" [level=3] [ref=e289]:
+            - img "批量图片转JP2格式 工具图标" [ref=e290]
+            - generic [ref=e291]: 批量图片转JP2格式
+          - paragraph [ref=e292]: 一键批量转换多张图片，转换后保持原图尺寸不变，完整保留原始图像的全部像素信息与色彩层次。
+      - article [ref=e293]:
+        - link "批量图片转PSB格式 工具图标 批量图片转PSB格式 一键批量转换多张图片，自动完成PSB大文档格式转换处理，转换后保持原图尺寸不变、图片名称不变。" [ref=e294] [cursor=pointer]:
+          - /url: /images-psb/
+          - heading "批量图片转PSB格式 工具图标 批量图片转PSB格式" [level=3] [ref=e295]:
+            - img "批量图片转PSB格式 工具图标" [ref=e296]
+            - generic [ref=e297]: 批量图片转PSB格式
+          - paragraph [ref=e298]: 一键批量转换多张图片，自动完成PSB大文档格式转换处理，转换后保持原图尺寸不变、图片名称不变。
+      - article [ref=e299]:
+        - link "批量图片转PSD格式 工具图标 批量图片转PSD格式 一键批量转换多张图片为Photoshop标准文档格式，自动完成格式转换处理。" [ref=e300] [cursor=pointer]:
+          - /url: /images-psd/
+          - heading "批量图片转PSD格式 工具图标 批量图片转PSD格式" [level=3] [ref=e301]:
+            - img "批量图片转PSD格式 工具图标" [ref=e302]
+            - generic [ref=e303]: 批量图片转PSD格式
+          - paragraph [ref=e304]: 一键批量转换多张图片为Photoshop标准文档格式，自动完成格式转换处理。
+    - heading "单张转图" [level=2] [ref=e305]
+    - generic [ref=e306]:
+      - article [ref=e307]:
+        - link "图片转JPG格式 工具图标 图片转JPG格式 一键将图片转换为JPG格式，转换后保持原图尺寸不变、图片名称不变。" [ref=e308] [cursor=pointer]:
+          - /url: /image-jpg/
+          - heading "图片转JPG格式 工具图标 图片转JPG格式" [level=3] [ref=e309]:
+            - img "图片转JPG格式 工具图标" [ref=e310]
+            - generic [ref=e311]: 图片转JPG格式
+          - paragraph [ref=e312]: 一键将图片转换为JPG格式，转换后保持原图尺寸不变、图片名称不变。
+      - article [ref=e313]:
+        - link "图片转PNG格式 工具图标 图片转PNG格式 一键将图片转换为PNG格式，转换后保持原图尺寸不变、图片名称不变，完美保留原始画质与透明度信息。" [ref=e314] [cursor=pointer]:
+          - /url: /image-png/
+          - heading "图片转PNG格式 工具图标 图片转PNG格式" [level=3] [ref=e315]:
+            - img "图片转PNG格式 工具图标" [ref=e316]
+            - generic [ref=e317]: 图片转PNG格式
+          - paragraph [ref=e318]: 一键将图片转换为PNG格式，转换后保持原图尺寸不变、图片名称不变，完美保留原始画质与透明度信息。
+      - article [ref=e319]:
+        - link "图片转GIF格式 工具图标 图片转GIF格式 一键将图片转换为GIF格式，转换后保持原图尺寸不变、图片名称不变。" [ref=e320] [cursor=pointer]:
+          - /url: /image-gif/
+          - heading "图片转GIF格式 工具图标 图片转GIF格式" [level=3] [ref=e321]:
+            - img "图片转GIF格式 工具图标" [ref=e322]
+            - generic [ref=e323]: 图片转GIF格式
+          - paragraph [ref=e324]: 一键将图片转换为GIF格式，转换后保持原图尺寸不变、图片名称不变。
+      - article [ref=e325]:
+        - link "图片转TIFF格式 工具图标 图片转TIFF格式 一键将图片转换为TIFF格式，转换后保持原图尺寸、名称不变，TIFF格式支持无损压缩与高品质色彩保留。" [ref=e326] [cursor=pointer]:
+          - /url: /image-tiff/
+          - heading "图片转TIFF格式 工具图标 图片转TIFF格式" [level=3] [ref=e327]:
+            - img "图片转TIFF格式 工具图标" [ref=e328]
+            - generic [ref=e329]: 图片转TIFF格式
+          - paragraph [ref=e330]: 一键将图片转换为TIFF格式，转换后保持原图尺寸、名称不变，TIFF格式支持无损压缩与高品质色彩保留。
+      - article [ref=e331]:
+        - link "图片转WebP格式 工具图标 图片转WebP格式 一键将图片转换为WebP格式，转换后保持原图尺寸不变、图片名称不变，自动处理PNG透明背景填充白色。" [ref=e332] [cursor=pointer]:
+          - /url: /image-webp/
+          - heading "图片转WebP格式 工具图标 图片转WebP格式" [level=3] [ref=e333]:
+            - img "图片转WebP格式 工具图标" [ref=e334]
+            - generic [ref=e335]: 图片转WebP格式
+          - paragraph [ref=e336]: 一键将图片转换为WebP格式，转换后保持原图尺寸不变、图片名称不变，自动处理PNG透明背景填充白色。
+      - article [ref=e337]:
+        - link "图片转BMP格式 工具图标 图片转BMP格式 BMP格式采用无压缩存储，完整保留每一个像素点数据，适合Windows系统兼容、图标制作、印刷排版等场景。" [ref=e338] [cursor=pointer]:
+          - /url: /image-bmp/
+          - heading "图片转BMP格式 工具图标 图片转BMP格式" [level=3] [ref=e339]:
+            - img "图片转BMP格式 工具图标" [ref=e340]
+            - generic [ref=e341]: 图片转BMP格式
+          - paragraph [ref=e342]: BMP格式采用无压缩存储，完整保留每一个像素点数据，适合Windows系统兼容、图标制作、印刷排版等场景。
+      - article [ref=e343]:
+        - link "SVG转WebP图片 工具图标 SVG转WebP图片 SVG矢量图转WebP位图并调整输出尺寸，支持参数配置，适用于网页性能优化、透明背景图像处理等场景。" [ref=e344] [cursor=pointer]:
+          - /url: /svg2webp/
+          - heading "SVG转WebP图片 工具图标 SVG转WebP图片" [level=3] [ref=e345]:
+            - img "SVG转WebP图片 工具图标" [ref=e346]
+            - generic [ref=e347]: SVG转WebP图片
+          - paragraph [ref=e348]: SVG矢量图转WebP位图并调整输出尺寸，支持参数配置，适用于网页性能优化、透明背景图像处理等场景。
+      - article [ref=e349]:
+        - link "SVG转Gif图片 工具图标 SVG转Gif图片 SVG矢量图转为GIF图片并调整输出尺寸，支持参数配置，适用于网页图形、系统兼容和图标制作等场景。" [ref=e350] [cursor=pointer]:
+          - /url: /svg2gif/
+          - heading "SVG转Gif图片 工具图标 SVG转Gif图片" [level=3] [ref=e351]:
+            - img "SVG转Gif图片 工具图标" [ref=e352]
+            - generic [ref=e353]: SVG转Gif图片
+          - paragraph [ref=e354]: SVG矢量图转为GIF图片并调整输出尺寸，支持参数配置，适用于网页图形、系统兼容和图标制作等场景。
+      - article [ref=e355]:
+        - link "SVG转JPG图片 工具图标 SVG转JPG图片 SVG矢量图转为JPG图片并调整输出尺寸，支持参数配置，适用于网页图片、摄影展示和文档插入等场景。" [ref=e356] [cursor=pointer]:
+          - /url: /svg2jpg/
+          - heading "SVG转JPG图片 工具图标 SVG转JPG图片" [level=3] [ref=e357]:
+            - img "SVG转JPG图片 工具图标" [ref=e358]
+            - generic [ref=e359]: SVG转JPG图片
+          - paragraph [ref=e360]: SVG矢量图转为JPG图片并调整输出尺寸，支持参数配置，适用于网页图片、摄影展示和文档插入等场景。
+      - article [ref=e361]:
+        - link "SVG转PNG图片 工具图标 SVG转PNG图片 SVG矢量图转为PNG位图并调整输出尺寸，支持参数配置，适用于网页设计、图标制作和印刷输出等场景。" [ref=e362] [cursor=pointer]:
+          - /url: /svg2png/
+          - heading "SVG转PNG图片 工具图标 SVG转PNG图片" [level=3] [ref=e363]:
+            - img "SVG转PNG图片 工具图标" [ref=e364]
+            - generic [ref=e365]: SVG转PNG图片
+          - paragraph [ref=e366]: SVG矢量图转为PNG位图并调整输出尺寸，支持参数配置，适用于网页设计、图标制作和印刷输出等场景。
+      - article [ref=e367]:
+        - link "SVG转DataURL 工具图标 SVG转DataURL SVG矢量图转为DataURL编码并实时预览效果，适用于网页开发、性能优化和内嵌图标等场景。" [ref=e368] [cursor=pointer]:
+          - /url: /svg2dataurl
+          - heading "SVG转DataURL 工具图标 SVG转DataURL" [level=3] [ref=e369]:
+            - img "SVG转DataURL 工具图标" [ref=e370]
+            - generic [ref=e371]: SVG转DataURL
+          - paragraph [ref=e372]: SVG矢量图转为DataURL编码并实时预览效果，适用于网页开发、性能优化和内嵌图标等场景。
+      - article [ref=e373]:
+        - link "图片转SVG工具 工具图标 图片转SVG工具 将PNG、JPG、WEBP位图精准转换为可编辑的矢量SVG文件，实现真正的无损缩放。" [ref=e374] [cursor=pointer]:
+          - /url: /svg-converter/
+          - heading "图片转SVG工具 工具图标 图片转SVG工具" [level=3] [ref=e375]:
+            - img "图片转SVG工具 工具图标" [ref=e376]
+            - generic [ref=e377]: 图片转SVG工具
+          - paragraph [ref=e378]: 将PNG、JPG、WEBP位图精准转换为可编辑的矢量SVG文件，实现真正的无损缩放。
+      - article [ref=e379]:
+        - link "JPG图片转WebP格式 工具图标 JPG图片转WebP格式 支持JPG/JPEG图片转换为标准 WebP 格式，在保持视觉质量的同时显著减小文件体积。" [ref=e380] [cursor=pointer]:
+          - /url: /jpg2webp/
+          - heading "JPG图片转WebP格式 工具图标 JPG图片转WebP格式" [level=3] [ref=e381]:
+            - img "JPG图片转WebP格式 工具图标" [ref=e382]
+            - generic [ref=e383]: JPG图片转WebP格式
+          - paragraph [ref=e384]: 支持JPG/JPEG图片转换为标准 WebP 格式，在保持视觉质量的同时显著减小文件体积。
+      - article [ref=e385]:
+        - link "WEBP图片转JPG 工具图标 WEBP图片转JPG 支持单文件上传、自动格式识别与直接下载输出，将WebP图片转换为标准JPG文件，解决浏览器兼容性问题。" [ref=e386] [cursor=pointer]:
+          - /url: /webp2jpg/
+          - heading "WEBP图片转JPG 工具图标 WEBP图片转JPG" [level=3] [ref=e387]:
+            - img "WEBP图片转JPG 工具图标" [ref=e388]
+            - generic [ref=e389]: WEBP图片转JPG
+          - paragraph [ref=e390]: 支持单文件上传、自动格式识别与直接下载输出，将WebP图片转换为标准JPG文件，解决浏览器兼容性问题。
+      - article [ref=e391]:
+        - link "PNG图片转JPG 工具图标 PNG图片转JPG 支持单文件上传、自动格式识别与直接下载输出，将PNG图片转换为标准JPG文件，解决浏览器兼容性问题。" [ref=e392] [cursor=pointer]:
+          - /url: /png2jpg/
+          - heading "PNG图片转JPG 工具图标 PNG图片转JPG" [level=3] [ref=e393]:
+            - img "PNG图片转JPG 工具图标" [ref=e394]
+            - generic [ref=e395]: PNG图片转JPG
+          - paragraph [ref=e396]: 支持单文件上传、自动格式识别与直接下载输出，将PNG图片转换为标准JPG文件，解决浏览器兼容性问题。
+      - article [ref=e397]:
+        - link "HEIC图片转JPG 工具图标 HEIC图片转JPG 一键转换图片，实时处理进度，支持高质量HEIC转JPG格式转换，快速生成通用图片文件。" [ref=e398] [cursor=pointer]:
+          - /url: /heic2jpg/
+          - heading "HEIC图片转JPG 工具图标 HEIC图片转JPG" [level=3] [ref=e399]:
+            - img "HEIC图片转JPG 工具图标" [ref=e400]
+            - generic [ref=e401]: HEIC图片转JPG
+          - paragraph [ref=e402]: 一键转换图片，实时处理进度，支持高质量HEIC转JPG格式转换，快速生成通用图片文件。
+    - heading "微信工具" [level=2] [ref=e403]
+    - generic [ref=e404]:
+      - article [ref=e405]:
+        - link "微信聊天模拟专业版 工具图标 微信聊天模拟专业版 微信聊天模拟生成，自定义对话/语音/红包/图片内容与头像背景，实时调整样式排版。" [ref=e406] [cursor=pointer]:
+          - /url: /wechat-pro/
+          - heading "微信聊天模拟专业版 工具图标 微信聊天模拟专业版" [level=3] [ref=e407]:
+            - img "微信聊天模拟专业版 工具图标" [ref=e408]
+            - generic [ref=e409]: 微信聊天模拟专业版
+          - paragraph [ref=e410]: 微信聊天模拟生成，自定义对话/语音/红包/图片内容与头像背景，实时调整样式排版。
+      - article [ref=e411]:
+        - link "微信聊天对话模板 工具图标 微信聊天对话模板 提供海量搞笑微信聊天对话文本，一键复制完整对话内容，可直接粘贴到微信聊天模拟器生成对话截图。" [ref=e412] [cursor=pointer]:
+          - /url: /wechat-chat/
+          - heading "微信聊天对话模板 工具图标 微信聊天对话模板" [level=3] [ref=e413]:
+            - img "微信聊天对话模板 工具图标" [ref=e414]
+            - generic [ref=e415]: 微信聊天对话模板
+          - paragraph [ref=e416]: 提供海量搞笑微信聊天对话文本，一键复制完整对话内容，可直接粘贴到微信聊天模拟器生成对话截图。
+      - article [ref=e417]:
+        - link "微信聊天模拟器 工具图标 微信聊天模拟器 微信聊天模拟生成，自定义对话内容与个人信息，实时调整样式布局，一键导出高清聊天截图。" [ref=e418] [cursor=pointer]:
+          - /url: /wechat/
+          - heading "微信聊天模拟器 工具图标 微信聊天模拟器" [level=3] [ref=e419]:
+            - img "微信聊天模拟器 工具图标" [ref=e420]
+            - generic [ref=e421]: 微信聊天模拟器
+          - paragraph [ref=e422]: 微信聊天模拟生成，自定义对话内容与个人信息，实时调整样式布局，一键导出高清聊天截图。
+      - article [ref=e423]:
+        - link "微信零钱模拟器 工具图标 微信零钱模拟器 微信钱包模拟生成，实时可视化编辑，自定义金额、时间、网络状态，秒级生成逼真微信零钱界面截图。" [ref=e424] [cursor=pointer]:
+          - /url: /wechat-wallet/
+          - heading "微信零钱模拟器 工具图标 微信零钱模拟器" [level=3] [ref=e425]:
+            - img "微信零钱模拟器 工具图标" [ref=e426]
+            - generic [ref=e427]: 微信零钱模拟器
+          - paragraph [ref=e428]: 微信钱包模拟生成，实时可视化编辑，自定义金额、时间、网络状态，秒级生成逼真微信零钱界面截图。
+      - article [ref=e429]:
+        - link "微信群聊天模拟器 工具图标 微信群聊天模拟器 微信群聊天模拟生成，自定义对话内容、添加群友、时间和撤回消息，一键导出高清聊天截图。" [ref=e430] [cursor=pointer]:
+          - /url: /wechat-group/
+          - heading "微信群聊天模拟器 工具图标 微信群聊天模拟器" [level=3] [ref=e431]:
+            - img "微信群聊天模拟器 工具图标" [ref=e432]
+            - generic [ref=e433]: 微信群聊天模拟器
+          - paragraph [ref=e434]: 微信群聊天模拟生成，自定义对话内容、添加群友、时间和撤回消息，一键导出高清聊天截图。
+      - article [ref=e435]:
+        - link "微信朋友圈模拟器 工具图标 微信朋友圈模拟器 微信朋友圈模拟生成，自定义发布内容、分享图片、点赞回复和用户信息，一键导出高清截图。" [ref=e436] [cursor=pointer]:
+          - /url: /wechat-moments/
+          - heading "微信朋友圈模拟器 工具图标 微信朋友圈模拟器" [level=3] [ref=e437]:
+            - img "微信朋友圈模拟器 工具图标" [ref=e438]
+            - generic [ref=e439]: 微信朋友圈模拟器
+          - paragraph [ref=e440]: 微信朋友圈模拟生成，自定义发布内容、分享图片、点赞回复和用户信息，一键导出高清截图。
+      - article [ref=e441]:
+        - link "朋友圈营销卡片制作 工具图标 朋友圈营销卡片制作 支持自定义头像昵称、日期时间、星期文案等，多模板切换并自动生成二维码，适配朋友圈营销场景。" [ref=e442] [cursor=pointer]:
+          - /url: /marketing-card/
+          - heading "朋友圈营销卡片制作 工具图标 朋友圈营销卡片制作" [level=3] [ref=e443]:
+            - img "朋友圈营销卡片制作 工具图标" [ref=e444]
+            - generic [ref=e445]: 朋友圈营销卡片制作
+          - paragraph [ref=e446]: 支持自定义头像昵称、日期时间、星期文案等，多模板切换并自动生成二维码，适配朋友圈营销场景。
+      - article [ref=e447]:
+        - link "朋友圈九宫格生成 工具图标 朋友圈九宫格生成 自动精准切割为3x3九宫格，可自由预览每个切片效果，一键打包ZIP下载全部九张切片。" [ref=e448] [cursor=pointer]:
+          - /url: /nine-grid/
+          - heading "朋友圈九宫格生成 工具图标 朋友圈九宫格生成" [level=3] [ref=e449]:
+            - img "朋友圈九宫格生成 工具图标" [ref=e450]
+            - generic [ref=e451]: 朋友圈九宫格生成
+          - paragraph [ref=e452]: 自动精准切割为3x3九宫格，可自由预览每个切片效果，一键打包ZIP下载全部九张切片。
+    - heading "二维码/条形码" [level=2] [ref=e453]
+    - generic [ref=e454]:
+      - article [ref=e455]:
+        - link "二维码生成器 工具图标 二维码生成器 一键生成高质量二维码，支持容错率、尺寸、边距与样式的完整配置，提升扫码成功率与使用效率。" [ref=e456] [cursor=pointer]:
+          - /url: /qrcode/
+          - heading "二维码生成器 工具图标 二维码生成器" [level=3] [ref=e457]:
+            - img "二维码生成器 工具图标" [ref=e458]
+            - generic [ref=e459]: 二维码生成器
+          - paragraph [ref=e460]: 一键生成高质量二维码，支持容错率、尺寸、边距与样式的完整配置，提升扫码成功率与使用效率。
+      - article [ref=e461]:
+        - link "二维码解码器 工具图标 二维码解码器 一键解析二维码，实时提取图片信息，支持多格式上传，快速获取文本内容。" [ref=e462] [cursor=pointer]:
+          - /url: /qrcode-decode/
+          - heading "二维码解码器 工具图标 二维码解码器" [level=3] [ref=e463]:
+            - img "二维码解码器 工具图标" [ref=e464]
+            - generic [ref=e465]: 二维码解码器
+          - paragraph [ref=e466]: 一键解析二维码，实时提取图片信息，支持多格式上传，快速获取文本内容。
+      - article [ref=e467]:
+        - link "微信群活码生成器 工具图标 微信群活码生成器 支持活码二维码实时生成、高清下载、自定义样式，适配微信群码、链接转码、推广海报等场景。" [ref=e468] [cursor=pointer]:
+          - /url: /wechat-qrcode/
+          - heading "微信群活码生成器 工具图标 微信群活码生成器" [level=3] [ref=e469]:
+            - img "微信群活码生成器 工具图标" [ref=e470]
+            - generic [ref=e471]: 微信群活码生成器
+          - paragraph [ref=e472]: 支持活码二维码实时生成、高清下载、自定义样式，适配微信群码、链接转码、推广海报等场景。
+      - article [ref=e473]:
+        - link "收款码二合一生成器 工具图标 收款码二合一生成器 一键合成微信支付宝收款码，智能识别精准提取二维码，支持双码合并生成，实时预览高清收款图片。" [ref=e474] [cursor=pointer]:
+          - /url: /wechat-alipay/
+          - heading "收款码二合一生成器 工具图标 收款码二合一生成器" [level=3] [ref=e475]:
+            - img "收款码二合一生成器 工具图标" [ref=e476]
+            - generic [ref=e477]: 收款码二合一生成器
+          - paragraph [ref=e478]: 一键合成微信支付宝收款码，智能识别精准提取二维码，支持双码合并生成，实时预览高清收款图片。
+      - article [ref=e479]:
+        - link "WIFI二维码生成器 工具图标 WIFI二维码生成器 支持三种加密方式（无加密/WPA/WPA2）及隐藏网络识别，实时生成标准Wi-Fi二维码图片。" [ref=e480] [cursor=pointer]:
+          - /url: /wifi-qrcode/
+          - heading "WIFI二维码生成器 工具图标 WIFI二维码生成器" [level=3] [ref=e481]:
+            - img "WIFI二维码生成器 工具图标" [ref=e482]
+            - generic [ref=e483]: WIFI二维码生成器
+          - paragraph [ref=e484]: 支持三种加密方式（无加密/WPA/WPA2）及隐藏网络识别，实时生成标准Wi-Fi二维码图片。
+      - article [ref=e485]:
+        - link "vCard二维码生成 工具图标 vCard二维码生成 实现名片信息到二维码的一键在线转换与导出，支持填写姓名、公司、职位、手机号、邮箱等完整联系方式。" [ref=e486] [cursor=pointer]:
+          - /url: /vcard-qrcode/
+          - heading "vCard二维码生成 工具图标 vCard二维码生成" [level=3] [ref=e487]:
+            - img "vCard二维码生成 工具图标" [ref=e488]
+            - generic [ref=e489]: vCard二维码生成
+          - paragraph [ref=e490]: 实现名片信息到二维码的一键在线转换与导出，支持填写姓名、公司、职位、手机号、邮箱等完整联系方式。
+      - article [ref=e491]:
+        - link "二维码LOGO移除 工具图标 二维码LOGO移除 上传任意带Logo、水印的二维码，自动识别解码并重新生成标准干净的高清二维码。" [ref=e492] [cursor=pointer]:
+          - /url: /qrcode-logo-clean/
+          - heading "二维码LOGO移除 工具图标 二维码LOGO移除" [level=3] [ref=e493]:
+            - img "二维码LOGO移除 工具图标" [ref=e494]
+            - generic [ref=e495]: 二维码LOGO移除
+          - paragraph [ref=e496]: 上传任意带Logo、水印的二维码，自动识别解码并重新生成标准干净的高清二维码。
+      - article [ref=e497]:
+        - link "条形码生成器 工具图标 条形码生成器 快速生成标准条形码，支持任意文本内容，兼容中文、数字、符号与特殊字符。" [ref=e498] [cursor=pointer]:
+          - /url: /barcode/
+          - heading "条形码生成器 工具图标 条形码生成器" [level=3] [ref=e499]:
+            - img "条形码生成器 工具图标" [ref=e500]
+            - generic [ref=e501]: 条形码生成器
+          - paragraph [ref=e502]: 快速生成标准条形码，支持任意文本内容，兼容中文、数字、符号与特殊字符。
+    - heading "其他工具" [level=2] [ref=e503]
+    - generic [ref=e504]:
+      - article [ref=e505]:
+        - link "图片取色器 工具图标 图片取色器 精准提取图片色彩，生成HEX、RGB、HSL标准色值，支持实时预览与点击取色，一键复制颜色代码！" [ref=e506] [cursor=pointer]:
+          - /url: /color-picker/
+          - heading "图片取色器 工具图标 图片取色器" [level=3] [ref=e507]:
+            - img "图片取色器 工具图标" [ref=e508]
+            - generic [ref=e509]: 图片取色器
+          - paragraph [ref=e510]: 精准提取图片色彩，生成HEX、RGB、HSL标准色值，支持实时预览与点击取色，一键复制颜色代码！
+      - article [ref=e511]:
+        - link "图片配色提取器 工具图标 图片配色提取器 快速捕捉图片中的色彩灵感，通过智能K‑Means聚类算法自动提取图片主色，生成包含HEX色值及占比的精美色卡。" [ref=e512] [cursor=pointer]:
+          - /url: /image-color/
+          - heading "图片配色提取器 工具图标 图片配色提取器" [level=3] [ref=e513]:
+            - img "图片配色提取器 工具图标" [ref=e514]
+            - generic [ref=e515]: 图片配色提取器
+          - paragraph [ref=e516]: 快速捕捉图片中的色彩灵感，通过智能K‑Means聚类算法自动提取图片主色，生成包含HEX色值及占比的精美色卡。
+      - article [ref=e517]:
+        - link "截图粘贴OCR识别 工具图标 截图粘贴OCR识别 支持Ctrl+V粘贴截图、拖拽上传与点击上传三种输入方式，提供图片预览及中英文混合识别。" [ref=e518] [cursor=pointer]:
+          - /url: /screenshot-ocr/
+          - heading "截图粘贴OCR识别 工具图标 截图粘贴OCR识别" [level=3] [ref=e519]:
+            - img "截图粘贴OCR识别 工具图标" [ref=e520]
+            - generic [ref=e521]: 截图粘贴OCR识别
+          - paragraph [ref=e522]: 支持Ctrl+V粘贴截图、拖拽上传与点击上传三种输入方式，提供图片预览及中英文混合识别。
+      - article [ref=e523]:
+        - link "通用OCR文字识别 工具图标 通用OCR文字识别 输入图片即可识别图片中的文字内容，提取文本信息，适用于截图转文字、票据录入、文档扫描等场景。" [ref=e524] [cursor=pointer]:
+          - /url: /ocr/
+          - heading "通用OCR文字识别 工具图标 通用OCR文字识别" [level=3] [ref=e525]:
+            - img "通用OCR文字识别 工具图标" [ref=e526]
+            - generic [ref=e527]: 通用OCR文字识别
+          - paragraph [ref=e528]: 输入图片即可识别图片中的文字内容，提取文本信息，适用于截图转文字、票据录入、文档扫描等场景。
+      - article [ref=e529]:
+        - link "图片相框在线制作 工具图标 图片相框在线制作 实现照片的快速编辑与模板合成，可自定义图片替换、翻转方向、缩放大小、旋转角度、亮度与色温调节。" [ref=e530] [cursor=pointer]:
+          - /url: /photo-frame/
+          - heading "图片相框在线制作 工具图标 图片相框在线制作" [level=3] [ref=e531]:
+            - img "图片相框在线制作 工具图标" [ref=e532]
+            - generic [ref=e533]: 图片相框在线制作
+          - paragraph [ref=e534]: 实现照片的快速编辑与模板合成，可自定义图片替换、翻转方向、缩放大小、旋转角度、亮度与色温调节。
+      - article [ref=e535]:
+        - link "图片Exif查看器 工具图标 图片Exif查看器 实现照片元数据的快速读取与可视化展示，一键将普通图片转换为结构化的EXIF信息表格。" [ref=e536] [cursor=pointer]:
+          - /url: /exif/
+          - heading "图片Exif查看器 工具图标 图片Exif查看器" [level=3] [ref=e537]:
+            - img "图片Exif查看器 工具图标" [ref=e538]
+            - generic [ref=e539]: 图片Exif查看器
+          - paragraph [ref=e540]: 实现照片元数据的快速读取与可视化展示，一键将普通图片转换为结构化的EXIF信息表格。
+      - article [ref=e541]:
+        - link "占位图片生成器 工具图标 占位图片生成器 生成高清占位图，支持自定义尺寸、文字、文字颜色、背景色，一键生成预览并下载 PNG，前端开发专用。" [ref=e542] [cursor=pointer]:
+          - /url: /image-placeholder/
+          - heading "占位图片生成器 工具图标 占位图片生成器" [level=3] [ref=e543]:
+            - img "占位图片生成器 工具图标" [ref=e544]
+            - generic [ref=e545]: 占位图片生成器
+          - paragraph [ref=e546]: 生成高清占位图，支持自定义尺寸、文字、文字颜色、背景色，一键生成预览并下载 PNG，前端开发专用。
+      - article [ref=e547]:
+        - link "本地字体查看器 工具图标 本地字体查看器 免安装的在线字体查看器，支持本地字体上传预览、实时调整字号大小，满足设计排版与个性化查看需求。" [ref=e548] [cursor=pointer]:
+          - /url: /font-viewer/
+          - heading "本地字体查看器 工具图标 本地字体查看器" [level=3] [ref=e549]:
+            - img "本地字体查看器 工具图标" [ref=e550]
+            - generic [ref=e551]: 本地字体查看器
+          - paragraph [ref=e552]: 免安装的在线字体查看器，支持本地字体上传预览、实时调整字号大小，满足设计排版与个性化查看需求。
+      - article [ref=e553]:
+        - link "SVG在线编辑器 工具图标 SVG在线编辑器 在线编辑SVG，支持打开本地文件与导入图片，可随时保存矢量图至本地，方便快捷！" [ref=e554] [cursor=pointer]:
+          - /url: /svgeditor/
+          - heading "SVG在线编辑器 工具图标 SVG在线编辑器" [level=3] [ref=e555]:
+            - img "SVG在线编辑器 工具图标" [ref=e556]
+            - generic [ref=e557]: SVG在线编辑器
+          - paragraph [ref=e558]: 在线编辑SVG，支持打开本地文件与导入图片，可随时保存矢量图至本地，方便快捷！
+      - article [ref=e559]:
+        - link "自由手绘抠图 工具图标 自由手绘抠图 精准抠出目标区域并自动裁剪透明边缘，实时预览抠图效果并提供一键下载透明背景图片功能。" [ref=e560] [cursor=pointer]:
+          - /url: /free-clipping/
+          - heading "自由手绘抠图 工具图标 自由手绘抠图" [level=3] [ref=e561]:
+            - img "自由手绘抠图 工具图标" [ref=e562]
+            - generic [ref=e563]: 自由手绘抠图
+          - paragraph [ref=e564]: 精准抠出目标区域并自动裁剪透明边缘，实时预览抠图效果并提供一键下载透明背景图片功能。
+      - article [ref=e565]:
+        - link "生成透明圆角图片 工具图标 生成透明圆角图片 在线图片圆角处理工具，支持自定义四角弧度，实时预览效果，可调整输出尺寸与格式。" [ref=e566] [cursor=pointer]:
+          - /url: /round-image/
+          - heading "生成透明圆角图片 工具图标 生成透明圆角图片" [level=3] [ref=e567]:
+            - img "生成透明圆角图片 工具图标" [ref=e568]
+            - generic [ref=e569]: 生成透明圆角图片
+          - paragraph [ref=e570]: 在线图片圆角处理工具，支持自定义四角弧度，实时预览效果，可调整输出尺寸与格式。
+      - article [ref=e571]:
+        - link "图片添加水印 工具图标 图片添加水印 一键添加水印，实时预览效果，支持自定义文字、颜色、大小与透明度，快速生成安全美观的水印图片。" [ref=e572] [cursor=pointer]:
+          - /url: /watermark/
+          - heading "图片添加水印 工具图标 图片添加水印" [level=3] [ref=e573]:
+            - img "图片添加水印 工具图标" [ref=e574]
+            - generic [ref=e575]: 图片添加水印
+          - paragraph [ref=e576]: 一键添加水印，实时预览效果，支持自定义文字、颜色、大小与透明度，快速生成安全美观的水印图片。
+      - article [ref=e577]:
+        - link "图片批量添加水印 工具图标 图片批量添加水印 支持批量图片水印添加，可自定义文字内容、字体大小、颜色及透明度，支持图片水印缩放与旋转，适配版权保护与品牌宣传场景。" [ref=e578] [cursor=pointer]:
+          - /url: /watermark-bulk/
+          - heading "图片批量添加水印 工具图标 图片批量添加水印" [level=3] [ref=e579]:
+            - img "图片批量添加水印 工具图标" [ref=e580]
+            - generic [ref=e581]: 图片批量添加水印
+          - paragraph [ref=e582]: 支持批量图片水印添加，可自定义文字内容、字体大小、颜色及透明度，支持图片水印缩放与旋转，适配版权保护与品牌宣传场景。
+      - article [ref=e583]:
+        - link "图片局部涂抹打码 工具图标 图片局部涂抹打码 支持圆形选区涂抹、画笔自由调节，适配高清原图打码不模糊，满足图片隐私快速打码等场景。" [ref=e584] [cursor=pointer]:
+          - /url: /image-blur/
+          - heading "图片局部涂抹打码 工具图标 图片局部涂抹打码" [level=3] [ref=e585]:
+            - img "图片局部涂抹打码 工具图标" [ref=e586]
+            - generic [ref=e587]: 图片局部涂抹打码
+          - paragraph [ref=e588]: 支持圆形选区涂抹、画笔自由调节，适配高清原图打码不模糊，满足图片隐私快速打码等场景。
+      - article [ref=e589]:
+        - link "GIF动图制作 工具图标 GIF动图制作 图片转 GIF 动图合成工具，一键排序生成高清动画，适用于表情包制作、动图演示、多帧画面合成等场景。" [ref=e590] [cursor=pointer]:
+          - /url: /gif-maker/
+          - heading "GIF动图制作 工具图标 GIF动图制作" [level=3] [ref=e591]:
+            - img "GIF动图制作 工具图标" [ref=e592]
+            - generic [ref=e593]: GIF动图制作
+          - paragraph [ref=e594]: 图片转 GIF 动图合成工具，一键排序生成高清动画，适用于表情包制作、动图演示、多帧画面合成等场景。
+      - article [ref=e595]:
+        - link "GIF拆分逐帧提取 工具图标 GIF拆分逐帧提取 GIF动图拆分逐帧提取工具，一键解析分解帧画面，导出高清透明 PNG 图片适配多场景使用" [ref=e596] [cursor=pointer]:
+          - /url: /gif-split/
+          - heading "GIF拆分逐帧提取 工具图标 GIF拆分逐帧提取" [level=3] [ref=e597]:
+            - img "GIF拆分逐帧提取 工具图标" [ref=e598]
+            - generic [ref=e599]: GIF拆分逐帧提取
+          - paragraph [ref=e600]: GIF动图拆分逐帧提取工具，一键解析分解帧画面，导出高清透明 PNG 图片适配多场景使用
+      - article [ref=e601]:
+        - link "图片网格切割 工具图标 图片网格切割 支持按行列均分切割图像，智能生成等比切片网格，实时预览分割效果与切片数量。" [ref=e602] [cursor=pointer]:
+          - /url: /image-cutter/
+          - heading "图片网格切割 工具图标 图片网格切割" [level=3] [ref=e603]:
+            - img "图片网格切割 工具图标" [ref=e604]
+            - generic [ref=e605]: 图片网格切割
+          - paragraph [ref=e606]: 支持按行列均分切割图像，智能生成等比切片网格，实时预览分割效果与切片数量。
+      - article [ref=e607]:
+        - link "电商长图在线切割 工具图标 电商长图在线切割 支持图片方形切图和均等切图两种模式，输出名称序号占位符自定义单张打包双模式下载。" [ref=e608] [cursor=pointer]:
+          - /url: /long-image-cutter/
+          - heading "电商长图在线切割 工具图标 电商长图在线切割" [level=3] [ref=e609]:
+            - img "电商长图在线切割 工具图标" [ref=e610]
+            - generic [ref=e611]: 电商长图在线切割
+          - paragraph [ref=e612]: 支持图片方形切图和均等切图两种模式，输出名称序号占位符自定义单张打包双模式下载。
+      - article [ref=e613]:
+        - link "图片滤镜生成器 工具图标 图片滤镜生成器 一键应用15种滤镜，实时预览对比效果，支持高清下载保存，提升图片质感！" [ref=e614] [cursor=pointer]:
+          - /url: /image-filter/
+          - heading "图片滤镜生成器 工具图标 图片滤镜生成器" [level=3] [ref=e615]:
+            - img "图片滤镜生成器 工具图标" [ref=e616]
+            - generic [ref=e617]: 图片滤镜生成器
+          - paragraph [ref=e618]: 一键应用15种滤镜，实时预览对比效果，支持高清下载保存，提升图片质感！
+      - article [ref=e619]:
+        - link "图片做旧处理 工具图标 图片做旧处理 自动识别上传图片，实时调节做旧强度，支持划痕纹理、褪色泛黄、噪点颗粒等多重复古效果，一键下载做旧图片，适合老照片修复预览、复古风格创作、胶片感渲染、年代感设计等场景。" [ref=e620] [cursor=pointer]:
+          - /url: /image-aging/
+          - heading "图片做旧处理 工具图标 图片做旧处理" [level=3] [ref=e621]:
+            - img "图片做旧处理 工具图标" [ref=e622]
+            - generic [ref=e623]: 图片做旧处理
+          - paragraph [ref=e624]: 自动识别上传图片，实时调节做旧强度，支持划痕纹理、褪色泛黄、噪点颗粒等多重复古效果，一键下载做旧图片，适合老照片修复预览、复古风格创作、胶片感渲染、年代感设计等场景。
+      - article [ref=e625]:
+        - link "图片水墨画制作 工具图标 图片水墨画制作 自动识别上传图片，一键生成传统水墨画效果，支持原图实时对比，轻松呈现宣纸质感。" [ref=e626] [cursor=pointer]:
+          - /url: /image-ink/
+          - heading "图片水墨画制作 工具图标 图片水墨画制作" [level=3] [ref=e627]:
+            - img "图片水墨画制作 工具图标" [ref=e628]
+            - generic [ref=e629]: 图片水墨画制作
+          - paragraph [ref=e630]: 自动识别上传图片，一键生成传统水墨画效果，支持原图实时对比，轻松呈现宣纸质感。
+      - article [ref=e631]:
+        - link "图片浮雕画制作 工具图标 图片浮雕画制作 自动识别上传图片，一键生成浮雕效果，支持原图实时对比，轻松制作艺术浮雕质感与立体化图像。" [ref=e632] [cursor=pointer]:
+          - /url: /image-emboss/
+          - heading "图片浮雕画制作 工具图标 图片浮雕画制作" [level=3] [ref=e633]:
+            - img "图片浮雕画制作 工具图标" [ref=e634]
+            - generic [ref=e635]: 图片浮雕画制作
+          - paragraph [ref=e636]: 自动识别上传图片，一键生成浮雕效果，支持原图实时对比，轻松制作艺术浮雕质感与立体化图像。
+      - article [ref=e637]:
+        - link "胶卷底片生成照片 工具图标 胶卷底片生成照片 实现照片的快速反转处理，一键将胶卷底片（负片）转换为普通照片效果，适用于复古胶片效果制作场景。" [ref=e638] [cursor=pointer]:
+          - /url: /neg-print/
+          - heading "胶卷底片生成照片 工具图标 胶卷底片生成照片" [level=3] [ref=e639]:
+            - img "胶卷底片生成照片 工具图标" [ref=e640]
+            - generic [ref=e641]: 胶卷底片生成照片
+          - paragraph [ref=e642]: 实现照片的快速反转处理，一键将胶卷底片（负片）转换为普通照片效果，适用于复古胶片效果制作场景。
+      - article [ref=e643]:
+        - link "修改图片尺寸 工具图标 修改图片尺寸 自动实时调整图片尺寸并支持等比缩放预览，适合证件照制作、商品图处理、头像裁剪、文档配图等场景。" [ref=e644] [cursor=pointer]:
+          - /url: /image-resizer/
+          - heading "修改图片尺寸 工具图标 修改图片尺寸" [level=3] [ref=e645]:
+            - img "修改图片尺寸 工具图标" [ref=e646]
+            - generic [ref=e647]: 修改图片尺寸
+          - paragraph [ref=e648]: 自动实时调整图片尺寸并支持等比缩放预览，适合证件照制作、商品图处理、头像裁剪、文档配图等场景。
+      - article [ref=e649]:
+        - link "图片高清压缩 工具图标 图片高清压缩 一键压缩图片，支持场景预设与自定义尺寸切换，智能匹配分辨率并保留高清画质，提升处理效率与适配性。" [ref=e650] [cursor=pointer]:
+          - /url: /image-compressor/
+          - heading "图片高清压缩 工具图标 图片高清压缩" [level=3] [ref=e651]:
+            - img "图片高清压缩 工具图标" [ref=e652]
+            - generic [ref=e653]: 图片高清压缩
+          - paragraph [ref=e654]: 一键压缩图片，支持场景预设与自定义尺寸切换，智能匹配分辨率并保留高清画质，提升处理效率与适配性。
+      - article [ref=e655]:
+        - link "报名证件照处理 工具图标 报名证件照处理 一键生成标准证件照，预置一寸二寸等规格，支持自定义尺寸与实时预览，快速下载，提升效率。" [ref=e656] [cursor=pointer]:
+          - /url: /id-photo/
+          - heading "报名证件照处理 工具图标 报名证件照处理" [level=3] [ref=e657]:
+            - img "报名证件照处理 工具图标" [ref=e658]
+            - generic [ref=e659]: 报名证件照处理
+          - paragraph [ref=e660]: 一键生成标准证件照，预置一寸二寸等规格，支持自定义尺寸与实时预览，快速下载，提升效率。
+      - article [ref=e661]:
+        - link "证件照尺寸修改 工具图标 证件照尺寸修改 实现照片的快速裁剪与标准化处理，一键将普通照片转换为符合标准尺寸的证件照。" [ref=e662] [cursor=pointer]:
+          - /url: /id-crop/
+          - heading "证件照尺寸修改 工具图标 证件照尺寸修改" [level=3] [ref=e663]:
+            - img "证件照尺寸修改 工具图标" [ref=e664]
+            - generic [ref=e665]: 证件照尺寸修改
+          - paragraph [ref=e666]: 实现照片的快速裁剪与标准化处理，一键将普通照片转换为符合标准尺寸的证件照。
+      - article [ref=e667]:
+        - link "HEIC批量转通用格式 工具图标 HEIC批量转通用格式 支持HEIC转JPG、PNG、WebP、BMP等多格式批量转换，可自定义输出尺寸与格式，提供目标尺寸预览。" [ref=e668] [cursor=pointer]:
+          - /url: /heic-convert/
+          - heading "HEIC批量转通用格式 工具图标 HEIC批量转通用格式" [level=3] [ref=e669]:
+            - img "HEIC批量转通用格式 工具图标" [ref=e670]
+            - generic [ref=e671]: HEIC批量转通用格式
+          - paragraph [ref=e672]: 支持HEIC转JPG、PNG、WebP、BMP等多格式批量转换，可自定义输出尺寸与格式，提供目标尺寸预览。
+      - article [ref=e673]:
+        - link "批量WebP转JPG 工具图标 批量WebP转JPG 支持批量上传 WebP 文件与文件夹，自动保留完整目录结构，适用于素材整理、日常办公等多种场景。" [ref=e674] [cursor=pointer]:
+          - /url: /webp-jpg/
+          - heading "批量WebP转JPG 工具图标 批量WebP转JPG" [level=3] [ref=e675]:
+            - img "批量WebP转JPG 工具图标" [ref=e676]
+            - generic [ref=e677]: 批量WebP转JPG
+          - paragraph [ref=e678]: 支持批量上传 WebP 文件与文件夹，自动保留完整目录结构，适用于素材整理、日常办公等多种场景。
+      - article [ref=e679]:
+        - link "每日菜谱制作 工具图标 每日菜谱制作 工作餐菜单设计工具，支持生成高清菜谱下载，适用于餐厅每日工作餐制作和朋友圈社群宣传等场景。" [ref=e680] [cursor=pointer]:
+          - /url: /daily-menu/
+          - heading "每日菜谱制作 工具图标 每日菜谱制作" [level=3] [ref=e681]:
+            - img "每日菜谱制作 工具图标" [ref=e682]
+            - generic [ref=e683]: 每日菜谱制作
+          - paragraph [ref=e684]: 工作餐菜单设计工具，支持生成高清菜谱下载，适用于餐厅每日工作餐制作和朋友圈社群宣传等场景。
+      - article [ref=e685]:
+        - link "国庆专属头像制作 工具图标 国庆专属头像制作 一键头像美化，实时预览/精准合成，支持多款装饰全兼容，快速生成专属个性头像，提升创作效率！" [ref=e686] [cursor=pointer]:
+          - /url: /national-avatar/
+          - heading "国庆专属头像制作 工具图标 国庆专属头像制作" [level=3] [ref=e687]:
+            - img "国庆专属头像制作 工具图标" [ref=e688]
+            - generic [ref=e689]: 国庆专属头像制作
+          - paragraph [ref=e690]: 一键头像美化，实时预览/精准合成，支持多款装饰全兼容，快速生成专属个性头像，提升创作效率！
+      - article [ref=e691]:
+        - link "合同签章图片合成 工具图标 合同签章图片合成 实现签章与合同底稿的快速合成，可自定义底稿签章图片，内置多种签章预设模式。" [ref=e692] [cursor=pointer]:
+          - /url: /sign-merge/
+          - heading "合同签章图片合成 工具图标 合同签章图片合成" [level=3] [ref=e693]:
+            - img "合同签章图片合成 工具图标" [ref=e694]
+            - generic [ref=e695]: 合同签章图片合成
+          - paragraph [ref=e696]: 实现签章与合同底稿的快速合成，可自定义底稿签章图片，内置多种签章预设模式。
+      - article [ref=e697]:
+        - link "手写签字提取器 工具图标 手写签字提取器 智能识别笔迹区域，将白色或浅色背景精准转为透明，仅保留清晰手写文字。" [ref=e698] [cursor=pointer]:
+          - /url: /signature-extractor/
+          - heading "手写签字提取器 工具图标 手写签字提取器" [level=3] [ref=e699]:
+            - img "手写签字提取器 工具图标" [ref=e700]
+            - generic [ref=e701]: 手写签字提取器
+          - paragraph [ref=e702]: 智能识别笔迹区域，将白色或浅色背景精准转为透明，仅保留清晰手写文字。
+      - article [ref=e703]:
+        - link "电子签名生成器 工具图标 电子签名生成器 通过上传签字图片，智能识别笔迹区域，将白色或浅色背景精准转为透明，仅保留清晰手写文字。" [ref=e704] [cursor=pointer]:
+          - /url: /signature-generator/
+          - heading "电子签名生成器 工具图标 电子签名生成器" [level=3] [ref=e705]:
+            - img "电子签名生成器 工具图标" [ref=e706]
+            - generic [ref=e707]: 电子签名生成器
+          - paragraph [ref=e708]: 通过上传签字图片，智能识别笔迹区域，将白色或浅色背景精准转为透明，仅保留清晰手写文字。
+      - article [ref=e709]:
+        - link "身份证正反面合并 工具图标 身份证正反面合并 支持上传身份证正反面照片，一键合并生成标准A4排版效果。支持分别调节缩放、旋转、亮度，拖拽自由调整位置。" [ref=e710] [cursor=pointer]:
+          - /url: /idcard-merge/
+          - heading "身份证正反面合并 工具图标 身份证正反面合并" [level=3] [ref=e711]:
+            - img "身份证正反面合并 工具图标" [ref=e712]
+            - generic [ref=e713]: 身份证正反面合并
+          - paragraph [ref=e714]: 支持上传身份证正反面照片，一键合并生成标准A4排版效果。支持分别调节缩放、旋转、亮度，拖拽自由调整位置。
+      - article [ref=e715]:
+        - link "印章图案提取器 工具图标 印章图案提取器 智能识别红色图案区域，精准去除白色背景及杂色干扰，仅保留清晰完整的红色印章。" [ref=e716] [cursor=pointer]:
+          - /url: /seal-extractor/
+          - heading "印章图案提取器 工具图标 印章图案提取器" [level=3] [ref=e717]:
+            - img "印章图案提取器 工具图标" [ref=e718]
+            - generic [ref=e719]: 印章图案提取器
+          - paragraph [ref=e720]: 智能识别红色图案区域，精准去除白色背景及杂色干扰，仅保留清晰完整的红色印章。
+      - article [ref=e721]:
+        - link "证件照打印排版 工具图标 证件照打印排版 一键生成标准相纸排版效果。支持多种证件照尺寸、相纸规格与方向选择。" [ref=e722] [cursor=pointer]:
+          - /url: /id-photo-layout/
+          - heading "证件照打印排版 工具图标 证件照打印排版" [level=3] [ref=e723]:
+            - img "证件照打印排版 工具图标" [ref=e724]
+            - generic [ref=e725]: 证件照打印排版
+          - paragraph [ref=e726]: 一键生成标准相纸排版效果。支持多种证件照尺寸、相纸规格与方向选择。
+      - article [ref=e727]:
+        - link "多张图片拼长图 工具图标 多张图片拼长图 快速将多张图片拼接成长图，支持纵向与横向两种拼接方向，灵活适配不同展示需求。" [ref=e728] [cursor=pointer]:
+          - /url: /long-image/
+          - heading "多张图片拼长图 工具图标 多张图片拼长图" [level=3] [ref=e729]:
+            - img "多张图片拼长图 工具图标" [ref=e730]
+            - generic [ref=e731]: 多张图片拼长图
+          - paragraph [ref=e732]: 快速将多张图片拼接成长图，支持纵向与横向两种拼接方向，灵活适配不同展示需求。
+    - generic [ref=e733]:
+      - heading "图像处理介绍" [level=2] [ref=e734]
+      - generic [ref=e735]:
+        - heading "什么是图像处理在线小工具？" [level=3] [ref=e736]
+        - paragraph [ref=e737]: ✨ 图像处理是懒人工具平台旗下专注于图片编辑与优化的核心栏目。作为精心设计的在线实用程序集合🖼️，我们致力于为用户提供专业、便捷的图像处理解决方案。懒人工具始终秉承 "让复杂变简单" 的核心理念🎯，帮助用户轻松完成各种图片编辑和格式转换任务⚡。
+      - generic [ref=e738]:
+        - heading "图像处理工具提供哪些功能？" [level=3] [ref=e739]
+        - paragraph [ref=e740]: 我们提供图片压缩、格式转换、尺寸调整、滤镜效果、水印添加、色彩调整、图片裁剪、EXIF信息查看等多种图像处理功能💼，覆盖图片优化、格式转换、特效处理、批量编辑等多个领域🎯。无论是日常修图、网页素材制作、证件照处理，还是社交媒体配图，都能在这里找到合适的图像工具✨！
+      - generic [ref=e741]:
+        - heading "图像处理工具适用哪些人群？" [level=3] [ref=e742]
+        - paragraph [ref=e743]: 本工具适用于摄影师、设计师、自媒体运营、电商卖家、普通用户、办公人员及所有需要处理图片的用户👨‍💻。无论您是美化照片📸、制作海报、优化网站图片，还是处理证件照，这些工具都能为您提供简单易用的图像处理服务✨。
+      - generic [ref=e744]:
+        - heading "图像处理工具拥有什么优势？" [level=3] [ref=e745]
+        - paragraph [ref=e746]: 所有工具均可在线使用🌐，无需安装专业软件，支持实时预览，操作直观简单👆。处理效果清晰优质，支持多种图片格式和分辨率，能够满足从个人使用到商业应用的各类需求🏠。同时，工具处理迅速，界面友好美观🍃，让图片编辑变得轻松愉快😊。
+      - generic [ref=e747]:
+        - heading "为什么您选择图像处理工具？" [level=3] [ref=e748]
+        - paragraph [ref=e749]: 我们将专业的图像处理算法封装成简单易用的在线工具✨，让您无需学习复杂软件就能快速完成各种图片编辑任务🎯。无论是格式转换、尺寸调整、画质优化还是特效添加，我们都能提供专业的处理服务。平台持续更新🔄，不断优化处理效果和用户体验，为您的创作🎨、工作和生活提供全方位的支持。
+    - generic [ref=e750]:
+      - navigation "页脚链接" [ref=e751]:
+        - link "关于我们" [ref=e752] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e753] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e754] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e755] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e756] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e757] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e758] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e759] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e760] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e761]:
+        - generic [ref=e762]:
+          - text: © 2025
+          - link "懒人工具" [ref=e763] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e765] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e766]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e767] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

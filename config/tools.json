@@ -10537,5 +10537,943 @@
       "shoe-size",
       "random-pwd"
     ]
+  },
+  {
+    "id": "image-brightness",
+    "title": "图片亮度调整",
+    "h1": "图片亮度调整",
+    "description": "图片亮度调整工具，拖动滑块实时预览提亮或压暗效果，像素级精确处理，完成后一键下载 PNG，适用于照片补救、证件照优化与电商图整理，全程本地处理不上传。",
+    "title_en": "Image Brightness Adjuster",
+    "h1_en": "Image Brightness Adjuster",
+    "description_en": "Adjust image brightness with a live-preview slider and pixel-accurate processing, then download as PNG — for photo rescue, ID photos and product shots, fully local.",
+    "title_es": "Ajuste de Brillo de Imagen",
+    "h1_es": "Ajuste de Brillo de Imagen",
+    "description_es": "Ajuste el brillo con vista previa en vivo y procesamiento píxel a píxel, descargue como PNG, todo local.",
+    "tags": [
+      "图片亮度",
+      "提亮照片",
+      "调光",
+      "图片编辑"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-brightness.svg",
+    "faqs": [
+      {
+        "q": "支持哪些格式？",
+        "a": "支持浏览器可解码的全部格式输入（JPG/PNG/WebP/GIF 首帧等），输出为无损 PNG。"
+      },
+      {
+        "q": "会压缩画质吗？",
+        "a": "处理为逐像素精确计算，输出 PNG 无损，不会产生二次压缩损失。"
+      },
+      {
+        "q": "图片会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which formats are supported?",
+        "a": "Any browser-decodable input (JPG/PNG/WebP/first GIF frame etc.); output is lossless PNG."
+      },
+      {
+        "q": "Will quality degrade?",
+        "a": "Processing is exact per-pixel math and the PNG output is lossless — no recompression artifacts."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué formatos admite?",
+        "a": "Cualquier formato decodificable (JPG/PNG/WebP/primer fotograma de GIF); salida PNG sin pérdida."
+      },
+      {
+        "q": "¿Pierde calidad?",
+        "a": "El procesamiento es matemática exacta por píxel y el PNG es sin pérdida."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-contrast",
+      "image-saturation",
+      "image-compressor"
+    ]
+  },
+  {
+    "id": "image-contrast",
+    "title": "图片对比度调整",
+    "h1": "图片对比度调整",
+    "description": "图片对比度调整工具，滑块实时调节画面明暗反差，让灰蒙蒙的照片恢复通透，支持正负双向调整与即时预览下载，全程本地处理不上传。",
+    "title_en": "Image Contrast Adjuster",
+    "h1_en": "Image Contrast Adjuster",
+    "description_en": "Boost or reduce tonal contrast with a live slider to revive flat photos; instant preview and download, fully local.",
+    "title_es": "Ajuste de Contraste",
+    "h1_es": "Ajuste de Contraste",
+    "description_es": "Aumente o reduzca el contraste con deslizador en vivo para revivir fotos planas, todo local.",
+    "tags": [
+      "对比度",
+      "照片调整",
+      "图片增强",
+      "调色"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-contrast.svg",
+    "faqs": [
+      {
+        "q": "对比度调太高会怎样？",
+        "a": "过高的对比度会让亮部溢出成纯白、暗部变纯黑丢失细节，建议在 ±50 内微调并实时预览。"
+      },
+      {
+        "q": "和亮度有什么区别？",
+        "a": "亮度整体平移明暗，对比度拉大明暗差距；两者常配合使用先提亮再加对比。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What if contrast is too high?",
+        "a": "Highlights clip to pure white and shadows crush to black losing detail; keep within ±50 and preview live."
+      },
+      {
+        "q": "Contrast vs brightness?",
+        "a": "Brightness shifts overall lightness while contrast widens the gap; combine both for best results."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Contraste demasiado alto?",
+        "a": "Las luces se queman en blanco y las sombras se aplastan; manténgase dentro de ±50 y previsualice."
+      },
+      {
+        "q": "¿Contraste o brillo?",
+        "a": "El brillo desplaza la luminosidad global; el contraste amplía la diferencia; combínelos."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-brightness",
+      "image-hsl",
+      "image-sharpener"
+    ]
+  },
+  {
+    "id": "image-saturation",
+    "title": "色彩饱和度调整",
+    "h1": "色彩饱和度调整",
+    "description": "色彩饱和度调整工具，正向提升鲜艳度、负向降为黑白灰度，实时预览一键下载，适用于美食摄影增艳、复古风降饱和与商品图统一风格，全程本地处理不上传。",
+    "title_en": "Image Saturation Adjuster",
+    "h1_en": "Image Saturation Adjuster",
+    "description_en": "Raise vividness or dial down to grayscale with live preview and one-click download — great for food photography and retro looks, fully local.",
+    "title_es": "Ajuste de Saturación",
+    "h1_es": "Ajuste de Saturación",
+    "description_es": "Aumente la vivacidad o baje a escala de grises con vista previa y descarga inmediata, todo local.",
+    "tags": [
+      "饱和度",
+      "去色",
+      "黑白照",
+      "调色"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-saturation.svg",
+    "faqs": [
+      {
+        "q": "饱和度 -100 是什么效果？",
+        "a": "完全去色变为黑白灰度照片；-50 则是柔和的低饱和复古感。"
+      },
+      {
+        "q": "和 HSL 工具有何区别？",
+        "a": "本工具只调饱和度单项；HSL 工具可同时旋转色相、调饱和与明度三参数联动。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does saturation -100 do?",
+        "a": "It fully desaturates into grayscale; -50 gives a soft low-saturation retro feel."
+      },
+      {
+        "q": "Difference from the HSL tool?",
+        "a": "This adjusts saturation alone; the HSL tool rotates hue and tunes saturation plus lightness together."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué hace saturación -100?",
+        "a": "Desatura por completo a escala de grises; -50 da un aspecto retro suave."
+      },
+      {
+        "q": "¿Diferencia con la herramienta HSL?",
+        "a": "Esta ajusta solo saturación; HSL rota tono y ajusta saturación más luminosidad a la vez."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-hsl",
+      "image-fader",
+      "image-contrast"
+    ]
+  },
+  {
+    "id": "image-hsl",
+    "title": "图片HSL色彩调整",
+    "h1": "图片HSL色彩调整",
+    "description": "图片HSL色彩调整工具，色相旋转、饱和度、明度三参数联动实时调节，精准改变画面色调风格，适用于创意调色、品牌色适配与氛围渲染，全程本地处理不上传。",
+    "title_en": "Image HSL Color Adjuster",
+    "h1_en": "Image HSL Color Adjuster",
+    "description_en": "Rotate hue and tune saturation plus lightness together with live preview — for creative color grading and brand palettes, fully local.",
+    "title_es": "Ajuste HSL de Imagen",
+    "h1_es": "Ajuste HSL de Imagen",
+    "description_es": "Rote el tono y ajuste saturación y luminosidad con vista previa en vivo, para gradación creativa, todo local.",
+    "tags": [
+      "HSL",
+      "色相",
+      "调色",
+      "色彩调整"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-hsl.svg",
+    "faqs": [
+      {
+        "q": "色相 180 度是什么效果？",
+        "a": "所有颜色转到互补色位：红色变青色、绿色变品红，常用于创意风格化调色。"
+      },
+      {
+        "q": "明度和亮度工具有何不同？",
+        "a": "明度基于 HSL 模型调节更符合色彩感知，不会像纯亮度那样把颜色直接推向白或黑。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does hue +180 do?",
+        "a": "Every color moves to its complement: red becomes cyan, green becomes magenta — popular for stylized grading."
+      },
+      {
+        "q": "Lightness vs the brightness tool?",
+        "a": "HSL lightness follows color perception and won't push colors straight to white/black like raw brightness does."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué hace tono +180°?",
+        "a": "Cada color pasa a su complementario: el rojo se vuelve cian, el verde magenta; ideal para estilizados."
+      },
+      {
+        "q": "¿Luminosidad frente a brillo?",
+        "a": "La luminosidad HSL respeta la percepción del color y no empuja los colores a blanco/negro puro."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-saturation",
+      "image-brightness",
+      "image-temperature"
+    ]
+  },
+  {
+    "id": "image-temperature",
+    "title": "图片冷暖色调调整",
+    "h1": "图片冷暖色调调整",
+    "description": "图片冷暖色调调整工具，向暖加红黄氛围、向冷加蓝青质感，滑块实时调节白平衡偏移，适用于人像肤色修饰、日落氛围强化与冷调科技感营造，全程本地处理不上传。",
+    "title_en": "Image Warmth Adjuster",
+    "h1_en": "Image Warmth Adjuster",
+    "description_en": "Shift white balance warm (red/amber) or cool (blue/cyan) with a live slider — for skin tones, sunset moods and cool tech aesthetics, fully local.",
+    "title_es": "Ajuste de Temperatura de Color",
+    "h1_es": "Ajuste de Temperatura de Color",
+    "description_es": "Desplace el balance de blancos hacia cálido o frío con deslizador en vivo, todo local.",
+    "tags": [
+      "冷暖色调",
+      "白平衡",
+      "调色",
+      "氛围"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-temperature.svg",
+    "faqs": [
+      {
+        "q": "正值和负值分别是什么效果？",
+        "a": "正值向暖：红黄增加适合日落人像；负值向冷：蓝色增加适合雪景科技感，±40 内过渡最自然。"
+      },
+      {
+        "q": "和色温 K 值是一回事吗？",
+        "a": "原理相通但单位不同；相机里的 K 值是绝对色温，本工具做相对偏移量调整。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Positive vs negative values?",
+        "a": "Positive warms toward red/amber for sunsets and portraits; negative cools toward blue for snow and tech looks. ±40 blends most naturally."
+      },
+      {
+        "q": "Same as Kelvin temperature?",
+        "a": "Same principle, different unit: camera K is absolute color temperature while this applies a relative shift."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Valores positivos o negativos?",
+        "a": "Positivo calienta hacia rojo/ámbar; negativo enfría hacia azul. ±40 transiciona con naturalidad."
+      },
+      {
+        "q": "¿Igual que los kelvin?",
+        "a": "Mismo principio, otra unidad: la K de cámara es absoluta; aquí se aplica un desfase relativo."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "cct-converter",
+      "image-hsl",
+      "image-highlight"
+    ]
+  },
+  {
+    "id": "image-highlight",
+    "title": "图片高光调整",
+    "h1": "图片高光调整",
+    "description": "图片高光调整工具，智能识别画面亮部区域单独提亮或压暗，不影响暗部细节，适用于逆光人脸补光、天空高光压制与玻璃金属质感修饰，全程本地处理不上传。",
+    "title_en": "Image Highlight Adjuster",
+    "h1_en": "Image Highlight Adjuster",
+    "description_en": "Brighten or tame only the bright regions without touching shadow detail — for backlit faces, blown skies and glossy surfaces, fully local.",
+    "title_es": "Ajuste de Altas Luces",
+    "h1_es": "Ajuste de Altas Luces",
+    "description_es": "Ilumine o atenúe solo las zonas brillantes sin tocar las sombras, todo local.",
+    "tags": [
+      "高光",
+      "逆光修复",
+      "亮部调整",
+      "修图"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-highlight.svg",
+    "faqs": [
+      {
+        "q": "和亮度调整有什么区别？",
+        "a": "亮度对所有像素统一作用；高光只针对亮度超过中间调的区域加权处理，暗部保持原样。"
+      },
+      {
+        "q": "压暗高光能救回过曝吗？",
+        "a": "轻微过曝可以缓解，但已被剪切成纯白的像素信息已丢失无法真正恢复，建议拍摄时避免严重过曝。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How is this different from brightness?",
+        "a": "Brightness shifts every pixel uniformly; highlights are weighted above midtone so shadows stay untouched."
+      },
+      {
+        "q": "Can it recover blown highlights?",
+        "a": "Slight clipping eases back, but pixels already clipped to pure white hold no recoverable data — avoid severe overexposure when shooting."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Diferencia con el brillo?",
+        "a": "El brillo afecta todos los píxeles por igual; las altas luces se ponderan sobre el tono medio dejando las sombras intactas."
+      },
+      {
+        "q": "¿Recupera quemados?",
+        "a": "Alivio leve sí, pero lo ya recortado a blanco no contiene datos; evite sobreexponer al disparar."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-brightness",
+      "image-contrast",
+      "image-temperature"
+    ]
+  },
+  {
+    "id": "image-fader",
+    "title": "图片色彩淡化器",
+    "h1": "图片色彩淡化器",
+    "description": "图片色彩淡化器，按比例向白色混合实现柔和淡雅的褪色效果，0-100% 无级调节，适用于日系小清新、背景弱化与文字底图制作，全程本地处理不上传。",
+    "title_en": "Image Fader",
+    "h1_en": "Image Fader",
+    "description_en": "Blend the image toward white by any percentage for a soft washed-out look — Japanese-style aesthetics, background softening and text underlays, fully local.",
+    "title_es": "Desvanecedor de Imagen",
+    "h1_es": "Desvanecedor de Imagen",
+    "description_es": "Mezcle la imagen hacia blanco en cualquier porcentaje para un look suave y lavado, todo local.",
+    "tags": [
+      "淡化",
+      "褪色",
+      "日系",
+      "底图"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-fader.svg",
+    "faqs": [
+      {
+        "q": "100% 淡化是什么效果？",
+        "a": "整张图完全变成纯白；常用 20%-60% 制作若隐若现的文字底图或日系透明感。"
+      },
+      {
+        "q": "和降低不透明度的区别？",
+        "a": "导出的是实底图片而非半透明 PNG，放在任何背景上效果一致，更适合打印与排版。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does 100% fade do?",
+        "a": "Turns the whole image pure white; 20-60% is typical for subtle text underlays and airy Japanese-style looks."
+      },
+      {
+        "q": "Difference from lowering opacity?",
+        "a": "The export stays a solid image rather than translucent PNG, so it looks identical on any background — better for print."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué hace 100% de desvanecido?",
+        "a": "Convierte la imagen en blanco puro; 20-60 % es habitual para fondos sutiles con texto."
+      },
+      {
+        "q": "¿Diferencia con bajar opacidad?",
+        "a": "La exportación es una imagen sólida, no un PNG translúcido; idéntica sobre cualquier fondo, mejor para impresión."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-brightness",
+      "image-saturation",
+      "watermark"
+    ]
+  },
+  {
+    "id": "image-sharpener",
+    "title": "图片锐化处理",
+    "h1": "图片锐化处理",
+    "description": "图片锐化处理工具，基于卷积核增强边缘细节让模糊照片重新清晰，强度无级可调实时预览，适用于截图文字增强、老照片修复与微距照片细节提升，全程本地处理不上传。",
+    "title_en": "Image Sharpener",
+    "h1_en": "Image Sharpener",
+    "description_en": "Convolution-based edge enhancement to bring blurry photos back into focus with an adjustable strength slider — for text screenshots, old photo restoration and macro details, fully local.",
+    "title_es": "Enfocador de Imagen",
+    "h1_es": "Enfocador de Imagen",
+    "description_es": "Mejora de bordes por convolución con intensidad ajustable, para capturas de texto y restauración, todo local.",
+    "tags": [
+      "锐化",
+      "清晰度",
+      "边缘增强",
+      "照片修复"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-sharpener.svg",
+    "faqs": [
+      {
+        "q": "锐化强度多少合适？",
+        "a": "一般 30-60 自然；超过 80 容易出现白色镶边噪点，建议配合预览逐步加强。"
+      },
+      {
+        "q": "能修复完全糊掉的照片吗？",
+        "a": "不能。锐化只放大已有边缘对比，对严重失焦没有重建能力，过度锐化反而放大噪点。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What sharpen strength is right?",
+        "a": "30-60 looks natural; above 80 you risk halos and amplified noise — increase gradually while previewing."
+      },
+      {
+        "q": "Can it fix completely blurry photos?",
+        "a": "No. Sharpening only amplifies existing edge contrast; it cannot reconstruct missed focus and over-sharpening exaggerates noise."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué intensidad usar?",
+        "a": "30-60 es natural; por encima de 80 aparecen halos y ruido; aumente gradualmente con vista previa."
+      },
+      {
+        "q": "¿Arregla fotos muy desenfocadas?",
+        "a": "No; solo amplifica el contraste existente y el exceso agrava el ruido."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "blur-image",
+      "image-contrast",
+      "image-quality"
+    ]
+  },
+  {
+    "id": "blur-image",
+    "title": "图片虚化处理",
+    "h1": "图片虚化处理",
+    "description": "图片虚化处理工具，盒式模糊算法按像素半径柔化画面，0-20px 无级调节实时预览，适用于背景虚化、隐私打码替代与梦幻氛围制作，全部本地处理不上传。",
+    "title_en": "Image Blur Tool",
+    "h1_en": "Image Blur Tool",
+    "description_en": "Box-blur smoothing with an adjustable pixel radius and live preview — for background softening, privacy masking and dreamy effects, fully local.",
+    "title_es": "Desenfoque de Imagen",
+    "h1_es": "Desenfoque de Imagen",
+    "description_es": "Desenfoque de caja con radio ajustable y vista previa, para fondos suaves y privacidad, todo local.",
+    "tags": [
+      "虚化",
+      "模糊",
+      "马赛克",
+      "背景虚化"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-blur-image.svg",
+    "faqs": [
+      {
+        "q": "模糊半径怎么选？",
+        "a": "轻微氛围 2-4px、人像背景 6-10px、彻底遮蔽信息 15px 以上；半径越大处理越慢属正常现象。"
+      },
+      {
+        "q": "大图片处理慢正常吗？",
+        "a": "模糊计算量与像素数成正比，千万级像素需要数秒；建议先缩小尺寸再虚化最后导出。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to choose blur radius?",
+        "a": "Subtle mood 2-4 px, portrait backgrounds 6-10 px, full information masking 15+ px; larger radii take longer to compute."
+      },
+      {
+        "q": "Why is processing slow on big images?",
+        "a": "Blur cost scales with pixel count; multi-megapixel images take seconds — resize down first, blur, then export."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué radio elegir?",
+        "a": "Ambiente sutil 2-4 px, fondo de retrato 6-10 px, ocultar información 15+ px; radios grandes tardan más."
+      },
+      {
+        "q": "¿Es normal que tarde en imágenes grandes?",
+        "a": "Sí, el coste escala con los píxeles; reduzca el tamaño primero, desenfoque y luego exporte."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-sharpener",
+      "image-size-revise",
+      "image-mirror"
+    ]
+  },
+  {
+    "id": "image-rotate",
+    "title": "图片角度调整",
+    "h1": "图片角度调整",
+    "description": "图片角度调整工具，-180 到 180 度任意角度旋转，画布自动扩展容纳斜角内容无裁切损失，适用于摆正地平线、文档矫正与创意构图，全程本地处理不上传。",
+    "title_en": "Image Rotate Tool",
+    "h1_en": "Image Rotate Tool",
+    "description_en": "Rotate freely from -180° to +180° with auto-expanded canvas so nothing gets cropped — level horizons, straighten documents and creative framing, fully local.",
+    "title_es": "Rotación de Imagen",
+    "h1_es": "Rotación de Imagen",
+    "description_es": "Rote libremente de -180° a +180° con lienzo expandido automático sin recortes, todo local.",
+    "tags": [
+      "图片旋转",
+      "摆正",
+      "角度调整",
+      "文档矫正"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-rotate.svg",
+    "faqs": [
+      {
+        "q": "旋转后为什么有空白角？",
+        "a": "任意角度旋转后画布自动扩大以容纳全部内容，四角留白可用裁剪工具二次裁掉。"
+      },
+      {
+        "q": "90 度倍数旋转画质有损吗？",
+        "a": "90/180/270 度为像素坐标重映射无损；非直角角度涉及插值会有极轻微软化，建议一次到位避免反复旋转。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Why are there blank corners after rotating?",
+        "a": "The canvas auto-expands to fit all content; trim the corners afterwards with the crop tool."
+      },
+      {
+        "q": "Do 90° steps lose quality?",
+        "a": "90/180/270° are lossless remaps; arbitrary angles involve slight interpolation softening — rotate once, don't iterate."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Por qué hay esquinas vacías?",
+        "a": "El lienzo se expande para contener todo; recorte después con la herramienta de recorte."
+      },
+      {
+        "q": "¿Girar 90° pierde calidad?",
+        "a": "90/180/270° son remapeos sin pérdida; ángulos arbitrarios interpolan levemente; rote una sola vez."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-cropping",
+      "image-mirror",
+      "image-size-revise"
+    ]
+  },
+  {
+    "id": "image-mirror",
+    "title": "图片镜像翻转",
+    "h1": "图片镜像翻转",
+    "description": "图片镜像翻转工具，水平垂直两个方向一键无损翻转，像素坐标重映射零质量损失，适用于自拍方向纠正、对称构图创作与印刷拼版需求，全程本地处理不上传。",
+    "title_en": "Image Mirror Flip",
+    "h1_en": "Image Mirror Flip",
+    "description_en": "One-click lossless horizontal and vertical flipping via pixel remapping — fix selfie orientation, build symmetrical compositions and prepare print layouts, fully local.",
+    "title_es": "Espejo de Imagen",
+    "h1_es": "Espejo de Imagen",
+    "description_es": "Volteo horizontal y vertical sin pérdida con un clic, para selfis y composiciones simétricas, todo local.",
+    "tags": [
+      "镜像",
+      "翻转",
+      "对称",
+      "图片翻转"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-mirror.svg",
+    "faqs": [
+      {
+        "q": "镜像翻转和旋转的区别？",
+        "a": "镜像是坐标轴反射（左右或上下对调），旋转是角度变换；两者可叠加使用创造对称图案。"
+      },
+      {
+        "q": "自拍为什么需要镜像？",
+        "a": "前置摄像头预览为镜像而保存成原图，文字招牌会出现反向，翻转即可还原自然视角。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Mirror vs rotate?",
+        "a": "Mirroring reflects across an axis while rotating changes angle; combine them for symmetrical patterns."
+      },
+      {
+        "q": "Why do selfies need mirroring?",
+        "a": "Front cameras preview mirrored but save the original, leaving text reversed — flip to restore the natural view."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Espejo frente a rotar?",
+        "a": "El espejo refleja sobre un eje; rotar cambia el ángulo; combínelos para patrones simétricos."
+      },
+      {
+        "q": "¿Por qué los selfis necesitan espejo?",
+        "a": "La cámara frontal previsualiza en espejo pero guarda la original; voltee para restaurar la vista natural."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-rotate",
+      "image-cropping",
+      "nine-grid"
+    ]
+  },
+  {
+    "id": "image-size-revise",
+    "title": "图片尺寸调整",
+    "h1": "图片尺寸调整",
+    "description": "图片尺寸调整工具，自定义宽度高度自由缩放画布，浏览器高质量重采样算法平滑缩放，适用于头像规格、社交平台尺寸要求与网页配图优化，全部本地处理不上传。",
+    "title_en": "Image Resizer",
+    "h1_en": "Image Resizer",
+    "description_en": "Freely scale width and height using the browser's high-quality resampling — for avatars, social platform specs and web image optimization, fully local.",
+    "title_es": "Redimensionar Imagen",
+    "h1_es": "Redimensionar Imagen",
+    "description_es": "Escale ancho y alto libremente con remuestreo de alta calidad del navegador, todo local.",
+    "tags": [
+      "修改尺寸",
+      "缩放",
+      "头像尺寸",
+      "图片大小"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-size-revise.svg",
+    "faqs": [
+      {
+        "q": "放大图片会模糊吗？",
+        "a": "放大会通过插值补充新像素，倍数越大越软；缩小则几乎无损，建议只缩不放或用 AI 放大工具处理大倍率。"
+      },
+      {
+        "q": "怎么保持比例缩放？",
+        "a": "先填宽度后手动按原比例计算高度，或参考原尺寸提示等比换算后填写。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Does upscaling get blurry?",
+        "a": "Upscaling interpolates new pixels and softens as factors grow; downscaling is nearly lossless — shrink instead of enlarging where possible."
+      },
+      {
+        "q": "How to keep aspect ratio?",
+        "a": "Enter width first then compute height from the original ratio shown, or use proportional math before filling both fields."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Ampliar emborrona?",
+        "a": "Ampliar interpola nuevos píxeles y suaviza al crecer el factor; reducir casi no pierde; prefiera reducir."
+      },
+      {
+        "q": "¿Cómo mantener la proporción?",
+        "a": "Introduzca el ancho y calcule el alto según la proporción original mostrada."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-cropping",
+      "image-compressor",
+      "image-quality"
+    ]
+  },
+  {
+    "id": "image-cropping",
+    "title": "图片自定义裁剪",
+    "h1": "图片自定义裁剪",
+    "description": "图片自定义裁剪工具，输入 X/Y 坐标与宽高数值精确框选保留区域，像素级定位零误差，适用于证件照规格裁切、去除水印边角与构图再创作，全程本地处理不上传。",
+    "title_en": "Image Cropping Tool",
+    "h1_en": "Image Cropping Tool",
+    "description_en": "Crop precisely by entering X/Y coordinates and width/height values with zero-error pixel positioning — for ID photo specs, watermark trimming and reframing, fully local.",
+    "title_es": "Recorte de Imagen",
+    "h1_es": "Recorte de Imagen",
+    "description_es": "Recorte con precisión introduciendo coordenadas X/Y y dimensiones, posicionamiento exacto al píxel, todo local.",
+    "tags": [
+      "裁剪",
+      "抠图",
+      "证件照",
+      "构图"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-cropping.svg",
+    "faqs": [
+      {
+        "q": "坐标从哪里开始算？",
+        "a": "左上角为原点 (0,0)，X 向右 Y 向下递增，宽高即保留区域的像素尺寸。"
+      },
+      {
+        "q": "裁剪会降低画质吗？",
+        "a": "不会，裁剪只是像素区域截取不做任何重采样，输出区域与原图完全一致。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Where is the origin?",
+        "a": "Top-left corner at (0,0); X grows rightward, Y downward, and width/height define the kept region in pixels."
+      },
+      {
+        "q": "Does cropping lose quality?",
+        "a": "No, cropping only extracts a pixel region without resampling — output matches the original exactly."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Desde dónde se cuentan las coordenadas?",
+        "a": "La esquina superior izquierda es (0,0); X crece a la derecha, Y hacia abajo; ancho y alto definen la región."
+      },
+      {
+        "q": "¿Recortar pierde calidad?",
+        "a": "No, extrae una región de píxeles sin remuestreo; la salida coincide exactamente con el original."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-rotate",
+      "image-size-revise",
+      "id-photo"
+    ]
+  },
+  {
+    "id": "image-quality",
+    "title": "图片质量调整",
+    "h1": "图片质量调整",
+    "description": "图片质量调整工具，10%-100% 无级调节 JPG 输出质量与文件体积的平衡，实时查看压缩结果体积，适用于论坛附件限制、邮件发送与存储空间优化，全部本地处理不上传。",
+    "title_en": "Image Quality Adjuster",
+    "h1_en": "Image Quality Adjuster",
+    "description_en": "Dial JPG output quality from 10%-100% to balance fidelity against file size, checking the result size live — for forum attachments, email limits and storage savings, fully local.",
+    "title_es": "Ajuste de Calidad de Imagen",
+    "h1_es": "Ajuste de Calidad de Imagen",
+    "description_es": "Regule la calidad JPG del 10% al 100% equilibrando fidelidad y tamaño, todo local.",
+    "tags": [
+      "图片质量",
+      "JPG压缩",
+      "减小体积",
+      "图片瘦身"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-quality.svg",
+    "faqs": [
+      {
+        "q": "质量设多少最合适？",
+        "a": "网页展示 60-75 几乎无肉眼差异且体积减半以上；重要存档用 85-95；低于 40 会明显出现块状伪影。"
+      },
+      {
+        "q": "和高清压缩工具的区别？",
+        "a": "本工具专注 JPG 质量参数单维度调节；压缩工具额外提供尺寸缩放等多手段组合压积。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What quality setting should I use?",
+        "a": "60-75 for web display looks identical yet halves file size; use 85-95 for archives; below 40 shows blocky artifacts."
+      },
+      {
+        "q": "Difference from the compressor tool?",
+        "a": "This focuses on the single JPG quality parameter; the compressor combines resizing and more for maximum savings."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué calidad elegir?",
+        "a": "60-75 para web es indistinguible y reduce el peso a la mitad; 85-95 para archivos importantes; bajo 40 aparecen bloques."
+      },
+      {
+        "q": "¿Diferencia con el compresor?",
+        "a": "Este ajusta solo la calidad JPG; el compresor combina redimensionado y más recursos."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-compressor",
+      "image-size-revise",
+      "png2jpg"
+    ]
   }
 ]

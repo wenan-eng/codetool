@@ -1,0 +1,424 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - heading "一站式免费在线工具箱 - 分类齐全，即开即用" [level=1] [ref=e105]
+    - generic [ref=e106]:
+      - generic [ref=e107]: 搜索工具
+      - textbox "搜索工具" [ref=e108]:
+        - /placeholder: 输入关键词，按回车搜索，使用组合键 Alt+Q 调用...
+      - button "清空搜索": ✕
+    - heading "收录检测" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - article [ref=e111]:
+        - link "百度API推送 工具图标 百度API推送 一键将网站链接推送给百度收录，实时查看推送结果和剩余额度，支持批量提交和本地存储API配置。" [ref=e112] [cursor=pointer]:
+          - /url: /baidu-push/
+          - heading "百度API推送 工具图标 百度API推送" [level=3] [ref=e113]:
+            - img "百度API推送 工具图标" [ref=e114]
+            - generic [ref=e115]: 百度API推送
+          - paragraph [ref=e116]: 一键将网站链接推送给百度收录，实时查看推送结果和剩余额度，支持批量提交和本地存储API配置。
+      - article [ref=e117]:
+        - link "百度API推送网址专业版 工具图标 百度API推送专业版 一键过滤重复链接并推送网址至百度收录，自动留存推送记录，高效助力网站 SEO 收录优化。" [ref=e118] [cursor=pointer]:
+          - /url: /baidu-push-pro/
+          - heading "百度API推送网址专业版 工具图标 百度API推送专业版" [level=3] [ref=e119]:
+            - img "百度API推送网址专业版 工具图标" [ref=e120]
+            - generic [ref=e121]: 百度API推送专业版
+          - paragraph [ref=e122]: 一键过滤重复链接并推送网址至百度收录，自动留存推送记录，高效助力网站 SEO 收录优化。
+      - article [ref=e123]:
+        - link "网站收录实时查询 工具图标 网站收录实时查询 网站收录查询工具，精准实现多搜索引擎收录状态一键查询，并提供智能域名提取与官方工具直达链接。" [ref=e124] [cursor=pointer]:
+          - /url: /site-check/
+          - heading "网站收录实时查询 工具图标 网站收录实时查询" [level=3] [ref=e125]:
+            - img "网站收录实时查询 工具图标" [ref=e126]
+            - generic [ref=e127]: 网站收录实时查询
+          - paragraph [ref=e128]: 网站收录查询工具，精准实现多搜索引擎收录状态一键查询，并提供智能域名提取与官方工具直达链接。
+      - article [ref=e129]:
+        - link "死链批量检测 工具图标 死链批量检测 支持批量检查URL链接有效性、实时获取HTTP状态码和链接状态，满足网站维护、SEO优化和内容审核等多种场景需求。" [ref=e130] [cursor=pointer]:
+          - /url: /url-check/
+          - heading "死链批量检测 工具图标 死链批量检测" [level=3] [ref=e131]:
+            - img "死链批量检测 工具图标" [ref=e132]
+            - generic [ref=e133]: 死链批量检测
+          - paragraph [ref=e134]: 支持批量检查URL链接有效性、实时获取HTTP状态码和链接状态，满足网站维护、SEO优化和内容审核等多种场景需求。
+      - article [ref=e135]:
+        - link "网站死链批量检测 工具图标 网站死链批量检测 支持网页全站链接批量采集智能核验，适用于内外链甄别、死链检测、故障链接排查、网站运维优化等场景。" [ref=e136] [cursor=pointer]:
+          - /url: /links-check/
+          - heading "网站死链批量检测 工具图标 网站死链批量检测" [level=3] [ref=e137]:
+            - img "网站死链批量检测 工具图标" [ref=e138]
+            - generic [ref=e139]: 网站死链批量检测
+          - paragraph [ref=e140]: 支持网页全站链接批量采集智能核验，适用于内外链甄别、死链检测、故障链接排查、网站运维优化等场景。
+      - article [ref=e141]:
+        - link "Robots文件检测 工具图标 Robots文件检测 一键Robots.txt检测，智能解析/安全评估，支持多维度秒级扫描，全面优化网站爬虫管控。" [ref=e142] [cursor=pointer]:
+          - /url: /robots-check/
+          - heading "Robots文件检测 工具图标 Robots文件检测" [level=3] [ref=e143]:
+            - img "Robots文件检测 工具图标" [ref=e144]
+            - generic [ref=e145]: Robots文件检测
+          - paragraph [ref=e146]: 一键Robots.txt检测，智能解析/安全评估，支持多维度秒级扫描，全面优化网站爬虫管控。
+      - article [ref=e147]:
+        - link "Robots文件生成 工具图标 Robots文件生成 实时生成符合标准的 robots.txt 文件，支持国内主流搜索引擎和国外引擎的精细化控制，让爬虫规则配置更简单。" [ref=e148] [cursor=pointer]:
+          - /url: /robots/
+          - heading "Robots文件生成 工具图标 Robots文件生成" [level=3] [ref=e149]:
+            - img "Robots文件生成 工具图标" [ref=e150]
+            - generic [ref=e151]: Robots文件生成
+          - paragraph [ref=e152]: 实时生成符合标准的 robots.txt 文件，支持国内主流搜索引擎和国外引擎的精细化控制，让爬虫规则配置更简单。
+    - heading "域名查询" [level=2] [ref=e153]
+    - generic [ref=e154]:
+      - article [ref=e155]:
+        - link "Whois信息查询 工具图标 Whois信息查询 一键WHOIS域名注册查询，实时解析与状态诊断，快速获取注册商、注册日期及DNS服务器等核心信息。" [ref=e156] [cursor=pointer]:
+          - /url: /whois/
+          - heading "Whois信息查询 工具图标 Whois信息查询" [level=3] [ref=e157]:
+            - img "Whois信息查询 工具图标" [ref=e158]
+            - generic [ref=e159]: Whois信息查询
+          - paragraph [ref=e160]: 一键WHOIS域名注册查询，实时解析与状态诊断，快速获取注册商、注册日期及DNS服务器等核心信息。
+      - article [ref=e161]:
+        - link "域名ICP备案查询 工具图标 域名ICP备案查询 一键域名ICP备案查询，实时解析与状态诊断，快速获取备案号、主办单位及主体性质等核心信息。" [ref=e162] [cursor=pointer]:
+          - /url: /icp/
+          - heading "域名ICP备案查询 工具图标 域名ICP备案查询" [level=3] [ref=e163]:
+            - img "域名ICP备案查询 工具图标" [ref=e164]
+            - generic [ref=e165]: 域名ICP备案查询
+          - paragraph [ref=e166]: 一键域名ICP备案查询，实时解析与状态诊断，快速获取备案号、主办单位及主体性质等核心信息。
+      - article [ref=e167]:
+        - link "DNS解析记录查询 工具图标 DNS解析记录查询 支持A、AAAA、CNAME、MX、NS、TXT等多种记录类型，适配域名诊断与配置验证场景。" [ref=e168] [cursor=pointer]:
+          - /url: /dns/
+          - heading "DNS解析记录查询 工具图标 DNS解析记录查询" [level=3] [ref=e169]:
+            - img "DNS解析记录查询 工具图标" [ref=e170]
+            - generic [ref=e171]: DNS解析记录查询
+          - paragraph [ref=e172]: 支持A、AAAA、CNAME、MX、NS、TXT等多种记录类型，适配域名诊断与配置验证场景。
+      - article [ref=e173]:
+        - link "SSL/TLS证书检测 工具图标 SSL/TLS证书检测 一键SSL/TLS检测，实时解析/诊断，支持全平台证书分析，快速获取域名证书详情，提升运维安全效率！" [ref=e174] [cursor=pointer]:
+          - /url: /ssl/
+          - heading "SSL/TLS证书检测 工具图标 SSL/TLS证书检测" [level=3] [ref=e175]:
+            - img "SSL/TLS证书检测 工具图标" [ref=e176]
+            - generic [ref=e177]: SSL/TLS证书检测
+          - paragraph [ref=e178]: 一键SSL/TLS检测，实时解析/诊断，支持全平台证书分析，快速获取域名证书详情，提升运维安全效率！
+      - article [ref=e179]:
+        - link "HTTP状态码查询 工具图标 HTTP状态码查询 一键HTTP检测，实时解析/精准诊断，支持全头信息秒级响应，全面掌握网站状态，提升运维效率！" [ref=e180] [cursor=pointer]:
+          - /url: /http-status/
+          - heading "HTTP状态码查询 工具图标 HTTP状态码查询" [level=3] [ref=e181]:
+            - img "HTTP状态码查询 工具图标" [ref=e182]
+            - generic [ref=e183]: HTTP状态码查询
+          - paragraph [ref=e184]: 一键HTTP检测，实时解析/精准诊断，支持全头信息秒级响应，全面掌握网站状态，提升运维效率！
+      - article [ref=e185]:
+        - link "HTTP Headers 查看器 工具图标 HTTP Headers 查看器 支持网址 HTTP Headers 完整检测，可获取响应头、服务器信息、缓存策略、安全配置、跨域规则等。" [ref=e186] [cursor=pointer]:
+          - /url: /headers-viewer/
+          - heading "HTTP Headers 查看器 工具图标 HTTP Headers 查看器" [level=3] [ref=e187]:
+            - img "HTTP Headers 查看器 工具图标" [ref=e188]
+            - generic [ref=e189]: HTTP Headers 查看器
+          - paragraph [ref=e190]: 支持网址 HTTP Headers 完整检测，可获取响应头、服务器信息、缓存策略、安全配置、跨域规则等。
+      - article [ref=e191]:
+        - link "查看网页源码 工具图标 查看网页源码 一键网页源码查看，智能解析/统计展示，支持多维度源码分析，全面掌握网站HTML结构。" [ref=e192] [cursor=pointer]:
+          - /url: /view-source/
+          - heading "查看网页源码 工具图标 查看网页源码" [level=3] [ref=e193]:
+            - img "查看网页源码 工具图标" [ref=e194]
+            - generic [ref=e195]: 查看网页源码
+          - paragraph [ref=e196]: 一键网页源码查看，智能解析/统计展示，支持多维度源码分析，全面掌握网站HTML结构。
+      - article [ref=e197]:
+        - link "网页Meta元信息检测 工具图标 网页Meta元信息检测 实时校验网页基础配置与社交分享标签，快速发现元信息缺失、格式错误，避免页面展示异常。" [ref=e198] [cursor=pointer]:
+          - /url: /meta-check/
+          - heading "网页Meta元信息检测 工具图标 网页Meta元信息检测" [level=3] [ref=e199]:
+            - img "网页Meta元信息检测 工具图标" [ref=e200]
+            - generic [ref=e201]: 网页Meta元信息检测
+          - paragraph [ref=e202]: 实时校验网页基础配置与社交分享标签，快速发现元信息缺失、格式错误，避免页面展示异常。
+    - heading "网络工具" [level=2] [ref=e203]
+    - generic [ref=e204]:
+      - article [ref=e205]:
+        - link "本机IP地址查询 工具图标 本机IP地址查询 获取本机公网IP及归属地，支持手动查询任意IP或域名，适用于访客识别、网络调试等场景。" [ref=e206] [cursor=pointer]:
+          - /url: /myip/
+          - heading "本机IP地址查询 工具图标 本机IP地址查询" [level=3] [ref=e207]:
+            - img "本机IP地址查询 工具图标" [ref=e208]
+            - generic [ref=e209]: 本机IP地址查询
+          - paragraph [ref=e210]: 获取本机公网IP及归属地，支持手动查询任意IP或域名，适用于访客识别、网络调试等场景。
+      - article [ref=e211]:
+        - link "端口扫描器 工具图标 端口扫描器 在线端口扫描，实时检测状态，支持自定义端口选择与目标类型，快速识别网络服务开放情况。" [ref=e212] [cursor=pointer]:
+          - /url: /port-scanner/
+          - heading "端口扫描器 工具图标 端口扫描器" [level=3] [ref=e213]:
+            - img "端口扫描器 工具图标" [ref=e214]
+            - generic [ref=e215]: 端口扫描器
+          - paragraph [ref=e216]: 在线端口扫描，实时检测状态，支持自定义端口选择与目标类型，快速识别网络服务开放情况。
+      - article [ref=e217]:
+        - link "IP地址与INT互转 工具图标 IP地址与INT互转 支持IP地址与32位整数快速互转，自动识别输入格式并智能转换，提供一键复制结果功能。" [ref=e218] [cursor=pointer]:
+          - /url: /ip2int/
+          - heading "IP地址与INT互转 工具图标 IP地址与INT互转" [level=3] [ref=e219]:
+            - img "IP地址与INT互转 工具图标" [ref=e220]
+            - generic [ref=e221]: IP地址与INT互转
+          - paragraph [ref=e222]: 支持IP地址与32位整数快速互转，自动识别输入格式并智能转换，提供一键复制结果功能。
+      - article [ref=e223]:
+        - link "CIDR/子网掩码转换器 工具图标 CIDR/子网掩码转换器 支持CIDR与子网掩码双向换算，适用于运维组网、网段划分、局域网规划、CIDR解析、IP掩码匹配等场景。" [ref=e224] [cursor=pointer]:
+          - /url: /cidr-converter/
+          - heading "CIDR/子网掩码转换器 工具图标 CIDR/子网掩码转换器" [level=3] [ref=e225]:
+            - img "CIDR/子网掩码转换器 工具图标" [ref=e226]
+            - generic [ref=e227]: CIDR/子网掩码转换器
+          - paragraph [ref=e228]: 支持CIDR与子网掩码双向换算，适用于运维组网、网段划分、局域网规划、CIDR解析、IP掩码匹配等场景。
+      - article [ref=e229]:
+        - link "子网掩码计算器 工具图标 子网掩码计算器 支持IP与掩码位双向测算，适用于网段划分、掩码换算、CIDR 解析、运维组网、局域网地址规划等场景。" [ref=e230] [cursor=pointer]:
+          - /url: /ip-subnet/
+          - heading "子网掩码计算器 工具图标 子网掩码计算器" [level=3] [ref=e231]:
+            - img "子网掩码计算器 工具图标" [ref=e232]
+            - generic [ref=e233]: 子网掩码计算器
+          - paragraph [ref=e234]: 支持IP与掩码位双向测算，适用于网段划分、掩码换算、CIDR 解析、运维组网、局域网地址规划等场景。
+      - article [ref=e235]:
+        - link "随机IP地址生成器 工具图标 随机IP地址生成器 智能实现随机IP地址在线生成，支持A类/B类/C类/D类IP地址范围定义，指定IP数量生成。" [ref=e236] [cursor=pointer]:
+          - /url: /ip-generator/
+          - heading "随机IP地址生成器 工具图标 随机IP地址生成器" [level=3] [ref=e237]:
+            - img "随机IP地址生成器 工具图标" [ref=e238]
+            - generic [ref=e239]: 随机IP地址生成器
+          - paragraph [ref=e240]: 智能实现随机IP地址在线生成，支持A类/B类/C类/D类IP地址范围定义，指定IP数量生成。
+      - article [ref=e241]:
+        - link "URL地址解析 工具图标 URL地址解析 专业的URL地址解析平台，实现从协议类型、域名结构到路径参数的全方位分解。" [ref=e242] [cursor=pointer]:
+          - /url: /net-parser/
+          - heading "URL地址解析 工具图标 URL地址解析" [level=3] [ref=e243]:
+            - img "URL地址解析 工具图标" [ref=e244]
+            - generic [ref=e245]: URL地址解析
+          - paragraph [ref=e246]: 专业的URL地址解析平台，实现从协议类型、域名结构到路径参数的全方位分解。
+      - article [ref=e247]:
+        - link "URL短链接还原 工具图标 URL短链接还原 支持解析301/302等多轮重定向短链接，精准提取真实长链接，适用于短链接溯源、链接安全核验等场景。" [ref=e248] [cursor=pointer]:
+          - /url: /shorturl-parser/
+          - heading "URL短链接还原 工具图标 URL短链接还原" [level=3] [ref=e249]:
+            - img "URL短链接还原 工具图标" [ref=e250]
+            - generic [ref=e251]: URL短链接还原
+          - paragraph [ref=e252]: 支持解析301/302等多轮重定向短链接，精准提取真实长链接，适用于短链接溯源、链接安全核验等场景。
+      - article [ref=e253]:
+        - link "网页GZIP压缩检测 工具图标 网页GZIP压缩检测 支持 Gzip/Brotli 压缩检测、精准计算传输体积与解压后大小，满足网页加载速度分析与带宽节省评估等场景。" [ref=e254] [cursor=pointer]:
+          - /url: /gzip-check/
+          - heading "网页GZIP压缩检测 工具图标 网页GZIP压缩检测" [level=3] [ref=e255]:
+            - img "网页GZIP压缩检测 工具图标" [ref=e256]
+            - generic [ref=e257]: 网页GZIP压缩检测
+          - paragraph [ref=e258]: 支持 Gzip/Brotli 压缩检测、精准计算传输体积与解压后大小，满足网页加载速度分析与带宽节省评估等场景。
+      - article [ref=e259]:
+        - link "网页PV自动刷新 工具图标 网页PV自动刷新 网页 PV 自动实时 / 定时精准刷新，支持各类 URL 格式兼容，快速生成刷新预览，提升网页监控与测试效率！" [ref=e260] [cursor=pointer]:
+          - /url: /refresh/
+          - heading "网页PV自动刷新 工具图标 网页PV自动刷新" [level=3] [ref=e261]:
+            - img "网页PV自动刷新 工具图标" [ref=e262]
+            - generic [ref=e263]: 网页PV自动刷新
+          - paragraph [ref=e264]: 网页 PV 自动实时 / 定时精准刷新，支持各类 URL 格式兼容，快速生成刷新预览，提升网页监控与测试效率！
+    - heading "开发辅助" [level=2] [ref=e265]
+    - generic [ref=e266]:
+      - article [ref=e267]:
+        - link "网站图标获取 工具图标 网站图标获取 支持网站Favicon图标批量抓取、多尺寸高清无损放大，适配各类站点图标提取、前端开发素材制作等场景。" [ref=e268] [cursor=pointer]:
+          - /url: /favicon/
+          - heading "网站图标获取 工具图标 网站图标获取" [level=3] [ref=e269]:
+            - img "网站图标获取 工具图标" [ref=e270]
+            - generic [ref=e271]: 网站图标获取
+          - paragraph [ref=e272]: 支持网站Favicon图标批量抓取、多尺寸高清无损放大，适配各类站点图标提取、前端开发素材制作等场景。
+      - article [ref=e273]:
+        - link "Favicon图标生成 工具图标 Favicon图标生成 上传图片一键转ICO，智能生成透明图标，支持多尺寸下载，轻松制作网站Favicon，省时省力更专业！" [ref=e274] [cursor=pointer]:
+          - /url: /favicon-generator/
+          - heading "Favicon图标生成 工具图标 Favicon图标生成" [level=3] [ref=e275]:
+            - img "Favicon图标生成 工具图标" [ref=e276]
+            - generic [ref=e277]: Favicon图标生成
+          - paragraph [ref=e278]: 上传图片一键转ICO，智能生成透明图标，支持多尺寸下载，轻松制作网站Favicon，省时省力更专业！
+      - article [ref=e279]:
+        - link "网页META标签生成器 工具图标 网页META标签生成器 一键生成标准完整的网页META标签代码，精准配置搜索引擎索引规则，确保网站基础优化准确直观。" [ref=e280] [cursor=pointer]:
+          - /url: /meta-generator/
+          - heading "网页META标签生成器 工具图标 网页META标签生成器" [level=3] [ref=e281]:
+            - img "网页META标签生成器 工具图标" [ref=e282]
+            - generic [ref=e283]: 网页META标签生成器
+          - paragraph [ref=e284]: 一键生成标准完整的网页META标签代码，精准配置搜索引擎索引规则，确保网站基础优化准确直观。
+      - article [ref=e285]:
+        - link "正则表达式生成器 工具图标 正则表达式生成器 正则表达式代码生成工具，输入表达式自动生成7种语言的完整实现代码，支持快捷复制使用。" [ref=e286] [cursor=pointer]:
+          - /url: /regex-generator/
+          - heading "正则表达式生成器 工具图标 正则表达式生成器" [level=3] [ref=e287]:
+            - img "正则表达式生成器 工具图标" [ref=e288]
+            - generic [ref=e289]: 正则表达式生成器
+          - paragraph [ref=e290]: 正则表达式代码生成工具，输入表达式自动生成7种语言的完整实现代码，支持快捷复制使用。
+      - article [ref=e291]:
+        - link "颜色拾取转换器 工具图标 颜色拾取转换器 专业在线颜色工具，支持吸管取色和多格式转换，提供9种颜色代码，满足设计开发需求。" [ref=e292] [cursor=pointer]:
+          - /url: /color-converter/
+          - heading "颜色拾取转换器 工具图标 颜色拾取转换器" [level=3] [ref=e293]:
+            - img "颜色拾取转换器 工具图标" [ref=e294]
+            - generic [ref=e295]: 颜色拾取转换器
+          - paragraph [ref=e296]: 专业在线颜色工具，支持吸管取色和多格式转换，提供9种颜色代码，满足设计开发需求。
+      - article [ref=e297]:
+        - link "比例计算器 工具图标 比例计算器 在线比例计算器，支持智能比例换算，实时计算比例关系与缺失值，可自定义调整分子分母，保持比例等式平衡。" [ref=e298] [cursor=pointer]:
+          - /url: /proportion-calculator/
+          - heading "比例计算器 工具图标 比例计算器" [level=3] [ref=e299]:
+            - img "比例计算器 工具图标" [ref=e300]
+            - generic [ref=e301]: 比例计算器
+          - paragraph [ref=e302]: 在线比例计算器，支持智能比例换算，实时计算比例关系与缺失值，可自定义调整分子分母，保持比例等式平衡。
+      - article [ref=e303]:
+        - link "常用USER_AGENT大全 工具图标 常用USER_AGENT大全 智能识别当前浏览器 UA，精准汇总多终端 UA 字符串，自动过滤无效数据，实现一键复制。" [ref=e304] [cursor=pointer]:
+          - /url: /user-agent/
+          - heading "常用USER_AGENT大全 工具图标 常用USER_AGENT大全" [level=3] [ref=e305]:
+            - img "常用USER_AGENT大全 工具图标" [ref=e306]
+            - generic [ref=e307]: 常用USER_AGENT大全
+          - paragraph [ref=e308]: 智能识别当前浏览器 UA，精准汇总多终端 UA 字符串，自动过滤无效数据，实现一键复制。
+      - article [ref=e309]:
+        - link "网页在线设备模拟器 工具图标 网页在线设备模拟器 支持输入网址实时预览网页多终端显示，在完整保留交互功能的同时快速检查响应式兼容性。" [ref=e310] [cursor=pointer]:
+          - /url: /device-preview/
+          - heading "网页在线设备模拟器 工具图标 网页在线设备模拟器" [level=3] [ref=e311]:
+            - img "网页在线设备模拟器 工具图标" [ref=e312]
+            - generic [ref=e313]: 网页在线设备模拟器
+          - paragraph [ref=e314]: 支持输入网址实时预览网页多终端显示，在完整保留交互功能的同时快速检查响应式兼容性。
+      - article [ref=e315]:
+        - link "浏览器信息检测 工具图标 浏览器信息检测 浏览器环境信息智能检测，自动输出包含系统 / 浏览器 / 屏幕 / 插件等全维度的完整环境信息列表结果。" [ref=e316] [cursor=pointer]:
+          - /url: /client-info/
+          - heading "浏览器信息检测 工具图标 浏览器信息检测" [level=3] [ref=e317]:
+            - img "浏览器信息检测 工具图标" [ref=e318]
+            - generic [ref=e319]: 浏览器信息检测
+          - paragraph [ref=e320]: 浏览器环境信息智能检测，自动输出包含系统 / 浏览器 / 屏幕 / 插件等全维度的完整环境信息列表结果。
+      - article [ref=e321]:
+        - link "创建网页快捷方式 工具图标 创建网页快捷方式 支持自定义名称与网址输入，快速、准确地生成Windows系统桌面快捷方式文件。" [ref=e322] [cursor=pointer]:
+          - /url: /shortcut/
+          - heading "创建网页快捷方式 工具图标 创建网页快捷方式" [level=3] [ref=e323]:
+            - img "创建网页快捷方式 工具图标" [ref=e324]
+            - generic [ref=e325]: 创建网页快捷方式
+          - paragraph [ref=e326]: 支持自定义名称与网址输入，快速、准确地生成Windows系统桌面快捷方式文件。
+      - article [ref=e327]:
+        - link "Sitemap链接提取 工具图标 Sitemap链接提取 Sitemap URL智能提取与导出工具，支持XML与文本格式解析，自动过滤系统链接，提供批量去重、一键复制。" [ref=e328] [cursor=pointer]:
+          - /url: /sitemap-extractor/
+          - heading "Sitemap链接提取 工具图标 Sitemap链接提取" [level=3] [ref=e329]:
+            - img "Sitemap链接提取 工具图标" [ref=e330]
+            - generic [ref=e331]: Sitemap链接提取
+          - paragraph [ref=e332]: Sitemap URL智能提取与导出工具，支持XML与文本格式解析，自动过滤系统链接，提供批量去重、一键复制。
+      - article [ref=e333]:
+        - link "日志文件分析器 工具图标 日志文件分析器 一键解析蜘蛛日志，实时分析爬虫行为，支持域名、类型、状态码筛选，助力SEO优化！" [ref=e334] [cursor=pointer]:
+          - /url: /log-analysis/
+          - heading "日志文件分析器 工具图标 日志文件分析器" [level=3] [ref=e335]:
+            - img "日志文件分析器 工具图标" [ref=e336]
+            - generic [ref=e337]: 日志文件分析器
+          - paragraph [ref=e338]: 一键解析蜘蛛日志，实时分析爬虫行为，支持域名、类型、状态码筛选，助力SEO优化！
+      - article [ref=e339]:
+        - link "友情链接检测 工具图标 友情链接检测 一键检测友链有无反链及链接状态，适用于站长友链交换、SEO优化、网站质量评估等场景。" [ref=e340] [cursor=pointer]:
+          - /url: /friend-links/
+          - heading "友情链接检测 工具图标 友情链接检测" [level=3] [ref=e341]:
+            - img "友情链接检测 工具图标" [ref=e342]
+            - generic [ref=e343]: 友情链接检测
+          - paragraph [ref=e344]: 一键检测友链有无反链及链接状态，适用于站长友链交换、SEO优化、网站质量评估等场景。
+      - article [ref=e345]:
+        - link "网页关键词密度检测 工具图标 网页关键词密度检测 支持网页关键词密度精准测算，适配 URL 抓取、密度核算等能力，适用于内容合规排查、站点优化分析等场景。" [ref=e346] [cursor=pointer]:
+          - /url: /density/
+          - heading "网页关键词密度检测 工具图标 网页关键词密度检测" [level=3] [ref=e347]:
+            - img "网页关键词密度检测 工具图标" [ref=e348]
+            - generic [ref=e349]: 网页关键词密度检测
+          - paragraph [ref=e350]: 支持网页关键词密度精准测算，适配 URL 抓取、密度核算等能力，适用于内容合规排查、站点优化分析等场景。
+      - article [ref=e351]:
+        - link "微信群活码生成器 工具图标 微信群活码生成器 支持活码二维码实时生成、高清下载、自定义样式，适配微信群码、链接转码、推广海报等场景。" [ref=e352] [cursor=pointer]:
+          - /url: /wechat-qrcode/
+          - heading "微信群活码生成器 工具图标 微信群活码生成器" [level=3] [ref=e353]:
+            - img "微信群活码生成器 工具图标" [ref=e354]
+            - generic [ref=e355]: 微信群活码生成器
+          - paragraph [ref=e356]: 支持活码二维码实时生成、高清下载、自定义样式，适配微信群码、链接转码、推广海报等场景。
+    - generic [ref=e357]:
+      - heading "站长工具介绍" [level=2] [ref=e358]
+      - generic [ref=e359]:
+        - heading "什么是站长工具？" [level=3] [ref=e360]
+        - paragraph [ref=e361]: ✨ 站长工具是懒人工具平台旗下专注于网站运营与SEO优化的核心栏目。作为精心设计的在线实用程序集合🌐，我们致力于为站长和网站运营者提供专业、便捷的网站分析解决方案。懒人工具始终秉承 "让复杂变简单" 的核心理念🎯，帮助用户轻松完成各种网站数据的监控与分析⚡。
+      - generic [ref=e362]:
+        - heading "站长工具提供哪些功能？" [level=3] [ref=e363]
+        - paragraph [ref=e364]: 我们提供SEO查询、网站排名检测、死链检查、关键词分析、网站速度测试、SSL证书检测、Whois查询、 robots.txt生成等多种网站管理功能💼，覆盖搜索引擎优化、网站性能监控、安全检测、竞争对手分析等多个领域🎯。无论是网站日常维护、SEO优化、性能调优，还是安全评估，都能在这里找到专业的分析工具✨！
+      - generic [ref=e365]:
+        - heading "站长工具适合哪些用户？" [level=3] [ref=e366]
+        - paragraph [ref=e367]: 本工具适用于网站站长、SEO专员、网站管理员、网络营销人员、网站开发者、内容创作者及所有需要管理和优化网站的用户👨‍💻。无论您是进行网站维护🔧、SEO优化📈、性能分析，还是竞争对手研究，这些工具都能为您提供准确可靠的数据支持✨。
+      - generic [ref=e368]:
+        - heading "站长工具拥有哪些优势？" [level=3] [ref=e369]
+        - paragraph [ref=e370]: 所有工具均可在线使用🌐，无需下载安装，支持实时检测，操作简单直观👆。分析数据准确可靠，支持多种网站指标监测，能够满足从个人博客到企业官网的各种需求🏠。同时，工具更新及时，界面专业清晰🍃，让网站管理变得轻松高效😊。
+      - generic [ref=e371]:
+        - heading "为什么您选择站长工具？" [level=3] [ref=e372]
+        - paragraph [ref=e373]: 我们将专业的网站分析技术封装成简单易用的在线工具✨，让您无需购买昂贵软件就能获得专业的网站数据分析服务🎯。无论是搜索引擎优化、网站性能监测、安全评估还是竞争对手分析，我们都能提供全面的解决方案。平台持续更新🔄，不断完善检测项目和数据分析维度，为您的网站运营和优化提供全方位的支持。
+    - generic [ref=e374]:
+      - navigation "页脚链接" [ref=e375]:
+        - link "关于我们" [ref=e376] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e377] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e378] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e379] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e380] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e381] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e382] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e383] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e384] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e385]:
+        - generic [ref=e386]:
+          - text: © 2025
+          - link "懒人工具" [ref=e387] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e389] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e390]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e391] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

@@ -1,0 +1,575 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - heading "一站式免费在线工具箱 - 分类齐全，即开即用" [level=1] [ref=e105]
+    - generic [ref=e106]:
+      - generic [ref=e107]: 搜索工具
+      - textbox "搜索工具" [ref=e108]:
+        - /placeholder: 输入关键词，按回车搜索，使用组合键 Alt+Q 调用...
+      - button "清空搜索": ✕
+    - heading "理财助手" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - article [ref=e111]:
+        - link "印花税计算器 工具图标 印花税计算器 自动识别并匹配十五类应税凭证税率，输入金额即可实时计算应纳税额。" [ref=e112] [cursor=pointer]:
+          - /url: /stamp-duty-calculator/
+          - heading "印花税计算器 工具图标 印花税计算器" [level=3] [ref=e113]:
+            - img "印花税计算器 工具图标" [ref=e114]
+            - generic [ref=e115]: 印花税计算器
+          - paragraph [ref=e116]: 自动识别并匹配十五类应税凭证税率，输入金额即可实时计算应纳税额。
+      - article [ref=e117]:
+        - link "利润率/ROI计算器 工具图标 利润率/ROI计算器 可快速测算商品的毛利率、净利率和投资回报率，支持成本、售价、退货率等费用录入。" [ref=e118] [cursor=pointer]:
+          - /url: /profit-roi-calculator/
+          - heading "利润率/ROI计算器 工具图标 利润率/ROI计算器" [level=3] [ref=e119]:
+            - img "利润率/ROI计算器 工具图标" [ref=e120]
+            - generic [ref=e121]: 利润率/ROI计算器
+          - paragraph [ref=e122]: 可快速测算商品的毛利率、净利率和投资回报率，支持成本、售价、退货率等费用录入。
+      - article [ref=e123]:
+        - link "年终奖个税计算器 工具图标 年终奖个税计算器 实现个税快速计算与结果展示，一键将税前奖金转为税后收入与应缴税款。" [ref=e124] [cursor=pointer]:
+          - /url: /bonus-tax-calculator/
+          - heading "年终奖个税计算器 工具图标 年终奖个税计算器" [level=3] [ref=e125]:
+            - img "年终奖个税计算器 工具图标" [ref=e126]
+            - generic [ref=e127]: 年终奖个税计算器
+          - paragraph [ref=e128]: 实现个税快速计算与结果展示，一键将税前奖金转为税后收入与应缴税款。
+      - article [ref=e129]:
+        - link "购车贷款计算器 工具图标 购车贷款计算器 支持车贷还款金额精准计算，等额本息/本金双模式，适用于购车贷款规划、还款明细核对等场景。" [ref=e130] [cursor=pointer]:
+          - /url: /car-loan-calculator/
+          - heading "购车贷款计算器 工具图标 购车贷款计算器" [level=3] [ref=e131]:
+            - img "购车贷款计算器 工具图标" [ref=e132]
+            - generic [ref=e133]: 购车贷款计算器
+          - paragraph [ref=e134]: 支持车贷还款金额精准计算，等额本息/本金双模式，适用于购车贷款规划、还款明细核对等场景。
+      - article [ref=e135]:
+        - link "网商贷利息计算器 工具图标 网商贷利息计算器 借款利息计算器，支持多还款方式计息与结果复制，适用于个人借款核算和企业资金规划等场景。" [ref=e136] [cursor=pointer]:
+          - /url: /wangshangdai-calculator/
+          - heading "网商贷利息计算器 工具图标 网商贷利息计算器" [level=3] [ref=e137]:
+            - img "网商贷利息计算器 工具图标" [ref=e138]
+            - generic [ref=e139]: 网商贷利息计算器
+          - paragraph [ref=e140]: 借款利息计算器，支持多还款方式计息与结果复制，适用于个人借款核算和企业资金规划等场景。
+      - article [ref=e141]:
+        - link "贷款计算器 工具图标 贷款计算器 支持等额本息与等额本金两种还款方式精准计算，自动识别贷款参数并智能生成完整还款明细。" [ref=e142] [cursor=pointer]:
+          - /url: /loan-calculator/
+          - heading "贷款计算器 工具图标 贷款计算器" [level=3] [ref=e143]:
+            - img "贷款计算器 工具图标" [ref=e144]
+            - generic [ref=e145]: 贷款计算器
+          - paragraph [ref=e146]: 支持等额本息与等额本金两种还款方式精准计算，自动识别贷款参数并智能生成完整还款明细。
+      - article [ref=e147]:
+        - link "工资条生成器 工具图标 工资条生成器 支持薪资项自动核算和工资条高清图片导出，适用于企业薪资核算和员工工资条发放存档等场景。" [ref=e148] [cursor=pointer]:
+          - /url: /payslip/
+          - heading "工资条生成器 工具图标 工资条生成器" [level=3] [ref=e149]:
+            - img "工资条生成器 工具图标" [ref=e150]
+            - generic [ref=e151]: 工资条生成器
+          - paragraph [ref=e152]: 支持薪资项自动核算和工资条高清图片导出，适用于企业薪资核算和员工工资条发放存档等场景。
+    - heading "信息查询" [level=2] [ref=e153]
+    - generic [ref=e154]:
+      - article [ref=e155]:
+        - link "114黄页电话查询 工具图标 114黄页电话查询 一键黄页查询，实时输出结果，结合使用场景精准匹配服务内容，快速获取联系电话，让应急电话触手可及。" [ref=e156] [cursor=pointer]:
+          - /url: /yellow-pages/
+          - heading "114黄页电话查询 工具图标 114黄页电话查询" [level=3] [ref=e157]:
+            - img "114黄页电话查询 工具图标" [ref=e158]
+            - generic [ref=e159]: 114黄页电话查询
+          - paragraph [ref=e160]: 一键黄页查询，实时输出结果，结合使用场景精准匹配服务内容，快速获取联系电话，让应急电话触手可及。
+      - article [ref=e161]:
+        - link "手机归属地查询 工具图标 手机归属地查询 基于号段规则智能解析手机号，精准定位归属省份、城市、运营商及区号邮编信息。" [ref=e162] [cursor=pointer]:
+          - /url: /phone-location/
+          - heading "手机归属地查询 工具图标 手机归属地查询" [level=3] [ref=e163]:
+            - img "手机归属地查询 工具图标" [ref=e164]
+            - generic [ref=e165]: 手机归属地查询
+          - paragraph [ref=e166]: 基于号段规则智能解析手机号，精准定位归属省份、城市、运营商及区号邮编信息。
+      - article [ref=e167]:
+        - link "身份证号码查询 工具图标 身份证号码查询 一键校验解析，实时查询身份证信息，支持15位与18位双模式，精准识别身份证信息。" [ref=e168] [cursor=pointer]:
+          - /url: /identity/
+          - heading "身份证号码查询 工具图标 身份证号码查询" [level=3] [ref=e169]:
+            - img "身份证号码查询 工具图标" [ref=e170]
+            - generic [ref=e171]: 身份证号码查询
+          - paragraph [ref=e172]: 一键校验解析，实时查询身份证信息，支持15位与18位双模式，精准识别身份证信息。
+      - article [ref=e173]:
+        - link "QQ群信息查询 工具图标 QQ群信息查询 输入QQ群号即可获取群名称、成员数、活跃人数、加群链接等，适用于社群管理、群信息核实等场景。" [ref=e174] [cursor=pointer]:
+          - /url: /qq-group/
+          - heading "QQ群信息查询 工具图标 QQ群信息查询" [level=3] [ref=e175]:
+            - img "QQ群信息查询 工具图标" [ref=e176]
+            - generic [ref=e177]: QQ群信息查询
+          - paragraph [ref=e178]: 输入QQ群号即可获取群名称、成员数、活跃人数、加群链接等，适用于社群管理、群信息核实等场景。
+      - article [ref=e179]:
+        - link "全国重点大学名单 工具图标 全国重点大学名单 全国重点大学信息查看平台，全面收录全国985/211工程、双一流建设高校详细信息。" [ref=e180] [cursor=pointer]:
+          - /url: /university/
+          - heading "全国重点大学名单 工具图标 全国重点大学名单" [level=3] [ref=e181]:
+            - img "全国重点大学名单 工具图标" [ref=e182]
+            - generic [ref=e183]: 全国重点大学名单
+          - paragraph [ref=e184]: 全国重点大学信息查看平台，全面收录全国985/211工程、双一流建设高校详细信息。
+      - article [ref=e185]:
+        - link "色盲色弱测试 工具图标 色盲色弱测试 基于20道专业色觉测试题，精准识别色盲色弱类型，自动完成智能分析并生成色觉健康详细评估报告。" [ref=e186] [cursor=pointer]:
+          - /url: /color-blindness/
+          - heading "色盲色弱测试 工具图标 色盲色弱测试" [level=3] [ref=e187]:
+            - img "色盲色弱测试 工具图标" [ref=e188]
+            - generic [ref=e189]: 色盲色弱测试
+          - paragraph [ref=e190]: 基于20道专业色觉测试题，精准识别色盲色弱类型，自动完成智能分析并生成色觉健康详细评估报告。
+      - article [ref=e191]:
+        - link "中国高清地图 工具图标 中国高清地图 智能呈现高分辨率中国行政区划图，精准展示省份边界划分，并提供基础缩放与视图复位功能。" [ref=e192] [cursor=pointer]:
+          - /url: /china-map/
+          - heading "中国高清地图 工具图标 中国高清地图" [level=3] [ref=e193]:
+            - img "中国高清地图 工具图标" [ref=e194]
+            - generic [ref=e195]: 中国高清地图
+          - paragraph [ref=e196]: 智能呈现高分辨率中国行政区划图，精准展示省份边界划分，并提供基础缩放与视图复位功能。
+      - article [ref=e197]:
+        - link "世界高清地图 工具图标 世界高清地图 智能呈现高分辨率全球行政区划图，精准展示国际边界划分，并提供基础缩放与视图复位功能。" [ref=e198] [cursor=pointer]:
+          - /url: /world-map/
+          - heading "世界高清地图 工具图标 世界高清地图" [level=3] [ref=e199]:
+            - img "世界高清地图 工具图标" [ref=e200]
+            - generic [ref=e201]: 世界高清地图
+          - paragraph [ref=e202]: 智能呈现高分辨率全球行政区划图，精准展示国际边界划分，并提供基础缩放与视图复位功能。
+    - heading "日期时间" [level=2] [ref=e203]
+    - generic [ref=e204]:
+      - article [ref=e205]:
+        - link "北京标准时间 工具图标 北京标准时间 北京标准时间，即中国的官方标准时间，为协调世界时(UTC)+8小时。该时区覆盖全国，不实行夏令时制度。" [ref=e206] [cursor=pointer]:
+          - /url: /time/china-beijing/
+          - heading "北京标准时间 工具图标 北京标准时间" [level=3] [ref=e207]:
+            - img "北京标准时间 工具图标" [ref=e208]
+            - generic [ref=e209]: 北京标准时间
+          - paragraph [ref=e210]: 北京标准时间，即中国的官方标准时间，为协调世界时(UTC)+8小时。该时区覆盖全国，不实行夏令时制度。
+      - article [ref=e211]:
+        - link "新加坡标准时间 工具图标 新加坡标准时间 支持实时显示本地精准时间与时区信息，适用于新加坡旅游行程、景点游览与出行时间规划等场景。" [ref=e212] [cursor=pointer]:
+          - /url: /time-singapore/
+          - heading "新加坡标准时间 工具图标 新加坡标准时间" [level=3] [ref=e213]:
+            - img "新加坡标准时间 工具图标" [ref=e214]
+            - generic [ref=e215]: 新加坡标准时间
+          - paragraph [ref=e216]: 支持实时显示本地精准时间与时区信息，适用于新加坡旅游行程、景点游览与出行时间规划等场景。
+      - article [ref=e217]:
+        - link "日本东京时间 工具图标 日本东京时间 支持东京（日本）标准时间、UTC+9 时区精准换算、本地时间实时对照与日本其他区域时间统一展示。" [ref=e218] [cursor=pointer]:
+          - /url: /time/japan-tokyo/
+          - heading "日本东京时间 工具图标 日本东京时间" [level=3] [ref=e219]:
+            - img "日本东京时间 工具图标" [ref=e220]
+            - generic [ref=e221]: 日本东京时间
+          - paragraph [ref=e222]: 支持东京（日本）标准时间、UTC+9 时区精准换算、本地时间实时对照与日本其他区域时间统一展示。
+      - article [ref=e223]:
+        - link "韩国首尔时间 工具图标 韩国首尔时间 支持首尔（韩国）标准时间、UTC+9 时区精准换算、本地时间实时对照与韩国其他区域时间统一展示。" [ref=e224] [cursor=pointer]:
+          - /url: /time/south-korea-seoul/
+          - heading "韩国首尔时间 工具图标 韩国首尔时间" [level=3] [ref=e225]:
+            - img "韩国首尔时间 工具图标" [ref=e226]
+            - generic [ref=e227]: 韩国首尔时间
+          - paragraph [ref=e228]: 支持首尔（韩国）标准时间、UTC+9 时区精准换算、本地时间实时对照与韩国其他区域时间统一展示。
+      - article [ref=e229]:
+        - link "全球标准时间表 工具图标 全球标准时间表 一键查看全球各国首都的当前标准时间，清晰呈现UTC时区与夏令时状况，确保信息准确直观。" [ref=e230] [cursor=pointer]:
+          - /url: /time/
+          - heading "全球标准时间表 工具图标 全球标准时间表" [level=3] [ref=e231]:
+            - img "全球标准时间表 工具图标" [ref=e232]
+            - generic [ref=e233]: 全球标准时间表
+          - paragraph [ref=e234]: 一键查看全球各国首都的当前标准时间，清晰呈现UTC时区与夏令时状况，确保信息准确直观。
+      - article [ref=e235]:
+        - link "2026年放假安排 工具图标 2026年放假安排 支持自动展示最近法定节假日，一键切换假期倒计时，适用于假期查询、日程安排、节日提醒等日常使用场景。" [ref=e236] [cursor=pointer]:
+          - /url: /holiday-2026/
+          - heading "2026年放假安排 工具图标 2026年放假安排" [level=3] [ref=e237]:
+            - img "2026年放假安排 工具图标" [ref=e238]
+            - generic [ref=e239]: 2026年放假安排
+          - paragraph [ref=e240]: 支持自动展示最近法定节假日，一键切换假期倒计时，适用于假期查询、日程安排、节日提醒等日常使用场景。
+      - article [ref=e241]:
+        - link "2026劳动节排班生成 工具图标 2026劳动节排班生成 支持一键生成值班排班表，可自由设置值班人数，支持导出 Excel与纯前端打印，打印时仅输出表格内容。" [ref=e242] [cursor=pointer]:
+          - /url: /laborday-holiday-duty/
+          - heading "2026劳动节排班生成 工具图标 2026劳动节排班生成" [level=3] [ref=e243]:
+            - img "2026劳动节排班生成 工具图标" [ref=e244]
+            - generic [ref=e245]: 2026劳动节排班生成
+          - paragraph [ref=e246]: 支持一键生成值班排班表，可自由设置值班人数，支持导出 Excel与纯前端打印，打印时仅输出表格内容。
+      - article [ref=e247]:
+        - link "节日时间倒计时 工具图标 节日时间倒计时 节日倒计时工具，一键智能切换多个传统与现代节日倒计时，自动完成农历日期换算与未来时间计算，直观高效。" [ref=e248] [cursor=pointer]:
+          - /url: /countdown/
+          - heading "节日时间倒计时 工具图标 节日时间倒计时" [level=3] [ref=e249]:
+            - img "节日时间倒计时 工具图标" [ref=e250]
+            - generic [ref=e251]: 节日时间倒计时
+          - paragraph [ref=e252]: 节日倒计时工具，一键智能切换多个传统与现代节日倒计时，自动完成农历日期换算与未来时间计算，直观高效。
+      - article [ref=e253]:
+        - link "高考冲刺倒计时 工具图标 高考冲刺倒计时 实时显示距离高考剩余的天数、小时、分钟、秒，以数字钟表形式精准呈现，帮助考生掌握每一刻备考时长。" [ref=e254] [cursor=pointer]:
+          - /url: /gaokao/
+          - heading "高考冲刺倒计时 工具图标 高考冲刺倒计时" [level=3] [ref=e255]:
+            - img "高考冲刺倒计时 工具图标" [ref=e256]
+            - generic [ref=e257]: 高考冲刺倒计时
+          - paragraph [ref=e258]: 实时显示距离高考剩余的天数、小时、分钟、秒，以数字钟表形式精准呈现，帮助考生掌握每一刻备考时长。
+      - article [ref=e259]:
+        - link "高考冲刺倒计时 工具图标 高考冲刺倒计时 高考冲刺倒计时，支持显示精准剩余天数时分秒，适用于考生备考计时和备考信息查询等场景。" [ref=e260] [cursor=pointer]:
+          - /url: /gaokao-countdown/
+          - heading "高考冲刺倒计时 工具图标 高考冲刺倒计时" [level=3] [ref=e261]:
+            - img "高考冲刺倒计时 工具图标" [ref=e262]
+            - generic [ref=e263]: 高考冲刺倒计时
+          - paragraph [ref=e264]: 高考冲刺倒计时，支持显示精准剩余天数时分秒，适用于考生备考计时和备考信息查询等场景。
+      - article [ref=e265]:
+        - link "清明节倒计时 工具图标 清明节倒计时 清明节倒计时，支持显示精准剩余天数时分秒，适用于假期安排、祭扫出行与民俗信息查询等场景。" [ref=e266] [cursor=pointer]:
+          - /url: /qingming-countdown/
+          - heading "清明节倒计时 工具图标 清明节倒计时" [level=3] [ref=e267]:
+            - img "清明节倒计时 工具图标" [ref=e268]
+            - generic [ref=e269]: 清明节倒计时
+          - paragraph [ref=e270]: 清明节倒计时，支持显示精准剩余天数时分秒，适用于假期安排、祭扫出行与民俗信息查询等场景。
+      - article [ref=e271]:
+        - link "公历农历转换器 工具图标 公历农历转换器 支持公历农历双向一键转换，适用于日常日期查询、传统历法参考、生肖星座查阅等场景。" [ref=e272] [cursor=pointer]:
+          - /url: /lunar-solar-converter/
+          - heading "公历农历转换器 工具图标 公历农历转换器" [level=3] [ref=e273]:
+            - img "公历农历转换器 工具图标" [ref=e274]
+            - generic [ref=e275]: 公历农历转换器
+          - paragraph [ref=e276]: 支持公历农历双向一键转换，适用于日常日期查询、传统历法参考、生肖星座查阅等场景。
+    - heading "身体健康" [level=2] [ref=e277]
+    - generic [ref=e278]:
+      - article [ref=e279]:
+        - link "体脂率(BFR)计算器 工具图标 体脂率(BFR)计算器 实现身体成分的快速评估，根据身高、体重、年龄和性别一键计算体脂率百分比。" [ref=e280] [cursor=pointer]:
+          - /url: /bfr/
+          - heading "体脂率(BFR)计算器 工具图标 体脂率(BFR)计算器" [level=3] [ref=e281]:
+            - img "体脂率(BFR)计算器 工具图标" [ref=e282]
+            - generic [ref=e283]: 体脂率(BFR)计算器
+          - paragraph [ref=e284]: 实现身体成分的快速评估，根据身高、体重、年龄和性别一键计算体脂率百分比。
+      - article [ref=e285]:
+        - link "BMI指数计算器 工具图标 BMI指数计算器 根据身高/体重一键计算BMI指数，实现健康指标的快速评估。" [ref=e286] [cursor=pointer]:
+          - /url: /bmi/
+          - heading "BMI指数计算器 工具图标 BMI指数计算器" [level=3] [ref=e287]:
+            - img "BMI指数计算器 工具图标" [ref=e288]
+            - generic [ref=e289]: BMI指数计算器
+          - paragraph [ref=e290]: 根据身高/体重一键计算BMI指数，实现健康指标的快速评估。
+      - article [ref=e291]:
+        - link "法定退休年龄计算器 工具图标 法定退休年龄计算器 支持延迟退休年龄与退休时间精准测算，自动识别出生年月并智能计算延迟月数，提供一键复制。" [ref=e292] [cursor=pointer]:
+          - /url: /retirement-calculator/
+          - heading "法定退休年龄计算器 工具图标 法定退休年龄计算器" [level=3] [ref=e293]:
+            - img "法定退休年龄计算器 工具图标" [ref=e294]
+            - generic [ref=e295]: 法定退休年龄计算器
+          - paragraph [ref=e296]: 支持延迟退休年龄与退休时间精准测算，自动识别出生年月并智能计算延迟月数，提供一键复制。
+      - article [ref=e297]:
+        - link "宝宝身高预测计算器 工具图标 宝宝身高预测计算器 结合父母身高和宝宝性别等遗传数据，精准预测宝宝成年身高。为家庭成长规划提供科学的遗传身高参考。" [ref=e298] [cursor=pointer]:
+          - /url: /height-calculator/
+          - heading "宝宝身高预测计算器 工具图标 宝宝身高预测计算器" [level=3] [ref=e299]:
+            - img "宝宝身高预测计算器 工具图标" [ref=e300]
+            - generic [ref=e301]: 宝宝身高预测计算器
+          - paragraph [ref=e302]: 结合父母身高和宝宝性别等遗传数据，精准预测宝宝成年身高。为家庭成长规划提供科学的遗传身高参考。
+      - article [ref=e303]:
+        - link "出生日期信息查询 工具图标 出生日期信息查询 一键解析出生日期，涵盖年龄生肖星座节气，支持公农历转换与人生阶段判断，即时生成详细报告。" [ref=e304] [cursor=pointer]:
+          - /url: /birth/
+          - heading "出生日期信息查询 工具图标 出生日期信息查询" [level=3] [ref=e305]:
+            - img "出生日期信息查询 工具图标" [ref=e306]
+            - generic [ref=e307]: 出生日期信息查询
+          - paragraph [ref=e308]: 一键解析出生日期，涵盖年龄生肖星座节气，支持公农历转换与人生阶段判断，即时生成详细报告。
+      - article [ref=e309]:
+        - link "周虚岁年龄计算器 工具图标 周虚岁年龄计算器 实现出生日期到年龄的快速在线换算与统计，支持选择出生年月日、一键计算周岁与虚岁。" [ref=e310] [cursor=pointer]:
+          - /url: /age/
+          - heading "周虚岁年龄计算器 工具图标 周虚岁年龄计算器" [level=3] [ref=e311]:
+            - img "周虚岁年龄计算器 工具图标" [ref=e312]
+            - generic [ref=e313]: 周虚岁年龄计算器
+          - paragraph [ref=e314]: 实现出生日期到年龄的快速在线换算与统计，支持选择出生年月日、一键计算周岁与虚岁。
+      - article [ref=e315]:
+        - link "家庭急救箱清单 工具图标 家庭急救箱清单 家庭小药箱清单，智能筛选推荐，支持个性化配置与一键导出，快速生成家庭常备药品储备方案。" [ref=e316] [cursor=pointer]:
+          - /url: /family-medicine/
+          - heading "家庭急救箱清单 工具图标 家庭急救箱清单" [level=3] [ref=e317]:
+            - img "家庭急救箱清单 工具图标" [ref=e318]
+            - generic [ref=e319]: 家庭急救箱清单
+          - paragraph [ref=e320]: 家庭小药箱清单，智能筛选推荐，支持个性化配置与一键导出，快速生成家庭常备药品储备方案。
+    - heading "趣味生活" [level=2] [ref=e321]
+    - generic [ref=e322]:
+      - article [ref=e323]:
+        - link "敲木鱼攒功德 工具图标 敲木鱼攒功德 专业在线修福工具，支持全屏沉浸与功德计数，提供实时善念反馈，满足静心减压、佛系治愈需求。" [ref=e324] [cursor=pointer]:
+          - /url: /woodfish/
+          - heading "敲木鱼攒功德 工具图标 敲木鱼攒功德" [level=3] [ref=e325]:
+            - img "敲木鱼攒功德 工具图标" [ref=e326]
+            - generic [ref=e327]: 敲木鱼攒功德
+          - paragraph [ref=e328]: 专业在线修福工具，支持全屏沉浸与功德计数，提供实时善念反馈，满足静心减压、佛系治愈需求。
+      - article [ref=e329]:
+        - link "随机抛硬币 工具图标 随机抛硬币 支持自定义硬币数量，同时抛出多枚硬币，3D 翻转展示正反面，实时统计正面与反面出现次数。" [ref=e330] [cursor=pointer]:
+          - /url: /toss-coins/
+          - heading "随机抛硬币 工具图标 随机抛硬币" [level=3] [ref=e331]:
+            - img "随机抛硬币 工具图标" [ref=e332]
+            - generic [ref=e333]: 随机抛硬币
+          - paragraph [ref=e334]: 支持自定义硬币数量，同时抛出多枚硬币，3D 翻转展示正反面，实时统计正面与反面出现次数。
+      - article [ref=e335]:
+        - link "在线随机点名 工具图标 在线随机点名 基于随机算法智能抽取名单，支持自定义名单，适用于年终抽奖、课堂点名等多种场景。" [ref=e336] [cursor=pointer]:
+          - /url: /roll-call/
+          - heading "在线随机点名 工具图标 在线随机点名" [level=3] [ref=e337]:
+            - img "在线随机点名 工具图标" [ref=e338]
+            - generic [ref=e339]: 在线随机点名
+          - paragraph [ref=e340]: 基于随机算法智能抽取名单，支持自定义名单，适用于年终抽奖、课堂点名等多种场景。
+      - article [ref=e341]:
+        - link "搞笑微信群名 工具图标 搞笑微信群名 百款搞笑微信群名任选，智能分类/即点即用，支持多场景轻松挑选，全面优化群聊创建体验。" [ref=e342] [cursor=pointer]:
+          - /url: /group-names/
+          - heading "搞笑微信群名 工具图标 搞笑微信群名" [level=3] [ref=e343]:
+            - img "搞笑微信群名 工具图标" [ref=e344]
+            - generic [ref=e345]: 搞笑微信群名
+          - paragraph [ref=e346]: 百款搞笑微信群名任选，智能分类/即点即用，支持多场景轻松挑选，全面优化群聊创建体验。
+      - article [ref=e347]:
+        - link "辞职信生成器 工具图标 辞职信生成器 一键辞职信生成，智能模板/个性定制，支持多风格秒级生成，全面优化辞职流程。" [ref=e348] [cursor=pointer]:
+          - /url: /resignation/
+          - heading "辞职信生成器 工具图标 辞职信生成器" [level=3] [ref=e349]:
+            - img "辞职信生成器 工具图标" [ref=e350]
+            - generic [ref=e351]: 辞职信生成器
+          - paragraph [ref=e352]: 一键辞职信生成，智能模板/个性定制，支持多风格秒级生成，全面优化辞职流程。
+      - article [ref=e353]:
+        - link "心灵鸡汤语录 工具图标 心灵鸡汤语录 支持随机生成心灵鸡汤、名言警句、人生感悟语录，适用于日常激励、文案创作、网页展示等场景。" [ref=e354] [cursor=pointer]:
+          - /url: /soulfood/
+          - heading "心灵鸡汤语录 工具图标 心灵鸡汤语录" [level=3] [ref=e355]:
+            - img "心灵鸡汤语录 工具图标" [ref=e356]
+            - generic [ref=e357]: 心灵鸡汤语录
+          - paragraph [ref=e358]: 支持随机生成心灵鸡汤、名言警句、人生感悟语录，适用于日常激励、文案创作、网页展示等场景。
+      - article [ref=e359]:
+        - link "假装系统在升级 工具图标 假装系统在升级 支持模拟系统升级与蓝屏报错，全屏逼真展示，一键 ESC 快速退出，纯前端运行，上班摸鱼稳定又省心。" [ref=e360] [cursor=pointer]:
+          - /url: /system-upgrade/
+          - heading "假装系统在升级 工具图标 假装系统在升级" [level=3] [ref=e361]:
+            - img "假装系统在升级 工具图标" [ref=e362]
+            - generic [ref=e363]: 假装系统在升级
+          - paragraph [ref=e364]: 支持模拟系统升级与蓝屏报错，全屏逼真展示，一键 ESC 快速退出，纯前端运行，上班摸鱼稳定又省心。
+      - article [ref=e365]:
+        - link "扬声器清灰助手 工具图标 扬声器清灰助手 支持四种专业清灰模式，实时波形动画反馈，一键启动/停止，通过特定频率声波振动清除喇叭网孔灰尘。" [ref=e366] [cursor=pointer]:
+          - /url: /speaker-clean/
+          - heading "扬声器清灰助手 工具图标 扬声器清灰助手" [level=3] [ref=e367]:
+            - img "扬声器清灰助手 工具图标" [ref=e368]
+            - generic [ref=e369]: 扬声器清灰助手
+          - paragraph [ref=e370]: 支持四种专业清灰模式，实时波形动画反馈，一键启动/停止，通过特定频率声波振动清除喇叭网孔灰尘。
+      - article [ref=e371]:
+        - link "女性话术解读 工具图标 女性话术解读 解析话术背后真实含义，提供客观理性参考，适用于情感认知提升、社交思维优化等场景。" [ref=e372] [cursor=pointer]:
+          - /url: /girl-insight/
+          - heading "女性话术解读 工具图标 女性话术解读" [level=3] [ref=e373]:
+            - img "女性话术解读 工具图标" [ref=e374]
+            - generic [ref=e375]: 女性话术解读
+          - paragraph [ref=e376]: 解析话术背后真实含义，提供客观理性参考，适用于情感认知提升、社交思维优化等场景。
+      - article [ref=e377]:
+        - link "恋爱次数年龄计算器 工具图标 恋爱次数年龄计算器 通过数字公式解密恋爱次数与年龄，提供趣味直观结果，适用于休闲娱乐互动、轻松社交测试等场景。" [ref=e378] [cursor=pointer]:
+          - /url: /love-calc/
+          - heading "恋爱次数年龄计算器 工具图标 恋爱次数年龄计算器" [level=3] [ref=e379]:
+            - img "恋爱次数年龄计算器 工具图标" [ref=e380]
+            - generic [ref=e381]: 恋爱次数年龄计算器
+          - paragraph [ref=e382]: 通过数字公式解密恋爱次数与年龄，提供趣味直观结果，适用于休闲娱乐互动、轻松社交测试等场景。
+      - article [ref=e383]:
+        - link "宝宝姓名生成器 工具图标 宝宝姓名生成器 专业在线中文姓名生成工具，支持性别分明的名字生成，保障姓名符合传统文化与现代审美。" [ref=e384] [cursor=pointer]:
+          - /url: /name-generator/
+          - heading "宝宝姓名生成器 工具图标 宝宝姓名生成器" [level=3] [ref=e385]:
+            - img "宝宝姓名生成器 工具图标" [ref=e386]
+            - generic [ref=e387]: 宝宝姓名生成器
+          - paragraph [ref=e388]: 专业在线中文姓名生成工具，支持性别分明的名字生成，保障姓名符合传统文化与现代审美。
+      - article [ref=e389]:
+        - link "日期天数计算器 工具图标 日期天数计算器 支持日期相差天数计算与天数推算日期两种模式，自动识别日期参数并生成准确结果。" [ref=e390] [cursor=pointer]:
+          - /url: /day-calculator/
+          - heading "日期天数计算器 工具图标 日期天数计算器" [level=3] [ref=e391]:
+            - img "日期天数计算器 工具图标" [ref=e392]
+            - generic [ref=e393]: 日期天数计算器
+          - paragraph [ref=e394]: 支持日期相差天数计算与天数推算日期两种模式，自动识别日期参数并生成准确结果。
+    - heading "其他工具" [level=2] [ref=e395]
+    - generic [ref=e396]:
+      - article [ref=e397]:
+        - link "轻量级文本编辑器 工具图标 轻量级文本编辑器 支持多文档管理、自动保存至本地、行号显示、黑白双主题切换及字体大小调节，自带撤销/重做功能。" [ref=e398] [cursor=pointer]:
+          - /url: /editor/
+          - heading "轻量级文本编辑器 工具图标 轻量级文本编辑器" [level=3] [ref=e399]:
+            - img "轻量级文本编辑器 工具图标" [ref=e400]
+            - generic [ref=e401]: 轻量级文本编辑器
+          - paragraph [ref=e402]: 支持多文档管理、自动保存至本地、行号显示、黑白双主题切换及字体大小调节，自带撤销/重做功能。
+      - article [ref=e403]:
+        - link "上标/下标生成器 工具图标 上标/下标生成器 实现文本字符的快速排版，可一键将数字、字母、希腊字母及运算符转为上标或下标形式。" [ref=e404] [cursor=pointer]:
+          - /url: /superscript-subscript-generator/
+          - heading "上标/下标生成器 工具图标 上标/下标生成器" [level=3] [ref=e405]:
+            - img "上标/下标生成器 工具图标" [ref=e406]
+            - generic [ref=e407]: 上标/下标生成器
+          - paragraph [ref=e408]: 实现文本字符的快速排版，可一键将数字、字母、希腊字母及运算符转为上标或下标形式。
+      - article [ref=e409]:
+        - link "全角半角批量转换器 工具图标 全角半角批量转换器 实现文本字符的快速标准化处理，可一键将全角字符转为半角或半角转全角。" [ref=e410] [cursor=pointer]:
+          - /url: /full-half-converter/
+          - heading "全角半角批量转换器 工具图标 全角半角批量转换器" [level=3] [ref=e411]:
+            - img "全角半角批量转换器 工具图标" [ref=e412]
+            - generic [ref=e413]: 全角半角批量转换器
+          - paragraph [ref=e414]: 实现文本字符的快速标准化处理，可一键将全角字符转为半角或半角转全角。
+      - article [ref=e415]:
+        - link "智能待办清单 工具图标 智能待办清单 支持任务增删与状态管理，实时渲染更新，一键添加/完成/删除，通过本地存储持久化保存任务数据。" [ref=e416] [cursor=pointer]:
+          - /url: /todo/
+          - heading "智能待办清单 工具图标 智能待办清单" [level=3] [ref=e417]:
+            - img "智能待办清单 工具图标" [ref=e418]
+            - generic [ref=e419]: 智能待办清单
+          - paragraph [ref=e420]: 支持任务增删与状态管理，实时渲染更新，一键添加/完成/删除，通过本地存储持久化保存任务数据。
+      - article [ref=e421]:
+        - link "计时器/秒表 工具图标 计时器/秒表 精准实现毫秒级计时功能，并提供开始、暂停、重置与计次记录等核心操作与实时时间显示。" [ref=e422] [cursor=pointer]:
+          - /url: /stop-watch/
+          - heading "计时器/秒表 工具图标 计时器/秒表" [level=3] [ref=e423]:
+            - img "计时器/秒表 工具图标" [ref=e424]
+            - generic [ref=e425]: 计时器/秒表
+          - paragraph [ref=e426]: 精准实现毫秒级计时功能，并提供开始、暂停、重置与计次记录等核心操作与实时时间显示。
+      - article [ref=e427]:
+        - link "工作闹钟提醒 工具图标 工作闹钟提醒 支持自定义提醒时间、铃声选择与快速模板设置，适用于办公提醒、生活备忘等场景。" [ref=e428] [cursor=pointer]:
+          - /url: /alarm-clock/
+          - heading "工作闹钟提醒 工具图标 工作闹钟提醒" [level=3] [ref=e429]:
+            - img "工作闹钟提醒 工具图标" [ref=e430]
+            - generic [ref=e431]: 工作闹钟提醒
+          - paragraph [ref=e432]: 支持自定义提醒时间、铃声选择与快速模板设置，适用于办公提醒、生活备忘等场景。
+      - article [ref=e433]:
+        - link "键盘按键检测 工具图标 键盘按键检测 精准全面的在线键盘测试工具，支持检测字母、数字、功能键、方向键和小键盘等所有按键，实时显示按压状态与故障诊断。" [ref=e434] [cursor=pointer]:
+          - /url: /keyboard/
+          - heading "键盘按键检测 工具图标 键盘按键检测" [level=3] [ref=e435]:
+            - img "键盘按键检测 工具图标" [ref=e436]
+            - generic [ref=e437]: 键盘按键检测
+          - paragraph [ref=e438]: 精准全面的在线键盘测试工具，支持检测字母、数字、功能键、方向键和小键盘等所有按键，实时显示按压状态与故障诊断。
+      - article [ref=e439]:
+        - link "鼠标按键检测 工具图标 鼠标按键检测 鼠标按键检测工具，精准识别各键响应，支持实时高亮反馈与状态追踪，全面诊断鼠标功能异常问题。" [ref=e440] [cursor=pointer]:
+          - /url: /mouse/
+          - heading "鼠标按键检测 工具图标 鼠标按键检测" [level=3] [ref=e441]:
+            - img "鼠标按键检测 工具图标" [ref=e442]
+            - generic [ref=e443]: 鼠标按键检测
+          - paragraph [ref=e444]: 鼠标按键检测工具，精准识别各键响应，支持实时高亮反馈与状态追踪，全面诊断鼠标功能异常问题。
+      - article [ref=e445]:
+        - link "UUID生成器 工具图标 UUID生成器 专业UUID生成工具，支持批量生成和格式自定义，大小写转换、中划线处理功能，满足开发测试数据需求。" [ref=e446] [cursor=pointer]:
+          - /url: /uuid/
+          - heading "UUID生成器 工具图标 UUID生成器" [level=3] [ref=e447]:
+            - img "UUID生成器 工具图标" [ref=e448]
+            - generic [ref=e449]: UUID生成器
+          - paragraph [ref=e450]: 专业UUID生成工具，支持批量生成和格式自定义，大小写转换、中划线处理功能，满足开发测试数据需求。
+      - article [ref=e451]:
+        - link "LED全屏弹幕生成器 工具图标 LED全屏弹幕生成器 多维度弹幕自定义设置，智能运动风格/特效丰富，覆盖各类展示场景，全方位增强视觉冲击力。" [ref=e452] [cursor=pointer]:
+          - /url: /led/
+          - heading "LED全屏弹幕生成器 工具图标 LED全屏弹幕生成器" [level=3] [ref=e453]:
+            - img "LED全屏弹幕生成器 工具图标" [ref=e454]
+            - generic [ref=e455]: LED全屏弹幕生成器
+          - paragraph [ref=e456]: 多维度弹幕自定义设置，智能运动风格/特效丰富，覆盖各类展示场景，全方位增强视觉冲击力。
+      - article [ref=e457]:
+        - link "精美模板邮件群发助手 工具图标 精美模板邮件群发助手 支持多邮箱 SMTP 发信、模板一键套用与批量群发设置，适用于办公通知、人事公告、日常通讯等场景。" [ref=e458] [cursor=pointer]:
+          - /url: /email/
+          - heading "精美模板邮件群发助手 工具图标 精美模板邮件群发助手" [level=3] [ref=e459]:
+            - img "精美模板邮件群发助手 工具图标" [ref=e460]
+            - generic [ref=e461]: 精美模板邮件群发助手
+          - paragraph [ref=e462]: 支持多邮箱 SMTP 发信、模板一键套用与批量群发设置，适用于办公通知、人事公告、日常通讯等场景。
+      - article [ref=e463]:
+        - link "手机号批量去重 工具图标 手机号批量去重 手机号码自动去重，智能识别并清洗不规范号码，支持批量处理并确保数据唯一性。" [ref=e464] [cursor=pointer]:
+          - /url: /mobile-unique/
+          - heading "手机号批量去重 工具图标 手机号批量去重" [level=3] [ref=e465]:
+            - img "手机号批量去重 工具图标" [ref=e466]
+            - generic [ref=e467]: 手机号批量去重
+          - paragraph [ref=e468]: 手机号码自动去重，智能识别并清洗不规范号码，支持批量处理并确保数据唯一性。
+      - article [ref=e469]:
+        - link "手机号掩码还原 工具图标 手机号掩码还原 智能还原手机号中四位带星的隐藏数字，并精准筛选出最有可能的完整号码组合。" [ref=e470] [cursor=pointer]:
+          - /url: /mobile-unmask/
+          - heading "手机号掩码还原 工具图标 手机号掩码还原" [level=3] [ref=e471]:
+            - img "手机号掩码还原 工具图标" [ref=e472]
+            - generic [ref=e473]: 手机号掩码还原
+          - paragraph [ref=e474]: 智能还原手机号中四位带星的隐藏数字，并精准筛选出最有可能的完整号码组合。
+      - article [ref=e475]:
+        - link "WIFI二维码生成器 工具图标 WIFI二维码生成器 支持三种加密方式（无加密/WPA/WPA2）及隐藏网络识别，实时生成标准Wi-Fi二维码图片。" [ref=e476] [cursor=pointer]:
+          - /url: /wifi-qrcode/
+          - heading "WIFI二维码生成器 工具图标 WIFI二维码生成器" [level=3] [ref=e477]:
+            - img "WIFI二维码生成器 工具图标" [ref=e478]
+            - generic [ref=e479]: WIFI二维码生成器
+          - paragraph [ref=e480]: 支持三种加密方式（无加密/WPA/WPA2）及隐藏网络识别，实时生成标准Wi-Fi二维码图片。
+      - article [ref=e481]:
+        - link "微信多开生成器 工具图标 微信多开生成器 智能生成微信多开批处理脚本，灵活配置多开数量与路径格式，自动批量输出标准化多开命令。" [ref=e482] [cursor=pointer]:
+          - /url: /wechat-multi/
+          - heading "微信多开生成器 工具图标 微信多开生成器" [level=3] [ref=e483]:
+            - img "微信多开生成器 工具图标" [ref=e484]
+            - generic [ref=e485]: 微信多开生成器
+          - paragraph [ref=e486]: 智能生成微信多开批处理脚本，灵活配置多开数量与路径格式，自动批量输出标准化多开命令。
+    - generic [ref=e487]:
+      - heading "便民工具介绍" [level=2] [ref=e488]
+      - generic [ref=e489]:
+        - heading "什么是便民工具？" [level=3] [ref=e490]
+        - paragraph [ref=e491]: ✨ 便民工具是懒人工具平台旗下专注于日常生活实用功能的核心栏目。作为精心设计的在线实用程序集合🏠，我们致力于为用户提供贴心、便捷的生活服务解决方案。懒人工具始终秉承 "让复杂变简单" 的核心理念🎯，帮助用户轻松解决日常生活中的各种小问题⚡。
+      - generic [ref=e492]:
+        - heading "便民工具提供哪些功能？" [level=3] [ref=e493]
+        - paragraph [ref=e494]: 我们提供二维码生成、密码生成、日期计算、计时器、随机抽签、IP查询、快递查询、天气预报等多种生活实用功能💼，覆盖信息查询、生活计算、实用工具、日常助手等多个领域🎯。无论是生活规划、信息查询、数据计算，还是日常备忘，都能在这里找到贴心实用的小工具✨！
+      - generic [ref=e495]:
+        - heading "适用哪些人群？" [level=3] [ref=e496]
+        - paragraph [ref=e497]: 本工具适用于上班族、学生、家庭主妇、老年人、自由职业者、商务人士及所有需要解决日常生活问题的用户👨‍💻。无论您是规划行程🗓️、查询信息、生成密码，还是进行日常计算，这些工具都能为您提供简单实用的生活服务✨。
+      - generic [ref=e498]:
+        - heading "使用便民工具有什么优势？" [level=3] [ref=e499]
+        - paragraph [ref=e500]: 所有工具均可在线使用🌐，无需下载安装，即开即用，操作简单直观👆。功能实用可靠，覆盖日常生活各个方面，能够满足从个人到家庭的各种日常需求🏠。同时，工具响应迅速，界面清晰友好🍃，让生活琐事变得简单有序😊。
+      - generic [ref=e501]:
+        - heading "为什么选择便民工具？" [level=3] [ref=e502]
+        - paragraph [ref=e503]: 我们将日常生活中常用的功能封装成简单易用的在线工具✨，让您无需安装多个APP就能快速解决各种生活小问题🎯。无论是信息查询、数据计算、内容生成还是日常规划，我们都能提供贴心的服务。平台持续更新🔄，不断完善工具种类和用户体验，为您的日常生活提供全方位的便利支持。
+    - generic [ref=e504]:
+      - navigation "页脚链接" [ref=e505]:
+        - link "关于我们" [ref=e506] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e507] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e508] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e509] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e510] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e511] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e512] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e513] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e514] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e515]:
+        - generic [ref=e516]:
+          - text: © 2025
+          - link "懒人工具" [ref=e517] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e519] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e520]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e521] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

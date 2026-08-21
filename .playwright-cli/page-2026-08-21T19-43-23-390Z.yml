@@ -1,0 +1,243 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - heading "一站式免费在线工具箱 - 分类齐全，即开即用" [level=1] [ref=e105]
+    - generic [ref=e106]:
+      - generic [ref=e107]: 搜索工具
+      - textbox "搜索工具" [ref=e108]:
+        - /placeholder: 输入关键词，按回车搜索，使用组合键 Alt+Q 调用...
+      - button "清空搜索": ✕
+    - heading "音频视频" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - article [ref=e111]:
+        - link "分贝噪音测试仪 工具图标 分贝噪音测试仪 调用麦克风采集声音，实时显示分贝数值、噪音波形、最大/最小/平均分贝与计时数据。" [ref=e112] [cursor=pointer]:
+          - /url: /decibel-meter/
+          - heading "分贝噪音测试仪 工具图标 分贝噪音测试仪" [level=3] [ref=e113]:
+            - img "分贝噪音测试仪 工具图标" [ref=e114]
+            - generic [ref=e115]: 分贝噪音测试仪
+          - paragraph [ref=e116]: 调用麦克风采集声音，实时显示分贝数值、噪音波形、最大/最小/平均分贝与计时数据。
+      - article [ref=e117]:
+        - link "视频去除音频 工具图标 视频去除音频 支持上传视频文件、一键清除所有音频轨道，保留原画画质输出无声视频。" [ref=e118] [cursor=pointer]:
+          - /url: /video-mute/
+          - heading "视频去除音频 工具图标 视频去除音频" [level=3] [ref=e119]:
+            - img "视频去除音频 工具图标" [ref=e120]
+            - generic [ref=e121]: 视频去除音频
+          - paragraph [ref=e122]: 支持上传视频文件、一键清除所有音频轨道，保留原画画质输出无声视频。
+      - article [ref=e123]:
+        - link "支付宝到账语音 工具图标 支付宝到账语音 支持自定义金额快速录入，智能拼接合成支付宝到账语音，适配短视频配音、自媒体素材制作等场景。" [ref=e124] [cursor=pointer]:
+          - /url: /audio-alipay/
+          - heading "支付宝到账语音 工具图标 支付宝到账语音" [level=3] [ref=e125]:
+            - img "支付宝到账语音 工具图标" [ref=e126]
+            - generic [ref=e127]: 支付宝到账语音
+          - paragraph [ref=e128]: 支持自定义金额快速录入，智能拼接合成支付宝到账语音，适配短视频配音、自媒体素材制作等场景。
+      - article [ref=e129]:
+        - link "FLAC转MP3格式 工具图标 FLAC转MP3格式 通过音频转换实现FLAC转MP3处理，提供清晰便捷的格式转换服务，适用于日常播放兼容、文件传输等场景。" [ref=e130] [cursor=pointer]:
+          - /url: /flac-mp3/
+          - heading "FLAC转MP3格式 工具图标 FLAC转MP3格式" [level=3] [ref=e131]:
+            - img "FLAC转MP3格式 工具图标" [ref=e132]
+            - generic [ref=e133]: FLAC转MP3格式
+          - paragraph [ref=e134]: 通过音频转换实现FLAC转MP3处理，提供清晰便捷的格式转换服务，适用于日常播放兼容、文件传输等场景。
+      - article [ref=e135]:
+        - link "OGG转MP3格式 工具图标 OGG转MP3格式 支持将OGG音频转为标准MP3格式，单文件快速转换，适用于音频格式适配、日常音频使用等场景。" [ref=e136] [cursor=pointer]:
+          - /url: /ogg-mp3/
+          - heading "OGG转MP3格式 工具图标 OGG转MP3格式" [level=3] [ref=e137]:
+            - img "OGG转MP3格式 工具图标" [ref=e138]
+            - generic [ref=e139]: OGG转MP3格式
+          - paragraph [ref=e140]: 支持将OGG音频转为标准MP3格式，单文件快速转换，适用于音频格式适配、日常音频使用等场景。
+      - article [ref=e141]:
+        - link "MP3转WAV格式 工具图标 MP3转WAV格式 支持将MP3音频转为标准WAV格式，单文件快速转换，适用于音频格式适配、专业音频编辑等场景。" [ref=e142] [cursor=pointer]:
+          - /url: /mp3-wav/
+          - heading "MP3转WAV格式 工具图标 MP3转WAV格式" [level=3] [ref=e143]:
+            - img "MP3转WAV格式 工具图标" [ref=e144]
+            - generic [ref=e145]: MP3转WAV格式
+          - paragraph [ref=e146]: 支持将MP3音频转为标准WAV格式，单文件快速转换，适用于音频格式适配、专业音频编辑等场景。
+      - article [ref=e147]:
+        - link "MP3转OGG格式 工具图标 MP3转OGG格式 支持将MP3音频转为标准OGG格式，单文件快速转换，适用于音频格式适配、跨平台播放使用等场景。" [ref=e148] [cursor=pointer]:
+          - /url: /mp3-ogg/
+          - heading "MP3转OGG格式 工具图标 MP3转OGG格式" [level=3] [ref=e149]:
+            - img "MP3转OGG格式 工具图标" [ref=e150]
+            - generic [ref=e151]: MP3转OGG格式
+          - paragraph [ref=e152]: 支持将MP3音频转为标准OGG格式，单文件快速转换，适用于音频格式适配、跨平台播放使用等场景。
+      - article [ref=e153]:
+        - link "视频转WAV转换器 工具图标 视频转WAV转换器 支持多格式视频无损提取 WAV 音频，适用于短视频取音、影视片段分离原声、音频剪辑素材导出等场景。" [ref=e154] [cursor=pointer]:
+          - /url: /video-wav/
+          - heading "视频转WAV转换器 工具图标 视频转WAV转换器" [level=3] [ref=e155]:
+            - img "视频转WAV转换器 工具图标" [ref=e156]
+            - generic [ref=e157]: 视频转WAV转换器
+          - paragraph [ref=e158]: 支持多格式视频无损提取 WAV 音频，适用于短视频取音、影视片段分离原声、音频剪辑素材导出等场景。
+      - article [ref=e159]:
+        - link "在线录音助手 工具图标 在线录音助手 支持麦克风实时录音，暂停与音频导出，适用于录音记录、波形可视化、语音采集等场景。" [ref=e160] [cursor=pointer]:
+          - /url: /voice-recorder/
+          - heading "在线录音助手 工具图标 在线录音助手" [level=3] [ref=e161]:
+            - img "在线录音助手 工具图标" [ref=e162]
+            - generic [ref=e163]: 在线录音助手
+          - paragraph [ref=e164]: 支持麦克风实时录音，暂停与音频导出，适用于录音记录、波形可视化、语音采集等场景。
+      - article [ref=e165]:
+        - link "本地视频播放器 工具图标 本地视频播放器 支持本地视频播放、快进快退 15 秒及一键截图，适用于日常视频观看、精彩画面留存与片段快速定位等场景。" [ref=e166] [cursor=pointer]:
+          - /url: /video-player/
+          - heading "本地视频播放器 工具图标 本地视频播放器" [level=3] [ref=e167]:
+            - img "本地视频播放器 工具图标" [ref=e168]
+            - generic [ref=e169]: 本地视频播放器
+          - paragraph [ref=e170]: 支持本地视频播放、快进快退 15 秒及一键截图，适用于日常视频观看、精彩画面留存与片段快速定位等场景。
+      - article [ref=e171]:
+        - link "本地音乐播放器 工具图标 本地音乐播放器 支持0.5x-2x倍速播放、波形可视化预览，适用于语音听写、听力练习、音频精听、课程学习等场景。" [ref=e172] [cursor=pointer]:
+          - /url: /audio-player/
+          - heading "本地音乐播放器 工具图标 本地音乐播放器" [level=3] [ref=e173]:
+            - img "本地音乐播放器 工具图标" [ref=e174]
+            - generic [ref=e175]: 本地音乐播放器
+          - paragraph [ref=e176]: 支持0.5x-2x倍速播放、波形可视化预览，适用于语音听写、听力练习、音频精听、课程学习等场景。
+      - article [ref=e177]:
+        - link "经典歌曲在线播放 工具图标 经典歌曲在线播放 支持音乐播放控制与循环、音量调节，适用于听歌放松、办公学习、静心陪伴等场景。" [ref=e178] [cursor=pointer]:
+          - /url: /music/
+          - heading "经典歌曲在线播放 工具图标 经典歌曲在线播放" [level=3] [ref=e179]:
+            - img "经典歌曲在线播放 工具图标" [ref=e180]
+            - generic [ref=e181]: 经典歌曲在线播放
+          - paragraph [ref=e182]: 支持音乐播放控制与循环、音量调节，适用于听歌放松、办公学习、静心陪伴等场景。
+      - article [ref=e183]:
+        - link "文字转语音工具 工具图标 文字转语音工具 支持多语言文字输入与实时试听、语音语速调节，将文本内容转换为25种真人语音，支持WAV文件下载。" [ref=e184] [cursor=pointer]:
+          - /url: /tts/
+          - heading "文字转语音工具 工具图标 文字转语音工具" [level=3] [ref=e185]:
+            - img "文字转语音工具 工具图标" [ref=e186]
+            - generic [ref=e187]: 文字转语音工具
+          - paragraph [ref=e188]: 支持多语言文字输入与实时试听、语音语速调节，将文本内容转换为25种真人语音，支持WAV文件下载。
+      - article [ref=e189]:
+        - link "WAV转MP3格式 工具图标 WAV转MP3格式 一键转换音频，实时处理进度，支持高质量WAV转MP3格式转换，快速生成压缩音频文件。" [ref=e190] [cursor=pointer]:
+          - /url: /wav2mp3/
+          - heading "WAV转MP3格式 工具图标 WAV转MP3格式" [level=3] [ref=e191]:
+            - img "WAV转MP3格式 工具图标" [ref=e192]
+            - generic [ref=e193]: WAV转MP3格式
+          - paragraph [ref=e194]: 一键转换音频，实时处理进度，支持高质量WAV转MP3格式转换，快速生成压缩音频文件。
+      - article [ref=e195]:
+        - link "浏览器WebM屏幕录制器 工具图标 浏览器WebM屏幕录制器 在线 WebM 屏幕录制工具，智能适配浏览器，支持无水印录制、高清导出与免安装使用，快速生成个性化屏幕录制方案。" [ref=e196] [cursor=pointer]:
+          - /url: /screen-recorder/
+          - heading "浏览器WebM屏幕录制器 工具图标 浏览器WebM屏幕录制器" [level=3] [ref=e197]:
+            - img "浏览器WebM屏幕录制器 工具图标" [ref=e198]
+            - generic [ref=e199]: 浏览器WebM屏幕录制器
+          - paragraph [ref=e200]: 在线 WebM 屏幕录制工具，智能适配浏览器，支持无水印录制、高清导出与免安装使用，快速生成个性化屏幕录制方案。
+    - generic [ref=e201]:
+      - heading "音频视频介绍" [level=2] [ref=e202]
+      - generic [ref=e203]:
+        - heading "什么是音视频处理工具？" [level=3] [ref=e204]
+        - paragraph [ref=e205]: ✨ 音视频处理是懒人工具平台旗下专注于多媒体文件编辑与转换的核心栏目。作为精心设计的在线实用程序集合🎵，我们致力于为用户提供专业、高效的音视频处理解决方案。懒人工具始终秉承 "让复杂变简单" 的核心理念🎯，帮助用户轻松完成各种音视频文件的编辑与格式转换任务⚡。
+      - generic [ref=e206]:
+        - heading "音视频处理工具提供哪些功能？" [level=3] [ref=e207]
+        - paragraph [ref=e208]: 我们提供音视频格式转换、音频剪辑、视频压缩、音量调整、音视频合并、视频裁剪、音频提取、字幕添加等多种多媒体处理功能💼，覆盖音视频编辑、格式转换、文件压缩、特效处理等多个领域🎯。无论是制作短视频、剪辑播客、转换媒体格式，还是优化文件大小，都能在这里找到专业的处理工具✨！
+      - generic [ref=e209]:
+        - heading "适用哪些人群？" [level=3] [ref=e210]
+        - paragraph [ref=e211]: 本工具适用于视频创作者、音乐制作人、自媒体运营者、教育工作者、普通用户、营销人员及所有需要处理音视频内容的用户👨‍💻。无论您是编辑短视频🎬、制作播客节目、准备教学材料，还是处理会议录音，这些工具都能为您提供简单高效的多媒体处理服务✨。
+      - generic [ref=e212]:
+        - heading "使用音视频处理工具有什么优势？" [level=3] [ref=e213]
+        - paragraph [ref=e214]: 所有工具均可在线使用🌐，无需安装专业软件，支持实时预览，操作简单直观👆。处理效果优质流畅，支持多种音视频格式和编码标准，能够满足从个人创作到商业制作的各类需求🏠。同时，工具处理速度快，界面友好易用🍃，让音视频编辑变得轻松便捷😊。
+      - generic [ref=e215]:
+        - heading "为什么选择音视频处理工具？" [level=3] [ref=e216]
+        - paragraph [ref=e217]: 我们将专业的音视频处理技术封装成简单易用的在线工具✨，让您无需学习复杂软件就能快速完成各种多媒体编辑任务🎯。无论是格式转换、内容剪辑、效果优化还是文件压缩，我们都能提供专业的处理服务。平台持续更新🔄，不断优化处理算法和用户体验，为您的创作🎨、娱乐和工作提供全方位的支持。
+    - generic [ref=e218]:
+      - navigation "页脚链接" [ref=e219]:
+        - link "关于我们" [ref=e220] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e221] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e222] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e223] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e224] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e225] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e226] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e227] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e228] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e229]:
+        - generic [ref=e230]:
+          - text: © 2025
+          - link "懒人工具" [ref=e231] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e233] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e234]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e235] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

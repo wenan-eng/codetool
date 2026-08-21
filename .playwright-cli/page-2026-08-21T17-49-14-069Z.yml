@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+      - generic [ref=e10]:
+        - generic [ref=e11]: 搜索工具
+        - generic [ref=e12]:
+          - link "中文" [ref=e13] [cursor=pointer]:
+            - /url: /zh/rmb-upper
+          - link "English" [ref=e14] [cursor=pointer]:
+            - /url: /en/rmb-upper
+          - link "Español" [ref=e15] [cursor=pointer]:
+            - /url: /es/rmb-upper
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e19]:
+        - heading "人民币大写转换" [level=1] [ref=e20]
+        - generic [ref=e21]:
+          - generic [ref=e22]: 人民币大写
+          - generic [ref=e23]: 财务发票
+          - generic [ref=e24]: 金额大写
+          - generic [ref=e25]: 记账
+        - paragraph [ref=e26]: 人民币大写转换工具，将阿拉伯数字金额转为符合财务规范的中文大写（壹贰叁肆伍陆柒捌玖拾佰仟万亿），自动处理零的读法与角分补位，开票记账必备，全部本地计算不上传。
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - textbox "请输入人民币金额，如 1234.56" [ref=e29]
+          - button "转大写" [ref=e30] [cursor=pointer]
+        - paragraph [ref=e31]: 符合财务大写规范（壹贰叁肆伍陆柒捌玖拾佰仟万亿）；所有操作均在浏览器本地完成
+      - generic [ref=e32]:
+        - heading "使用说明" [level=2] [ref=e33]
+        - list [ref=e34]:
+          - listitem [ref=e35]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e36]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e37]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e38]: 所有操作本地完成，保障隐私
+      - generic [ref=e39]:
+        - heading "同类推荐" [level=2] [ref=e40]
+        - generic [ref=e41]:
+          - link "多进制转换器" [ref=e42] [cursor=pointer]:
+            - /url: /zh/base-converter
+            - generic [ref=e43]: 多进制转换器
+          - link "在线字数统计工具" [ref=e44] [cursor=pointer]:
+            - /url: /zh/word-count
+            - generic [ref=e45]: 在线字数统计工具
+          - link "number-checker" [ref=e46] [cursor=pointer]:
+            - /url: /zh/number-checker
+            - generic [ref=e47]: number-checker
+      - generic [ref=e48]:
+        - heading "常见问题" [level=2] [ref=e49]
+        - group [ref=e50]:
+          - generic "1050 元的大写怎么写？" [ref=e51] [cursor=pointer]
+        - group [ref=e52]:
+          - generic "只有角没有分怎么处理？" [ref=e53] [cursor=pointer]
+        - group [ref=e54]:
+          - generic "会被上传吗？" [ref=e55] [cursor=pointer]
+  - contentinfo [ref=e56]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - heading "热门推荐" [level=4] [ref=e59]
+        - link "JSON" [ref=e60] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e61]:
+        - heading "站长工具" [level=4] [ref=e62]
+        - link "IP" [ref=e63] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e64]:
+        - heading "关于" [level=4] [ref=e65]
+        - link "关于我们" [ref=e66] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e67] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e68]:
+        - heading "合规" [level=4] [ref=e69]
+        - link "服务条款" [ref=e70] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e71] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e72]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e73]
