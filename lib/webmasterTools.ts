@@ -150,3 +150,49 @@ export function solveProportion(a: number, b: number, c: number): number {
   if (a === 0) throw new Error("比例第一项不能为 0")
   return (b * c) / a
 }
+
+export interface LogStats {
+  pv: number
+  uv: number
+  statusCounts: { code: string; count: number }[]
+  topIps: { ip: string; count: number }[]
+}
+
+const LOG_LINE = /^(\S+) \S+ \S+ \[([^\]]+)\] "(\S+) [^"]*" (\d{3})/
+
+export function analyzeLog(text: string): LogStats {
+  const ips = new Map<string, number>()
+  const statuses = new Map<string, number>()
+  let pv = 0
+  for (const line of text.split(/\r?\n/)) {
+    const m = line.match(LOG_LINE)
+    if (!m) continue
+    pv++
+    const ip = m[1]
+    const code = m[4]
+    ips.set(ip, (ips.get(ip) || 0) + 1)
+    statuses.set(code, (statuses.get(code) || 0) + 1)
+  }
+  return {
+    pv,
+    uv: ips.size,
+    statusCounts: [...statuses.entries()].map(([code, count]) => ({ code, count })).sort((a, b) => b.count - a.count),
+    topIps: [...ips.entries()].map(([ip, count]) => ({ ip, count })).sort((a, b) => b.count - a.count).slice(0, 10),
+  }
+}
+
+export function keywordDensity(text: string): { word: string; count: number; pct: number }[] {
+  const words = (text.toLowerCase().match(/[\u4e00-\u9fff]{2}|[a-z0-9]{2,}/g)) || []
+  const stop = new Set(["的", "了", "是", "在", "我", "有", "和", "就", "不", "人", "都", "一", "一个", "上", "也", "很", "到", "说", "要", "去", "你", "会", "着", "没有", "看", "好", "自己", "这", "the", "and", "for", "are", "but", "not", "you", "all", "can", "her", "was", "one", "our"])
+  const freq = new Map<string, number>()
+  for (const w of words) {
+    if (stop.has(w)) continue
+    freq.set(w, (freq.get(w) || 0) + 1)
+  }
+  const total = words.length || 1
+  return [...freq.entries()]
+    .filter(([, c]) => c >= 2)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 30)
+    .map(([word, count]) => ({ word, count, pct: Math.round((count / total) * 10000) / 100 }))
+}

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest"
-import { isValidIp, ipToInt, intToIp, parseCidr, randomPublicIps, generateRobots, checkRobots, generateMeta, solveProportion } from "./webmasterTools"
+import { isValidIp, ipToInt, intToIp, parseCidr, randomPublicIps, generateRobots, checkRobots, generateMeta, solveProportion, analyzeLog, keywordDensity } from "./webmasterTools"
 
 describe("ip2int", () => {
   it("双向转换", () => {
@@ -33,9 +33,9 @@ describe("randomPublicIps", () => {
     expect(ips.length).toBeGreaterThan(40)
     expect(new Set(ips).size).toBe(ips.length)
     for (const ip of ips) {
-      const first = Number(ip.split(".")[0])
-      expect([10, 127, 172, 192, 169]).not.toContain(first === 172 ? 172 : first === 192 ? 192 : first)
-      if (first === 172) expect(Number(ip.split(".")[1])).toBeLessThan(16 || 32)
+      const parts = ip.split(".").map(Number)
+      const reserved = (parts[0] === 10) || (parts[0] === 127) || (parts[0] === 169 && parts[1] === 254) || (parts[0] === 192 && parts[1] === 168) || (parts[0] === 172 && parts[1] >= 16 && parts[1] <= 31)
+      expect(reserved).toBe(false)
     }
   })
 })
@@ -76,5 +76,29 @@ describe("proportion", () => {
   })
   it("除零报错", () => {
     expect(() => solveProportion(0, 1, 1)).toThrow(/不能为 0/)
+  })
+})
+
+describe("log analysis", () => {
+  it("解析 Nginx 日志 PV/UV/状态码", () => {
+    const log = [
+      '1.2.3.4 - - [21/Aug/2026:10:00:00 +0800] "GET /a HTTP/1.1" 200',
+      '1.2.3.4 - - [21/Aug/2026:10:00:01 +0800] "GET /b HTTP/1.1" 404',
+      '5.6.7.8 - - [21/Aug/2026:10:00:02 +0800] "POST /c HTTP/1.1" 500',
+    ].join("\n")
+    const s = analyzeLog(log)
+    expect(s.pv).toBe(3)
+    expect(s.uv).toBe(2)
+    expect(s.statusCounts[0].code).toBe("200")
+    expect(s.topIps[0]).toEqual({ ip: "1.2.3.4", count: 2 })
+  })
+})
+
+describe("keyword density", () => {
+  it("统计高频词并过滤停用词", () => {
+    const r = keywordDensity("工具 工具 免费工具 the and 在线工具 在线工具 在线")
+    expect(r[0].word).toBe("工具")
+    expect(r.some(x => x.word === "the")).toBe(false)
+    expect(r.every(x => x.count >= 2)).toBe(true)
   })
 })
