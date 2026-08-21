@@ -7924,5 +7924,474 @@
       "email-extractor",
       "word-count"
     ]
+  },
+  {
+    "id": "chinese-converter",
+    "title": "中文简体繁体在线转换工具",
+    "h1": "中文简体繁体在线转换工具",
+    "description": "中文简体繁体在线转换工具，内置高频简繁字表一键互转，支持中英混排与长文本处理，适用于文案适配、港台地区交流与古籍阅读辅助，转换结果即时复制，全部本地处理不上传。",
+    "title_en": "Simplified/Traditional Chinese Converter",
+    "h1_en": "Simplified/Traditional Chinese Converter",
+    "description_en": "Convert between Simplified and Traditional Chinese with a built-in high-frequency character map, mixed-language friendly, instant copy — great for content adaptation and cross-region communication, fully local.",
+    "title_es": "Conversor Chino Simplificado/Tradicional",
+    "h1_es": "Conversor Chino Simplificado/Tradicional",
+    "description_es": "Convierta entre chino simplificado y tradicional con un mapa de caracteres de alta frecuencia integrado, copia instantánea, todo local.",
+    "tags": [
+      "简繁转换",
+      "繁体字",
+      "简体字",
+      "中文转换"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-symbol-converter.svg",
+    "faqs": [
+      {
+        "q": "覆盖多少简繁对照字？",
+        "a": "内置数百组高频简繁对照，覆盖日常文章、聊天与常见文案的绝大多数用字；生僻字保持原样输出。"
+      },
+      {
+        "q": "转换会改变排版或英文吗？",
+        "a": "不会，仅对映射表内的汉字做替换，英文、数字、标点与未收录字符原样保留。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How many character pairs are covered?",
+        "a": "Hundreds of high-frequency Simplified/Traditional pairs covering most everyday text; unmapped rare characters pass through unchanged."
+      },
+      {
+        "q": "Does it affect layout or English text?",
+        "a": "No, only mapped Chinese characters are replaced; letters, digits, punctuation and unmapped chars stay as-is."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversion runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cuántos pares cubre?",
+        "a": "Cientos de pares de alta frecuencia que cubren la mayoría del texto cotidiano; los caracteres raros pasan sin cambios."
+      },
+      {
+        "q": "¿Afecta al diseño o al inglés?",
+        "a": "No, solo se sustituyen los caracteres chinos mapeados; letras, dígitos y puntuación quedan igual."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la conversión se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "mars-converter",
+      "pinyin-converter",
+      "symbol-converter"
+    ]
+  },
+  {
+    "id": "mars-converter",
+    "title": "火星文在线转换器",
+    "h1": "火星文在线转换器",
+    "description": "火星文在线转换器，将简体汉字转换为趣味火星文异体字，也可反向还原为简体，适用于个性昵称、社交签名与趣味社交场景，双向互转即时复制，全部本地处理。",
+    "title_en": "Mars Text Converter Online",
+    "h1_en": "Mars Text Converter Online",
+    "description_en": "Turn Simplified Chinese into fun Mars-text variant characters and back again — perfect for quirky nicknames, social bios and playful posts, two-way conversion with instant copy, fully local.",
+    "title_es": "Convertidor de Texto Marciano",
+    "h1_es": "Convertidor de Texto Marciano",
+    "description_es": "Convierta chino simplificado en divertidos caracteres marcianos y viceversa, ideal para apodos y firmas sociales, conversión bidireccional, todo local.",
+    "tags": [
+      "火星文",
+      "异体字",
+      "个性昵称",
+      "趣味转换"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-symbol-converter.svg",
+    "faqs": [
+      {
+        "q": "什么是火星文？",
+        "a": "火星文是用异体字、生僻字形替换常规汉字形成的趣味文字，流行于社交平台个性签名，如「我」写作「偶」。"
+      },
+      {
+        "q": "火星文能还原吗？",
+        "a": "可以，点击「转成简体汉字」即可把映射表内的火星文字符还原为标准简体。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is Mars text?",
+        "a": "Mars text replaces standard Chinese characters with variant/rare glyph lookalikes for playful effect on social platforms, e.g. a stylized form of 我."
+      },
+      {
+        "q": "Can it be converted back?",
+        "a": "Yes, click the reverse button to restore mapped Mars characters to standard Simplified Chinese."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversion runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es el texto marciano?",
+        "a": "Es texto chino con caracteres variante o raros con efecto lúdico, popular en firmas de redes sociales."
+      },
+      {
+        "q": "¿Se puede revertir?",
+        "a": "Sí, pulse el botón inverso para restaurar los caracteres marcianos mapeados al chino estándar."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la conversión se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "chinese-converter",
+      "letter-circle",
+      "pinyin-converter"
+    ]
+  },
+  {
+    "id": "letter-circle",
+    "title": "在线圆圈字母生成器",
+    "h1": "在线圆圈字母生成器",
+    "description": "在线圆圈字母生成器，将英文字母转为带圆圈的装饰字符 Ⓐⓐ、数字转为 ①②③ 样式，非字母数字原样保留，适用于编号列表、个性签名与游戏昵称，全部本地处理。",
+    "title_en": "Circled Letter Generator",
+    "h1_en": "Circled Letter Generator",
+    "description_en": "Turn letters into circled decorative characters (Ⓐⓐ) and digits into ①②③ styles while keeping everything else intact — nice for numbered lists, signatures and game names, fully local.",
+    "title_es": "Generador de Letras Circuladas",
+    "h1_es": "Generador de Letras Circuladas",
+    "description_es": "Convierta letras en caracteres circulados decorativos (Ⓐⓐ) y dígitos en estilos ①②③ conservando el resto, ideal para listas y apodos, todo local.",
+    "tags": [
+      "圆圈字母",
+      "装饰字符",
+      "特殊符号",
+      "昵称生成"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-letter-circle.svg",
+    "faqs": [
+      {
+        "q": "哪些字符会被加圈？",
+        "a": "大写 A-Z 转为 Ⓐ-Ⓩ，小写 a-z 转为 ⓐ-ⓩ，数字 1-9 转为 ①-⑨、0 转为 ⓪；其他字符不变。"
+      },
+      {
+        "q": "加圈字符在所有平台都显示吗？",
+        "a": "绝大多数现代系统与浏览器均支持；个别老旧字体可能显示为方框，建议使用前先在目标平台预览。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which characters get circled?",
+        "a": "Uppercase A-Z become Ⓐ-Ⓩ, lowercase a-z become ⓐ-ⓩ, digits 1-9 become ①-⑨ and 0 becomes ⓪; everything else is unchanged."
+      },
+      {
+        "q": "Do circled characters display everywhere?",
+        "a": "Most modern systems and browsers support them; some legacy fonts may show boxes, so preview on the target platform first."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversion runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué caracteres se circulan?",
+        "a": "Mayúsculas A-Z a Ⓐ-Ⓩ, minúsculas a-z a ⓐ-ⓩ, dígitos 1-9 a ①-⑨ y 0 a ⓪; el resto no cambia."
+      },
+      {
+        "q": "¿Se muestran en todas las plataformas?",
+        "a": "La mayoría de sistemas modernos los admiten; algunas fuentes antiguas muestran cuadros, previsualice antes."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la conversión se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "string-random",
+      "mars-converter",
+      "sequence-generator"
+    ]
+  },
+  {
+    "id": "string-random",
+    "title": "在线随机字符串批量生成工具",
+    "h1": "在线随机字符串批量生成工具",
+    "description": "在线随机字符串批量生成工具，自定义长度区间、生成数量与字符集，默认剔除易混淆字符（0O、1lI），一次生成最多一万个随机串，适用于测试数据、邀请码与临时口令，全部本地生成。",
+    "title_en": "Random String Generator",
+    "h1_en": "Random String Generator",
+    "description_en": "Batch-generate random strings with custom length range, count and charset; confusing characters (0O, 1lI) excluded by default, up to 10k per run — great for test data, invite codes and temp secrets, fully local.",
+    "title_es": "Generador de Cadenas Aleatorias",
+    "h1_es": "Generador de Cadenas Aleatorias",
+    "description_es": "Genere cadenas aleatorias en lote con rango de longitud, cantidad y conjunto personalizados; excluye caracteres confusos (0O, 1lI) por defecto, hasta 10 mil por ejecución, todo local.",
+    "tags": [
+      "随机字符串",
+      "批量生成",
+      "测试数据",
+      "邀请码"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-string-random.svg",
+    "faqs": [
+      {
+        "q": "默认字符集为什么少了 0O1lI？",
+        "a": "这些字符在小写 l、大写 I、数字 0 和字母 O 之间肉眼极易混淆，默认剔除可避免人工抄写出错；需要时可在自定义字符集中手动加入。"
+      },
+      {
+        "q": "生成的字符串是密码学安全的吗？",
+        "a": "本工具面向测试数据与编号场景使用 Math.random；若需高安全强度口令请使用站内随机密码生成器（crypto 级随机数）。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有生成均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Why are 0O1lI missing from the default charset?",
+        "a": "They are easily confused visually (0/O, 1/l/I); excluding them avoids transcription errors. Add them back via the custom charset if needed."
+      },
+      {
+        "q": "Are the strings cryptographically secure?",
+        "a": "This tool targets test data and numbering using Math.random; for high-security secrets use our password generator built on crypto-grade randomness."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all generation runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Por qué faltan 0O1lI en el conjunto por defecto?",
+        "a": "Se confunden fácilmente a simple vista (0/O, 1/l/I); excluirlos evita errores de transcripción. Añádalos en el conjunto personalizado si lo necesita."
+      },
+      {
+        "q": "¿Son criptográficamente seguros?",
+        "a": "Esta herramienta usa Math.random para datos de prueba; para secretos de alta seguridad use nuestro generador de contraseñas con aleatoriedad criptográfica."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la generación se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "random-pwd",
+      "sequence-generator",
+      "letter-circle"
+    ]
+  },
+  {
+    "id": "sequence-generator",
+    "title": "在线数字序列批量生成器",
+    "h1": "在线数字序列批量生成器",
+    "description": "在线数字序列批量生成器，自定义起始值、步长、数量，支持前置补零到指定位数与前后缀拼接，快速产出编号清单如 NO.0001-NO.0100，适用于工单号、优惠券码与资产编号，全部本地生成。",
+    "title_en": "Number Sequence Generator",
+    "h1_en": "Number Sequence Generator",
+    "description_en": "Generate arithmetic sequences with custom start, step and count, zero-padding to fixed width plus prefix/suffix — produce lists like NO.0001-NO.0100 for tickets, coupons and asset tags, fully local.",
+    "title_es": "Generador de Secuencias Numéricas",
+    "h1_es": "Generador de Secuencias Numéricas",
+    "description_es": "Genere secuencias aritméticas con inicio, paso y cantidad personalizados, relleno de ceros y prefijo/sufijo, produzca listas como NO.0001-NO.0100, todo local.",
+    "tags": [
+      "数字序列",
+      "编号生成",
+      "补零",
+      "批量生成"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-string-random.svg",
+    "faqs": [
+      {
+        "q": "补零是什么意思？",
+        "a": "设为 4 时数字 1 会输出 0001，保证所有编号位数一致便于排序归档；设为 0 则不补零。"
+      },
+      {
+        "q": "最多能生成多少个？",
+        "a": "单次最多十万个，超出部分分批生成即可；结果可直接复制或下载 TXT。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有生成均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does padding mean?",
+        "a": "With width 4, number 1 outputs as 0001 so every code has equal length for sorting; set 0 to disable."
+      },
+      {
+        "q": "What is the maximum count?",
+        "a": "Up to 100k per run; generate in batches beyond that. Results can be copied or downloaded as TXT."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all generation runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué significa el relleno?",
+        "a": "Con ancho 4, el número 1 sale como 0001 para longitud uniforme; en 0 no se rellena."
+      },
+      {
+        "q": "¿Cuántos puedo generar?",
+        "a": "Hasta cien mil por ejecución; genere en lotes si necesita más. Copie o descargue como TXT."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la generación se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "string-random",
+      "letter-circle",
+      "word-count"
+    ]
+  },
+  {
+    "id": "text-formatter",
+    "title": "在线文本自动排版工具",
+    "h1": "在线文本自动排版工具",
+    "description": "在线文本自动排版工具，四个开关自由组合：段落首行缩进两个全角空格、去除多余空格、去掉 Emoji 表情、去除 HTML 标签，一键整理网页复制内容与杂乱文稿，全部本地处理。",
+    "title_en": "Online Text Formatter",
+    "h1_en": "Online Text Formatter",
+    "description_en": "Four toggleable options: first-line full-width indent, extra-space cleanup, emoji removal and HTML tag stripping — tidy up web-copied content and messy drafts in one click, fully local.",
+    "title_es": "Formateador de Texto en Línea",
+    "h1_es": "Formateador de Texto en Línea",
+    "description_es": "Cuatro opciones combinables: sangría de primera línea, limpieza de espacios, eliminación de emojis y etiquetas HTML, ordene contenido copiado de la web con un clic, todo local.",
+    "tags": [
+      "文本排版",
+      "首行缩进",
+      "去HTML标签",
+      "格式清理"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-text-formatter.svg",
+    "faqs": [
+      {
+        "q": "从网页复制的乱格式怎么整理？",
+        "a": "勾选「去除HTML标签」+「去除多余空格」即可去掉隐藏标签与冗余空白；再按需开启首行缩进得到整洁段落。"
+      },
+      {
+        "q": "各选项可以组合吗？",
+        "a": "可以，四个开关任意组合，处理顺序为：去标签 → 去 Emoji → 去空格 → 缩进。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有处理均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to clean up text copied from web pages?",
+        "a": "Enable Strip HTML tags + Trim spaces to remove hidden markup and redundant whitespace; add first-line indent for clean paragraphs."
+      },
+      {
+        "q": "Can options be combined?",
+        "a": "Yes, any combination; processing order is strip-tags → remove-emoji → trim-spaces → indent."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all processing runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo limpiar texto copiado de la web?",
+        "a": "Active Quitar etiquetas HTML + Quitar espacios para eliminar marcas ocultas; añada sangría para párrafos limpios."
+      },
+      {
+        "q": "¿Se pueden combinar las opciones?",
+        "a": "Sí, cualquier combinación; el orden es quitar etiquetas → emojis → espacios → sangría."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el procesamiento se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "remove-emoji",
+      "word-count",
+      "text-replace"
+    ]
+  },
+  {
+    "id": "pinyin-converter",
+    "title": "在线汉字拼音转换器",
+    "h1": "在线汉字拼音转换器",
+    "description": "在线汉字拼音转换器，基于专业拼音词库精准多音字处理，支持无声调与带声调两种输出模式，整句智能注音，适用于教学标注、姓名拼音与输入法学习，全部本地处理。",
+    "title_en": "Chinese Pinyin Converter",
+    "h1_en": "Chinese Pinyin Converter",
+    "description_en": "Accurate polyphone-aware pinyin conversion powered by a professional dictionary, with toneless and toned output modes for whole sentences — great for teaching annotation and name romanization, fully local.",
+    "title_es": "Conversor de Pinyin",
+    "h1_es": "Conversor de Pinyin",
+    "description_es": "Conversión precisa de pinyin consciente de polifonía con diccionario profesional, modos sin tonos y con tonos para frases completas, ideal para enseñanza, todo local.",
+    "tags": [
+      "汉字转拼音",
+      "多音字",
+      "声调",
+      "拼音标注"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-word-count.svg",
+    "faqs": [
+      {
+        "q": "多音字怎么处理？",
+        "a": "采用词组级识别，如「重庆」标 chóngqìng 而非 zhòngqǐng；绝大多数常用词的多音字都能按语境正确注音。"
+      },
+      {
+        "q": "带声调和不带声调有什么区别？",
+        "a": "带声调输出 nǐ hǎo，适合教学标注；不带声调输出 ni hao，常用于用户名、路径等纯 ASCII 场景。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，词典内置于页面，转换全程本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How are polyphones handled?",
+        "a": "Phrase-level recognition applies context, e.g. 重庆 reads chóngqìng not zhòngqǐng; most common words get contextually correct pinyin."
+      },
+      {
+        "q": "Toned vs toneless output?",
+        "a": "Toned gives nǐ hǎo for teaching; toneless gives ni hao for usernames, paths and other pure-ASCII uses."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, the dictionary ships with the page and conversion runs entirely locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo maneja los polifónicos?",
+        "a": "Reconocimiento a nivel de frase: 重庆 se lee chóngqìng, no zhòngqǐng; la mayoría de palabras obtienen el contexto correcto."
+      },
+      {
+        "q": "¿Diferencia entre con y sin tonos?",
+        "a": "Con tonos: nǐ hǎo, para enseñanza; sin tonos: ni hao, para usuarios, rutas y usos ASCII puros."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, el diccionario va incluido en la página y la conversión es totalmente local."
+      }
+    ],
+    "related": [
+      "chinese-converter",
+      "word-count",
+      "mars-converter"
+    ]
   }
 ]

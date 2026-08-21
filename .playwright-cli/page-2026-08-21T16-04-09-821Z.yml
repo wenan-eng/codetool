@@ -1,0 +1,86 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/net-parser
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/net-parser
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/net-parser
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - heading "URL地址在线解析工具" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: URL解析
+          - generic [ref=e22]: 查询参数
+          - generic [ref=e23]: 域名端口
+          - generic [ref=e24]: 接口调试
+        - paragraph [ref=e25]: URL地址在线解析工具，输入任意网址即时拆解协议、域名、端口、路径、查询串、锚点与 Origin，查询参数逐项键值展示，无协议自动补全 https，是接口调试与链接分析的好帮手，全部本地处理。
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - textbox "https://www.example.com/path?key=value" [ref=e28]
+          - button "URL解析" [disabled] [ref=e29]
+        - paragraph [ref=e30]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e31]:
+        - heading "使用说明" [level=2] [ref=e32]
+        - list [ref=e33]:
+          - listitem [ref=e34]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e35]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e36]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e37]: 所有操作本地完成，保障隐私
+      - generic [ref=e38]:
+        - heading "同类推荐" [level=2] [ref=e39]
+        - generic [ref=e40]:
+          - link "通用文本URL去重提取工具" [ref=e41] [cursor=pointer]:
+            - /url: /zh/url-extractor
+            - generic [ref=e42]: 通用文本URL去重提取工具
+          - link "在线JWT解码查看器" [ref=e43] [cursor=pointer]:
+            - /url: /zh/jwt-decoder
+            - generic [ref=e44]: 在线JWT解码查看器
+          - link "英文字母大小写转换工具" [ref=e45] [cursor=pointer]:
+            - /url: /zh/letter-converter
+            - generic [ref=e46]: 英文字母大小写转换工具
+      - generic [ref=e47]:
+        - heading "常见问题" [level=2] [ref=e48]
+        - group [ref=e49]:
+          - generic "不带协议的网址能解析吗？" [ref=e50] [cursor=pointer]
+        - group [ref=e51]:
+          - generic "中文参数值会乱码吗？" [ref=e52] [cursor=pointer]
+        - group [ref=e53]:
+          - generic "会被上传吗？" [ref=e54] [cursor=pointer]
+  - contentinfo [ref=e55]:
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - heading "热门推荐" [level=4] [ref=e58]
+        - link "JSON" [ref=e59] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e60]:
+        - heading "站长工具" [level=4] [ref=e61]
+        - link "IP" [ref=e62] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e63]:
+        - heading "关于" [level=4] [ref=e64]
+        - link "关于我们" [ref=e65] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e66] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e67]:
+        - heading "合规" [level=4] [ref=e68]
+        - link "服务条款" [ref=e69] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e70] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e71]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e72]

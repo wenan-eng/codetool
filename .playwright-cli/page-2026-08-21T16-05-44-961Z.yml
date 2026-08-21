@@ -1,0 +1,431 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "在线随机字符串批量生成工具" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "随机字符串" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=随机字符串
+          - img [ref=e126]
+          - text: 随机字符串
+        - link "测试数据生成" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=测试数据生成
+          - img [ref=e130]
+          - text: 测试数据生成
+        - link "生成工具" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=生成工具
+          - img [ref=e134]
+          - text: 生成工具
+        - link "批量字符串" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=批量字符串
+          - img [ref=e138]
+          - text: 批量字符串
+        - link "标识符生成" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=标识符生成
+          - img [ref=e142]
+          - text: 标识符生成
+        - link "字符生成" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=字符生成
+          - img [ref=e146]
+          - text: 字符生成
+    - paragraph [ref=e149]: 使用我们的「在线随机字符串批量生成工具」可快速创建大量的字母数字组合，支持自定义参数与自动去重机制，适用于密码生成、测试数据、唯一标识符创建和批量文件命名等多样化应用场景。
+    - main [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e153]: 最小长度
+          - textbox "最小长度" [ref=e154]:
+            - /placeholder: 请输入最小长度数值，如：6
+        - generic [ref=e155]:
+          - generic [ref=e156]: 最大长度
+          - textbox "最大长度" [ref=e157]:
+            - /placeholder: 请输入最大长度数值，如：12
+        - generic [ref=e158]:
+          - generic [ref=e159]: 生成数量
+          - textbox "生成数量" [ref=e160]:
+            - /placeholder: 请输入生成的字符串数量，如：100
+      - generic [ref=e161]:
+        - button "开始生成" [ref=e162] [cursor=pointer]:
+          - img [ref=e163]
+          - text: 开始生成
+        - button "查看示例" [ref=e167] [cursor=pointer]:
+          - img [ref=e168]
+          - text: 查看示例
+        - button "复制结果" [ref=e170] [cursor=pointer]:
+          - img [ref=e171]
+          - text: 复制结果
+        - button "清空数据" [ref=e173] [cursor=pointer]:
+          - img [ref=e174]
+          - text: 清空数据
+      - textbox "计算结果..." [ref=e176]
+    - region "工具使用帮助与相关信息" [ref=e177]:
+      - generic [ref=e178]:
+        - heading "使用说明" [level=2] [ref=e179]:
+          - img [ref=e180]
+          - text: 使用说明
+        - paragraph [ref=e182]:
+          - text: ⚡
+          - strong [ref=e183]: 生成随机字符串
+        - paragraph [ref=e184]: 点击"开始生成"紫色按钮，系统将基于您设定的全部参数配置（最小长度、最大长度、生成数量），立即批量生成并实时展示完整的随机字符串序列结果。系统会对输入参数进行有效性验证，确保生成的字符串长度在设定范围内且所有字符串互不重复，避免生成无效或重复数据。
+        - paragraph [ref=e185]:
+          - text: 👀
+          - strong [ref=e186]: 查看示例
+        - paragraph [ref=e187]: 点击"查看示例"灰色按钮，系统将自动加载预设的典型参数配置组合（最小长度6、最大长度12、生成数量100），并即刻生成对应的随机字符串序列输出。此功能旨在通过标准示例演示工具的运算逻辑与去重机制，帮助用户直观掌握参数配置与实际输出的对应关系。
+        - paragraph [ref=e188]:
+          - text: 📋
+          - strong [ref=e189]: 复制结果
+        - paragraph [ref=e190]: 点击"复制结果"绿色按钮，系统将自动将已生成的完整随机字符串序列文本复制至系统剪贴板。若未预先执行生成操作，系统会智能提示用户需先生成有效数据。复制成功后界面将显示操作确认反馈，便于用户将生成的随机字符串结果直接粘贴到目标应用程序中使用。
+        - paragraph [ref=e191]:
+          - text: 🗑️
+          - strong [ref=e192]: 清空数据
+        - paragraph [ref=e193]: 点击"清空数据"按钮，系统会清空所有输入框的内容（最小长度、最大长度、生成数量）和生成的结果区域。此操作不会影响页面其他设置，仅清理当前工具的数据，方便用户开始新的生成任务。
+      - generic [ref=e194]:
+        - heading "同类推荐" [level=2] [ref=e195]:
+          - img [ref=e196]
+          - text: 同类推荐
+        - generic [ref=e198]:
+          - article [ref=e199]:
+            - link "换行符转文本换行 工具图标 换行符转文本换行 换行符转文本行工具，将可见字符形式的换行符转换为实际换行格式，支持批量处理与快速处理。" [ref=e200] [cursor=pointer]:
+              - /url: /line-text/
+              - heading "换行符转文本换行 工具图标 换行符转文本换行" [level=3] [ref=e201]:
+                - img "换行符转文本换行 工具图标" [ref=e202]
+                - generic [ref=e203]: 换行符转文本换行
+              - paragraph [ref=e204]: 换行符转文本行工具，将可见字符形式的换行符转换为实际换行格式，支持批量处理与快速处理。
+          - article [ref=e205]:
+            - link "文本换行转换行符 工具图标 文本换行转换行符 多行文本换行符可视化工具，统一所有换行格式并转为可见字符，支持批量处理与快速复制。" [ref=e206] [cursor=pointer]:
+              - /url: /text-line/
+              - heading "文本换行转换行符 工具图标 文本换行转换行符" [level=3] [ref=e207]:
+                - img "文本换行转换行符 工具图标" [ref=e208]
+                - generic [ref=e209]: 文本换行转换行符
+              - paragraph [ref=e210]: 多行文本换行符可视化工具，统一所有换行格式并转为可见字符，支持批量处理与快速复制。
+          - article [ref=e211]:
+            - link "文本文件在线读取 工具图标 文本文件在线读取 精准解析多行文本输入，支持100+种文件格式识别，实时内容展示与统计信息，并支持编辑后原格式导出。" [ref=e212] [cursor=pointer]:
+              - /url: /text-read/
+              - heading "文本文件在线读取 工具图标 文本文件在线读取" [level=3] [ref=e213]:
+                - img "文本文件在线读取 工具图标" [ref=e214]
+                - generic [ref=e215]: 文本文件在线读取
+              - paragraph [ref=e216]: 精准解析多行文本输入，支持100+种文件格式识别，实时内容展示与统计信息，并支持编辑后原格式导出。
+          - article [ref=e217]:
+            - link "文本行频次统计 工具图标 文本行频次统计 文本行频次统计工具，精准识别每行独立内容，自动去重计数并计算出现频率与占比，支持 Excel 导出。" [ref=e218] [cursor=pointer]:
+              - /url: /text-statistics/
+              - heading "文本行频次统计 工具图标 文本行频次统计" [level=3] [ref=e219]:
+                - img "文本行频次统计 工具图标" [ref=e220]
+                - generic [ref=e221]: 文本行频次统计
+              - paragraph [ref=e222]: 文本行频次统计工具，精准识别每行独立内容，自动去重计数并计算出现频率与占比，支持 Excel 导出。
+          - article [ref=e223]:
+            - link "数值列表累加求和 工具图标 数值列表累加求和 数字批量求和计算工具，精准解析多行数值输入，并支持多种分隔方式与结果一键复制功能。" [ref=e224] [cursor=pointer]:
+              - /url: "/numbers-sum/ "
+              - heading "数值列表累加求和 工具图标 数值列表累加求和" [level=3] [ref=e225]:
+                - img "数值列表累加求和 工具图标" [ref=e226]
+                - generic [ref=e227]: 数值列表累加求和
+              - paragraph [ref=e228]: 数字批量求和计算工具，精准解析多行数值输入，并支持多种分隔方式与结果一键复制功能。
+          - article [ref=e229]:
+            - link "文本自动排版 工具图标 文本自动排版 文本智能自动排版工具，精准实现语义分段功能，并提供基础格式清理与统计显示功能。" [ref=e230] [cursor=pointer]:
+              - /url: /text-formatter/
+              - heading "文本自动排版 工具图标 文本自动排版" [level=3] [ref=e231]:
+                - img "文本自动排版 工具图标" [ref=e232]
+                - generic [ref=e233]: 文本自动排版
+              - paragraph [ref=e234]: 文本智能自动排版工具，精准实现语义分段功能，并提供基础格式清理与统计显示功能。
+          - article [ref=e235]:
+            - link "文本分割神器 工具图标 文本分割神器 智能分割文本内容，支持自定义多种分隔符，实现快速拆分为独立项目，提供一键复制。" [ref=e236] [cursor=pointer]:
+              - /url: /text-split/
+              - heading "文本分割神器 工具图标 文本分割神器" [level=3] [ref=e237]:
+                - img "文本分割神器 工具图标" [ref=e238]
+                - generic [ref=e239]: 文本分割神器
+              - paragraph [ref=e240]: 智能分割文本内容，支持自定义多种分隔符，实现快速拆分为独立项目，提供一键复制。
+          - article [ref=e241]:
+            - link "手机号去重提取 工具图标 手机号去重提取 智能提取文本中所有的手机号码，自动屏蔽座机号码与国际号码，实现格式化输出。" [ref=e242] [cursor=pointer]:
+              - /url: /mobile-extractor/
+              - heading "手机号去重提取 工具图标 手机号去重提取" [level=3] [ref=e243]:
+                - img "手机号去重提取 工具图标" [ref=e244]
+                - generic [ref=e245]: 手机号去重提取
+              - paragraph [ref=e246]: 智能提取文本中所有的手机号码，自动屏蔽座机号码与国际号码，实现格式化输出。
+          - article [ref=e247]:
+            - link "身份证号提取生日 工具图标 身份证号提取生日 智能解析身份证号中的出生日期，自动提取阳历、农历、星期、生肖与星座信息，实现结构化输出。" [ref=e248] [cursor=pointer]:
+              - /url: /idcard-date/
+              - heading "身份证号提取生日 工具图标 身份证号提取生日" [level=3] [ref=e249]:
+                - img "身份证号提取生日 工具图标" [ref=e250]
+                - generic [ref=e251]: 身份证号提取生日
+              - paragraph [ref=e252]: 智能解析身份证号中的出生日期，自动提取阳历、农历、星期、生肖与星座信息，实现结构化输出。
+          - article [ref=e253]:
+            - link "Markdown在线编辑器 工具图标 Markdown在线编辑器 支持编写Markdown文档实时预览，精准解析语法生成HTML，适用于技术文档撰写、笔记记录整理等场景。" [ref=e254] [cursor=pointer]:
+              - /url: /markdown/
+              - heading "Markdown在线编辑器 工具图标 Markdown在线编辑器" [level=3] [ref=e255]:
+                - img "Markdown在线编辑器 工具图标" [ref=e256]
+                - generic [ref=e257]: Markdown在线编辑器
+              - paragraph [ref=e258]: 支持编写Markdown文档实时预览，精准解析语法生成HTML，适用于技术文档撰写、笔记记录整理等场景。
+          - article [ref=e259]:
+            - link "文本邮箱提取器 工具图标 文本邮箱提取器 邮箱提取工具，一键智能提取文本中所有邮箱地址，自动完成去重与格式化输出，高效便捷。" [ref=e260] [cursor=pointer]:
+              - /url: /email-extractor/
+              - heading "文本邮箱提取器 工具图标 文本邮箱提取器" [level=3] [ref=e261]:
+                - img "文本邮箱提取器 工具图标" [ref=e262]
+                - generic [ref=e263]: 文本邮箱提取器
+              - paragraph [ref=e264]: 邮箱提取工具，一键智能提取文本中所有邮箱地址，自动完成去重与格式化输出，高效便捷。
+          - article [ref=e265]:
+            - link "临时记事本 工具图标 临时记事本 灵活配置自动保存与导出格式，智能识别文件名规则，实时批量处理文本内容并支持一键导出为TXT文件。" [ref=e266] [cursor=pointer]:
+              - /url: /note/
+              - heading "临时记事本 工具图标 临时记事本" [level=3] [ref=e267]:
+                - img "临时记事本 工具图标" [ref=e268]
+                - generic [ref=e269]: 临时记事本
+              - paragraph [ref=e270]: 灵活配置自动保存与导出格式，智能识别文件名规则，实时批量处理文本内容并支持一键导出为TXT文件。
+      - generic [ref=e271]:
+        - heading "常见问题" [level=2] [ref=e272]:
+          - img [ref=e273]
+          - text: 常见问题
+        - generic [ref=e277]:
+          - heading "🔤 可以生成哪些类型的随机字符串？" [level=3] [ref=e278]
+          - paragraph [ref=e279]:
+            - text: 本工具生成的随机字符串涵盖
+            - strong [ref=e280]: 大写字母 A-Z、小写字母 a-z 及数字 0-9
+            - text: ，总计 62 种字符组合。生成的字符串长度会在您设定的最小值与最大值之间随机浮动，同时采用优化的随机算法，确保每次生成的字符串都具备高度随机性与不可预测性。
+        - generic [ref=e281]:
+          - heading "📏 字符串长度支持哪些范围？" [level=3] [ref=e282]
+          - paragraph [ref=e283]:
+            - text: 本工具的最小长度与最大长度参数，支持输入
+            - strong [ref=e284]: 1 至 100 区间内的任意正整数
+            - text: 。需要注意的是，最小长度数值必须小于或等于最大长度数值，系统将实时自动验证参数输入的有效性并给出提示。字符串的长度值越大，其对应的安全性就越高，但与此同时，生成该字符串所需的运算时间也会相应增加。
+        - generic [ref=e285]:
+          - heading "🔄 如何确保生成的字符串不重复？" [level=3] [ref=e286]
+          - paragraph [ref=e287]:
+            - text: 工具采用
+            - code [ref=e288]: Set
+            - text: 数据结构自动去重机制，确保生成的每个字符串都是唯一的。当要求的生成数量超过可能的组合数量时，系统会提示用户并生成尽可能多的不重复字符串。这种机制特别适合需要生成唯一标识符或密钥的场景。
+        - generic [ref=e289]:
+          - heading "🎯 最多可以生成多少个字符串？" [level=3] [ref=e290]
+          - paragraph [ref=e291]:
+            - text: 出于系统性能与运行稳定性的综合考量，本工具单次生成随机字符串的数量上限为
+            - strong [ref=e292]: 10,000 个
+            - text: 。这一限制能够充分满足绝大多数实际应用场景的需求，例如
+            - strong [ref=e293]: 批量生成登录密码、程序测试数据、系统唯一标识等
+            - text: 。若需获取更大规模的字符串数据，建议采用分批生成的方式操作。
+        - generic [ref=e294]:
+          - heading "⚡ 生成速度受什么因素影响？" [level=3] [ref=e295]
+          - paragraph [ref=e296]: 生成速度主要受三个因素影响：1) 生成数量：数量越大生成时间越长；2) 字符串长度：长度越长生成越慢；3) 去重要求：确保不重复会增加计算复杂度。系统设置了最大尝试次数，防止因无法生成足够不重复字符串而导致无限循环。
+        - generic [ref=e297]:
+          - heading "🔒 生成的随机字符串安全吗？" [level=3] [ref=e298]
+          - paragraph [ref=e299]:
+            - text: 所有字符串均在浏览器本地生成，不会上传到任何服务器，确保数据隐私安全。生成的字符串基于JavaScript的
+            - code [ref=e300]: Math.random()
+            - text: 函数，适用于一般应用场景如测试数据、临时密码等。如需密码学级别安全，建议使用专业的密码生成工具。
+        - generic [ref=e301]:
+          - heading "💡 这个工具适合哪些使用场景？" [level=3] [ref=e302]
+          - paragraph [ref=e303]: 本工具适合多种应用场景：1) 批量生成测试数据；2) 创建临时密码或验证码；3) 生成唯一标识符；4) 创建随机文件名；5) 生成API密钥或令牌；6) 密码重置时生成临时密码等。工具的去重功能特别适合需要大量唯一标识的场景。
+      - generic "工具快速切换" [ref=e304]:
+        - list [ref=e306]:
+          - listitem [ref=e307] [cursor=pointer]: 热门推荐
+          - listitem [ref=e308] [cursor=pointer]: 站长工具
+          - listitem [ref=e309] [cursor=pointer]: 编程开发
+          - listitem [ref=e310] [cursor=pointer]: 文本处理
+          - listitem [ref=e311] [cursor=pointer]: 图像处理
+          - listitem [ref=e312] [cursor=pointer]: 文档转换
+          - listitem [ref=e313] [cursor=pointer]: 音频视频
+          - listitem [ref=e314] [cursor=pointer]: 便民工具
+          - listitem [ref=e315] [cursor=pointer]: 编码加密
+          - listitem [ref=e316] [cursor=pointer]: 单位转换
+        - table [ref=e318]:
+          - rowgroup [ref=e319]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e320]:
+              - cell "微信聊天模拟器" [ref=e321]:
+                - link "微信聊天模拟器" [ref=e322] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e323]:
+                - link "微信零钱模拟器" [ref=e324] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e325]:
+                - link "文字转语音工具" [ref=e326] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e327]:
+                - link "法定退休年龄计算器" [ref=e328] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e329]:
+                - link "身份证号码查询" [ref=e330] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e331]:
+                - link "在线随机点名" [ref=e332] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e333]:
+              - cell "报名证件照处理" [ref=e334]:
+                - link "报名证件照处理" [ref=e335] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e336]:
+                - link "随机密码生成器" [ref=e337] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e338]:
+                - link "二维码生成器" [ref=e339] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e340]:
+                - link "世界高清地图" [ref=e341] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e342]:
+                - link "键盘按键检测" [ref=e343] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e344]:
+                - link "手机归属地查询" [ref=e345] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e346]:
+              - cell "在线字数统计" [ref=e347]:
+                - link "在线字数统计" [ref=e348] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e349]:
+                - link "JSON格式化/压缩" [ref=e350] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e351]:
+                - link "Base64编码/解码" [ref=e352] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e353]:
+                - link "图片高清压缩" [ref=e354] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e355]:
+                - link "摩斯密码编码/解码" [ref=e356] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e357]:
+                - link "节日时间倒计时" [ref=e358] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e359]:
+              - cell "本机IP地址查询" [ref=e360]:
+                - link "本机IP地址查询" [ref=e361] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e362]:
+                - link "Unix时间戳转换" [ref=e363] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e364]:
+                - link "图片取色器" [ref=e365] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e366]:
+                - link "色盲色弱测试" [ref=e367] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e368]:
+                - link "SVG在线编辑器" [ref=e369] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e370]:
+                - link "中国高清地图" [ref=e371] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e372]:
+              - cell "查看网页源码" [ref=e373]:
+                - link "查看网页源码" [ref=e374] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e375]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e376]
+        - paragraph [ref=e377]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e378]
+    - generic [ref=e379]:
+      - navigation "页脚链接" [ref=e380]:
+        - link "关于我们" [ref=e381] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e382] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e383] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e384] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e385] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e386] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e387] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e388] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e389] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e390]:
+        - generic [ref=e391]:
+          - text: © 2025
+          - link "懒人工具" [ref=e392] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e394] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e395]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e396] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

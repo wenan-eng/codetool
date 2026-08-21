@@ -1,0 +1,455 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "火星文在线转换器" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "火星文" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=火星文
+          - img [ref=e126]
+          - text: 火星文
+        - link "朋友圈" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=朋友圈
+          - img [ref=e130]
+          - text: 朋友圈
+        - link "趣味文字" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=趣味文字
+          - img [ref=e134]
+          - text: 趣味文字
+        - link "花体字转换" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=花体字转换
+          - img [ref=e138]
+          - text: 花体字转换
+        - link "非主流字体" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=非主流字体
+          - img [ref=e142]
+          - text: 非主流字体
+        - link "网络字体" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=网络字体
+          - img [ref=e146]
+          - text: 网络字体
+    - paragraph [ref=e149]: 使用我们的「火星文转换器」能将任意中文文本，实时、准确地转换为个性化的火星文风格，确保在朋友圈、社交互动与网名设计中瞬间吸引眼球、脱颖而出。
+    - main [ref=e150]:
+      - generic [ref=e152]:
+        - text: 请输入要转换的文本内容：
+        - textbox "请输入要转换的文本内容，例如：我爱懒人工具火星文！" [ref=e153]
+      - generic [ref=e154]:
+        - button "转成火星文" [ref=e155] [cursor=pointer]:
+          - img [ref=e156]
+          - text: 转成火星文
+        - button "转成简体汉字" [ref=e160] [cursor=pointer]:
+          - img [ref=e161]
+          - text: 转成简体汉字
+        - button "查看示例" [ref=e164] [cursor=pointer]:
+          - img [ref=e165]
+          - text: 查看示例
+        - button "复制结果" [ref=e167] [cursor=pointer]:
+          - img [ref=e168]
+          - text: 复制结果
+        - button "清空数据" [ref=e170] [cursor=pointer]:
+          - img [ref=e171]
+          - text: 清空数据
+      - textbox "输出的火星文..." [ref=e174]
+    - region "工具使用帮助与相关信息" [ref=e175]:
+      - generic [ref=e176]:
+        - heading "使用说明" [level=2] [ref=e177]:
+          - img [ref=e178]
+          - text: 使用说明
+        - paragraph [ref=e180]:
+          - text: 📝
+          - strong [ref=e181]: 文本输入
+        - paragraph [ref=e182]:
+          - text: 在【请输入要转换带有英文字母的文本】输入框中，可直接粘贴或手动输入包含英文字符的任意内容。支持中英文混合、数字、特殊符号（如
+          - code [ref=e183]: "@"
+          - text: 、
+          - code [ref=e184]: "-"
+          - text: 、
+          - code [ref=e185]: _
+          - text: ）、换行文本及批量数据（如日志、代码、表格内容），系统将仅对英文字母进行大小写转换，其余内容保持原样不变。
+        - paragraph [ref=e186]:
+          - text: 🔍
+          - strong [ref=e187]: 查看示例
+        - paragraph [ref=e188]:
+          - text: 点击“查看示例”按钮，系统将自动填充一个典型示例（如：
+          - code [ref=e189]: www.lanren-tools.com
+          - text: ）到输入框，并立即执行大写转换，展示转换后结果（
+          - code [ref=e190]: WWW.LANREN-TOOLS.COM
+          - text: ），帮助你快速了解功能效果与使用方式。
+        - paragraph [ref=e191]:
+          - text: 🔤
+          - strong [ref=e192]: 转成大写
+        - paragraph [ref=e193]: 点击“转成大写”按钮，系统会将输入文本中的所有小写字母（a–z）统一转换为对应的大写字母（A–Z）。适用于域名注册、序列号格式化、数据库关键字标准化等需要全大写的场景。
+        - paragraph [ref=e194]:
+          - text: 🔡
+          - strong [ref=e195]: 转成小写
+        - paragraph [ref=e196]: 点击“转成小写”按钮，系统会将输入文本中的所有大写字母（A–Z）转换为对应的小写字母（a–z）。常用于 URL 规范化、邮箱地址统一、编程变量命名等需统一小写的场合。
+        - paragraph [ref=e197]:
+          - text: 📋
+          - strong [ref=e198]: 获取输出结果
+        - paragraph [ref=e199]: 转换完成后，结果将实时更新在原输入框中。你可以手动选中内容复制，或点击“复制结果”按钮一键将处理后的文本复制到剪贴板，方便快速粘贴至文档、代码编辑器或其他应用中。
+        - paragraph [ref=e200]:
+          - text: 🗑️
+          - strong [ref=e201]: 清空数据
+        - paragraph [ref=e202]: 点击“清空数据”按钮可清除当前输入框中的全部内容，恢复初始状态。所有操作均在浏览器本地完成，不上传任何数据，无网络请求，确保隐私安全，无痕使用。
+      - generic [ref=e203]:
+        - heading "同类推荐" [level=2] [ref=e204]:
+          - img [ref=e205]
+          - text: 同类推荐
+        - generic [ref=e207]:
+          - article [ref=e208]:
+            - link "临时记事本 工具图标 临时记事本 灵活配置自动保存与导出格式，智能识别文件名规则，实时批量处理文本内容并支持一键导出为TXT文件。" [ref=e209] [cursor=pointer]:
+              - /url: /note/
+              - heading "临时记事本 工具图标 临时记事本" [level=3] [ref=e210]:
+                - img "临时记事本 工具图标" [ref=e211]
+                - generic [ref=e212]: 临时记事本
+              - paragraph [ref=e213]: 灵活配置自动保存与导出格式，智能识别文件名规则，实时批量处理文本内容并支持一键导出为TXT文件。
+          - article [ref=e214]:
+            - link "数字序列批量生成器 工具图标 数字序列批量生成器 智能生成等差连续数字序列，灵活配置步长与补零格式，自动批量输出带前后缀的完整数字列表结果。" [ref=e215] [cursor=pointer]:
+              - /url: /sequence-generator/
+              - heading "数字序列批量生成器 工具图标 数字序列批量生成器" [level=3] [ref=e216]:
+                - img "数字序列批量生成器 工具图标" [ref=e217]
+                - generic [ref=e218]: 数字序列批量生成器
+              - paragraph [ref=e219]: 智能生成等差连续数字序列，灵活配置步长与补零格式，自动批量输出带前后缀的完整数字列表结果。
+          - article [ref=e220]:
+            - link "Emoji表情去除神器 工具图标 Emoji表情去除神器 精准识别并去除所有Emoji表情符号，智能清理文本内容，自动生成纯净无表情的完整文本结果。" [ref=e221] [cursor=pointer]:
+              - /url: /remove-emoji/
+              - heading "Emoji表情去除神器 工具图标 Emoji表情去除神器" [level=3] [ref=e222]:
+                - img "Emoji表情去除神器 工具图标" [ref=e223]
+                - generic [ref=e224]: Emoji表情去除神器
+              - paragraph [ref=e225]: 精准识别并去除所有Emoji表情符号，智能清理文本内容，自动生成纯净无表情的完整文本结果。
+          - article [ref=e226]:
+            - link "圆圈字母生成器 工具图标 圆圈字母生成器 在线圆圈字母生成器，支持将英文字母A-Z和数字0-9快速转换为带圆圈的Unicode符号，提供一键复制转换结果。" [ref=e227] [cursor=pointer]:
+              - /url: /letter-circle/
+              - heading "圆圈字母生成器 工具图标 圆圈字母生成器" [level=3] [ref=e228]:
+                - img "圆圈字母生成器 工具图标" [ref=e229]
+                - generic [ref=e230]: 圆圈字母生成器
+              - paragraph [ref=e231]: 在线圆圈字母生成器，支持将英文字母A-Z和数字0-9快速转换为带圆圈的Unicode符号，提供一键复制转换结果。
+          - article [ref=e232]:
+            - link "文本批量替换 工具图标 文本批量替换 专业在线文本替换工具，支持自定义与智能预设替换，保障文本处理高效精准，兼容传统格式与现代编辑需求。" [ref=e233] [cursor=pointer]:
+              - /url: /text-replace/
+              - heading "文本批量替换 工具图标 文本批量替换" [level=3] [ref=e234]:
+                - img "文本批量替换 工具图标" [ref=e235]
+                - generic [ref=e236]: 文本批量替换
+              - paragraph [ref=e237]: 专业在线文本替换工具，支持自定义与智能预设替换，保障文本处理高效精准，兼容传统格式与现代编辑需求。
+          - article [ref=e238]:
+            - link "汉字转拼音 工具图标 汉字转拼音 实时汉字转拼音，支持多音字识别、声调标注与无调输出，精准转换中文为拼音序列，提升注音效率。" [ref=e239] [cursor=pointer]:
+              - /url: /pinyin-converter/
+              - heading "汉字转拼音 工具图标 汉字转拼音" [level=3] [ref=e240]:
+                - img "汉字转拼音 工具图标" [ref=e241]
+                - generic [ref=e242]: 汉字转拼音
+              - paragraph [ref=e243]: 实时汉字转拼音，支持多音字识别、声调标注与无调输出，精准转换中文为拼音序列，提升注音效率。
+          - article [ref=e244]:
+            - link "字母大小写转换 工具图标 字母大小写转换 一键将英文字母文本转换为标准大写或小写格式，自动保留原有数字与符号，确保转换结果准确无误。" [ref=e245] [cursor=pointer]:
+              - /url: /letter-converter/
+              - heading "字母大小写转换 工具图标 字母大小写转换" [level=3] [ref=e246]:
+                - img "字母大小写转换 工具图标" [ref=e247]
+                - generic [ref=e248]: 字母大小写转换
+              - paragraph [ref=e249]: 一键将英文字母文本转换为标准大写或小写格式，自动保留原有数字与符号，确保转换结果准确无误。
+          - article [ref=e250]:
+            - link "简体繁体转换器 工具图标 简体繁体转换器 支持简体中文与繁体中文相互转换，准确处理两岸三地字符差异，满足不同场景的语言转换需求。" [ref=e251] [cursor=pointer]:
+              - /url: /chinese-converter/
+              - heading "简体繁体转换器 工具图标 简体繁体转换器" [level=3] [ref=e252]:
+                - img "简体繁体转换器 工具图标" [ref=e253]
+                - generic [ref=e254]: 简体繁体转换器
+              - paragraph [ref=e255]: 支持简体中文与繁体中文相互转换，准确处理两岸三地字符差异，满足不同场景的语言转换需求。
+          - article [ref=e256]:
+            - link "在线字数统计 工具图标 在线字数统计 精准高效的在线字数统计工具，支持统计文字、字符、单词、标点和数字，满足多种场景需求。" [ref=e257] [cursor=pointer]:
+              - /url: /word-count/
+              - heading "在线字数统计 工具图标 在线字数统计" [level=3] [ref=e258]:
+                - img "在线字数统计 工具图标" [ref=e259]
+                - generic [ref=e260]: 在线字数统计
+              - paragraph [ref=e261]: 精准高效的在线字数统计工具，支持统计文字、字符、单词、标点和数字，满足多种场景需求。
+          - article [ref=e262]:
+            - link "小红书违禁词检测 工具图标 小红书违禁词检测 智能扫描文案，自动标红违规词，帮您及时发现广告法风险内容，避免不必要的经济损失！" [ref=e263] [cursor=pointer]:
+              - /url: /word-filter-redbook/
+              - heading "小红书违禁词检测 工具图标 小红书违禁词检测" [level=3] [ref=e264]:
+                - img "小红书违禁词检测 工具图标" [ref=e265]
+                - generic [ref=e266]: 小红书违禁词检测
+              - paragraph [ref=e267]: 智能扫描文案，自动标红违规词，帮您及时发现广告法风险内容，避免不必要的经济损失！
+          - article [ref=e268]:
+            - link "抖音违禁词检测 工具图标 抖音违禁词检测 智能分析文案，自动高亮敏感词，帮您排查广告法违规风险，减少合规不当引发的经济损失！" [ref=e269] [cursor=pointer]:
+              - /url: /word-filter-tiktok/
+              - heading "抖音违禁词检测 工具图标 抖音违禁词检测" [level=3] [ref=e270]:
+                - img "抖音违禁词检测 工具图标" [ref=e271]
+                - generic [ref=e272]: 抖音违禁词检测
+              - paragraph [ref=e273]: 智能分析文案，自动高亮敏感词，帮您排查广告法违规风险，减少合规不当引发的经济损失！
+          - article [ref=e274]:
+            - link "闲鱼违禁词检测 工具图标 闲鱼违禁词检测 智能解析文案，自动标红违规词，识别广告法风险，预警问题，降低运营成本与经济损失！" [ref=e275] [cursor=pointer]:
+              - /url: /word-filter-idlefish/
+              - heading "闲鱼违禁词检测 工具图标 闲鱼违禁词检测" [level=3] [ref=e276]:
+                - img "闲鱼违禁词检测 工具图标" [ref=e277]
+                - generic [ref=e278]: 闲鱼违禁词检测
+              - paragraph [ref=e279]: 智能解析文案，自动标红违规词，识别广告法风险，预警问题，降低运营成本与经济损失！
+      - generic [ref=e280]:
+        - heading "常见问题" [level=2] [ref=e281]:
+          - img [ref=e282]
+          - text: 常见问题
+        - generic [ref=e286]:
+          - heading "✔️ 什么是字母大小写转换？什么时候需要用到它？" [level=3] [ref=e287]
+          - paragraph [ref=e288]:
+            - text: 字母大小写转换是指将英文文本中的字符统一转换为
+            - strong [ref=e289]: 全大写
+            - text: 或
+            - strong [ref=e290]: 全小写
+            - text: 的过程。广泛应用于编程命名规范（如环境变量大写）、数据库查询标准化、URL 路径统一、文档格式化等场景，确保数据一致性与系统兼容性。
+        - generic [ref=e291]:
+          - heading "📌 哪些类型的文本支持转换？中文和数字会被影响吗？" [level=3] [ref=e292]
+          - paragraph [ref=e293]:
+            - text: 本工具支持任意文本内容，包括
+            - strong [ref=e294]: 中英文混合
+            - text: 、
+            - strong [ref=e295]: 数字
+            - text: 、
+            - strong [ref=e296]: 特殊符号
+            - text: （如
+            - code [ref=e297]: "@"
+            - text: 、
+            - code [ref=e298]: "-"
+            - text: 、
+            - code [ref=e299]: _
+            - text: ）、换行符及批量数据。转换过程仅作用于英文字母（a–z/A–Z），其他所有字符均保持原样不变，不会被修改或删除。
+        - generic [ref=e300]:
+          - heading "🎯 “转成大写”和“转成小写”分别适用于哪些场景？" [level=3] [ref=e301]
+          - paragraph [ref=e302]:
+            - strong [ref=e303]: 转成大写
+            - text: 常用于生成序列号、激活码、数据库关键字、HTTP 请求头字段等需要统一显示的场合；
+            - strong [ref=e304]: 转成小写
+            - text: 则适用于邮箱地址、域名、API 接口路径、代码变量名等对大小写敏感的系统中，避免因格式不一致导致错误。
+        - generic [ref=e305]:
+          - heading "📘 转换结果准确吗？会不会改变原始结构？" [level=3] [ref=e306]
+          - paragraph [ref=e307]:
+            - text: 是的，转换结果精准可靠。本工具在浏览器本地执行，严格按照 Unicode 字符标准进行映射，确保每个字母正确转换。同时保留原文本的
+            - strong [ref=e308]: 空格、换行、标点符号和结构布局
+            - text: ，不会造成格式错乱或数据丢失。
+        - generic [ref=e309]:
+          - heading "🔧 可以只转换某一部分文本吗？比如首字母大写？" [level=3] [ref=e310]
+          - paragraph [ref=e311]:
+            - text: 当前版本支持
+            - strong [ref=e312]: 全文一键转换为大写或小写
+            - text: 。若需更精细控制（如首字母大写、驼峰命名等），建议先使用本工具完成基础转换后，在编辑器中手动调整，或联系开发者获取高级功能扩展版本。
+        - generic [ref=e313]:
+          - heading "🔒 输入的内容会被上传或记录吗？是否安全？" [level=3] [ref=e314]
+          - paragraph [ref=e315]:
+            - text: 不会！本工具采用
+            - strong [ref=e316]: 纯前端本地处理
+            - text: ，所有转换操作均在您的浏览器中完成，不发送任何网络请求。输入内容不会上传至服务器，也不会被存储或追踪，彻底保障隐私安全，可放心处理敏感信息。
+      - generic "工具快速切换" [ref=e317]:
+        - list [ref=e319]:
+          - listitem [ref=e320] [cursor=pointer]: 热门推荐
+          - listitem [ref=e321] [cursor=pointer]: 站长工具
+          - listitem [ref=e322] [cursor=pointer]: 编程开发
+          - listitem [ref=e323] [cursor=pointer]: 文本处理
+          - listitem [ref=e324] [cursor=pointer]: 图像处理
+          - listitem [ref=e325] [cursor=pointer]: 文档转换
+          - listitem [ref=e326] [cursor=pointer]: 音频视频
+          - listitem [ref=e327] [cursor=pointer]: 便民工具
+          - listitem [ref=e328] [cursor=pointer]: 编码加密
+          - listitem [ref=e329] [cursor=pointer]: 单位转换
+        - table [ref=e331]:
+          - rowgroup [ref=e332]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e333]:
+              - cell "微信聊天模拟器" [ref=e334]:
+                - link "微信聊天模拟器" [ref=e335] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e336]:
+                - link "微信零钱模拟器" [ref=e337] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e338]:
+                - link "文字转语音工具" [ref=e339] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e340]:
+                - link "法定退休年龄计算器" [ref=e341] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e342]:
+                - link "身份证号码查询" [ref=e343] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e344]:
+                - link "在线随机点名" [ref=e345] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e346]:
+              - cell "报名证件照处理" [ref=e347]:
+                - link "报名证件照处理" [ref=e348] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e349]:
+                - link "随机密码生成器" [ref=e350] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e351]:
+                - link "二维码生成器" [ref=e352] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e353]:
+                - link "世界高清地图" [ref=e354] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e355]:
+                - link "键盘按键检测" [ref=e356] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e357]:
+                - link "手机归属地查询" [ref=e358] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e359]:
+              - cell "在线字数统计" [ref=e360]:
+                - link "在线字数统计" [ref=e361] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e362]:
+                - link "JSON格式化/压缩" [ref=e363] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e364]:
+                - link "Base64编码/解码" [ref=e365] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e366]:
+                - link "图片高清压缩" [ref=e367] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e368]:
+                - link "摩斯密码编码/解码" [ref=e369] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e370]:
+                - link "节日时间倒计时" [ref=e371] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e372]:
+              - cell "本机IP地址查询" [ref=e373]:
+                - link "本机IP地址查询" [ref=e374] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e375]:
+                - link "Unix时间戳转换" [ref=e376] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e377]:
+                - link "图片取色器" [ref=e378] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e379]:
+                - link "色盲色弱测试" [ref=e380] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e381]:
+                - link "SVG在线编辑器" [ref=e382] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e383]:
+                - link "中国高清地图" [ref=e384] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e385]:
+              - cell "查看网页源码" [ref=e386]:
+                - link "查看网页源码" [ref=e387] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e388]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e389]
+        - paragraph [ref=e390]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e391]
+    - generic [ref=e392]:
+      - navigation "页脚链接" [ref=e393]:
+        - link "关于我们" [ref=e394] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e395] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e396] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e397] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e398] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e399] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e400] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e401] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e402] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e403]:
+        - generic [ref=e404]:
+          - text: © 2025
+          - link "懒人工具" [ref=e405] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e407] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e408]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e409] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持
