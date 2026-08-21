@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/js-obfuscator
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/js-obfuscator
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/js-obfuscator
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - heading "在线JS混淆加密工具" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: JS混淆
+          - generic [ref=e22]: 代码加密
+          - generic [ref=e23]: javascript-obfuscator
+          - generic [ref=e24]: 前端安全
+        - paragraph [ref=e25]: 在线JS混淆加密工具，基于 javascript-obfuscator 引擎在浏览器本地完成变量重命名、字符串数组化与控制流变换，一键生成难以阅读还原的混淆代码，支持下载与复制，代码不上传服务器。
+      - generic [ref=e26]:
+        - textbox "请输入需要混淆的 JavaScript 代码，或点击下方按钮加载示例代码" [ref=e27]
+        - button "加载示例代码" [ref=e28] [cursor=pointer]
+        - generic [ref=e29]:
+          - button "混淆加密" [disabled] [ref=e30]
+          - button "清空数据" [ref=e31] [cursor=pointer]
+        - textbox "点击【开始混淆】后，混淆加密结果将显示在这里。" [ref=e32]
+        - paragraph [ref=e33]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e34]:
+        - heading "使用说明" [level=2] [ref=e35]
+        - list [ref=e36]:
+          - listitem [ref=e37]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e38]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e39]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e40]: 所有操作本地完成，保障隐私
+      - generic [ref=e41]:
+        - heading "同类推荐" [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - link "专业JS代码混淆加密工具" [ref=e44] [cursor=pointer]:
+            - /url: /zh/js-obfuscator-advanced
+            - generic [ref=e45]: 专业JS代码混淆加密工具
+          - link "MD5在线加密工具" [ref=e46] [cursor=pointer]:
+            - /url: /zh/md5
+            - generic [ref=e47]: MD5在线加密工具
+          - link "AES在线加密/解密工具" [ref=e48] [cursor=pointer]:
+            - /url: /zh/aes-encrypt
+            - generic [ref=e49]: AES在线加密/解密工具
+      - generic [ref=e50]:
+        - heading "常见问题" [level=2] [ref=e51]
+        - group [ref=e52]:
+          - generic "混淆后的代码还能正常运行吗？" [ref=e53] [cursor=pointer]
+        - group [ref=e54]:
+          - generic "混淆能防止破解吗？" [ref=e55] [cursor=pointer]
+        - group [ref=e56]:
+          - generic "代码会被上传吗？" [ref=e57] [cursor=pointer]
+  - contentinfo [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - heading "热门推荐" [level=4] [ref=e61]
+        - link "JSON" [ref=e62] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e63]:
+        - heading "站长工具" [level=4] [ref=e64]
+        - link "IP" [ref=e65] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e66]:
+        - heading "关于" [level=4] [ref=e67]
+        - link "关于我们" [ref=e68] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e69] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e70]:
+        - heading "合规" [level=4] [ref=e71]
+        - link "服务条款" [ref=e72] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e73] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e74]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e75]

@@ -6919,5 +6919,541 @@
       "aes-encrypt",
       "htpasswd"
     ]
+  },
+  {
+    "id": "letter-converter",
+    "title": "英文字母大小写转换工具",
+    "h1": "英文字母大小写转换工具",
+    "description": "英文字母大小写转换工具，一键将文本全部转为大写或小写，支持中英文混排与长文本处理，实时转换即时复制，适用于标题规范、数据处理与文案编辑，全部本地处理不上传。",
+    "title_en": "English Letter Case Converter",
+    "h1_en": "English Letter Case Converter",
+    "description_en": "Convert text to UPPERCASE or lowercase in one click, with mixed Chinese-English support and instant copy. Ideal for titles, data cleanup and copyediting, fully local.",
+    "title_es": "Conversor de Mayúsculas y Minúsculas",
+    "h1_es": "Conversor de Mayúsculas y Minúsculas",
+    "description_es": "Convierta texto a MAYÚSCULAS o minúsculas con un clic, admite mezcla chino-inglés y copia instantánea, todo local.",
+    "tags": [
+      "大小写转换",
+      "大写",
+      "小写",
+      "字母转换"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-letter-circle.svg",
+    "faqs": [
+      {
+        "q": "支持哪些转换模式？",
+        "a": "目前支持全部转大写和全部转小写两种模式，数字、标点与中文保持原样不受影响。"
+      },
+      {
+        "q": "转换会改变原文吗？",
+        "a": "不会，输入框内容保持不变，结果输出到下方区域，可随时复制或清空。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which conversion modes are supported?",
+        "a": "Full UPPERCASE and full lowercase; digits, punctuation and Chinese characters remain unchanged."
+      },
+      {
+        "q": "Does converting alter the original?",
+        "a": "No, the input stays intact and results appear below for copying or clearing at any time."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué modos de conversión admite?",
+        "a": "Todo mayúsculas y todo minúsculas; dígitos, puntuación y chino no se ven afectados."
+      },
+      {
+        "q": "¿La conversión cambia el original?",
+        "a": "No, la entrada permanece intacta y el resultado aparece abajo para copiar o limpiar."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "symbol-converter",
+      "remove-emoji",
+      "word-count"
+    ]
+  },
+  {
+    "id": "symbol-converter",
+    "title": "在线中文英文符号转换工具",
+    "h1": "在线中文英文符号转换工具",
+    "description": "在线中文英文符号转换工具，一键互转全角半角标点：逗号句号问号感叹号冒号分号引号括号书名号等二十余种符号双向映射，适用于排版规范、代码字符串清洗与跨平台文案，全部本地处理。",
+    "title_en": "Chinese/English Symbol Converter",
+    "h1_en": "Chinese/English Symbol Converter",
+    "description_en": "Convert full-width and half-width punctuation both ways: commas, periods, question marks, colons, quotes, brackets and 20+ more symbols. Great for typography normalization and string cleaning, fully local.",
+    "title_es": "Convertidor de Símbolos Chino/Inglés",
+    "h1_es": "Convertidor de Símbolos Chino/Inglés",
+    "description_es": "Convierta puntuación de ancho completo y medio en ambas direcciones: comas, puntos, signos, dos puntos, comillas, corchetes y más de 20 símbolos, todo local.",
+    "tags": [
+      "符号转换",
+      "全角半角",
+      "标点转换",
+      "中英文"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-symbol-converter.svg",
+    "faqs": [
+      {
+        "q": "支持哪些符号的互转？",
+        "a": "覆盖逗号、句号、问号、感叹号、冒号、分号、括号、方括号、书名号、引号、顿号、破折号、波浪号、货币符等常用中英文标点。"
+      },
+      {
+        "q": "转换会影响汉字和字母吗？",
+        "a": "不会，仅对标点符号做映射替换，汉字、字母与数字原样保留。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which symbols are covered?",
+        "a": "Common Chinese/English punctuation: commas, periods, question/exclamation marks, colons, semicolons, brackets, quotes, dashes, tildes, currency signs and more."
+      },
+      {
+        "q": "Are Chinese characters and letters affected?",
+        "a": "No, only punctuation is mapped; characters, letters and digits stay as-is."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué símbolos cubre?",
+        "a": "Puntuación común china/inglesa: comas, puntos, signos, dos puntos, punto y coma, corchetes, comillas, guiones y más."
+      },
+      {
+        "q": "¿Afecta a caracteres chinos y letras?",
+        "a": "No, solo se mapea la puntuación; caracteres, letras y dígitos permanecen igual."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "letter-converter",
+      "text-replace",
+      "word-count"
+    ]
+  },
+  {
+    "id": "remove-emoji",
+    "title": "在线Emoji表情去除神器",
+    "h1": "在线Emoji表情去除神器",
+    "description": "在线Emoji表情去除神器，智能识别并删除文本中的全部 Emoji 表情符号与变体选择符，保留正常文字数字标点，自动清理多余空格换行，适用于数据清洗、昵称规范化与文案整理，全部本地处理。",
+    "title_en": "Online Emoji Remover",
+    "h1_en": "Online Emoji Remover",
+    "description_en": "Intelligently detect and strip all emoji and variation selectors from text while keeping letters, digits and punctuation, with automatic whitespace cleanup — great for data cleansing, fully local.",
+    "title_es": "Eliminador de Emojis en Línea",
+    "h1_es": "Eliminador de Emojis en Línea",
+    "description_es": "Detecte y elimine inteligentemente todos los emojis y selectores de variación del texto conservando letras, dígitos y puntuación, con limpieza automática de espacios, todo local.",
+    "tags": [
+      "去除Emoji",
+      "表情删除",
+      "文本清洗",
+      "数据清理"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-emoji.svg",
+    "faqs": [
+      {
+        "q": "能去除哪些类型的 Emoji？",
+        "a": "覆盖 Unicode 各区块的表情符号：笑脸、手势、动物、食物、旗帜（含组合国旗）、装饰符号及零宽连接符拼接的复合表情。"
+      },
+      {
+        "q": "会误删正常字符吗？",
+        "a": "仅移除 Emoji 区段字符，汉字、字母、数字与常规标点完整保留。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有处理均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which emoji types are removed?",
+        "a": "Unicode emoji blocks: smileys, gestures, animals, food, flags including composed ones, dingbats and ZWJ compound sequences."
+      },
+      {
+        "q": "Could normal characters be removed by mistake?",
+        "a": "Only emoji-range characters are stripped; Chinese, letters, digits and standard punctuation are preserved."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all processing runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué tipos de emojis elimina?",
+        "a": "Bloques Unicode de emojis: caras, gestos, animales, comida, banderas compuestas, símbolos y secuencias ZWJ."
+      },
+      {
+        "q": "¿Puede eliminar caracteres normales por error?",
+        "a": "Solo se eliminan caracteres del rango emoji; chino, letras, dígitos y puntuación estándar se conservan."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el procesamiento se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "word-count",
+      "text-replace",
+      "letter-converter"
+    ]
+  },
+  {
+    "id": "word-count",
+    "title": "在线字数统计工具",
+    "h1": "在线字数统计工具",
+    "description": "在线字数统计工具，输入即统计总字符数、不含空格字符数、汉字数、英文单词数、数字组、标点符号、行数与 UTF-8 字节数八大维度，支持下载 TXT 与一键复制，是写作投稿与平台字数限制的好帮手，全部本地计算。",
+    "title_en": "Online Word Counter",
+    "h1_en": "Online Word Counter",
+    "description_en": "Instantly analyze total characters, characters without spaces, Chinese chars, English words, number groups, punctuation, lines and UTF-8 bytes, with TXT download and one-click copy — perfect for writing limits, fully local.",
+    "title_es": "Contador de Palabras en Línea",
+    "h1_es": "Contador de Palabras en Línea",
+    "description_es": "Analice al instante caracteres totales, sin espacios, caracteres chinos, palabras inglesas, números, puntuación, líneas y bytes UTF-8, con descarga TXT y copia rápida, todo local.",
+    "tags": [
+      "字数统计",
+      "字符统计",
+      "字数检查",
+      "写作工具"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-word-count.svg",
+    "faqs": [
+      {
+        "q": "各统计维度是怎么定义的？",
+        "a": "总字符含空格换行；不含空格剔除所有空白；汉字按 CJK 区间计数；英文单词按连续字母串计；数字组如 3.14 计为 1 组。"
+      },
+      {
+        "q": "UTF-8 字节数有什么用？",
+        "a": "很多接口与数据库按字节限长，一个汉字通常占 3 字节，该指标可用于精确控制字节长度限制。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有统计均在浏览器本地实时完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How are the metrics defined?",
+        "a": "Total includes spaces/newlines; no-spaces strips whitespace; Chinese counts CJK range; English words count consecutive letter runs; number groups like 3.14 count as one."
+      },
+      {
+        "q": "What is UTF-8 byte count for?",
+        "a": "Many APIs and databases limit by bytes; a Chinese char usually takes 3 bytes, so this helps enforce byte-length limits precisely."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all counting runs locally in real time."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo se definen las métricas?",
+        "a": "El total incluye espacios/saltos; sin espacios elimina blancos; el chino cuenta el rango CJK; las palabras inglesas son series de letras; grupos numéricos como 3.14 cuentan como uno."
+      },
+      {
+        "q": "¿Para qué sirven los bytes UTF-8?",
+        "a": "Muchas APIs y bases de datos limitan por bytes; un carácter chino suele ocupar 3 bytes, útil para límites exactos."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el conteo se ejecuta localmente en tiempo real."
+      }
+    ],
+    "related": [
+      "remove-emoji",
+      "letter-converter",
+      "text-extract"
+    ]
+  },
+  {
+    "id": "line-text",
+    "title": "在线换行符转文本行工具",
+    "h1": "在线换行符转文本行工具",
+    "description": "在线换行符转文本行工具，把文本中的字面 \\n、\\r\\n 转义序列还原为真实换行，适用于日志分析、JSON 字符串预览与转义文本还原，一键处理即时复制，全部本地处理。",
+    "title_en": "Literal Newlines to Real Lines",
+    "h1_en": "Literal Newlines to Real Lines",
+    "description_en": "Restore literal \\n and \\r\\n escape sequences into real line breaks — perfect for log analysis, JSON string preview and escaped text recovery, with instant copy, fully local.",
+    "title_es": "Saltos Literales a Líneas Reales",
+    "h1_es": "Saltos Literales a Líneas Reales",
+    "description_es": "Convierte secuencias de escape literales \\n y \\r\\n en saltos de línea reales, ideal para análisis de registros y vista previa de cadenas JSON, todo local.",
+    "tags": [
+      "换行符",
+      "转义还原",
+      "\\n",
+      "文本处理"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-line-text.svg",
+    "faqs": [
+      {
+        "q": "什么是字面换行符？",
+        "a": "指文本中以反斜杠+n 形式出现的两个普通字符（常见于 JSON、日志），而非真实换行；本工具将其还原为真实换行便于阅读。"
+      },
+      {
+        "q": "支持 \\r\\n 吗？",
+        "a": "支持，\\r\\n、\\n、\\r 三种转义序列都会被还原为对应真实换行。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有处理均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What are literal newlines?",
+        "a": "They are two ordinary characters backslash-n (common in JSON and logs) rather than real breaks; this tool restores them for readability."
+      },
+      {
+        "q": "Is \\r\\n supported?",
+        "a": "Yes, all three escapes \\r\\n, \\n and \\r are restored to their real line breaks."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all processing runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué son los saltos literales?",
+        "a": "Son dos caracteres ordinarios barra invertida + n (comunes en JSON y registros), no saltos reales; esta herramienta los restaura."
+      },
+      {
+        "q": "¿Admite \\r\\n?",
+        "a": "Sí, las tres secuencias \\r\\n, \\n y \\r se restauran a saltos reales."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el procesamiento se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "text-line",
+      "text-split",
+      "text-replace"
+    ]
+  },
+  {
+    "id": "text-line",
+    "title": "在线文本行转换行符工具",
+    "h1": "在线文本行转换行符工具",
+    "description": "在线文本行转换行符工具，把多行文本的真实换行统一转为字面 \\n 转义序列，兼容 \\r\\n 与 \\r 输入，适用于生成 JSON 字符串、代码内嵌文本与单行传输场景，全部本地处理。",
+    "title_en": "Real Lines to Literal Newlines",
+    "h1_en": "Real Lines to Literal Newlines",
+    "description_en": "Convert real line breaks of multi-line text into literal \\n escape sequences, accepting \\r\\n and \\r input — ideal for building JSON strings and embedding text in code, fully local.",
+    "title_es": "Líneas Reales a Saltos Literales",
+    "h1_es": "Líneas Reales a Saltos Literales",
+    "description_es": "Convierte los saltos de línea reales de texto multilínea en secuencias de escape \\n literales, aceptando entrada \\r\\n y \\r, ideal para cadenas JSON, todo local.",
+    "tags": [
+      "换行转义",
+      "\\n",
+      "JSON字符串",
+      "文本处理"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-text-line.svg",
+    "faqs": [
+      {
+        "q": "什么时候需要这个工具？",
+        "a": "把多行文本塞进 JSON 值、数据库字段或单行代码字符串时，必须把真实换行转成 \\n 转义，否则语法非法。"
+      },
+      {
+        "q": "Windows 的 \\r\\n 会怎么处理？",
+        "a": "统一转换为 \\n，与 JSON、JavaScript 等主流规范一致。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有处理均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "When do I need this tool?",
+        "a": "When putting multi-line text into JSON values, database fields or single-line code strings, real breaks must become \\n escapes or syntax breaks."
+      },
+      {
+        "q": "How is Windows \\r\\n handled?",
+        "a": "It is unified to \\n, consistent with JSON, JavaScript and other mainstream specs."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all processing runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cuándo necesito esta herramienta?",
+        "a": "Al insertar texto multilínea en valores JSON, campos de base de datos o cadenas de una línea, los saltos reales deben convertirse en \\n."
+      },
+      {
+        "q": "¿Cómo se trata el \\r\\n de Windows?",
+        "a": "Se unifica a \\n, consistente con JSON, JavaScript y otros estándares."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el procesamiento se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "line-text",
+      "text-split",
+      "text-replace"
+    ]
+  },
+  {
+    "id": "text-replace",
+    "title": "在线文本批量替换工具",
+    "h1": "在线文本批量替换工具",
+    "description": "在线文本批量替换工具，输入查找目标与替换内容一键全部替换，实时显示替换次数，支持正则表达式高级模式，适用于批量改词、格式清洗与模板变量填充，全部本地处理不上传。",
+    "title_en": "Online Bulk Text Replace",
+    "h1_en": "Online Bulk Text Replace",
+    "description_en": "Replace all occurrences instantly with match counting, plus advanced regex mode — great for bulk wording changes, format cleaning and template variable filling, fully local.",
+    "title_es": "Reemplazo de Texto en Lote",
+    "h1_es": "Reemplazo de Texto en Lote",
+    "description_es": "Reemplace todas las ocurrencias al instante con conteo de coincidencias y modo regex avanzado, ideal para cambios masivos y limpieza de formato, todo local.",
+    "tags": [
+      "批量替换",
+      "查找替换",
+      "正则替换",
+      "文本处理"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-text-replace.svg",
+    "faqs": [
+      {
+        "q": "正则模式和普通模式有什么区别？",
+        "a": "普通模式按纯文本精确匹配；正则模式支持 .、*、+、捕获组等语法，可完成删空行、去数字等复杂替换。"
+      },
+      {
+        "q": "能看到替换了多少处吗？",
+        "a": "可以，每次替换后都会显示本次命中的次数，方便核对是否符合预期。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有替换均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Regex vs plain mode?",
+        "a": "Plain mode matches literal text exactly; regex mode supports ., *, +, capture groups and more for complex replacements like removing blank lines or digits."
+      },
+      {
+        "q": "Can I see how many replacements were made?",
+        "a": "Yes, each run reports the hit count so you can verify expectations."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all replacements run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Modo regex o normal?",
+        "a": "El modo normal coincide texto literal; el regex admite ., *, +, grupos de captura y más para reemplazos complejos."
+      },
+      {
+        "q": "¿Puedo ver cuántas sustituciones hubo?",
+        "a": "Sí, cada ejecución muestra el número de coincidencias para verificar."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todos los reemplazos se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "text-split",
+      "symbol-converter",
+      "line-text"
+    ]
+  },
+  {
+    "id": "text-split",
+    "title": "在线文本分割工具",
+    "h1": "在线文本分割工具",
+    "description": "在线文本分割工具，按自定义分隔符拆分文本并以指定连接符合并输出，默认按换行拆分、逗号合并，可快速把列表转为数组字面量、CSV 行或带引号清单，全部本地处理。",
+    "title_en": "Online Text Splitter",
+    "h1_en": "Online Text Splitter",
+    "description_en": "Split text by a custom delimiter and rejoin with any connector — default newline split with comma join, perfect for turning lists into array literals, CSV rows or quoted lists, fully local.",
+    "title_es": "Divisor de Texto en Línea",
+    "h1_es": "Divisor de Texto en Línea",
+    "description_es": "Divida texto por un delimitador personalizado y únelo con cualquier conector: división por líneas y unión por comas por defecto, ideal para listas y arrays, todo local.",
+    "tags": [
+      "文本分割",
+      "分隔符",
+      "列表转换",
+      "文本处理"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-text-split.svg",
+    "faqs": [
+      {
+        "q": "默认怎么分割？",
+        "a": "默认按换行符拆分并用逗号加空格合并为一行；也可自定义任意分隔符与连接符。"
+      },
+      {
+        "q": "分割后的空白项会保留吗？",
+        "a": "不会，每个片段自动去除首尾空白并过滤空项，输出更干净。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有处理均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is the default split behavior?",
+        "a": "Splits by newline and joins with comma+space into one line; both delimiter and joiner are customizable."
+      },
+      {
+        "q": "Are blank fragments kept?",
+        "a": "No, each piece is trimmed and empty items filtered for cleaner output."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all processing runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo divide por defecto?",
+        "a": "Divide por saltos de línea y une con coma y espacio en una línea; delimitador y unión personalizables."
+      },
+      {
+        "q": "¿Se conservan los fragmentos vacíos?",
+        "a": "No, cada fragmento se recorta y los vacíos se filtran para una salida más limpia."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el procesamiento se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "text-replace",
+      "line-text",
+      "word-count"
+    ]
   }
 ]

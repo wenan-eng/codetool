@@ -1,0 +1,424 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - heading "一站式免费在线工具箱 - 分类齐全，即开即用" [level=1] [ref=e105]
+    - generic [ref=e106]:
+      - generic [ref=e107]: 搜索工具
+      - textbox "搜索工具" [ref=e108]:
+        - /placeholder: 输入关键词，按回车搜索，使用组合键 Alt+Q 调用...
+      - button "清空搜索": ✕
+    - heading "格式整理" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - article [ref=e111]:
+        - link "中英文符号转换器 工具图标 中英文符号转换器 实现文本标点符号的快速标准化处理，可一键将中文符号转为英文符号或英文符号转为中文符号。" [ref=e112] [cursor=pointer]:
+          - /url: /symbol-converter/
+          - heading "中英文符号转换器 工具图标 中英文符号转换器" [level=3] [ref=e113]:
+            - img "中英文符号转换器 工具图标" [ref=e114]
+            - generic [ref=e115]: 中英文符号转换器
+          - paragraph [ref=e116]: 实现文本标点符号的快速标准化处理，可一键将中文符号转为英文符号或英文符号转为中文符号。
+      - article [ref=e117]:
+        - link "Emoji表情去除神器 工具图标 Emoji表情去除神器 精准识别并去除所有Emoji表情符号，智能清理文本内容，自动生成纯净无表情的完整文本结果。" [ref=e118] [cursor=pointer]:
+          - /url: /remove-emoji/
+          - heading "Emoji表情去除神器 工具图标 Emoji表情去除神器" [level=3] [ref=e119]:
+            - img "Emoji表情去除神器 工具图标" [ref=e120]
+            - generic [ref=e121]: Emoji表情去除神器
+          - paragraph [ref=e122]: 精准识别并去除所有Emoji表情符号，智能清理文本内容，自动生成纯净无表情的完整文本结果。
+      - article [ref=e123]:
+        - link "字母大小写转换 工具图标 字母大小写转换 一键将英文字母文本转换为标准大写或小写格式，自动保留原有数字与符号，确保转换结果准确无误。" [ref=e124] [cursor=pointer]:
+          - /url: /letter-converter/
+          - heading "字母大小写转换 工具图标 字母大小写转换" [level=3] [ref=e125]:
+            - img "字母大小写转换 工具图标" [ref=e126]
+            - generic [ref=e127]: 字母大小写转换
+          - paragraph [ref=e128]: 一键将英文字母文本转换为标准大写或小写格式，自动保留原有数字与符号，确保转换结果准确无误。
+      - article [ref=e129]:
+        - link "简体繁体转换器 工具图标 简体繁体转换器 支持简体中文与繁体中文相互转换，准确处理两岸三地字符差异，满足不同场景的语言转换需求。" [ref=e130] [cursor=pointer]:
+          - /url: /chinese-converter/
+          - heading "简体繁体转换器 工具图标 简体繁体转换器" [level=3] [ref=e131]:
+            - img "简体繁体转换器 工具图标" [ref=e132]
+            - generic [ref=e133]: 简体繁体转换器
+          - paragraph [ref=e134]: 支持简体中文与繁体中文相互转换，准确处理两岸三地字符差异，满足不同场景的语言转换需求。
+      - article [ref=e135]:
+        - link "火星文生成器 工具图标 火星文生成器 一键将普通中文文本转换为酷炫火星文风格，自动替换异体字与花哨字符，保留原意的同时提升个性表达。" [ref=e136] [cursor=pointer]:
+          - /url: /mars-converter/
+          - heading "火星文生成器 工具图标 火星文生成器" [level=3] [ref=e137]:
+            - img "火星文生成器 工具图标" [ref=e138]
+            - generic [ref=e139]: 火星文生成器
+          - paragraph [ref=e140]: 一键将普通中文文本转换为酷炫火星文风格，自动替换异体字与花哨字符，保留原意的同时提升个性表达。
+      - article [ref=e141]:
+        - link "文本自动排版 工具图标 文本自动排版 文本智能自动排版工具，精准实现语义分段功能，并提供基础格式清理与统计显示功能。" [ref=e142] [cursor=pointer]:
+          - /url: /text-formatter/
+          - heading "文本自动排版 工具图标 文本自动排版" [level=3] [ref=e143]:
+            - img "文本自动排版 工具图标" [ref=e144]
+            - generic [ref=e145]: 文本自动排版
+          - paragraph [ref=e146]: 文本智能自动排版工具，精准实现语义分段功能，并提供基础格式清理与统计显示功能。
+      - article [ref=e147]:
+        - link "文本分割神器 工具图标 文本分割神器 智能分割文本内容，支持自定义多种分隔符，实现快速拆分为独立项目，提供一键复制。" [ref=e148] [cursor=pointer]:
+          - /url: /text-split/
+          - heading "文本分割神器 工具图标 文本分割神器" [level=3] [ref=e149]:
+            - img "文本分割神器 工具图标" [ref=e150]
+            - generic [ref=e151]: 文本分割神器
+          - paragraph [ref=e152]: 智能分割文本内容，支持自定义多种分隔符，实现快速拆分为独立项目，提供一键复制。
+      - article [ref=e153]:
+        - link "文本批量替换 工具图标 文本批量替换 专业在线文本替换工具，支持自定义与智能预设替换，保障文本处理高效精准，兼容传统格式与现代编辑需求。" [ref=e154] [cursor=pointer]:
+          - /url: /text-replace/
+          - heading "文本批量替换 工具图标 文本批量替换" [level=3] [ref=e155]:
+            - img "文本批量替换 工具图标" [ref=e156]
+            - generic [ref=e157]: 文本批量替换
+          - paragraph [ref=e158]: 专业在线文本替换工具，支持自定义与智能预设替换，保障文本处理高效精准，兼容传统格式与现代编辑需求。
+      - article [ref=e159]:
+        - link "换行符转文本换行 工具图标 换行符转文本换行 换行符转文本行工具，将可见字符形式的换行符转换为实际换行格式，支持批量处理与快速处理。" [ref=e160] [cursor=pointer]:
+          - /url: /line-text/
+          - heading "换行符转文本换行 工具图标 换行符转文本换行" [level=3] [ref=e161]:
+            - img "换行符转文本换行 工具图标" [ref=e162]
+            - generic [ref=e163]: 换行符转文本换行
+          - paragraph [ref=e164]: 换行符转文本行工具，将可见字符形式的换行符转换为实际换行格式，支持批量处理与快速处理。
+      - article [ref=e165]:
+        - link "文本换行转换行符 工具图标 文本换行转换行符 多行文本换行符可视化工具，统一所有换行格式并转为可见字符，支持批量处理与快速复制。" [ref=e166] [cursor=pointer]:
+          - /url: /text-line/
+          - heading "文本换行转换行符 工具图标 文本换行转换行符" [level=3] [ref=e167]:
+            - img "文本换行转换行符 工具图标" [ref=e168]
+            - generic [ref=e169]: 文本换行转换行符
+          - paragraph [ref=e170]: 多行文本换行符可视化工具，统一所有换行格式并转为可见字符，支持批量处理与快速复制。
+    - heading "信息提取" [level=2] [ref=e171]
+    - generic [ref=e172]:
+      - article [ref=e173]:
+        - link "文本信息提取器 工具图标 文本信息提取器 支持多类型文本智能提取、自动去重分行规整，适配手机号座机、链接邮箱、快递证件编码等场景。" [ref=e174] [cursor=pointer]:
+          - /url: /text-extract/
+          - heading "文本信息提取器 工具图标 文本信息提取器" [level=3] [ref=e175]:
+            - img "文本信息提取器 工具图标" [ref=e176]
+            - generic [ref=e177]: 文本信息提取器
+          - paragraph [ref=e178]: 支持多类型文本智能提取、自动去重分行规整，适配手机号座机、链接邮箱、快递证件编码等场景。
+      - article [ref=e179]:
+        - link "手机号去重提取 工具图标 手机号去重提取 智能提取文本中所有的手机号码，自动屏蔽座机号码与国际号码，实现格式化输出。" [ref=e180] [cursor=pointer]:
+          - /url: /mobile-extractor/
+          - heading "手机号去重提取 工具图标 手机号去重提取" [level=3] [ref=e181]:
+            - img "手机号去重提取 工具图标" [ref=e182]
+            - generic [ref=e183]: 手机号去重提取
+          - paragraph [ref=e184]: 智能提取文本中所有的手机号码，自动屏蔽座机号码与国际号码，实现格式化输出。
+      - article [ref=e185]:
+        - link "文本邮箱提取器 工具图标 文本邮箱提取器 邮箱提取工具，一键智能提取文本中所有邮箱地址，自动完成去重与格式化输出，高效便捷。" [ref=e186] [cursor=pointer]:
+          - /url: /email-extractor/
+          - heading "文本邮箱提取器 工具图标 文本邮箱提取器" [level=3] [ref=e187]:
+            - img "文本邮箱提取器 工具图标" [ref=e188]
+            - generic [ref=e189]: 文本邮箱提取器
+          - paragraph [ref=e190]: 邮箱提取工具，一键智能提取文本中所有邮箱地址，自动完成去重与格式化输出，高效便捷。
+      - article [ref=e191]:
+        - link "通用文本URL提取 工具图标 通用文本URL提取 提取文本全域 URL，智能去重补协议，一键复制下载导出，适配通用网址抓取、链接整理归集。" [ref=e192] [cursor=pointer]:
+          - /url: /url-extractor/
+          - heading "通用文本URL提取 工具图标 通用文本URL提取" [level=3] [ref=e193]:
+            - img "通用文本URL提取 工具图标" [ref=e194]
+            - generic [ref=e195]: 通用文本URL提取
+          - paragraph [ref=e196]: 提取文本全域 URL，智能去重补协议，一键复制下载导出，适配通用网址抓取、链接整理归集。
+      - article [ref=e197]:
+        - link "身份证号提取生日 工具图标 身份证号提取生日 智能解析身份证号中的出生日期，自动提取阳历、农历、星期、生肖与星座信息，实现结构化输出。" [ref=e198] [cursor=pointer]:
+          - /url: /idcard-date/
+          - heading "身份证号提取生日 工具图标 身份证号提取生日" [level=3] [ref=e199]:
+            - img "身份证号提取生日 工具图标" [ref=e200]
+            - generic [ref=e201]: 身份证号提取生日
+          - paragraph [ref=e202]: 智能解析身份证号中的出生日期，自动提取阳历、农历、星期、生肖与星座信息，实现结构化输出。
+      - article [ref=e203]:
+        - link "URL地址解析 工具图标 URL地址解析 专业的URL地址解析平台，实现从协议类型、域名结构到路径参数的全方位分解。" [ref=e204] [cursor=pointer]:
+          - /url: /net-parser/
+          - heading "URL地址解析 工具图标 URL地址解析" [level=3] [ref=e205]:
+            - img "URL地址解析 工具图标" [ref=e206]
+            - generic [ref=e207]: URL地址解析
+          - paragraph [ref=e208]: 专业的URL地址解析平台，实现从协议类型、域名结构到路径参数的全方位分解。
+      - article [ref=e209]:
+        - link "HTML图片链接提取 工具图标 HTML图片链接提取 HTML图片链接去重提取并分行展示，适用于网页开发、资源整理和批量处理图片链接等场景。" [ref=e210] [cursor=pointer]:
+          - /url: /image-extract/
+          - heading "HTML图片链接提取 工具图标 HTML图片链接提取" [level=3] [ref=e211]:
+            - img "HTML图片链接提取 工具图标" [ref=e212]
+            - generic [ref=e213]: HTML图片链接提取
+          - paragraph [ref=e214]: HTML图片链接去重提取并分行展示，适用于网页开发、资源整理和批量处理图片链接等场景。
+      - article [ref=e215]:
+        - link "身份证信息提取 工具图标 身份证信息提取 支持出生日期、性别、年龄、地址码、生肖、星座、校验码验证、精确年龄及证件类型等信息提取." [ref=e216] [cursor=pointer]:
+          - /url: /idcard-extract/
+          - heading "身份证信息提取 工具图标 身份证信息提取" [level=3] [ref=e217]:
+            - img "身份证信息提取 工具图标" [ref=e218]
+            - generic [ref=e219]: 身份证信息提取
+          - paragraph [ref=e220]: 支持出生日期、性别、年龄、地址码、生肖、星座、校验码验证、精确年龄及证件类型等信息提取.
+    - heading "合规检测" [level=2] [ref=e221]
+    - generic [ref=e222]:
+      - article [ref=e223]:
+        - link "小红书违禁词检测 工具图标 小红书违禁词检测 智能扫描文案，自动标红违规词，帮您及时发现广告法风险内容，避免不必要的经济损失！" [ref=e224] [cursor=pointer]:
+          - /url: /word-filter-redbook/
+          - heading "小红书违禁词检测 工具图标 小红书违禁词检测" [level=3] [ref=e225]:
+            - img "小红书违禁词检测 工具图标" [ref=e226]
+            - generic [ref=e227]: 小红书违禁词检测
+          - paragraph [ref=e228]: 智能扫描文案，自动标红违规词，帮您及时发现广告法风险内容，避免不必要的经济损失！
+      - article [ref=e229]:
+        - link "抖音违禁词检测 工具图标 抖音违禁词检测 智能分析文案，自动高亮敏感词，帮您排查广告法违规风险，减少合规不当引发的经济损失！" [ref=e230] [cursor=pointer]:
+          - /url: /word-filter-tiktok/
+          - heading "抖音违禁词检测 工具图标 抖音违禁词检测" [level=3] [ref=e231]:
+            - img "抖音违禁词检测 工具图标" [ref=e232]
+            - generic [ref=e233]: 抖音违禁词检测
+          - paragraph [ref=e234]: 智能分析文案，自动高亮敏感词，帮您排查广告法违规风险，减少合规不当引发的经济损失！
+      - article [ref=e235]:
+        - link "视频号违禁词检测 工具图标 视频号违禁词检测 支持对视频号平台违禁词、极限词、导流敏感词、营销违规词智能识别，自动标红违规词汇。" [ref=e236] [cursor=pointer]:
+          - /url: /word-filter-video/
+          - heading "视频号违禁词检测 工具图标 视频号违禁词检测" [level=3] [ref=e237]:
+            - img "视频号违禁词检测 工具图标" [ref=e238]
+            - generic [ref=e239]: 视频号违禁词检测
+          - paragraph [ref=e240]: 支持对视频号平台违禁词、极限词、导流敏感词、营销违规词智能识别，自动标红违规词汇。
+      - article [ref=e241]:
+        - link "快手违禁词检测 工具图标 快手违禁词检测 支持对快手平台违禁词、极限词、导流敏感词、广告法禁词智能识别。" [ref=e242] [cursor=pointer]:
+          - /url: /word-filter-kuaishou/
+          - heading "快手违禁词检测 工具图标 快手违禁词检测" [level=3] [ref=e243]:
+            - img "快手违禁词检测 工具图标" [ref=e244]
+            - generic [ref=e245]: 快手违禁词检测
+          - paragraph [ref=e246]: 支持对快手平台违禁词、极限词、导流敏感词、广告法禁词智能识别。
+      - article [ref=e247]:
+        - link "B站违禁词检测 工具图标 B站违禁词检测 支持对B站平台违禁词、极限词、导流敏感词、广告法禁词智能识别，自动标红违规词汇。" [ref=e248] [cursor=pointer]:
+          - /url: /word-filter-bilibili/
+          - heading "B站违禁词检测 工具图标 B站违禁词检测" [level=3] [ref=e249]:
+            - img "B站违禁词检测 工具图标" [ref=e250]
+            - generic [ref=e251]: B站违禁词检测
+          - paragraph [ref=e252]: 支持对B站平台违禁词、极限词、导流敏感词、广告法禁词智能识别，自动标红违规词汇。
+      - article [ref=e253]:
+        - link "微信公众号违禁检测 工具图标 微信公众号违禁检测 支持对微信公众号平台违禁词、广告法极限词、导流敏感词等智能识别，自动标红违规词汇。" [ref=e254] [cursor=pointer]:
+          - /url: /word-filter-mp/
+          - heading "微信公众号违禁检测 工具图标 微信公众号违禁检测" [level=3] [ref=e255]:
+            - img "微信公众号违禁检测 工具图标" [ref=e256]
+            - generic [ref=e257]: 微信公众号违禁检测
+          - paragraph [ref=e258]: 支持对微信公众号平台违禁词、广告法极限词、导流敏感词等智能识别，自动标红违规词汇。
+      - article [ref=e259]:
+        - link "淘宝/天猫违禁词检测 工具图标 淘宝/天猫违禁词检测 支持对淘宝平台违禁词、极限词、导流敏感词、广告法禁词智能识别，自动标红违规词汇。" [ref=e260] [cursor=pointer]:
+          - /url: /word-filter-taobao/
+          - heading "淘宝/天猫违禁词检测 工具图标 淘宝/天猫违禁词检测" [level=3] [ref=e261]:
+            - img "淘宝/天猫违禁词检测 工具图标" [ref=e262]
+            - generic [ref=e263]: 淘宝/天猫违禁词检测
+          - paragraph [ref=e264]: 支持对淘宝平台违禁词、极限词、导流敏感词、广告法禁词智能识别，自动标红违规词汇。
+      - article [ref=e265]:
+        - link "拼多多违禁词检测 工具图标 拼多多违禁词检测 智能解析拼多多文案，自动标红违禁词汇，识别平台违规与广告法风险，降低违规扣分与账号封号风险。" [ref=e266] [cursor=pointer]:
+          - /url: /word-filter-pdd/
+          - heading "拼多多违禁词检测 工具图标 拼多多违禁词检测" [level=3] [ref=e267]:
+            - img "拼多多违禁词检测 工具图标" [ref=e268]
+            - generic [ref=e269]: 拼多多违禁词检测
+          - paragraph [ref=e270]: 智能解析拼多多文案，自动标红违禁词汇，识别平台违规与广告法风险，降低违规扣分与账号封号风险。
+      - article [ref=e271]:
+        - link "京东违禁词检测 工具图标 京东违禁词检测 智能解析京东文案，自动标红违禁词汇，识别平台违规与广告法风险，降低违规扣分与账号封号风险。" [ref=e272] [cursor=pointer]:
+          - /url: /word-filter-jd/
+          - heading "京东违禁词检测 工具图标 京东违禁词检测" [level=3] [ref=e273]:
+            - img "京东违禁词检测 工具图标" [ref=e274]
+            - generic [ref=e275]: 京东违禁词检测
+          - paragraph [ref=e276]: 智能解析京东文案，自动标红违禁词汇，识别平台违规与广告法风险，降低违规扣分与账号封号风险。
+      - article [ref=e277]:
+        - link "美团违禁词检测 工具图标 美团违禁词检测 支持对美团平台违禁词、极限词、导流敏感词、广告法禁词智能识别，自动标红违规词汇。" [ref=e278] [cursor=pointer]:
+          - /url: /word-filter-meituan/
+          - heading "美团违禁词检测 工具图标 美团违禁词检测" [level=3] [ref=e279]:
+            - img "美团违禁词检测 工具图标" [ref=e280]
+            - generic [ref=e281]: 美团违禁词检测
+          - paragraph [ref=e282]: 支持对美团平台违禁词、极限词、导流敏感词、广告法禁词智能识别，自动标红违规词汇。
+      - article [ref=e283]:
+        - link "亚马逊违禁词检测 工具图标 亚马逊违禁词检测 支持对亚马逊平台违禁词、极限词、导流敏感词、广告法禁词智能识别。" [ref=e284] [cursor=pointer]:
+          - /url: /word-filter-amazon/
+          - heading "亚马逊违禁词检测 工具图标 亚马逊违禁词检测" [level=3] [ref=e285]:
+            - img "亚马逊违禁词检测 工具图标" [ref=e286]
+            - generic [ref=e287]: 亚马逊违禁词检测
+          - paragraph [ref=e288]: 支持对亚马逊平台违禁词、极限词、导流敏感词、广告法禁词智能识别。
+      - article [ref=e289]:
+        - link "闲鱼违禁词检测 工具图标 闲鱼违禁词检测 智能解析文案，自动标红违规词，识别广告法风险，预警问题，降低运营成本与经济损失！" [ref=e290] [cursor=pointer]:
+          - /url: /word-filter-idlefish/
+          - heading "闲鱼违禁词检测 工具图标 闲鱼违禁词检测" [level=3] [ref=e291]:
+            - img "闲鱼违禁词检测 工具图标" [ref=e292]
+            - generic [ref=e293]: 闲鱼违禁词检测
+          - paragraph [ref=e294]: 智能解析文案，自动标红违规词，识别广告法风险，预警问题，降低运营成本与经济损失！
+    - heading "其他工具" [level=2] [ref=e295]
+    - generic [ref=e296]:
+      - article [ref=e297]:
+        - link "临时记事本 工具图标 临时记事本 灵活配置自动保存与导出格式，智能识别文件名规则，实时批量处理文本内容并支持一键导出为TXT文件。" [ref=e298] [cursor=pointer]:
+          - /url: /note/
+          - heading "临时记事本 工具图标 临时记事本" [level=3] [ref=e299]:
+            - img "临时记事本 工具图标" [ref=e300]
+            - generic [ref=e301]: 临时记事本
+          - paragraph [ref=e302]: 灵活配置自动保存与导出格式，智能识别文件名规则，实时批量处理文本内容并支持一键导出为TXT文件。
+      - article [ref=e303]:
+        - link "创业点子生成器 工具图标 创业点子生成器 实现创业方向的快速浏览与筛选，可一键切换查看闲鱼无货源电商、短视频带货、网盘资源分享等。" [ref=e304] [cursor=pointer]:
+          - /url: /startup-idea/
+          - heading "创业点子生成器 工具图标 创业点子生成器" [level=3] [ref=e305]:
+            - img "创业点子生成器 工具图标" [ref=e306]
+            - generic [ref=e307]: 创业点子生成器
+          - paragraph [ref=e308]: 实现创业方向的快速浏览与筛选，可一键切换查看闲鱼无货源电商、短视频带货、网盘资源分享等。
+      - article [ref=e309]:
+        - link "微信聊天对话模板 工具图标 微信聊天对话模板 提供海量搞笑微信聊天对话文本，一键复制完整对话内容，可直接粘贴到微信聊天模拟器生成对话截图。" [ref=e310] [cursor=pointer]:
+          - /url: /wechat-chat/
+          - heading "微信聊天对话模板 工具图标 微信聊天对话模板" [level=3] [ref=e311]:
+            - img "微信聊天对话模板 工具图标" [ref=e312]
+            - generic [ref=e313]: 微信聊天对话模板
+          - paragraph [ref=e314]: 提供海量搞笑微信聊天对话文本，一键复制完整对话内容，可直接粘贴到微信聊天模拟器生成对话截图。
+      - article [ref=e315]:
+        - link "文件夹批量创建 工具图标 文件夹批量创建 实现目录结构的快速批量生成，可基于文本行创建文件夹、支持斜杠多级目录。" [ref=e316] [cursor=pointer]:
+          - /url: /folder-generator/
+          - heading "文件夹批量创建 工具图标 文件夹批量创建" [level=3] [ref=e317]:
+            - img "文件夹批量创建 工具图标" [ref=e318]
+            - generic [ref=e319]: 文件夹批量创建
+          - paragraph [ref=e320]: 实现目录结构的快速批量生成，可基于文本行创建文件夹、支持斜杠多级目录。
+      - article [ref=e321]:
+        - link "随机字符串批量生成 工具图标 随机字符串批量生成 设定长度范围批量创建不重复的字母数字组合，支持参数配置，适用于测试数据、密码生成等场景。" [ref=e322] [cursor=pointer]:
+          - /url: /string-random/
+          - heading "随机字符串批量生成 工具图标 随机字符串批量生成" [level=3] [ref=e323]:
+            - img "随机字符串批量生成 工具图标" [ref=e324]
+            - generic [ref=e325]: 随机字符串批量生成
+          - paragraph [ref=e326]: 设定长度范围批量创建不重复的字母数字组合，支持参数配置，适用于测试数据、密码生成等场景。
+      - article [ref=e327]:
+        - link "数字序列批量生成器 工具图标 数字序列批量生成器 智能生成等差连续数字序列，灵活配置步长与补零格式，自动批量输出带前后缀的完整数字列表结果。" [ref=e328] [cursor=pointer]:
+          - /url: /sequence-generator/
+          - heading "数字序列批量生成器 工具图标 数字序列批量生成器" [level=3] [ref=e329]:
+            - img "数字序列批量生成器 工具图标" [ref=e330]
+            - generic [ref=e331]: 数字序列批量生成器
+          - paragraph [ref=e332]: 智能生成等差连续数字序列，灵活配置步长与补零格式，自动批量输出带前后缀的完整数字列表结果。
+      - article [ref=e333]:
+        - link "圆圈字母生成器 工具图标 圆圈字母生成器 在线圆圈字母生成器，支持将英文字母A-Z和数字0-9快速转换为带圆圈的Unicode符号，提供一键复制转换结果。" [ref=e334] [cursor=pointer]:
+          - /url: /letter-circle/
+          - heading "圆圈字母生成器 工具图标 圆圈字母生成器" [level=3] [ref=e335]:
+            - img "圆圈字母生成器 工具图标" [ref=e336]
+            - generic [ref=e337]: 圆圈字母生成器
+          - paragraph [ref=e338]: 在线圆圈字母生成器，支持将英文字母A-Z和数字0-9快速转换为带圆圈的Unicode符号，提供一键复制转换结果。
+      - article [ref=e339]:
+        - link "汉字转拼音 工具图标 汉字转拼音 实时汉字转拼音，支持多音字识别、声调标注与无调输出，精准转换中文为拼音序列，提升注音效率。" [ref=e340] [cursor=pointer]:
+          - /url: /pinyin-converter/
+          - heading "汉字转拼音 工具图标 汉字转拼音" [level=3] [ref=e341]:
+            - img "汉字转拼音 工具图标" [ref=e342]
+            - generic [ref=e343]: 汉字转拼音
+          - paragraph [ref=e344]: 实时汉字转拼音，支持多音字识别、声调标注与无调输出，精准转换中文为拼音序列，提升注音效率。
+      - article [ref=e345]:
+        - link "Markdown在线编辑器 工具图标 Markdown在线编辑器 支持编写Markdown文档实时预览，精准解析语法生成HTML，适用于技术文档撰写、笔记记录整理等场景。" [ref=e346] [cursor=pointer]:
+          - /url: /markdown/
+          - heading "Markdown在线编辑器 工具图标 Markdown在线编辑器" [level=3] [ref=e347]:
+            - img "Markdown在线编辑器 工具图标" [ref=e348]
+            - generic [ref=e349]: Markdown在线编辑器
+          - paragraph [ref=e350]: 支持编写Markdown文档实时预览，精准解析语法生成HTML，适用于技术文档撰写、笔记记录整理等场景。
+      - article [ref=e351]:
+        - link "在线字数统计 工具图标 在线字数统计 精准高效的在线字数统计工具，支持统计文字、字符、单词、标点和数字，满足多种场景需求。" [ref=e352] [cursor=pointer]:
+          - /url: /word-count/
+          - heading "在线字数统计 工具图标 在线字数统计" [level=3] [ref=e353]:
+            - img "在线字数统计 工具图标" [ref=e354]
+            - generic [ref=e355]: 在线字数统计
+          - paragraph [ref=e356]: 精准高效的在线字数统计工具，支持统计文字、字符、单词、标点和数字，满足多种场景需求。
+    - generic [ref=e357]:
+      - heading "文本处理介绍" [level=2] [ref=e358]
+      - generic [ref=e359]:
+        - heading "什么是文本处理工具？" [level=3] [ref=e360]
+        - paragraph [ref=e361]: ✨ 文本处理是懒人工具平台旗下专注于文字编辑与格式转换的核心栏目。作为精心设计的在线实用程序集合📝，我们致力于为用户提供精准、高效的文本处理解决方案。懒人工具始终秉承 "让复杂变简单" 的核心理念🎯，帮助用户轻松完成各种文字内容的快速处理与优化⚡。
+      - generic [ref=e362]:
+        - heading "文本处理工具提供哪些功能？" [level=3] [ref=e363]
+        - paragraph [ref=e364]: 我们提供文本格式化、编码转换、字数统计、大小写转换、简繁转换、文本比较、去重处理、JSON格式化、正则表达式测试等多种文本处理功能💼，覆盖文档编辑、编程开发、内容创作、数据分析等多个领域🎯。无论是日常写作、代码调试、数据处理，还是内容优化，都能在这里找到合适的文本工具✨！
+      - generic [ref=e365]:
+        - heading "适用哪些人群？" [level=3] [ref=e366]
+        - paragraph [ref=e367]: 本工具适用于程序员、文案编辑、学生、教师、数据分析师、内容创作者、办公人员及所有需要处理文本内容的用户👨‍💻。无论您是编写代码💻、撰写文章📝、整理数据，还是进行文字校对，这些工具都能为您提供高效便捷的文本处理服务✨。
+      - generic [ref=e368]:
+        - heading "使用文本处理工具有什么优势？" [level=3] [ref=e369]
+        - paragraph [ref=e370]: 所有工具均可在线使用🌐，无需安装软件，支持实时处理，操作简单直观👆。处理结果准确可靠，支持多种文本格式和编码标准，能够满足从基础编辑到专业开发的各类需求🏠。同时，工具响应迅速，界面简洁清爽🍃，让文本处理变得轻松高效😊。
+      - generic [ref=e371]:
+        - heading "为什么选择文本处理工具？" [level=3] [ref=e372]
+        - paragraph [ref=e373]: 我们将复杂的文本处理算法封装成简单易用的在线工具✨，让您无需掌握专业编程知识就能快速完成各种文本操作🎯。无论是格式整理、编码转换、内容分析还是数据提取，我们都能提供专业的处理服务。平台持续更新🔄，不断优化处理功能和用户体验，为您的写作✍️、编程和工作提供全方位的支持。
+    - generic [ref=e374]:
+      - navigation "页脚链接" [ref=e375]:
+        - link "关于我们" [ref=e376] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e377] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e378] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e379] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e380] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e381] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e382] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e383] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e384] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e385]:
+        - generic [ref=e386]:
+          - text: © 2025
+          - link "懒人工具" [ref=e387] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e389] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e390]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e391] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持
