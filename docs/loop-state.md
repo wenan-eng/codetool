@@ -123,13 +123,13 @@
 | 90 | text-line | 文本换行转换行符 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
 | 91 | text-replace | 文本批量替换 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
 | 92 | text-split | 文本分割神器 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
-| 93 | mobile-extractor | 手机号去重提取 | 文本处理 | todo | - | - |
-| 94 | email-extractor | 文本邮箱提取器 | 文本处理 | todo | - | - |
-| 95 | url-extractor | 通用文本URL提取 | 文本处理 | todo | - | - |
-| 96 | idcard-date | 身份证号提取生日 | 文本处理 | todo | - | - |
-| 97 | idcard-extract | 身份证信息提取 | 文本处理 | todo | - | - |
-| 98 | net-parser | URL地址解析 | 文本处理 | todo | - | - |
-| 99 | text-extract | 文本信息提取器 | 文本处理 | todo | - | - |
+| 93 | mobile-extractor | 手机号去重提取 | 文本处理 | deployed | b3w2push | 200 Pass 线上验证 |
+| 94 | email-extractor | 文本邮箱提取器 | 文本处理 | deployed | b3w2push | 200 Pass 线上验证 |
+| 95 | url-extractor | 通用文本URL提取 | 文本处理 | deployed | b3w2push | 200 Pass 线上验证 |
+| 96 | idcard-date | 身份证号提取生日 | 文本处理 | deployed | b3w2push | 200 Pass 线上验证 |
+| 97 | idcard-extract | 身份证信息提取 | 文本处理 | deployed | b3w2push | 200 Pass 线上验证 |
+| 98 | net-parser | URL地址解析 | 文本处理 | deployed | b3w2push | 200 Pass 线上验证 |
+| 99 | text-extract | 文本信息提取器 | 文本处理 | deployed | b3w2push | 200 Pass 线上验证 |
 | 100 | chinese-converter | 简体繁体转换器 | 文本处理 | todo | - | - |
 | 101 | mars-converter | 火星文生成器 | 文本处理 | todo | - | - |
 | 102 | letter-circle | 圆圈字母生成器 | 文本处理 | todo | - | - |
