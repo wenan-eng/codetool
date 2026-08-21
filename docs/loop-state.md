@@ -107,3 +107,33 @@
 | 83 | js-obfuscator | JS混淆加密 | 编码转换 | deployed | 波5push | 200 Pass 线上验证 |
 | 84 | js-obfuscator-advanced | 专业JS代码混淆加密 | 编码转换 | deployed | 波5push | 200 Pass 线上验证 |
 
+
+
+## 批次3：文本处理 22 项（来源 https://www.lanren-tools.com/text/ playwright 已验证 40 项中筛选）
+> 跳过：word-filter-*×12（词库版权）、image-extract（已有#50）、note/startup-idea/wechat-chat/folder-generator/markdown（应用型后置）
+> 图标：15 个 logo-{id}.svg 直命中；7 个无专属按同族：remove-emoji→logo-emoji、letter-converter→logo-letter-circle、chinese/mars-converter→logo-symbol-converter、net-parser/url-extractor→logo-url-extractor、sequence-generator/string-random→logo-string-random、pinyin-converter→logo-word-count
+
+| # | id | 名称 | 分组 | 状态 | commit | 验证 |
+|---|----|------|------|------|--------|------|
+| 85 | letter-converter | 字母大小写转换 | 文本处理 | todo | - | - |
+| 86 | symbol-converter | 中英文符号转换器 | 文本处理 | todo | - | - |
+| 87 | remove-emoji | Emoji表情去除神器 | 文本处理 | todo | - | - |
+| 88 | word-count | 在线字数统计 | 文本处理 | todo | - | - |
+| 89 | line-text | 换行符转文本换行 | 文本处理 | todo | - | - |
+| 90 | text-line | 文本换行转换行符 | 文本处理 | todo | - | - |
+| 91 | text-replace | 文本批量替换 | 文本处理 | todo | - | - |
+| 92 | text-split | 文本分割神器 | 文本处理 | todo | - | - |
+| 93 | mobile-extractor | 手机号去重提取 | 文本处理 | todo | - | - |
+| 94 | email-extractor | 文本邮箱提取器 | 文本处理 | todo | - | - |
+| 95 | url-extractor | 通用文本URL提取 | 文本处理 | todo | - | - |
+| 96 | idcard-date | 身份证号提取生日 | 文本处理 | todo | - | - |
+| 97 | idcard-extract | 身份证信息提取 | 文本处理 | todo | - | - |
+| 98 | net-parser | URL地址解析 | 文本处理 | todo | - | - |
+| 99 | text-extract | 文本信息提取器 | 文本处理 | todo | - | - |
+| 100 | chinese-converter | 简体繁体转换器 | 文本处理 | todo | - | - |
+| 101 | mars-converter | 火星文生成器 | 文本处理 | todo | - | - |
+| 102 | letter-circle | 圆圈字母生成器 | 文本处理 | todo | - | - |
+| 103 | string-random | 随机字符串批量生成 | 文本处理 | todo | - | - |
+| 104 | sequence-generator | 数字序列批量生成器 | 文本处理 | todo | - | - |
+| 105 | text-formatter | 文本自动排版 | 文本处理 | todo | - | - |
+| 106 | pinyin-converter | 汉字转拼音 | 文本处理 | todo | - | - |
