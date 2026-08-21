@@ -199,20 +199,20 @@
 
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
-| 139 | image-brightness | 图片亮度调整 | 图片处理 | todo | - | - |
-| 140 | image-contrast | 图片对比度调整 | 图片处理 | todo | - | - |
-| 141 | image-saturation | 色彩饱和度调整 | 图片处理 | todo | - | - |
-| 142 | image-hsl | 图片HSL色彩调整 | 图片处理 | todo | - | - |
-| 143 | image-temperature | 图片冷暖色调调整 | 图片处理 | todo | - | - |
-| 144 | image-highlight | 图片高光调整 | 图片处理 | todo | - | - |
-| 145 | image-fader | 图片色彩淡化器 | 图片处理 | todo | - | - |
-| 146 | image-sharpener | 图片锐化处理 | 图片处理 | todo | - | - |
-| 147 | blur-image | 图片虚化处理 | 图片处理 | todo | - | - |
-| 148 | image-rotate | 图片角度调整 | 图片处理 | todo | - | - |
-| 149 | image-mirror | 图片镜像翻转 | 图片处理 | todo | - | - |
-| 150 | image-size-revise | 图片尺寸调整 | 图片处理 | todo | - | - |
-| 151 | image-cropping | 图片自定义裁剪 | 图片处理 | todo | - | - |
-| 152 | image-quality | 图片质量调整 | 图片处理 | todo | - | - |
+| 139 | image-brightness | 图片亮度调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 140 | image-contrast | 图片对比度调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 141 | image-saturation | 色彩饱和度调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 142 | image-hsl | 图片HSL色彩调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 143 | image-temperature | 图片冷暖色调调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 144 | image-highlight | 图片高光调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 145 | image-fader | 图片色彩淡化器 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 146 | image-sharpener | 图片锐化处理 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 147 | blur-image | 图片虚化处理 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 148 | image-rotate | 图片角度调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 149 | image-mirror | 图片镜像翻转 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 150 | image-size-revise | 图片尺寸调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 151 | image-cropping | 图片自定义裁剪 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
+| 152 | image-quality | 图片质量调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
 | 153 | image-jpg | 图片转JPG格式 | 图片处理 | todo | - | - |
 | 154 | image-png | 图片转PNG格式 | 图片处理 | todo | - | - |
 | 155 | image-webp | 图片转WebP格式 | 图片处理 | todo | - | - |
