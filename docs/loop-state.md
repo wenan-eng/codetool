@@ -197,6 +197,13 @@
 > 冲突复核结论：canvas/FileReader 全程本地，0 上传，伪冲突可做；跳过需服务端解码的 heic/tiff/avif/jxl/psd 系与 OCR/抠图/AI 类
 > 图标：按 logo-{id}.svg 规律分配（404 时同族 image-* 替代，实现时 curl 验证）
 
+### 批次5 全部完成 30/30 — 2026-08-21
+- 波1 色彩几何调整14 + 波2 格式转换6 + 波3 专用工具10，全部 deployed 线上验证
+- vitest 423/423，build 539页 SSG（zh/en/es × 168工具 + 五分类页）
+- 菜单五入口：编程开发/文本处理/编码加密/单位换算/图片处理
+- 冲突复核结论：image 分类 canvas 本地伪冲突全可做；webmaster 剩 robots/meta/color/proportion/ip 工具族可做；life 计算器类可做；media 播放器录音类可做
+- 关键坑：zsh 不分词 $var 致 curl 批量验证失效、双 canvas ref 冲突、jsqr ESM 导入、qrcode 需 @types
+
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
 | 139 | image-brightness | 图片亮度调整 | 图片处理 | deployed | b5w1push | 200 Pass 线上验证 |
@@ -219,13 +226,13 @@
 | 156 | image-bmp | 图片转BMP格式 | 图片处理 | deployed | b5w2push | 200 Pass 线上验证 |
 | 157 | png2jpg | PNG图片转JPG | 图片处理 | deployed | b5w2push | 200 Pass 线上验证 |
 | 158 | webp2jpg | WEBP图片转JPG | 图片处理 | deployed | b5w2push | 200 Pass 线上验证 |
-| 159 | watermark | 图片添加水印 | 图片处理 | todo | - | - |
-| 160 | image-compressor | 图片高清压缩 | 图片处理 | todo | - | - |
-| 161 | color-picker | 图片取色器 | 图片处理 | todo | - | - |
-| 162 | image-color | 图片配色提取器 | 图片处理 | todo | - | - |
-| 163 | exif | 图片Exif查看器 | 图片处理 | todo | - | - |
-| 164 | image-placeholder | 占位图片生成器 | 图片处理 | todo | - | - |
-| 165 | round-image | 生成透明圆角图片 | 图片处理 | todo | - | - |
-| 166 | nine-grid | 朋友圈九宫格生成 | 图片处理 | todo | - | - |
-| 167 | qrcode | 二维码生成器 | 图片处理 | todo | - | - |
-| 168 | qrcode-decode | 二维码解码器 | 图片处理 | todo | - | - |
+| 159 | watermark | 图片添加水印 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
+| 160 | image-compressor | 图片高清压缩 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
+| 161 | color-picker | 图片取色器 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
+| 162 | image-color | 图片配色提取器 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
+| 163 | exif | 图片Exif查看器 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
+| 164 | image-placeholder | 占位图片生成器 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
+| 165 | round-image | 生成透明圆角图片 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
+| 166 | nine-grid | 朋友圈九宫格生成 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
+| 167 | qrcode | 二维码生成器 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
+| 168 | qrcode-decode | 二维码解码器 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
