@@ -5646,5 +5646,608 @@
       "random-pwd",
       "entropy-calculator"
     ]
+  },
+  {
+    "id": "md5",
+    "title": "MD5在线加密工具",
+    "h1": "MD5在线加密工具",
+    "description": "MD5在线加密工具，纯前端实现 RFC 1321 标准 MD5 算法，输入任意文本即时生成 32 位大写、32 位小写与 16 位三种密文，支持中文与长文本，一键复制，全部本地计算不上传。",
+    "title_en": "Online MD5 Encryptor",
+    "h1_en": "Online MD5 Encryptor",
+    "description_en": "Client-side MD5 hashing per RFC 1321. Instantly produce 32-bit uppercase, lowercase and 16-bit digests for any text including Chinese, with one-click copy, fully local.",
+    "title_es": "Cifrador MD5 en Línea",
+    "h1_es": "Cifrador MD5 en Línea",
+    "description_es": "Hash MD5 en el navegador según RFC 1321. Genera al instante resúmenes de 32 bits en mayúsculas, minúsculas y 16 bits para cualquier texto, con copia rápida y procesamiento local.",
+    "tags": [
+      "MD5加密",
+      "哈希",
+      "摘要算法",
+      "32位"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-md5.svg",
+    "faqs": [
+      {
+        "q": "MD5 是加密吗？",
+        "a": "MD5 是哈希（摘要）算法而非加密，过程不可逆。它常用于数据完整性校验；因碰撞风险不建议用于密码存储。"
+      },
+      {
+        "q": "32 位和 16 位 MD5 有什么区别？",
+        "a": "16 位结果是 32 位去掉前后各 8 个字符后的中间 16 位，常见于部分老系统，两者源自同一次计算。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有计算均在浏览器本地完成，不上传任何数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is MD5 encryption?",
+        "a": "MD5 is a hash (digest) algorithm, not encryption, and is irreversible. It is used for integrity checks; due to collision risks it is not recommended for password storage."
+      },
+      {
+        "q": "Difference between 32-bit and 16-bit MD5?",
+        "a": "The 16-bit result is the middle 16 characters of the 32-bit digest (dropping 8 from each end), common in legacy systems; both come from the same computation."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all hashing runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿MD5 es cifrado?",
+        "a": "MD5 es un algoritmo de hash (resumen), no de cifrado, y es irreversible. Se usa para verificar integridad; por riesgo de colisiones no se recomienda para contraseñas."
+      },
+      {
+        "q": "¿Diferencia entre MD5 de 32 y 16 bits?",
+        "a": "El resultado de 16 bits son los 16 caracteres centrales del resumen de 32 (quitando 8 de cada extremo), común en sistemas antiguos; ambos provienen del mismo cálculo."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se calcula localmente en su navegador."
+      }
+    ],
+    "related": [
+      "md5-batch",
+      "sha",
+      "md4"
+    ]
+  },
+  {
+    "id": "md5-batch",
+    "title": "批量MD5加密工具",
+    "h1": "批量MD5加密工具",
+    "description": "批量MD5加密工具，逐行独立计算互不影响，支持 32 位/16 位输出与大写小写切换，适合批量校验、清单脱敏等场景，全部本地处理不上传。",
+    "title_en": "Bulk MD5 Encryptor",
+    "h1_en": "Bulk MD5 Encryptor",
+    "description_en": "Compute MD5 line by line independently with 32/16-bit and case options, ideal for bulk verification and list processing, fully local.",
+    "title_es": "Cifrador MD5 por Lotes",
+    "h1_es": "Cifrador MD5 por Lotes",
+    "description_es": "Calcula MD5 línea por línea de forma independiente con opciones de 32/16 bits y mayúsculas/minúsculas, ideal para verificación masiva, todo local.",
+    "tags": [
+      "批量MD5",
+      "逐行加密",
+      "哈希批量",
+      "MD5"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-md5-batch.svg",
+    "faqs": [
+      {
+        "q": "如何批量加密？",
+        "a": "每行输入一条数据，点击「批量加密」，输出区按行给出对应 MD5 结果，行间互不影响。"
+      },
+      {
+        "q": "某一行出错会影响其他行吗？",
+        "a": "不会，每行独立计算，异常行会标注错误信息，其余行正常输出。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有计算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to hash in bulk?",
+        "a": "Enter one item per line and click Bulk Encrypt; the output lists each line's MD5 result independently."
+      },
+      {
+        "q": "Does one failing line affect others?",
+        "a": "No, each line is computed independently; failed lines show an error while others output normally."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all computations run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo cifrar en lote?",
+        "a": "Introduzca un dato por línea y haga clic en Cifrar en lote; la salida muestra el MD5 de cada línea de forma independiente."
+      },
+      {
+        "q": "¿Una línea con error afecta a las demás?",
+        "a": "No, cada línea se calcula por separado; las líneas con error muestran un aviso y las demás salen normalmente."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se calcula localmente en su navegador."
+      }
+    ],
+    "related": [
+      "md5",
+      "sha",
+      "md4"
+    ]
+  },
+  {
+    "id": "sha",
+    "title": "SHA系列哈希值生成器",
+    "h1": "SHA系列哈希值生成器",
+    "description": "SHA系列哈希值生成器，支持 SHA-1、SHA-224、SHA-256、SHA-384、SHA-512 五种算法，基于浏览器 WebCrypto 与标准实现，可切换大小写输出，适用于完整性校验与签名场景，全部本地计算。",
+    "title_en": "SHA Hash Generator",
+    "h1_en": "SHA Hash Generator",
+    "description_en": "Generate SHA-1, SHA-224, SHA-256, SHA-384 and SHA-512 hashes using the browser's WebCrypto with standard implementations, uppercase/lowercase output options, fully local.",
+    "title_es": "Generador de Hash SHA",
+    "h1_es": "Generador de Hash SHA",
+    "description_es": "Genere hashes SHA-1, SHA-224, SHA-256, SHA-384 y SHA-512 con WebCrypto del navegador, opciones de mayúsculas/minúsculas, todo local.",
+    "tags": [
+      "SHA256",
+      "SHA1",
+      "哈希生成",
+      "摘要算法"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-sha.svg",
+    "faqs": [
+      {
+        "q": "应该选哪种 SHA 算法？",
+        "a": "一般推荐 SHA-256：安全性与性能均衡；SHA-1 已不推荐用于安全场景；SHA-384/512 适用于更高安全要求。"
+      },
+      {
+        "q": "SHA 系列是可逆的吗？",
+        "a": "不可逆。SHA 是哈希算法，只能从原文算出哈希值，无法从哈希还原原文。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有计算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which SHA algorithm should I choose?",
+        "a": "SHA-256 is generally recommended for balanced security and performance; SHA-1 is deprecated for security use; SHA-384/512 suit higher assurance needs."
+      },
+      {
+        "q": "Are SHA hashes reversible?",
+        "a": "No. SHA is a one-way hash: you can compute the digest from input but cannot recover the input from the digest."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all computations run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué algoritmo SHA elegir?",
+        "a": "SHA-256 es el equilibrio recomendado entre seguridad y rendimiento; SHA-1 está obsoleto para seguridad; SHA-384/512 para requisitos más altos."
+      },
+      {
+        "q": "¿Son reversibles los hashes SHA?",
+        "a": "No. SHA es un hash unidireccional: se calcula el resumen desde la entrada pero no se puede recuperar la entrada."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se calcula localmente en su navegador."
+      }
+    ],
+    "related": [
+      "md5",
+      "md4",
+      "mysql-password"
+    ]
+  },
+  {
+    "id": "md4",
+    "title": "MD4在线加密工具",
+    "h1": "MD4在线加密工具",
+    "description": "MD4在线加密工具，按 RFC 1320 标准纯前端实现，输入文本即时生成 32 位小写/大写 MD4 摘要，适用于老旧系统数据兼容与校验场景，全部本地计算不上传。",
+    "title_en": "Online MD4 Encryptor",
+    "h1_en": "Online MD4 Encryptor",
+    "description_en": "RFC 1320 compliant client-side MD4 hashing, instantly producing 32-character lowercase/uppercase digests for legacy compatibility, fully local.",
+    "title_es": "Cifrador MD4 en Línea",
+    "h1_es": "Cifrador MD4 en Línea",
+    "description_es": "Hash MD4 en el navegador según RFC 1320, genera resúmenes de 32 caracteres en minúsculas/mayúsculas para compatibilidad heredada, todo local.",
+    "tags": [
+      "MD4加密",
+      "哈希",
+      "RFC 1320",
+      "摘要算法"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-md4.svg",
+    "faqs": [
+      {
+        "q": "MD4 还安全吗？",
+        "a": "MD4 已被证明存在严重碰撞漏洞，仅建议用于旧系统兼容或校验场景，不要用于安全用途。"
+      },
+      {
+        "q": "MD4 和 MD5 有什么区别？",
+        "a": "MD5 是 MD4 的改进版，轮数更多更安全；两者输出都是 128 位，但结果完全不同。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有计算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is MD4 still secure?",
+        "a": "MD4 has known serious collision vulnerabilities; use it only for legacy compatibility or checksums, never for security purposes."
+      },
+      {
+        "q": "MD4 vs MD5?",
+        "a": "MD5 is an improved successor of MD4 with more rounds and better security; both output 128 bits but results differ entirely."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all computations run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Sigue siendo seguro MD4?",
+        "a": "MD4 tiene vulnerabilidades graves de colisión conocidas; úselo solo para compatibilidad heredada o sumas de comprobación, nunca para seguridad."
+      },
+      {
+        "q": "¿MD4 frente a MD5?",
+        "a": "MD5 es una versión mejorada de MD4 con más rondas y mayor seguridad; ambos generan 128 bits pero resultados distintos."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se calcula localmente en su navegador."
+      }
+    ],
+    "related": [
+      "md5",
+      "sha",
+      "md5-batch"
+    ]
+  },
+  {
+    "id": "mysql-password",
+    "title": "MySQL密码哈希生成工具",
+    "h1": "MySQL密码哈希生成工具",
+    "description": "MySQL密码哈希生成工具，实现 MySQL PASSWORD() 函数算法（星号前缀加双 SHA-1 大写），用于数据库密码设置、迁移与批量用户初始化，全部本地计算不上传。",
+    "title_en": "MySQL PASSWORD Hash Generator",
+    "h1_en": "MySQL PASSWORD Hash Generator",
+    "description_en": "Implements the MySQL PASSWORD() algorithm (asterisk prefix plus double SHA-1 uppercase) for database password setup, migration and user seeding, fully local.",
+    "title_es": "Generador de Hash PASSWORD de MySQL",
+    "h1_es": "Generador de Hash PASSWORD de MySQL",
+    "description_es": "Implementa el algoritmo PASSWORD() de MySQL (prefijo asterisco más doble SHA-1 en mayúsculas) para configurar y migrar contraseñas, todo local.",
+    "tags": [
+      "MySQL",
+      "PASSWORD函数",
+      "SHA1",
+      "数据库"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-mysql-password.svg",
+    "faqs": [
+      {
+        "q": "生成的哈希格式是什么？",
+        "a": "星号开头共 41 位，即 MySQL 4.1+ 的 PASSWORD() 算法：UPPER(SHA1(SHA1(明文))) 前加 *。"
+      },
+      {
+        "q": "可以直接用于建用户吗？",
+        "a": "可以按旧版流程 SET PASSWORD 使用，但新版 MySQL 8 已弃用该函数，推荐使用原生认证插件设置密码。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有计算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is the output format?",
+        "a": "41 characters starting with an asterisk: MySQL 4.1+ PASSWORD() = * + UPPER(SHA1(SHA1(plaintext)))."
+      },
+      {
+        "q": "Can I use it to create users?",
+        "a": "It matches the legacy SET PASSWORD flow, but MySQL 8 deprecated this function; prefer native authentication plugins for new setups."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all computations run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cuál es el formato de salida?",
+        "a": "41 caracteres que comienzan con asterisco: PASSWORD() de MySQL 4.1+ = * + UPPER(SHA1(SHA1(texto)))."
+      },
+      {
+        "q": "¿Puedo usarlo para crear usuarios?",
+        "a": "Corresponde al flujo antiguo SET PASSWORD, pero MySQL 8 obsoletó esta función; prefiera plugins de autenticación nativos."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se calcula localmente en su navegador."
+      }
+    ],
+    "related": [
+      "htpasswd",
+      "sha",
+      "md5"
+    ]
+  },
+  {
+    "id": "htpasswd",
+    "title": "HTpasswd在线密码生成器",
+    "h1": "HTpasswd在线密码生成器",
+    "description": "HTpasswd在线密码生成器，一键生成 Apache htpasswd 格式的用户名密码行，支持 {SHA} 与加盐 {SSHA} 两种算法，适用于 Nginx/Apache Basic Auth 配置，全部本地生成。",
+    "title_en": "HTpasswd Generator Online",
+    "h1_en": "HTpasswd Generator Online",
+    "description_en": "Generate Apache htpasswd entries instantly with {SHA} and salted {SSHA} algorithms for Nginx/Apache Basic Auth configs, generated locally.",
+    "title_es": "Generador HTpasswd en Línea",
+    "h1_es": "Generador HTpasswd en Línea",
+    "description_es": "Genere entradas htpasswd de Apache al instante con algoritmos {SHA} y {SSHA} con sal para Basic Auth de Nginx/Apache, generado localmente.",
+    "tags": [
+      "htpasswd",
+      "Apache",
+      "Nginx认证",
+      "Basic Auth"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-htpasswd.svg",
+    "faqs": [
+      {
+        "q": "生成的结果怎么用？",
+        "a": "整行复制到 htpasswd 文件中保存即可，格式为 用户名:{SHA}或{SSHA}哈希，配合 Nginx/Apache 的 Basic Auth 指令使用。"
+      },
+      {
+        "q": "{SHA} 和 {SSHA} 有什么区别？",
+        "a": "SSHA 在 SHA-1 基础上追加随机盐再编码，抗彩虹表能力更强，是推荐选项。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有生成均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How do I use the result?",
+        "a": "Copy the whole line into your htpasswd file; format is username:{SHA}or{SSHA}hash, used with Nginx/Apache Basic Auth directives."
+      },
+      {
+        "q": "Difference between {SHA} and {SSHA}?",
+        "a": "SSHA appends a random salt before encoding, resisting rainbow tables better; it is the recommended option."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, everything is generated locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo uso el resultado?",
+        "a": "Copie la línea completa al archivo htpasswd; formato usuario:{SHA}o{SSHA}hash, usado con directivas Basic Auth de Nginx/Apache."
+      },
+      {
+        "q": "¿Diferencia entre {SHA} y {SSHA}?",
+        "a": "SSHA añade una sal aleatoria antes de codificar, resistiendo mejor tablas arcoíris; es la opción recomendada."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se genera localmente en su navegador."
+      }
+    ],
+    "related": [
+      "mysql-password",
+      "random-pwd",
+      "sha"
+    ]
+  },
+  {
+    "id": "aes-encrypt",
+    "title": "AES在线加密/解密工具",
+    "h1": "AES在线加密/解密工具",
+    "description": "AES在线加密/解密工具，基于浏览器 WebCrypto 支持 CBC、CTR、GCM 三种模式，16/24/32 字符密钥，随机 IV 自动生成或手动输入，输出 Base64 密文，全部本地处理不上传。",
+    "title_en": "AES Encrypt / Decrypt Online",
+    "h1_en": "AES Encrypt / Decrypt Online",
+    "description_en": "WebCrypto-based AES tool supporting CBC, CTR and GCM modes with 16/24/32-char keys, auto random IV or manual input, Base64 ciphertext, fully local.",
+    "title_es": "Cifrado AES en Línea",
+    "h1_es": "Cifrado AES en Línea",
+    "description_es": "Herramienta AES basada en WebCrypto con modos CBC, CTR y GCM, claves de 16/24/32 caracteres, IV aleatorio automático o manual, texto cifrado en Base64, todo local.",
+    "tags": [
+      "AES加密",
+      "AES解密",
+      "CBC",
+      "GCM"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-aes-encrypt.svg",
+    "faqs": [
+      {
+        "q": "三种模式怎么选？",
+        "a": "GCM 提供认证加密最安全；CTR 适合流式数据；CBC 兼容性最好。同一数据加解密必须使用相同模式与 IV。"
+      },
+      {
+        "q": "密钥有什么要求？",
+        "a": "必须为 16、24 或 32 个字符，分别对应 AES-128/192/256；加解密需使用完全相同的密钥。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有加解密均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which mode should I choose?",
+        "a": "GCM offers authenticated encryption and is safest; CTR suits streaming data; CBC has the best compatibility. Encryption and decryption must use the same mode and IV."
+      },
+      {
+        "q": "Key requirements?",
+        "a": "Exactly 16, 24 or 32 characters for AES-128/192/256; use the identical key for both directions."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all operations run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué modo elegir?",
+        "a": "GCM ofrece cifrado autenticado y es el más seguro; CTR para datos en flujo; CBC tiene la mejor compatibilidad. Cifrar y descifrar debe usar el mismo modo e IV."
+      },
+      {
+        "q": "¿Requisitos de la clave?",
+        "a": "Exactamente 16, 24 o 32 caracteres para AES-128/192/256; use la misma clave en ambas direcciones."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las operaciones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "des-encrypt",
+      "gzip",
+      "url-hex-encode"
+    ]
+  },
+  {
+    "id": "des-encrypt",
+    "title": "DES在线加密/解密工具",
+    "h1": "DES在线加密/解密工具",
+    "description": "DES在线加密/解密工具，纯前端实现 FIPS 46-3 标准 DES 算法，支持 CBC/ECB 模式与 PKCS7 填充，8 字符密钥，输出 Base64 密文，适用于旧系统兼容，全部本地处理。",
+    "title_en": "DES Encrypt / Decrypt Online",
+    "h1_en": "DES Encrypt / Decrypt Online",
+    "description_en": "Pure client-side DES per FIPS 46-3 with CBC/ECB modes and PKCS7 padding, 8-char keys, Base64 output, for legacy system compatibility, fully local.",
+    "title_es": "Cifrado DES en Línea",
+    "h1_es": "Cifrado DES en Línea",
+    "description_es": "DES puro en el navegador según FIPS 46-3 con modos CBC/ECB y relleno PKCS7, clave de 8 caracteres, salida Base64, para compatibilidad heredada, todo local.",
+    "tags": [
+      "DES加密",
+      "DES解密",
+      "CBC",
+      "ECB"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-des-encrypt.svg",
+    "faqs": [
+      {
+        "q": "DES 还能用于生产环境吗？",
+        "a": "DES 密钥实际只有 56 位，已被暴力破解攻破，仅建议旧系统兼容使用；新系统请选 AES。"
+      },
+      {
+        "q": "CBC 和 ECB 有什么区别？",
+        "a": "CBC 每块与前一块密文异或，相同明文产生不同密文更安全；ECB 各块独立，相同明文块产生相同密文，模式泄露信息。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有加解密均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is DES safe for production?",
+        "a": "DES has an effective 56-bit key and has been brute-forced; use only for legacy compatibility, choose AES for new systems."
+      },
+      {
+        "q": "CBC vs ECB?",
+        "a": "CBC chains blocks so identical plaintexts yield different ciphertexts; ECB processes blocks independently and leaks patterns."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all operations run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Es seguro DES para producción?",
+        "a": "DES tiene una clave efectiva de 56 bits y ha sido roto por fuerza bruta; úselo solo para compatibilidad heredada, elija AES para sistemas nuevos."
+      },
+      {
+        "q": "¿CBC frente a ECB?",
+        "a": "CBC encadena bloques así textos iguales producen cifrados distintos; ECB procesa bloques de forma independiente y filtra patrones."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las operaciones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "aes-encrypt",
+      "url-hex-encode",
+      "gzip"
+    ]
+  },
+  {
+    "id": "url-hex-encode",
+    "title": "URL网址16进制编码/解码工具",
+    "h1": "URL网址16进制编码/解码工具",
+    "description": "URL网址16进制编码/解码工具，将网址或文本按 UTF-8 全量转义为 %XX 十六进制形式并一键还原，适用于路径隐藏、特殊字符传输等场景，全部本地处理。",
+    "title_en": "URL Hex Encoder / Decoder",
+    "h1_en": "URL Hex Encoder / Decoder",
+    "description_en": "Fully percent-encode URLs or text as UTF-8 %XX sequences and restore them, useful for path obfuscation and special character transport, fully local.",
+    "title_es": "Codificador Hexadecimal de URL",
+    "h1_es": "Codificador Hexadecimal de URL",
+    "description_es": "Codifique totalmente URL o texto como secuencias UTF-8 %XX y restáurelas, útil para ocultar rutas y transportar caracteres especiales, todo local.",
+    "tags": [
+      "URL编码",
+      "16进制",
+      "百分号编码",
+      "转码"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-url-hex-encode.svg",
+    "faqs": [
+      {
+        "q": "和普通 URL 编码有何不同？",
+        "a": "普通 URL 编码保留字母数字与部分符号，本工具全量转义所有字符为 %XX 形式，转义更彻底。"
+      },
+      {
+        "q": "解码失败怎么办？",
+        "a": "检查输入是否包含残缺的 % 序列；工具会容忍已解码的混合文本并原样保留无法解析的部分。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有编解码均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How is this different from normal URL encoding?",
+        "a": "Normal URL encoding keeps alphanumerics and some symbols; this tool escapes every character as %XX for thorough encoding."
+      },
+      {
+        "q": "What if decoding fails?",
+        "a": "Check for incomplete % sequences; the tool tolerates mixed already-decoded text and leaves unparsable parts intact."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿En qué difiere de la codificación URL normal?",
+        "a": "La codificación URL normal conserva alfanuméricos y algunos símbolos; esta herramienta escapa todos los caracteres como %XX."
+      },
+      {
+        "q": "¿Qué hago si falla la decodificación?",
+        "a": "Verifique secuencias % incompletas; la herramienta tolera texto mixto ya decodificado y deja intactas las partes no analizables."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "url-encode",
+      "escape",
+      "aes-encrypt"
+    ]
   }
 ]

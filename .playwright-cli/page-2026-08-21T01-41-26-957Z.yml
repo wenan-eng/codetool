@@ -1,0 +1,424 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "SHA系列哈希值生成器" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "不可逆加密" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=不可逆加密
+          - img [ref=e126]
+          - text: 不可逆加密
+        - link "哈希计算" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=哈希计算
+          - img [ref=e130]
+          - text: 哈希计算
+        - link "散列值" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=散列值
+          - img [ref=e134]
+          - text: 散列值
+        - link "SHA256" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=SHA256
+          - img [ref=e138]
+          - text: SHA256
+        - link "SHA512" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=SHA512
+          - img [ref=e142]
+          - text: SHA512
+        - link "文件校验" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=文件校验
+          - img [ref=e146]
+          - text: 文件校验
+    - paragraph [ref=e149]: 使用我们的「SHA哈希计算工具」支持SHA-1、SHA-224、SHA-256、SHA-384、SHA-512五种算法的哈希值计算，可实时切换算法与大小写输出格式，适用于数据校验、开发调试与单向哈希处理的基础需求。
+    - main [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152] [cursor=pointer]: SHA1
+        - generic [ref=e153] [cursor=pointer]: SHA224
+        - generic [ref=e154] [cursor=pointer]: SHA256
+        - generic [ref=e155] [cursor=pointer]: SHA384
+        - generic [ref=e156] [cursor=pointer]: SHA512
+      - generic [ref=e157]:
+        - textbox "请输入要计算 SHA-256 哈希的文本，例如：Hello World" [ref=e158]
+        - button "输出小写哈希值（标准）" [ref=e160] [cursor=pointer]:
+          - generic [ref=e161]: 输出小写哈希值（标准）
+          - img [ref=e162]
+      - generic [ref=e164]:
+        - button "生成哈希" [ref=e165] [cursor=pointer]:
+          - img [ref=e166]
+          - text: 生成哈希
+        - button "复制结果" [ref=e170] [cursor=pointer]:
+          - img [ref=e171]
+          - text: 复制结果
+        - button "清空数据" [ref=e173] [cursor=pointer]:
+          - img [ref=e174]
+          - text: 清空数据
+    - region "工具使用帮助与相关信息" [ref=e182]:
+      - generic [ref=e183]:
+        - heading "使用说明" [level=2] [ref=e184]:
+          - img [ref=e185]
+          - text: 使用说明
+        - paragraph [ref=e187]:
+          - text: 🔐
+          - strong [ref=e188]: 输入要计算的文本
+        - paragraph [ref=e189]: 在 "输入要计算SHA哈希的内容" 文本框中，您可以输入或粘贴需要计算哈希值的原始文本。本工具完全支持中英文、数字及各类符号，并能处理从简短字符串到较长段落的所有文本内容。请输入待处理的完整信息即可开始计算。
+        - paragraph [ref=e190]:
+          - text: ⚙️
+          - strong [ref=e191]: 选择SHA算法
+        - paragraph [ref=e192]:
+          - text: 通过顶部标签栏在
+          - code [ref=e193]: SHA-1
+          - text: 、
+          - code [ref=e194]: SHA-224
+          - text: 、
+          - code [ref=e195]: SHA-256
+          - text: 、
+          - code [ref=e196]: SHA-384
+          - text: 、
+          - code [ref=e197]: SHA-512
+          - text: 五种算法中选择其一。点击标签即可切换当前算法，被选中的算法标签会高亮显示，页面提示信息也会同步更新。SHA-256为默认推荐的安全算法。
+        - paragraph [ref=e198]:
+          - text: 🔠
+          - strong [ref=e199]: 设置输出格式
+        - paragraph [ref=e200]: 通过 "输出格式" 下拉菜单，您可以灵活选择哈希值的字母大小写格式。选择 "小写哈希值（标准）" 将采用行业通用的标准小写十六进制格式，这是最推荐的选择；选择 "大写哈希值" 则可满足某些特定系统的兼容性要求。您切换格式时，当前已生成的哈希结果会自动重新进行格式化。
+        - paragraph [ref=e201]:
+          - text: 🔢
+          - strong [ref=e202]: 计算哈希值
+        - paragraph [ref=e203]: 完成上述设置后，点击「生成哈希」按钮，系统将使用您选择的算法和格式，对输入的文本进行哈希计算。计算结果会立即显示在下方“生成的哈希值”输出框中。整个过程在浏览器本地瞬间完成。
+        - paragraph [ref=e204]:
+          - text: 📋
+          - strong [ref=e205]: 复制哈希结果
+        - paragraph [ref=e206]: 计算完成后，可通过「复制结果」按钮一键复制生成的完整哈希值字符串到剪贴板，方便您粘贴到其他程序、验证工具或文档中进行比对和使用。
+        - paragraph [ref=e207]:
+          - text: 🗑️
+          - strong [ref=e208]: 清空所有数据
+        - paragraph [ref=e209]: 如需开始新一轮的计算，您可随时点击「清空数据」按钮。此操作将立即同时清空上方输入框内的全部文本内容与下方输出框中的所有哈希结果，为您提供一个干净的起始界面，以便快速重新输入新的内容并进行计算，确保操作流程高效且界面保持清晰。
+      - generic [ref=e210]:
+        - heading "同类推荐" [level=2] [ref=e211]:
+          - img [ref=e212]
+          - text: 同类推荐
+        - generic [ref=e214]:
+          - article [ref=e215]:
+            - link "DES加密/解密 工具图标 DES加密/解密 支持CBC、ECB等主流DES加密模式，可自定义8字符密钥与初始向量，提供IV生成、结果复制等实用功能。" [ref=e216] [cursor=pointer]:
+              - /url: /des-encrypt/
+              - heading "DES加密/解密 工具图标 DES加密/解密" [level=3] [ref=e217]:
+                - img "DES加密/解密 工具图标" [ref=e218]
+                - generic [ref=e219]: DES加密/解密
+              - paragraph [ref=e220]: 支持CBC、ECB等主流DES加密模式，可自定义8字符密钥与初始向量，提供IV生成、结果复制等实用功能。
+          - article [ref=e221]:
+            - link "AES加密/解密 工具图标 AES加密/解密 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。" [ref=e222] [cursor=pointer]:
+              - /url: /aes-encrypt/
+              - heading "AES加密/解密 工具图标 AES加密/解密" [level=3] [ref=e223]:
+                - img "AES加密/解密 工具图标" [ref=e224]
+                - generic [ref=e225]: AES加密/解密
+              - paragraph [ref=e226]: 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。
+          - article [ref=e227]:
+            - link "HTpasswd密码生成器 工具图标 HTpasswd密码生成器 实时HTpasswd密码生成，输入即转换，支持 SHA1/SHA256/MD5 算法兼容，快速获取标准化认证格式。" [ref=e228] [cursor=pointer]:
+              - /url: /htpasswd/
+              - heading "HTpasswd密码生成器 工具图标 HTpasswd密码生成器" [level=3] [ref=e229]:
+                - img "HTpasswd密码生成器 工具图标" [ref=e230]
+                - generic [ref=e231]: HTpasswd密码生成器
+              - paragraph [ref=e232]: 实时HTpasswd密码生成，输入即转换，支持 SHA1/SHA256/MD5 算法兼容，快速获取标准化认证格式。
+          - article [ref=e233]:
+            - link "随机密码生成器 工具图标 随机密码生成器 一键密码生成，实时输出结果，结合使用场景自定义长度与字符类型，快速生成高强度密码。" [ref=e234] [cursor=pointer]:
+              - /url: /random-pwd/
+              - heading "随机密码生成器 工具图标 随机密码生成器" [level=3] [ref=e235]:
+                - img "随机密码生成器 工具图标" [ref=e236]
+                - generic [ref=e237]: 随机密码生成器
+              - paragraph [ref=e238]: 一键密码生成，实时输出结果，结合使用场景自定义长度与字符类型，快速生成高强度密码。
+          - article [ref=e239]:
+            - link "Escape编码/解码 工具图标 Escape编码/解码 一键转换Escape编码，实时编码解码文本，支持传统字符格式，快速处理遗留系统数据。" [ref=e240] [cursor=pointer]:
+              - /url: /escape/
+              - heading "Escape编码/解码 工具图标 Escape编码/解码" [level=3] [ref=e241]:
+                - img "Escape编码/解码 工具图标" [ref=e242]
+                - generic [ref=e243]: Escape编码/解码
+              - paragraph [ref=e244]: 一键转换Escape编码，实时编码解码文本，支持传统字符格式，快速处理遗留系统数据。
+          - article [ref=e245]:
+            - link "UTF-8编码/解码 工具图标 UTF-8编码/解码 实时 UTF-8 编码解码，输入即转换，支持全字符兼容，快速获取标准化 UTF-8 转义编码。" [ref=e246] [cursor=pointer]:
+              - /url: /utf-8/
+              - heading "UTF-8编码/解码 工具图标 UTF-8编码/解码" [level=3] [ref=e247]:
+                - img "UTF-8编码/解码 工具图标" [ref=e248]
+                - generic [ref=e249]: UTF-8编码/解码
+              - paragraph [ref=e250]: 实时 UTF-8 编码解码，输入即转换，支持全字符兼容，快速获取标准化 UTF-8 转义编码。
+          - article [ref=e251]:
+            - link "HTMl实体编码/解码 工具图标 HTMl实体编码/解码 实时 HTML 实体编码解码，输入即转换，支持全字符兼容，快速获取标准化 HTML 实体编码。" [ref=e252] [cursor=pointer]:
+              - /url: /html-entity/
+              - heading "HTMl实体编码/解码 工具图标 HTMl实体编码/解码" [level=3] [ref=e253]:
+                - img "HTMl实体编码/解码 工具图标" [ref=e254]
+                - generic [ref=e255]: HTMl实体编码/解码
+              - paragraph [ref=e256]: 实时 HTML 实体编码解码，输入即转换，支持全字符兼容，快速获取标准化 HTML 实体编码。
+          - article [ref=e257]:
+            - link "URL编码/解码 工具图标 URL编码/解码 实时 URL 编码解码，输入即转换，支持全字符兼容，快速获取标准化编码结果，提升开发与调试效率。" [ref=e258] [cursor=pointer]:
+              - /url: /url-encode/
+              - heading "URL编码/解码 工具图标 URL编码/解码" [level=3] [ref=e259]:
+                - img "URL编码/解码 工具图标" [ref=e260]
+                - generic [ref=e261]: URL编码/解码
+              - paragraph [ref=e262]: 实时 URL 编码解码，输入即转换，支持全字符兼容，快速获取标准化编码结果，提升开发与调试效率。
+          - article [ref=e263]:
+            - link "摩斯密码编码/解码 工具图标 摩斯密码编码/解码 一键转换摩斯密码，实时编码解码文本，支持标准字符格式，快速获取加密通信内容。" [ref=e264] [cursor=pointer]:
+              - /url: /morse/
+              - heading "摩斯密码编码/解码 工具图标 摩斯密码编码/解码" [level=3] [ref=e265]:
+                - img "摩斯密码编码/解码 工具图标" [ref=e266]
+                - generic [ref=e267]: 摩斯密码编码/解码
+              - paragraph [ref=e268]: 一键转换摩斯密码，实时编码解码文本，支持标准字符格式，快速获取加密通信内容。
+          - article [ref=e269]:
+            - link "JWT解码查看器 工具图标 JWT解码查看器 支持一键解析 JWT 令牌数据，输出标准格式化 JSON，适用于接口调试、令牌校验、信息查看等场景。" [ref=e270] [cursor=pointer]:
+              - /url: /jwt-decoder/
+              - heading "JWT解码查看器 工具图标 JWT解码查看器" [level=3] [ref=e271]:
+                - img "JWT解码查看器 工具图标" [ref=e272]
+                - generic [ref=e273]: JWT解码查看器
+              - paragraph [ref=e274]: 支持一键解析 JWT 令牌数据，输出标准格式化 JSON，适用于接口调试、令牌校验、信息查看等场景。
+          - article [ref=e275]:
+            - link "Gzip编码/解码 工具图标 Gzip编码/解码 在线Gzip压缩与解压工具，支持文本直接压缩或Base64数据解压，可一键复制与清空，操作简单快捷！" [ref=e276] [cursor=pointer]:
+              - /url: /gzip/
+              - heading "Gzip编码/解码 工具图标 Gzip编码/解码" [level=3] [ref=e277]:
+                - img "Gzip编码/解码 工具图标" [ref=e278]
+                - generic [ref=e279]: Gzip编码/解码
+              - paragraph [ref=e280]: 在线Gzip压缩与解压工具，支持文本直接压缩或Base64数据解压，可一键复制与清空，操作简单快捷！
+          - article [ref=e281]:
+            - link "Base64编码/解码 工具图标 Base64编码/解码 一键编码解码，实时转换Base64，支持文本图片双模式，快速生成安全数据，提升开发效率！" [ref=e282] [cursor=pointer]:
+              - /url: /base64-encode/
+              - heading "Base64编码/解码 工具图标 Base64编码/解码" [level=3] [ref=e283]:
+                - img "Base64编码/解码 工具图标" [ref=e284]
+                - generic [ref=e285]: Base64编码/解码
+              - paragraph [ref=e286]: 一键编码解码，实时转换Base64，支持文本图片双模式，快速生成安全数据，提升开发效率！
+      - generic [ref=e287]:
+        - heading "常见问题" [level=2] [ref=e288]:
+          - img [ref=e289]
+          - text: 常见问题
+        - generic [ref=e293]:
+          - heading "🔐 什么是 SHA 加密？" [level=3] [ref=e294]
+          - paragraph [ref=e295]: SHA（Secure Hash Algorithm，安全散列算法）是由美国国家安全局（NSA）设计，并由美国国家标准与技术研究院（NIST）发布的一系列密码学标准散列函数。该算法可将任意长度的输入数据，通过特定计算，生成一个唯一且固定长度的 "数字指纹"（即哈希值）。
+        - generic [ref=e296]:
+          - heading "🔑 SHA 加密一般用在哪些场景？" [level=3] [ref=e297]
+          - paragraph [ref=e298]: SHA 系列算法是标准的密码哈希函数，它将任意长度的数据映射为固定长度的 "数字指纹"。这种特性使其被广泛用于保障数据完整性、验证文件来源、安全存储用户密码凭证及构建区块链等可信系统中。
+        - generic [ref=e299]:
+          - heading "⚙️ SHA-1、SHA-224、SHA-256、SHA-384、SHA-512 这些算法有什么区别？如何选择？" [level=3] [ref=e300]
+          - paragraph [ref=e301]:
+            - text: 这些是不同输出长度的SHA算法变体。SHA-1（160位）已不安全，仅用于兼容旧系统。
+            - code [ref=e302]: SHA-224/256/384/512
+            - text: 同属更安全的 SHA-2 家族，数字代表其输出的位长度。SHA-256 是当前最通用的推荐标准；需要更高安全性时可选择 SHA-512；SHA-224/384 是其对应的截断版本，适用于特定空间或协议要求。
+        - generic [ref=e303]:
+          - heading "🔠 生成的哈希值为什么区分大小写？应该选择大写还是小写？" [level=3] [ref=e304]
+          - paragraph [ref=e305]: 哈希值作为十六进制字符串，其大小写形式在计算机中是两种不同的字符，因此对比时必须完全一致。行业通行惯例是使用小写格式。本工具同时提供大小写输出选项，但在与其他系统或官方校验值进行比对时，请确保格式统一，通常建议使用小写标准格式。
+        - generic [ref=e306]:
+          - heading "🔒 使用这个 SHA 哈希工具安全吗？会不会上传我的数据？" [level=3] [ref=e307]
+          - paragraph [ref=e308]: 所有加解密操作均在浏览器本地完成，无需联网，不调用任何后端接口，不会收集、存储或上传您的明文、密钥、密文及初始向量。所有数据始终保留在您自己的设备上，从根本上杜绝泄露风险，保障数据隐私与通信安全。
+      - generic "工具快速切换" [ref=e309]:
+        - list [ref=e311]:
+          - listitem [ref=e312] [cursor=pointer]: 热门推荐
+          - listitem [ref=e313] [cursor=pointer]: 站长工具
+          - listitem [ref=e314] [cursor=pointer]: 编程开发
+          - listitem [ref=e315] [cursor=pointer]: 文本处理
+          - listitem [ref=e316] [cursor=pointer]: 图像处理
+          - listitem [ref=e317] [cursor=pointer]: 文档转换
+          - listitem [ref=e318] [cursor=pointer]: 音频视频
+          - listitem [ref=e319] [cursor=pointer]: 便民工具
+          - listitem [ref=e320] [cursor=pointer]: 编码加密
+          - listitem [ref=e321] [cursor=pointer]: 单位转换
+        - table [ref=e323]:
+          - rowgroup [ref=e324]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e325]:
+              - cell "微信聊天模拟器" [ref=e326]:
+                - link "微信聊天模拟器" [ref=e327] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e328]:
+                - link "微信零钱模拟器" [ref=e329] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e330]:
+                - link "文字转语音工具" [ref=e331] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e332]:
+                - link "法定退休年龄计算器" [ref=e333] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e334]:
+                - link "身份证号码查询" [ref=e335] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e336]:
+                - link "在线随机点名" [ref=e337] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e338]:
+              - cell "报名证件照处理" [ref=e339]:
+                - link "报名证件照处理" [ref=e340] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e341]:
+                - link "随机密码生成器" [ref=e342] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e343]:
+                - link "二维码生成器" [ref=e344] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e345]:
+                - link "世界高清地图" [ref=e346] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e347]:
+                - link "键盘按键检测" [ref=e348] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e349]:
+                - link "手机归属地查询" [ref=e350] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e351]:
+              - cell "在线字数统计" [ref=e352]:
+                - link "在线字数统计" [ref=e353] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e354]:
+                - link "JSON格式化/压缩" [ref=e355] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e356]:
+                - link "Base64编码/解码" [ref=e357] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e358]:
+                - link "图片高清压缩" [ref=e359] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e360]:
+                - link "摩斯密码编码/解码" [ref=e361] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e362]:
+                - link "节日时间倒计时" [ref=e363] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e364]:
+              - cell "本机IP地址查询" [ref=e365]:
+                - link "本机IP地址查询" [ref=e366] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e367]:
+                - link "Unix时间戳转换" [ref=e368] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e369]:
+                - link "图片取色器" [ref=e370] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e371]:
+                - link "色盲色弱测试" [ref=e372] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e373]:
+                - link "SVG在线编辑器" [ref=e374] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e375]:
+                - link "中国高清地图" [ref=e376] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e377]:
+              - cell "查看网页源码" [ref=e378]:
+                - link "查看网页源码" [ref=e379] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e380]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e381]
+        - paragraph [ref=e382]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e383]
+    - generic [ref=e384]:
+      - navigation "页脚链接" [ref=e385]:
+        - link "关于我们" [ref=e386] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e387] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e388] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e389] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e390] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e391] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e392] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e393] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e394] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e395]:
+        - generic [ref=e396]:
+          - text: © 2025
+          - link "懒人工具" [ref=e397] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e399] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e400]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e401] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持
