@@ -168,14 +168,14 @@
 | 120 | frequency-converter | 频率单位换算 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
 | 121 | density-converter | 密度单位换算 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
 | 122 | fuel-consumption-converter | 油耗单位换算 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
-| 123 | voltage-converter | 电压单位换算 | 单位换算 | todo | - | - |
-| 124 | current-converter | 电流单位换算 | 单位换算 | todo | - | - |
-| 125 | resistance-converter | 电阻单位换算 | 单位换算 | todo | - | - |
-| 126 | capacitance-converter | 电容单位换算 | 单位换算 | todo | - | - |
-| 127 | charge-converter | 电荷单位换算 | 单位换算 | todo | - | - |
-| 128 | illuminance-converter | 照度单位换算 | 单位换算 | todo | - | - |
-| 129 | sound-converter | 声音强度单位换算 | 单位换算 | todo | - | - |
-| 130 | cct-converter | 色温单位换算 | 单位换算 | todo | - | - |
+| 123 | voltage-converter | 电压单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
+| 124 | current-converter | 电流单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
+| 125 | resistance-converter | 电阻单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
+| 126 | capacitance-converter | 电容单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
+| 127 | charge-converter | 电荷单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
+| 128 | illuminance-converter | 照度单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
+| 129 | sound-converter | 声音强度单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
+| 130 | cct-converter | 色温单位换算 | 单位换算 | deployed | b4w3push | 200 Pass 线上验证 |
 | 131 | wind-speed-converter | 风速单位换算 | 单位换算 | todo | - | - |
 | 132 | bandwidth-converter | 带宽单位转换 | 单位换算 | todo | - | - |
 | 133 | rem-px | REM与PX单位转换 | 单位换算 | todo | - | - |
