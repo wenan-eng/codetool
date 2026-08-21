@@ -250,24 +250,24 @@
 
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
-| 169 | loan-calculator | 贷款计算器 | 生活计算 | todo | - | - |
-| 170 | car-loan-calculator | 购车贷款计算器 | 生活计算 | todo | - | - |
-| 171 | bonus-tax-calculator | 年终奖个税计算器 | 生活计算 | todo | - | - |
-| 172 | stamp-duty-calculator | 印花税计算器 | 生活计算 | todo | - | - |
-| 173 | profit-roi-calculator | 利润率/ROI计算器 | 生活计算 | todo | - | - |
-| 174 | wangshangdai-calculator | 网商贷利息计算器 | 生活计算 | todo | - | - |
-| 175 | payslip | 工资条生成器 | 生活计算 | todo | - | - |
-| 176 | countdown | 节日时间倒计时 | 生活计算 | todo | - | - |
-| 177 | ip2int | IP地址与INT互转 | 站长工具 | todo | - | - |
-| 178 | cidr-converter | CIDR/子网掩码转换器 | 站长工具 | todo | - | - |
-| 179 | ip-subnet | 子网掩码计算器 | 站长工具 | todo | - | - |
-| 180 | ip-generator | 随机IP地址生成器 | 站长工具 | todo | - | - |
-| 181 | robots | Robots文件生成 | 站长工具 | todo | - | - |
-| 182 | robots-check | Robots文件检测 | 站长工具 | todo | - | - |
-| 183 | meta-generator | 网页META标签生成器 | 站长工具 | todo | - | - |
+| 169 | loan-calculator | 贷款计算器 | 生活计算 | deployed | b6push | 200 Pass 线上验证 |
+| 170 | car-loan-calculator | 购车贷款计算器 | 生活计算 | deployed | b6push | 200 Pass 线上验证 |
+| 171 | bonus-tax-calculator | 年终奖个税计算器 | 生活计算 | deployed | b6push | 200 Pass 线上验证 |
+| 172 | stamp-duty-calculator | 印花税计算器 | 生活计算 | deployed | b6push | 200 Pass 线上验证 |
+| 173 | profit-roi-calculator | 利润率/ROI计算器 | 生活计算 | deployed | b6push | 200 Pass 线上验证 |
+| 174 | wangshangdai-calculator | 网商贷利息计算器 | 生活计算 | deployed | b6push | 200 Pass 线上验证 |
+| 175 | payslip | 工资条生成器 | 生活计算 | deployed | b6push | 200 Pass 线上验证 |
+| 176 | countdown | 节日时间倒计时 | 生活计算 | deployed | b6push | 200 Pass 线上验证 |
+| 177 | ip2int | IP地址与INT互转 | 站长工具 | deployed | b6push | 200 Pass 线上验证 |
+| 178 | cidr-converter | CIDR/子网掩码转换器 | 站长工具 | deployed | b6push | 200 Pass 线上验证 |
+| 179 | ip-subnet | 子网掩码计算器 | 站长工具 | deployed | b6push | 200 Pass 线上验证 |
+| 180 | ip-generator | 随机IP地址生成器 | 站长工具 | deployed | b6push | 200 Pass 线上验证 |
+| 181 | robots | Robots文件生成 | 站长工具 | deployed | b6push | 200 Pass 线上验证 |
+| 182 | robots-check | Robots文件检测 | 站长工具 | deployed | b6push | 200 Pass 线上验证 |
+| 183 | meta-generator | 网页META标签生成器 | 站长工具 | deployed | b6push | 200 Pass 线上验证 |
 | 184 | regex-generator | 正则表达式生成器 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
 | 185 | color-converter | 颜色拾取转换器 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
-| 186 | proportion-calculator | 比例计算器 | 站长工具 | todo | - | - |
+| 186 | proportion-calculator | 比例计算器 | 站长工具 | deployed | b6push | 200 Pass 线上验证 |
 | 187 | user-agent | 常用USER_AGENT大全 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
 | 188 | client-info | 浏览器信息检测 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
 | 189 | device-preview | 网页在线设备模拟器 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
