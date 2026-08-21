@@ -236,3 +236,42 @@
 | 166 | nine-grid | 朋友圈九宫格生成 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
 | 167 | qrcode | 二维码生成器 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
 | 168 | qrcode-decode | 二维码解码器 | 图片处理 | deployed | b5w3push | 200 Pass 线上验证 |
+
+
+## 批次6：站长/生活/影音 31 项（冲突复核后可做清单）
+> 跳过：需服务端的查询类（黄页/归属地/QQ群/whois/dns/ssl/收录）与版权曲库、ffmpeg.wasm 重转码
+> 分类标签：站长生活影音（跨三分类合并，Header 加站长工具+生活+影音入口）
+
+| # | id | 名称 | 分组 | 状态 | commit | 验证 |
+|---|----|------|------|------|--------|------|
+| 169 | loan-calculator | 贷款计算器 | 站长生活影音 | todo | - | - |
+| 170 | car-loan-calculator | 购车贷款计算器 | 站长生活影音 | todo | - | - |
+| 171 | bonus-tax-calculator | 年终奖个税计算器 | 站长生活影音 | todo | - | - |
+| 172 | stamp-duty-calculator | 印花税计算器 | 站长生活影音 | todo | - | - |
+| 173 | profit-roi-calculator | 利润率/ROI计算器 | 站长生活影音 | todo | - | - |
+| 174 | wangshangdai-calculator | 网商贷利息计算器 | 站长生活影音 | todo | - | - |
+| 175 | payslip | 工资条生成器 | 站长生活影音 | todo | - | - |
+| 176 | countdown | 节日时间倒计时 | 站长生活影音 | todo | - | - |
+| 177 | ip2int | IP地址与INT互转 | 站长生活影音 | todo | - | - |
+| 178 | cidr-converter | CIDR/子网掩码转换器 | 站长生活影音 | todo | - | - |
+| 179 | ip-subnet | 子网掩码计算器 | 站长生活影音 | todo | - | - |
+| 180 | ip-generator | 随机IP地址生成器 | 站长生活影音 | todo | - | - |
+| 181 | robots | Robots文件生成 | 站长生活影音 | todo | - | - |
+| 182 | robots-check | Robots文件检测 | 站长生活影音 | todo | - | - |
+| 183 | meta-generator | 网页META标签生成器 | 站长生活影音 | todo | - | - |
+| 184 | regex-generator | 正则表达式生成器 | 站长生活影音 | todo | - | - |
+| 185 | color-converter | 颜色拾取转换器 | 站长生活影音 | todo | - | - |
+| 186 | proportion-calculator | 比例计算器 | 站长生活影音 | todo | - | - |
+| 187 | user-agent | 常用USER_AGENT大全 | 站长生活影音 | todo | - | - |
+| 188 | client-info | 浏览器信息检测 | 站长生活影音 | todo | - | - |
+| 189 | device-preview | 网页在线设备模拟器 | 站长生活影音 | todo | - | - |
+| 190 | shortcut | 创建网页快捷方式 | 站长生活影音 | todo | - | - |
+| 191 | sitemap-extractor | Sitemap链接提取 | 站长生活影音 | todo | - | - |
+| 192 | density | 网页关键词密度检测 | 站长生活影音 | todo | - | - |
+| 193 | log-analysis | 日志文件分析器 | 站长生活影音 | todo | - | - |
+| 194 | decibel-meter | 分贝噪音测试仪 | 站长生活影音 | todo | - | - |
+| 195 | voice-recorder | 在线录音助手 | 站长生活影音 | todo | - | - |
+| 196 | video-player | 本地视频播放器 | 站长生活影音 | todo | - | - |
+| 197 | audio-player | 本地音乐播放器 | 站长生活影音 | todo | - | - |
+| 198 | screen-recorder | 屏幕录制器 | 站长生活影音 | todo | - | - |
+| 199 | tts | 文字转语音工具 | 站长生活影音 | todo | - | - |
