@@ -11,6 +11,7 @@ export type CategoryKey =
   | "fuel"
   | "voltage" | "current" | "resistance" | "capacitance" | "charge"
   | "illuminance" | "sound" | "cct"
+  | "wind" | "bandwidth"
 
 interface LinearCategory {
   kind: "linear"
@@ -175,6 +176,23 @@ const LINEAR: Record<Exclude<CategoryKey, "temperature" | "fuel" | "cct">, Linea
     baseName: "分贝",
     units: [u("dB", "分贝", 1), u("Np", "奈培", 8.685889638), u("B", "贝尔", 10)],
   },
+  wind: {
+    kind: "linear",
+    baseName: "米/秒",
+    units: [
+      u("m/s", "米/秒", 1), u("km/h", "千米/小时", 1 / 3.6), u("mph", "英里/小时", 0.44704),
+      u("kn", "节", 1852 / 3600), u("ft/s", "英尺/秒", 0.3048),
+    ],
+  },
+  bandwidth: {
+    kind: "linear",
+    baseName: "bit/s",
+    units: [
+      u("bit/s", "比特/秒", 1), u("Kbps", "千比特/秒", 1e3), u("Mbps", "兆比特/秒", 1e6),
+      u("Gbps", "吉比特/秒", 1e9), u("B/s", "字节/秒", 8), u("KB/s", "千字节/秒", 8e3),
+      u("MB/s", "兆字节/秒", 8e6), u("GB/s", "千兆字节/秒", 8e9),
+    ],
+  },
 }
 
 const TEMPERATURE_UNITS = ["°C", "°F", "K", "°R"] as const
@@ -241,6 +259,8 @@ export const TOOL_CATEGORY_MAP: Record<string, CategoryKey> = {
   "illuminance-converter": "illuminance",
   "sound-converter": "sound",
   "cct-converter": "cct",
+  "wind-speed-converter": "wind",
+  "bandwidth-converter": "bandwidth",
 }
 
 export function getCategoryKeys(): CategoryKey[] {

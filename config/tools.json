@@ -10001,5 +10001,541 @@
       "illuminance-converter",
       "sound-converter"
     ]
+  },
+  {
+    "id": "wind-speed-converter",
+    "title": "风速单位在线换算工具",
+    "h1": "风速单位在线换算工具",
+    "description": "风速单位在线换算工具，支持米/秒、千米/小时、英里/小时、节、英尺/秒共 5 种风速单位双向换算，精确因子即时计算，适用于气象观察、航海航空与户外运动，全部本地计算不上传。",
+    "title_en": "Wind Speed Unit Converter",
+    "h1_en": "Wind Speed Unit Converter",
+    "description_en": "Convert across 5 wind speed units: m/s, km/h, mph, knots and ft/s with exact factors — for weather watching, sailing, aviation and outdoor sports, fully local.",
+    "title_es": "Conversor de Velocidad del Viento",
+    "h1_es": "Conversor de Velocidad del Viento",
+    "description_es": "Convierta entre 5 unidades de viento: m/s, km/h, mph, nudos y ft/s con factores exactos, todo local.",
+    "tags": [
+      "风速换算",
+      "气象",
+      "节",
+      "米每秒"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "台风的风速是多少？",
+        "a": "12 级台风下限约 32.7 m/s（117.7 km/h），超过 51 m/s 为超强台风；本工具可精确换算各档风速。"
+      },
+      {
+        "q": "航海上为什么用节？",
+        "a": "节源于早期测速绳结法，1 节 = 1 海里/小时 ≈ 1.852 km/h，至今仍是航海航空标准。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How fast is a typhoon?",
+        "a": "A category-12 typhoon starts at ~32.7 m/s (117.7 km/h); super typhoons exceed 51 m/s — convert any level here."
+      },
+      {
+        "q": "Why do sailors use knots?",
+        "a": "The knot comes from the old log-line method: 1 knot = 1 nautical mile/hour ≈ 1.852 km/h, still the marine/aviation standard."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué velocidad tiene un tifón?",
+        "a": "Un tifón grado 12 empieza en ~32,7 m/s (117,7 km/h); los supertifones superan 51 m/s."
+      },
+      {
+        "q": "¿Por qué los marineros usan nudos?",
+        "a": "Viene del método antiguo de la cuerda: 1 nudo = 1 milla náutica/h ≈ 1,852 km/h, estándar naval y aéreo."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "speed-converter",
+      "pressure-converter",
+      "temperature-converter"
+    ]
+  },
+  {
+    "id": "bandwidth-converter",
+    "title": "带宽单位转换",
+    "h1": "带宽单位转换",
+    "description": "带宽单位转换工具，支持 bit/s、Kbps、Mbps、Gbps 与字节类 B/s、KB/s、MB/s、GB/s 双向换算，自动处理 8 倍位字节关系，适用于宽带选型、下载速度估算与网络工程，全部本地计算不上传。",
+    "title_en": "Bandwidth Unit Converter",
+    "h1_en": "Bandwidth Unit Converter",
+    "description_en": "Convert between bit units (bit/s, Kbps, Mbps, Gbps) and byte units (B/s to GB/s) with automatic 8-bit handling — for broadband plans and download estimates, fully local.",
+    "title_es": "Conversor de Ancho de Banda",
+    "h1_es": "Conversor de Ancho de Banda",
+    "description_es": "Convierta entre unidades de bits (bit/s a Gbps) y bytes (B/s a GB/s) con manejo automático del factor 8, todo local.",
+    "tags": [
+      "带宽换算",
+      "Mbps",
+      "下载速度",
+      "宽带"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-bandwidth-converter.svg",
+    "faqs": [
+      {
+        "q": "300M 宽带下载速度是多少？",
+        "a": "运营商标注的 300M 是 300 Mbps，实际下载峰值 = 300÷8 = 37.5 MB/s，本工具可验证这一换算。"
+      },
+      {
+        "q": "为什么 1MB/s = 8Mbps？",
+        "a": "1 字节(Byte)=8 比特(bit)，网络速率用 bit 而文件大小用 Byte，两者相差恒定 8 倍。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What speed is a 300M broadband plan?",
+        "a": "The advertised 300M means 300 Mbps; peak downloads = 300÷8 = 37.5 MB/s — verify with this tool."
+      },
+      {
+        "q": "Why does 1MB/s equal 8Mbps?",
+        "a": "One byte is 8 bits; network rates use bits while file sizes use bytes, a constant factor of 8 apart."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué velocidad tiene un plan de 300M?",
+        "a": "Los 300M anunciados son 300 Mbps; la descarga máxima = 300÷8 = 37,5 MB/s; verifíquelo aquí."
+      },
+      {
+        "q": "¿Por qué 1MB/s = 8Mbps?",
+        "a": "Un byte son 8 bits; las redes usan bits y los archivos bytes, factor constante de 8."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "frequency-converter",
+      "dataurl-tool",
+      "word-count"
+    ]
+  },
+  {
+    "id": "rem-px",
+    "title": "REM与PX单位转换",
+    "h1": "REM与PX单位转换",
+    "description": "REM与PX单位转换工具，基于可自定义的根字号（默认16px）在 rem 与 px 之间双向换算，支持 em/pt/% 五种 CSS 单位，是响应式开发与设计稿标注的必备工具，全部本地计算不上传。",
+    "title_en": "REM to PX Converter",
+    "h1_en": "REM to PX Converter",
+    "description_en": "Two-way conversion between rem and px based on a customizable root font size (default 16px), plus em/pt/% support — essential for responsive development and design handoff, fully local.",
+    "title_es": "Conversor REM a PX",
+    "h1_es": "Conversor REM a PX",
+    "description_es": "Conversión bidireccional entre rem y px basada en tamaño raíz personalizable (16px por defecto), más em/pt/%, esencial para desarrollo responsive, todo local.",
+    "tags": [
+      "rem转px",
+      "CSS单位",
+      "响应式",
+      "前端开发"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-rem-px.svg",
+    "faqs": [
+      {
+        "q": "默认根字号为什么是 16px？",
+        "a": "浏览器默认 html 字号为 16px，未做覆盖时 1rem=16px；若项目设置了其他根字号可在输入框修改后换算。"
+      },
+      {
+        "q": "rem 和 em 有什么区别？",
+        "a": "rem 相对根元素字号，全局一致易控；em 相对父元素字号，会逐级叠加，嵌套场景需注意。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Why is the default root size 16px?",
+        "a": "Browsers default html font-size to 16px so 1rem=16px unless overridden; change it in the input if your project differs."
+      },
+      {
+        "q": "rem vs em?",
+        "a": "rem scales from the root element for global consistency; em scales from the parent and compounds through nesting."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Por qué la raíz por defecto es 16px?",
+        "a": "Los navegadores usan 16px para html por defecto, así 1rem=16px; cámbielo si su proyecto difiere."
+      },
+      {
+        "q": "¿rem frente a em?",
+        "a": "rem escala desde la raíz, consistente globalmente; em escala desde el padre y se acumula al anidar."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "font-size-converter",
+      "letter-converter",
+      "text-formatter"
+    ]
+  },
+  {
+    "id": "font-size-converter",
+    "title": "字体字号单位换算",
+    "h1": "字体字号单位换算",
+    "description": "字体字号单位换算工具，支持 px、pt、em、rem、百分比五种字号单位互转，内置 pt 与 px 的印刷屏幕换算关系及可调根字号，适用于设计稿还原与排版规范制定，全部本地计算不上传。",
+    "title_en": "Font Size Unit Converter",
+    "h1_en": "Font Size Unit Converter",
+    "description_en": "Convert across px, pt, em, rem and percent font sizes with print/screen pt-px relations and adjustable root size — for design implementation and typography specs, fully local.",
+    "title_es": "Conversor de Tamaño de Fuente",
+    "h1_es": "Conversor de Tamaño de Fuente",
+    "description_es": "Convierta entre px, pt, em, rem y porcentaje con relación pt-px y raíz ajustable, para implementar diseños, todo local.",
+    "tags": [
+      "字号换算",
+      "pt转px",
+      "字体单位",
+      "排版"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-bandwidth-converter.svg",
+    "faqs": [
+      {
+        "q": "12pt 为什么等于 16px？",
+        "a": "印刷标准 1pt=1/72 英寸，Web 标准 96dpi 下 1 英寸=96px，故 12pt×(96/72)=16px，Word 默认正文字号即由此而来。"
+      },
+      {
+        "q": "设计稿标注用哪个单位？",
+        "a": "Photoshop/Sketch 常标 px，iOS 用 pt，Web 开发建议输出 rem；本工具可在三者间自由换算。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Why does 12pt equal 16px?",
+        "a": "Print defines 1pt = 1/72 inch while web uses 96dpi, so 12pt × (96/72) = 16px — Word's default body size."
+      },
+      {
+        "q": "Which unit should design specs use?",
+        "a": "Photoshop/Sketch mark px, iOS uses pt, web prefers rem; convert freely among them here."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Por qué 12pt = 16px?",
+        "a": "Impresión: 1pt = 1/72 pulgada; web usa 96dpi, luego 12pt × (96/72) = 16px, el cuerpo por defecto de Word."
+      },
+      {
+        "q": "¿Qué unidad usar en especificaciones?",
+        "a": "Photoshop/Sketch marcan px, iOS usa pt, la web prefiere rem; convierta libremente aquí."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "rem-px",
+      "letter-converter",
+      "pinyin-converter"
+    ]
+  },
+  {
+    "id": "base-converter",
+    "title": "多进制转换器",
+    "h1": "多进制转换器",
+    "description": "多进制转换器，输入任意数值一键得出二进制、八进制、十进制、十六进制四种结果，采用 BigInt 大数运算无精度损失，适用于编程学习、位运算调试与嵌入式开发，全部本地计算不上传。",
+    "title_en": "Number Base Converter",
+    "h1_en": "Number Base Converter",
+    "description_en": "Enter any number to instantly get binary, octal, decimal and hexadecimal results using BigInt arithmetic without precision loss — great for programming study and embedded work, fully local.",
+    "title_es": "Conversor de Bases Numéricas",
+    "h1_es": "Conversor de Bases Numéricas",
+    "description_es": "Introduzca cualquier número para obtener binario, octal, decimal y hexadecimal al instante con aritmética BigInt sin pérdida, todo local.",
+    "tags": [
+      "进制转换",
+      "二进制",
+      "十六进制",
+      "编程工具"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-base-converter.svg",
+    "faqs": [
+      {
+        "q": "支持哪些进制？",
+        "a": "源进制可选二/八/十/十六进制，结果同时给出四种表示；最大支持 36 进制字符集（0-9 与 a-z）。"
+      },
+      {
+        "q": "超大数会丢失精度吗？",
+        "a": "不会，内部使用 BigInt 任意精度整数运算，64 位以上的十六进制数也能精确转换。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which bases are supported?",
+        "a": "Source base can be binary/octal/decimal/hex; all four results are shown at once, using the 0-9/a-z character set up to base 36."
+      },
+      {
+        "q": "Do huge numbers lose precision?",
+        "a": "No, BigInt arbitrary-precision arithmetic handles even 64+ bit hex values exactly."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué bases admite?",
+        "a": "Origen binario/octal/decimal/hex; muestra las cuatro representaciones, con conjunto 0-9/a-z hasta base 36."
+      },
+      {
+        "q": "¿Los números grandes pierden precisión?",
+        "a": "No, la aritmética BigInt maneja hexadecimales de más de 64 bits con exactitud."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "hex-converter",
+      "text-bin",
+      "bit-calculator"
+    ]
+  },
+  {
+    "id": "shoe-size",
+    "title": "鞋子尺码换算",
+    "h1": "鞋子尺码换算",
+    "description": "鞋子尺码换算工具，对照中国码、欧码 EU、美码男女款、英码 UK 与脚长厘米五套体系，输入任一尺码高亮整行对照表，海淘购鞋不再纠结，全部本地处理不上传。",
+    "title_en": "Shoe Size Converter",
+    "h1_en": "Shoe Size Converter",
+    "description_en": "Cross-reference CN, EU, US men's/women's, UK sizes and foot length in centimeters — enter any size to highlight the matching row, perfect for overseas shoe shopping, fully local.",
+    "title_es": "Conversor de Tallas de Zapatos",
+    "h1_es": "Conversor de Tallas de Zapatos",
+    "description_es": "Referencia cruzada de tallas CN, EU, EE.UU. hombre/mujer, UK y longitud del pie en cm; introduzca una talla y resalte la fila, todo local.",
+    "tags": [
+      "鞋码换算",
+      "尺码对照",
+      "海淘",
+      "EU美码英码"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-shoe-size.svg",
+    "faqs": [
+      {
+        "q": "各国鞋码有什么区别？",
+        "a": "中国码与欧码数值接近，美码分男女款且偏小 1.5-2 码，英码介于之间；脚长厘米是最可靠的参考基准。"
+      },
+      {
+        "q": "不同品牌尺码一致吗？",
+        "a": "存在品牌差异，运动鞋普遍偏大半码；表格为通用对照，购买前建议结合品牌具体尺码表确认。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有查询均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How do sizing systems differ?",
+        "a": "CN and EU numbers are close; US runs 1.5-2 sizes smaller with separate men's/women's scales; foot length in cm is the most reliable anchor."
+      },
+      {
+        "q": "Do brands size consistently?",
+        "a": "They vary — sneakers often run half a size large; use this general table then confirm against the brand's own chart."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all lookups run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿En qué difieren los sistemas?",
+        "a": "CN y EU son cercanos; el estadounidense es 1,5-2 tallas menor con escalas por sexo; los cm del pie son la referencia fiable."
+      },
+      {
+        "q": "¿Las marcas miden igual?",
+        "a": "Varían; las deportivas suelen quedar media talla grandes; confirme con la tabla de cada marca."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las consultas se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "unit-converter",
+      "length-converter",
+      "weight-converter"
+    ]
+  },
+  {
+    "id": "rmb-upper",
+    "title": "人民币大写转换",
+    "h1": "人民币大写转换",
+    "description": "人民币大写转换工具，将阿拉伯数字金额转为符合财务规范的中文大写（壹贰叁肆伍陆柒捌玖拾佰仟万亿），自动处理零的读法与角分补位，开票记账必备，全部本地计算不上传。",
+    "title_en": "RMB Amount in Chinese Words",
+    "h1_en": "RMB Amount in Chinese Words",
+    "description_en": "Convert numeric amounts into standard financial Chinese uppercase characters, handling zeros and jiao/fen padding automatically — essential for invoices and bookkeeping, fully local.",
+    "title_es": "Importe RMB en Letras Chinas",
+    "h1_es": "Importe RMB en Letras Chinas",
+    "description_es": "Convierta importes numéricos a caracteres chinos financieros estándar, gestionando ceros y decimales automáticamente, ideal para facturas, todo local.",
+    "tags": [
+      "人民币大写",
+      "财务发票",
+      "金额大写",
+      "记账"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-base-converter.svg",
+    "faqs": [
+      {
+        "q": "1050 元的大写怎么写？",
+        "a": "壹仟零伍拾元整——中间的零必须写出；本工具自动按中国人民银行规范处理所有零位规则。"
+      },
+      {
+        "q": "只有角没有分怎么处理？",
+        "a": "如 1.5 元写作「壹元伍角」可不加整；到分为止后无分则加「整」，工具已自动判断。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How is 1050 written in words?",
+        "a": "Yī qiān líng wǔ shí yuán — the zero must be spelled out; the tool applies PBoC conventions automatically."
+      },
+      {
+        "q": "Amounts with only jiao?",
+        "a": "1.5 yuan writes as one yuan five jiao without 整; when fen is absent the tool appends 整 correctly."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo se escribe 1050 en letras?",
+        "a": "Yi qian ling wu shi yuan; el cero intermedio debe escribirse; la herramienta aplica la norma del Banco Popular."
+      },
+      {
+        "q": "¿Importes solo con jiao?",
+        "a": "1,5 yuan se escribe un yuan cinco jiao sin 整; si no hay fen la herramienta añade 整 correctamente."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "base-converter",
+      "word-count",
+      "number-checker"
+    ]
+  },
+  {
+    "id": "blood-type",
+    "title": "血型遗传计算器",
+    "h1": "血型遗传计算器",
+    "description": "血型遗传计算器，根据父母 ABO 血型推算子女可能的血型组合，基于经典孟德尔遗传规律，孕期科普与家庭趣味查询两相宜，全部本地计算不上传。",
+    "title_en": "Blood Type Inheritance Calculator",
+    "h1_en": "Blood Type Inheritance Calculator",
+    "description_en": "Predict possible child blood types from parents' ABO types based on classic Mendelian inheritance — handy for pregnancy education and family curiosity, fully local.",
+    "title_es": "Calculadora de Herencia de Grupo Sanguíneo",
+    "h1_es": "Calculadora de Herencia de Grupo Sanguíneo",
+    "description_es": "Prediga los posibles grupos sanguíneos del hijo según los ABO de los padres según las reglas mendelianas, todo local.",
+    "tags": [
+      "血型遗传",
+      "ABO血型",
+      "亲子血型",
+      "遗传规律"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-blood-type.svg",
+    "faqs": [
+      {
+        "q": "父母都是 O 型孩子是什么血型？",
+        "a": "只能是 O 型；A+B 组合最多样，子女可能是 A、B、AB、O 四种中的任何一种。"
+      },
+      {
+        "q": "这个计算准确吗？",
+        "a": "基于标准 ABO 抗原遗传规律，适用于绝大多数人群；极罕见的孟买血型等特殊基因型不在常规判断范围内。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有计算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Both parents O — what can the child be?",
+        "a": "Only type O. The A+B pairing is the most varied: the child may be A, B, AB or O."
+      },
+      {
+        "q": "How accurate is this?",
+        "a": "It follows standard ABO antigen inheritance for the vast majority of people; rare genotypes like Bombay phenotype are outside normal scope."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all calculations run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "Ambos padres O, ¿qué será el hijo?",
+        "a": "Solo tipo O. La combinación A+B es la más variada: el hijo puede ser A, B, AB u O."
+      },
+      {
+        "q": "¿Es preciso este cálculo?",
+        "a": "Sigue la herencia ABO estándar válida para casi todos; genotipos raros como Bombay quedan fuera del alcance normal."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todos los cálculos se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "rmb-upper",
+      "shoe-size",
+      "random-pwd"
+    ]
   }
 ]

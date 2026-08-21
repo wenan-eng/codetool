@@ -1,0 +1,103 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+      - generic [ref=e10]:
+        - generic [ref=e11]: 搜索工具
+        - generic [ref=e12]:
+          - link "中文" [ref=e13] [cursor=pointer]:
+            - /url: /zh/cct-converter
+          - link "English" [ref=e14] [cursor=pointer]:
+            - /url: /en/cct-converter
+          - link "Español" [ref=e15] [cursor=pointer]:
+            - /url: /es/cct-converter
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e19]:
+        - heading "色温单位换算" [level=1] [ref=e20]
+        - generic [ref=e21]:
+          - generic [ref=e22]: 色温
+          - generic [ref=e23]: 开尔文
+          - generic [ref=e24]: 迈尔德
+          - generic [ref=e25]: 摄影滤镜
+        - paragraph [ref=e26]: 色温单位换算工具，支持开尔文色温与迈尔德(mired)倒数色温双向换算，摄影滤光片与影视调色领域常用 mired 标注，一键互转即查即得，全部本地计算不上传。
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: 源单位
+            - textbox "请输入要转换的数值" [ref=e31]: "1"
+            - combobox [ref=e32]:
+              - option "K（开尔文色温）" [selected]
+              - option "mired（迈尔德）"
+          - button "⇄" [ref=e33] [cursor=pointer]
+          - generic [ref=e34]:
+            - generic [ref=e35]: 目标单位
+            - generic [ref=e36]: —
+            - combobox [ref=e37]:
+              - option "K（开尔文色温）"
+              - option "mired（迈尔德）" [selected]
+        - generic [ref=e38]:
+          - button "单位转换" [ref=e39] [cursor=pointer]
+          - button "清空数据" [ref=e40] [cursor=pointer]
+        - paragraph [ref=e41]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e42]:
+        - heading "使用说明" [level=2] [ref=e43]
+        - list [ref=e44]:
+          - listitem [ref=e45]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e46]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e47]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e48]: 所有操作本地完成，保障隐私
+      - generic [ref=e49]:
+        - heading "同类推荐" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - link "温度单位在线换算工具" [ref=e52] [cursor=pointer]:
+            - /url: /zh/temperature-converter
+            - generic [ref=e53]: 温度单位在线换算工具
+          - link "照度单位在线换算工具" [ref=e54] [cursor=pointer]:
+            - /url: /zh/illuminance-converter
+            - generic [ref=e55]: 照度单位在线换算工具
+          - link "声音强度单位换算" [ref=e56] [cursor=pointer]:
+            - /url: /zh/sound-converter
+            - generic [ref=e57]: 声音强度单位换算
+      - generic [ref=e58]:
+        - heading "常见问题" [level=2] [ref=e59]
+        - group [ref=e60]:
+          - generic "什么是迈尔德(mired)？" [ref=e61] [cursor=pointer]
+        - group [ref=e62]:
+          - generic "摄影滤镜上的 mired 怎么用？" [ref=e63] [cursor=pointer]
+        - group [ref=e64]:
+          - generic "会被上传吗？" [ref=e65] [cursor=pointer]
+  - contentinfo [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - heading "热门推荐" [level=4] [ref=e69]
+        - link "JSON" [ref=e70] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e71]:
+        - heading "站长工具" [level=4] [ref=e72]
+        - link "IP" [ref=e73] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e74]:
+        - heading "关于" [level=4] [ref=e75]
+        - link "关于我们" [ref=e76] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e77] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e78]:
+        - heading "合规" [level=4] [ref=e79]
+        - link "服务条款" [ref=e80] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e81] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e82]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e83]
