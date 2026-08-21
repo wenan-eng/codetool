@@ -242,6 +242,12 @@
 > 跳过：需服务端的查询类（黄页/归属地/QQ群/whois/dns/ssl/收录）与版权曲库、ffmpeg.wasm 重转码
 > 分类标签：站长生活影音（跨三分类合并，Header 加站长工具+生活+影音入口）
 
+### 批次6 全部完成 31/31 — 2026-08-21
+- 波1 webmaster IP/网络8 + 波2 内容工具9 + 波3 生活计算器8 + 波4 影音媒体6，全部 deployed 线上验证
+- vitest 444/444，build 641页 SSG（zh/en/es × 199工具 + 八分类页）
+- 菜单八入口：编程开发/文本处理/编码加密/单位换算/图片处理/站长工具/生活计算/影音媒体
+- media 全基于浏览器原生 API：getUserMedia/MediaRecorder/getDisplayMedia/SpeechSynthesis
+
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
 | 169 | loan-calculator | 贷款计算器 | 生活计算 | todo | - | - |
@@ -269,9 +275,9 @@
 | 191 | sitemap-extractor | Sitemap链接提取 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
 | 192 | density | 网页关键词密度检测 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
 | 193 | log-analysis | 日志文件分析器 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
-| 194 | decibel-meter | 分贝噪音测试仪 | 影音媒体 | todo | - | - |
-| 195 | voice-recorder | 在线录音助手 | 影音媒体 | todo | - | - |
-| 196 | video-player | 本地视频播放器 | 影音媒体 | todo | - | - |
-| 197 | audio-player | 本地音乐播放器 | 影音媒体 | todo | - | - |
-| 198 | screen-recorder | 屏幕录制器 | 影音媒体 | todo | - | - |
-| 199 | tts | 文字转语音工具 | 影音媒体 | todo | - | - |
+| 194 | decibel-meter | 分贝噪音测试仪 | 影音媒体 | deployed | b6w4push | 200 Pass 线上验证 |
+| 195 | voice-recorder | 在线录音助手 | 影音媒体 | deployed | b6w4push | 200 Pass 线上验证 |
+| 196 | video-player | 本地视频播放器 | 影音媒体 | deployed | b6w4push | 200 Pass 线上验证 |
+| 197 | audio-player | 本地音乐播放器 | 影音媒体 | deployed | b6w4push | 200 Pass 线上验证 |
+| 198 | screen-recorder | 屏幕录制器 | 影音媒体 | deployed | b6w4push | 200 Pass 线上验证 |
+| 199 | tts | 文字转语音工具 | 影音媒体 | deployed | b6w4push | 200 Pass 线上验证 |
