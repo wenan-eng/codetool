@@ -259,16 +259,16 @@
 | 181 | robots | Robots文件生成 | 站长工具 | todo | - | - |
 | 182 | robots-check | Robots文件检测 | 站长工具 | todo | - | - |
 | 183 | meta-generator | 网页META标签生成器 | 站长工具 | todo | - | - |
-| 184 | regex-generator | 正则表达式生成器 | 站长工具 | todo | - | - |
-| 185 | color-converter | 颜色拾取转换器 | 站长工具 | todo | - | - |
+| 184 | regex-generator | 正则表达式生成器 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
+| 185 | color-converter | 颜色拾取转换器 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
 | 186 | proportion-calculator | 比例计算器 | 站长工具 | todo | - | - |
-| 187 | user-agent | 常用USER_AGENT大全 | 站长工具 | todo | - | - |
-| 188 | client-info | 浏览器信息检测 | 站长工具 | todo | - | - |
-| 189 | device-preview | 网页在线设备模拟器 | 站长工具 | todo | - | - |
-| 190 | shortcut | 创建网页快捷方式 | 站长工具 | todo | - | - |
-| 191 | sitemap-extractor | Sitemap链接提取 | 站长工具 | todo | - | - |
-| 192 | density | 网页关键词密度检测 | 站长工具 | todo | - | - |
-| 193 | log-analysis | 日志文件分析器 | 站长工具 | todo | - | - |
+| 187 | user-agent | 常用USER_AGENT大全 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
+| 188 | client-info | 浏览器信息检测 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
+| 189 | device-preview | 网页在线设备模拟器 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
+| 190 | shortcut | 创建网页快捷方式 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
+| 191 | sitemap-extractor | Sitemap链接提取 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
+| 192 | density | 网页关键词密度检测 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
+| 193 | log-analysis | 日志文件分析器 | 站长工具 | deployed | b6w1-2push | 200 Pass 线上验证 |
 | 194 | decibel-meter | 分贝噪音测试仪 | 影音媒体 | todo | - | - |
 | 195 | voice-recorder | 在线录音助手 | 影音媒体 | todo | - | - |
 | 196 | video-player | 本地视频播放器 | 影音媒体 | todo | - | - |
