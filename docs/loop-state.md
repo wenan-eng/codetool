@@ -1,4 +1,3 @@
-# Loop State — 编程开发 50 工具
 
 > 来源 https://www.lanren-tools.com/code/ 已用 playwright-cli 验证 50 项（main article 50，排除 /about 等footer），见 .playwright-cli/page-*.yml 与 /tmp/lanren-code-overview.png
 > 本文件为唯一真源，每完成一个工具更新一行状态并单 commit。
@@ -66,14 +65,14 @@
 
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
-| 51 | url-encode | URL编码/解码 | 编码转换 | todo | - | - |
-| 52 | escape | Escape编码/解码 | 编码转换 | todo | - | - |
-| 53 | utf-8 | UTF-8编码/解码 | 编码转换 | todo | - | - |
-| 54 | html-entity | HTML实体编码/解码 | 编码转换 | todo | - | - |
-| 55 | morse | 摩斯密码编码/解码 | 编码转换 | todo | - | - |
-| 56 | text-hex | 文本与十六进制互转 | 编码转换 | todo | - | - |
-| 57 | text-octal | 文本与八进制互转 | 编码转换 | todo | - | - |
-| 58 | text-bin | 文本与二进制互转 | 编码转换 | todo | - | - |
+| 51 | url-encode | URL编码/解码 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
+| 52 | escape | Escape编码/解码 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
+| 53 | utf-8 | UTF-8编码/解码 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
+| 54 | html-entity | HTML实体编码/解码 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
+| 55 | morse | 摩斯密码编码/解码 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
+| 56 | text-hex | 文本与十六进制互转 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
+| 57 | text-octal | 文本与八进制互转 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
+| 58 | text-bin | 文本与二进制互转 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
 | 59 | base32-encode | Base32编码/解码 | 编码转换 | todo | - | - |
 | 60 | base64-encode | Base64编码/解码 | 编码转换 | todo | - | - |
 | 61 | base64-bulk | Base64批量编码/解码 | 编码转换 | todo | - | - |
