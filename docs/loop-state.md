@@ -160,14 +160,14 @@
 | 112 | speed-converter | 速度单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
 | 113 | time-converter | 时间单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
 | 114 | angle-converter | 角度单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
-| 115 | pressure-converter | 压力单位换算 | 单位换算 | todo | - | - |
-| 116 | power-converter | 功率单位换算 | 单位换算 | todo | - | - |
-| 117 | force-converter | 力单位转换器 | 单位换算 | todo | - | - |
-| 118 | torque-converter | 扭矩单位转换器 | 单位换算 | todo | - | - |
-| 119 | heat-converter | 热量单位换算 | 单位换算 | todo | - | - |
-| 120 | frequency-converter | 频率单位换算 | 单位换算 | todo | - | - |
-| 121 | density-converter | 密度单位换算 | 单位换算 | todo | - | - |
-| 122 | fuel-consumption-converter | 油耗单位换算 | 单位换算 | todo | - | - |
+| 115 | pressure-converter | 压力单位换算 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
+| 116 | power-converter | 功率单位换算 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
+| 117 | force-converter | 力单位转换器 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
+| 118 | torque-converter | 扭矩单位转换器 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
+| 119 | heat-converter | 热量单位换算 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
+| 120 | frequency-converter | 频率单位换算 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
+| 121 | density-converter | 密度单位换算 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
+| 122 | fuel-consumption-converter | 油耗单位换算 | 单位换算 | deployed | b4w2push | 200 Pass 线上验证 |
 | 123 | voltage-converter | 电压单位换算 | 单位换算 | todo | - | - |
 | 124 | current-converter | 电流单位换算 | 单位换算 | todo | - | - |
 | 125 | resistance-converter | 电阻单位换算 | 单位换算 | todo | - | - |
