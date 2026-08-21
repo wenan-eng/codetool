@@ -8393,5 +8393,541 @@
       "word-count",
       "mars-converter"
     ]
+  },
+  {
+    "id": "length-converter",
+    "title": "长度单位在线换算工具",
+    "h1": "长度单位在线换算工具",
+    "description": "长度单位在线换算工具，支持纳米到海里等 12 种公制英制市制单位双向换算，输入数值即时得出结果，适用于工程测量、外贸报价与日常学习，全部本地计算不上传。",
+    "title_en": "Length Unit Converter Online",
+    "h1_en": "Length Unit Converter Online",
+    "description_en": "Convert between 12 metric, imperial and Chinese units from nanometers to nautical miles instantly — great for engineering, trade quotes and study, fully local.",
+    "title_es": "Conversor de Longitud en Línea",
+    "h1_es": "Conversor de Longitud en Línea",
+    "description_es": "Convierta entre 12 unidades métricas, imperiales y chinas de nanómetros a millas náuticas al instante, todo local.",
+    "tags": [
+      "长度换算",
+      "米英尺",
+      "单位转换",
+      "英寸厘米"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "支持哪些长度单位？",
+        "a": "纳米、微米、毫米、厘米、分米、米、千米、英寸、英尺、码、英里、海里共 12 种，覆盖公制英制与航海场景。"
+      },
+      {
+        "q": "换算精度如何？",
+        "a": "采用国际标准定义因子（如 1 英寸=0.0254 米精确值），结果保留 10 位有效数字。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which length units are supported?",
+        "a": "12 units: nanometer, micrometer, millimeter, centimeter, decimeter, meter, kilometer, inch, foot, yard, mile and nautical mile."
+      },
+      {
+        "q": "How accurate are the conversions?",
+        "a": "International standard factors are used (e.g. 1 in = 0.0254 m exactly) with results to 10 significant digits."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué unidades admite?",
+        "a": "12 unidades: nanómetro, micrómetro, milímetro, centímetro, decímetro, metro, kilómetro, pulgada, pie, yarda, milla y milla náutica."
+      },
+      {
+        "q": "¿Qué precisión tienen?",
+        "a": "Factores estándar internacionales (p. ej. 1 pulgada = 0,0254 m exactos) con 10 dígitos significativos."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "weight-converter",
+      "area-converter",
+      "speed-converter"
+    ]
+  },
+  {
+    "id": "weight-converter",
+    "title": "重量单位在线换算工具",
+    "h1": "重量单位在线换算工具",
+    "description": "重量单位在线换算工具，支持毫克到吨、盎司磅克拉及市斤市两共 9 种单位双向换算，精确因子即时计算，适用于珠宝计价、跨境物流与厨房烘焙，全部本地计算不上传。",
+    "title_en": "Weight Unit Converter Online",
+    "h1_en": "Weight Unit Converter Online",
+    "description_en": "Convert across 9 units from milligrams to tons including ounces, pounds, carats and Chinese jin/liang with exact factors — great for jewelry pricing, logistics and baking, fully local.",
+    "title_es": "Conversor de Peso en Línea",
+    "h1_es": "Conversor de Peso en Línea",
+    "description_es": "Convierta entre 9 unidades de miligramos a toneladas incluyendo onzas, libras, quilates y jin/liang chinos con factores exactos, todo local.",
+    "tags": [
+      "重量换算",
+      "千克磅",
+      "克拉",
+      "斤两"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "克拉怎么换算？",
+        "a": "1 克拉 = 0.2 克 = 0.0002 千克，是钻石等宝石的通用计量单位。"
+      },
+      {
+        "q": "市斤和公斤什么关系？",
+        "a": "1 市斤 = 0.5 千克 = 500 克；1 市两 = 50 克，本工具按现行十两制换算。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How does carat convert?",
+        "a": "1 carat = 0.2 g = 0.0002 kg, the standard unit for diamonds and gemstones."
+      },
+      {
+        "q": "Relation between jin and kilograms?",
+        "a": "1 jin = 0.5 kg = 500 g; 1 liang = 50 g under the modern ten-liang system."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo se convierte el quilate?",
+        "a": "1 quilate = 0,2 g = 0,0002 kg, la unidad estándar para diamantes y gemas."
+      },
+      {
+        "q": "¿Relación entre jin y kilogramos?",
+        "a": "1 jin = 0,5 kg = 500 g; 1 liang = 50 g según el sistema moderno de diez liang."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "length-converter",
+      "volume-converter",
+      "density-converter"
+    ]
+  },
+  {
+    "id": "temperature-converter",
+    "title": "温度单位在线换算工具",
+    "h1": "温度单位在线换算工具",
+    "description": "温度单位在线换算工具，支持摄氏度、华氏度、开尔文、兰氏度四种温标仿射换算，公式内置零误差，适用于科研实验、烹饪烘焙与国际旅行，全部本地计算不上传。",
+    "title_en": "Temperature Unit Converter Online",
+    "h1_en": "Temperature Unit Converter Online",
+    "description_en": "Affine conversion across Celsius, Fahrenheit, Kelvin and Rankine scales with built-in zero-error formulas — for lab work, cooking and travel, fully local.",
+    "title_es": "Conversor de Temperatura en Línea",
+    "h1_es": "Conversor de Temperatura en Línea",
+    "description_es": "Conversión afín entre Celsius, Fahrenheit, Kelvin y Rankine con fórmulas integradas sin error, para laboratorio, cocina y viajes, todo local.",
+    "tags": [
+      "温度换算",
+      "摄氏华氏",
+      "开尔文",
+      "温度单位"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "摄氏和华氏怎么互转？",
+        "a": "°F = °C × 9/5 + 32；例如 100°C = 212°F（水沸点），0°C = 32°F（冰点）。"
+      },
+      {
+        "q": "开尔文和摄氏的关系？",
+        "a": "K = °C + 273.15，开尔文是热力学温标，0 K 为绝对零度，对应 -273.15°C。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How do Celsius and Fahrenheit convert?",
+        "a": "°F = °C × 9/5 + 32; e.g. 100°C = 212°F (boiling point), 0°C = 32°F (freezing point)."
+      },
+      {
+        "q": "Kelvin vs Celsius?",
+        "a": "K = °C + 273.15. Kelvin is the thermodynamic scale where 0 K is absolute zero at -273.15°C."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir Celsius y Fahrenheit?",
+        "a": "°F = °C × 9/5 + 32; p. ej. 100 °C = 212 °F (ebullición), 0 °C = 32 °F (congelación)."
+      },
+      {
+        "q": "¿Kelvin frente a Celsius?",
+        "a": "K = °C + 273,15. Kelvin es la escala termodinámica donde 0 K es el cero absoluto a -273,15 °C."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "heat-converter",
+      "cct-converter",
+      "wind-speed-converter"
+    ]
+  },
+  {
+    "id": "area-converter",
+    "title": "面积单位在线换算工具",
+    "h1": "面积单位在线换算工具",
+    "description": "面积单位在线换算工具，支持平方毫米到平方千米、公顷、英亩及市亩共 9 种单位双向换算，精确因子即时计算，适用于房产土地、农业规划与装修测算，全部本地计算不上传。",
+    "title_en": "Area Unit Converter Online",
+    "h1_en": "Area Unit Converter Online",
+    "description_en": "Convert across 9 area units from mm² to km² including hectares, acres and Chinese mu with exact factors — for real estate, farming plans and renovations, fully local.",
+    "title_es": "Conversor de Área en Línea",
+    "h1_es": "Conversor de Área en Línea",
+    "description_es": "Convierta entre 9 unidades de área de mm² a km² incluyendo hectáreas, acres y mu chino con factores exactos, todo local.",
+    "tags": [
+      "面积换算",
+      "公顷亩",
+      "平方米",
+      "单位转换"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-area.svg",
+    "faqs": [
+      {
+        "q": "一亩等于多少平方米？",
+        "a": "1 市亩 = 2000/3 ≈ 666.67 平方米；1 公顷 = 15 亩 = 10000 平方米。"
+      },
+      {
+        "q": "英亩和公顷哪个大？",
+        "a": "1 英亩 ≈ 4046.86 平方米，约等于 0.405 公顷，因此公顷更大。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How big is one mu?",
+        "a": "1 mu = 2000/3 ≈ 666.67 m²; 1 hectare = 15 mu = 10,000 m²."
+      },
+      {
+        "q": "Acre vs hectare?",
+        "a": "1 acre ≈ 4046.86 m², about 0.405 hectares — so the hectare is larger."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cuánto mide un mu?",
+        "a": "1 mu = 2000/3 ≈ 666,67 m²; 1 hectárea = 15 mu = 10.000 m²."
+      },
+      {
+        "q": "¿Acre o hectárea?",
+        "a": "1 acre ≈ 4046,86 m², unos 0,405 hectáreas; la hectárea es mayor."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "length-converter",
+      "volume-converter",
+      "pressure-converter"
+    ]
+  },
+  {
+    "id": "volume-converter",
+    "title": "体积/容积单位在线换算工具",
+    "h1": "体积/容积单位在线换算工具",
+    "description": "体积容积单位在线换算工具，支持毫升升立方米、立方英寸英尺及美制加仑夸脱品脱共 9 种单位双向换算，适用于烘焙配方、油箱容量与化工计量，全部本地计算不上传。",
+    "title_en": "Volume Unit Converter Online",
+    "h1_en": "Volume Unit Converter Online",
+    "description_en": "Convert across 9 volume units: ml, L, m³, cubic inches/feet plus US gallons, quarts and pints — for recipes, fuel tanks and dosing, fully local.",
+    "title_es": "Conversor de Volumen en Línea",
+    "h1_es": "Conversor de Volumen en Línea",
+    "description_es": "Convierta entre 9 unidades de volumen: ml, L, m³, pulgadas/pies cúbicos más galones, cuartos y pintas estadounidenses, todo local.",
+    "tags": [
+      "体积换算",
+      "容积",
+      "加仑升",
+      "单位转换"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-area.svg",
+    "faqs": [
+      {
+        "q": "美制加仑和升怎么换？",
+        "a": "1 美制加仑 = 3.785411784 升；注意英制加仑约为 4.546 升，两者不同，本工具采用美制。"
+      },
+      {
+        "q": "立方厘米和毫升一样吗？",
+        "a": "是的，1 cm³ = 1 ml，发动机排量的 cc 就是立方厘米。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "US gallon to liters?",
+        "a": "1 US gallon = 3.785411784 L; note the imperial gallon is about 4.546 L — this tool uses US units."
+      },
+      {
+        "q": "Is cubic centimeter same as milliliter?",
+        "a": "Yes, 1 cm³ = 1 ml; engine displacement in cc means cubic centimeters."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Galón estadounidense a litros?",
+        "a": "1 galón EE.UU. = 3,785411784 L; el imperial ronda 4,546 L; esta herramienta usa el estadounidense."
+      },
+      {
+        "q": "¿Centímetro cúbico igual a mililitro?",
+        "a": "Sí, 1 cm³ = 1 ml; los cc de cilindrada son centímetros cúbicos."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "area-converter",
+      "weight-converter",
+      "fuel-consumption-converter"
+    ]
+  },
+  {
+    "id": "speed-converter",
+    "title": "速度单位在线换算工具",
+    "h1": "速度单位在线换算工具",
+    "description": "速度单位在线换算工具，支持米/秒、千米/小时、英里/小时、节、英尺/秒与马赫共 6 种单位双向换算，适用于行车导航、航空航海与运动配速，全部本地计算不上传。",
+    "title_en": "Speed Unit Converter Online",
+    "h1_en": "Speed Unit Converter Online",
+    "description_en": "Convert across 6 speed units: m/s, km/h, mph, knots, ft/s and Mach — for driving, aviation, sailing and pace running, fully local.",
+    "title_es": "Conversor de Velocidad en Línea",
+    "h1_es": "Conversor de Velocidad en Línea",
+    "description_es": "Convierta entre 6 unidades de velocidad: m/s, km/h, mph, nudos, ft/s y Mach, para conducción, aviación y navegación, todo local.",
+    "tags": [
+      "速度换算",
+      "公里小时",
+      "迈",
+      "节马赫"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "km/h 和 mph 怎么换？",
+        "a": "1 mph = 1.609344 km/h；美国限速牌上的 65 mph 约等于 104.6 km/h。"
+      },
+      {
+        "q": "节是什么单位的速度？",
+        "a": "1 节 = 1 海里/小时 ≈ 1.852 km/h，是航空航海的通用速度单位。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How do km/h and mph convert?",
+        "a": "1 mph = 1.609344 km/h; a US 65 mph limit equals about 104.6 km/h."
+      },
+      {
+        "q": "What is a knot?",
+        "a": "1 knot = 1 nautical mile per hour ≈ 1.852 km/h, standard in aviation and marine navigation."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir km/h y mph?",
+        "a": "1 mph = 1,609344 km/h; un límite de 65 mph equivale a unos 104,6 km/h."
+      },
+      {
+        "q": "¿Qué es un nudo?",
+        "a": "1 nudo = 1 milla náutica/hora ≈ 1,852 km/h, estándar en aviación y navegación."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "wind-speed-converter",
+      "length-converter",
+      "time-converter"
+    ]
+  },
+  {
+    "id": "time-converter",
+    "title": "时间单位在线换算工具",
+    "h1": "时间单位在线换算工具",
+    "description": "时间单位在线换算工具，支持纳秒到周共 8 种时间单位双向换算，覆盖编程计时、项目排期与日常时长估算，精确因子即时计算，全部本地计算不上传。",
+    "title_en": "Time Unit Converter Online",
+    "h1_en": "Time Unit Converter Online",
+    "description_en": "Convert across 8 time units from nanoseconds to weeks — for programming timers, project scheduling and duration estimates, with exact factors, fully local.",
+    "title_es": "Conversor de Tiempo en Línea",
+    "h1_es": "Conversor de Tiempo en Línea",
+    "description_es": "Convierta entre 8 unidades de tiempo desde nanosegundos hasta semanas, para temporizadores, planificación y duraciones, todo local.",
+    "tags": [
+      "时间换算",
+      "时分秒",
+      "毫秒纳秒",
+      "单位转换"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "一天等于多少秒？",
+        "a": "1 天 = 24 小时 = 1440 分钟 = 86400 秒；一周 = 604800 秒。"
+      },
+      {
+        "q": "月和年按多少天算？",
+        "a": "本工具未收录月/年以避免大小月歧义；如需可按 30 天月、365 天年自行用天换算。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How many seconds in a day?",
+        "a": "1 day = 24 h = 1440 min = 86,400 s; one week = 604,800 s."
+      },
+      {
+        "q": "Why no months and years?",
+        "a": "They vary in length (28-31 days); to avoid ambiguity use days and multiply by 30 or 365 as needed."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cuántos segundos tiene un día?",
+        "a": "1 día = 24 h = 1440 min = 86.400 s; una semana = 604.800 s."
+      },
+      {
+        "q": "¿Por qué no hay meses y años?",
+        "a": "Varían de longitud (28-31 días); use días y multiplique por 30 o 365 según necesite."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "timestamp",
+      "datetime-converter",
+      "speed-converter"
+    ]
+  },
+  {
+    "id": "angle-converter",
+    "title": "角度单位在线换算工具",
+    "h1": "角度单位在线换算工具",
+    "description": "角度单位在线换算工具，支持度、弧度、冈、角分、角秒与转共 6 种角度单位双向换算，精确 π 关系即时计算，适用于数学几何、测绘工程与 CAD 制图，全部本地计算不上传。",
+    "title_en": "Angle Unit Converter Online",
+    "h1_en": "Angle Unit Converter Online",
+    "description_en": "Convert across 6 angle units: degrees, radians, gradians, arcminutes, arcseconds and turns with exact π-based factors — for geometry, surveying and CAD, fully local.",
+    "title_es": "Conversor de Ángulos en Línea",
+    "h1_es": "Conversor de Ángulos en Línea",
+    "description_es": "Convierta entre 6 unidades de ángulo: grados, radianes, gradianes, minutos y segundos de arco y vueltas con factores exactos, todo local.",
+    "tags": [
+      "角度换算",
+      "弧度",
+      "度分秒",
+      "单位转换"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "弧度和度怎么换？",
+        "a": "180° = π rad，即 1 rad = 180/π ≈ 57.2958°；数学与编程中三角函数默认使用弧度。"
+      },
+      {
+        "q": "角分角秒是什么？",
+        "a": "1° = 60′ = 3600″，是天文学与测绘中表达小角度的常用细分单位。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Radians to degrees?",
+        "a": "180° = π rad, so 1 rad = 180/π ≈ 57.2958°; trig functions in math and code default to radians."
+      },
+      {
+        "q": "What are arcminutes and arcseconds?",
+        "a": "1° = 60′ = 3600″, common fine-grained units in astronomy and surveying."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Radianes a grados?",
+        "a": "180° = π rad, luego 1 rad = 180/π ≈ 57,2958°; las funciones trigonométricas usan radianes por defecto."
+      },
+      {
+        "q": "¿Qué son minuto y segundo de arco?",
+        "a": "1° = 60′ = 3600″, subunidades habituales en astronomía y topografía."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "length-converter",
+      "time-converter",
+      "temperature-converter"
+    ]
   }
 ]

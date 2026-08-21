@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/pinyin-converter
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/pinyin-converter
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/pinyin-converter
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - heading "在线汉字拼音转换器" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: 汉字转拼音
+          - generic [ref=e22]: 多音字
+          - generic [ref=e23]: 声调
+          - generic [ref=e24]: 拼音标注
+        - paragraph [ref=e25]: 在线汉字拼音转换器，基于专业拼音词库精准多音字处理，支持无声调与带声调两种输出模式，整句智能注音，适用于教学标注、姓名拼音与输入法学习，全部本地处理。
+      - generic [ref=e26]:
+        - textbox "请输入汉字，例如：我爱懒人工具汉字拼音转换器！" [ref=e27]
+        - generic [ref=e28]:
+          - button "转成拼音" [ref=e29] [cursor=pointer]
+          - button "转成拼音-带声调" [ref=e30] [cursor=pointer]
+          - button "清空数据" [ref=e31] [cursor=pointer]
+        - textbox "输出的结果..." [ref=e32]
+        - generic [ref=e33]:
+          - button "复制结果" [disabled] [ref=e34]
+          - button "下载TXT" [disabled] [ref=e35]
+        - paragraph [ref=e36]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e37]:
+        - heading "使用说明" [level=2] [ref=e38]
+        - list [ref=e39]:
+          - listitem [ref=e40]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e41]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e42]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e43]: 所有操作本地完成，保障隐私
+      - generic [ref=e44]:
+        - heading "同类推荐" [level=2] [ref=e45]
+        - generic [ref=e46]:
+          - link "中文简体繁体在线转换工具" [ref=e47] [cursor=pointer]:
+            - /url: /zh/chinese-converter
+            - generic [ref=e48]: 中文简体繁体在线转换工具
+          - link "在线字数统计工具" [ref=e49] [cursor=pointer]:
+            - /url: /zh/word-count
+            - generic [ref=e50]: 在线字数统计工具
+          - link "火星文在线转换器" [ref=e51] [cursor=pointer]:
+            - /url: /zh/mars-converter
+            - generic [ref=e52]: 火星文在线转换器
+      - generic [ref=e53]:
+        - heading "常见问题" [level=2] [ref=e54]
+        - group [ref=e55]:
+          - generic "多音字怎么处理？" [ref=e56] [cursor=pointer]
+        - group [ref=e57]:
+          - generic "带声调和不带声调有什么区别？" [ref=e58] [cursor=pointer]
+        - group [ref=e59]:
+          - generic "会被上传吗？" [ref=e60] [cursor=pointer]
+  - contentinfo [ref=e61]:
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - heading "热门推荐" [level=4] [ref=e64]
+        - link "JSON" [ref=e65] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e66]:
+        - heading "站长工具" [level=4] [ref=e67]
+        - link "IP" [ref=e68] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e69]:
+        - heading "关于" [level=4] [ref=e70]
+        - link "关于我们" [ref=e71] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e72] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e73]:
+        - heading "合规" [level=4] [ref=e74]
+        - link "服务条款" [ref=e75] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e76] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e77]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e78]

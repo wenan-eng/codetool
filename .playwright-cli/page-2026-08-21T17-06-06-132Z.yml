@@ -1,0 +1,447 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "温度单位在线换算工具" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "单位换算" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=单位换算
+          - img [ref=e126]
+          - text: 单位换算
+        - link "温度计算器" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=温度计算器
+          - img [ref=e130]
+          - text: 温度计算器
+        - link "温标转换" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=温标转换
+          - img [ref=e134]
+          - text: 温标转换
+        - link "摄氏度转华氏度" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=摄氏度转华氏度
+          - img [ref=e138]
+          - text: 摄氏度转华氏度
+        - link "绝对零度计算" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=绝对零度计算
+          - img [ref=e142]
+          - text: 绝对零度计算
+        - link "开尔文转换" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=开尔文转换
+          - img [ref=e146]
+          - text: 开尔文转换
+    - paragraph [ref=e149]: 使用我们的「温度单位转换工具」，支持摄氏度、华氏度、开尔文、兰氏度、列氏度之间的高精度实时换算，输入即算，结果同步呈现。一键转换，精准可靠，是科研、工程与教学场景下的理想选择。
+    - main [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152]: 请选择单位类型、对应的数值：
+        - generic [ref=e153]:
+          - generic [ref=e154] [cursor=pointer]:
+            - radio "摄氏度" [checked]
+            - generic [ref=e155]: 摄氏度
+          - generic [ref=e156] [cursor=pointer]:
+            - radio "华氏度"
+            - generic [ref=e157]: 华氏度
+          - generic [ref=e158] [cursor=pointer]:
+            - radio "开尔文（绝对温标）"
+            - generic [ref=e159]: 开尔文（绝对温标）
+          - generic [ref=e160] [cursor=pointer]:
+            - radio "兰氏度（兰金）"
+            - generic [ref=e161]: 兰氏度（兰金）
+          - generic [ref=e162] [cursor=pointer]:
+            - radio "列氏度"
+            - generic [ref=e163]: 列氏度
+        - textbox "请输入要转换的数值" [ref=e164]
+        - generic [ref=e165]:
+          - button "单位转换" [ref=e166] [cursor=pointer]:
+            - img [ref=e167]
+            - text: 单位转换
+          - button "清空数据" [ref=e169] [cursor=pointer]:
+            - img [ref=e170]
+            - text: 清空数据
+      - generic [ref=e178]:
+        - generic [ref=e179]: 单位转换结果：
+        - table [ref=e181]:
+          - rowgroup [ref=e182]:
+            - row "单位 单位结果 单位说明" [ref=e183]:
+              - columnheader "单位" [ref=e184]
+              - columnheader "单位结果" [ref=e185]
+              - columnheader "单位说明" [ref=e186]
+            - row "摄氏度 摄氏度（°C），以水的冰点为0°C、沸点为100°C定义。广泛应用于全球大多数国家的日常气象、医学和科学研究中。" [ref=e187]:
+              - cell "摄氏度" [ref=e188]
+              - cell [ref=e189]:
+                - textbox "°C" [ref=e190]
+              - cell "摄氏度（°C），以水的冰点为0°C、沸点为100°C定义。广泛应用于全球大多数国家的日常气象、医学和科学研究中。" [ref=e191]
+            - row "华氏度 华氏度（°F），主要用于美国和部分英语国家。水的冰点为32°F，沸点为212°F，常用于天气预报和人体体温测量。" [ref=e192]:
+              - cell "华氏度" [ref=e193]
+              - cell [ref=e194]:
+                - textbox "°F" [ref=e195]
+              - cell "华氏度（°F），主要用于美国和部分英语国家。水的冰点为32°F，沸点为212°F，常用于天气预报和人体体温测量。" [ref=e196]
+            - row "开尔文 开尔文（K），国际单位制中的热力学温度单位，从绝对零度（-273.15°C）开始计算。广泛用于物理、化学和天文学研究。" [ref=e197]:
+              - cell "开尔文" [ref=e198]
+              - cell [ref=e199]:
+                - textbox "K" [ref=e200]
+              - cell "开尔文（K），国际单位制中的热力学温度单位，从绝对零度（-273.15°C）开始计算。广泛用于物理、化学和天文学研究。" [ref=e201]
+            - row "兰氏度 兰氏度（°R），基于华氏度的绝对温标，0°R 对应绝对零度。常用于美国工程领域的热力学计算，尤其在航空航天和能源系统分析中。" [ref=e202]:
+              - cell "兰氏度" [ref=e203]
+              - cell [ref=e204]:
+                - textbox "°R" [ref=e205]
+              - cell "兰氏度（°R），基于华氏度的绝对温标，0°R 对应绝对零度。常用于美国工程领域的热力学计算，尤其在航空航天和能源系统分析中。" [ref=e206]
+            - row "列氏度 列氏度（°Re），历史上由法国科学家雷奥米尔提出，水的冰点为0°Re，沸点为80°Re。曾在18-19世纪欧洲部分地区使用，现已基本被取代。" [ref=e207]:
+              - cell "列氏度" [ref=e208]
+              - cell [ref=e209]:
+                - textbox "°Re" [ref=e210]
+              - cell "列氏度（°Re），历史上由法国科学家雷奥米尔提出，水的冰点为0°Re，沸点为80°Re。曾在18-19世纪欧洲部分地区使用，现已基本被取代。" [ref=e211]
+    - region "工具使用帮助与相关信息" [ref=e212]:
+      - generic [ref=e213]:
+        - heading "使用说明" [level=2] [ref=e214]:
+          - img [ref=e215]
+          - text: 使用说明
+        - paragraph [ref=e217]:
+          - text: 📐
+          - strong [ref=e218]: 选择输入单位
+        - paragraph [ref=e219]: 在“请选择单位类型”区域中，点击选择你要转换的原始温度单位。支持的单位包括：摄氏度(°C)、华氏度(°F)、开尔文(K)、兰氏度(°R) 和 列氏度(°Re)。选中的单位会以高亮状态显示，明确标识当前输入基准，避免混淆。
+        - paragraph [ref=e220]:
+          - text: ⌨️
+          - strong [ref=e221]: 输入数值
+        - paragraph [ref=e222]: 在输入框中填写一个有效的温度数值（支持正数、负数和小数），例如：“37”表示人体正常体温，“-40”表示极寒天气。系统将基于你选择的单位进行高精度换算。
+        - paragraph [ref=e223]:
+          - text: 🔄
+          - strong [ref=e224]: 执行温度转换
+        - paragraph [ref=e225]: 点击“单位转换”按钮，系统会立即将你输入的温度值自动换算为其他四种温标的等效值，并实时填充到下方结果表格中，实现一键全面解析。
+        - paragraph [ref=e226]:
+          - text: 📊
+          - strong [ref=e227]: 查看转换结果
+        - paragraph [ref=e228]: 结果表格会列出该温度在五种国际常用温标下的精确换算值，涵盖日常（如°C、°F）、科学（如K）及工程领域（如°R）。每个结果均显示在只读输入框中，方便查看、对比或复制使用。
+        - paragraph [ref=e229]:
+          - text: 🗑️
+          - strong [ref=e230]: 清空数据
+        - paragraph [ref=e231]: 点击“清空数据”按钮，可一键清除输入内容和所有转换结果，恢复工具至初始状态，便于进行下一次独立的温度单位换算操作。
+      - generic [ref=e232]:
+        - heading "同类推荐" [level=2] [ref=e233]:
+          - img [ref=e234]
+          - text: 同类推荐
+        - generic [ref=e236]:
+          - article [ref=e237]:
+            - link "电压单位转换器 工具图标 电压单位转换器 支持纳伏至吉伏七级电压单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。" [ref=e238] [cursor=pointer]:
+              - /url: /voltage-converter/
+              - heading "电压单位转换器 工具图标 电压单位转换器" [level=3] [ref=e239]:
+                - img "电压单位转换器 工具图标" [ref=e240]
+                - generic [ref=e241]: 电压单位转换器
+              - paragraph [ref=e242]: 支持纳伏至吉伏七级电压单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。
+          - article [ref=e243]:
+            - link "人民币大写转换 工具图标 人民币大写转换 一键将人民币数字金额转换为标准中文大写，自动处理零值等复杂情况，确保结果准确无误。" [ref=e244] [cursor=pointer]:
+              - /url: /rmb-upper/
+              - heading "人民币大写转换 工具图标 人民币大写转换" [level=3] [ref=e245]:
+                - img "人民币大写转换 工具图标" [ref=e246]
+                - generic [ref=e247]: 人民币大写转换
+              - paragraph [ref=e248]: 一键将人民币数字金额转换为标准中文大写，自动处理零值等复杂情况，确保结果准确无误。
+          - article [ref=e249]:
+            - link "重量单位换算 工具图标 重量单位换算 一键重量转换，实时换算/精准互转，支持重量单位全兼容，快速生成标准单位结果，提升重量单位转换效率！" [ref=e250] [cursor=pointer]:
+              - /url: /weight-converter/
+              - heading "重量单位换算 工具图标 重量单位换算" [level=3] [ref=e251]:
+                - img "重量单位换算 工具图标" [ref=e252]
+                - generic [ref=e253]: 重量单位换算
+              - paragraph [ref=e254]: 一键重量转换，实时换算/精准互转，支持重量单位全兼容，快速生成标准单位结果，提升重量单位转换效率！
+          - article [ref=e255]:
+            - link "功率单位换算 工具图标 功率单位换算 一键功率转换，实时换算/精准互转，支持功率单位全兼容，快速生成标准单位结果，提升功率单位转换效率！" [ref=e256] [cursor=pointer]:
+              - /url: /power-converter/
+              - heading "功率单位换算 工具图标 功率单位换算" [level=3] [ref=e257]:
+                - img "功率单位换算 工具图标" [ref=e258]
+                - generic [ref=e259]: 功率单位换算
+              - paragraph [ref=e260]: 一键功率转换，实时换算/精准互转，支持功率单位全兼容，快速生成标准单位结果，提升功率单位转换效率！
+          - article [ref=e261]:
+            - link "热量单位换算 工具图标 热量单位换算 一键热量转换，实时换算/精准互转，支持能量单位全兼容，快速生成标准单位结果，提升热量单位转换效率！" [ref=e262] [cursor=pointer]:
+              - /url: /heat-converter/
+              - heading "热量单位换算 工具图标 热量单位换算" [level=3] [ref=e263]:
+                - img "热量单位换算 工具图标" [ref=e264]
+                - generic [ref=e265]: 热量单位换算
+              - paragraph [ref=e266]: 一键热量转换，实时换算/精准互转，支持能量单位全兼容，快速生成标准单位结果，提升热量单位转换效率！
+          - article [ref=e267]:
+            - link "压力单位换算 工具图标 压力单位换算 一键压力转换，实时换算帕/巴/标准大气压/毫米汞柱/托等单位，快速获取标准结果，提升压力单位转换效率！" [ref=e268] [cursor=pointer]:
+              - /url: /pressure-converter/
+              - heading "压力单位换算 工具图标 压力单位换算" [level=3] [ref=e269]:
+                - img "压力单位换算 工具图标" [ref=e270]
+                - generic [ref=e271]: 压力单位换算
+              - paragraph [ref=e272]: 一键压力转换，实时换算帕/巴/标准大气压/毫米汞柱/托等单位，快速获取标准结果，提升压力单位转换效率！
+          - article [ref=e273]:
+            - link "速度单位换算 工具图标 速度单位换算 一键速度转换，实时换算米/秒、千米/每小时，支持多单位高精度兼容，快速生成标准数值，提升单位处理效率！" [ref=e274] [cursor=pointer]:
+              - /url: /speed-converter/
+              - heading "速度单位换算 工具图标 速度单位换算" [level=3] [ref=e275]:
+                - img "速度单位换算 工具图标" [ref=e276]
+                - generic [ref=e277]: 速度单位换算
+              - paragraph [ref=e278]: 一键速度转换，实时换算米/秒、千米/每小时，支持多单位高精度兼容，快速生成标准数值，提升单位处理效率！
+          - article [ref=e279]:
+            - link "角度单位换算 工具图标 角度单位换算 一键角度转换，实时换算度、弧度、弧分与弧秒等单位，快速获取标准结果，提升计算效率！" [ref=e280] [cursor=pointer]:
+              - /url: /angle-converter/
+              - heading "角度单位换算 工具图标 角度单位换算" [level=3] [ref=e281]:
+                - img "角度单位换算 工具图标" [ref=e282]
+                - generic [ref=e283]: 角度单位换算
+              - paragraph [ref=e284]: 一键角度转换，实时换算度、弧度、弧分与弧秒等单位，快速获取标准结果，提升计算效率！
+          - article [ref=e285]:
+            - link "时间单位换算 工具图标 时间单位换算 一键时间转换，实时换算年月周日时分秒毫秒，支持高精度数值计算，提升时间单位处理效率！" [ref=e286] [cursor=pointer]:
+              - /url: /time-converter/
+              - heading "时间单位换算 工具图标 时间单位换算" [level=3] [ref=e287]:
+                - img "时间单位换算 工具图标" [ref=e288]
+                - generic [ref=e289]: 时间单位换算
+              - paragraph [ref=e290]: 一键时间转换，实时换算年月周日时分秒毫秒，支持高精度数值计算，提升时间单位处理效率！
+          - article [ref=e291]:
+            - link "面积单位换算 工具图标 面积单位换算 一键面积转换，实时输出结果，支持公制 / 英制多单位全兼容，快速生成精准数值，提升计算效率！" [ref=e292] [cursor=pointer]:
+              - /url: /area-converter/
+              - heading "面积单位换算 工具图标 面积单位换算" [level=3] [ref=e293]:
+                - img "面积单位换算 工具图标" [ref=e294]
+                - generic [ref=e295]: 面积单位换算
+              - paragraph [ref=e296]: 一键面积转换，实时输出结果，支持公制 / 英制多单位全兼容，快速生成精准数值，提升计算效率！
+          - article [ref=e297]:
+            - link "长度单位换算 工具图标 长度单位换算 一键长度转换，实时转换/精准互转，支持公制英制全兼容，快速生成标准单位结果，提升测量效率！" [ref=e298] [cursor=pointer]:
+              - /url: /length-converter/
+              - heading "长度单位换算 工具图标 长度单位换算" [level=3] [ref=e299]:
+                - img "长度单位换算 工具图标" [ref=e300]
+                - generic [ref=e301]: 长度单位换算
+              - paragraph [ref=e302]: 一键长度转换，实时转换/精准互转，支持公制英制全兼容，快速生成标准单位结果，提升测量效率！
+          - article [ref=e303]:
+            - link "体积/容积单位换算 工具图标 体积/容积单位换算 精准转换体积单位，实时显示多制式结果，助您统一工程与日常计量标准，避免换算错误导致的数据偏差！" [ref=e304] [cursor=pointer]:
+              - /url: /volume-converter/
+              - heading "体积/容积单位换算 工具图标 体积/容积单位换算" [level=3] [ref=e305]:
+                - img "体积/容积单位换算 工具图标" [ref=e306]
+                - generic [ref=e307]: 体积/容积单位换算
+              - paragraph [ref=e308]: 精准转换体积单位，实时显示多制式结果，助您统一工程与日常计量标准，避免换算错误导致的数据偏差！
+      - generic [ref=e309]:
+        - heading "常见问题" [level=2] [ref=e310]:
+          - img [ref=e311]
+          - text: 常见问题
+        - generic [ref=e315]:
+          - heading "✔️ 这个工具支持哪些温度单位之间的转换？" [level=3] [ref=e316]
+          - paragraph [ref=e317]: 工具支持摄氏度(°C)、华氏度(°F)、开尔文(K)、兰氏度(°R)和列氏度(°Re)五种国际常用温度单位之间的高精度实时转换。
+        - generic [ref=e318]:
+          - heading "📌 兰氏度和列氏度是什么？现在还常用吗？" [level=3] [ref=e319]
+          - paragraph [ref=e320]: 兰氏度主要用于美国工程领域，列氏度是历史上的温标现已较少使用。工具提供这些单位的转换以满足特殊需求。
+        - generic [ref=e321]:
+          - heading "🎯 支持哪些数值输入格式？" [level=3] [ref=e322]
+          - paragraph [ref=e323]: 支持正数、负数、小数等多种数值格式输入，包括极端温度值如绝对零度(-273.15°C)等特殊数值。
+        - generic [ref=e324]:
+          - heading "📘 这个工具主要适用于哪些场景？" [level=3] [ref=e325]
+          - paragraph [ref=e326]: 适用于科学研究、工程计算、教育教学、气象分析、医疗测温等多种需要温度单位转换的专业和日常场景。
+        - generic [ref=e327]:
+          - heading "🔭 什么是绝对零度？工具能计算吗？" [level=3] [ref=e328]
+          - paragraph [ref=e329]: 绝对零度是理论上的最低温度，约为-273.15°C。工具支持从绝对零度开始的温度换算，包括开尔文温标的计算。
+        - generic [ref=e330]:
+          - heading "🔒 是否需要联网才能使用？" [level=3] [ref=e331]
+          - paragraph [ref=e332]: 不会。所有操作都在浏览器本地完成，您的输入和生成结果不会上传到任何服务器，充分保护隐私安全。
+      - generic "工具快速切换" [ref=e333]:
+        - list [ref=e335]:
+          - listitem [ref=e336] [cursor=pointer]: 热门推荐
+          - listitem [ref=e337] [cursor=pointer]: 站长工具
+          - listitem [ref=e338] [cursor=pointer]: 编程开发
+          - listitem [ref=e339] [cursor=pointer]: 文本处理
+          - listitem [ref=e340] [cursor=pointer]: 图像处理
+          - listitem [ref=e341] [cursor=pointer]: 文档转换
+          - listitem [ref=e342] [cursor=pointer]: 音频视频
+          - listitem [ref=e343] [cursor=pointer]: 便民工具
+          - listitem [ref=e344] [cursor=pointer]: 编码加密
+          - listitem [ref=e345] [cursor=pointer]: 单位转换
+        - table [ref=e347]:
+          - rowgroup [ref=e348]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e349]:
+              - cell "微信聊天模拟器" [ref=e350]:
+                - link "微信聊天模拟器" [ref=e351] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e352]:
+                - link "微信零钱模拟器" [ref=e353] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e354]:
+                - link "文字转语音工具" [ref=e355] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e356]:
+                - link "法定退休年龄计算器" [ref=e357] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e358]:
+                - link "身份证号码查询" [ref=e359] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e360]:
+                - link "在线随机点名" [ref=e361] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e362]:
+              - cell "报名证件照处理" [ref=e363]:
+                - link "报名证件照处理" [ref=e364] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e365]:
+                - link "随机密码生成器" [ref=e366] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e367]:
+                - link "二维码生成器" [ref=e368] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e369]:
+                - link "世界高清地图" [ref=e370] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e371]:
+                - link "键盘按键检测" [ref=e372] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e373]:
+                - link "手机归属地查询" [ref=e374] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e375]:
+              - cell "在线字数统计" [ref=e376]:
+                - link "在线字数统计" [ref=e377] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e378]:
+                - link "JSON格式化/压缩" [ref=e379] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e380]:
+                - link "Base64编码/解码" [ref=e381] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e382]:
+                - link "图片高清压缩" [ref=e383] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e384]:
+                - link "摩斯密码编码/解码" [ref=e385] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e386]:
+                - link "节日时间倒计时" [ref=e387] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e388]:
+              - cell "本机IP地址查询" [ref=e389]:
+                - link "本机IP地址查询" [ref=e390] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e391]:
+                - link "Unix时间戳转换" [ref=e392] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e393]:
+                - link "图片取色器" [ref=e394] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e395]:
+                - link "色盲色弱测试" [ref=e396] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e397]:
+                - link "SVG在线编辑器" [ref=e398] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e399]:
+                - link "中国高清地图" [ref=e400] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e401]:
+              - cell "查看网页源码" [ref=e402]:
+                - link "查看网页源码" [ref=e403] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e404]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e405]
+        - paragraph [ref=e406]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e407]
+    - generic [ref=e408]:
+      - navigation "页脚链接" [ref=e409]:
+        - link "关于我们" [ref=e410] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e411] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e412] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e413] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e414] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e415] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e416] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e417] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e418] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e419]:
+        - generic [ref=e420]:
+          - text: © 2025
+          - link "懒人工具" [ref=e421] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e423] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e424]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e425] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

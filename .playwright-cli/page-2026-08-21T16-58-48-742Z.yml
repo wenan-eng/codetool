@@ -1,0 +1,373 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - heading "一站式免费在线工具箱 - 分类齐全，即开即用" [level=1] [ref=e105]
+    - generic [ref=e106]:
+      - generic [ref=e107]: 搜索工具
+      - textbox "搜索工具" [ref=e108]:
+        - /placeholder: 输入关键词，按回车搜索，使用组合键 Alt+Q 调用...
+      - button "清空搜索": ✕
+    - heading "生活换算" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - article [ref=e111]:
+        - link "货币汇率转换器 工具图标 货币汇率转换器 支持实时查询和换算全球多种货币汇率，适用于跨境贸易结算、出国旅游消费、国际投资理财等场景。" [ref=e112] [cursor=pointer]:
+          - /url: /currency-converter/
+          - heading "货币汇率转换器 工具图标 货币汇率转换器" [level=3] [ref=e113]:
+            - img "货币汇率转换器 工具图标" [ref=e114]
+            - generic [ref=e115]: 货币汇率转换器
+          - paragraph [ref=e116]: 支持实时查询和换算全球多种货币汇率，适用于跨境贸易结算、出国旅游消费、国际投资理财等场景。
+      - article [ref=e117]:
+        - link "鞋子尺码换算 工具图标 鞋子尺码换算 支持男女尺码区分和六种尺码标准实时换算，适用于海淘购物、跨境旅行和鞋类在线选购等场景。" [ref=e118] [cursor=pointer]:
+          - /url: /shoe-size/
+          - heading "鞋子尺码换算 工具图标 鞋子尺码换算" [level=3] [ref=e119]:
+            - img "鞋子尺码换算 工具图标" [ref=e120]
+            - generic [ref=e121]: 鞋子尺码换算
+          - paragraph [ref=e122]: 支持男女尺码区分和六种尺码标准实时换算，适用于海淘购物、跨境旅行和鞋类在线选购等场景。
+      - article [ref=e123]:
+        - link "人民币大写转换 工具图标 人民币大写转换 一键将人民币数字金额转换为标准中文大写，自动处理零值等复杂情况，确保结果准确无误。" [ref=e124] [cursor=pointer]:
+          - /url: /rmb-upper/
+          - heading "人民币大写转换 工具图标 人民币大写转换" [level=3] [ref=e125]:
+            - img "人民币大写转换 工具图标" [ref=e126]
+            - generic [ref=e127]: 人民币大写转换
+          - paragraph [ref=e128]: 一键将人民币数字金额转换为标准中文大写，自动处理零值等复杂情况，确保结果准确无误。
+      - article [ref=e129]:
+        - link "血型遗传计算器 工具图标 血型遗传计算器 实现父母血型与子女血型关系的快速查询与遗传规律推演，支持A型、B型、AB型、O型血型配对选择。" [ref=e130] [cursor=pointer]:
+          - /url: /blood-type/
+          - heading "血型遗传计算器 工具图标 血型遗传计算器" [level=3] [ref=e131]:
+            - img "血型遗传计算器 工具图标" [ref=e132]
+            - generic [ref=e133]: 血型遗传计算器
+          - paragraph [ref=e134]: 实现父母血型与子女血型关系的快速查询与遗传规律推演，支持A型、B型、AB型、O型血型配对选择。
+      - article [ref=e135]:
+        - link "温度单位换算 工具图标 温度单位换算 一键温度转换，实时换算/精准解析，支持五大量温标全兼容，快速获取标准结果，提升温度单位转换效率！" [ref=e136] [cursor=pointer]:
+          - /url: /temperature-converter/
+          - heading "温度单位换算 工具图标 温度单位换算" [level=3] [ref=e137]:
+            - img "温度单位换算 工具图标" [ref=e138]
+            - generic [ref=e139]: 温度单位换算
+          - paragraph [ref=e140]: 一键温度转换，实时换算/精准解析，支持五大量温标全兼容，快速获取标准结果，提升温度单位转换效率！
+      - article [ref=e141]:
+        - link "时间单位换算 工具图标 时间单位换算 一键时间转换，实时换算年月周日时分秒毫秒，支持高精度数值计算，提升时间单位处理效率！" [ref=e142] [cursor=pointer]:
+          - /url: /time-converter/
+          - heading "时间单位换算 工具图标 时间单位换算" [level=3] [ref=e143]:
+            - img "时间单位换算 工具图标" [ref=e144]
+            - generic [ref=e145]: 时间单位换算
+          - paragraph [ref=e146]: 一键时间转换，实时换算年月周日时分秒毫秒，支持高精度数值计算，提升时间单位处理效率！
+      - article [ref=e147]:
+        - link "重量单位换算 工具图标 重量单位换算 一键重量转换，实时换算/精准互转，支持重量单位全兼容，快速生成标准单位结果，提升重量单位转换效率！" [ref=e148] [cursor=pointer]:
+          - /url: /weight-converter/
+          - heading "重量单位换算 工具图标 重量单位换算" [level=3] [ref=e149]:
+            - img "重量单位换算 工具图标" [ref=e150]
+            - generic [ref=e151]: 重量单位换算
+          - paragraph [ref=e152]: 一键重量转换，实时换算/精准互转，支持重量单位全兼容，快速生成标准单位结果，提升重量单位转换效率！
+      - article [ref=e153]:
+        - link "体积/容积单位换算 工具图标 体积/容积单位换算 精准转换体积单位，实时显示多制式结果，助您统一工程与日常计量标准，避免换算错误导致的数据偏差！" [ref=e154] [cursor=pointer]:
+          - /url: /volume-converter/
+          - heading "体积/容积单位换算 工具图标 体积/容积单位换算" [level=3] [ref=e155]:
+            - img "体积/容积单位换算 工具图标" [ref=e156]
+            - generic [ref=e157]: 体积/容积单位换算
+          - paragraph [ref=e158]: 精准转换体积单位，实时显示多制式结果，助您统一工程与日常计量标准，避免换算错误导致的数据偏差！
+      - article [ref=e159]:
+        - link "面积单位换算 工具图标 面积单位换算 一键面积转换，实时输出结果，支持公制 / 英制多单位全兼容，快速生成精准数值，提升计算效率！" [ref=e160] [cursor=pointer]:
+          - /url: /area-converter/
+          - heading "面积单位换算 工具图标 面积单位换算" [level=3] [ref=e161]:
+            - img "面积单位换算 工具图标" [ref=e162]
+            - generic [ref=e163]: 面积单位换算
+          - paragraph [ref=e164]: 一键面积转换，实时输出结果，支持公制 / 英制多单位全兼容，快速生成精准数值，提升计算效率！
+      - article [ref=e165]:
+        - link "声音强度单位换算 工具图标 声音强度单位换算 可快速换算分贝(dB)、贝尔(B)、奈培(Np)三类声音强度单位，输入数值即可自动计算并实时显示换算结果。" [ref=e166] [cursor=pointer]:
+          - /url: /sound-converter/
+          - heading "声音强度单位换算 工具图标 声音强度单位换算" [level=3] [ref=e167]:
+            - img "声音强度单位换算 工具图标" [ref=e168]
+            - generic [ref=e169]: 声音强度单位换算
+          - paragraph [ref=e170]: 可快速换算分贝(dB)、贝尔(B)、奈培(Np)三类声音强度单位，输入数值即可自动计算并实时显示换算结果。
+      - article [ref=e171]:
+        - link "照度单位换算 工具图标 照度单位换算 可快速换算勒克斯、英尺烛光、流明/平方米、流明/平方厘米、福托、诺克斯、毫勒克斯七类照度单位。" [ref=e172] [cursor=pointer]:
+          - /url: /illuminance-converter/
+          - heading "照度单位换算 工具图标 照度单位换算" [level=3] [ref=e173]:
+            - img "照度单位换算 工具图标" [ref=e174]
+            - generic [ref=e175]: 照度单位换算
+          - paragraph [ref=e176]: 可快速换算勒克斯、英尺烛光、流明/平方米、流明/平方厘米、福托、诺克斯、毫勒克斯七类照度单位。
+      - article [ref=e177]:
+        - link "长度单位换算 工具图标 长度单位换算 一键长度转换，实时转换/精准互转，支持公制英制全兼容，快速生成标准单位结果，提升测量效率！" [ref=e178] [cursor=pointer]:
+          - /url: /length-converter/
+          - heading "长度单位换算 工具图标 长度单位换算" [level=3] [ref=e179]:
+            - img "长度单位换算 工具图标" [ref=e180]
+            - generic [ref=e181]: 长度单位换算
+          - paragraph [ref=e182]: 一键长度转换，实时转换/精准互转，支持公制英制全兼容，快速生成标准单位结果，提升测量效率！
+    - heading "物理换算" [level=2] [ref=e183]
+    - generic [ref=e184]:
+      - article [ref=e185]:
+        - link "频率单位换算 工具图标 频率单位换算 支持赫兹、千赫兹、兆赫兹、吉赫兹、太赫兹单位转换，适用于电子工程、通信技术、射频研发、芯片设计等场景。" [ref=e186] [cursor=pointer]:
+          - /url: /frequency-converter/
+          - heading "频率单位换算 工具图标 频率单位换算" [level=3] [ref=e187]:
+            - img "频率单位换算 工具图标" [ref=e188]
+            - generic [ref=e189]: 频率单位换算
+          - paragraph [ref=e190]: 支持赫兹、千赫兹、兆赫兹、吉赫兹、太赫兹单位转换，适用于电子工程、通信技术、射频研发、芯片设计等场景。
+      - article [ref=e191]:
+        - link "风速单位换算 工具图标 风速单位换算 支持米/秒、千米/小时、英里/小时、节、英尺/秒单位转换，适用于气象监测、航海航空、户外作业等场景。" [ref=e192] [cursor=pointer]:
+          - /url: /wind-speed-converter/
+          - heading "风速单位换算 工具图标 风速单位换算" [level=3] [ref=e193]:
+            - img "风速单位换算 工具图标" [ref=e194]
+            - generic [ref=e195]: 风速单位换算
+          - paragraph [ref=e196]: 支持米/秒、千米/小时、英里/小时、节、英尺/秒单位转换，适用于气象监测、航海航空、户外作业等场景。
+      - article [ref=e197]:
+        - link "油耗单位换算 工具图标 油耗单位换算 支持升/100 公里、英里/加仑（美制）、英里/加仑（英制）、公里/升单位转换，适用于汽车油耗计算、跨境用车参考、车型对比等场景。" [ref=e198] [cursor=pointer]:
+          - /url: /fuel-consumption-converter/
+          - heading "油耗单位换算 工具图标 油耗单位换算" [level=3] [ref=e199]:
+            - img "油耗单位换算 工具图标" [ref=e200]
+            - generic [ref=e201]: 油耗单位换算
+          - paragraph [ref=e202]: 支持升/100 公里、英里/加仑（美制）、英里/加仑（英制）、公里/升单位转换，适用于汽车油耗计算、跨境用车参考、车型对比等场景。
+      - article [ref=e203]:
+        - link "力单位转换器 工具图标 力单位转换器 支持牛顿至磅力八级力单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。" [ref=e204] [cursor=pointer]:
+          - /url: /force-converter/
+          - heading "力单位转换器 工具图标 力单位转换器" [level=3] [ref=e205]:
+            - img "力单位转换器 工具图标" [ref=e206]
+            - generic [ref=e207]: 力单位转换器
+          - paragraph [ref=e208]: 支持牛顿至磅力八级力单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。
+      - article [ref=e209]:
+        - link "扭矩单位转换器 工具图标 扭矩单位转换器 支持牛・米至克力・厘米八级扭矩单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。" [ref=e210] [cursor=pointer]:
+          - /url: /torque-converter/
+          - heading "扭矩单位转换器 工具图标 扭矩单位转换器" [level=3] [ref=e211]:
+            - img "扭矩单位转换器 工具图标" [ref=e212]
+            - generic [ref=e213]: 扭矩单位转换器
+          - paragraph [ref=e214]: 支持牛・米至克力・厘米八级扭矩单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。
+      - article [ref=e215]:
+        - link "电荷单位转换器 工具图标 电荷单位转换器 支持阿库至兆库九级电荷单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。" [ref=e216] [cursor=pointer]:
+          - /url: /charge-converter/
+          - heading "电荷单位转换器 工具图标 电荷单位转换器" [level=3] [ref=e217]:
+            - img "电荷单位转换器 工具图标" [ref=e218]
+            - generic [ref=e219]: 电荷单位转换器
+          - paragraph [ref=e220]: 支持阿库至兆库九级电荷单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。
+      - article [ref=e221]:
+        - link "电容单位转换器 工具图标 电容单位转换器 支持阿法至千法十级电容单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。" [ref=e222] [cursor=pointer]:
+          - /url: /capacitance-converter/
+          - heading "电容单位转换器 工具图标 电容单位转换器" [level=3] [ref=e223]:
+            - img "电容单位转换器 工具图标" [ref=e224]
+            - generic [ref=e225]: 电容单位转换器
+          - paragraph [ref=e226]: 支持阿法至千法十级电容单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。
+      - article [ref=e227]:
+        - link "电阻单位转换器 工具图标 电阻单位转换器 支持皮欧至太欧九级电阻单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。" [ref=e228] [cursor=pointer]:
+          - /url: /resistance-converter/
+          - heading "电阻单位转换器 工具图标 电阻单位转换器" [level=3] [ref=e229]:
+            - img "电阻单位转换器 工具图标" [ref=e230]
+            - generic [ref=e231]: 电阻单位转换器
+          - paragraph [ref=e232]: 支持皮欧至太欧九级电阻单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。
+      - article [ref=e233]:
+        - link "电流单位转换器 工具图标 电流单位转换器 支持飞安至兆安八级电流单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。" [ref=e234] [cursor=pointer]:
+          - /url: /current-converter/
+          - heading "电流单位转换器 工具图标 电流单位转换器" [level=3] [ref=e235]:
+            - img "电流单位转换器 工具图标" [ref=e236]
+            - generic [ref=e237]: 电流单位转换器
+          - paragraph [ref=e238]: 支持飞安至兆安八级电流单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。
+      - article [ref=e239]:
+        - link "电压单位转换器 工具图标 电压单位转换器 支持纳伏至吉伏七级电压单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。" [ref=e240] [cursor=pointer]:
+          - /url: /voltage-converter/
+          - heading "电压单位转换器 工具图标 电压单位转换器" [level=3] [ref=e241]:
+            - img "电压单位转换器 工具图标" [ref=e242]
+            - generic [ref=e243]: 电压单位转换器
+          - paragraph [ref=e244]: 支持纳伏至吉伏七级电压单位转换，可自定义输入输出单位与数值，提供单位交换、历史记录、结果复制等功能。
+      - article [ref=e245]:
+        - link "功率单位换算 工具图标 功率单位换算 一键功率转换，实时换算/精准互转，支持功率单位全兼容，快速生成标准单位结果，提升功率单位转换效率！" [ref=e246] [cursor=pointer]:
+          - /url: /power-converter/
+          - heading "功率单位换算 工具图标 功率单位换算" [level=3] [ref=e247]:
+            - img "功率单位换算 工具图标" [ref=e248]
+            - generic [ref=e249]: 功率单位换算
+          - paragraph [ref=e250]: 一键功率转换，实时换算/精准互转，支持功率单位全兼容，快速生成标准单位结果，提升功率单位转换效率！
+      - article [ref=e251]:
+        - link "压力单位换算 工具图标 压力单位换算 一键压力转换，实时换算帕/巴/标准大气压/毫米汞柱/托等单位，快速获取标准结果，提升压力单位转换效率！" [ref=e252] [cursor=pointer]:
+          - /url: /pressure-converter/
+          - heading "压力单位换算 工具图标 压力单位换算" [level=3] [ref=e253]:
+            - img "压力单位换算 工具图标" [ref=e254]
+            - generic [ref=e255]: 压力单位换算
+          - paragraph [ref=e256]: 一键压力转换，实时换算帕/巴/标准大气压/毫米汞柱/托等单位，快速获取标准结果，提升压力单位转换效率！
+      - article [ref=e257]:
+        - link "速度单位换算 工具图标 速度单位换算 一键速度转换，实时换算米/秒、千米/每小时，支持多单位高精度兼容，快速生成标准数值，提升单位处理效率！" [ref=e258] [cursor=pointer]:
+          - /url: /speed-converter/
+          - heading "速度单位换算 工具图标 速度单位换算" [level=3] [ref=e259]:
+            - img "速度单位换算 工具图标" [ref=e260]
+            - generic [ref=e261]: 速度单位换算
+          - paragraph [ref=e262]: 一键速度转换，实时换算米/秒、千米/每小时，支持多单位高精度兼容，快速生成标准数值，提升单位处理效率！
+      - article [ref=e263]:
+        - link "角度单位换算 工具图标 角度单位换算 一键角度转换，实时换算度、弧度、弧分与弧秒等单位，快速获取标准结果，提升计算效率！" [ref=e264] [cursor=pointer]:
+          - /url: /angle-converter/
+          - heading "角度单位换算 工具图标 角度单位换算" [level=3] [ref=e265]:
+            - img "角度单位换算 工具图标" [ref=e266]
+            - generic [ref=e267]: 角度单位换算
+          - paragraph [ref=e268]: 一键角度转换，实时换算度、弧度、弧分与弧秒等单位，快速获取标准结果，提升计算效率！
+      - article [ref=e269]:
+        - link "热量单位换算 工具图标 热量单位换算 一键热量转换，实时换算/精准互转，支持能量单位全兼容，快速生成标准单位结果，提升热量单位转换效率！" [ref=e270] [cursor=pointer]:
+          - /url: /heat-converter/
+          - heading "热量单位换算 工具图标 热量单位换算" [level=3] [ref=e271]:
+            - img "热量单位换算 工具图标" [ref=e272]
+            - generic [ref=e273]: 热量单位换算
+          - paragraph [ref=e274]: 一键热量转换，实时换算/精准互转，支持能量单位全兼容，快速生成标准单位结果，提升热量单位转换效率！
+      - article [ref=e275]:
+        - link "密度单位换算 工具图标 密度单位换算 可快速换算千克/立方米、克/立方厘米、克/毫升、克/升、毫克/升、磅/立方英尺、磅/立方英寸七类密度单位。" [ref=e276] [cursor=pointer]:
+          - /url: /density-converter/
+          - heading "密度单位换算 工具图标 密度单位换算" [level=3] [ref=e277]:
+            - img "密度单位换算 工具图标" [ref=e278]
+            - generic [ref=e279]: 密度单位换算
+          - paragraph [ref=e280]: 可快速换算千克/立方米、克/立方厘米、克/毫升、克/升、毫克/升、磅/立方英尺、磅/立方英寸七类密度单位。
+    - heading "其他换算" [level=2] [ref=e281]
+    - generic [ref=e282]:
+      - article [ref=e283]:
+        - link "色温单位换算 工具图标 色温单位换算 可快速换算开尔文、微倒度、倒数微倒度三类色温单位，输入数值即可自动计算并实时显示换算结果。" [ref=e284] [cursor=pointer]:
+          - /url: /cct-converter/
+          - heading "色温单位换算 工具图标 色温单位换算" [level=3] [ref=e285]:
+            - img "色温单位换算 工具图标" [ref=e286]
+            - generic [ref=e287]: 色温单位换算
+          - paragraph [ref=e288]: 可快速换算开尔文、微倒度、倒数微倒度三类色温单位，输入数值即可自动计算并实时显示换算结果。
+      - article [ref=e289]:
+        - link "多进制转换器 工具图标 多进制转换器 支持2-64进制范围内的双向换算，涵盖2进制、8进制、10进制、16进制、32进制、64进制等11类主流进制。" [ref=e290] [cursor=pointer]:
+          - /url: /base-converter/
+          - heading "多进制转换器 工具图标 多进制转换器" [level=3] [ref=e291]:
+            - img "多进制转换器 工具图标" [ref=e292]
+            - generic [ref=e293]: 多进制转换器
+          - paragraph [ref=e294]: 支持2-64进制范围内的双向换算，涵盖2进制、8进制、10进制、16进制、32进制、64进制等11类主流进制。
+      - article [ref=e295]:
+        - link "REM与PX单位转换 工具图标 REM与PX单位转换 支持REM与PX双向一键换算，适用于前端布局适配、CSS样式转换、响应式开发、网页样式重构等场景。" [ref=e296] [cursor=pointer]:
+          - /url: /rem-px/
+          - heading "REM与PX单位转换 工具图标 REM与PX单位转换" [level=3] [ref=e297]:
+            - img "REM与PX单位转换 工具图标" [ref=e298]
+            - generic [ref=e299]: REM与PX单位转换
+          - paragraph [ref=e300]: 支持REM与PX双向一键换算，适用于前端布局适配、CSS样式转换、响应式开发、网页样式重构等场景。
+      - article [ref=e301]:
+        - link "字体字号单位换算 工具图标 字体字号单位换算 支持像素、点、相对长度、根相对长度、毫米单位转换，适用于网页开发、UI 设计、印刷排版等场景。" [ref=e302] [cursor=pointer]:
+          - /url: /font-size-converter/
+          - heading "字体字号单位换算 工具图标 字体字号单位换算" [level=3] [ref=e303]:
+            - img "字体字号单位换算 工具图标" [ref=e304]
+            - generic [ref=e305]: 字体字号单位换算
+          - paragraph [ref=e306]: 支持像素、点、相对长度、根相对长度、毫米单位转换，适用于网页开发、UI 设计、印刷排版等场景。
+      - article [ref=e307]:
+        - link "带宽单位转换 工具图标 带宽单位转换 支持五级带宽单位双向精确换算和网络速度对照，适用于互联网服务选型和日常带宽理解等场景。" [ref=e308] [cursor=pointer]:
+          - /url: /bandwidth-converter/
+          - heading "带宽单位转换 工具图标 带宽单位转换" [level=3] [ref=e309]:
+            - img "带宽单位转换 工具图标" [ref=e310]
+            - generic [ref=e311]: 带宽单位转换
+          - paragraph [ref=e312]: 支持五级带宽单位双向精确换算和网络速度对照，适用于互联网服务选型和日常带宽理解等场景。
+    - generic [ref=e313]:
+      - heading "单位转换介绍" [level=2] [ref=e314]
+      - generic [ref=e315]:
+        - heading "什么是单位转换工具？" [level=3] [ref=e316]
+        - paragraph [ref=e317]: ✨ 单位转换是懒人工具平台旗下专注于计量单位换算的核心栏目。作为精心设计的在线实用程序集合📊，我们致力于为用户提供精准、便捷的单位换算解决方案。懒人工具始终秉承 "让复杂变简单" 的核心理念🎯，帮助用户轻松完成各种度量衡单位的快速转换⚡。
+      - generic [ref=e318]:
+        - heading "单位转换工具提供哪些功能？" [level=3] [ref=e319]
+        - paragraph [ref=e320]: 我们提供长度、重量、面积、体积、温度、速度、时间、数据存储、货币汇率等多种单位转换功能💼，覆盖日常生活、学术研究、工程设计、商业贸易等多个领域🎯。无论是日常购物、旅行规划、学习工作，还是专业计算，都能在这里找到精准的转换工具✨！
+      - generic [ref=e321]:
+        - heading "适用哪些人群？" [level=3] [ref=e322]
+        - paragraph [ref=e323]: 本工具适用于学生、教师、工程师、科研人员、商务人士、旅行者、厨师及所有需要进行单位换算的用户👨‍💻。无论您是完成作业📚、进行工程设计🏗️、出国旅行，还是日常烹饪，这些工具都能为您提供准确便捷的换算服务✨。
+      - generic [ref=e324]:
+        - heading "使用单位转换工具有什么优势？" [level=3] [ref=e325]
+        - paragraph [ref=e326]: 所有工具均可在线使用🌐，无需下载安装，支持实时换算，操作简单直观👆。换算结果精准可靠，支持多种单位体系，能够满足从日常生活到专业领域的各种需求🏠。同时，工具响应迅速，界面清爽🍃，让单位换算变得轻松愉快😊。
+      - generic [ref=e327]:
+        - heading "为什么选择单位转换工具？" [level=3] [ref=e328]
+        - paragraph [ref=e329]: 我们将复杂的单位换算公式封装成简单易用的在线工具✨，让您无需记忆繁琐的换算比率就能快速获得准确结果🎯。无论是国际单位制🌍、英制单位还是中国传统计量单位，我们都能提供专业的换算服务。平台持续更新🔄，不断完善单位种类和换算精度，为您的学习🎓、工作和生活提供全方位的支持。
+    - generic [ref=e330]:
+      - navigation "页脚链接" [ref=e331]:
+        - link "关于我们" [ref=e332] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e333] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e334] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e335] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e336] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e337] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e338] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e339] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e340] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e341]:
+        - generic [ref=e342]:
+          - text: © 2025
+          - link "懒人工具" [ref=e343] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e345] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e346]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e347] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持
