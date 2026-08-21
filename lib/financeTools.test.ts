@@ -16,7 +16,7 @@ describe("equalPayment", () => {
 describe("equalPrincipal", () => {
   it("首月最高逐月递减", () => {
     const r = equalPrincipal(1000000, 4.25, 360)
-    expect(r.firstMonth).toBeGreaterThan(r.lastMonth)
+    expect(r.firstMonth!).toBeGreaterThan(r.lastMonth!)
     expect(r.decreasingBy).toBeCloseTo(1000000 / 360 * (4.25 / 100 / 12), 4)
   })
   it("总利息低于等额本息", () => {
