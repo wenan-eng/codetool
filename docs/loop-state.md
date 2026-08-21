@@ -64,6 +64,12 @@
 > 图标规律 logo-{id}.svg 已 curl 验证；4 个无专属图标按同族分配：base64-encode→logo-base64-bulk、url-encode→logo-url-hex-encode、utf-8→logo-html-entity、js-obfuscator→logo-js-obfuscator-advanced
 > 文件类工具一律 FileReader/canvas 本地处理，0 服务器上传
 
+### 批次2 全部完成 34/34 — 2026-08-21
+- 波1 转义进制8 + 波2 Base系杂项7 + 波3 哈希加密9 + 波4 文件图片8 + 波5 JS混淆2，全部 deployed 线上验证
+- vitest 325/325，build 278页 SSG（zh/en/es × 84工具 + 分类页）
+- 流程：波1-3 子代理并行+leader集成；波3起子代理多次空报告/缺交付，波4-5 leader亲自实现
+- 关键坑：tools.json 字面反斜杠致 Next JSON 解析崩、LSB 位偏移×2、AES-CTR counter 类型、GitHub SSH 抖动重试
+
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
 | 51 | url-encode | URL编码/解码 | 编码转换 | deployed | 6f1波1push | 200 Pass 线上验证 |
@@ -98,6 +104,6 @@
 | 80 | lsb-embed | LSB图片隐写 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
 | 81 | md5-verify | 文件MD5哈希值校验 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
 | 82 | md5-batch-verify | 批量文件MD5校验 | 编码转换 | deployed | 波4push | 200 Pass 线上验证 |
-| 83 | js-obfuscator | JS混淆加密 | 编码转换 | todo | - | - |
-| 84 | js-obfuscator-advanced | 专业JS代码混淆加密 | 编码转换 | todo | - | - |
+| 83 | js-obfuscator | JS混淆加密 | 编码转换 | deployed | 波5push | 200 Pass 线上验证 |
+| 84 | js-obfuscator-advanced | 专业JS代码混淆加密 | 编码转换 | deployed | 波5push | 200 Pass 线上验证 |
 
