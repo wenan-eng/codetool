@@ -191,3 +191,41 @@
 | 136 | shoe-size | 鞋子尺码换算 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
 | 137 | rmb-upper | 人民币大写转换 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
 | 138 | blood-type | 血型遗传计算器 | 单位换算 | deployed | b4w4push | 200 Pass 线上验证 |
+
+
+## 批次5：图片处理 30 项（来源 https://www.lanren-tools.com/image/ playwright 已验证 110 项中筛选）
+> 冲突复核结论：canvas/FileReader 全程本地，0 上传，伪冲突可做；跳过需服务端解码的 heic/tiff/avif/jxl/psd 系与 OCR/抠图/AI 类
+> 图标：按 logo-{id}.svg 规律分配（404 时同族 image-* 替代，实现时 curl 验证）
+
+| # | id | 名称 | 分组 | 状态 | commit | 验证 |
+|---|----|------|------|------|--------|------|
+| 139 | image-brightness | 图片亮度调整 | 图片处理 | todo | - | - |
+| 140 | image-contrast | 图片对比度调整 | 图片处理 | todo | - | - |
+| 141 | image-saturation | 色彩饱和度调整 | 图片处理 | todo | - | - |
+| 142 | image-hsl | 图片HSL色彩调整 | 图片处理 | todo | - | - |
+| 143 | image-temperature | 图片冷暖色调调整 | 图片处理 | todo | - | - |
+| 144 | image-highlight | 图片高光调整 | 图片处理 | todo | - | - |
+| 145 | image-fader | 图片色彩淡化器 | 图片处理 | todo | - | - |
+| 146 | image-sharpener | 图片锐化处理 | 图片处理 | todo | - | - |
+| 147 | blur-image | 图片虚化处理 | 图片处理 | todo | - | - |
+| 148 | image-rotate | 图片角度调整 | 图片处理 | todo | - | - |
+| 149 | image-mirror | 图片镜像翻转 | 图片处理 | todo | - | - |
+| 150 | image-size-revise | 图片尺寸调整 | 图片处理 | todo | - | - |
+| 151 | image-cropping | 图片自定义裁剪 | 图片处理 | todo | - | - |
+| 152 | image-quality | 图片质量调整 | 图片处理 | todo | - | - |
+| 153 | image-jpg | 图片转JPG格式 | 图片处理 | todo | - | - |
+| 154 | image-png | 图片转PNG格式 | 图片处理 | todo | - | - |
+| 155 | image-webp | 图片转WebP格式 | 图片处理 | todo | - | - |
+| 156 | image-bmp | 图片转BMP格式 | 图片处理 | todo | - | - |
+| 157 | png2jpg | PNG图片转JPG | 图片处理 | todo | - | - |
+| 158 | webp2jpg | WEBP图片转JPG | 图片处理 | todo | - | - |
+| 159 | watermark | 图片添加水印 | 图片处理 | todo | - | - |
+| 160 | image-compressor | 图片高清压缩 | 图片处理 | todo | - | - |
+| 161 | color-picker | 图片取色器 | 图片处理 | todo | - | - |
+| 162 | image-color | 图片配色提取器 | 图片处理 | todo | - | - |
+| 163 | exif | 图片Exif查看器 | 图片处理 | todo | - | - |
+| 164 | image-placeholder | 占位图片生成器 | 图片处理 | todo | - | - |
+| 165 | round-image | 生成透明圆角图片 | 图片处理 | todo | - | - |
+| 166 | nine-grid | 朋友圈九宫格生成 | 图片处理 | todo | - | - |
+| 167 | qrcode | 二维码生成器 | 图片处理 | todo | - | - |
+| 168 | qrcode-decode | 二维码解码器 | 图片处理 | todo | - | - |
