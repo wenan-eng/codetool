@@ -59,5 +59,45 @@
 ### Phase 全部完成 50/50 — 2026-08-20
 - 已 playwright 验证原站 50 项，本地 135 用例全过，build 177页 SSG，自定义广告已隐藏，保留 Google ca-pub-4188363142718866 自动广告
 - 2026-08-20 新增编程开发分类页 app/[locale]/code/page.tsx，Header 已恢复编程开发可点
-- 下一步：批量 playwright 抽验 10+ 工具线上回归 → 标记 deployed → 归档
+
+## 批次2：编码转换 34 项（来源 https://www.lanren-tools.com/encode/ playwright 已验证）
+> 图标规律 logo-{id}.svg 已 curl 验证；4 个无专属图标按同族分配：base64-encode→logo-base64-bulk、url-encode→logo-url-hex-encode、utf-8→logo-html-entity、js-obfuscator→logo-js-obfuscator-advanced
+> 文件类工具一律 FileReader/canvas 本地处理，0 服务器上传
+
+| # | id | 名称 | 分组 | 状态 | commit | 验证 |
+|---|----|------|------|------|--------|------|
+| 51 | url-encode | URL编码/解码 | 编码转换 | todo | - | - |
+| 52 | escape | Escape编码/解码 | 编码转换 | todo | - | - |
+| 53 | utf-8 | UTF-8编码/解码 | 编码转换 | todo | - | - |
+| 54 | html-entity | HTML实体编码/解码 | 编码转换 | todo | - | - |
+| 55 | morse | 摩斯密码编码/解码 | 编码转换 | todo | - | - |
+| 56 | text-hex | 文本与十六进制互转 | 编码转换 | todo | - | - |
+| 57 | text-octal | 文本与八进制互转 | 编码转换 | todo | - | - |
+| 58 | text-bin | 文本与二进制互转 | 编码转换 | todo | - | - |
+| 59 | base32-encode | Base32编码/解码 | 编码转换 | todo | - | - |
+| 60 | base64-encode | Base64编码/解码 | 编码转换 | todo | - | - |
+| 61 | base64-bulk | Base64批量编码/解码 | 编码转换 | todo | - | - |
+| 62 | jwt-decoder | JWT解码查看器 | 编码转换 | todo | - | - |
+| 63 | random-pwd | 随机密码生成器 | 编码转换 | todo | - | - |
+| 64 | entropy-calculator | 密码熵值计算器 | 编码转换 | todo | - | - |
+| 65 | gzip | Gzip编码/解码 | 编码转换 | todo | - | - |
+| 66 | md5 | MD5安全加密 | 编码转换 | todo | - | - |
+| 67 | md5-batch | 批量MD5加密 | 编码转换 | todo | - | - |
+| 68 | sha | SHA系列哈希值生成 | 编码转换 | todo | - | - |
+| 69 | mysql-password | MySQL密码哈希生成 | 编码转换 | todo | - | - |
+| 70 | htpasswd | Htpasswd密码生成器 | 编码转换 | todo | - | - |
+| 71 | md4 | MD4安全加密 | 编码转换 | todo | - | - |
+| 72 | aes-encrypt | AES加密/解密 | 编码转换 | todo | - | - |
+| 73 | des-encrypt | DES加密/解密 | 编码转换 | todo | - | - |
+| 74 | url-hex-encode | URL16进制编码解码 | 编码转换 | todo | - | - |
+| 75 | base64-file | Base64转文件 | 编码转换 | todo | - | - |
+| 76 | file-base64 | 文件转Base64 | 编码转换 | todo | - | - |
+| 77 | base64-image | Base64转图片 | 编码转换 | todo | - | - |
+| 78 | image-base64 | 图片转Base64 | 编码转换 | todo | - | - |
+| 79 | lsb-extract | LSB图片隐写提取 | 编码转换 | todo | - | - |
+| 80 | lsb-embed | LSB图片隐写 | 编码转换 | todo | - | - |
+| 81 | md5-verify | 文件MD5哈希值校验 | 编码转换 | todo | - | - |
+| 82 | md5-batch-verify | 批量文件MD5校验 | 编码转换 | todo | - | - |
+| 83 | js-obfuscator | JS混淆加密 | 编码转换 | todo | - | - |
+| 84 | js-obfuscator-advanced | 专业JS代码混淆加密 | 编码转换 | todo | - | - |
 
