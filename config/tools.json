@@ -11475,5 +11475,407 @@
       "image-size-revise",
       "png2jpg"
     ]
+  },
+  {
+    "id": "image-jpg",
+    "title": "图片转JPG格式工具",
+    "h1": "图片转JPG格式工具",
+    "description": "图片转JPG格式在线工具，上传即转无需安装软件，有损压缩体积小巧，兼容一切设备与平台，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
+    "title_en": "Convert Image to JPG Online",
+    "h1_en": "Convert Image to JPG Online",
+    "description_en": "Convert any image to JPG right in your browser — no install needed, 有损压缩体积小巧，兼容一切设备与平台. Fully local, images never leave your device.",
+    "title_es": "Convertir Imagen a JPG en Línea",
+    "h1_es": "Convertir Imagen a JPG en Línea",
+    "description_es": "Convierta cualquier imagen a JPG en su navegador sin instalar nada, todo local.",
+    "tags": [
+      "JPG转换",
+      "图片格式",
+      "格式转换",
+      "本地处理"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-jpg.svg",
+    "faqs": [
+      {
+        "q": "转换会损失画质吗？",
+        "a": "JPG 为有损压缩，默认质量 92% 下肉眼几乎无差异；本工具不做额外缩放。"
+      },
+      {
+        "q": "文件大小会变化吗？",
+        "a": "取决于目标格式的压缩特性：转 JPG/WebP 通常更小，转 BMP 因无压缩会显著变大。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，解码、编码与下载全程在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Will conversion lose quality?",
+        "a": "JPEG is lossy but at default quality 92% the difference is invisible; no extra scaling is applied."
+      },
+      {
+        "q": "Will the file size change?",
+        "a": "It depends on the target codec: JPG/WebP usually shrink files while uncompressed BMP grows significantly."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, decoding, encoding and download all run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Pierde calidad la conversión?",
+        "a": "JPEG tiene pérdida pero al 92% la diferencia es invisible; sin escalado adicional."
+      },
+      {
+        "q": "¿Cambia el tamaño del archivo?",
+        "a": "Depende del códec destino: JPG/WebP suelen reducirlo; BMP sin compresión crece bastante."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, decodificación, codificación y descarga ocurren localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-png",
+      "image-jpg",
+      "image-compressor"
+    ]
+  },
+  {
+    "id": "image-png",
+    "title": "图片转PNG格式工具",
+    "h1": "图片转PNG格式工具",
+    "description": "图片转PNG格式在线工具，上传即转无需安装软件，无损压缩支持透明通道，截图与图标首选，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
+    "title_en": "Convert Image to PNG Online",
+    "h1_en": "Convert Image to PNG Online",
+    "description_en": "Convert any image to PNG right in your browser — no install needed, 无损压缩支持透明通道，截图与图标首选. Fully local, images never leave your device.",
+    "title_es": "Convertir Imagen a PNG en Línea",
+    "h1_es": "Convertir Imagen a PNG en Línea",
+    "description_es": "Convierta cualquier imagen a PNG en su navegador sin instalar nada, todo local.",
+    "tags": [
+      "PNG转换",
+      "图片格式",
+      "格式转换",
+      "本地处理"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-png.svg",
+    "faqs": [
+      {
+        "q": "转换会损失画质吗？",
+        "a": "PNG 格式为无损编码，画质与原图完全一致；本工具不做额外缩放。"
+      },
+      {
+        "q": "文件大小会变化吗？",
+        "a": "取决于目标格式的压缩特性：转 JPG/WebP 通常更小，转 BMP 因无压缩会显著变大。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，解码、编码与下载全程在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Will conversion lose quality?",
+        "a": "PNG is lossless so output matches the source exactly; no extra scaling is applied."
+      },
+      {
+        "q": "Will the file size change?",
+        "a": "It depends on the target codec: JPG/WebP usually shrink files while uncompressed BMP grows significantly."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, decoding, encoding and download all run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Pierde calidad la conversión?",
+        "a": "PNG es sin pérdida, idéntico al original; sin escalado adicional."
+      },
+      {
+        "q": "¿Cambia el tamaño del archivo?",
+        "a": "Depende del códec destino: JPG/WebP suelen reducirlo; BMP sin compresión crece bastante."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, decodificación, codificación y descarga ocurren localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-jpg",
+      "image-webp",
+      "png2jpg"
+    ]
+  },
+  {
+    "id": "image-webp",
+    "title": "图片转WebP格式工具",
+    "h1": "图片转WebP格式工具",
+    "description": "图片转WebP格式在线工具，上传即转无需安装软件，现代格式同等画质体积更小，网页加载更快，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
+    "title_en": "Convert Image to WebP Online",
+    "h1_en": "Convert Image to WebP Online",
+    "description_en": "Convert any image to WebP right in your browser — no install needed, 现代格式同等画质体积更小，网页加载更快. Fully local, images never leave your device.",
+    "title_es": "Convertir Imagen a WebP en Línea",
+    "h1_es": "Convertir Imagen a WebP en Línea",
+    "description_es": "Convierta cualquier imagen a WebP en su navegador sin instalar nada, todo local.",
+    "tags": [
+      "WebP转换",
+      "图片格式",
+      "格式转换",
+      "本地处理"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-webp.svg",
+    "faqs": [
+      {
+        "q": "转换会损失画质吗？",
+        "a": "WebP 格式通常为有损但可接近无损；本工具不做额外缩放。"
+      },
+      {
+        "q": "文件大小会变化吗？",
+        "a": "取决于目标格式的压缩特性：转 JPG/WebP 通常更小，转 BMP 因无压缩会显著变大。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，解码、编码与下载全程在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Will conversion lose quality?",
+        "a": "WebP is typically lossy yet near-lossless; no extra scaling is applied."
+      },
+      {
+        "q": "Will the file size change?",
+        "a": "It depends on the target codec: JPG/WebP usually shrink files while uncompressed BMP grows significantly."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, decoding, encoding and download all run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Pierde calidad la conversión?",
+        "a": "WebP es normalmente con leve pérdida; sin escalado adicional."
+      },
+      {
+        "q": "¿Cambia el tamaño del archivo?",
+        "a": "Depende del códec destino: JPG/WebP suelen reducirlo; BMP sin compresión crece bastante."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, decodificación, codificación y descarga ocurren localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-png",
+      "image-jpg",
+      "image-compressor"
+    ]
+  },
+  {
+    "id": "image-bmp",
+    "title": "图片转BMP格式工具",
+    "h1": "图片转BMP格式工具",
+    "description": "图片转BMP格式在线工具，上传即转无需安装软件，无压缩位图原始像素，工业软件与老系统兼容，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
+    "title_en": "Convert Image to BMP Online",
+    "h1_en": "Convert Image to BMP Online",
+    "description_en": "Convert any image to BMP right in your browser — no install needed, 无压缩位图原始像素，工业软件与老系统兼容. Fully local, images never leave your device.",
+    "title_es": "Convertir Imagen a BMP en Línea",
+    "h1_es": "Convertir Imagen a BMP en Línea",
+    "description_es": "Convierta cualquier imagen a BMP en su navegador sin instalar nada, todo local.",
+    "tags": [
+      "BMP转换",
+      "图片格式",
+      "格式转换",
+      "本地处理"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-bmp.svg",
+    "faqs": [
+      {
+        "q": "转换会损失画质吗？",
+        "a": "BMP 格式为无损编码，画质与原图完全一致；本工具不做额外缩放。"
+      },
+      {
+        "q": "文件大小会变化吗？",
+        "a": "取决于目标格式的压缩特性：转 JPG/WebP 通常更小，转 BMP 因无压缩会显著变大。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，解码、编码与下载全程在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Will conversion lose quality?",
+        "a": "BMP is lossless so output matches the source exactly; no extra scaling is applied."
+      },
+      {
+        "q": "Will the file size change?",
+        "a": "It depends on the target codec: JPG/WebP usually shrink files while uncompressed BMP grows significantly."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, decoding, encoding and download all run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Pierde calidad la conversión?",
+        "a": "BMP es sin pérdida, idéntico al original; sin escalado adicional."
+      },
+      {
+        "q": "¿Cambia el tamaño del archivo?",
+        "a": "Depende del códec destino: JPG/WebP suelen reducirlo; BMP sin compresión crece bastante."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, decodificación, codificación y descarga ocurren localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-png",
+      "image-jpg",
+      "image-compressor"
+    ]
+  },
+  {
+    "id": "png2jpg",
+    "title": "图片转JPG格式工具",
+    "h1": "图片转JPG格式工具",
+    "description": "图片转JPG格式在线工具，上传即转无需安装软件，透明区域自动填充白底，避免黑底异常，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
+    "title_en": "Convert Image to JPG Online",
+    "h1_en": "Convert Image to JPG Online",
+    "description_en": "Convert any image to JPG right in your browser — no install needed, 透明区域自动填充白底，避免黑底异常. Fully local, images never leave your device.",
+    "title_es": "Convertir Imagen a JPG en Línea",
+    "h1_es": "Convertir Imagen a JPG en Línea",
+    "description_es": "Convierta cualquier imagen a JPG en su navegador sin instalar nada, todo local.",
+    "tags": [
+      "JPG转换",
+      "图片格式",
+      "格式转换",
+      "本地处理"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-png2jpg.svg",
+    "faqs": [
+      {
+        "q": "转换会损失画质吗？",
+        "a": "JPG 为有损压缩，默认质量 92% 下肉眼几乎无差异；本工具不做额外缩放。"
+      },
+      {
+        "q": "文件大小会变化吗？",
+        "a": "取决于目标格式的压缩特性：转 JPG/WebP 通常更小，转 BMP 因无压缩会显著变大。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，解码、编码与下载全程在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Will conversion lose quality?",
+        "a": "JPEG is lossy but at default quality 92% the difference is invisible; no extra scaling is applied."
+      },
+      {
+        "q": "Will the file size change?",
+        "a": "It depends on the target codec: JPG/WebP usually shrink files while uncompressed BMP grows significantly."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, decoding, encoding and download all run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Pierde calidad la conversión?",
+        "a": "JPEG tiene pérdida pero al 92% la diferencia es invisible; sin escalado adicional."
+      },
+      {
+        "q": "¿Cambia el tamaño del archivo?",
+        "a": "Depende del códec destino: JPG/WebP suelen reducirlo; BMP sin compresión crece bastante."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, decodificación, codificación y descarga ocurren localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-png",
+      "image-jpg",
+      "image-compressor"
+    ]
+  },
+  {
+    "id": "webp2jpg",
+    "title": "图片转JPG格式工具",
+    "h1": "图片转JPG格式工具",
+    "description": "图片转JPG格式在线工具，上传即转无需安装软件，新格式转通用格式，老设备也能打开，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
+    "title_en": "Convert Image to JPG Online",
+    "h1_en": "Convert Image to JPG Online",
+    "description_en": "Convert any image to JPG right in your browser — no install needed, 新格式转通用格式，老设备也能打开. Fully local, images never leave your device.",
+    "title_es": "Convertir Imagen a JPG en Línea",
+    "h1_es": "Convertir Imagen a JPG en Línea",
+    "description_es": "Convierta cualquier imagen a JPG en su navegador sin instalar nada, todo local.",
+    "tags": [
+      "JPG转换",
+      "图片格式",
+      "格式转换",
+      "本地处理"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-webp2jpg.svg",
+    "faqs": [
+      {
+        "q": "转换会损失画质吗？",
+        "a": "JPG 为有损压缩，默认质量 92% 下肉眼几乎无差异；本工具不做额外缩放。"
+      },
+      {
+        "q": "文件大小会变化吗？",
+        "a": "取决于目标格式的压缩特性：转 JPG/WebP 通常更小，转 BMP 因无压缩会显著变大。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，解码、编码与下载全程在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Will conversion lose quality?",
+        "a": "JPEG is lossy but at default quality 92% the difference is invisible; no extra scaling is applied."
+      },
+      {
+        "q": "Will the file size change?",
+        "a": "It depends on the target codec: JPG/WebP usually shrink files while uncompressed BMP grows significantly."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, decoding, encoding and download all run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Pierde calidad la conversión?",
+        "a": "JPEG tiene pérdida pero al 92% la diferencia es invisible; sin escalado adicional."
+      },
+      {
+        "q": "¿Cambia el tamaño del archivo?",
+        "a": "Depende del códec destino: JPG/WebP suelen reducirlo; BMP sin compresión crece bastante."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, decodificación, codificación y descarga ocurren localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-png",
+      "image-jpg",
+      "image-compressor"
+    ]
   }
 ]

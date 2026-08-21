@@ -1,0 +1,87 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+        - link "图片处理" [ref=e10] [cursor=pointer]:
+          - /url: /zh/image
+      - generic [ref=e11]:
+        - generic [ref=e12]: 搜索工具
+        - generic [ref=e13]:
+          - link "中文" [ref=e14] [cursor=pointer]:
+            - /url: /zh/image-brightness
+          - link "English" [ref=e15] [cursor=pointer]:
+            - /url: /en/image-brightness
+          - link "Español" [ref=e16] [cursor=pointer]:
+            - /url: /es/image-brightness
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - heading "图片亮度调整" [level=1] [ref=e21]
+        - generic [ref=e22]:
+          - generic [ref=e23]: 图片亮度
+          - generic [ref=e24]: 提亮照片
+          - generic [ref=e25]: 调光
+          - generic [ref=e26]: 图片编辑
+        - paragraph [ref=e27]: 图片亮度调整工具，拖动滑块实时预览提亮或压暗效果，像素级精确处理，完成后一键下载 PNG，适用于照片补救、证件照优化与电商图整理，全程本地处理不上传。
+      - generic [ref=e29] [cursor=pointer]: 🖼️ 点击上传或拖拽图片文件（全程本地处理，不上传）
+      - generic [ref=e30]:
+        - heading "使用说明" [level=2] [ref=e31]
+        - list [ref=e32]:
+          - listitem [ref=e33]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e34]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e35]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e36]: 所有操作本地完成，保障隐私
+      - generic [ref=e37]:
+        - heading "同类推荐" [level=2] [ref=e38]
+        - generic [ref=e39]:
+          - link "图片对比度调整" [ref=e40] [cursor=pointer]:
+            - /url: /zh/image-contrast
+            - generic [ref=e41]: 图片对比度调整
+          - link "色彩饱和度调整" [ref=e42] [cursor=pointer]:
+            - /url: /zh/image-saturation
+            - generic [ref=e43]: 色彩饱和度调整
+          - link "image-compressor" [ref=e44] [cursor=pointer]:
+            - /url: /zh/image-compressor
+            - generic [ref=e45]: image-compressor
+      - generic [ref=e46]:
+        - heading "常见问题" [level=2] [ref=e47]
+        - group [ref=e48]:
+          - generic "支持哪些格式？" [ref=e49] [cursor=pointer]
+        - group [ref=e50]:
+          - generic "会压缩画质吗？" [ref=e51] [cursor=pointer]
+        - group [ref=e52]:
+          - generic "图片会被上传吗？" [ref=e53] [cursor=pointer]
+  - contentinfo [ref=e54]:
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - heading "热门推荐" [level=4] [ref=e57]
+        - link "JSON" [ref=e58] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e59]:
+        - heading "站长工具" [level=4] [ref=e60]
+        - link "IP" [ref=e61] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e62]:
+        - heading "关于" [level=4] [ref=e63]
+        - link "关于我们" [ref=e64] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e65] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e66]:
+        - heading "合规" [level=4] [ref=e67]
+        - link "服务条款" [ref=e68] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e69] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e70]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e71]
