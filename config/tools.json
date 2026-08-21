@@ -7455,5 +7455,474 @@
       "line-text",
       "word-count"
     ]
+  },
+  {
+    "id": "mobile-extractor",
+    "title": "在线手机号码去重提取工具",
+    "h1": "在线手机号码去重提取工具",
+    "description": "在线手机号码去重提取工具，智能识别文本中的全部 11 位手机号（不含座机与国际号码），自动去重并支持下载 TXT 与一键复制，适用于客户名单整理、订单信息清洗与营销数据准备，全部本地处理。",
+    "title_en": "Mobile Number Extractor & Deduper",
+    "h1_en": "Mobile Number Extractor & Deduper",
+    "description_en": "Smartly detect and dedupe all 11-digit mobile numbers in any text (landlines and international excluded), with TXT download and one-click copy — great for contact list cleanup, fully local.",
+    "title_es": "Extractor de Números Móviles",
+    "h1_es": "Extractor de Números Móviles",
+    "description_es": "Detecte y deduplica inteligentemente todos los móviles de 11 dígitos en cualquier texto, con descarga TXT y copia rápida, todo local.",
+    "tags": [
+      "手机号提取",
+      "去重",
+      "号码采集",
+      "文本提取"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-mobile-extractor.svg",
+    "faqs": [
+      {
+        "q": "会误提取座机或其他数字吗？",
+        "a": "仅匹配以 1 开头第二位为 3-9 的 11 位连续数字，且前后不能是其他数字，座机、订单号等不会误报。"
+      },
+      {
+        "q": "提取结果按什么顺序？",
+        "a": "按在文本中首次出现的顺序输出，重复号码只保留第一次。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有提取均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Could landlines or other numbers be matched?",
+        "a": "Only 11-digit numbers starting with 1 and second digit 3-9, not adjacent to other digits; landlines and order IDs are ignored."
+      },
+      {
+        "q": "What order are results in?",
+        "a": "In order of first appearance, duplicates keep only the first occurrence."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all extraction runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Puede confundir fijos u otros números?",
+        "a": "Solo coinciden 11 dígitos que empiezan por 1 con segundo dígito 3-9 y sin dígitos adyacentes; fijos y pedidos se ignoran."
+      },
+      {
+        "q": "¿En qué orden están los resultados?",
+        "a": "Por orden de primera aparición; los duplicados conservan solo la primera."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la extracción se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "email-extractor",
+      "url-extractor",
+      "text-extract"
+    ]
+  },
+  {
+    "id": "email-extractor",
+    "title": "在线文本邮箱提取器",
+    "h1": "在线文本邮箱提取器",
+    "description": "在线文本邮箱提取器，自动识别文本中的全部邮箱地址并智能去重、统一小写，一键复制或下载 TXT，适用于客户邮箱整理、邮件列表清洗与数据迁移准备，全部本地处理不上传。",
+    "title_en": "Online Email Extractor",
+    "h1_en": "Online Email Extractor",
+    "description_en": "Auto-detect all email addresses in text with smart dedup and lowercase normalization, one-click copy or TXT download — perfect for mailing list cleanup and data migration, fully local.",
+    "title_es": "Extractor de Correos en Línea",
+    "h1_es": "Extractor de Correos en Línea",
+    "description_es": "Detecte automáticamente todas las direcciones de correo en el texto con deduplicación y normalización a minúsculas, copia rápida o descarga TXT, todo local.",
+    "tags": [
+      "邮箱提取",
+      "邮件列表",
+      "去重",
+      "文本提取"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-email-extractor.svg",
+    "faqs": [
+      {
+        "q": "支持带加号和点的复杂邮箱吗？",
+        "a": "支持，如 user.name+tag@sub.domain.com 这类常见格式均可正确识别。"
+      },
+      {
+        "q": "大小写会统一吗？",
+        "a": "会，结果统一转为小写并去重，避免同一邮箱因大小写差异重复出现。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有提取均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Are complex addresses with plus and dots supported?",
+        "a": "Yes, common formats like user.name+tag@sub.domain.com are correctly recognized."
+      },
+      {
+        "q": "Is casing normalized?",
+        "a": "Yes, results are lowercased and deduped so the same address never appears twice due to case differences."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all extraction runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Admite correos complejos con + y puntos?",
+        "a": "Sí, formatos como user.name+tag@sub.domain.com se reconocen correctamente."
+      },
+      {
+        "q": "¿Se normalizan las mayúsculas?",
+        "a": "Sí, los resultados se convierten a minúsculas y se deduplican."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la extracción se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "mobile-extractor",
+      "url-extractor",
+      "text-extract"
+    ]
+  },
+  {
+    "id": "url-extractor",
+    "title": "通用文本URL去重提取工具",
+    "h1": "通用文本URL去重提取工具",
+    "description": "通用文本URL去重提取工具，从文章、日志、HTML 等任意文本中提取 http/https 链接与 www 网址，自动补全协议并去重，支持下载 TXT 与一键复制，适用于链接盘点与 SEO 分析，全部本地处理。",
+    "title_en": "Universal URL Extractor & Deduper",
+    "h1_en": "Universal URL Extractor & Deduper",
+    "description_en": "Extract http/https links and www addresses from articles, logs, HTML or any text, auto-completing protocol and deduping — great for link inventory and SEO analysis, fully local.",
+    "title_es": "Extractor Universal de URLs",
+    "h1_es": "Extractor Universal de URLs",
+    "description_es": "Extraiga enlaces http/https y direcciones www de artículos, registros, HTML o cualquier texto, completando el protocolo y deduplicando, todo local.",
+    "tags": [
+      "URL提取",
+      "链接提取",
+      "去重",
+      "SEO"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-url-extractor.svg",
+    "faqs": [
+      {
+        "q": "www 开头的网址能提取吗？",
+        "a": "能，www.b.com 会自动补全为 https://www.b.com 输出，方便直接访问或入库。"
+      },
+      {
+        "q": "中文标点会截断 URL 吗？",
+        "a": "会智能截断：URL 后紧跟的中文标点、右括号等不会被包含在结果里。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有提取均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Are www-prefixed addresses extracted?",
+        "a": "Yes, www.b.com is auto-completed to https://www.b.com for direct use."
+      },
+      {
+        "q": "Do Chinese punctuation marks truncate URLs?",
+        "a": "Smartly yes: trailing Chinese punctuation and closing brackets are excluded from results."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all extraction runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se extraen direcciones que empiezan por www?",
+        "a": "Sí, www.b.com se completa automáticamente a https://www.b.com."
+      },
+      {
+        "q": "¿Los signos chinos cortan las URLs?",
+        "a": "Inteligentemente sí: la puntuación china final y los corchetes de cierre quedan fuera del resultado."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la extracción se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "net-parser",
+      "email-extractor",
+      "text-extract"
+    ]
+  },
+  {
+    "id": "idcard-date",
+    "title": "在线身份证号提取生日工具",
+    "h1": "在线身份证号提取生日工具",
+    "description": "在线身份证号提取生日工具，支持 15 位与 18 位身份证号混排输入，自动识别并批量提取出生日期（格式化为 YYYY-MM-DD），一键复制或导出表格，适用于客户资料整理与会员数据分析，全部本地处理。",
+    "title_en": "ID Number Birthday Extractor",
+    "h1_en": "ID Number Birthday Extractor",
+    "description_en": "Support mixed 15/18-digit ID numbers, auto-detect and batch extract birth dates formatted as YYYY-MM-DD, with copy and table export — great for customer data cleanup, fully local.",
+    "title_es": "Extractor de Cumpleaños de DNI",
+    "h1_es": "Extractor de Cumpleaños de DNI",
+    "description_es": "Admite DNI mezclados de 15 y 18 dígitos, detecta y extrae fechas de nacimiento en lote con formato YYYY-MM-DD, con copia y exportación, todo local.",
+    "tags": [
+      "身份证生日",
+      "生日提取",
+      "15位18位",
+      "批量提取"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-idcard-date.svg",
+    "faqs": [
+      {
+        "q": "15 位和 18 位都支持吗？",
+        "a": "都支持：18 位取第 7-14 位，15 位取第 7-12 位并自动补 19 年代前缀。"
+      },
+      {
+        "q": "无效号码会怎样？",
+        "a": "日期段格式非法的号码会被跳过，只输出生日可正常解析的记录。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析均在浏览器本地完成，身份证号不经过网络。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Are both 15 and 18 digit IDs supported?",
+        "a": "Yes: 18-digit uses positions 7-14; 15-digit uses 7-12 with an automatic 19-century prefix."
+      },
+      {
+        "q": "What happens to invalid numbers?",
+        "a": "Numbers with malformed date segments are skipped; only parseable birthdays are output."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing runs locally; ID numbers never touch the network."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Admite DNI de 15 y 18 dígitos?",
+        "a": "Sí: los de 18 usan posiciones 7-14; los de 15 usan 7-12 con prefijo 19 automático."
+      },
+      {
+        "q": "¿Qué pasa con números inválidos?",
+        "a": "Los segmentos de fecha malformados se omiten; solo se generan cumpleaños analizables."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el análisis se ejecuta localmente; los números nunca pasan por la red."
+      }
+    ],
+    "related": [
+      "idcard-extract",
+      "mobile-extractor",
+      "word-count"
+    ]
+  },
+  {
+    "id": "idcard-extract",
+    "title": "身份证号批量提取生日/性别/年龄",
+    "h1": "身份证号批量提取生日/性别/年龄",
+    "description": "身份证号批量信息提取工具，每行一个或混排输入，表格化输出生日、性别、年龄及校验位有效性验证（GB 11643-1999 加权算法），支持导出 CSV 与一键复制，全部本地计算不上传。",
+    "title_en": "Batch ID Info Extractor: Birthday/Gender/Age",
+    "h1_en": "Batch ID Info Extractor: Birthday/Gender/Age",
+    "description_en": "Enter ID numbers per line or inline; get birthday, gender, age and checksum validity (GB 11643-1999 weighted algorithm) in a table, with CSV export and copy — fully local.",
+    "title_es": "Extractor de Información de DNI en Lote",
+    "h1_es": "Extractor de Información de DNI en Lote",
+    "description_es": "Introduzca números de DNI por línea o en línea; obtenga cumpleaños, género, edad y validez del dígito de control (algoritmo GB 11643-1999) en tabla, con exportación CSV, todo local.",
+    "tags": [
+      "身份证解析",
+      "性别年龄",
+      "校验位",
+      "批量提取"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-idcard-extract.svg",
+    "faqs": [
+      {
+        "q": "性别是怎么判断的？",
+        "a": "18 位取第 17 位、15 位取第 15 位：奇数为男、偶数为女，符合国家标准规则。"
+      },
+      {
+        "q": "校验位验证是什么？",
+        "a": "按国标 GB 11643-1999 的加权因子算法复核第 18 位校验码，可发现录入错误的号码。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How is gender determined?",
+        "a": "Position 17 of 18-digit (or 15 of 15-digit): odd is male, even is female, per the national standard."
+      },
+      {
+        "q": "What is checksum validation?",
+        "a": "It re-computes the 18th check code using GB 11643-1999 weighted factors, catching mistyped numbers."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo se determina el género?",
+        "a": "Posición 17 de 18 dígitos (o 15 de 15): impar es hombre, par es mujer, según la norma nacional."
+      },
+      {
+        "q": "¿Qué es la validación del dígito de control?",
+        "a": "Recalcula el código de control 18 usando los factores ponderados GB 11643-1999, detectando errores de tecleo."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el análisis se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "idcard-date",
+      "mobile-extractor",
+      "md5-batch-verify"
+    ]
+  },
+  {
+    "id": "net-parser",
+    "title": "URL地址在线解析工具",
+    "h1": "URL地址在线解析工具",
+    "description": "URL地址在线解析工具，输入任意网址即时拆解协议、域名、端口、路径、查询串、锚点与 Origin，查询参数逐项键值展示，无协议自动补全 https，是接口调试与链接分析的好帮手，全部本地处理。",
+    "title_en": "Online URL Parser",
+    "h1_en": "Online URL Parser",
+    "description_en": "Instantly break any URL into protocol, hostname, port, path, query string, hash and Origin, listing query params key by value; auto-adds https when missing — great for API debugging, fully local.",
+    "title_es": "Analizador de URLs en Línea",
+    "h1_es": "Analizador de URLs en Línea",
+    "description_es": "Descomponga al instante cualquier URL en protocolo, host, puerto, ruta, cadena de consulta, ancla y Origin, mostrando los parámetros clave a valor; añade https si falta, todo local.",
+    "tags": [
+      "URL解析",
+      "查询参数",
+      "域名端口",
+      "接口调试"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-url-extractor.svg",
+    "faqs": [
+      {
+        "q": "不带协议的网址能解析吗？",
+        "a": "能，example.com/path 会自动按 https 补全后解析；如需 ftp 等特殊协议请显式写出。"
+      },
+      {
+        "q": "中文参数值会乱码吗？",
+        "a": "不会，解析遵循标准 percent-decoding，中文参数值正常显示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Can it parse URLs without a protocol?",
+        "a": "Yes, example.com/path is auto-completed with https before parsing; write explicit schemes like ftp when needed."
+      },
+      {
+        "q": "Will Chinese parameter values garble?",
+        "a": "No, parsing follows standard percent-decoding so Chinese values display correctly."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Puede analizar URLs sin protocolo?",
+        "a": "Sí, example.com/path se completa con https antes de analizar; escriba esquemas explícitos como ftp si hace falta."
+      },
+      {
+        "q": "¿Los valores chinos se ven mal?",
+        "a": "No, el análisis sigue el percent-decoding estándar y los valores chinos se muestran correctamente."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el análisis se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "url-extractor",
+      "jwt-decoder",
+      "letter-converter"
+    ]
+  },
+  {
+    "id": "text-extract",
+    "title": "在线文本信息提取器",
+    "h1": "在线文本信息提取器",
+    "description": "在线文本信息提取器，六种模式一键切换：电话号码、邮箱地址、URL链接、数字、中文词语、英文单词，智能去重逐行输出，适用于数据清洗、语料分析与内容盘点，全部本地处理不上传。",
+    "title_en": "Online Text Info Extractor",
+    "h1_en": "Online Text Info Extractor",
+    "description_en": "Six switchable modes: phone numbers, emails, URLs, numbers, Chinese phrases and English words, smartly deduped line by line — great for data cleansing and corpus analysis, fully local.",
+    "title_es": "Extractor de Información de Texto",
+    "h1_es": "Extractor de Información de Texto",
+    "description_es": "Seis modos conmutables: teléfonos, correos, URLs, números, frases chinas y palabras inglesas, deduplicados línea a línea, ideal para limpieza de datos, todo local.",
+    "tags": [
+      "文本提取",
+      "信息提取",
+      "数据清洗",
+      "语料分析"
+    ],
+    "category": "文本处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-text-extract.svg",
+    "faqs": [
+      {
+        "q": "六种提取模式分别适合什么场景？",
+        "a": "电话/邮箱/URL 用于联系方式盘点；数字适合价格与编号采集；中文词语和英文单词常用于词频统计前的语料预处理。"
+      },
+      {
+        "q": "结果是去重的吗？",
+        "a": "是，所有模式均按首次出现顺序去重输出。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有提取均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What are the six modes for?",
+        "a": "Phone/email/URL for contact inventory; numbers for prices and IDs; Chinese phrases and English words for corpus preprocessing before frequency analysis."
+      },
+      {
+        "q": "Are results deduplicated?",
+        "a": "Yes, every mode outputs unique values in order of first appearance."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all extraction runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Para qué sirven los seis modos?",
+        "a": "Teléfono/correo/URL para inventario de contactos; números para precios e identificadores; frases chinas y palabras inglesas para preprocesar corpus."
+      },
+      {
+        "q": "¿Los resultados están deduplicados?",
+        "a": "Sí, todos los modos generan valores únicos por orden de primera aparición."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la extracción se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "mobile-extractor",
+      "email-extractor",
+      "word-count"
+    ]
   }
 ]

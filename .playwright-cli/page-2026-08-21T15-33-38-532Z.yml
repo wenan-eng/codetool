@@ -1,0 +1,409 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "身份证号批量提取生日/性别/年龄" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "年龄计算" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=年龄计算
+          - img [ref=e126]
+          - text: 年龄计算
+        - link "身份证星座" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=身份证星座
+          - img [ref=e130]
+          - text: 身份证星座
+        - link "校验码验证" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=校验码验证
+          - img [ref=e134]
+          - text: 校验码验证
+        - link "身份证生肖" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=身份证生肖
+          - img [ref=e138]
+          - text: 身份证生肖
+        - link "证件性别提取" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=证件性别提取
+          - img [ref=e142]
+          - text: 证件性别提取
+        - link "提取生日" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=提取生日
+          - img [ref=e146]
+          - text: 提取生日
+    - paragraph [ref=e149]: 使用我们的「身份证信息提取工具」支持出生日期、性别、年龄、地址码、生肖、星座、校验码验证、精确年龄及证件类型等信息提取，智能识别15位与18位号码格式。适合人事档案管理、数据清洗整理、实名认证核验等场景。
+    - main [ref=e150]:
+      - generic [ref=e151]:
+        - button "提取生日" [ref=e153] [cursor=pointer]:
+          - generic [ref=e154]: 提取生日
+          - img [ref=e155]
+        - textbox "请输入要提取的身份证号码，每行一个..." [ref=e157]
+      - generic [ref=e158]:
+        - button "数据提取" [ref=e159] [cursor=pointer]:
+          - img [ref=e160]
+          - text: 数据提取
+        - button "查看示例" [ref=e164] [cursor=pointer]:
+          - img [ref=e165]
+          - text: 查看示例
+        - button "下载EXCEL" [ref=e167] [cursor=pointer]:
+          - img [ref=e168]
+          - text: 下载EXCEL
+        - button "复制结果" [ref=e172] [cursor=pointer]:
+          - img [ref=e173]
+          - text: 复制结果
+        - button "清空数据" [ref=e175] [cursor=pointer]:
+          - img [ref=e176]
+          - text: 清空数据
+    - region "工具使用帮助与相关信息" [ref=e178]:
+      - generic [ref=e179]:
+        - heading "使用说明" [level=2] [ref=e180]:
+          - img [ref=e181]
+          - text: 使用说明
+        - paragraph [ref=e183]:
+          - text: ⚙️
+          - strong [ref=e184]: 数据提取
+        - paragraph [ref=e185]: 在输入框中粘贴身份证号码，并选择所需提取的信息类型（提取生日、提取性别、提取年龄、提取地址码、提取生肖、提取星座、提取校验码验证、提取年龄精确到天、提取证件类型）系统将智能识别目标信息，并以规整的表格形式清晰展示提取结果，同时自动过滤无效或格式错误的身份证号码。
+        - paragraph [ref=e186]:
+          - text: 📄
+          - strong [ref=e187]: 查看示例
+        - paragraph [ref=e188]: 点击 "查看示例" 按钮，可一键加载平台内置的标准测试身份证号码，涵盖不同地区、不同年份、不同性别及各类校验情况的完整样例，包含15位与18位两类身份证号码格式，并混杂干扰数字与无效编码模拟真实场景，无需手动录入内容，即可快速实测每一种提取功能的匹配精准度、抗干扰能力与实际使用效果。
+        - paragraph [ref=e189]:
+          - text: 📋
+          - strong [ref=e190]: 复制结果
+        - paragraph [ref=e191]: 提取任务完成后，下方输出框会自动展示规整好的全部提取结果，点击 "复制结果" 按钮即可一键把所有提取内容存入剪贴板，无需手动框选、换行整理，适配办公归档、表格录入、台账整理等场景，复制后可直接粘贴复用，高效省去人工排版整理的繁琐步骤。
+        - paragraph [ref=e192]:
+          - text: ⬇️
+          - strong [ref=e193]: 下载Excel
+        - paragraph [ref=e194]:
+          - text: 提取任务完成后，点击 "下载Excel" 按钮，即可将当前所有提取结果一键导出为标准的
+          - code [ref=e195]: .xlsx
+          - text: 格式文件，系统自动保留表头与数据行列结构，字段清晰、格式规整，无需二次排版即可直接用于数据存档、台账管理或业务系统导入，满足批量数据处理与归档需求，大幅提升数据整理与流转效率。
+        - paragraph [ref=e196]:
+          - text: 🗑️
+          - strong [ref=e197]: 清空数据
+        - paragraph [ref=e198]: 使用完毕后点击 "清空数据" 按钮，可同时清空上方输入文本与下方提取结果，一键恢复工具初始空白状态，无需手动逐行删除，快速切换新的文本内容，彻底清除所有历史留存数据，省去反复清理的麻烦，随时都能无缝进行下一轮提取操作。
+      - generic [ref=e199]:
+        - heading "同类推荐" [level=2] [ref=e200]:
+          - img [ref=e201]
+          - text: 同类推荐
+        - generic [ref=e203]:
+          - article [ref=e204]:
+            - link "身份证号码查询 工具图标 身份证号码查询 一键校验解析，实时查询身份证信息，支持15位与18位双模式，精准识别身份证信息。" [ref=e205] [cursor=pointer]:
+              - /url: /identity/
+              - heading "身份证号码查询 工具图标 身份证号码查询" [level=3] [ref=e206]:
+                - img "身份证号码查询 工具图标" [ref=e207]
+                - generic [ref=e208]: 身份证号码查询
+              - paragraph [ref=e209]: 一键校验解析，实时查询身份证信息，支持15位与18位双模式，精准识别身份证信息。
+          - article [ref=e210]:
+            - link "身份证号提取生日 工具图标 身份证号提取生日 智能解析身份证号中的出生日期，自动提取阳历、农历、星期、生肖与星座信息，实现结构化输出。" [ref=e211] [cursor=pointer]:
+              - /url: /idcard-date/
+              - heading "身份证号提取生日 工具图标 身份证号提取生日" [level=3] [ref=e212]:
+                - img "身份证号提取生日 工具图标" [ref=e213]
+                - generic [ref=e214]: 身份证号提取生日
+              - paragraph [ref=e215]: 智能解析身份证号中的出生日期，自动提取阳历、农历、星期、生肖与星座信息，实现结构化输出。
+          - article [ref=e216]:
+            - link "手机号去重提取 工具图标 手机号去重提取 智能提取文本中所有的手机号码，自动屏蔽座机号码与国际号码，实现格式化输出。" [ref=e217] [cursor=pointer]:
+              - /url: /mobile-extractor/
+              - heading "手机号去重提取 工具图标 手机号去重提取" [level=3] [ref=e218]:
+                - img "手机号去重提取 工具图标" [ref=e219]
+                - generic [ref=e220]: 手机号去重提取
+              - paragraph [ref=e221]: 智能提取文本中所有的手机号码，自动屏蔽座机号码与国际号码，实现格式化输出。
+          - article [ref=e222]:
+            - link "文本邮箱提取器 工具图标 文本邮箱提取器 邮箱提取工具，一键智能提取文本中所有邮箱地址，自动完成去重与格式化输出，高效便捷。" [ref=e223] [cursor=pointer]:
+              - /url: /email-extractor/
+              - heading "文本邮箱提取器 工具图标 文本邮箱提取器" [level=3] [ref=e224]:
+                - img "文本邮箱提取器 工具图标" [ref=e225]
+                - generic [ref=e226]: 文本邮箱提取器
+              - paragraph [ref=e227]: 邮箱提取工具，一键智能提取文本中所有邮箱地址，自动完成去重与格式化输出，高效便捷。
+          - article [ref=e228]:
+            - link "证件照尺寸修改 工具图标 证件照尺寸修改 实现照片的快速裁剪与标准化处理，一键将普通照片转换为符合标准尺寸的证件照。" [ref=e229] [cursor=pointer]:
+              - /url: /id-crop/
+              - heading "证件照尺寸修改 工具图标 证件照尺寸修改" [level=3] [ref=e230]:
+                - img "证件照尺寸修改 工具图标" [ref=e231]
+                - generic [ref=e232]: 证件照尺寸修改
+              - paragraph [ref=e233]: 实现照片的快速裁剪与标准化处理，一键将普通照片转换为符合标准尺寸的证件照。
+          - article [ref=e234]:
+            - link "身份证正反面合并 工具图标 身份证正反面合并 支持上传身份证正反面照片，一键合并生成标准A4排版效果。支持分别调节缩放、旋转、亮度，拖拽自由调整位置。" [ref=e235] [cursor=pointer]:
+              - /url: /idcard-merge/
+              - heading "身份证正反面合并 工具图标 身份证正反面合并" [level=3] [ref=e236]:
+                - img "身份证正反面合并 工具图标" [ref=e237]
+                - generic [ref=e238]: 身份证正反面合并
+              - paragraph [ref=e239]: 支持上传身份证正反面照片，一键合并生成标准A4排版效果。支持分别调节缩放、旋转、亮度，拖拽自由调整位置。
+          - article [ref=e240]:
+            - link "文本信息提取器 工具图标 文本信息提取器 支持多类型文本智能提取、自动去重分行规整，适配手机号座机、链接邮箱、快递证件编码等场景。" [ref=e241] [cursor=pointer]:
+              - /url: /text-extract/
+              - heading "文本信息提取器 工具图标 文本信息提取器" [level=3] [ref=e242]:
+                - img "文本信息提取器 工具图标" [ref=e243]
+                - generic [ref=e244]: 文本信息提取器
+              - paragraph [ref=e245]: 支持多类型文本智能提取、自动去重分行规整，适配手机号座机、链接邮箱、快递证件编码等场景。
+          - article [ref=e246]:
+            - link "图片添加水印 工具图标 图片添加水印 一键添加水印，实时预览效果，支持自定义文字、颜色、大小与透明度，快速生成安全美观的水印图片。" [ref=e247] [cursor=pointer]:
+              - /url: /watermark/
+              - heading "图片添加水印 工具图标 图片添加水印" [level=3] [ref=e248]:
+                - img "图片添加水印 工具图标" [ref=e249]
+                - generic [ref=e250]: 图片添加水印
+              - paragraph [ref=e251]: 一键添加水印，实时预览效果，支持自定义文字、颜色、大小与透明度，快速生成安全美观的水印图片。
+          - article [ref=e252]:
+            - link "报名证件照处理 工具图标 报名证件照处理 一键生成标准证件照，预置一寸二寸等规格，支持自定义尺寸与实时预览，快速下载，提升效率。" [ref=e253] [cursor=pointer]:
+              - /url: /id-photo/
+              - heading "报名证件照处理 工具图标 报名证件照处理" [level=3] [ref=e254]:
+                - img "报名证件照处理 工具图标" [ref=e255]
+                - generic [ref=e256]: 报名证件照处理
+              - paragraph [ref=e257]: 一键生成标准证件照，预置一寸二寸等规格，支持自定义尺寸与实时预览，快速下载，提升效率。
+          - article [ref=e258]:
+            - link "证件照打印排版 工具图标 证件照打印排版 一键生成标准相纸排版效果。支持多种证件照尺寸、相纸规格与方向选择。" [ref=e259] [cursor=pointer]:
+              - /url: /id-photo-layout/
+              - heading "证件照打印排版 工具图标 证件照打印排版" [level=3] [ref=e260]:
+                - img "证件照打印排版 工具图标" [ref=e261]
+                - generic [ref=e262]: 证件照打印排版
+              - paragraph [ref=e263]: 一键生成标准相纸排版效果。支持多种证件照尺寸、相纸规格与方向选择。
+          - article [ref=e264]:
+            - link "通用文本URL提取 工具图标 通用文本URL提取 提取文本全域 URL，智能去重补协议，一键复制下载导出，适配通用网址抓取、链接整理归集。" [ref=e265] [cursor=pointer]:
+              - /url: /url-extractor/
+              - heading "通用文本URL提取 工具图标 通用文本URL提取" [level=3] [ref=e266]:
+                - img "通用文本URL提取 工具图标" [ref=e267]
+                - generic [ref=e268]: 通用文本URL提取
+              - paragraph [ref=e269]: 提取文本全域 URL，智能去重补协议，一键复制下载导出，适配通用网址抓取、链接整理归集。
+          - article [ref=e270]:
+            - link "HTML图片链接提取 工具图标 HTML图片链接提取 HTML图片链接去重提取并分行展示，适用于网页开发、资源整理和批量处理图片链接等场景。" [ref=e271] [cursor=pointer]:
+              - /url: /image-extract/
+              - heading "HTML图片链接提取 工具图标 HTML图片链接提取" [level=3] [ref=e272]:
+                - img "HTML图片链接提取 工具图标" [ref=e273]
+                - generic [ref=e274]: HTML图片链接提取
+              - paragraph [ref=e275]: HTML图片链接去重提取并分行展示，适用于网页开发、资源整理和批量处理图片链接等场景。
+      - generic [ref=e276]:
+        - heading "常见问题" [level=2] [ref=e277]:
+          - img [ref=e278]
+          - text: 常见问题
+        - generic [ref=e282]:
+          - heading "🆔 支持15位和18位两种身份证号码格式吗？" [level=3] [ref=e283]
+          - paragraph [ref=e284]: 完全支持。工具同时兼容第一代15位与第二代18位居民身份证号码格式，系统会自动识别号码长度并采用对应的解析规则。无论输入哪种格式，均可正常提取出生日期、性别、年龄、地区、生肖、星座等全部信息，且15位号码会自动补全年份前缀，确保提取结果准确无误，适配不同历史时期的证件数据整理需求。
+        - generic [ref=e285]:
+          - heading "📅 提取年龄时，是按公历计算还是农历计算？" [level=3] [ref=e286]
+          - paragraph [ref=e287]: 年龄统一按公历周岁计算。系统根据身份证号码中的出生日期与当前系统日期进行差值运算，精准得出周岁年龄。选择"提取年龄（精确到天）"模式时，还会额外显示剩余天数，便于精确统计。生肖提取则采用农历年份规则，星座按公历日期划分，各类提取逻辑均严格遵循通用标准，确保结果合规准确。
+        - generic [ref=e288]:
+          - heading "📍 地址码提取能精确到哪一级行政区划？" [level=3] [ref=e289]
+          - paragraph [ref=e290]: 地址码提取可精确到省级行政区划（省、自治区、直辖市）。系统根据身份证号码前两位数字自动匹配对应的省级地区名称，如"11"对应北京市、"44"对应广东省等。虽无法进一步细化到市、区级，但已覆盖全国所有省级行政单位，满足大多数数据归档、区域统计等场景需求，匹配快速准确，便于批量整理与分析。
+        - generic [ref=e291]:
+          - heading "📋 提取结果可以一键复制吗？支持批量复用吗？" [level=3] [ref=e292]
+          - paragraph [ref=e293]: 提取完成后所有结果规整展示在输出框内，点击"复制结果"按钮即可一键全量复制到剪贴板，无需手动框选逐行拷贝。复制后的内容每行一条格式规整，可直接粘贴到记事本、Excel表格、文档台账中批量归档整理，无需二次排版，操作简单高效，适配日常高频办公提取场景。
+        - generic [ref=e294]:
+          - heading "🔒 数据处理安全吗？会不会上传我的文本内容？" [level=3] [ref=e295]
+          - paragraph [ref=e296]: 绝对安全可靠！所有文本提取处理均在浏览器本地离线完成，全程不依赖后端服务器、无需联网即可正常使用。输入的身份证号码、提取结果全程不会被后台记录、存储或上传，无任何数据泄露风险，即便断网也能照常操作，充分保障您的个人隐私与数据安全。
+      - generic "工具快速切换" [ref=e297]:
+        - list [ref=e299]:
+          - listitem [ref=e300] [cursor=pointer]: 热门推荐
+          - listitem [ref=e301] [cursor=pointer]: 站长工具
+          - listitem [ref=e302] [cursor=pointer]: 编程开发
+          - listitem [ref=e303] [cursor=pointer]: 文本处理
+          - listitem [ref=e304] [cursor=pointer]: 图像处理
+          - listitem [ref=e305] [cursor=pointer]: 文档转换
+          - listitem [ref=e306] [cursor=pointer]: 音频视频
+          - listitem [ref=e307] [cursor=pointer]: 便民工具
+          - listitem [ref=e308] [cursor=pointer]: 编码加密
+          - listitem [ref=e309] [cursor=pointer]: 单位转换
+        - table [ref=e311]:
+          - rowgroup [ref=e312]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e313]:
+              - cell "微信聊天模拟器" [ref=e314]:
+                - link "微信聊天模拟器" [ref=e315] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e316]:
+                - link "微信零钱模拟器" [ref=e317] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e318]:
+                - link "文字转语音工具" [ref=e319] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e320]:
+                - link "法定退休年龄计算器" [ref=e321] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e322]:
+                - link "身份证号码查询" [ref=e323] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e324]:
+                - link "在线随机点名" [ref=e325] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e326]:
+              - cell "报名证件照处理" [ref=e327]:
+                - link "报名证件照处理" [ref=e328] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e329]:
+                - link "随机密码生成器" [ref=e330] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e331]:
+                - link "二维码生成器" [ref=e332] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e333]:
+                - link "世界高清地图" [ref=e334] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e335]:
+                - link "键盘按键检测" [ref=e336] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e337]:
+                - link "手机归属地查询" [ref=e338] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e339]:
+              - cell "在线字数统计" [ref=e340]:
+                - link "在线字数统计" [ref=e341] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e342]:
+                - link "JSON格式化/压缩" [ref=e343] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e344]:
+                - link "Base64编码/解码" [ref=e345] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e346]:
+                - link "图片高清压缩" [ref=e347] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e348]:
+                - link "摩斯密码编码/解码" [ref=e349] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e350]:
+                - link "节日时间倒计时" [ref=e351] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e352]:
+              - cell "本机IP地址查询" [ref=e353]:
+                - link "本机IP地址查询" [ref=e354] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e355]:
+                - link "Unix时间戳转换" [ref=e356] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e357]:
+                - link "图片取色器" [ref=e358] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e359]:
+                - link "色盲色弱测试" [ref=e360] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e361]:
+                - link "SVG在线编辑器" [ref=e362] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e363]:
+                - link "中国高清地图" [ref=e364] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e365]:
+              - cell "查看网页源码" [ref=e366]:
+                - link "查看网页源码" [ref=e367] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e368]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e369]
+        - paragraph [ref=e370]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e371]
+    - generic [ref=e372]:
+      - navigation "页脚链接" [ref=e373]:
+        - link "关于我们" [ref=e374] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e375] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e376] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e377] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e378] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e379] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e380] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e381] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e382] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e383]:
+        - generic [ref=e384]:
+          - text: © 2025
+          - link "懒人工具" [ref=e385] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e387] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e388]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e389] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

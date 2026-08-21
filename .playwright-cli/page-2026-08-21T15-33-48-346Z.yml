@@ -1,0 +1,474 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "URL地址在线解析工具" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "协议识别" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=协议识别
+          - img [ref=e126]
+          - text: 协议识别
+        - link "查询参数" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=查询参数
+          - img [ref=e130]
+          - text: 查询参数
+        - link "路径解析" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=路径解析
+          - img [ref=e134]
+          - text: 路径解析
+        - link "URL解析" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=URL解析
+          - img [ref=e138]
+          - text: URL解析
+        - link "网络地址解析" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=网络地址解析
+          - img [ref=e142]
+          - text: 网络地址解析
+        - link "URL结构分析" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=URL结构分析
+          - img [ref=e146]
+          - text: URL结构分析
+    - paragraph [ref=e149]: 使用我们的「在线URL地址解析器」精准分解protocol、hostname、port、path、query等20余个组件属性，实时可视化结果，全方位满足网络开发、安全测试与数据分析的专业化URL解析需求。
+    - main [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152]: 请输入要解析的URL地址：
+        - generic [ref=e153]:
+          - textbox "https://www.lanren-tools.com/" [ref=e154]: https://www.lanren-tools.com/search?q=netparser
+          - button "URL解析" [ref=e155] [cursor=pointer]:
+            - img [ref=e156]
+            - text: URL解析
+      - separator [ref=e158]
+      - table [ref=e160]:
+        - rowgroup [ref=e161]:
+          - row "协议 （protocol） https" [ref=e162]:
+            - cell "协议 （protocol）" [ref=e163]:
+              - generic [ref=e164]: 协议
+              - text: （protocol）
+            - cell "https" [ref=e165]
+          - row "用户名 （username）" [ref=e166]:
+            - cell "用户名 （username）" [ref=e167]:
+              - generic [ref=e168]: 用户名
+              - text: （username）
+            - cell [ref=e169]
+          - row "密码 （password）" [ref=e170]:
+            - cell "密码 （password）" [ref=e171]:
+              - generic [ref=e172]: 密码
+              - text: （password）
+            - cell [ref=e173]
+          - row "主机名 （hostname） www.lanren-tools.com" [ref=e174]:
+            - cell "主机名 （hostname）" [ref=e175]:
+              - generic [ref=e176]: 主机名
+              - text: （hostname）
+            - cell "www.lanren-tools.com" [ref=e177]
+          - row "端口 （port） 443" [ref=e178]:
+            - cell "端口 （port）" [ref=e179]:
+              - generic [ref=e180]: 端口
+              - text: （port）
+            - cell "443" [ref=e181]
+          - row "完整主机 （full host） www.lanren-tools.com" [ref=e182]:
+            - cell "完整主机 （full host）" [ref=e183]:
+              - generic [ref=e184]: 完整主机
+              - text: （full host）
+            - cell "www.lanren-tools.com" [ref=e185]
+          - row "用户信息 （userinfo）" [ref=e186]:
+            - cell "用户信息 （userinfo）" [ref=e187]:
+              - generic [ref=e188]: 用户信息
+              - text: （userinfo）
+            - cell [ref=e189]
+          - row "认证部分 （authority） www.lanren-tools.com" [ref=e190]:
+            - cell "认证部分 （authority）" [ref=e191]:
+              - generic [ref=e192]: 认证部分
+              - text: （authority）
+            - cell "www.lanren-tools.com" [ref=e193]
+          - row "来源 （origin） https://www.lanren-tools.com" [ref=e194]:
+            - cell "来源 （origin）" [ref=e195]:
+              - generic [ref=e196]: 来源
+              - text: （origin）
+            - cell "https://www.lanren-tools.com" [ref=e197]
+          - row "域名 （domain） lanren-tools.com" [ref=e198]:
+            - cell "域名 （domain）" [ref=e199]:
+              - generic [ref=e200]: 域名
+              - text: （domain）
+            - cell "lanren-tools.com" [ref=e201]
+          - row "子域名 （subdomain） www" [ref=e202]:
+            - cell "子域名 （subdomain）" [ref=e203]:
+              - generic [ref=e204]: 子域名
+              - text: （subdomain）
+            - cell "www" [ref=e205]
+          - row "顶级域 （tld） com" [ref=e206]:
+            - cell "顶级域 （tld）" [ref=e207]:
+              - generic [ref=e208]: 顶级域
+              - text: （tld）
+            - cell "com" [ref=e209]
+          - row "路径名 （pathname） /search" [ref=e210]:
+            - cell "路径名 （pathname）" [ref=e211]:
+              - generic [ref=e212]: 路径名
+              - text: （pathname）
+            - cell "/search" [ref=e213]
+          - row "目录 （directory） /" [ref=e214]:
+            - cell "目录 （directory）" [ref=e215]:
+              - generic [ref=e216]: 目录
+              - text: （directory）
+            - cell / [ref=e217]
+          - row "文件名 （filename） search" [ref=e218]:
+            - cell "文件名 （filename）" [ref=e219]:
+              - generic [ref=e220]: 文件名
+              - text: （filename）
+            - cell "search" [ref=e221]
+          - row "后缀 （suffix）" [ref=e222]:
+            - cell "后缀 （suffix）" [ref=e223]:
+              - generic [ref=e224]: 后缀
+              - text: （suffix）
+            - cell [ref=e225]
+          - row "查询参数 （query） ?q=netparser" [ref=e226]:
+            - cell "查询参数 （query）" [ref=e227]:
+              - generic [ref=e228]: 查询参数
+              - text: （query）
+            - cell "?q=netparser" [ref=e229]
+          - row "哈希 （hash）" [ref=e230]:
+            - cell "哈希 （hash）" [ref=e231]:
+              - generic [ref=e232]: 哈希
+              - text: （hash）
+            - cell [ref=e233]
+          - row "片段 （fragment）" [ref=e234]:
+            - cell "片段 （fragment）" [ref=e235]:
+              - generic [ref=e236]: 片段
+              - text: （fragment）
+            - cell [ref=e237]
+          - row "资源 （resource） /search?q=netparser" [ref=e238]:
+            - cell "资源 （resource）" [ref=e239]:
+              - generic [ref=e240]: 资源
+              - text: （resource）
+            - cell "/search?q=netparser" [ref=e241]
+    - region "工具使用帮助与相关信息" [ref=e242]:
+      - generic [ref=e243]:
+        - heading "同类推荐" [level=2] [ref=e244]:
+          - img [ref=e245]
+          - text: 同类推荐
+        - generic [ref=e247]:
+          - article [ref=e248]:
+            - link "随机IP地址生成器 工具图标 随机IP地址生成器 智能实现随机IP地址在线生成，支持A类/B类/C类/D类IP地址范围定义，指定IP数量生成。" [ref=e249] [cursor=pointer]:
+              - /url: /ip-generator/
+              - heading "随机IP地址生成器 工具图标 随机IP地址生成器" [level=3] [ref=e250]:
+                - img "随机IP地址生成器 工具图标" [ref=e251]
+                - generic [ref=e252]: 随机IP地址生成器
+              - paragraph [ref=e253]: 智能实现随机IP地址在线生成，支持A类/B类/C类/D类IP地址范围定义，指定IP数量生成。
+          - article [ref=e254]:
+            - link "网页在线设备模拟器 工具图标 网页在线设备模拟器 支持输入网址实时预览网页多终端显示，在完整保留交互功能的同时快速检查响应式兼容性。" [ref=e255] [cursor=pointer]:
+              - /url: /device-preview/
+              - heading "网页在线设备模拟器 工具图标 网页在线设备模拟器" [level=3] [ref=e256]:
+                - img "网页在线设备模拟器 工具图标" [ref=e257]
+                - generic [ref=e258]: 网页在线设备模拟器
+              - paragraph [ref=e259]: 支持输入网址实时预览网页多终端显示，在完整保留交互功能的同时快速检查响应式兼容性。
+          - article [ref=e260]:
+            - link "常用USER_AGENT大全 工具图标 常用USER_AGENT大全 智能识别当前浏览器 UA，精准汇总多终端 UA 字符串，自动过滤无效数据，实现一键复制。" [ref=e261] [cursor=pointer]:
+              - /url: /user-agent/
+              - heading "常用USER_AGENT大全 工具图标 常用USER_AGENT大全" [level=3] [ref=e262]:
+                - img "常用USER_AGENT大全 工具图标" [ref=e263]
+                - generic [ref=e264]: 常用USER_AGENT大全
+              - paragraph [ref=e265]: 智能识别当前浏览器 UA，精准汇总多终端 UA 字符串，自动过滤无效数据，实现一键复制。
+          - article [ref=e266]:
+            - link "比例计算器 工具图标 比例计算器 在线比例计算器，支持智能比例换算，实时计算比例关系与缺失值，可自定义调整分子分母，保持比例等式平衡。" [ref=e267] [cursor=pointer]:
+              - /url: /proportion-calculator/
+              - heading "比例计算器 工具图标 比例计算器" [level=3] [ref=e268]:
+                - img "比例计算器 工具图标" [ref=e269]
+                - generic [ref=e270]: 比例计算器
+              - paragraph [ref=e271]: 在线比例计算器，支持智能比例换算，实时计算比例关系与缺失值，可自定义调整分子分母，保持比例等式平衡。
+          - article [ref=e272]:
+            - link "浏览器信息检测 工具图标 浏览器信息检测 浏览器环境信息智能检测，自动输出包含系统 / 浏览器 / 屏幕 / 插件等全维度的完整环境信息列表结果。" [ref=e273] [cursor=pointer]:
+              - /url: /client-info/
+              - heading "浏览器信息检测 工具图标 浏览器信息检测" [level=3] [ref=e274]:
+                - img "浏览器信息检测 工具图标" [ref=e275]
+                - generic [ref=e276]: 浏览器信息检测
+              - paragraph [ref=e277]: 浏览器环境信息智能检测，自动输出包含系统 / 浏览器 / 屏幕 / 插件等全维度的完整环境信息列表结果。
+          - article [ref=e278]:
+            - link "IP地址与INT互转 工具图标 IP地址与INT互转 支持IP地址与32位整数快速互转，自动识别输入格式并智能转换，提供一键复制结果功能。" [ref=e279] [cursor=pointer]:
+              - /url: /ip2int/
+              - heading "IP地址与INT互转 工具图标 IP地址与INT互转" [level=3] [ref=e280]:
+                - img "IP地址与INT互转 工具图标" [ref=e281]
+                - generic [ref=e282]: IP地址与INT互转
+              - paragraph [ref=e283]: 支持IP地址与32位整数快速互转，自动识别输入格式并智能转换，提供一键复制结果功能。
+          - article [ref=e284]:
+            - link "创建网页快捷方式 工具图标 创建网页快捷方式 支持自定义名称与网址输入，快速、准确地生成Windows系统桌面快捷方式文件。" [ref=e285] [cursor=pointer]:
+              - /url: /shortcut/
+              - heading "创建网页快捷方式 工具图标 创建网页快捷方式" [level=3] [ref=e286]:
+                - img "创建网页快捷方式 工具图标" [ref=e287]
+                - generic [ref=e288]: 创建网页快捷方式
+              - paragraph [ref=e289]: 支持自定义名称与网址输入，快速、准确地生成Windows系统桌面快捷方式文件。
+          - article [ref=e290]:
+            - link "网页META标签生成器 工具图标 网页META标签生成器 一键生成标准完整的网页META标签代码，精准配置搜索引擎索引规则，确保网站基础优化准确直观。" [ref=e291] [cursor=pointer]:
+              - /url: /meta-generator/
+              - heading "网页META标签生成器 工具图标 网页META标签生成器" [level=3] [ref=e292]:
+                - img "网页META标签生成器 工具图标" [ref=e293]
+                - generic [ref=e294]: 网页META标签生成器
+              - paragraph [ref=e295]: 一键生成标准完整的网页META标签代码，精准配置搜索引擎索引规则，确保网站基础优化准确直观。
+          - article [ref=e296]:
+            - link "端口扫描器 工具图标 端口扫描器 在线端口扫描，实时检测状态，支持自定义端口选择与目标类型，快速识别网络服务开放情况。" [ref=e297] [cursor=pointer]:
+              - /url: /port-scanner/
+              - heading "端口扫描器 工具图标 端口扫描器" [level=3] [ref=e298]:
+                - img "端口扫描器 工具图标" [ref=e299]
+                - generic [ref=e300]: 端口扫描器
+              - paragraph [ref=e301]: 在线端口扫描，实时检测状态，支持自定义端口选择与目标类型，快速识别网络服务开放情况。
+          - article [ref=e302]:
+            - link "Sitemap链接提取 工具图标 Sitemap链接提取 Sitemap URL智能提取与导出工具，支持XML与文本格式解析，自动过滤系统链接，提供批量去重、一键复制。" [ref=e303] [cursor=pointer]:
+              - /url: /sitemap-extractor/
+              - heading "Sitemap链接提取 工具图标 Sitemap链接提取" [level=3] [ref=e304]:
+                - img "Sitemap链接提取 工具图标" [ref=e305]
+                - generic [ref=e306]: Sitemap链接提取
+              - paragraph [ref=e307]: Sitemap URL智能提取与导出工具，支持XML与文本格式解析，自动过滤系统链接，提供批量去重、一键复制。
+          - article [ref=e308]:
+            - link "查看网页源码 工具图标 查看网页源码 一键网页源码查看，智能解析/统计展示，支持多维度源码分析，全面掌握网站HTML结构。" [ref=e309] [cursor=pointer]:
+              - /url: /view-source/
+              - heading "查看网页源码 工具图标 查看网页源码" [level=3] [ref=e310]:
+                - img "查看网页源码 工具图标" [ref=e311]
+                - generic [ref=e312]: 查看网页源码
+              - paragraph [ref=e313]: 一键网页源码查看，智能解析/统计展示，支持多维度源码分析，全面掌握网站HTML结构。
+          - article [ref=e314]:
+            - link "Robots文件检测 工具图标 Robots文件检测 一键Robots.txt检测，智能解析/安全评估，支持多维度秒级扫描，全面优化网站爬虫管控。" [ref=e315] [cursor=pointer]:
+              - /url: /robots-check/
+              - heading "Robots文件检测 工具图标 Robots文件检测" [level=3] [ref=e316]:
+                - img "Robots文件检测 工具图标" [ref=e317]
+                - generic [ref=e318]: Robots文件检测
+              - paragraph [ref=e319]: 一键Robots.txt检测，智能解析/安全评估，支持多维度秒级扫描，全面优化网站爬虫管控。
+        - generic [ref=e320]:
+          - heading "常见问题" [level=2] [ref=e321]:
+            - img [ref=e322]
+            - text: 常见问题
+          - generic [ref=e326]:
+            - heading "🔗 这个工具支持解析哪些类型的URL地址？" [level=3] [ref=e327]
+            - paragraph [ref=e328]: 本工具能够解析绝大多数常见的URL格式，包括：标准的HTTP和HTTPS网址、FTP文件传输地址、mailto邮件链接、WebSocket连接地址等。无论是简单的网站链接，还是包含用户名密码认证、IPv6地址、特殊字符或国际化域名的复杂URL，都能够准确解析并展示各个组件。
+          - generic [ref=e329]:
+            - heading "⚙️ URL解析能获得哪些具体信息？" [level=3] [ref=e330]
+            - paragraph [ref=e331]: 工具会将URL分解为15个以上的关键组成部分，包括协议类型(protocol)、主机名(hostname)、端口号(port)、完整路径(pathname)、目录结构(directory)、查询参数(query)、子域名(subdomain)、主域名(domain)、顶级域(tld)等。所有结果都会以清晰的表格形式展示，方便查看和复制。
+          - generic [ref=e332]:
+            - heading "🚫 哪些URL可能无法正常解析？" [level=3] [ref=e333]
+            - paragraph [ref=e334]: 出于安全考虑，工具会自动过滤掉javascript、data、vbscript等可能存在风险的协议。另外，本地文件地址（如file://开头的URL）由于浏览器安全限制，某些组件的解析可能会受限。过长的URL（超过浏览器允许的最大长度）也可能无法完全处理。
+          - generic [ref=e335]:
+            - heading "✅ 解析结果的准确性如何保证？" [level=3] [ref=e336]
+            - paragraph [ref=e337]: 我们使用现代浏览器原生的URL解析API，这与Chrome、Firefox、Safari等主流浏览器处理地址栏URL的逻辑完全一致。同时，工具遵循国际通用的URL标准规范，确保解析结果的准确性和一致性，适合专业的开发和调试需求。
+          - generic [ref=e338]:
+            - heading "💡 这个工具相比浏览器地址栏有什么优势？" [level=3] [ref=e339]
+            - paragraph [ref=e340]: 虽然浏览器地址栏会显示完整的URL，但本工具提供了更详细的结构化分解。例如，它能单独提取出子域名、文件扩展名、每个查询参数的键值对等详细信息。这对于网站开发调试、SEO分析、安全检测等专业场景特别有用，能让您更深入地理解URL的构成。
+          - generic [ref=e341]:
+            - heading "🔒 使用过程中URL地址会被上传或泄露吗？" [level=3] [ref=e342]
+            - paragraph [ref=e343]: 所有解析操作均在您的浏览器本地完成，无需连接任何外部服务器。您输入的URL不会离开您的设备，也不会被记录或传输。这种本地处理机制确保了绝对的隐私安全，即使解析敏感或内部URL也无需担心信息泄露。
+      - generic "工具快速切换" [ref=e344]:
+        - list [ref=e346]:
+          - listitem [ref=e347] [cursor=pointer]: 热门推荐
+          - listitem [ref=e348] [cursor=pointer]: 站长工具
+          - listitem [ref=e349] [cursor=pointer]: 编程开发
+          - listitem [ref=e350] [cursor=pointer]: 文本处理
+          - listitem [ref=e351] [cursor=pointer]: 图像处理
+          - listitem [ref=e352] [cursor=pointer]: 文档转换
+          - listitem [ref=e353] [cursor=pointer]: 音频视频
+          - listitem [ref=e354] [cursor=pointer]: 便民工具
+          - listitem [ref=e355] [cursor=pointer]: 编码加密
+          - listitem [ref=e356] [cursor=pointer]: 单位转换
+        - table [ref=e358]:
+          - rowgroup [ref=e359]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e360]:
+              - cell "微信聊天模拟器" [ref=e361]:
+                - link "微信聊天模拟器" [ref=e362] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e363]:
+                - link "微信零钱模拟器" [ref=e364] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e365]:
+                - link "文字转语音工具" [ref=e366] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e367]:
+                - link "法定退休年龄计算器" [ref=e368] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e369]:
+                - link "身份证号码查询" [ref=e370] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e371]:
+                - link "在线随机点名" [ref=e372] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e373]:
+              - cell "报名证件照处理" [ref=e374]:
+                - link "报名证件照处理" [ref=e375] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e376]:
+                - link "随机密码生成器" [ref=e377] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e378]:
+                - link "二维码生成器" [ref=e379] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e380]:
+                - link "世界高清地图" [ref=e381] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e382]:
+                - link "键盘按键检测" [ref=e383] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e384]:
+                - link "手机归属地查询" [ref=e385] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e386]:
+              - cell "在线字数统计" [ref=e387]:
+                - link "在线字数统计" [ref=e388] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e389]:
+                - link "JSON格式化/压缩" [ref=e390] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e391]:
+                - link "Base64编码/解码" [ref=e392] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e393]:
+                - link "图片高清压缩" [ref=e394] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e395]:
+                - link "摩斯密码编码/解码" [ref=e396] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e397]:
+                - link "节日时间倒计时" [ref=e398] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e399]:
+              - cell "本机IP地址查询" [ref=e400]:
+                - link "本机IP地址查询" [ref=e401] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e402]:
+                - link "Unix时间戳转换" [ref=e403] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e404]:
+                - link "图片取色器" [ref=e405] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e406]:
+                - link "色盲色弱测试" [ref=e407] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e408]:
+                - link "SVG在线编辑器" [ref=e409] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e410]:
+                - link "中国高清地图" [ref=e411] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e412]:
+              - cell "查看网页源码" [ref=e413]:
+                - link "查看网页源码" [ref=e414] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e415]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e416]
+        - paragraph [ref=e417]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e418]
+    - generic [ref=e419]:
+      - navigation "页脚链接" [ref=e420]:
+        - link "关于我们" [ref=e421] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e422] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e423] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e424] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e425] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e426] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e427] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e428] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e429] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e430]:
+        - generic [ref=e431]:
+          - text: © 2025
+          - link "懒人工具" [ref=e432] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e434] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e435]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e436] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

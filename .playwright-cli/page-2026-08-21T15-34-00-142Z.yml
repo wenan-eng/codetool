@@ -1,0 +1,399 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "在线文本信息提取器" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "手机号提取" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=手机号提取
+          - img [ref=e126]
+          - text: 手机号提取
+        - link "身份证提取" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=身份证提取
+          - img [ref=e130]
+          - text: 身份证提取
+        - link "邮箱提取" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=邮箱提取
+          - img [ref=e134]
+          - text: 邮箱提取
+        - link "URL链接提取" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=URL链接提取
+          - img [ref=e138]
+          - text: URL链接提取
+        - link "银行卡号提取" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=银行卡号提取
+          - img [ref=e142]
+          - text: 银行卡号提取
+        - link "快递单号提取" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=快递单号提取
+          - img [ref=e146]
+          - text: 快递单号提取
+    - paragraph [ref=e149]: 使用我们的「多类型文本提取工具」支持手机号座机、邮箱链接、IP 域名、证件快递单号等智能识别，自动过滤误匹配内容、结果去重分行展示，自带示例演示、一键复制清空，本地离线处理全程保护数据隐私。
+    - main [ref=e150]:
+      - generic [ref=e151]:
+        - textbox "请输入要替换的文本内容..." [ref=e152]
+        - button "提取电话号码" [ref=e154] [cursor=pointer]:
+          - generic [ref=e155]: 提取电话号码
+          - img [ref=e156]
+      - generic [ref=e158]:
+        - button "文本提取" [ref=e159] [cursor=pointer]:
+          - img [ref=e160]
+          - text: 文本提取
+        - button "查看示例" [ref=e164] [cursor=pointer]:
+          - img [ref=e165]
+          - text: 查看示例
+        - button "复制结果" [ref=e167] [cursor=pointer]:
+          - img [ref=e168]
+          - text: 复制结果
+        - button "清空数据" [ref=e170] [cursor=pointer]:
+          - img [ref=e171]
+          - text: 清空数据
+    - region "工具使用帮助与相关信息" [ref=e173]:
+      - generic [ref=e174]:
+        - heading "使用说明" [level=2] [ref=e175]:
+          - img [ref=e176]
+          - text: 使用说明
+        - paragraph [ref=e178]:
+          - text: ⚙️
+          - strong [ref=e179]: 开始提取
+        - paragraph [ref=e180]: 输入文本内容和对应提取类型后，点击 "本提提取" 按钮，系统将智能识别匹配文本中符合规则的目标内容，自动去重规整、每条单独分行清晰展示，同时精准过滤无效杂号、物料编码、流水编号等各类易误匹配的冗余干扰内容。
+        - paragraph [ref=e181]:
+          - text: 📄
+          - strong [ref=e182]: 查看示例
+        - paragraph [ref=e183]: 点击 "查看示例" 按钮可一键加载平台内置标准测试文本素材，涵盖各类手机号、固定座机、网络链接、证件编码、快递单号等丰富完整样例，混杂干扰数字与冗余文本模拟真实场景，无需手动录入内容，即可快速实测每一种提取功能的匹配精准度、抗干扰能力与实际使用效果。
+        - paragraph [ref=e184]:
+          - text: 📋
+          - strong [ref=e185]: 复制结果
+        - paragraph [ref=e186]: 提取任务完成后，下方输出框会自动展示规整好的全部结果，点击 "复制结果" 按钮即可一键把所有提取内容存入剪贴板，无需手动框选、换行整理，适配办公归档、表格录入、台账整理等场景，复制后可直接粘贴复用，高效省去人工排版整理的繁琐步骤。
+        - paragraph [ref=e187]:
+          - text: 🗑️
+          - strong [ref=e188]: 清空数据
+        - paragraph [ref=e189]: 使用完毕后点击 "清空数据" 按钮，可同时清空上方输入文本与下方提取结果，一键恢复工具初始空白状态，无需手动逐行删除，快速切换新的文本内容，彻底清除所有历史留存数据，省去反复清理的麻烦，随时都能无缝进行下一轮提取操作。
+      - generic [ref=e190]:
+        - heading "同类推荐" [level=2] [ref=e191]:
+          - img [ref=e192]
+          - text: 同类推荐
+        - generic [ref=e194]:
+          - article [ref=e195]:
+            - link "京东违禁词检测 工具图标 京东违禁词检测 智能解析京东文案，自动标红违禁词汇，识别平台违规与广告法风险，降低违规扣分与账号封号风险。" [ref=e196] [cursor=pointer]:
+              - /url: /word-filter-jd/
+              - heading "京东违禁词检测 工具图标 京东违禁词检测" [level=3] [ref=e197]:
+                - img "京东违禁词检测 工具图标" [ref=e198]
+                - generic [ref=e199]: 京东违禁词检测
+              - paragraph [ref=e200]: 智能解析京东文案，自动标红违禁词汇，识别平台违规与广告法风险，降低违规扣分与账号封号风险。
+          - article [ref=e201]:
+            - link "拼多多违禁词检测 工具图标 拼多多违禁词检测 智能解析拼多多文案，自动标红违禁词汇，识别平台违规与广告法风险，降低违规扣分与账号封号风险。" [ref=e202] [cursor=pointer]:
+              - /url: /word-filter-pdd/
+              - heading "拼多多违禁词检测 工具图标 拼多多违禁词检测" [level=3] [ref=e203]:
+                - img "拼多多违禁词检测 工具图标" [ref=e204]
+                - generic [ref=e205]: 拼多多违禁词检测
+              - paragraph [ref=e206]: 智能解析拼多多文案，自动标红违禁词汇，识别平台违规与广告法风险，降低违规扣分与账号封号风险。
+          - article [ref=e207]:
+            - link "通用文本URL提取 工具图标 通用文本URL提取 提取文本全域 URL，智能去重补协议，一键复制下载导出，适配通用网址抓取、链接整理归集。" [ref=e208] [cursor=pointer]:
+              - /url: /url-extractor/
+              - heading "通用文本URL提取 工具图标 通用文本URL提取" [level=3] [ref=e209]:
+                - img "通用文本URL提取 工具图标" [ref=e210]
+                - generic [ref=e211]: 通用文本URL提取
+              - paragraph [ref=e212]: 提取文本全域 URL，智能去重补协议，一键复制下载导出，适配通用网址抓取、链接整理归集。
+          - article [ref=e213]:
+            - link "微信聊天对话模板 工具图标 微信聊天对话模板 提供海量搞笑微信聊天对话文本，一键复制完整对话内容，可直接粘贴到微信聊天模拟器生成对话截图。" [ref=e214] [cursor=pointer]:
+              - /url: /wechat-chat/
+              - heading "微信聊天对话模板 工具图标 微信聊天对话模板" [level=3] [ref=e215]:
+                - img "微信聊天对话模板 工具图标" [ref=e216]
+                - generic [ref=e217]: 微信聊天对话模板
+              - paragraph [ref=e218]: 提供海量搞笑微信聊天对话文本，一键复制完整对话内容，可直接粘贴到微信聊天模拟器生成对话截图。
+          - article [ref=e219]:
+            - link "创业点子生成器 工具图标 创业点子生成器 实现创业方向的快速浏览与筛选，可一键切换查看闲鱼无货源电商、短视频带货、网盘资源分享等。" [ref=e220] [cursor=pointer]:
+              - /url: /startup-idea/
+              - heading "创业点子生成器 工具图标 创业点子生成器" [level=3] [ref=e221]:
+                - img "创业点子生成器 工具图标" [ref=e222]
+                - generic [ref=e223]: 创业点子生成器
+              - paragraph [ref=e224]: 实现创业方向的快速浏览与筛选，可一键切换查看闲鱼无货源电商、短视频带货、网盘资源分享等。
+          - article [ref=e225]:
+            - link "随机字符串批量生成 工具图标 随机字符串批量生成 设定长度范围批量创建不重复的字母数字组合，支持参数配置，适用于测试数据、密码生成等场景。" [ref=e226] [cursor=pointer]:
+              - /url: /string-random/
+              - heading "随机字符串批量生成 工具图标 随机字符串批量生成" [level=3] [ref=e227]:
+                - img "随机字符串批量生成 工具图标" [ref=e228]
+                - generic [ref=e229]: 随机字符串批量生成
+              - paragraph [ref=e230]: 设定长度范围批量创建不重复的字母数字组合，支持参数配置，适用于测试数据、密码生成等场景。
+          - article [ref=e231]:
+            - link "换行符转文本换行 工具图标 换行符转文本换行 换行符转文本行工具，将可见字符形式的换行符转换为实际换行格式，支持批量处理与快速处理。" [ref=e232] [cursor=pointer]:
+              - /url: /line-text/
+              - heading "换行符转文本换行 工具图标 换行符转文本换行" [level=3] [ref=e233]:
+                - img "换行符转文本换行 工具图标" [ref=e234]
+                - generic [ref=e235]: 换行符转文本换行
+              - paragraph [ref=e236]: 换行符转文本行工具，将可见字符形式的换行符转换为实际换行格式，支持批量处理与快速处理。
+          - article [ref=e237]:
+            - link "文本换行转换行符 工具图标 文本换行转换行符 多行文本换行符可视化工具，统一所有换行格式并转为可见字符，支持批量处理与快速复制。" [ref=e238] [cursor=pointer]:
+              - /url: /text-line/
+              - heading "文本换行转换行符 工具图标 文本换行转换行符" [level=3] [ref=e239]:
+                - img "文本换行转换行符 工具图标" [ref=e240]
+                - generic [ref=e241]: 文本换行转换行符
+              - paragraph [ref=e242]: 多行文本换行符可视化工具，统一所有换行格式并转为可见字符，支持批量处理与快速复制。
+          - article [ref=e243]:
+            - link "文本文件在线读取 工具图标 文本文件在线读取 精准解析多行文本输入，支持100+种文件格式识别，实时内容展示与统计信息，并支持编辑后原格式导出。" [ref=e244] [cursor=pointer]:
+              - /url: /text-read/
+              - heading "文本文件在线读取 工具图标 文本文件在线读取" [level=3] [ref=e245]:
+                - img "文本文件在线读取 工具图标" [ref=e246]
+                - generic [ref=e247]: 文本文件在线读取
+              - paragraph [ref=e248]: 精准解析多行文本输入，支持100+种文件格式识别，实时内容展示与统计信息，并支持编辑后原格式导出。
+          - article [ref=e249]:
+            - link "文本行频次统计 工具图标 文本行频次统计 文本行频次统计工具，精准识别每行独立内容，自动去重计数并计算出现频率与占比，支持 Excel 导出。" [ref=e250] [cursor=pointer]:
+              - /url: /text-statistics/
+              - heading "文本行频次统计 工具图标 文本行频次统计" [level=3] [ref=e251]:
+                - img "文本行频次统计 工具图标" [ref=e252]
+                - generic [ref=e253]: 文本行频次统计
+              - paragraph [ref=e254]: 文本行频次统计工具，精准识别每行独立内容，自动去重计数并计算出现频率与占比，支持 Excel 导出。
+          - article [ref=e255]:
+            - link "数值列表累加求和 工具图标 数值列表累加求和 数字批量求和计算工具，精准解析多行数值输入，并支持多种分隔方式与结果一键复制功能。" [ref=e256] [cursor=pointer]:
+              - /url: "/numbers-sum/ "
+              - heading "数值列表累加求和 工具图标 数值列表累加求和" [level=3] [ref=e257]:
+                - img "数值列表累加求和 工具图标" [ref=e258]
+                - generic [ref=e259]: 数值列表累加求和
+              - paragraph [ref=e260]: 数字批量求和计算工具，精准解析多行数值输入，并支持多种分隔方式与结果一键复制功能。
+          - article [ref=e261]:
+            - link "文本自动排版 工具图标 文本自动排版 文本智能自动排版工具，精准实现语义分段功能，并提供基础格式清理与统计显示功能。" [ref=e262] [cursor=pointer]:
+              - /url: /text-formatter/
+              - heading "文本自动排版 工具图标 文本自动排版" [level=3] [ref=e263]:
+                - img "文本自动排版 工具图标" [ref=e264]
+                - generic [ref=e265]: 文本自动排版
+              - paragraph [ref=e266]: 文本智能自动排版工具，精准实现语义分段功能，并提供基础格式清理与统计显示功能。
+      - generic [ref=e267]:
+        - heading "常见问题" [level=2] [ref=e268]:
+          - img [ref=e269]
+          - text: 常见问题
+        - generic [ref=e273]:
+          - heading "🔗 多条链接或号码混在一起，能自动分行展示吗？" [level=3] [ref=e274]
+          - paragraph [ref=e275]: 可以自动智能排版，文本中以中文顿号、逗号、分号分隔的链接、号码内容，系统会自动拆分单独换行展示，每条结果独占一行且自动去重。无需手动拆分整理，提取后排版整洁规整，直接就能复制使用，省去人工分行、去重、整理的繁琐操作，适配批量提取整理需求。
+        - generic [ref=e276]:
+          - heading "📦 快递单号支持主流快递公司格式识别吗？" [level=3] [ref=e277]
+          - paragraph [ref=e278]: 工具内置顺丰、圆通、中通、申通、韵达、京东、极兔、EMS等主流快递公司专用匹配规则，支持字母前缀+数字、纯数字、国际EMS标准单号等多种格式。严格遵循行业通用长度与字符特征，不会误匹配普通数字串、物料编码，精准区分快递单号与普通订单编号，适配日常办公批量归集需求。
+        - generic [ref=e279]:
+          - heading "🏢 固定电话会不会误匹配普通数字编号？" [level=3] [ref=e280]
+          - paragraph [ref=e281]: 座机号码采用严格区号+号码双重校验规则，仅匹配带省市区号的标准固定电话，自动过滤8位物料号、工号、流水编号、备案序号等无关数字。规避简单正则带来的误判问题，只识别正规办公座机线路，抗干扰能力强，适合行政台账、联络方式批量提取归档使用。
+        - generic [ref=e282]:
+          - heading "📋 提取结果可以一键复制吗？支持批量复用吗？" [level=3] [ref=e283]
+          - paragraph [ref=e284]: 提取完成后所有结果规整展示在输出框内，点击复制结果按钮即可一键全量复制到剪贴板，无需手动框选逐行拷贝。复制后的内容每行一条格式规整，可直接粘贴到记事本、Excel表格、文档台账中批量归档整理，无需二次排版，操作简单高效，适配日常高频办公提取场景。
+        - generic [ref=e285]:
+          - heading "🔒 数据处理安全吗？会不会上传我的文本内容？" [level=3] [ref=e286]
+          - paragraph [ref=e287]: 绝对安全可靠！所有文本提取处理均在浏览器本地离线完成，全程不依赖后端服务器、无需联网即可正常使用。输入的原始内容、提取结果全程不会被后台记录、存储或上传，无任何数据泄露风险，即便断网也能照常操作。
+      - generic "工具快速切换" [ref=e288]:
+        - list [ref=e290]:
+          - listitem [ref=e291] [cursor=pointer]: 热门推荐
+          - listitem [ref=e292] [cursor=pointer]: 站长工具
+          - listitem [ref=e293] [cursor=pointer]: 编程开发
+          - listitem [ref=e294] [cursor=pointer]: 文本处理
+          - listitem [ref=e295] [cursor=pointer]: 图像处理
+          - listitem [ref=e296] [cursor=pointer]: 文档转换
+          - listitem [ref=e297] [cursor=pointer]: 音频视频
+          - listitem [ref=e298] [cursor=pointer]: 便民工具
+          - listitem [ref=e299] [cursor=pointer]: 编码加密
+          - listitem [ref=e300] [cursor=pointer]: 单位转换
+        - table [ref=e302]:
+          - rowgroup [ref=e303]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e304]:
+              - cell "微信聊天模拟器" [ref=e305]:
+                - link "微信聊天模拟器" [ref=e306] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e307]:
+                - link "微信零钱模拟器" [ref=e308] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e309]:
+                - link "文字转语音工具" [ref=e310] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e311]:
+                - link "法定退休年龄计算器" [ref=e312] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e313]:
+                - link "身份证号码查询" [ref=e314] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e315]:
+                - link "在线随机点名" [ref=e316] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e317]:
+              - cell "报名证件照处理" [ref=e318]:
+                - link "报名证件照处理" [ref=e319] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e320]:
+                - link "随机密码生成器" [ref=e321] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e322]:
+                - link "二维码生成器" [ref=e323] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e324]:
+                - link "世界高清地图" [ref=e325] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e326]:
+                - link "键盘按键检测" [ref=e327] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e328]:
+                - link "手机归属地查询" [ref=e329] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e330]:
+              - cell "在线字数统计" [ref=e331]:
+                - link "在线字数统计" [ref=e332] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e333]:
+                - link "JSON格式化/压缩" [ref=e334] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e335]:
+                - link "Base64编码/解码" [ref=e336] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e337]:
+                - link "图片高清压缩" [ref=e338] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e339]:
+                - link "摩斯密码编码/解码" [ref=e340] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e341]:
+                - link "节日时间倒计时" [ref=e342] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e343]:
+              - cell "本机IP地址查询" [ref=e344]:
+                - link "本机IP地址查询" [ref=e345] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e346]:
+                - link "Unix时间戳转换" [ref=e347] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e348]:
+                - link "图片取色器" [ref=e349] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e350]:
+                - link "色盲色弱测试" [ref=e351] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e352]:
+                - link "SVG在线编辑器" [ref=e353] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e354]:
+                - link "中国高清地图" [ref=e355] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e356]:
+              - cell "查看网页源码" [ref=e357]:
+                - link "查看网页源码" [ref=e358] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e359]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e360]
+        - paragraph [ref=e361]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e362]
+    - generic [ref=e363]:
+      - navigation "页脚链接" [ref=e364]:
+        - link "关于我们" [ref=e365] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e366] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e367] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e368] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e369] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e370] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e371] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e372] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e373] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e374]:
+        - generic [ref=e375]:
+          - text: © 2025
+          - link "懒人工具" [ref=e376] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e378] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e379]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e380] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持
