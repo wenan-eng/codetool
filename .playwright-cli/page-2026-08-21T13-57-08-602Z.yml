@@ -1,0 +1,434 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "在线JS混淆加密工具" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "代码混淆" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=代码混淆
+          - img [ref=e126]
+          - text: 代码混淆
+        - link "JS防盗用" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=JS防盗用
+          - img [ref=e130]
+          - text: JS防盗用
+        - link "JS加密" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=JS加密
+          - img [ref=e134]
+          - text: JS加密
+        - link "域名锁定" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=域名锁定
+          - img [ref=e138]
+          - text: 域名锁定
+        - link "多级混淆" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=多级混淆
+          - img [ref=e142]
+          - text: 多级混淆
+        - link "JS防复制" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=JS防复制
+          - img [ref=e146]
+          - text: JS防复制
+    - paragraph [ref=e149]: 使用我们的「JS代码混淆加密工具」，支持对JavaScript代码进行智能混淆，精准加密核心逻辑、绑定安全域名、生成动态防护代码，支持一键复制混淆结果或下载为JS文件。
+    - main [ref=e150]:
+      - generic [ref=e151]:
+        - list [ref=e153]:
+          - listitem [ref=e154] [cursor=pointer]: JS 代码输入
+          - listitem [ref=e155] [cursor=pointer]: JS 文件上传
+          - listitem [ref=e156] [cursor=pointer]: JS 混淆结果
+          - listitem
+        - textbox "请输入需要混淆的 JavaScript 代码，或点击下方按钮加载示例代码" [ref=e158]
+      - generic [ref=e159]:
+        - button "混淆加密" [ref=e160] [cursor=pointer]:
+          - img [ref=e161]
+          - text: 混淆加密
+        - button "查看示例" [ref=e165] [cursor=pointer]:
+          - img [ref=e166]
+          - text: 查看示例
+        - button "下载文件" [ref=e170] [cursor=pointer]:
+          - img [ref=e171]
+          - text: 下载文件
+        - button "复制结果" [ref=e175] [cursor=pointer]:
+          - img [ref=e176]
+          - text: 复制结果
+        - button "清空数据" [ref=e178] [cursor=pointer]:
+          - img [ref=e179]
+          - text: 清空数据
+    - region "工具使用帮助与相关信息" [ref=e187]:
+      - generic [ref=e188]:
+        - heading "使用说明" [level=2] [ref=e189]:
+          - img [ref=e190]
+          - text: 使用说明
+        - paragraph [ref=e192]:
+          - text: ✍️
+          - strong [ref=e193]: 代码输入
+        - paragraph [ref=e194]: "点击【JS 代码输入】区域，可直接粘贴需要混淆的 JavaScript 代码。支持任意合法脚本，如函数库、工具方法、业务逻辑等。也可切换至【JS 文件上传】标签页，通过选择本地 `.js` 文件或将文件拖拽到指定区域完成导入，最大支持 10MB 单文件。"
+        - paragraph [ref=e195]:
+          - text: ⚡
+          - strong [ref=e196]: 混淆加密
+        - paragraph [ref=e197]: 无需配置参数 —— 系统采用高强度混淆策略自动处理。点击 “开始混淆” 按钮后，代码将在浏览器本地进行加密转换，全程不上传服务器。几秒内即可生成高度混淆但仍可正常执行的新代码，并自动显示在【JS 混淆结果】区域。
+        - paragraph [ref=e198]:
+          - text: 💡
+          - strong [ref=e199]: 查看示例
+        - paragraph [ref=e200]: 点击 “查看示例” 按钮，系统将自动填充一段演示代码并立即启动混淆流程，帮助您快速体验完整功能，零门槛上手使用。
+        - paragraph [ref=e201]:
+          - text: 💾
+          - strong [ref=e202]: 下载文件
+        - paragraph [ref=e203]:
+          - text: 混淆成功后，可通过点击 “下载文件” 将结果保存为
+          - code [ref=e204]: obfuscated.js
+          - text: 到本地；或点击“复制结果”一键复制到剪贴板，方便快速集成到项目中。输出代码为单行压缩格式，兼容主流浏览器环境，功能与原代码完全一致，仅显著提升防盗能力。
+        - paragraph [ref=e205]:
+          - text: 🗑️
+          - strong [ref=e206]: 清空数据
+        - paragraph [ref=e207]: 点击 “清空数据” 按钮可清除所有输入内容、上传文件及混淆结果，界面恢复初始状态。所有操作均在浏览器端完成，源码永不离开你的设备，确保绝对隐私与安全，无任何泄露风险。
+      - generic [ref=e208]:
+        - heading "同类推荐" [level=2] [ref=e209]:
+          - img [ref=e210]
+          - text: 同类推荐
+        - generic [ref=e212]:
+          - article [ref=e213]:
+            - link "AES加密/解密 工具图标 AES加密/解密 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。" [ref=e214] [cursor=pointer]:
+              - /url: /aes-encrypt/
+              - heading "AES加密/解密 工具图标 AES加密/解密" [level=3] [ref=e215]:
+                - img "AES加密/解密 工具图标" [ref=e216]
+                - generic [ref=e217]: AES加密/解密
+              - paragraph [ref=e218]: 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。
+          - article [ref=e219]:
+            - link "HTpasswd密码生成器 工具图标 HTpasswd密码生成器 实时HTpasswd密码生成，输入即转换，支持 SHA1/SHA256/MD5 算法兼容，快速获取标准化认证格式。" [ref=e220] [cursor=pointer]:
+              - /url: /htpasswd/
+              - heading "HTpasswd密码生成器 工具图标 HTpasswd密码生成器" [level=3] [ref=e221]:
+                - img "HTpasswd密码生成器 工具图标" [ref=e222]
+                - generic [ref=e223]: HTpasswd密码生成器
+              - paragraph [ref=e224]: 实时HTpasswd密码生成，输入即转换，支持 SHA1/SHA256/MD5 算法兼容，快速获取标准化认证格式。
+          - article [ref=e225]:
+            - link "随机密码生成器 工具图标 随机密码生成器 一键密码生成，实时输出结果，结合使用场景自定义长度与字符类型，快速生成高强度密码。" [ref=e226] [cursor=pointer]:
+              - /url: /random-pwd/
+              - heading "随机密码生成器 工具图标 随机密码生成器" [level=3] [ref=e227]:
+                - img "随机密码生成器 工具图标" [ref=e228]
+                - generic [ref=e229]: 随机密码生成器
+              - paragraph [ref=e230]: 一键密码生成，实时输出结果，结合使用场景自定义长度与字符类型，快速生成高强度密码。
+          - article [ref=e231]:
+            - link "Escape编码/解码 工具图标 Escape编码/解码 一键转换Escape编码，实时编码解码文本，支持传统字符格式，快速处理遗留系统数据。" [ref=e232] [cursor=pointer]:
+              - /url: /escape/
+              - heading "Escape编码/解码 工具图标 Escape编码/解码" [level=3] [ref=e233]:
+                - img "Escape编码/解码 工具图标" [ref=e234]
+                - generic [ref=e235]: Escape编码/解码
+              - paragraph [ref=e236]: 一键转换Escape编码，实时编码解码文本，支持传统字符格式，快速处理遗留系统数据。
+          - article [ref=e237]:
+            - link "UTF-8编码/解码 工具图标 UTF-8编码/解码 实时 UTF-8 编码解码，输入即转换，支持全字符兼容，快速获取标准化 UTF-8 转义编码。" [ref=e238] [cursor=pointer]:
+              - /url: /utf-8/
+              - heading "UTF-8编码/解码 工具图标 UTF-8编码/解码" [level=3] [ref=e239]:
+                - img "UTF-8编码/解码 工具图标" [ref=e240]
+                - generic [ref=e241]: UTF-8编码/解码
+              - paragraph [ref=e242]: 实时 UTF-8 编码解码，输入即转换，支持全字符兼容，快速获取标准化 UTF-8 转义编码。
+          - article [ref=e243]:
+            - link "HTMl实体编码/解码 工具图标 HTMl实体编码/解码 实时 HTML 实体编码解码，输入即转换，支持全字符兼容，快速获取标准化 HTML 实体编码。" [ref=e244] [cursor=pointer]:
+              - /url: /html-entity/
+              - heading "HTMl实体编码/解码 工具图标 HTMl实体编码/解码" [level=3] [ref=e245]:
+                - img "HTMl实体编码/解码 工具图标" [ref=e246]
+                - generic [ref=e247]: HTMl实体编码/解码
+              - paragraph [ref=e248]: 实时 HTML 实体编码解码，输入即转换，支持全字符兼容，快速获取标准化 HTML 实体编码。
+          - article [ref=e249]:
+            - link "URL编码/解码 工具图标 URL编码/解码 实时 URL 编码解码，输入即转换，支持全字符兼容，快速获取标准化编码结果，提升开发与调试效率。" [ref=e250] [cursor=pointer]:
+              - /url: /url-encode/
+              - heading "URL编码/解码 工具图标 URL编码/解码" [level=3] [ref=e251]:
+                - img "URL编码/解码 工具图标" [ref=e252]
+                - generic [ref=e253]: URL编码/解码
+              - paragraph [ref=e254]: 实时 URL 编码解码，输入即转换，支持全字符兼容，快速获取标准化编码结果，提升开发与调试效率。
+          - article [ref=e255]:
+            - link "摩斯密码编码/解码 工具图标 摩斯密码编码/解码 一键转换摩斯密码，实时编码解码文本，支持标准字符格式，快速获取加密通信内容。" [ref=e256] [cursor=pointer]:
+              - /url: /morse/
+              - heading "摩斯密码编码/解码 工具图标 摩斯密码编码/解码" [level=3] [ref=e257]:
+                - img "摩斯密码编码/解码 工具图标" [ref=e258]
+                - generic [ref=e259]: 摩斯密码编码/解码
+              - paragraph [ref=e260]: 一键转换摩斯密码，实时编码解码文本，支持标准字符格式，快速获取加密通信内容。
+          - article [ref=e261]:
+            - link "JWT解码查看器 工具图标 JWT解码查看器 支持一键解析 JWT 令牌数据，输出标准格式化 JSON，适用于接口调试、令牌校验、信息查看等场景。" [ref=e262] [cursor=pointer]:
+              - /url: /jwt-decoder/
+              - heading "JWT解码查看器 工具图标 JWT解码查看器" [level=3] [ref=e263]:
+                - img "JWT解码查看器 工具图标" [ref=e264]
+                - generic [ref=e265]: JWT解码查看器
+              - paragraph [ref=e266]: 支持一键解析 JWT 令牌数据，输出标准格式化 JSON，适用于接口调试、令牌校验、信息查看等场景。
+          - article [ref=e267]:
+            - link "Gzip编码/解码 工具图标 Gzip编码/解码 在线Gzip压缩与解压工具，支持文本直接压缩或Base64数据解压，可一键复制与清空，操作简单快捷！" [ref=e268] [cursor=pointer]:
+              - /url: /gzip/
+              - heading "Gzip编码/解码 工具图标 Gzip编码/解码" [level=3] [ref=e269]:
+                - img "Gzip编码/解码 工具图标" [ref=e270]
+                - generic [ref=e271]: Gzip编码/解码
+              - paragraph [ref=e272]: 在线Gzip压缩与解压工具，支持文本直接压缩或Base64数据解压，可一键复制与清空，操作简单快捷！
+          - article [ref=e273]:
+            - link "Base64编码/解码 工具图标 Base64编码/解码 一键编码解码，实时转换Base64，支持文本图片双模式，快速生成安全数据，提升开发效率！" [ref=e274] [cursor=pointer]:
+              - /url: /base64-encode/
+              - heading "Base64编码/解码 工具图标 Base64编码/解码" [level=3] [ref=e275]:
+                - img "Base64编码/解码 工具图标" [ref=e276]
+                - generic [ref=e277]: Base64编码/解码
+              - paragraph [ref=e278]: 一键编码解码，实时转换Base64，支持文本图片双模式，快速生成安全数据，提升开发效率！
+          - article [ref=e279]:
+            - link "MD5安全加密 工具图标 MD5安全加密 智能计算MD5值，生成32位与16位密文，支持大小写切换和一键复制，保障数据安全高效处理！" [ref=e280] [cursor=pointer]:
+              - /url: /md5/
+              - heading "MD5安全加密 工具图标 MD5安全加密" [level=3] [ref=e281]:
+                - img "MD5安全加密 工具图标" [ref=e282]
+                - generic [ref=e283]: MD5安全加密
+              - paragraph [ref=e284]: 智能计算MD5值，生成32位与16位密文，支持大小写切换和一键复制，保障数据安全高效处理！
+      - generic [ref=e285]:
+        - heading "常见问题" [level=2] [ref=e286]:
+          - img [ref=e287]
+          - text: 常见问题
+        - generic [ref=e291]:
+          - heading "✔️ 支持哪些JavaScript混淆加密方式？" [level=3] [ref=e292]
+          - paragraph [ref=e293]:
+            - text: 支持
+            - strong [ref=e294]: 多种主流混淆技术
+            - text: ，包括：变量名混淆、字符串加密、控制流扁平化、死代码注入、调试保护等，可有效保护源代码逻辑与知识产权。
+        - generic [ref=e295]:
+          - heading "📌 如何使用这个JS混淆工具？" [level=3] [ref=e296]
+          - paragraph [ref=e297]:
+            - text: 支持
+            - strong [ref=e298]: 直接粘贴 JavaScript 代码
+            - text: 或
+            - strong [ref=e299]: 上传 .js 文件
+            - text: 两种方式。点击【JS 文件上传】区域可选择文件，也可将本地 JS 文件直接拖拽到该区域完成导入。处理完成后，点击“下载文件”保存结果，或“复制结果”一键拷贝到剪贴板。
+        - generic [ref=e300]:
+          - heading "🎯 混淆后的代码还能正常执行吗？" [level=3] [ref=e301]
+          - paragraph [ref=e302]:
+            - text: 完全可以！混淆过程仅改变代码结构与变量命名，
+            - strong [ref=e303]: 不修改原始逻辑
+            - text: ，确保功能行为与原代码完全一致。生成的代码可在主流浏览器中直接运行。
+        - generic [ref=e304]:
+          - heading "🔭 这个工具适合哪些用户群体？" [level=3] [ref=e305]
+          - paragraph [ref=e306]:
+            - text: 非常适合
+            - strong [ref=e307]: 前端开发者、JavaScript 工程师、插件作者、开源项目维护者
+            - text: 等需要保护代码版权的用户，有效防止他人轻易阅读、复制或盗用你的核心逻辑。
+        - generic [ref=e308]:
+          - heading "📱 混淆后的文件体积会变大吗？" [level=3] [ref=e309]
+          - paragraph [ref=e310]:
+            - text: 由于增加了混淆结构，代码体积通常会
+            - strong [ref=e311]: 略有增加
+            - text: ，但工具已对输出进行压缩优化，最终为单行紧凑格式，兼顾加载性能与安全性，适用于生产环境部署。
+        - generic [ref=e312]:
+          - heading "🔒 代码会被上传到服务器吗？数据安全吗？" [level=3] [ref=e313]
+          - paragraph [ref=e314]:
+            - text: 所有操作均在您的浏览器中
+            - strong [ref=e315]: 本地完成，无需联网
+            - text: ，代码不会上传至任何服务器。即使断网也能正常使用，真正实现零泄露、高隐私，保障源码绝对安全。
+      - generic "工具快速切换" [ref=e316]:
+        - list [ref=e318]:
+          - listitem [ref=e319] [cursor=pointer]: 热门推荐
+          - listitem [ref=e320] [cursor=pointer]: 站长工具
+          - listitem [ref=e321] [cursor=pointer]: 编程开发
+          - listitem [ref=e322] [cursor=pointer]: 文本处理
+          - listitem [ref=e323] [cursor=pointer]: 图像处理
+          - listitem [ref=e324] [cursor=pointer]: 文档转换
+          - listitem [ref=e325] [cursor=pointer]: 音频视频
+          - listitem [ref=e326] [cursor=pointer]: 便民工具
+          - listitem [ref=e327] [cursor=pointer]: 编码加密
+          - listitem [ref=e328] [cursor=pointer]: 单位转换
+        - table [ref=e330]:
+          - rowgroup [ref=e331]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e332]:
+              - cell "微信聊天模拟器" [ref=e333]:
+                - link "微信聊天模拟器" [ref=e334] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e335]:
+                - link "微信零钱模拟器" [ref=e336] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e337]:
+                - link "文字转语音工具" [ref=e338] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e339]:
+                - link "法定退休年龄计算器" [ref=e340] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e341]:
+                - link "身份证号码查询" [ref=e342] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e343]:
+                - link "在线随机点名" [ref=e344] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e345]:
+              - cell "报名证件照处理" [ref=e346]:
+                - link "报名证件照处理" [ref=e347] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e348]:
+                - link "随机密码生成器" [ref=e349] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e350]:
+                - link "二维码生成器" [ref=e351] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e352]:
+                - link "世界高清地图" [ref=e353] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e354]:
+                - link "键盘按键检测" [ref=e355] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e356]:
+                - link "手机归属地查询" [ref=e357] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e358]:
+              - cell "在线字数统计" [ref=e359]:
+                - link "在线字数统计" [ref=e360] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e361]:
+                - link "JSON格式化/压缩" [ref=e362] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e363]:
+                - link "Base64编码/解码" [ref=e364] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e365]:
+                - link "图片高清压缩" [ref=e366] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e367]:
+                - link "摩斯密码编码/解码" [ref=e368] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e369]:
+                - link "节日时间倒计时" [ref=e370] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e371]:
+              - cell "本机IP地址查询" [ref=e372]:
+                - link "本机IP地址查询" [ref=e373] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e374]:
+                - link "Unix时间戳转换" [ref=e375] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e376]:
+                - link "图片取色器" [ref=e377] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e378]:
+                - link "色盲色弱测试" [ref=e379] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e380]:
+                - link "SVG在线编辑器" [ref=e381] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e382]:
+                - link "中国高清地图" [ref=e383] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e384]:
+              - cell "查看网页源码" [ref=e385]:
+                - link "查看网页源码" [ref=e386] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e387]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e388]
+        - paragraph [ref=e389]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e390]
+    - generic [ref=e391]:
+      - navigation "页脚链接" [ref=e392]:
+        - link "关于我们" [ref=e393] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e394] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e395] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e396] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e397] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e398] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e399] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e400] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e401] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e402]:
+        - generic [ref=e403]:
+          - text: © 2025
+          - link "懒人工具" [ref=e404] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e406] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e407]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e408] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

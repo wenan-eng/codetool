@@ -6785,5 +6785,139 @@
       "md5-batch",
       "md5"
     ]
+  },
+  {
+    "id": "js-obfuscator",
+    "title": "在线JS混淆加密工具",
+    "h1": "在线JS混淆加密工具",
+    "description": "在线JS混淆加密工具，基于 javascript-obfuscator 引擎在浏览器本地完成变量重命名、字符串数组化与控制流变换，一键生成难以阅读还原的混淆代码，支持下载与复制，代码不上传服务器。",
+    "title_en": "Online JS Obfuscator",
+    "h1_en": "Online JS Obfuscator",
+    "description_en": "Browser-local JavaScript obfuscation powered by javascript-obfuscator: identifier renaming, string array encoding and control flow transforms, with download and copy support. Your code never leaves the browser.",
+    "title_es": "Ofuscador JS en Línea",
+    "h1_es": "Ofuscador JS en Línea",
+    "description_es": "Ofuscación de JavaScript local en el navegador con javascript-obfuscator: renombrado de identificadores, codificación de cadenas y transformación de flujo, con descarga y copia. El código nunca sale del navegador.",
+    "tags": [
+      "JS混淆",
+      "代码加密",
+      "javascript-obfuscator",
+      "前端安全"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-js-obfuscator-advanced.svg",
+    "faqs": [
+      {
+        "q": "混淆后的代码还能正常运行吗？",
+        "a": "能。混淆只改变代码的可读性（变量名、字符串编码、控制流），不改变执行逻辑；建议混淆后先在测试环境验证。"
+      },
+      {
+        "q": "混淆能防止破解吗？",
+        "a": "混淆大幅提高逆向成本，但无法绝对防破解；对核心算法可结合服务端校验一起使用。"
+      },
+      {
+        "q": "代码会被上传吗？",
+        "a": "不会，混淆全程在浏览器本地完成，代码不经过网络。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Does obfuscated code still run?",
+        "a": "Yes. Obfuscation changes readability (names, string encoding, control flow) without changing behavior; verify in a test environment after obfuscating."
+      },
+      {
+        "q": "Can obfuscation prevent cracking?",
+        "a": "It greatly raises reverse-engineering cost but is not absolute; combine core algorithms with server-side checks."
+      },
+      {
+        "q": "Is my code uploaded?",
+        "a": "No, obfuscation runs entirely in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿El código ofuscado sigue funcionando?",
+        "a": "Sí. La ofuscación cambia la legibilidad sin alterar el comportamiento; verifique en un entorno de prueba tras ofuscar."
+      },
+      {
+        "q": "¿La ofuscación evita el cracking?",
+        "a": "Aumenta mucho el coste de ingeniería inversa pero no es absoluto; combine con validaciones en servidor."
+      },
+      {
+        "q": "¿Se sube mi código?",
+        "a": "No, la ofuscación se ejecuta íntegramente en su navegador."
+      }
+    ],
+    "related": [
+      "js-obfuscator-advanced",
+      "md5",
+      "aes-encrypt"
+    ]
+  },
+  {
+    "id": "js-obfuscator-advanced",
+    "title": "专业JS代码混淆加密工具",
+    "h1": "专业JS代码混淆加密工具",
+    "description": "专业JS代码混淆加密工具，在高强度混淆基础上支持授权域名绑定、盗用 Alert 弹窗提醒（首次/每日/每次频率可选）、静默跳转保护与自定义版权注释，输出带防护守卫的混淆代码，全部本地处理。",
+    "title_en": "Pro JS Obfuscator Advanced",
+    "h1_en": "Pro JS Obfuscator Advanced",
+    "description_en": "High-strength obfuscation plus authorized-domain binding, theft Alert popups (first/daily/every visit), silent redirect protection and custom copyright comments, producing guarded output — fully local.",
+    "title_es": "Ofuscador JS Profesional Avanzado",
+    "h1_es": "Ofuscador JS Profesional Avanzado",
+    "description_es": "Ofuscación de alta intensidad más vinculación de dominios autorizados, alertas Alert antirrobo (primera/diaria/cada visita), redirección silenciosa y comentarios personalizados, todo local.",
+    "tags": [
+      "专业混淆",
+      "域名授权",
+      "防盗用",
+      "代码保护"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-js-obfuscator-advanced.svg",
+    "faqs": [
+      {
+        "q": "域名授权是怎么工作的？",
+        "a": "输出代码内置运行时守卫：检测当前页面 hostname 是否为授权域名或其子域，未授权时按所选策略弹窗提醒或静默跳转。"
+      },
+      {
+        "q": "提醒频率有什么区别？",
+        "a": "仅首次：localStorage 记录后永不再弹；每天首次：24 小时内只弹一次；每次访问：无条件弹出。"
+      },
+      {
+        "q": "高强度模式和标准模式差异？",
+        "a": "高强度额外启用控制流平坦化、死代码注入、RC4 字符串编码与自防御，混淆更彻底但体积更大、执行稍慢。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How does domain authorization work?",
+        "a": "The output embeds a runtime guard: it checks whether the page hostname matches an authorized domain or subdomain, then alerts or redirects per your policy when unauthorized."
+      },
+      {
+        "q": "What do alert frequencies mean?",
+        "a": "First only: localStorage flag suppresses future alerts; daily: at most once per 24 hours; every visit: always shows."
+      },
+      {
+        "q": "High vs standard mode?",
+        "a": "High adds control-flow flattening, dead code injection, RC4 string encoding and self-defending — stronger but larger and slightly slower."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo funciona la autorización de dominios?",
+        "a": "La salida incluye una guarda en tiempo de ejecución: comprueba si el hostname coincide con un dominio autorizado y, si no, avisa o redirige según la política."
+      },
+      {
+        "q": "¿Qué significan las frecuencias de aviso?",
+        "a": "Solo primera: marca en localStorage y no vuelve; diaria: máximo una vez cada 24 horas; cada visita: siempre se muestra."
+      },
+      {
+        "q": "¿Diferencia entre modo alto y estándar?",
+        "a": "El alto añade aplanamiento de flujo, código muerto, codificación RC4 y autodefensa: más fuerte pero mayor y algo más lento."
+      }
+    ],
+    "related": [
+      "js-obfuscator",
+      "aes-encrypt",
+      "htpasswd"
+    ]
   }
 ]
