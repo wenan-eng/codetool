@@ -152,14 +152,14 @@
 
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
-| 107 | length-converter | 长度单位换算 | 单位换算 | todo | - | - |
-| 108 | weight-converter | 重量单位换算 | 单位换算 | todo | - | - |
-| 109 | temperature-converter | 温度单位换算 | 单位换算 | todo | - | - |
-| 110 | area-converter | 面积单位换算 | 单位换算 | todo | - | - |
-| 111 | volume-converter | 体积/容积单位换算 | 单位换算 | todo | - | - |
-| 112 | speed-converter | 速度单位换算 | 单位换算 | todo | - | - |
-| 113 | time-converter | 时间单位换算 | 单位换算 | todo | - | - |
-| 114 | angle-converter | 角度单位换算 | 单位换算 | todo | - | - |
+| 107 | length-converter | 长度单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
+| 108 | weight-converter | 重量单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
+| 109 | temperature-converter | 温度单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
+| 110 | area-converter | 面积单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
+| 111 | volume-converter | 体积/容积单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
+| 112 | speed-converter | 速度单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
+| 113 | time-converter | 时间单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
+| 114 | angle-converter | 角度单位换算 | 单位换算 | deployed | b4w1push | 200 Pass 线上验证 |
 | 115 | pressure-converter | 压力单位换算 | 单位换算 | todo | - | - |
 | 116 | power-converter | 功率单位换算 | 单位换算 | todo | - | - |
 | 117 | force-converter | 力单位转换器 | 单位换算 | todo | - | - |
