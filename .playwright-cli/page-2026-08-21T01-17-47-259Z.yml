@@ -1,0 +1,460 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "在线Gzip编码/解码" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "Gzip压缩" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=Gzip压缩
+          - img [ref=e126]
+          - text: Gzip压缩
+        - link "Gzip解压" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=Gzip解压
+          - img [ref=e130]
+          - text: Gzip解压
+        - link "Base64编码" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=Base64编码
+          - img [ref=e134]
+          - text: Base64编码
+        - link "文本压缩" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=文本压缩
+          - img [ref=e138]
+          - text: 文本压缩
+        - link "网页优化" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=网页优化
+          - img [ref=e142]
+          - text: 网页优化
+        - link "HTTP压缩" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=HTTP压缩
+          - img [ref=e146]
+          - text: HTTP压缩
+    - paragraph [ref=e149]: 使用我们的「Gzip在线压缩工具」，支持对原始文本进行Gzip压缩或对Base64格式的压缩数据进行解压，可实时查看处理结果并一键复制至剪贴板。所有操作均在浏览器本地完成，安全高效，轻松优化数据传输与存储效率。
+    - main [ref=e150]:
+      - textbox "请输入要进行（Gzip）编码/解码的文本..." [ref=e153]
+      - generic [ref=e154]:
+        - button "Gzip编码" [ref=e155] [cursor=pointer]:
+          - img [ref=e156]
+          - text: Gzip编码
+        - button "Gzip解码" [ref=e160] [cursor=pointer]:
+          - img [ref=e161]
+          - text: Gzip解码
+        - button "查看示例" [ref=e164] [cursor=pointer]:
+          - img [ref=e165]
+          - text: 查看示例
+        - button "复制结果" [ref=e167] [cursor=pointer]:
+          - img [ref=e168]
+          - text: 复制结果
+        - button "清空数据" [ref=e170] [cursor=pointer]:
+          - img [ref=e171]
+          - text: 清空数据
+    - generic [ref=e173]:
+      - link "万维广告联盟" [ref=e174] [cursor=pointer]:
+        - /url: https://wwads.cn/click/bundle?code=UjWnmYqQ3czGLjg2AQDnpK5oGto0Yx
+        - img "万维广告联盟" [ref=e175]
+      - generic [ref=e176]:
+        - link "商派ECShopX免费开源商城系统，支持10多种业务模式，集成AI能力，PHP/JAVA双版本" [ref=e177] [cursor=pointer]:
+          - /url: https://wwads.cn/click/bundle?code=UjWnmYqQ3czGLjg2AQDnpK5oGto0Yx
+        - link "广告" [ref=e178] [cursor=pointer]:
+          - /url: https://wwads.cn/?utm_source=property-486&utm_medium=footer
+          - img [ref=e179]
+          - generic [ref=e180]: 广告
+      - generic "隐藏广告" [ref=e181] [cursor=pointer]:
+        - img [ref=e182]
+    - region "工具使用帮助与相关信息" [ref=e183]:
+      - generic [ref=e184]:
+        - heading "使用说明" [level=2] [ref=e185]:
+          - img [ref=e186]
+          - text: 使用说明
+        - paragraph [ref=e188]:
+          - text: 🗜️
+          - strong [ref=e189]: Gzip压缩编码
+        - paragraph [ref=e190]: 点击 "Gzip编码" 按钮，系统会对输入文本进行 Gzip 压缩处理，并将压缩后的二进制数据转换为 Base64 编码格式显示在输出框。Gzip 能有效减小文本数据体积（通常可减少60%-80%），特别适用于 HTML、CSS、JavaScript 等文本内容的压缩。
+        - paragraph [ref=e191]:
+          - text: 📤
+          - strong [ref=e192]: Gzip解压解码
+        - paragraph [ref=e193]: 若输入的是 Gzip 压缩后的 Base64 编码数据，点击 "Gzip解码" 按钮可将其解压还原为原始文本。系统会自动识别 Base64 格式，执行 Gzip 解压操作，恢复原始可读内容。适用于处理从服务器接收的 Gzip 压缩数据或分析压缩文件。
+        - paragraph [ref=e194]:
+          - text: 🔍
+          - strong [ref=e195]: 查看示例
+        - paragraph [ref=e196]: 点击 "查看示例" 按钮，系统将自动填充一个标准示例文本到输入框，并立即执行 Gzip 压缩编码，直观展示压缩后的 Base64 格式结果。示例将展示原始文本与压缩后数据的对比，帮助您理解 Gzip 压缩的效果与压缩率。
+        - paragraph [ref=e197]:
+          - text: 📋
+          - strong [ref=e198]: 复制结果
+        - paragraph [ref=e199]: 点击 "复制结果" 按钮，可将输出框中的 Gzip 编码或解码结果一键复制到剪贴板，方便您在其他应用程序中粘贴使用，无需手动选择和复制文本。
+        - paragraph [ref=e200]:
+          - text: 🗑️
+          - strong [ref=e201]: 清空数据
+        - paragraph [ref=e202]: 点击 "清空数据" 按钮可立即清除所有输入内容和输出结果，界面恢复初始空白状态，方便您开始新的压缩或解压操作。
+      - generic [ref=e203]:
+        - heading "同类推荐" [level=2] [ref=e204]:
+          - img [ref=e205]
+          - text: 同类推荐
+        - generic [ref=e207]:
+          - article [ref=e208]:
+            - link "AES加密/解密 工具图标 AES加密/解密 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。" [ref=e209] [cursor=pointer]:
+              - /url: /aes-encrypt/
+              - heading "AES加密/解密 工具图标 AES加密/解密" [level=3] [ref=e210]:
+                - img "AES加密/解密 工具图标" [ref=e211]
+                - generic [ref=e212]: AES加密/解密
+              - paragraph [ref=e213]: 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。
+          - article [ref=e214]:
+            - link "HTpasswd密码生成器 工具图标 HTpasswd密码生成器 实时HTpasswd密码生成，输入即转换，支持 SHA1/SHA256/MD5 算法兼容，快速获取标准化认证格式。" [ref=e215] [cursor=pointer]:
+              - /url: /htpasswd/
+              - heading "HTpasswd密码生成器 工具图标 HTpasswd密码生成器" [level=3] [ref=e216]:
+                - img "HTpasswd密码生成器 工具图标" [ref=e217]
+                - generic [ref=e218]: HTpasswd密码生成器
+              - paragraph [ref=e219]: 实时HTpasswd密码生成，输入即转换，支持 SHA1/SHA256/MD5 算法兼容，快速获取标准化认证格式。
+          - article [ref=e220]:
+            - link "随机密码生成器 工具图标 随机密码生成器 一键密码生成，实时输出结果，结合使用场景自定义长度与字符类型，快速生成高强度密码。" [ref=e221] [cursor=pointer]:
+              - /url: /random-pwd/
+              - heading "随机密码生成器 工具图标 随机密码生成器" [level=3] [ref=e222]:
+                - img "随机密码生成器 工具图标" [ref=e223]
+                - generic [ref=e224]: 随机密码生成器
+              - paragraph [ref=e225]: 一键密码生成，实时输出结果，结合使用场景自定义长度与字符类型，快速生成高强度密码。
+          - article [ref=e226]:
+            - link "Escape编码/解码 工具图标 Escape编码/解码 一键转换Escape编码，实时编码解码文本，支持传统字符格式，快速处理遗留系统数据。" [ref=e227] [cursor=pointer]:
+              - /url: /escape/
+              - heading "Escape编码/解码 工具图标 Escape编码/解码" [level=3] [ref=e228]:
+                - img "Escape编码/解码 工具图标" [ref=e229]
+                - generic [ref=e230]: Escape编码/解码
+              - paragraph [ref=e231]: 一键转换Escape编码，实时编码解码文本，支持传统字符格式，快速处理遗留系统数据。
+          - article [ref=e232]:
+            - link "UTF-8编码/解码 工具图标 UTF-8编码/解码 实时 UTF-8 编码解码，输入即转换，支持全字符兼容，快速获取标准化 UTF-8 转义编码。" [ref=e233] [cursor=pointer]:
+              - /url: /utf-8/
+              - heading "UTF-8编码/解码 工具图标 UTF-8编码/解码" [level=3] [ref=e234]:
+                - img "UTF-8编码/解码 工具图标" [ref=e235]
+                - generic [ref=e236]: UTF-8编码/解码
+              - paragraph [ref=e237]: 实时 UTF-8 编码解码，输入即转换，支持全字符兼容，快速获取标准化 UTF-8 转义编码。
+          - article [ref=e238]:
+            - link "HTMl实体编码/解码 工具图标 HTMl实体编码/解码 实时 HTML 实体编码解码，输入即转换，支持全字符兼容，快速获取标准化 HTML 实体编码。" [ref=e239] [cursor=pointer]:
+              - /url: /html-entity/
+              - heading "HTMl实体编码/解码 工具图标 HTMl实体编码/解码" [level=3] [ref=e240]:
+                - img "HTMl实体编码/解码 工具图标" [ref=e241]
+                - generic [ref=e242]: HTMl实体编码/解码
+              - paragraph [ref=e243]: 实时 HTML 实体编码解码，输入即转换，支持全字符兼容，快速获取标准化 HTML 实体编码。
+          - article [ref=e244]:
+            - link "URL编码/解码 工具图标 URL编码/解码 实时 URL 编码解码，输入即转换，支持全字符兼容，快速获取标准化编码结果，提升开发与调试效率。" [ref=e245] [cursor=pointer]:
+              - /url: /url-encode/
+              - heading "URL编码/解码 工具图标 URL编码/解码" [level=3] [ref=e246]:
+                - img "URL编码/解码 工具图标" [ref=e247]
+                - generic [ref=e248]: URL编码/解码
+              - paragraph [ref=e249]: 实时 URL 编码解码，输入即转换，支持全字符兼容，快速获取标准化编码结果，提升开发与调试效率。
+          - article [ref=e250]:
+            - link "摩斯密码编码/解码 工具图标 摩斯密码编码/解码 一键转换摩斯密码，实时编码解码文本，支持标准字符格式，快速获取加密通信内容。" [ref=e251] [cursor=pointer]:
+              - /url: /morse/
+              - heading "摩斯密码编码/解码 工具图标 摩斯密码编码/解码" [level=3] [ref=e252]:
+                - img "摩斯密码编码/解码 工具图标" [ref=e253]
+                - generic [ref=e254]: 摩斯密码编码/解码
+              - paragraph [ref=e255]: 一键转换摩斯密码，实时编码解码文本，支持标准字符格式，快速获取加密通信内容。
+          - article [ref=e256]:
+            - link "JWT解码查看器 工具图标 JWT解码查看器 支持一键解析 JWT 令牌数据，输出标准格式化 JSON，适用于接口调试、令牌校验、信息查看等场景。" [ref=e257] [cursor=pointer]:
+              - /url: /jwt-decoder/
+              - heading "JWT解码查看器 工具图标 JWT解码查看器" [level=3] [ref=e258]:
+                - img "JWT解码查看器 工具图标" [ref=e259]
+                - generic [ref=e260]: JWT解码查看器
+              - paragraph [ref=e261]: 支持一键解析 JWT 令牌数据，输出标准格式化 JSON，适用于接口调试、令牌校验、信息查看等场景。
+          - article [ref=e262]:
+            - link "Base64编码/解码 工具图标 Base64编码/解码 一键编码解码，实时转换Base64，支持文本图片双模式，快速生成安全数据，提升开发效率！" [ref=e263] [cursor=pointer]:
+              - /url: /base64-encode/
+              - heading "Base64编码/解码 工具图标 Base64编码/解码" [level=3] [ref=e264]:
+                - img "Base64编码/解码 工具图标" [ref=e265]
+                - generic [ref=e266]: Base64编码/解码
+              - paragraph [ref=e267]: 一键编码解码，实时转换Base64，支持文本图片双模式，快速生成安全数据，提升开发效率！
+          - article [ref=e268]:
+            - link "MD5安全加密 工具图标 MD5安全加密 智能计算MD5值，生成32位与16位密文，支持大小写切换和一键复制，保障数据安全高效处理！" [ref=e269] [cursor=pointer]:
+              - /url: /md5/
+              - heading "MD5安全加密 工具图标 MD5安全加密" [level=3] [ref=e270]:
+                - img "MD5安全加密 工具图标" [ref=e271]
+                - generic [ref=e272]: MD5安全加密
+              - paragraph [ref=e273]: 智能计算MD5值，生成32位与16位密文，支持大小写切换和一键复制，保障数据安全高效处理！
+          - article [ref=e274]:
+            - link "JS混淆加密 工具图标 JS混淆加密 智能混淆代码，自动加密核心逻辑，绑定安全域名并动态防护，降低代码被盗用风险。" [ref=e275] [cursor=pointer]:
+              - /url: /js-obfuscator/
+              - heading "JS混淆加密 工具图标 JS混淆加密" [level=3] [ref=e276]:
+                - img "JS混淆加密 工具图标" [ref=e277]
+                - generic [ref=e278]: JS混淆加密
+              - paragraph [ref=e279]: 智能混淆代码，自动加密核心逻辑，绑定安全域名并动态防护，降低代码被盗用风险。
+      - generic [ref=e280]:
+        - heading "常见问题" [level=2] [ref=e281]:
+          - img [ref=e282]
+          - text: 常见问题
+        - generic [ref=e286]:
+          - heading "✔️ 什么是 Gzip 压缩？它有什么优势？" [level=3] [ref=e287]
+          - paragraph [ref=e288]:
+            - text: Gzip 是一种广泛使用的数据压缩算法和文件格式，通过 DEFLATE 算法消除文件中的冗余数据，能够将文本文件大小减少60%-80%。其主要优势包括：
+            - strong [ref=e289]: 大幅减小传输数据量
+            - text: 、
+            - strong [ref=e290]: 加快网页加载速度
+            - text: 、
+            - strong [ref=e291]: 节省服务器带宽成本
+            - text: 、
+            - strong [ref=e292]: 支持流式压缩解压
+            - text: ，是现代 Web 性能优化的关键技术之一。
+        - generic [ref=e293]:
+          - heading "📌 Gzip 压缩支持哪些类型的文件？" [level=3] [ref=e294]
+          - paragraph [ref=e295]:
+            - text: Gzip 对不同类型的文件压缩效果差异明显：对
+            - strong [ref=e296]: 文本文件（HTML、CSS、JavaScript、JSON、XML等）
+            - text: 压缩效果极佳；对
+            - strong [ref=e297]: 源代码、配置文件、日志文件
+            - text: 也有很好的压缩率；但对
+            - strong [ref=e298]: 已压缩的文件（JPEG、PNG、MP4、ZIP 等）
+            - text: 压缩效果有限，甚至可能增大文件体积。这是因为已压缩文件缺乏可供压缩的冗余模式。
+        - generic [ref=e299]:
+          - heading "📚 Gzip在 Web 开发中有哪些实际应用场景？" [level=3] [ref=e300]
+          - paragraph [ref=e301]:
+            - text: Gzi p在现代 Web 开发中广泛应用：
+            - strong [ref=e302]: HTTP内容压缩
+            - text: （服务器自动压缩HTML、CSS、JS文件）、
+            - strong [ref=e303]: API数据传输优化
+            - text: 、
+            - strong [ref=e304]: 日志文件归档存储
+            - text: 、
+            - strong [ref=e305]: 静态资源打包分发
+            - text: 、
+            - strong [ref=e306]: 数据库备份压缩
+            - text: ，以及
+            - strong [ref=e307]: 移动端数据节省
+            - text: 。几乎所有现代 Web 服务器和 CDN 都默认启用 Gzip 压缩。
+        - generic [ref=e308]:
+          - heading "🎓 Gzip 压缩与 Brotli、Deflate 等其他压缩算法有什么区别？" [level=3] [ref=e309]
+          - paragraph [ref=e310]:
+            - text: 主要区别包括：
+            - strong [ref=e311]: Gzip
+            - text: 是通用且广泛支持的压缩标准，平衡了压缩率和速度；
+            - strong [ref=e312]: Brotli
+            - text: （Google开发）提供更好的压缩率但计算成本更高；
+            - strong [ref=e313]: Deflate
+            - text: 是 Gzip 使用的底层算法；
+            - strong [ref=e314]: Zstandard
+            - text: （Facebook 开发）在速度和压缩率间取得更好平衡。Gzip 因兼容性最好而成为 Web 标准配置。
+        - generic [ref=e315]:
+          - heading "🛡️ Gzip 压缩是否会影响 SEO 或网站性能？" [level=3] [ref=e316]
+          - paragraph [ref=e317]:
+            - text: 恰恰相反，Gzip 压缩对 SEO 和性能都有积极影响：
+            - strong [ref=e318]: 提升页面加载速度
+            - text: （直接影响 SEO 排名）、
+            - strong [ref=e319]: 减少带宽使用
+            - text: 、
+            - strong [ref=e320]: 改善用户体验
+            - text: （特别是移动端）。Google 等搜索引擎明确表示网站速度是排名因素之一。唯一的代价是轻微的服务器 CPU 开销，但收益远大于成本。
+      - generic "工具快速切换" [ref=e321]:
+        - list [ref=e323]:
+          - listitem [ref=e324] [cursor=pointer]: 热门推荐
+          - listitem [ref=e325] [cursor=pointer]: 站长工具
+          - listitem [ref=e326] [cursor=pointer]: 编程开发
+          - listitem [ref=e327] [cursor=pointer]: 文本处理
+          - listitem [ref=e328] [cursor=pointer]: 图像处理
+          - listitem [ref=e329] [cursor=pointer]: 文档转换
+          - listitem [ref=e330] [cursor=pointer]: 音频视频
+          - listitem [ref=e331] [cursor=pointer]: 便民工具
+          - listitem [ref=e332] [cursor=pointer]: 编码加密
+          - listitem [ref=e333] [cursor=pointer]: 单位转换
+        - table [ref=e335]:
+          - rowgroup [ref=e336]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e337]:
+              - cell "微信聊天模拟器" [ref=e338]:
+                - link "微信聊天模拟器" [ref=e339] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e340]:
+                - link "微信零钱模拟器" [ref=e341] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e342]:
+                - link "文字转语音工具" [ref=e343] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e344]:
+                - link "法定退休年龄计算器" [ref=e345] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e346]:
+                - link "身份证号码查询" [ref=e347] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e348]:
+                - link "在线随机点名" [ref=e349] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e350]:
+              - cell "报名证件照处理" [ref=e351]:
+                - link "报名证件照处理" [ref=e352] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e353]:
+                - link "随机密码生成器" [ref=e354] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e355]:
+                - link "二维码生成器" [ref=e356] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e357]:
+                - link "世界高清地图" [ref=e358] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e359]:
+                - link "键盘按键检测" [ref=e360] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e361]:
+                - link "手机归属地查询" [ref=e362] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e363]:
+              - cell "在线字数统计" [ref=e364]:
+                - link "在线字数统计" [ref=e365] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e366]:
+                - link "JSON格式化/压缩" [ref=e367] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e368]:
+                - link "Base64编码/解码" [ref=e369] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e370]:
+                - link "图片高清压缩" [ref=e371] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e372]:
+                - link "摩斯密码编码/解码" [ref=e373] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e374]:
+                - link "节日时间倒计时" [ref=e375] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e376]:
+              - cell "本机IP地址查询" [ref=e377]:
+                - link "本机IP地址查询" [ref=e378] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e379]:
+                - link "Unix时间戳转换" [ref=e380] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e381]:
+                - link "图片取色器" [ref=e382] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e383]:
+                - link "色盲色弱测试" [ref=e384] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e385]:
+                - link "SVG在线编辑器" [ref=e386] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e387]:
+                - link "中国高清地图" [ref=e388] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e389]:
+              - cell "查看网页源码" [ref=e390]:
+                - link "查看网页源码" [ref=e391] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e392]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e393]
+        - paragraph [ref=e394]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e395]
+    - generic [ref=e396]:
+      - navigation "页脚链接" [ref=e397]:
+        - link "关于我们" [ref=e398] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e399] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e400] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e401] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e402] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e403] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e404] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e405] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e406] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e407]:
+        - generic [ref=e408]:
+          - text: © 2025
+          - link "懒人工具" [ref=e409] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e411] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e412]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e413] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

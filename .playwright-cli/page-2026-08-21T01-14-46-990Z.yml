@@ -1,0 +1,96 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/morse
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/morse
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/morse
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - heading "在线摩斯密码编码/解码工具" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: 摩斯密码
+          - generic [ref=e22]: 摩斯电码
+          - generic [ref=e23]: 编码解码
+          - generic [ref=e24]: 电报码
+        - paragraph [ref=e25]: 在线摩斯密码编码与解码工具，支持 A-Z、0-9 及常用标点的标准 ITU 摩斯电码互转，字符间空格分隔、单词间斜杠分隔，未知字符自动跳过，全部本地处理，保障隐私。
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - button "摩斯密码编码" [ref=e29] [cursor=pointer]
+          - button "摩斯密码解码" [ref=e30] [cursor=pointer]
+          - button "查看示例" [ref=e31] [cursor=pointer]
+          - button "复制结果" [ref=e32] [cursor=pointer]
+          - button "清空数据" [ref=e33] [cursor=pointer]
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]: 输入
+            - textbox "请输入要进行（摩斯密码）编码/解码的文本..." [ref=e37]
+          - generic [ref=e38]:
+            - generic [ref=e40]: 结果
+            - textbox "这里显示输出的摩斯密码结果" [ref=e41]
+        - generic [ref=e42]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e43]:
+        - heading "使用说明" [level=2] [ref=e44]
+        - list [ref=e45]:
+          - listitem [ref=e46]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e47]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e48]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e49]: 所有操作本地完成，保障隐私
+      - generic [ref=e50]:
+        - heading "同类推荐" [level=2] [ref=e51]
+        - generic [ref=e52]:
+          - link "在线文本与十六进制互转工具" [ref=e53] [cursor=pointer]:
+            - /url: /zh/text-hex
+            - generic [ref=e54]: 在线文本与十六进制互转工具
+          - link "在线文本与八进制互转工具" [ref=e55] [cursor=pointer]:
+            - /url: /zh/text-octal
+            - generic [ref=e56]: 在线文本与八进制互转工具
+          - link "在线文本与二进制互转工具" [ref=e57] [cursor=pointer]:
+            - /url: /zh/text-bin
+            - generic [ref=e58]: 在线文本与二进制互转工具
+      - generic [ref=e59]:
+        - heading "常见问题" [level=2] [ref=e60]
+        - group [ref=e61]:
+          - generic "什么是摩斯密码？" [ref=e62] [cursor=pointer]
+        - group [ref=e63]:
+          - generic "如何区分字符和单词？" [ref=e64] [cursor=pointer]
+        - group [ref=e65]:
+          - generic "支持中文吗？" [ref=e66] [cursor=pointer]
+  - contentinfo [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - heading "热门推荐" [level=4] [ref=e70]
+        - link "JSON" [ref=e71] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e72]:
+        - heading "站长工具" [level=4] [ref=e73]
+        - link "IP" [ref=e74] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e75]:
+        - heading "关于" [level=4] [ref=e76]
+        - link "关于我们" [ref=e77] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e78] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e79]:
+        - heading "合规" [level=4] [ref=e80]
+        - link "服务条款" [ref=e81] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e82] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e83]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e84]

@@ -5180,5 +5180,471 @@
       "text-hex",
       "text-octal"
     ]
+  },
+  {
+    "id": "base32-encode",
+    "title": "在线Base32编码/解码工具",
+    "h1": "在线Base32编码/解码工具",
+    "description": "在线Base32编码与解码工具，遵循 RFC 4648 标准（A-Z、2-7，= 填充），支持中文等任意 UTF-8 文本，解码容忍小写、缺失填充与空格，非法字符明确提示，全部本地处理，保障隐私。",
+    "title_en": "Online Base32 Encoder / Decoder",
+    "h1_en": "Online Base32 Encoder / Decoder",
+    "description_en": "Encode and decode RFC 4648 standard Base32 (A-Z, 2-7, = padding) for any UTF-8 text including Chinese. Decoding tolerates lowercase, missing padding and spaces, with clear errors for invalid characters. Fully local processing.",
+    "title_es": "Codificador / Decodificador Base32 en Línea",
+    "h1_es": "Codificador / Decodificador Base32 en Línea",
+    "description_es": "Codifique y decodifique Base32 estándar RFC 4648 (A-Z, 2-7, relleno =) para cualquier texto UTF-8 incluido el chino. La decodificación tolera minúsculas, relleno faltante y espacios, con errores claros para caracteres no válidos. Procesamiento local.",
+    "tags": [
+      "Base32编码",
+      "Base32解码",
+      "RFC 4648",
+      "编码转换"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-base64-bulk.svg",
+    "faqs": [
+      {
+        "q": "什么是 Base32？",
+        "a": "Base32 是 RFC 4648 定义的编码方式，用 A-Z 和 2-7 共 32 个字符表示二进制数据，常用于需要大小写不敏感场景的数据传输。"
+      },
+      {
+        "q": "支持中文吗？",
+        "a": "支持。工具先将文本按 UTF-8 编码为字节序列再进行 Base32 转换，中文、emoji 等任意字符均可正确编码和解码。"
+      },
+      {
+        "q": "解码时对格式有哪些容错？",
+        "a": "解码容忍小写字母、缺失的 = 填充以及空格分隔；遇到字母表之外的非法字符会明确报错提示。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is Base32?",
+        "a": "Base32 is an encoding defined by RFC 4648 that represents binary data using 32 characters (A-Z and 2-7), commonly used where case-insensitive data transfer is needed."
+      },
+      {
+        "q": "Does it support Chinese?",
+        "a": "Yes. Text is first encoded as UTF-8 bytes before Base32 conversion, so Chinese, emoji and any characters are encoded and decoded correctly."
+      },
+      {
+        "q": "What format tolerance does decoding offer?",
+        "a": "Decoding tolerates lowercase letters, missing = padding and spaces; invalid characters outside the alphabet produce a clear error message."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es Base32?",
+        "a": "Base32 es una codificación definida por RFC 4648 que representa datos binarios con 32 caracteres (A-Z y 2-7), útil cuando se necesita transferencia insensible a mayúsculas."
+      },
+      {
+        "q": "¿Soporta chino?",
+        "a": "Sí. El texto se codifica primero como bytes UTF-8 antes de la conversión Base32, por lo que chino, emoji y cualquier carácter se procesan correctamente."
+      },
+      {
+        "q": "¿Qué tolerancia tiene la decodificación?",
+        "a": "La decodificación tolera minúsculas, relleno = faltante y espacios; los caracteres fuera del alfabeto generan un mensaje de error claro."
+      }
+    ],
+    "related": [
+      "base64-encode",
+      "base64-bulk"
+    ]
+  },
+  {
+    "id": "base64-encode",
+    "title": "在线Base64编码/解码工具",
+    "h1": "在线Base64编码/解码工具",
+    "description": "在线Base64编码与解码工具，UTF-8 安全支持中文与 emoji，解码兼容 URL-Safe 变体（-_）与缺失填充，非法输入明确报错，全部本地处理，不上传任何数据。",
+    "title_en": "Online Base64 Encoder / Decoder",
+    "h1_en": "Online Base64 Encoder / Decoder",
+    "description_en": "Encode and decode Base64 with full UTF-8 safety for Chinese and emoji. Decoding accepts URL-Safe variants (-_) and missing padding, with clear errors for invalid input. Fully local processing.",
+    "title_es": "Codificador / Decodificador Base64 en Línea",
+    "h1_es": "Codificador / Decodificador Base64 en Línea",
+    "description_es": "Codifique y decodifique Base64 con total seguridad UTF-8 para chino y emoji. La decodificación acepta variantes URL-Safe (-_) y relleno faltante, con errores claros. Procesamiento local.",
+    "tags": [
+      "Base64编码",
+      "Base64解码",
+      "URL-Safe",
+      "编码转换"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-base64-bulk.svg",
+    "faqs": [
+      {
+        "q": "什么是 Base64？",
+        "a": "Base64 是用 64 个可打印字符（A-Z、a-z、0-9、+、/）表示二进制数据的编码方式，常用于邮件附件、Data URL 等文本协议中传输二进制内容。"
+      },
+      {
+        "q": "中文和 emoji 能编码吗？",
+        "a": "可以。工具先将文本按 UTF-8 转为字节再进行 Base64 编码，因此中文、emoji 等多字节字符都能正确双向转换。"
+      },
+      {
+        "q": "支持 URL-Safe 变体吗？",
+        "a": "支持。解码时自动将 - 和 _ 视作标准字符 + 和 /，并容忍缺失的 = 填充；包含非法字符或长度错误的输入会明确报错。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is Base64?",
+        "a": "Base64 represents binary data using 64 printable characters (A-Z, a-z, 0-9, +, /), commonly used to carry binary content in text protocols such as email attachments and Data URLs."
+      },
+      {
+        "q": "Can it encode Chinese and emoji?",
+        "a": "Yes. Text is converted to UTF-8 bytes before Base64 encoding, so multi-byte characters like Chinese and emoji round-trip correctly."
+      },
+      {
+        "q": "Is the URL-Safe variant supported?",
+        "a": "Yes. Decoding automatically treats - and _ as + and /, and tolerates missing = padding; inputs with invalid characters or wrong length raise a clear error."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es Base64?",
+        "a": "Base64 representa datos binarios con 64 caracteres imprimibles (A-Z, a-z, 0-9, +, /), usado comúnmente para transportar contenido binario en protocolos de texto como adjuntos de correo y Data URLs."
+      },
+      {
+        "q": "¿Puede codificar chino y emoji?",
+        "a": "Sí. El texto se convierte a bytes UTF-8 antes de la codificación Base64, por lo que los caracteres multibyte como chino y emoji se procesan correctamente."
+      },
+      {
+        "q": "¿Se admite la variante URL-Safe?",
+        "a": "Sí. La decodificación trata - y _ como + y / automáticamente y tolera relleno = faltante; entradas con caracteres no válidos o longitud incorrecta generan un error claro."
+      }
+    ],
+    "related": [
+      "base32-encode",
+      "base64-bulk"
+    ]
+  },
+  {
+    "id": "base64-bulk",
+    "title": "在线Base64批量编码/解码工具",
+    "h1": "在线Base64批量编码/解码工具",
+    "description": "在线Base64批量编码与解码工具，每行文本独立转换互不影响，输出「原文 → 结果」逐行对应，失败行明确标注不影响其他行，UTF-8 安全支持中文，全部本地处理。",
+    "title_en": "Online Bulk Base64 Encoder / Decoder",
+    "h1_en": "Online Bulk Base64 Encoder / Decoder",
+    "description_en": "Encode or decode Base64 line by line independently. Output maps each source line to its result, failed lines are clearly marked without affecting others. UTF-8 safe for Chinese, fully local processing.",
+    "title_es": "Codificador / Decodificador Base64 por Lotes en Línea",
+    "h1_es": "Codificador / Decodificador Base64 por Lotes en Línea",
+    "description_es": "Codifique o decodifique Base64 línea por línea de forma independiente. La salida mapea cada línea original con su resultado; las líneas fallidas se marcan sin afectar a las demás. Seguro para UTF-8, procesamiento local.",
+    "tags": [
+      "Base64批量",
+      "批量编码",
+      "批量解码",
+      "编码转换"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-base64-bulk.svg",
+    "faqs": [
+      {
+        "q": "如何批量转换？",
+        "a": "把需要转换的文本逐行粘贴到输入框（每行一个），点击「批量编码」或「批量解码」，输出区按「原文 → 结果」逐行对应展示。"
+      },
+      {
+        "q": "某一行出错会影响其他行吗？",
+        "a": "不会。每行独立转换，失败行会在对应位置显示明确的错误信息，其余行正常输出结果，方便定位问题行。"
+      },
+      {
+        "q": "支持哪些内容？",
+        "a": "支持任意 UTF-8 文本（含中文、emoji）。编码模式把每行原文转为 Base64；解码模式容忍 URL-Safe 变体与缺失填充。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How do I convert in bulk?",
+        "a": "Paste your text into the input box one item per line, then click Bulk Encode or Bulk Decode. The output shows each source line mapped to its result."
+      },
+      {
+        "q": "Does one failing line affect the others?",
+        "a": "No. Each line is converted independently; failed lines show a clear error message in place while all other lines output normally, making problem lines easy to locate."
+      },
+      {
+        "q": "What content is supported?",
+        "a": "Any UTF-8 text including Chinese and emoji. Encode mode converts each line to Base64; decode mode tolerates URL-Safe variants and missing padding."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convierto en lote?",
+        "a": "Pegue el texto en el cuadro de entrada, un elemento por línea, y haga clic en Codificar o Decodificar en Lote. La salida muestra cada línea original junto a su resultado."
+      },
+      {
+        "q": "¿Una línea con error afecta a las demás?",
+        "a": "No. Cada línea se convierte de forma independiente; las líneas fallidas muestran un mensaje de error claro en su lugar mientras las demás se procesan normalmente."
+      },
+      {
+        "q": "¿Qué contenido admite?",
+        "a": "Cualquier texto UTF-8 incluido chino y emoji. El modo codificación convierte cada línea a Base64; la decodificación tolera variantes URL-Safe y relleno faltante."
+      }
+    ],
+    "related": [
+      "base32-encode",
+      "base64-encode"
+    ]
+  },
+  {
+    "id": "jwt-decoder",
+    "title": "在线JWT解码查看器",
+    "h1": "在线JWT解码查看器",
+    "description": "在线 JWT 解码查看器，粘贴令牌即可拆解 Header 与 Payload 并以格式化 JSON 展示，自动将 exp/iat/nbf 时间戳转为可读时间，支持 Base64URL 与中文载荷，仅本地解码不验证签名，保障隐私。",
+    "title_en": "Online JWT Decoder Viewer",
+    "h1_en": "Online JWT Decoder Viewer",
+    "description_en": "Paste a JWT token to instantly decode its Header and Payload as formatted JSON, with exp/iat/nbf timestamps converted to readable time. Supports Base64URL and unicode claims, decoded locally without signature verification.",
+    "title_es": "Visor de Decodificación de JWT en Línea",
+    "h1_es": "Visor de Decodificación de JWT en Línea",
+    "description_es": "Pegue un token JWT para decodificar al instante su cabecera y carga útil como JSON formateado, con las marcas de tiempo exp/iat/nbf convertidas a hora legible. Compatible con Base64URL y unicode, decodificado localmente sin verificar la firma.",
+    "tags": [
+      "JWT解码",
+      "JWT解析",
+      "Token查看",
+      "Base64URL"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-jwt-decoder.svg",
+    "faqs": [
+      {
+        "q": "JWT 解码会验证签名吗？",
+        "a": "不会。本工具只做 Base64URL 解码与 JSON 格式化展示，方便查看载荷内容，不做任何签名校验，也不适合用于鉴权判断。"
+      },
+      {
+        "q": "为什么我的令牌解码失败？",
+        "a": "常见原因：令牌不是标准三段式结构（header.payload.signature）、某一段不是合法 Base64URL、或载荷不是合法 JSON，工具会给出具体错误位置提示。"
+      },
+      {
+        "q": "exp 和 iat 字段是什么？",
+        "a": "它们是 JWT 标准声明中的时间戳（Unix 秒）：iat 为签发时间，exp 为过期时间，nbf 为生效时间。工具会自动将其转换为可读的 UTC 时间。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Does JWT decoding verify the signature?",
+        "a": "No. This tool only performs Base64URL decoding and JSON formatting so you can inspect claims. It does not verify signatures and should not be used for authorization decisions."
+      },
+      {
+        "q": "Why does my token fail to decode?",
+        "a": "Common causes: the token is not a standard three-part structure (header.payload.signature), a segment is not valid Base64URL, or the payload is not valid JSON. The tool reports the exact problem."
+      },
+      {
+        "q": "What are exp and iat fields?",
+        "a": "They are standard JWT time claims in Unix seconds: iat is issued-at, exp is expiration, nbf is not-before. The tool converts them into readable UTC times automatically."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿La decodificación de JWT verifica la firma?",
+        "a": "No. Esta herramienta solo realiza la decodificación Base64URL y el formato JSON para inspeccionar los claims. No verifica firmas ni debe usarse para decisiones de autorización."
+      },
+      {
+        "q": "¿Por qué falla la decodificación de mi token?",
+        "a": "Causas comunes: el token no tiene la estructura estándar de tres partes (header.payload.signature), algún segmento no es Base64URL válido o la carga útil no es JSON válido. La herramienta indica el problema exacto."
+      },
+      {
+        "q": "¿Qué son los campos exp e iat?",
+        "a": "Son claims de tiempo estándar del JWT en segundos Unix: iat es la hora de emisión, exp la de expiración y nbf la de no antes. La herramienta los convierte automáticamente a horas UTC legibles."
+      }
+    ],
+    "related": [
+      "random-pwd",
+      "entropy-calculator",
+      "gzip"
+    ]
+  },
+  {
+    "id": "random-pwd",
+    "title": "在线随机密码生成器",
+    "h1": "在线随机密码生成器",
+    "description": "在线随机密码生成器，基于浏览器安全随机数 crypto.getRandomValues 与拒绝采样无偏生成，可自定义数量、长度区间、大小写/数字/特殊符号开关及追加自定义字符集，保证每种启用类型至少出现一次，全程本地生成不上传。",
+    "title_en": "Online Random Password Generator",
+    "h1_en": "Online Random Password Generator",
+    "description_en": "Generate random passwords locally using the browser's secure crypto.getRandomValues with unbiased rejection sampling. Customize count, length range, character type toggles and extra custom characters, guaranteeing at least one char of each enabled type.",
+    "title_es": "Generador de Contraseñas Aleatorias en Línea",
+    "h1_es": "Generador de Contraseñas Aleatorias en Línea",
+    "description_es": "Genere contraseñas aleatorias localmente con crypto.getRandomValues y muestreo por rechazo sin sesgos. Personalice cantidad, rango de longitud, tipos de caracteres y caracteres personalizados, garantizando al menos uno de cada tipo activado.",
+    "tags": [
+      "随机密码",
+      "密码生成器",
+      "强密码",
+      "安全随机数"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-random-pwd.svg",
+    "faqs": [
+      {
+        "q": "生成的密码安全吗？",
+        "a": "密码使用浏览器内置的加密级随机数 API（crypto.getRandomValues）并通过拒绝采样消除模偏差，全部在本地生成，不会经过网络传输或被记录。"
+      },
+      {
+        "q": "如何保证包含每种字符类型？",
+        "a": "在长度允许时，每个密码会先从每种启用的字符类型中各取一个字符，再随机填充剩余位并整体乱序，确保大写、小写、数字、特殊符号至少各出现一次。"
+      },
+      {
+        "q": "多长的密码才够强？",
+        "a": "一般建议至少 12 位并混合多种字符类型；配合站内的熵值计算器可以量化评估密码强度，60 bit 以上属于很强。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Are the generated passwords secure?",
+        "a": "Passwords use the browser's cryptographic random API (crypto.getRandomValues) with rejection sampling to remove modulo bias. Everything is generated locally and never sent over the network or logged."
+      },
+      {
+        "q": "How is every character type guaranteed?",
+        "a": "When length allows, each password first takes one character from every enabled type, fills the rest randomly, then shuffles, ensuring uppercase, lowercase, digits and symbols each appear at least once."
+      },
+      {
+        "q": "How long should a password be?",
+        "a": "At least 12 characters mixing multiple types is recommended. Use our entropy calculator to quantify strength; above 60 bits is considered very strong."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Son seguras las contraseñas generadas?",
+        "a": "Usan la API criptográfica del navegador (crypto.getRandomValues) con muestreo por rechazo para eliminar el sesgo de módulo. Todo se genera localmente y nunca se envía ni registra."
+      },
+      {
+        "q": "¿Cómo se garantiza cada tipo de carácter?",
+        "a": "Cuando la longitud lo permite, cada contraseña toma primero un carácter de cada tipo activado, rellena el resto al azar y mezcla todo, asegurando mayúsculas, minúsculas, dígitos y símbolos."
+      },
+      {
+        "q": "¿Qué longitud de contraseña es suficiente?",
+        "a": "Se recomiendan al menos 12 caracteres con varios tipos mezclados. Use nuestra calculadora de entropía para cuantificar la fuerza; más de 60 bits se considera muy fuerte."
+      }
+    ],
+    "related": [
+      "jwt-decoder",
+      "entropy-calculator",
+      "gzip"
+    ]
+  },
+  {
+    "id": "entropy-calculator",
+    "title": "在线密码熵值计算器",
+    "h1": "在线密码熵值计算器",
+    "description": "在线密码熵值计算器，实时检测字符池（小写26/大写26/数字10/特殊符号33/其他 Unicode 字符逐个计入），按 熵=长度×log2(池大小) 计算，输出组合数科学计数法与弱/一般/强/很强/极强五档评级，纯本地计算不上传密码。",
+    "title_en": "Online Password Entropy Calculator",
+    "h1_en": "Online Password Entropy Calculator",
+    "description_en": "Detects the character pool in real time (lowercase 26 / uppercase 26 / digits 10 / symbols 33 / other unicode chars counted individually), computes entropy = length × log2(pool), shows combinations in scientific notation and a five-level strength rating, fully local.",
+    "title_es": "Calculadora de Entropía de Contraseñas en Línea",
+    "h1_es": "Calculadora de Entropía de Contraseñas en Línea",
+    "description_es": "Detecta el conjunto de caracteres en tiempo real (minúsculas 26 / mayúsculas 26 / dígitos 10 / símbolos 33 / otros caracteres unicode individualmente), calcula entropía = longitud × log2(conjunto), muestra combinaciones en notación científica y cinco niveles de fuerza, todo local.",
+    "tags": [
+      "密码强度",
+      "熵值计算",
+      "密码安全",
+      "信息熵"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-entropy-calculator.svg",
+    "faqs": [
+      {
+        "q": "密码熵是怎么计算的？",
+        "a": "先根据密码出现的字符类别确定字符池大小 N（小写 26、大写 26、数字 10、常用符号 33，其他 Unicode 字符按出现去重逐个计入），熵 = 密码长度 × log2(N)，单位为比特。"
+      },
+      {
+        "q": "强度评级是怎么划分的？",
+        "a": "按熵值分五档：<28 弱、28-35 一般、36-59 强、60-127 很强、≥128 极强。评级只反映穷举难度，不代表网站存储方式是否安全。"
+      },
+      {
+        "q": "输入的密码会被上传吗？",
+        "a": "不会。所有计算均在浏览器本地实时完成，输入框默认以圆点遮蔽，密码不会被记录或发送到任何服务器。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How is password entropy computed?",
+        "a": "The pool size N is determined by which character classes appear (lowercase 26, uppercase 26, digits 10, common symbols 33, plus each distinct other unicode character). Entropy = length × log2(N), measured in bits."
+      },
+      {
+        "q": "How are strength ratings defined?",
+        "a": "Five levels by entropy: <28 weak, 28-35 fair, 36-59 strong, 60-127 very strong, ≥128 extremely strong. Ratings reflect brute-force difficulty only, not how a site stores passwords."
+      },
+      {
+        "q": "Is my password uploaded?",
+        "a": "Never. All calculations run locally in your browser in real time, the input is masked by default, and nothing is recorded or sent to any server."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo se calcula la entropía?",
+        "a": "El tamaño del conjunto N se determina por las clases presentes (minúsculas 26, mayúsculas 26, dígitos 10, símbolos comunes 33, más cada carácter unicode distinto). Entropía = longitud × log2(N), en bits."
+      },
+      {
+        "q": "¿Cómo se definen los niveles de fuerza?",
+        "a": "Cinco niveles por entropía: <28 débil, 28-35 regular, 36-59 fuerte, 60-127 muy fuerte, ≥128 extremadamente fuerte. Reflejan solo la dificultad de fuerza bruta."
+      },
+      {
+        "q": "¿Se sube mi contraseña?",
+        "a": "Nunca. Todos los cálculos se ejecutan localmente en su navegador en tiempo real, la entrada se oculta por defecto y nada se envía a ningún servidor."
+      }
+    ],
+    "related": [
+      "random-pwd",
+      "jwt-decoder",
+      "gzip"
+    ]
+  },
+  {
+    "id": "gzip",
+    "title": "在线Gzip编码/解码工具",
+    "h1": "在线Gzip编码/解码工具",
+    "description": "在线 Gzip 编码与解码工具，基于浏览器原生 CompressionStream 将文本压缩为 gzip 并输出 Base64 字符串，也可将 Base64 的 gzip 数据还原为文本，支持中文与 emoji，损坏数据给出明确报错，全部本地处理。",
+    "title_en": "Online Gzip Encoder / Decoder",
+    "h1_en": "Online Gzip Encoder / Decoder",
+    "description_en": "Compress text to gzip via the native CompressionStream and output a Base64 string, or restore Base64 gzip data back to text. Supports Chinese and emoji, clear errors on corrupted data, fully local processing.",
+    "title_es": "Codificador / Decodificador Gzip en Línea",
+    "h1_es": "Codificador / Decodificador Gzip en Línea",
+    "description_es": "Comprima texto a gzip mediante CompressionStream nativo y obtenga una cadena Base64, o restaure datos gzip en Base64 a texto. Compatible con chino y emoji, errores claros con datos dañados, procesamiento totalmente local.",
+    "tags": [
+      "Gzip压缩",
+      "Base64",
+      "编码解码",
+      "文本压缩"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-gzip.svg",
+    "faqs": [
+      {
+        "q": "编码结果是什么格式？",
+        "a": "文本先经 UTF-8 编码再用标准 gzip 算法压缩，输出的二进制结果转换为 Base64 字符串，可直接复制到代码、配置或接口中使用。"
+      },
+      {
+        "q": "解码支持哪些输入？",
+        "a": "支持标准或 URL-Safe Base64 的 gzip 数据；若数据缺少 gzip 魔数、Base64 非法或内容损坏，工具会给出明确的错误提示而不是静默失败。"
+      },
+      {
+        "q": "和 node 的 zlib 兼容吗？",
+        "a": "兼容。工具使用标准 gzip 格式（RFC 1952），输出可被 node:zlib、Python gzip、Go 等任意标准实现解压，反之亦然。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What format is the encoded output?",
+        "a": "Text is UTF-8 encoded then compressed with standard gzip, and the binary result is converted to a Base64 string you can paste into code, configs or APIs."
+      },
+      {
+        "q": "What input does decoding accept?",
+        "a": "Standard or URL-safe Base64 gzip data. Missing gzip magic bytes, invalid Base64 or corrupted content produce explicit error messages instead of silent failures."
+      },
+      {
+        "q": "Is it compatible with node zlib?",
+        "a": "Yes. It uses standard RFC 1952 gzip, so output can be decompressed by node:zlib, Python gzip, Go and any standard implementation, and vice versa."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué formato tiene la salida codificada?",
+        "a": "El texto se codifica en UTF-8, se comprime con gzip estándar y el resultado binario se convierte en una cadena Base64 lista para copiar en código, configuraciones o APIs."
+      },
+      {
+        "q": "¿Qué entrada acepta la decodificación?",
+        "a": "Datos gzip en Base64 estándar o URL-safe. Si faltan los bytes mágicos gzip, el Base64 es inválido o el contenido está dañado, la herramienta muestra errores claros."
+      },
+      {
+        "q": "¿Es compatible con node zlib?",
+        "a": "Sí. Usa el formato gzip estándar RFC 1952, por lo que la salida puede descomprimirse con node:zlib, gzip de Python, Go y cualquier implementación estándar, y viceversa."
+      }
+    ],
+    "related": [
+      "jwt-decoder",
+      "random-pwd",
+      "entropy-calculator"
+    ]
   }
 ]

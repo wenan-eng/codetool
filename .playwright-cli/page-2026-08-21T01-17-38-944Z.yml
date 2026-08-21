@@ -1,0 +1,414 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "在线密码熵值计算器" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "密码强度检测" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=密码强度检测
+          - img [ref=e126]
+          - text: 密码强度检测
+        - link "密码熵计算器" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=密码熵计算器
+          - img [ref=e130]
+          - text: 密码熵计算器
+        - link "密码安全评估" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=密码安全评估
+          - img [ref=e134]
+          - text: 密码安全评估
+        - link "破解时间预估" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=破解时间预估
+          - img [ref=e138]
+          - text: 破解时间预估
+        - link "密码组合数" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=密码组合数
+          - img [ref=e142]
+          - text: 密码组合数
+        - link "熵值计算" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=熵值计算
+          - img [ref=e146]
+          - text: 熵值计算
+    - paragraph [ref=e149]: 使用我们的「密码熵值计算器」 智能分析字符类型，精确计算密码长度、字符池大小、熵值（比特）及总组合数。自动评估强度等级并预估破解时间，实时反馈安全指标，适配账号注册、安全审计、密码策略制定等场景。
+    - main [ref=e150]:
+      - textbox "输入或粘贴密码" [ref=e152]
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - generic [ref=e155]: 长度
+          - generic [ref=e156]: "0"
+        - generic [ref=e157]:
+          - generic [ref=e158]: 池大小
+          - generic [ref=e159]: "0"
+        - generic [ref=e160]:
+          - generic [ref=e161]: 熵（比特）
+          - generic [ref=e162]: "0.0"
+        - generic [ref=e163]:
+          - generic [ref=e164]: 组合数
+          - generic [ref=e165]: "0"
+      - generic [ref=e166]:
+        - generic [ref=e167]: 预估破解时间（10^10/秒）
+        - generic [ref=e168]: "--"
+      - generic [ref=e169]: "池大小: 0 (空密码)"
+      - generic [ref=e170]: 输入密码以查看熵值
+      - generic [ref=e171]: 熵 = 长度 × log2(池大小)。池统计你使用的每种字符类型（小写 +26、大写 +26、数字 +10）和唯一符号的数量。
+    - generic [ref=e172]:
+      - link "万维广告联盟" [ref=e173] [cursor=pointer]:
+        - /url: https://wwads.cn/click/bundle?code=UjWnmYqQ3czGLjg2AQDnpK5oGto0Yx
+        - img "万维广告联盟" [ref=e174]
+      - generic [ref=e175]:
+        - link "商派ECShopX免费开源商城系统，支持10多种业务模式，集成AI能力，PHP/JAVA双版本" [ref=e176] [cursor=pointer]:
+          - /url: https://wwads.cn/click/bundle?code=UjWnmYqQ3czGLjg2AQDnpK5oGto0Yx
+        - link "广告" [ref=e177] [cursor=pointer]:
+          - /url: https://wwads.cn/?utm_source=property-486&utm_medium=footer
+          - img [ref=e178]
+          - generic [ref=e179]: 广告
+      - generic "隐藏广告" [ref=e180] [cursor=pointer]:
+        - img [ref=e181]
+    - region "工具使用帮助与相关信息" [ref=e182]:
+      - generic [ref=e183]:
+        - heading "使用说明" [level=2] [ref=e184]:
+          - img [ref=e185]
+          - text: 使用说明
+        - paragraph [ref=e187]:
+          - text: 📝
+          - strong [ref=e188]: 输入密码
+        - paragraph [ref=e189]: 在输入框中直接键入或粘贴待检测的密码，工具会实时自动分析并即时响应。无需点击任何按钮，输入即触发完整计算，动态反馈密码长度、字符池大小、熵值（比特）及总组合数，帮助您快速评估任意密码的安全强度，便于及时调整优化。
+        - paragraph [ref=e190]:
+          - text: 📊
+          - strong [ref=e191]: 查看指标
+        - paragraph [ref=e192]: 系统会自动统计密码使用的字符类型（小写字母 a-z、大写字母 A-Z、数字 0-9、特殊符号），计算字符池总大小并展示详细构成。同时基于长度与池大小计算熵值，熵值越高代表密码越安全。下方强度条会根据熵值自动变色（红/黄/蓝/绿），直观呈现弱、中等、强、非常强四个等级。
+        - paragraph [ref=e193]:
+          - text: ⏱️
+          - strong [ref=e194]: 预估破解时间
+        - paragraph [ref=e195]: 工具会基于组合数（池大小的长度次方）与常见破解速率（10^10 次/秒）智能计算破解所需时间。时间单位覆盖秒、分钟、小时、天、年、百年、千年、万年、亿年直至万亿年级别，并以整数形式展示（如“3千年”、“12万亿年”），帮助用户直观理解密码的安全裕度。
+        - paragraph [ref=e196]:
+          - text: 🔄
+          - strong [ref=e197]: 实时反馈
+        - paragraph [ref=e198]: 密码输入后所有指标会立即同步更新，操作响应迅速无延迟感。熵值带会根据强度等级自动切换背景色与对应的提示文字，池大小构成也会实时同步展示详细明细。若密码输入框为空，各指标将自动归零并显示友好的提示文案，界面始终保持清晰简洁、布局稳定。
+      - generic [ref=e199]:
+        - heading "同类推荐" [level=2] [ref=e200]:
+          - img [ref=e201]
+          - text: 同类推荐
+        - generic [ref=e203]:
+          - article [ref=e204]:
+            - link "Base64转文件 工具图标 Base64转文件 支持Base64解码分析与信息提取，可自定义文件名称，自动识别文件类型并计算文件大小，适配文件溯源、解码文件下载。" [ref=e205] [cursor=pointer]:
+              - /url: /base64-file/
+              - heading "Base64转文件 工具图标 Base64转文件" [level=3] [ref=e206]:
+                - img "Base64转文件 工具图标" [ref=e207]
+                - generic [ref=e208]: Base64转文件
+              - paragraph [ref=e209]: 支持Base64解码分析与信息提取，可自定义文件名称，自动识别文件类型并计算文件大小，适配文件溯源、解码文件下载。
+          - article [ref=e210]:
+            - link "文件转Base64 工具图标 文件转Base64 持任意文件快速转换为Base64格式，实时生成编码结果，适配图片内嵌、配置文件转码、API调试等开发运维场景。" [ref=e211] [cursor=pointer]:
+              - /url: /file-base64/
+              - heading "文件转Base64 工具图标 文件转Base64" [level=3] [ref=e212]:
+                - img "文件转Base64 工具图标" [ref=e213]
+                - generic [ref=e214]: 文件转Base64
+              - paragraph [ref=e215]: 持任意文件快速转换为Base64格式，实时生成编码结果，适配图片内嵌、配置文件转码、API调试等开发运维场景。
+          - article [ref=e216]:
+            - link "Base64转图片 工具图标 Base64转图片 支持 Base64 快速转图片，实时预览、一键下载，适配接口返回解析、配置文件解码、前端开发调试等开发运维场景。" [ref=e217] [cursor=pointer]:
+              - /url: /base64-image/
+              - heading "Base64转图片 工具图标 Base64转图片" [level=3] [ref=e218]:
+                - img "Base64转图片 工具图标" [ref=e219]
+                - generic [ref=e220]: Base64转图片
+              - paragraph [ref=e221]: 支持 Base64 快速转图片，实时预览、一键下载，适配接口返回解析、配置文件解码、前端开发调试等开发运维场景。
+          - article [ref=e222]:
+            - link "图片转Base64 工具图标 图片转Base64 支持图片快速转 Base64，实时预览、一键复制，适配图片内嵌、配置文件转码等开发运维场景。" [ref=e223] [cursor=pointer]:
+              - /url: /image-base64/
+              - heading "图片转Base64 工具图标 图片转Base64" [level=3] [ref=e224]:
+                - img "图片转Base64 工具图标" [ref=e225]
+                - generic [ref=e226]: 图片转Base64
+              - paragraph [ref=e227]: 支持图片快速转 Base64，实时预览、一键复制，适配图片内嵌、配置文件转码等开发运维场景。
+          - article [ref=e228]:
+            - link "Base64批量编码/解码 工具图标 Base64批量编码/解码 支持逐行独立 Base64 批量编码解码，适配开发运维、接口参数转码、文本批量加密解密等场景。" [ref=e229] [cursor=pointer]:
+              - /url: /base64-bulk/
+              - heading "Base64批量编码/解码 工具图标 Base64批量编码/解码" [level=3] [ref=e230]:
+                - img "Base64批量编码/解码 工具图标" [ref=e231]
+                - generic [ref=e232]: Base64批量编码/解码
+              - paragraph [ref=e233]: 支持逐行独立 Base64 批量编码解码，适配开发运维、接口参数转码、文本批量加密解密等场景。
+          - article [ref=e234]:
+            - link "批量文件MD5校验 工具图标 批量文件MD5校验 支持在线批量计算文件MD5哈希值，适用于多文件传输验证、软件安装包批量校验、防止文件篡改等场景。" [ref=e235] [cursor=pointer]:
+              - /url: /md5-batch-verify/
+              - heading "批量文件MD5校验 工具图标 批量文件MD5校验" [level=3] [ref=e236]:
+                - img "批量文件MD5校验 工具图标" [ref=e237]
+                - generic [ref=e238]: 批量文件MD5校验
+              - paragraph [ref=e239]: 支持在线批量计算文件MD5哈希值，适用于多文件传输验证、软件安装包批量校验、防止文件篡改等场景。
+          - article [ref=e240]:
+            - link "文件MD5哈希值校验 工具图标 文件MD5哈希值校验 支持在线校验文件完整性，适用于文件传输验证、软件下载校验、防止文件篡改等场景。" [ref=e241] [cursor=pointer]:
+              - /url: /md5-verify/
+              - heading "文件MD5哈希值校验 工具图标 文件MD5哈希值校验" [level=3] [ref=e242]:
+                - img "文件MD5哈希值校验 工具图标" [ref=e243]
+                - generic [ref=e244]: 文件MD5哈希值校验
+              - paragraph [ref=e245]: 支持在线校验文件完整性，适用于文件传输验证、软件下载校验、防止文件篡改等场景。
+          - article [ref=e246]:
+            - link "URL16进制编码解码 工具图标 URL16进制编码解码 生成标准URL十六进制密文，提供专属格式加密结果，适用于网址伪装传输、路径安全隐藏等场景。" [ref=e247] [cursor=pointer]:
+              - /url: /url-hex-encode/
+              - heading "URL16进制编码解码 工具图标 URL16进制编码解码" [level=3] [ref=e248]:
+                - img "URL16进制编码解码 工具图标" [ref=e249]
+                - generic [ref=e250]: URL16进制编码解码
+              - paragraph [ref=e251]: 生成标准URL十六进制密文，提供专属格式加密结果，适用于网址伪装传输、路径安全隐藏等场景。
+          - article [ref=e252]:
+            - link "MD4安全加密 工具图标 MD4安全加密 生成标准MD4哈希密文，提供多格式加密结果，适用于开发校验兼容、老旧数据摘要、日常文本加密等场景。" [ref=e253] [cursor=pointer]:
+              - /url: /md4/
+              - heading "MD4安全加密 工具图标 MD4安全加密" [level=3] [ref=e254]:
+                - img "MD4安全加密 工具图标" [ref=e255]
+                - generic [ref=e256]: MD4安全加密
+              - paragraph [ref=e257]: 生成标准MD4哈希密文，提供多格式加密结果，适用于开发校验兼容、老旧数据摘要、日常文本加密等场景。
+          - article [ref=e258]:
+            - link "MySQL密码哈希生成 工具图标 MySQL密码哈希生成 支持生成 标准 * 开头 41 位格式的 MySQL 密码哈希，适用于数据库密码设置、迁移、批量用户配置等场景。" [ref=e259] [cursor=pointer]:
+              - /url: /mysql-password/
+              - heading "MySQL密码哈希生成 工具图标 MySQL密码哈希生成" [level=3] [ref=e260]:
+                - img "MySQL密码哈希生成 工具图标" [ref=e261]
+                - generic [ref=e262]: MySQL密码哈希生成
+              - paragraph [ref=e263]: 支持生成 标准 * 开头 41 位格式的 MySQL 密码哈希，适用于数据库密码设置、迁移、批量用户配置等场景。
+          - article [ref=e264]:
+            - link "Base32编码/解码 工具图标 Base32编码/解码 支持 Base32 编码解码、智能结果展示，适用于前端开发、数据格式转换、字符传输、测试验证等场景。" [ref=e265] [cursor=pointer]:
+              - /url: /base32-encode/
+              - heading "Base32编码/解码 工具图标 Base32编码/解码" [level=3] [ref=e266]:
+                - img "Base32编码/解码 工具图标" [ref=e267]
+                - generic [ref=e268]: Base32编码/解码
+              - paragraph [ref=e269]: 支持 Base32 编码解码、智能结果展示，适用于前端开发、数据格式转换、字符传输、测试验证等场景。
+          - article [ref=e270]:
+            - link "批量MD5加密 工具图标 批量MD5加密 批量MD5加密工具，精准解析多行文本输入，并支持8/16/32位截取、大小写切换与结果一键复制。" [ref=e271] [cursor=pointer]:
+              - /url: /md5-batch/
+              - heading "批量MD5加密 工具图标 批量MD5加密" [level=3] [ref=e272]:
+                - img "批量MD5加密 工具图标" [ref=e273]
+                - generic [ref=e274]: 批量MD5加密
+              - paragraph [ref=e275]: 批量MD5加密工具，精准解析多行文本输入，并支持8/16/32位截取、大小写切换与结果一键复制。
+      - generic [ref=e276]:
+        - heading "常见问题" [level=2] [ref=e277]:
+          - img [ref=e278]
+          - text: 常见问题
+        - generic [ref=e282]:
+          - heading "⏱️ 破解预估时间是基于什么速率计算的？" [level=3] [ref=e283]
+          - paragraph [ref=e284]: 工具采用常见破解速率10^10次/秒（即每秒尝试100亿次组合）进行估算，该速率接近专业攻击设备或分布式破解能力。实际破解时间受硬件性能、攻击方式等因素影响，本估算仅供参考。时间单位覆盖秒、分钟、小时、天、年、百年、千年、万年、亿年直至万亿年，以整数形式直观展示。
+        - generic [ref=e285]:
+          - heading "📊 熵值多少比特才算安全？" [level=3] [ref=e286]
+          - paragraph [ref=e287]: 一般建议密码熵值不低于60比特。熵值36比特以下属于弱密码（极易被破解），36~60比特为中等强度（可接受），60~90比特为强密码（较安全），90比特以上为非常强密码（极难破解）。熵值越高，暴力破解所需时间越长，例如60比特约需数年，80比特则需数万年，建议重要账号选择强密码或非常强密码等级。
+        - generic [ref=e288]:
+          - heading "🔄 密码为空时为什么所有指标归零？" [level=3] [ref=e289]
+          - paragraph [ref=e290]: 当输入框为空时，工具会自动重置所有显示指标，包括长度归0、池大小归0、熵值归0.0、组合数归0、破解时间显示“--”，熵值带恢复为默认提示文案。这样设计是为了让界面始终保持初始状态，避免残留历史数据造成误解，也方便您重新开始评估新密码，无需手动刷新页面。
+        - generic [ref=e291]:
+          - heading "🔢 字符池大小是如何计算的？" [level=3] [ref=e292]
+          - paragraph [ref=e293]: 工具会自动分析密码中实际出现的字符类型，包括小写字母a-z（26个）、大写字母A-Z（26个）、数字0-9（10个）以及特殊符号（每个不重复符号计1个）。例如密码同时包含大小写字母和数字，池大小为62；若还使用了2种特殊符号，池大小则为64。池大小越大，同等长度下熵值越高，密码越安全。
+        - generic [ref=e294]:
+          - heading "🔒 密码输入过程会上传数据吗？" [level=3] [ref=e295]
+          - paragraph [ref=e296]: 不会。本工具所有计算逻辑均在本地浏览器完成，不发送任何网络请求，不记录、不上传任何密码内容，断网状态下也能正常使用。您输入的密码仅保存在当前页面的内存中，关闭页面或刷新即自动清空，最大限度保障密码隐私与数据安全，可放心使用。
+      - generic "工具快速切换" [ref=e297]:
+        - list [ref=e299]:
+          - listitem [ref=e300] [cursor=pointer]: 热门推荐
+          - listitem [ref=e301] [cursor=pointer]: 站长工具
+          - listitem [ref=e302] [cursor=pointer]: 编程开发
+          - listitem [ref=e303] [cursor=pointer]: 文本处理
+          - listitem [ref=e304] [cursor=pointer]: 图像处理
+          - listitem [ref=e305] [cursor=pointer]: 文档转换
+          - listitem [ref=e306] [cursor=pointer]: 音频视频
+          - listitem [ref=e307] [cursor=pointer]: 便民工具
+          - listitem [ref=e308] [cursor=pointer]: 编码加密
+          - listitem [ref=e309] [cursor=pointer]: 单位转换
+        - table [ref=e311]:
+          - rowgroup [ref=e312]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e313]:
+              - cell "微信聊天模拟器" [ref=e314]:
+                - link "微信聊天模拟器" [ref=e315] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e316]:
+                - link "微信零钱模拟器" [ref=e317] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e318]:
+                - link "文字转语音工具" [ref=e319] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e320]:
+                - link "法定退休年龄计算器" [ref=e321] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e322]:
+                - link "身份证号码查询" [ref=e323] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e324]:
+                - link "在线随机点名" [ref=e325] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e326]:
+              - cell "报名证件照处理" [ref=e327]:
+                - link "报名证件照处理" [ref=e328] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e329]:
+                - link "随机密码生成器" [ref=e330] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e331]:
+                - link "二维码生成器" [ref=e332] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e333]:
+                - link "世界高清地图" [ref=e334] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e335]:
+                - link "键盘按键检测" [ref=e336] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e337]:
+                - link "手机归属地查询" [ref=e338] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e339]:
+              - cell "在线字数统计" [ref=e340]:
+                - link "在线字数统计" [ref=e341] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e342]:
+                - link "JSON格式化/压缩" [ref=e343] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e344]:
+                - link "Base64编码/解码" [ref=e345] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e346]:
+                - link "图片高清压缩" [ref=e347] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e348]:
+                - link "摩斯密码编码/解码" [ref=e349] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e350]:
+                - link "节日时间倒计时" [ref=e351] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e352]:
+              - cell "本机IP地址查询" [ref=e353]:
+                - link "本机IP地址查询" [ref=e354] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e355]:
+                - link "Unix时间戳转换" [ref=e356] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e357]:
+                - link "图片取色器" [ref=e358] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e359]:
+                - link "色盲色弱测试" [ref=e360] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e361]:
+                - link "SVG在线编辑器" [ref=e362] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e363]:
+                - link "中国高清地图" [ref=e364] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e365]:
+              - cell "查看网页源码" [ref=e366]:
+                - link "查看网页源码" [ref=e367] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e368]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e369]
+        - paragraph [ref=e370]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e371]
+    - generic [ref=e372]:
+      - navigation "页脚链接" [ref=e373]:
+        - link "关于我们" [ref=e374] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e375] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e376] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e377] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e378] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e379] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e380] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e381] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e382] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e383]:
+        - generic [ref=e384]:
+          - text: © 2025
+          - link "懒人工具" [ref=e385] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e387] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e388]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e389] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持
