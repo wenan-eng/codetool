@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+        - link "图片处理" [ref=e10] [cursor=pointer]:
+          - /url: /zh/image
+      - generic [ref=e11]:
+        - generic [ref=e12]: 搜索工具
+        - generic [ref=e13]:
+          - link "中文" [ref=e14] [cursor=pointer]:
+            - /url: /zh/qrcode
+          - link "English" [ref=e15] [cursor=pointer]:
+            - /url: /en/qrcode
+          - link "Español" [ref=e16] [cursor=pointer]:
+            - /url: /es/qrcode
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - heading "二维码生成器" [level=1] [ref=e21]
+        - generic [ref=e22]:
+          - generic [ref=e23]: 二维码生成
+          - generic [ref=e24]: WiFi码
+          - generic [ref=e25]: 文本转码
+          - generic [ref=e26]: 网址二维码
+        - paragraph [ref=e27]: 二维码生成器，支持文本、网址与 WiFi 三种模式：WiFi 模式生成扫码即连的无线配置码，尺寸无级可调最高 800px，PNG 无损下载，适用于名片、海报与设备配网，全部本地生成不上传。
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - button "文本" [ref=e30] [cursor=pointer]
+          - button "网址" [ref=e31] [cursor=pointer]
+          - button "WiFi" [ref=e32] [cursor=pointer]
+        - textbox "请输入任意文本内容..." [ref=e33]
+        - generic [ref=e34]:
+          - generic [ref=e35]: 尺寸
+          - slider "尺寸 300px" [ref=e36]: "304"
+          - generic [ref=e37]: 300px
+        - button "⬇️ 下载二维码 PNG" [ref=e40] [cursor=pointer]
+        - paragraph [ref=e41]: 所有生成均在浏览器本地完成，不上传数据
+      - generic [ref=e42]:
+        - heading "使用说明" [level=2] [ref=e43]
+        - list [ref=e44]:
+          - listitem [ref=e45]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e46]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e47]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e48]: 所有操作本地完成，保障隐私
+      - generic [ref=e49]:
+        - heading "同类推荐" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - link "二维码解码器" [ref=e52] [cursor=pointer]:
+            - /url: /zh/qrcode-decode
+            - generic [ref=e53]: 二维码解码器
+          - link "wifi-qrcode" [ref=e54] [cursor=pointer]:
+            - /url: /zh/wifi-qrcode
+            - generic [ref=e55]: wifi-qrcode
+          - link "vcard-qrcode" [ref=e56] [cursor=pointer]:
+            - /url: /zh/vcard-qrcode
+            - generic [ref=e57]: vcard-qrcode
+      - generic [ref=e58]:
+        - heading "常见问题" [level=2] [ref=e59]
+        - group [ref=e60]:
+          - generic "WiFi 二维码怎么用？" [ref=e61] [cursor=pointer]
+        - group [ref=e62]:
+          - generic "生成的码会过期吗？" [ref=e63] [cursor=pointer]
+        - group [ref=e64]:
+          - generic "内容会被上传吗？" [ref=e65] [cursor=pointer]
+  - contentinfo [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - heading "热门推荐" [level=4] [ref=e69]
+        - link "JSON" [ref=e70] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e71]:
+        - heading "站长工具" [level=4] [ref=e72]
+        - link "IP" [ref=e73] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e74]:
+        - heading "关于" [level=4] [ref=e75]
+        - link "关于我们" [ref=e76] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e77] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e78]:
+        - heading "合规" [level=4] [ref=e79]
+        - link "服务条款" [ref=e80] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e81] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e82]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e83]

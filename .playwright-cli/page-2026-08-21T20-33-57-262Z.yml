@@ -1,0 +1,431 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "在线贷款计算器" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "房贷计算器" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=房贷计算器
+          - img [ref=e126]
+          - text: 房贷计算器
+        - link "等额本金计算" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=等额本金计算
+          - img [ref=e130]
+          - text: 等额本金计算
+        - link "还款计算器" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=还款计算器
+          - img [ref=e134]
+          - text: 还款计算器
+        - link "等额本息计算" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=等额本息计算
+          - img [ref=e138]
+          - text: 等额本息计算
+        - link "贷款利息计算" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=贷款利息计算
+          - img [ref=e142]
+          - text: 贷款利息计算
+        - link "总利息计算" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=总利息计算
+          - img [ref=e146]
+          - text: 总利息计算
+    - paragraph [ref=e149]: 使用我们的「在线贷款计算器」支持等额本息与等额本金两种还款方式精准计算，快速完成贷款总额、年利率、期限到月供、总利息、总还款额的专业计算，生成完整还款计划表与详细计算结果。
+    - main [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e153]: 贷款总额
+          - spinbutton [ref=e154]
+        - generic [ref=e155]:
+          - generic [ref=e156]: 年利率 (%)
+          - spinbutton [ref=e157]
+        - generic [ref=e158]:
+          - generic [ref=e159]: 贷款期限
+          - button "5年(60期)" [ref=e161] [cursor=pointer]:
+            - generic [ref=e162]: 5年(60期)
+            - img [ref=e163]
+        - generic [ref=e165]:
+          - generic [ref=e166]: 还款方式
+          - button "等额本息" [ref=e168] [cursor=pointer]:
+            - generic [ref=e169]: 等额本息
+            - img [ref=e170]
+      - generic [ref=e172]:
+        - button "开始计算" [ref=e173] [cursor=pointer]:
+          - img [ref=e174]
+          - text: 开始计算
+        - button "下载TXT" [ref=e178] [cursor=pointer]:
+          - img [ref=e179]
+          - text: 下载TXT
+        - button "复制结果" [ref=e182] [cursor=pointer]:
+          - img [ref=e183]
+          - text: 复制结果
+        - button "清空数据" [ref=e185] [cursor=pointer]:
+          - img [ref=e186]
+          - text: 清空数据
+    - generic [ref=e194]:
+      - link "万维广告联盟" [ref=e195] [cursor=pointer]:
+        - /url: https://wwads.cn/click/bundle?code=AjYLnMhxsalYK7RpuanTquMR2JUUMJ
+        - img "万维广告联盟" [ref=e196]
+      - generic [ref=e197]:
+        - link "1Panel AI 一体机：专为 AI 私有化部署打造，以超融合理念整合算力、模型和 AI 应用。" [ref=e198] [cursor=pointer]:
+          - /url: https://wwads.cn/click/bundle?code=AjYLnMhxsalYK7RpuanTquMR2JUUMJ
+        - link "广告" [ref=e199] [cursor=pointer]:
+          - /url: https://wwads.cn/?utm_source=property-486&utm_medium=footer
+          - img [ref=e200]
+          - generic [ref=e201]: 广告
+      - generic "隐藏广告" [ref=e202] [cursor=pointer]:
+        - img [ref=e203]
+    - region "工具使用帮助与相关信息" [ref=e204]:
+      - generic [ref=e205]:
+        - heading "使用说明" [level=2] [ref=e206]:
+          - img [ref=e207]
+          - text: 使用说明
+        - paragraph [ref=e209]:
+          - text: 📝
+          - strong [ref=e210]: 填写贷款信息
+        - paragraph [ref=e211]: 在输入区域填写贷款总额（元）、年利率（%），使用下拉菜单选择贷款期限（1-30年对应12-360期）和还款方式（等额本息/等额本金）。系统将根据这些关键参数进行实时精准计算，确保月供、利息等数据准确无误。
+        - paragraph [ref=e212]:
+          - text: 🧮
+          - strong [ref=e213]: 开始计算
+        - paragraph [ref=e214]: 点击"开始计算"按钮，系统将立即执行贷款计算，基于您设置的参数自动生成每月还款额、总利息、总还款额和完整贷款期数等关键财务数据。计算结果将在下方清晰展示，包括详细的还款计划表，让您全面了解整个还款周期的资金分配情况。
+        - paragraph [ref=e215]:
+          - text: 📊
+          - strong [ref=e216]: 查看还款明细
+        - paragraph [ref=e217]: 计算结果区域将展示完整的还款计划表，表格清晰列出每期期数、月供金额、本金、利息和剩余本金等核心财务信息。此表格直观展示整个还款周期内的资金变化趋势，帮助您深入理解等额本息与等额本金的还款差异。
+        - paragraph [ref=e218]:
+          - text: 💾
+          - strong [ref=e219]: 保存与分享结果
+        - paragraph [ref=e220]: 使用"下载TXT"功能可将完整的贷款计算报告保存为本地文本文件，该文件包含所有输入的贷款参数和详细的逐期还款明细表，便于长期存档和离线查看。使用"复制结果"功能则可快速复制计算结果摘要，方便即时粘贴到聊天工具、文档或邮件中分享和使用。
+        - paragraph [ref=e221]:
+          - text: 🔄
+          - strong [ref=e222]: 重新计算或清空
+        - paragraph [ref=e223]: 如需重新计算不同贷款方案，可直接修改输入参数后再次点击"开始计算"按钮。使用"清空数据"按钮可一键清空所有输入项和计算结果，同时重置下拉菜单选项，让您能快速开始新的贷款计算任务。
+      - generic [ref=e224]:
+        - heading "同类推荐" [level=2] [ref=e225]:
+          - img [ref=e226]
+          - text: 同类推荐
+        - generic [ref=e228]:
+          - article [ref=e229]:
+            - link "北京标准时间 工具图标 北京标准时间 北京标准时间，即中国的官方标准时间，为协调世界时(UTC)+8小时。该时区覆盖全国，不实行夏令时制度。" [ref=e230] [cursor=pointer]:
+              - /url: /time/china-beijing/
+              - heading "北京标准时间 工具图标 北京标准时间" [level=3] [ref=e231]:
+                - img "北京标准时间 工具图标" [ref=e232]
+                - generic [ref=e233]: 北京标准时间
+              - paragraph [ref=e234]: 北京标准时间，即中国的官方标准时间，为协调世界时(UTC)+8小时。该时区覆盖全国，不实行夏令时制度。
+          - article [ref=e235]:
+            - link "全球标准时间表 工具图标 全球标准时间表 一键查看全球各国首都的当前标准时间，清晰呈现UTC时区与夏令时状况，确保信息准确直观。" [ref=e236] [cursor=pointer]:
+              - /url: /time/
+              - heading "全球标准时间表 工具图标 全球标准时间表" [level=3] [ref=e237]:
+                - img "全球标准时间表 工具图标" [ref=e238]
+                - generic [ref=e239]: 全球标准时间表
+              - paragraph [ref=e240]: 一键查看全球各国首都的当前标准时间，清晰呈现UTC时区与夏令时状况，确保信息准确直观。
+          - article [ref=e241]:
+            - link "114黄页电话查询 工具图标 114黄页电话查询 一键黄页查询，实时输出结果，结合使用场景精准匹配服务内容，快速获取联系电话，让应急电话触手可及。" [ref=e242] [cursor=pointer]:
+              - /url: /yellow-pages/
+              - heading "114黄页电话查询 工具图标 114黄页电话查询" [level=3] [ref=e243]:
+                - img "114黄页电话查询 工具图标" [ref=e244]
+                - generic [ref=e245]: 114黄页电话查询
+              - paragraph [ref=e246]: 一键黄页查询，实时输出结果，结合使用场景精准匹配服务内容，快速获取联系电话，让应急电话触手可及。
+          - article [ref=e247]:
+            - link "键盘按键检测 工具图标 键盘按键检测 精准全面的在线键盘测试工具，支持检测字母、数字、功能键、方向键和小键盘等所有按键，实时显示按压状态与故障诊断。" [ref=e248] [cursor=pointer]:
+              - /url: /keyboard/
+              - heading "键盘按键检测 工具图标 键盘按键检测" [level=3] [ref=e249]:
+                - img "键盘按键检测 工具图标" [ref=e250]
+                - generic [ref=e251]: 键盘按键检测
+              - paragraph [ref=e252]: 精准全面的在线键盘测试工具，支持检测字母、数字、功能键、方向键和小键盘等所有按键，实时显示按压状态与故障诊断。
+          - article [ref=e253]:
+            - link "家庭急救箱清单 工具图标 家庭急救箱清单 家庭小药箱清单，智能筛选推荐，支持个性化配置与一键导出，快速生成家庭常备药品储备方案。" [ref=e254] [cursor=pointer]:
+              - /url: /family-medicine/
+              - heading "家庭急救箱清单 工具图标 家庭急救箱清单" [level=3] [ref=e255]:
+                - img "家庭急救箱清单 工具图标" [ref=e256]
+                - generic [ref=e257]: 家庭急救箱清单
+              - paragraph [ref=e258]: 家庭小药箱清单，智能筛选推荐，支持个性化配置与一键导出，快速生成家庭常备药品储备方案。
+          - article [ref=e259]:
+            - link "宝宝姓名生成器 工具图标 宝宝姓名生成器 专业在线中文姓名生成工具，支持性别分明的名字生成，保障姓名符合传统文化与现代审美。" [ref=e260] [cursor=pointer]:
+              - /url: /name-generator/
+              - heading "宝宝姓名生成器 工具图标 宝宝姓名生成器" [level=3] [ref=e261]:
+                - img "宝宝姓名生成器 工具图标" [ref=e262]
+                - generic [ref=e263]: 宝宝姓名生成器
+              - paragraph [ref=e264]: 专业在线中文姓名生成工具，支持性别分明的名字生成，保障姓名符合传统文化与现代审美。
+          - article [ref=e265]:
+            - link "辞职信生成器 工具图标 辞职信生成器 一键辞职信生成，智能模板/个性定制，支持多风格秒级生成，全面优化辞职流程。" [ref=e266] [cursor=pointer]:
+              - /url: /resignation/
+              - heading "辞职信生成器 工具图标 辞职信生成器" [level=3] [ref=e267]:
+                - img "辞职信生成器 工具图标" [ref=e268]
+                - generic [ref=e269]: 辞职信生成器
+              - paragraph [ref=e270]: 一键辞职信生成，智能模板/个性定制，支持多风格秒级生成，全面优化辞职流程。
+          - article [ref=e271]:
+            - link "搞笑微信群名 工具图标 搞笑微信群名 百款搞笑微信群名任选，智能分类/即点即用，支持多场景轻松挑选，全面优化群聊创建体验。" [ref=e272] [cursor=pointer]:
+              - /url: /group-names/
+              - heading "搞笑微信群名 工具图标 搞笑微信群名" [level=3] [ref=e273]:
+                - img "搞笑微信群名 工具图标" [ref=e274]
+                - generic [ref=e275]: 搞笑微信群名
+              - paragraph [ref=e276]: 百款搞笑微信群名任选，智能分类/即点即用，支持多场景轻松挑选，全面优化群聊创建体验。
+          - article [ref=e277]:
+            - link "LED全屏弹幕生成器 工具图标 LED全屏弹幕生成器 多维度弹幕自定义设置，智能运动风格/特效丰富，覆盖各类展示场景，全方位增强视觉冲击力。" [ref=e278] [cursor=pointer]:
+              - /url: /led/
+              - heading "LED全屏弹幕生成器 工具图标 LED全屏弹幕生成器" [level=3] [ref=e279]:
+                - img "LED全屏弹幕生成器 工具图标" [ref=e280]
+                - generic [ref=e281]: LED全屏弹幕生成器
+              - paragraph [ref=e282]: 多维度弹幕自定义设置，智能运动风格/特效丰富，覆盖各类展示场景，全方位增强视觉冲击力。
+          - article [ref=e283]:
+            - link "宝宝身高预测计算器 工具图标 宝宝身高预测计算器 结合父母身高和宝宝性别等遗传数据，精准预测宝宝成年身高。为家庭成长规划提供科学的遗传身高参考。" [ref=e284] [cursor=pointer]:
+              - /url: /height-calculator/
+              - heading "宝宝身高预测计算器 工具图标 宝宝身高预测计算器" [level=3] [ref=e285]:
+                - img "宝宝身高预测计算器 工具图标" [ref=e286]
+                - generic [ref=e287]: 宝宝身高预测计算器
+              - paragraph [ref=e288]: 结合父母身高和宝宝性别等遗传数据，精准预测宝宝成年身高。为家庭成长规划提供科学的遗传身高参考。
+          - article [ref=e289]:
+            - link "出生日期信息查询 工具图标 出生日期信息查询 一键解析出生日期，涵盖年龄生肖星座节气，支持公农历转换与人生阶段判断，即时生成详细报告。" [ref=e290] [cursor=pointer]:
+              - /url: /birth/
+              - heading "出生日期信息查询 工具图标 出生日期信息查询" [level=3] [ref=e291]:
+                - img "出生日期信息查询 工具图标" [ref=e292]
+                - generic [ref=e293]: 出生日期信息查询
+              - paragraph [ref=e294]: 一键解析出生日期，涵盖年龄生肖星座节气，支持公农历转换与人生阶段判断，即时生成详细报告。
+          - article [ref=e295]:
+            - link "敲木鱼攒功德 工具图标 敲木鱼攒功德 专业在线修福工具，支持全屏沉浸与功德计数，提供实时善念反馈，满足静心减压、佛系治愈需求。" [ref=e296] [cursor=pointer]:
+              - /url: /woodfish/
+              - heading "敲木鱼攒功德 工具图标 敲木鱼攒功德" [level=3] [ref=e297]:
+                - img "敲木鱼攒功德 工具图标" [ref=e298]
+                - generic [ref=e299]: 敲木鱼攒功德
+              - paragraph [ref=e300]: 专业在线修福工具，支持全屏沉浸与功德计数，提供实时善念反馈，满足静心减压、佛系治愈需求。
+      - generic [ref=e301]:
+        - heading "常见问题" [level=2] [ref=e302]:
+          - img [ref=e303]
+          - text: 常见问题
+        - generic [ref=e307]:
+          - heading "🏦 等额本息和等额本金有什么区别？" [level=3] [ref=e308]
+          - paragraph [ref=e309]: 等额本息还款法的核心特征是每月偿还的本息总额保持不变，采用复利计算原理，还款初期利息占比高、本金占比低，随着时间推移本金占比逐渐增加，利息逐渐减少。这种方式适合追求还款稳定性、现金流规划明确且收入相对稳定的借款人，便于家庭长期财务预算管理。
+        - generic [ref=e310]:
+          - heading "💰 选择等额本金真的能节省更多利息吗？" [level=3] [ref=e311]
+          - paragraph [ref=e312]: 是的，在相同贷款条件下，等额本金的总利息确实比等额本息更少。这是因为等额本金每月偿还固定本金，本金减少速度更快，因此利息基数下降得更快。但要注意的是，等额本金前期月供压力较大，适合现金流充裕的借款人。
+        - generic [ref=e313]:
+          - heading "📅 贷款期限最长可以设置多少年？" [level=3] [ref=e314]
+          - paragraph [ref=e315]: 工具支持1-30年的标准贷款期限选择范围，对应12-360期还款周期，全面覆盖住房按揭贷款、汽车消费贷款、个人经营贷款等主流金融产品的期限要求，可满足从短期周转到长期投资的多元化贷款计算需求。
+        - generic [ref=e316]:
+          - heading "🔍 还款明细表中最后一期的本金和利息如何计算？" [level=3] [ref=e317]
+          - paragraph [ref=e318]: 最后一期的计算会进行特殊处理与尾差调整：系统会根据剩余本金重新精算当月利息，然后相应调整本金偿还额，确保最后一期还款后剩余本金精确归零。这样做避免了因前期四舍五入导致的累计尾差问题，完全符合商业银行的实际操作规范与会计准则。
+        - generic [ref=e319]:
+          - heading "💾 下载的TXT报告包含哪些内容？" [level=3] [ref=e320]
+          - paragraph [ref=e321]: 生成的TXT格式贷款计算报告采用标准化财务文档结构，完整包含贷款基础参数配置、计算结果核心指标摘要，以及全周期的逐期还款明细数据表。报告采用规范的表格化数据格式，支持直接打印存档、导入Excel进行深度财务分析，或作为正式文件提交给金融机构用于贷款审批和还款计划确认。
+        - generic [ref=e322]:
+          - heading "🔒 使用这个贷款计算器安全吗？" [level=3] [ref=e323]
+          - paragraph [ref=e324]: 绝对安全！所有计算都在您本地浏览器中完成，不涉及任何数据传输到服务器，不收集、不存储您的任何贷款信息和计算结果，确保100%的隐私保护。
+      - generic "工具快速切换" [ref=e325]:
+        - list [ref=e327]:
+          - listitem [ref=e328] [cursor=pointer]: 热门推荐
+          - listitem [ref=e329] [cursor=pointer]: 站长工具
+          - listitem [ref=e330] [cursor=pointer]: 编程开发
+          - listitem [ref=e331] [cursor=pointer]: 文本处理
+          - listitem [ref=e332] [cursor=pointer]: 图像处理
+          - listitem [ref=e333] [cursor=pointer]: 文档转换
+          - listitem [ref=e334] [cursor=pointer]: 音频视频
+          - listitem [ref=e335] [cursor=pointer]: 便民工具
+          - listitem [ref=e336] [cursor=pointer]: 编码加密
+          - listitem [ref=e337] [cursor=pointer]: 单位转换
+        - table [ref=e339]:
+          - rowgroup [ref=e340]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e341]:
+              - cell "微信聊天模拟器" [ref=e342]:
+                - link "微信聊天模拟器" [ref=e343] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e344]:
+                - link "微信零钱模拟器" [ref=e345] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e346]:
+                - link "文字转语音工具" [ref=e347] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e348]:
+                - link "法定退休年龄计算器" [ref=e349] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e350]:
+                - link "身份证号码查询" [ref=e351] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e352]:
+                - link "在线随机点名" [ref=e353] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e354]:
+              - cell "报名证件照处理" [ref=e355]:
+                - link "报名证件照处理" [ref=e356] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e357]:
+                - link "随机密码生成器" [ref=e358] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e359]:
+                - link "二维码生成器" [ref=e360] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e361]:
+                - link "世界高清地图" [ref=e362] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e363]:
+                - link "键盘按键检测" [ref=e364] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e365]:
+                - link "手机归属地查询" [ref=e366] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e367]:
+              - cell "在线字数统计" [ref=e368]:
+                - link "在线字数统计" [ref=e369] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e370]:
+                - link "JSON格式化/压缩" [ref=e371] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e372]:
+                - link "Base64编码/解码" [ref=e373] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e374]:
+                - link "图片高清压缩" [ref=e375] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e376]:
+                - link "摩斯密码编码/解码" [ref=e377] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e378]:
+                - link "节日时间倒计时" [ref=e379] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e380]:
+              - cell "本机IP地址查询" [ref=e381]:
+                - link "本机IP地址查询" [ref=e382] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e383]:
+                - link "Unix时间戳转换" [ref=e384] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e385]:
+                - link "图片取色器" [ref=e386] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e387]:
+                - link "色盲色弱测试" [ref=e388] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e389]:
+                - link "SVG在线编辑器" [ref=e390] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e391]:
+                - link "中国高清地图" [ref=e392] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e393]:
+              - cell "查看网页源码" [ref=e394]:
+                - link "查看网页源码" [ref=e395] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e396]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e397]
+        - paragraph [ref=e398]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e399]
+    - generic [ref=e400]:
+      - navigation "页脚链接" [ref=e401]:
+        - link "关于我们" [ref=e402] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e403] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e404] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e405] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e406] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e407] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e408] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e409] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e410] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e411]:
+        - generic [ref=e412]:
+          - text: © 2025
+          - link "懒人工具" [ref=e413] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e415] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e416]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e417] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

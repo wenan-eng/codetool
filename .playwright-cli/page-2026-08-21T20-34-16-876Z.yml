@@ -1,0 +1,460 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "在线颜色拾取转换器" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "取色器" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=取色器
+          - img [ref=e126]
+          - text: 取色器
+        - link "颜色代码" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=颜色代码
+          - img [ref=e130]
+          - text: 颜色代码
+        - link "颜色拾取" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=颜色拾取
+          - img [ref=e134]
+          - text: 颜色拾取
+        - link "吸管取色" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=吸管取色
+          - img [ref=e138]
+          - text: 吸管取色
+        - link "颜色转换" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=颜色转换
+          - img [ref=e142]
+          - text: 颜色转换
+        - link "RGB转换" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=RGB转换
+          - img [ref=e146]
+          - text: RGB转换
+    - paragraph [ref=e149]: 使用我们的「多功能颜色拾取转换器」，支持多种取色方式和颜色格式双向转换，实时同步更新颜色代码，支持一键复制结果，提升设计开发与色彩工作的效率与使用体验。
+    - main [ref=e150]:
+      - generic [ref=e151]:
+        - strong [ref=e152]: 颜色选择
+        - text: （点击下面颜色框，即可选择颜色值）：
+      - textbox [ref=e155] [cursor=pointer]: "#7e66ff"
+      - generic [ref=e156]:
+        - strong [ref=e157]: 手动输入
+        - text: （可以输入颜色名称、颜色值）：
+      - generic [ref=e158]:
+        - textbox [ref=e160]: "#7E66FF"
+        - generic [ref=e162] [cursor=pointer]:
+          - img [ref=e163]
+          - text: 颜色吸取
+      - generic [ref=e165]:
+        - strong [ref=e166]: 颜色代码
+        - text: （支持 HEX、RGB、HSL、LCH、HWB、HSV、CMYK、NAME、中文名称）：
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - generic [ref=e169]: HEX
+          - textbox [ref=e170]: "#7e66ff"
+          - generic [ref=e172] [cursor=pointer]: 复制
+        - generic [ref=e173]:
+          - generic [ref=e174]: RGB
+          - textbox [ref=e175]: rgb(126, 102, 255)
+          - generic [ref=e177] [cursor=pointer]: 复制
+        - generic [ref=e178]:
+          - generic [ref=e179]: HSL
+          - textbox [ref=e180]: hsl(249, 100%, 70%)
+          - generic [ref=e182] [cursor=pointer]: 复制
+        - generic [ref=e183]:
+          - generic [ref=e184]: LCH
+          - textbox [ref=e185]: lch(53%, 87, 303)
+          - generic [ref=e187] [cursor=pointer]: 复制
+        - generic [ref=e188]:
+          - generic [ref=e189]: HWB
+          - textbox [ref=e190]: hwb(249, 40%, 0%)
+          - generic [ref=e192] [cursor=pointer]: 复制
+        - generic [ref=e193]:
+          - generic [ref=e194]: HSV/HSB
+          - textbox [ref=e195]: hsv(249, 60%, 100%)
+          - generic [ref=e197] [cursor=pointer]: 复制
+        - generic [ref=e198]:
+          - generic [ref=e199]: CMYK
+          - textbox [ref=e200]: cmyk(51%, 60%, 0%, 0%)
+          - generic [ref=e202] [cursor=pointer]: 复制
+        - generic [ref=e203]:
+          - generic [ref=e204]: NAME
+          - textbox [ref=e205]: Medium Slate Blue
+          - generic [ref=e207] [cursor=pointer]: 复制
+        - generic [ref=e208]:
+          - generic [ref=e209]: 中文名称
+          - textbox [ref=e210]: 中板岩蓝色
+          - generic [ref=e212] [cursor=pointer]: 复制
+    - region "工具使用帮助与相关信息" [ref=e213]:
+      - generic [ref=e214]:
+        - heading "使用说明" [level=2] [ref=e215]:
+          - img [ref=e216]
+          - text: 使用说明
+        - paragraph [ref=e218]:
+          - text: 🎨
+          - strong [ref=e219]: 颜色选择方式
+        - paragraph [ref=e220]: 在 "颜色选择" 区域，点击颜色框即可激活直观的色盘界面。该工具提供完整的色谱展示与实时预览功能，支持精准的色彩选取与微调操作。选中颜色后，系统将自动同步更新所有格式的颜色数值，确保多平台应用时色彩数据的一致性。
+        - paragraph [ref=e221]:
+          - text: ⌨️
+          - strong [ref=e222]: 手动输入颜色
+        - paragraph [ref=e223]: 在 "手动输入" 文本框中，您可以直接输入颜色名称（如"red"、"蓝色"）或完整的颜色编码值（如"#ff0000"、"rgb(255,0,0)"）。系统支持智能识别多种格式，输入完成后可按回车键确认，或通过点击页面其他区域自动触发验证机制并实时更新所有相关颜色参数。
+        - paragraph [ref=e224]:
+          - text: 🖱️
+          - strong [ref=e225]: 吸管取色功能
+        - paragraph [ref=e226]: 点击 "颜色吸取" 按钮即可启用智能取色器功能（需Chrome 95+或Edge 95+浏览器支持）。激活工具后，您可以在屏幕任意位置进行精准取色，系统将自动捕获该点的色彩数值，并实时同步更新所有颜色格式的显示结果。
+        - paragraph [ref=e227]:
+          - text: 📊
+          - strong [ref=e228]: 颜色代码显示
+        - paragraph [ref=e229]:
+          - text: 在"颜色代码"区域，实时显示当前颜色的多种格式表示：
+          - strong [ref=e230]: HEX
+          - text: "- 十六进制颜色码（如 #7569f9）、"
+          - strong [ref=e231]: RGB
+          - text: "- 红绿蓝三色值（如 rgb(117, 105, 249)）、"
+          - strong [ref=e232]: HSL
+          - text: "- 色相饱和度明度（如 hsl(245, 92%, 69%)）、"
+          - strong [ref=e233]: LCH
+          - text: "- 亮度彩度色相（如 lch(51%, 89, 277)）、"
+          - strong [ref=e234]: HWB
+          - text: "- 色相白度黑度（如 hwb(245, 41%, 2%)）、"
+          - strong [ref=e235]: HSV/HSB
+          - text: "- 色相饱和度明度值（如 hsv(245, 58%, 98%)）、"
+          - strong [ref=e236]: CMYK
+          - text: "- 印刷四分色（如 cmyk(53%, 58%, 0%, 2%)）、"
+          - strong [ref=e237]: NAME
+          - text: "- 英文颜色名称（如 Medium Slate Blue）、"
+          - strong [ref=e238]: 中文名称
+          - text: "- 中文颜色名称（如 中板岩蓝色）"
+        - paragraph [ref=e239]:
+          - text: 📋
+          - strong [ref=e240]: 复制颜色值
+        - paragraph [ref=e241]: 点击任意颜色格式右侧的 "复制" 按钮，即可将该格式的颜色值复制到剪贴板。复制成功后按钮会短暂显示 "已复制" 提示，1秒后恢复。
+        - paragraph [ref=e242]:
+          - text: 🔄
+          - strong [ref=e243]: 实时联动更新
+        - paragraph [ref=e244]: 所有输入框和显示区域都是实时联动的：修改任一颜色格式的值，其他所有格式会自动更新 • 使用颜色选择器、吸管工具或手动输入都会同步更新所有显示 • 支持在任意颜色代码输入框中直接编辑，按回车或失焦后生效
+      - generic [ref=e245]:
+        - heading "同类推荐" [level=2] [ref=e246]:
+          - img [ref=e247]
+          - text: 同类推荐
+        - generic [ref=e249]:
+          - article [ref=e250]:
+            - link "Sitemap链接提取 工具图标 Sitemap链接提取 Sitemap URL智能提取与导出工具，支持XML与文本格式解析，自动过滤系统链接，提供批量去重、一键复制。" [ref=e251] [cursor=pointer]:
+              - /url: /sitemap-extractor/
+              - heading "Sitemap链接提取 工具图标 Sitemap链接提取" [level=3] [ref=e252]:
+                - img "Sitemap链接提取 工具图标" [ref=e253]
+                - generic [ref=e254]: Sitemap链接提取
+              - paragraph [ref=e255]: Sitemap URL智能提取与导出工具，支持XML与文本格式解析，自动过滤系统链接，提供批量去重、一键复制。
+          - article [ref=e256]:
+            - link "查看网页源码 工具图标 查看网页源码 一键网页源码查看，智能解析/统计展示，支持多维度源码分析，全面掌握网站HTML结构。" [ref=e257] [cursor=pointer]:
+              - /url: /view-source/
+              - heading "查看网页源码 工具图标 查看网页源码" [level=3] [ref=e258]:
+                - img "查看网页源码 工具图标" [ref=e259]
+                - generic [ref=e260]: 查看网页源码
+              - paragraph [ref=e261]: 一键网页源码查看，智能解析/统计展示，支持多维度源码分析，全面掌握网站HTML结构。
+          - article [ref=e262]:
+            - link "Robots文件检测 工具图标 Robots文件检测 一键Robots.txt检测，智能解析/安全评估，支持多维度秒级扫描，全面优化网站爬虫管控。" [ref=e263] [cursor=pointer]:
+              - /url: /robots-check/
+              - heading "Robots文件检测 工具图标 Robots文件检测" [level=3] [ref=e264]:
+                - img "Robots文件检测 工具图标" [ref=e265]
+                - generic [ref=e266]: Robots文件检测
+              - paragraph [ref=e267]: 一键Robots.txt检测，智能解析/安全评估，支持多维度秒级扫描，全面优化网站爬虫管控。
+          - article [ref=e268]:
+            - link "死链批量检测 工具图标 死链批量检测 支持批量检查URL链接有效性、实时获取HTTP状态码和链接状态，满足网站维护、SEO优化和内容审核等多种场景需求。" [ref=e269] [cursor=pointer]:
+              - /url: /url-check/
+              - heading "死链批量检测 工具图标 死链批量检测" [level=3] [ref=e270]:
+                - img "死链批量检测 工具图标" [ref=e271]
+                - generic [ref=e272]: 死链批量检测
+              - paragraph [ref=e273]: 支持批量检查URL链接有效性、实时获取HTTP状态码和链接状态，满足网站维护、SEO优化和内容审核等多种场景需求。
+          - article [ref=e274]:
+            - link "Robots文件生成 工具图标 Robots文件生成 实时生成符合标准的 robots.txt 文件，支持国内主流搜索引擎和国外引擎的精细化控制，让爬虫规则配置更简单。" [ref=e275] [cursor=pointer]:
+              - /url: /robots/
+              - heading "Robots文件生成 工具图标 Robots文件生成" [level=3] [ref=e276]:
+                - img "Robots文件生成 工具图标" [ref=e277]
+                - generic [ref=e278]: Robots文件生成
+              - paragraph [ref=e279]: 实时生成符合标准的 robots.txt 文件，支持国内主流搜索引擎和国外引擎的精细化控制，让爬虫规则配置更简单。
+          - article [ref=e280]:
+            - link "网页PV自动刷新 工具图标 网页PV自动刷新 网页 PV 自动实时 / 定时精准刷新，支持各类 URL 格式兼容，快速生成刷新预览，提升网页监控与测试效率！" [ref=e281] [cursor=pointer]:
+              - /url: /refresh/
+              - heading "网页PV自动刷新 工具图标 网页PV自动刷新" [level=3] [ref=e282]:
+                - img "网页PV自动刷新 工具图标" [ref=e283]
+                - generic [ref=e284]: 网页PV自动刷新
+              - paragraph [ref=e285]: 网页 PV 自动实时 / 定时精准刷新，支持各类 URL 格式兼容，快速生成刷新预览，提升网页监控与测试效率！
+          - article [ref=e286]:
+            - link "百度API推送 工具图标 百度API推送 一键将网站链接推送给百度收录，实时查看推送结果和剩余额度，支持批量提交和本地存储API配置。" [ref=e287] [cursor=pointer]:
+              - /url: /baidu-push/
+              - heading "百度API推送 工具图标 百度API推送" [level=3] [ref=e288]:
+                - img "百度API推送 工具图标" [ref=e289]
+                - generic [ref=e290]: 百度API推送
+              - paragraph [ref=e291]: 一键将网站链接推送给百度收录，实时查看推送结果和剩余额度，支持批量提交和本地存储API配置。
+          - article [ref=e292]:
+            - link "SSL/TLS证书检测 工具图标 SSL/TLS证书检测 一键SSL/TLS检测，实时解析/诊断，支持全平台证书分析，快速获取域名证书详情，提升运维安全效率！" [ref=e293] [cursor=pointer]:
+              - /url: /ssl/
+              - heading "SSL/TLS证书检测 工具图标 SSL/TLS证书检测" [level=3] [ref=e294]:
+                - img "SSL/TLS证书检测 工具图标" [ref=e295]
+                - generic [ref=e296]: SSL/TLS证书检测
+              - paragraph [ref=e297]: 一键SSL/TLS检测，实时解析/诊断，支持全平台证书分析，快速获取域名证书详情，提升运维安全效率！
+          - article [ref=e298]:
+            - link "正则表达式生成器 工具图标 正则表达式生成器 正则表达式代码生成工具，输入表达式自动生成7种语言的完整实现代码，支持快捷复制使用。" [ref=e299] [cursor=pointer]:
+              - /url: /regex-generator/
+              - heading "正则表达式生成器 工具图标 正则表达式生成器" [level=3] [ref=e300]:
+                - img "正则表达式生成器 工具图标" [ref=e301]
+                - generic [ref=e302]: 正则表达式生成器
+              - paragraph [ref=e303]: 正则表达式代码生成工具，输入表达式自动生成7种语言的完整实现代码，支持快捷复制使用。
+          - article [ref=e304]:
+            - link "HTTP状态码查询 工具图标 HTTP状态码查询 一键HTTP检测，实时解析/精准诊断，支持全头信息秒级响应，全面掌握网站状态，提升运维效率！" [ref=e305] [cursor=pointer]:
+              - /url: /http-status/
+              - heading "HTTP状态码查询 工具图标 HTTP状态码查询" [level=3] [ref=e306]:
+                - img "HTTP状态码查询 工具图标" [ref=e307]
+                - generic [ref=e308]: HTTP状态码查询
+              - paragraph [ref=e309]: 一键HTTP检测，实时解析/精准诊断，支持全头信息秒级响应，全面掌握网站状态，提升运维效率！
+          - article [ref=e310]:
+            - link "日志文件分析器 工具图标 日志文件分析器 一键解析蜘蛛日志，实时分析爬虫行为，支持域名、类型、状态码筛选，助力SEO优化！" [ref=e311] [cursor=pointer]:
+              - /url: /log-analysis/
+              - heading "日志文件分析器 工具图标 日志文件分析器" [level=3] [ref=e312]:
+                - img "日志文件分析器 工具图标" [ref=e313]
+                - generic [ref=e314]: 日志文件分析器
+              - paragraph [ref=e315]: 一键解析蜘蛛日志，实时分析爬虫行为，支持域名、类型、状态码筛选，助力SEO优化！
+          - article [ref=e316]:
+            - link "Favicon图标生成 工具图标 Favicon图标生成 上传图片一键转ICO，智能生成透明图标，支持多尺寸下载，轻松制作网站Favicon，省时省力更专业！" [ref=e317] [cursor=pointer]:
+              - /url: /favicon-generator/
+              - heading "Favicon图标生成 工具图标 Favicon图标生成" [level=3] [ref=e318]:
+                - img "Favicon图标生成 工具图标" [ref=e319]
+                - generic [ref=e320]: Favicon图标生成
+              - paragraph [ref=e321]: 上传图片一键转ICO，智能生成透明图标，支持多尺寸下载，轻松制作网站Favicon，省时省力更专业！
+      - generic [ref=e322]:
+        - heading "常见问题" [level=2] [ref=e323]:
+          - img [ref=e324]
+          - text: 常见问题
+        - generic [ref=e328]:
+          - heading "🎨 这个工具支持哪些颜色格式的转换？" [level=3] [ref=e329]
+          - paragraph [ref=e330]: 支持 HEX、RGB、HSL、LCH、HWB、HSV、CMYK 等多种专业颜色格式，同时还提供中英文颜色名称识别功能，满足设计、开发和印刷等不同场景的色彩需求。
+        - generic [ref=e331]:
+          - heading "🖱️ 吸管工具为什么在某些浏览器无法使用？" [level=3] [ref=e332]
+          - paragraph [ref=e333]: 吸管功能基于现代浏览器的 EyeDropper API，目前仅支持 Chrome 95+ 和 Edge 95+ 版本。其他浏览器如 Firefox、Safari 暂未实现该标准，建议使用支持的浏览器获得完整功能。
+        - generic [ref=e334]:
+          - heading "📱 工具是否支持移动端设备？" [level=3] [ref=e335]
+          - paragraph [ref=e336]: 完全支持！工具采用响应式设计，在手机和平板等移动设备上均可正常使用。颜色选择器会自动适配触屏操作，所有功能在移动端都能完美运行。
+        - generic [ref=e337]:
+          - heading "🎯 手动输入支持哪些颜色表示方式？" [level=3] [ref=e338]
+          - paragraph [ref=e339]: 支持十六进制码（#RRGGBB）、RGB函数（rgb(r,g,b)）、HSL函数（hsl(h,s%,l%)）等标准格式，还可直接输入颜色名称如"红色"、"blue"等，系统会自动识别并转换。
+        - generic [ref=e340]:
+          - heading "🔒 工具是否需要联网？数据会保存吗？" [level=3] [ref=e341]
+          - paragraph [ref=e342]: 完全本地运行，无需联网！所有颜色计算和转换都在浏览器中完成，不会上传任何数据。当前会话的颜色记录会在页面刷新时清空，确保隐私安全。
+      - generic "工具快速切换" [ref=e343]:
+        - list [ref=e345]:
+          - listitem [ref=e346] [cursor=pointer]: 热门推荐
+          - listitem [ref=e347] [cursor=pointer]: 站长工具
+          - listitem [ref=e348] [cursor=pointer]: 编程开发
+          - listitem [ref=e349] [cursor=pointer]: 文本处理
+          - listitem [ref=e350] [cursor=pointer]: 图像处理
+          - listitem [ref=e351] [cursor=pointer]: 文档转换
+          - listitem [ref=e352] [cursor=pointer]: 音频视频
+          - listitem [ref=e353] [cursor=pointer]: 便民工具
+          - listitem [ref=e354] [cursor=pointer]: 编码加密
+          - listitem [ref=e355] [cursor=pointer]: 单位转换
+        - table [ref=e357]:
+          - rowgroup [ref=e358]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e359]:
+              - cell "微信聊天模拟器" [ref=e360]:
+                - link "微信聊天模拟器" [ref=e361] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e362]:
+                - link "微信零钱模拟器" [ref=e363] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e364]:
+                - link "文字转语音工具" [ref=e365] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e366]:
+                - link "法定退休年龄计算器" [ref=e367] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e368]:
+                - link "身份证号码查询" [ref=e369] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e370]:
+                - link "在线随机点名" [ref=e371] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e372]:
+              - cell "报名证件照处理" [ref=e373]:
+                - link "报名证件照处理" [ref=e374] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e375]:
+                - link "随机密码生成器" [ref=e376] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e377]:
+                - link "二维码生成器" [ref=e378] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e379]:
+                - link "世界高清地图" [ref=e380] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e381]:
+                - link "键盘按键检测" [ref=e382] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e383]:
+                - link "手机归属地查询" [ref=e384] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e385]:
+              - cell "在线字数统计" [ref=e386]:
+                - link "在线字数统计" [ref=e387] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e388]:
+                - link "JSON格式化/压缩" [ref=e389] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e390]:
+                - link "Base64编码/解码" [ref=e391] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e392]:
+                - link "图片高清压缩" [ref=e393] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e394]:
+                - link "摩斯密码编码/解码" [ref=e395] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e396]:
+                - link "节日时间倒计时" [ref=e397] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e398]:
+              - cell "本机IP地址查询" [ref=e399]:
+                - link "本机IP地址查询" [ref=e400] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e401]:
+                - link "Unix时间戳转换" [ref=e402] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e403]:
+                - link "图片取色器" [ref=e404] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e405]:
+                - link "色盲色弱测试" [ref=e406] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e407]:
+                - link "SVG在线编辑器" [ref=e408] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e409]:
+                - link "中国高清地图" [ref=e410] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e411]:
+              - cell "查看网页源码" [ref=e412]:
+                - link "查看网页源码" [ref=e413] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e414]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e415]
+        - paragraph [ref=e416]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e417]
+    - generic [ref=e418]:
+      - navigation "页脚链接" [ref=e419]:
+        - link "关于我们" [ref=e420] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e421] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e422] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e423] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e424] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e425] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e426] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e427] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e428] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e429]:
+        - generic [ref=e430]:
+          - text: © 2025
+          - link "懒人工具" [ref=e431] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e433] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e434]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e435] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

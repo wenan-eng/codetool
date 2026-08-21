@@ -12547,5 +12547,2082 @@
       "url-extractor",
       "net-parser"
     ]
+  },
+  {
+    "id": "loan-calculator",
+    "title": "贷款计算器",
+    "h1": "贷款计算器",
+    "description": "在线贷款计算器，支持等额本息与等额本金两种还款方式，输出月供、总利息与还款总额明细，适用于房贷与消费贷对比规划。",
+    "title_en": "贷款计算器",
+    "h1_en": "贷款计算器",
+    "description_en": "Online loan calculator with equal installment and equal principal modes showing monthly payment, interest and totals for mortgage planning.",
+    "title_es": "贷款计算器",
+    "h1_es": "贷款计算器",
+    "description_es": "Online loan calculator with equal installment and equal principal modes showing monthly payment, interest and totals for mortgage planning.",
+    "tags": [
+      "贷款计算",
+      "生活计算",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "生活计算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-loan-calculator.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "car-loan-calculator",
+      "bonus-tax-calculator",
+      "stamp-duty-calculator"
+    ]
+  },
+  {
+    "id": "car-loan-calculator",
+    "title": "购车贷款计算器",
+    "h1": "购车贷款计算器",
+    "description": "购车贷款计算器，输入车价首付比例年利率与期限即时算出月供与总成本，含首付明细，买车预算规划神器。",
+    "title_en": "购车贷款计算器",
+    "h1_en": "购车贷款计算器",
+    "description_en": "Car loan calculator: price, down payment, rate and term in, monthly payment and total cost out, with down payment breakdown.",
+    "title_es": "购车贷款计算器",
+    "h1_es": "购车贷款计算器",
+    "description_es": "Car loan calculator: price, down payment, rate and term in, monthly payment and total cost out, with down payment breakdown.",
+    "tags": [
+      "购车贷款",
+      "生活计算",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "生活计算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-car-loan-calculator.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "bonus-tax-calculator",
+      "stamp-duty-calculator"
+    ]
+  },
+  {
+    "id": "bonus-tax-calculator",
+    "title": "年终奖个税计算器",
+    "h1": "年终奖个税计算器",
+    "description": "年终奖个税计算器，按全年一次性奖金单独计税政策精确算税，支持与并入综合所得两种方式对比税负。",
+    "title_en": "年终奖个税计算器",
+    "h1_en": "年终奖个税计算器",
+    "description_en": "Annual bonus tax calculator per the one-time bonus preferential policy, comparable against combined taxation.",
+    "title_es": "年终奖个税计算器",
+    "h1_es": "年终奖个税计算器",
+    "description_es": "Annual bonus tax calculator per the one-time bonus preferential policy, comparable against combined taxation.",
+    "tags": [
+      "年终奖个",
+      "生活计算",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "生活计算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-bonus-tax-calculator.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "stamp-duty-calculator"
+    ]
+  },
+  {
+    "id": "stamp-duty-calculator",
+    "title": "印花税计算器",
+    "h1": "印花税计算器",
+    "description": "印花税计算器，按合同金额与税率档位快速计算应缴税额，房产交易与合同签订前的税费预估工具。",
+    "title_en": "印花税计算器",
+    "h1_en": "印花税计算器",
+    "description_en": "Stamp duty calculator by contract value and rate tier for property deals and pre-signing estimates.",
+    "title_es": "印花税计算器",
+    "h1_es": "印花税计算器",
+    "description_es": "Stamp duty calculator by contract value and rate tier for property deals and pre-signing estimates.",
+    "tags": [
+      "印花税计",
+      "生活计算",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "生活计算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-stamp-duty-calculator.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "profit-roi-calculator",
+    "title": "利润率/ROI计算器",
+    "h1": "利润率/ROI计算器",
+    "description": "利润率/ROI计算器，输入成本售价或收益即时得出毛利率净利率与投资回报率，生意定价与项目复盘必备。",
+    "title_en": "利润率/ROI计算器",
+    "h1_en": "利润率/ROI计算器",
+    "description_en": "Profit margin & ROI calculator: cost/price/revenue in, gross/net margins and ROI out instantly.",
+    "title_es": "利润率/ROI计算器",
+    "h1_es": "利润率/ROI计算器",
+    "description_es": "Profit margin & ROI calculator: cost/price/revenue in, gross/net margins and ROI out instantly.",
+    "tags": [
+      "利润率/",
+      "生活计算",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "生活计算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-profit-roi-calculator.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "wangshangdai-calculator",
+    "title": "网商贷利息计算器",
+    "h1": "网商贷利息计算器",
+    "description": "网商贷利息计算器，按日利率折算年化，输入本金期限得出总利息与每期还款，借款前先算清成本。",
+    "title_en": "网商贷利息计算器",
+    "h1_en": "网商贷利息计算器",
+    "description_en": "Wangshangdai interest calculator converting daily rate to APR: principal and term in, total interest out.",
+    "title_es": "网商贷利息计算器",
+    "h1_es": "网商贷利息计算器",
+    "description_es": "Wangshangdai interest calculator converting daily rate to APR: principal and term in, total interest out.",
+    "tags": [
+      "网商贷利",
+      "生活计算",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "生活计算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-wangshangdai-calculator.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "payslip",
+    "title": "工资条生成器",
+    "h1": "工资条生成器",
+    "description": "工资条生成器，录入基本工资五险一金与个税自动生成规范工资条表格并可导出，小微企业人事好帮手。",
+    "title_en": "工资条生成器",
+    "h1_en": "工资条生成器",
+    "description_en": "Payslip generator producing standard tables from base salary, insurance and tax inputs, exportable for small-business HR.",
+    "title_es": "工资条生成器",
+    "h1_es": "工资条生成器",
+    "description_es": "Payslip generator producing standard tables from base salary, insurance and tax inputs, exportable for small-business HR.",
+    "tags": [
+      "工资条生",
+      "生活计算",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "生活计算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-payslip.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "countdown",
+    "title": "节日时间倒计时",
+    "h1": "节日时间倒计时",
+    "description": "节日时间倒计时，内置主要节日日期实时刷新剩余天时分秒，重要日子一目了然。",
+    "title_en": "节日时间倒计时",
+    "h1_en": "节日时间倒计时",
+    "description_en": "Holiday countdown with built-in festival dates, live days/hours/minutes remaining.",
+    "title_es": "节日时间倒计时",
+    "h1_es": "节日时间倒计时",
+    "description_es": "Holiday countdown with built-in festival dates, live days/hours/minutes remaining.",
+    "tags": [
+      "节日时间",
+      "生活计算",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "生活计算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-countdown.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "ip2int",
+    "title": "IP地址与INT互转",
+    "h1": "IP地址与INT互转",
+    "description": "IP地址与INT整数双向互转工具，输入 IPv4 自动识别方向转换，网络编程与数据库存储场景常用。",
+    "title_en": "IP地址与INT互转",
+    "h1_en": "IP地址与INT互转",
+    "description_en": "Two-way IPv4 ↔ integer converter with auto direction detection, common in network programming and DB storage.",
+    "title_es": "IP地址与INT互转",
+    "h1_es": "IP地址与INT互转",
+    "description_es": "Two-way IPv4 ↔ integer converter with auto direction detection, common in network programming and DB storage.",
+    "tags": [
+      "IP地址",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-ip2int.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "cidr-converter",
+    "title": "CIDR/子网掩码转换器",
+    "h1": "CIDR/子网掩码转换器",
+    "description": "CIDR/子网掩码转换器，输入 IP/前缀长度即得网络地址、掩码、广播地址、可用范围与主机数。",
+    "title_en": "CIDR/子网掩码转换器",
+    "h1_en": "CIDR/子网掩码转换器",
+    "description_en": "CIDR/mask converter: IP/prefix in, network address, mask, broadcast, usable range and host count out.",
+    "title_es": "CIDR/子网掩码转换器",
+    "h1_es": "CIDR/子网掩码转换器",
+    "description_es": "CIDR/mask converter: IP/prefix in, network address, mask, broadcast, usable range and host count out.",
+    "tags": [
+      "CIDR",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-cidr-converter.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "ip-subnet",
+    "title": "子网掩码计算器",
+    "h1": "子网掩码计算器",
+    "description": "IPv4子网掩码计算器，选择掩码位输入任意 IP 即得所属子网的完整信息，网络规划必备。",
+    "title_en": "子网掩码计算器",
+    "h1_en": "子网掩码计算器",
+    "description_en": "IPv4 subnet calculator: pick a prefix length, enter any IP and get its full subnet breakdown.",
+    "title_es": "子网掩码计算器",
+    "h1_es": "子网掩码计算器",
+    "description_es": "IPv4 subnet calculator: pick a prefix length, enter any IP and get its full subnet breakdown.",
+    "tags": [
+      "子网掩码",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-ip-subnet.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "ip-generator",
+    "title": "随机IP地址生成器",
+    "h1": "随机IP地址生成器",
+    "description": "随机IP地址生成器，批量生成公网 IPv4 地址并自动排除保留段与私有段，测试数据准备利器。",
+    "title_en": "随机IP地址生成器",
+    "h1_en": "随机IP地址生成器",
+    "description_en": "Random public IPv4 generator excluding reserved and private ranges in batch — handy test data.",
+    "title_es": "随机IP地址生成器",
+    "h1_es": "随机IP地址生成器",
+    "description_es": "Random public IPv4 generator excluding reserved and private ranges in batch — handy test data.",
+    "tags": [
+      "随机IP",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-ip-generator.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "robots",
+    "title": "Robots文件生成",
+    "h1": "Robots文件生成",
+    "description": "Robots文件生成器，可视化配置 User-agent、Allow/Disallow 规则、抓取延迟与 Sitemap，一键输出规范 robots.txt。",
+    "title_en": "Robots文件生成",
+    "h1_en": "Robots文件生成",
+    "description_en": "Visual robots.txt generator covering User-agent, Allow/Disallow rules, crawl-delay and sitemap directives.",
+    "title_es": "Robots文件生成",
+    "h1_es": "Robots文件生成",
+    "description_es": "Visual robots.txt generator covering User-agent, Allow/Disallow rules, crawl-delay and sitemap directives.",
+    "tags": [
+      "Robo",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-robots.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "robots-check",
+    "title": "Robots文件检测",
+    "h1": "Robots文件检测",
+    "description": "Robots文件检测工具，粘贴 robots.txt 内容逐行校验语法问题：空值、未知指令、路径格式与缺失 Disallow 提醒。",
+    "title_en": "Robots文件检测",
+    "h1_en": "Robots文件检测",
+    "description_en": "Robots.txt validator checking blank values, unknown directives, path formats and missing Disallow line by line.",
+    "title_es": "Robots文件检测",
+    "h1_es": "Robots文件检测",
+    "description_es": "Robots.txt validator checking blank values, unknown directives, path formats and missing Disallow line by line.",
+    "tags": [
+      "Robo",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-robots-check.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "meta-generator",
+    "title": "网页META标签生成器",
+    "h1": "网页META标签生成器",
+    "description": "网页META标签生成器，填写标题描述关键词作者即可生成含 charset、viewport、robots 与 Open Graph 的完整头部代码。",
+    "title_en": "网页META标签生成器",
+    "h1_en": "网页META标签生成器",
+    "description_en": "META tag generator producing complete head code with charset, viewport, robots and Open Graph from simple inputs.",
+    "title_es": "网页META标签生成器",
+    "h1_es": "网页META标签生成器",
+    "description_es": "META tag generator producing complete head code with charset, viewport, robots and Open Graph from simple inputs.",
+    "tags": [
+      "网页ME",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-meta-generator.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "regex-generator",
+    "title": "正则表达式生成器",
+    "h1": "正则表达式生成器",
+    "description": "正则表达式生成器，按常见场景（手机号邮箱URL数字等）可视化拼装正则并实时匹配预览。",
+    "title_en": "正则表达式生成器",
+    "h1_en": "正则表达式生成器",
+    "description_en": "Regex generator assembling patterns visually for common cases (phone, email, URL, numbers) with live match preview.",
+    "title_es": "正则表达式生成器",
+    "h1_es": "正则表达式生成器",
+    "description_es": "Regex generator assembling patterns visually for common cases (phone, email, URL, numbers) with live match preview.",
+    "tags": [
+      "正则表达",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-regex-generator.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "color-converter",
+    "title": "颜色拾取转换器",
+    "h1": "颜色拾取转换器",
+    "description": "颜色拾取转换器，HEX、RGB、HSL 三格式互转并支持取色板选择，前端配色与设计对色常用。",
+    "title_en": "颜色拾取转换器",
+    "h1_en": "颜色拾取转换器",
+    "description_en": "Color converter across HEX, RGB and HSL with a picker — everyday tool for frontend colors and design matching.",
+    "title_es": "颜色拾取转换器",
+    "h1_es": "颜色拾取转换器",
+    "description_es": "Color converter across HEX, RGB and HSL with a picker — everyday tool for frontend colors and design matching.",
+    "tags": [
+      "颜色拾取",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-color-converter.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "proportion-calculator",
+    "title": "比例计算器",
+    "h1": "比例计算器",
+    "description": "比例计算器，已知比例三项求第四项 a:b=c:d，配比调液、地图缩放与摄影构图常用。",
+    "title_en": "比例计算器",
+    "h1_en": "比例计算器",
+    "description_en": "Proportion calculator solving the fourth term of a:b=c:d — for mixing ratios, map scales and photography framing.",
+    "title_es": "比例计算器",
+    "h1_es": "比例计算器",
+    "description_es": "Proportion calculator solving the fourth term of a:b=c:d — for mixing ratios, map scales and photography framing.",
+    "tags": [
+      "比例计算",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-proportion-calculator.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "user-agent",
+    "title": "常用USER_AGENT大全",
+    "h1": "常用USER_AGENT大全",
+    "description": "常用USER_AGENT大全，收录主流浏览器与搜索引擎爬虫的 UA 字符串，点击复制用于开发调试与爬虫伪装声明。",
+    "title_en": "常用USER_AGENT大全",
+    "h1_en": "常用USER_AGENT大全",
+    "description_en": "A collection of mainstream browser and crawler UA strings, copy-ready for development debugging.",
+    "title_es": "常用USER_AGENT大全",
+    "h1_es": "常用USER_AGENT大全",
+    "description_es": "A collection of mainstream browser and crawler UA strings, copy-ready for development debugging.",
+    "tags": [
+      "常用US",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-user-agent.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "client-info",
+    "title": "浏览器信息检测",
+    "h1": "浏览器信息检测",
+    "description": "浏览器信息检测，展示当前浏览器的 User-Agent、屏幕分辨率、语言、时区与 Cookie 支持等本机信息，环境排查利器。",
+    "title_en": "浏览器信息检测",
+    "h1_en": "浏览器信息检测",
+    "description_en": "Browser info inspector showing your UA, screen size, language, timezone and cookie support for environment debugging.",
+    "title_es": "浏览器信息检测",
+    "h1_es": "浏览器信息检测",
+    "description_es": "Browser info inspector showing your UA, screen size, language, timezone and cookie support for environment debugging.",
+    "tags": [
+      "浏览器信",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-client-info.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "device-preview",
+    "title": "网页在线设备模拟器",
+    "h1": "网页在线设备模拟器",
+    "description": "网页在线设备模拟器，在可调节尺寸的 iframe 中预览目标网址在不同设备分辨率下的表现。",
+    "title_en": "网页在线设备模拟器",
+    "h1_en": "网页在线设备模拟器",
+    "description_en": "Device previewer rendering any URL in a resizable iframe to check responsive layouts at various resolutions.",
+    "title_es": "网页在线设备模拟器",
+    "h1_es": "网页在线设备模拟器",
+    "description_es": "Device previewer rendering any URL in a resizable iframe to check responsive layouts at various resolutions.",
+    "tags": [
+      "网页在线",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-device-preview.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "shortcut",
+    "title": "创建网页快捷方式",
+    "h1": "创建网页快捷方式",
+    "description": "创建网页快捷方式，输入名称与网址即可下载 .url 快捷方式文件，双击直达常用网站。",
+    "title_en": "创建网页快捷方式",
+    "h1_en": "创建网页快捷方式",
+    "description_en": "Create .url shortcut files from a name and address — double-click access to your favorite sites.",
+    "title_es": "创建网页快捷方式",
+    "h1_es": "创建网页快捷方式",
+    "description_es": "Create .url shortcut files from a name and address — double-click access to your favorite sites.",
+    "tags": [
+      "创建网页",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-shortcut.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "sitemap-extractor",
+    "title": "Sitemap链接提取",
+    "h1": "Sitemap链接提取",
+    "description": "Sitemap链接提取器，粘贴 sitemap XML 内容自动提取全部 URL 列表，支持复制与下载 TXT。",
+    "title_en": "Sitemap链接提取",
+    "h1_en": "Sitemap链接提取",
+    "description_en": "Sitemap link extractor pulling every URL out of pasted sitemap XML, copyable and downloadable as TXT.",
+    "title_es": "Sitemap链接提取",
+    "h1_es": "Sitemap链接提取",
+    "description_es": "Sitemap link extractor pulling every URL out of pasted sitemap XML, copyable and downloadable as TXT.",
+    "tags": [
+      "Site",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-sitemap-extractor.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "density",
+    "title": "网页关键词密度检测",
+    "h1": "网页关键词密度检测",
+    "description": "网页关键词密度检测，粘贴 HTML 或正文统计词频占比，SEO 内容优化参考指标。",
+    "title_en": "网页关键词密度检测",
+    "h1_en": "网页关键词密度检测",
+    "description_en": "Keyword density checker computing term frequencies from pasted HTML or body text for SEO optimization.",
+    "title_es": "网页关键词密度检测",
+    "h1_es": "网页关键词密度检测",
+    "description_es": "Keyword density checker computing term frequencies from pasted HTML or body text for SEO optimization.",
+    "tags": [
+      "网页关键",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-density-converter.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "log-analysis",
+    "title": "日志文件分析器",
+    "h1": "日志文件分析器",
+    "description": "日志文件分析器，上传 Nginx/Apache 日志本地解析 PV、UV、状态码分布与 TOP 访问 IP。",
+    "title_en": "日志文件分析器",
+    "h1_en": "日志文件分析器",
+    "description_en": "Log file analyzer parsing uploaded Nginx/Apache logs locally for PV, UV, status codes and top IPs.",
+    "title_es": "日志文件分析器",
+    "h1_es": "日志文件分析器",
+    "description_es": "Log file analyzer parsing uploaded Nginx/Apache logs locally for PV, UV, status codes and top IPs.",
+    "tags": [
+      "日志文件",
+      "站长工具",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "站长工具",
+    "icon": "https://www.lanren-tools.com/static/images/logo-log-analysis.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "decibel-meter",
+    "title": "分贝噪音测试仪",
+    "h1": "分贝噪音测试仪",
+    "description": "分贝噪音测试仪，基于麦克风实时测量环境噪音分贝值并绘制音量曲线，噪声评估参考工具。",
+    "title_en": "分贝噪音测试仪",
+    "h1_en": "分贝噪音测试仪",
+    "description_en": "Decibel meter measuring ambient noise via your microphone with a live level curve — a reference for noise assessment.",
+    "title_es": "分贝噪音测试仪",
+    "h1_es": "分贝噪音测试仪",
+    "description_es": "Decibel meter measuring ambient noise via your microphone with a live level curve — a reference for noise assessment.",
+    "tags": [
+      "分贝噪音",
+      "影音媒体",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "影音媒体",
+    "icon": "https://www.lanren-tools.com/static/images/logo-decibel-meter.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "voice-recorder",
+    "title": "在线录音助手",
+    "h1": "在线录音助手",
+    "description": "在线录音助手，使用浏览器麦克风录制声音并支持回放与 WAV 下载，会议速记与配音素材采集。",
+    "title_en": "在线录音助手",
+    "h1_en": "在线录音助手",
+    "description_en": "Online voice recorder capturing microphone audio with playback and WAV download for meetings and dubbing.",
+    "title_es": "在线录音助手",
+    "h1_es": "在线录音助手",
+    "description_es": "Online voice recorder capturing microphone audio with playback and WAV download for meetings and dubbing.",
+    "tags": [
+      "在线录音",
+      "影音媒体",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "影音媒体",
+    "icon": "https://www.lanren-tools.com/static/images/logo-voice-recorder.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "video-player",
+    "title": "本地视频播放器",
+    "h1": "本地视频播放器",
+    "description": "本地视频播放器，选择本地视频文件在浏览器直接播放，支持倍速与全屏，视频文件不离开设备。",
+    "title_en": "本地视频播放器",
+    "h1_en": "本地视频播放器",
+    "description_en": "Local video player playing files straight in the browser with speed control and fullscreen — files never leave your device.",
+    "title_es": "本地视频播放器",
+    "h1_es": "本地视频播放器",
+    "description_es": "Local video player playing files straight in the browser with speed control and fullscreen — files never leave your device.",
+    "tags": [
+      "本地视频",
+      "影音媒体",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "影音媒体",
+    "icon": "https://www.lanren-tools.com/static/images/logo-video-player.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "audio-player",
+    "title": "本地音乐播放器",
+    "h1": "本地音乐播放器",
+    "description": "本地音乐播放器，选择本地音频文件循环播放，支持进度拖拽与倍速，听写转录好帮手。",
+    "title_en": "本地音乐播放器",
+    "h1_en": "本地音乐播放器",
+    "description_en": "Local audio player with loop playback, seeking and speed control — great for transcription listening.",
+    "title_es": "本地音乐播放器",
+    "h1_es": "本地音乐播放器",
+    "description_es": "Local audio player with loop playback, seeking and speed control — great for transcription listening.",
+    "tags": [
+      "本地音乐",
+      "影音媒体",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "影音媒体",
+    "icon": "https://www.lanren-tools.com/static/images/logo-audio-player.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "screen-recorder",
+    "title": "屏幕录制器",
+    "h1": "屏幕录制器",
+    "description": "屏幕录制器，基于浏览器 ScreenCapture API 录制屏幕为 WebM 文件本地下载，录教程演示无需安装软件。",
+    "title_en": "屏幕录制器",
+    "h1_en": "屏幕录制器",
+    "description_en": "Screen recorder using ScreenCapture API to capture your display as a downloadable WebM — no install needed.",
+    "title_es": "屏幕录制器",
+    "h1_es": "屏幕录制器",
+    "description_es": "Screen recorder using ScreenCapture API to capture your display as a downloadable WebM — no install needed.",
+    "tags": [
+      "屏幕录制",
+      "影音媒体",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "影音媒体",
+    "icon": "https://www.lanren-tools.com/static/images/logo-screen-recorder.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
+  },
+  {
+    "id": "tts",
+    "title": "文字转语音工具",
+    "h1": "文字转语音工具",
+    "description": "文字转语音工具，基于浏览器 SpeechSynthesis 引擎朗读文本，可选语种语速音调，发音练习与文章试听。",
+    "title_en": "文字转语音工具",
+    "h1_en": "文字转语音工具",
+    "description_en": "Text-to-speech powered by browser SpeechSynthesis with language, rate and pitch options for reading aloud.",
+    "title_es": "文字转语音工具",
+    "h1_es": "文字转语音工具",
+    "description_es": "Text-to-speech powered by browser SpeechSynthesis with language, rate and pitch options for reading aloud.",
+    "tags": [
+      "文字转语",
+      "影音媒体",
+      "免费工具",
+      "本地处理"
+    ],
+    "category": "影音媒体",
+    "icon": "https://www.lanren-tools.com/static/images/logo-tts.svg",
+    "faqs": [
+      {
+        "q": "数据会被上传吗？",
+        "a": "不会，全部处理与计算均在浏览器本地完成，输入内容不经过任何服务器。"
+      },
+      {
+        "q": "结果准确吗？",
+        "a": "采用公开标准算法与参数；涉及政策税率类请以官方最新口径为准。"
+      },
+      {
+        "q": "支持哪些浏览器？",
+        "a": "支持 Chrome、Edge、Safari、Firefox 现代版本；涉及摄像头麦克风的功能需授权权限。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Is any data uploaded?",
+        "a": "No, all processing happens locally; nothing you type or upload ever reaches a server."
+      },
+      {
+        "q": "Are results accurate?",
+        "a": "Standard public formulas and parameters are used; defer to official sources for policy rates."
+      },
+      {
+        "q": "Which browsers are supported?",
+        "a": "Modern Chrome, Edge, Safari and Firefox; camera/mic features require permission grants."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se sube algún dato?",
+        "a": "No, todo se procesa localmente; nada de lo que escriba llega a un servidor."
+      },
+      {
+        "q": "¿Son precisos los resultados?",
+        "a": "Fórmulas públicas estándar; consulte fuentes oficiales para tasas de política."
+      },
+      {
+        "q": "¿Qué navegadores admite?",
+        "a": "Chrome, Edge, Safari y Firefox modernos; las funciones de cámara/micrófono requieren permiso."
+      }
+    ],
+    "related": [
+      "loan-calculator",
+      "car-loan-calculator",
+      "bonus-tax-calculator"
+    ]
   }
 ]

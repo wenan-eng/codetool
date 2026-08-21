@@ -10,7 +10,7 @@ export default function sitemap(){
       lastModified: now,
       alternates: { languages: Object.fromEntries(locales.map(l=>[l, `${base}/${l}`])) }
     })
-    for(const c of ['code','encode','text','unit','image']){
+    for(const c of ['code','encode','text','unit','image','webmaster','life','media']){
       entries.push({
         url: `${base}/${locale}/${c}`,
         lastModified: now,
