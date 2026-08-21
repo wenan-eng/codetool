@@ -1,0 +1,404 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "文件MD5哈希值在线计算与校验" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "MD5生成器" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=MD5生成器
+          - img [ref=e126]
+          - text: MD5生成器
+        - link "MD5哈希值" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=MD5哈希值
+          - img [ref=e130]
+          - text: MD5哈希值
+        - link "文件MD5校验" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=文件MD5校验
+          - img [ref=e134]
+          - text: 文件MD5校验
+        - link "文件完整性" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=文件完整性
+          - img [ref=e138]
+          - text: 文件完整性
+        - link "MD5计算" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=MD5计算
+          - img [ref=e142]
+          - text: MD5计算
+        - link "免费MD5校验" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=免费MD5校验
+          - img [ref=e146]
+          - text: 免费MD5校验
+    - paragraph [ref=e149]: 使用我们的「文件MD5哈希值计算与校验工具」支持一键计算文件MD5哈希值及实时比对校验，既能直接生成文件唯一指纹，还能输入待比对MD5值校验文件完整性并显示比对结果。
+    - main [ref=e150]:
+      - generic [ref=e153] [cursor=pointer]:
+        - img [ref=e154]
+        - paragraph [ref=e157]: 点击或拖拽文件至此区域上传，支持任意格式文件
+      - generic [ref=e158]:
+        - button "复制MD5值" [ref=e159] [cursor=pointer]:
+          - img [ref=e160]
+          - text: 复制MD5值
+        - button "清空数据" [ref=e162] [cursor=pointer]:
+          - img [ref=e163]
+          - text: 清空数据
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - generic [ref=e167]: 文件MD5值
+          - textbox "文件MD5值" [ref=e168]:
+            - /placeholder: 上传文件后自动生成
+        - generic [ref=e169]:
+          - generic [ref=e170]: 校验对比
+          - textbox "校验对比" [ref=e171]:
+            - /placeholder: 输入待比对的MD5值
+    - region "工具使用帮助与相关信息" [ref=e172]:
+      - generic [ref=e173]:
+        - heading "使用说明" [level=2] [ref=e174]:
+          - img [ref=e175]
+          - text: 使用说明
+        - paragraph [ref=e177]:
+          - text: 📁
+          - strong [ref=e178]: 文件上传
+        - paragraph [ref=e179]: 在文件上传区域，可直接点击选择或拖拽要校验的文件（支持任意格式）。系统支持单个文件上传，文件大小不限（本地浏览器解析），自动计算文件MD5哈希值，生成32位十六进制字符串，无需等待服务器处理，实时显示计算结果。
+        - paragraph [ref=e180]:
+          - text: 🔐
+          - strong [ref=e181]: MD5值生成
+        - paragraph [ref=e182]: 文件上传成功后，系统将自动计算并显示文件的MD5哈希值。MD5值作为文件的唯一数字指纹，可用于验证文件在传输、下载、存储过程中是否被篡改或损坏。计算结果精确到32位十六进制字符，支持直接复制使用，方便你留存或与官方提供的MD5值进行比对。
+        - paragraph [ref=e183]:
+          - text: ✅
+          - strong [ref=e184]: 校验对比
+        - paragraph [ref=e185]: 在「校验对比」输入框中，可手动输入待比对的MD5值。系统将实时对比输入的MD5值与当前文件生成的MD5值是否一致，并显示「一致」或「不一致」的校验结果。适用于下载文件完整性验证、软件安装包校验、传输前后文件一致性检测等场景，确保文件来源可靠、内容完整。
+        - paragraph [ref=e186]:
+          - text: 📋
+          - strong [ref=e187]: 复制MD5值
+        - paragraph [ref=e188]: 点击「复制MD5值」按钮，可将当前文件生成的MD5哈希值一键复制到系统剪贴板。复制成功后会有提示反馈，方便你快速粘贴到其他文档、聊天窗口或校验记录中，无需手动选中复制，提升操作效率。
+        - paragraph [ref=e189]:
+          - text: 🗑️
+          - strong [ref=e190]: 清空数据
+        - paragraph [ref=e191]: 点击「清空数据」按钮可同时清除已上传的文件、生成的MD5值以及校验输入框中的内容，恢复工具初始状态。所有文件解析、MD5计算、校验对比均在浏览器本地完成，不上传任何文件到服务器，不产生网络请求，100%保护隐私，安全无痕。
+      - generic [ref=e192]:
+        - heading "同类推荐" [level=2] [ref=e193]:
+          - img [ref=e194]
+          - text: 同类推荐
+        - generic [ref=e196]:
+          - article [ref=e197]:
+            - link "URL16进制编码解码 工具图标 URL16进制编码解码 生成标准URL十六进制密文，提供专属格式加密结果，适用于网址伪装传输、路径安全隐藏等场景。" [ref=e198] [cursor=pointer]:
+              - /url: /url-hex-encode/
+              - heading "URL16进制编码解码 工具图标 URL16进制编码解码" [level=3] [ref=e199]:
+                - img "URL16进制编码解码 工具图标" [ref=e200]
+                - generic [ref=e201]: URL16进制编码解码
+              - paragraph [ref=e202]: 生成标准URL十六进制密文，提供专属格式加密结果，适用于网址伪装传输、路径安全隐藏等场景。
+          - article [ref=e203]:
+            - link "MD4安全加密 工具图标 MD4安全加密 生成标准MD4哈希密文，提供多格式加密结果，适用于开发校验兼容、老旧数据摘要、日常文本加密等场景。" [ref=e204] [cursor=pointer]:
+              - /url: /md4/
+              - heading "MD4安全加密 工具图标 MD4安全加密" [level=3] [ref=e205]:
+                - img "MD4安全加密 工具图标" [ref=e206]
+                - generic [ref=e207]: MD4安全加密
+              - paragraph [ref=e208]: 生成标准MD4哈希密文，提供多格式加密结果，适用于开发校验兼容、老旧数据摘要、日常文本加密等场景。
+          - article [ref=e209]:
+            - link "MySQL密码哈希生成 工具图标 MySQL密码哈希生成 支持生成 标准 * 开头 41 位格式的 MySQL 密码哈希，适用于数据库密码设置、迁移、批量用户配置等场景。" [ref=e210] [cursor=pointer]:
+              - /url: /mysql-password/
+              - heading "MySQL密码哈希生成 工具图标 MySQL密码哈希生成" [level=3] [ref=e211]:
+                - img "MySQL密码哈希生成 工具图标" [ref=e212]
+                - generic [ref=e213]: MySQL密码哈希生成
+              - paragraph [ref=e214]: 支持生成 标准 * 开头 41 位格式的 MySQL 密码哈希，适用于数据库密码设置、迁移、批量用户配置等场景。
+          - article [ref=e215]:
+            - link "Base32编码/解码 工具图标 Base32编码/解码 支持 Base32 编码解码、智能结果展示，适用于前端开发、数据格式转换、字符传输、测试验证等场景。" [ref=e216] [cursor=pointer]:
+              - /url: /base32-encode/
+              - heading "Base32编码/解码 工具图标 Base32编码/解码" [level=3] [ref=e217]:
+                - img "Base32编码/解码 工具图标" [ref=e218]
+                - generic [ref=e219]: Base32编码/解码
+              - paragraph [ref=e220]: 支持 Base32 编码解码、智能结果展示，适用于前端开发、数据格式转换、字符传输、测试验证等场景。
+          - article [ref=e221]:
+            - link "批量MD5加密 工具图标 批量MD5加密 批量MD5加密工具，精准解析多行文本输入，并支持8/16/32位截取、大小写切换与结果一键复制。" [ref=e222] [cursor=pointer]:
+              - /url: /md5-batch/
+              - heading "批量MD5加密 工具图标 批量MD5加密" [level=3] [ref=e223]:
+                - img "批量MD5加密 工具图标" [ref=e224]
+                - generic [ref=e225]: 批量MD5加密
+              - paragraph [ref=e226]: 批量MD5加密工具，精准解析多行文本输入，并支持8/16/32位截取、大小写切换与结果一键复制。
+          - article [ref=e227]:
+            - link "文本与十六进制互转 工具图标 文本与十六进制互转 自动转换文本与十六进制编码，支持中英文数字符号，实现双向格式化标准输出。" [ref=e228] [cursor=pointer]:
+              - /url: /text-hex/
+              - heading "文本与十六进制互转 工具图标 文本与十六进制互转" [level=3] [ref=e229]:
+                - img "文本与十六进制互转 工具图标" [ref=e230]
+                - generic [ref=e231]: 文本与十六进制互转
+              - paragraph [ref=e232]: 自动转换文本与十六进制编码，支持中英文数字符号，实现双向格式化标准输出。
+          - article [ref=e233]:
+            - link "文本与八进制互转 工具图标 文本与八进制互转 自动转换文本与八进制编码，支持中英文数字符号，实现双向格式化标准输出。" [ref=e234] [cursor=pointer]:
+              - /url: /text-octal/
+              - heading "文本与八进制互转 工具图标 文本与八进制互转" [level=3] [ref=e235]:
+                - img "文本与八进制互转 工具图标" [ref=e236]
+                - generic [ref=e237]: 文本与八进制互转
+              - paragraph [ref=e238]: 自动转换文本与八进制编码，支持中英文数字符号，实现双向格式化标准输出。
+          - article [ref=e239]:
+            - link "文本与二进制互转 工具图标 文本与二进制互转 自动转换文本与二进制编码，支持中英文数字符号，实现双向格式化标准输出。" [ref=e240] [cursor=pointer]:
+              - /url: /text-bin/
+              - heading "文本与二进制互转 工具图标 文本与二进制互转" [level=3] [ref=e241]:
+                - img "文本与二进制互转 工具图标" [ref=e242]
+                - generic [ref=e243]: 文本与二进制互转
+              - paragraph [ref=e244]: 自动转换文本与二进制编码，支持中英文数字符号，实现双向格式化标准输出。
+          - article [ref=e245]:
+            - link "专业JS代码混淆加密 工具图标 专业JS代码混淆加密 支持域名授权绑定、防盗用弹窗提醒、静默跳转保护、密码验证等多重安全机制。" [ref=e246] [cursor=pointer]:
+              - /url: /js-obfuscator-advanced/
+              - heading "专业JS代码混淆加密 工具图标 专业JS代码混淆加密" [level=3] [ref=e247]:
+                - img "专业JS代码混淆加密 工具图标" [ref=e248]
+                - generic [ref=e249]: 专业JS代码混淆加密
+              - paragraph [ref=e250]: 支持域名授权绑定、防盗用弹窗提醒、静默跳转保护、密码验证等多重安全机制。
+          - article [ref=e251]:
+            - link "SHA系列哈希值生成 工具图标 SHA系列哈希值生成 支持SHA-1、SHA-224、SHA-256、SHA-384、SHA-512五种安全哈希算法，可自定义输出大小写格式。" [ref=e252] [cursor=pointer]:
+              - /url: /sha/
+              - heading "SHA系列哈希值生成 工具图标 SHA系列哈希值生成" [level=3] [ref=e253]:
+                - img "SHA系列哈希值生成 工具图标" [ref=e254]
+                - generic [ref=e255]: SHA系列哈希值生成
+              - paragraph [ref=e256]: 支持SHA-1、SHA-224、SHA-256、SHA-384、SHA-512五种安全哈希算法，可自定义输出大小写格式。
+          - article [ref=e257]:
+            - link "DES加密/解密 工具图标 DES加密/解密 支持CBC、ECB等主流DES加密模式，可自定义8字符密钥与初始向量，提供IV生成、结果复制等实用功能。" [ref=e258] [cursor=pointer]:
+              - /url: /des-encrypt/
+              - heading "DES加密/解密 工具图标 DES加密/解密" [level=3] [ref=e259]:
+                - img "DES加密/解密 工具图标" [ref=e260]
+                - generic [ref=e261]: DES加密/解密
+              - paragraph [ref=e262]: 支持CBC、ECB等主流DES加密模式，可自定义8字符密钥与初始向量，提供IV生成、结果复制等实用功能。
+          - article [ref=e263]:
+            - link "AES加密/解密 工具图标 AES加密/解密 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。" [ref=e264] [cursor=pointer]:
+              - /url: /aes-encrypt/
+              - heading "AES加密/解密 工具图标 AES加密/解密" [level=3] [ref=e265]:
+                - img "AES加密/解密 工具图标" [ref=e266]
+                - generic [ref=e267]: AES加密/解密
+              - paragraph [ref=e268]: 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。
+      - generic [ref=e269]:
+        - heading "常见问题" [level=2] [ref=e270]:
+          - img [ref=e271]
+          - text: 常见问题
+        - generic [ref=e275]:
+          - heading "📏 支持上传多大的文件？有格式限制吗？" [level=3] [ref=e276]
+          - paragraph [ref=e277]: 本工具支持任意格式文件上传，文件大小无强制上限，所有MD5哈希值计算均在您的浏览器本地实时完成。为保证计算速度和页面响应流畅度，建议单文件不超过2GB，各类常见文件格式如文档、图片、音视频、压缩包、可执行程序等均可正常计算，稳定生成32位MD5哈希值。
+        - generic [ref=e278]:
+          - heading "🔐 什么是MD5哈希值？有什么用？" [level=3] [ref=e279]
+          - paragraph [ref=e280]: MD5是一种广泛使用的密码散列函数，可为任意文件生成一个128位（32个十六进制字符）的唯一数字指纹。常用于验证文件完整性，例如下载软件安装包后对比官方提供的MD5值，确认文件在传输过程中未被篡改或损坏；也可用于判断两个文件是否完全一致，保障文件来源可靠、内容完整。
+        - generic [ref=e281]:
+          - heading "✅ 如何校验文件MD5值是否一致？" [level=3] [ref=e282]
+          - paragraph [ref=e283]: 文件上传后系统自动生成MD5值，您在「校验对比」输入框中粘贴待比对的MD5值，系统将实时对比并显示「一致」或「不一致」的结果。比对时不区分大小写，支持直接粘贴从官网、下载站或其他渠道获取的MD5字符串，快速验证文件完整性与真实性。
+        - generic [ref=e284]:
+          - heading "⚠️ 计算失败或一直无响应是什么原因？" [level=3] [ref=e285]
+          - paragraph [ref=e286]: 出现此类情况通常是文件过大导致浏览器内存占用过高、文件本身已损坏无法正常读取，或浏览器版本过低不支持相关API。您可以尝试更换较小文件测试，刷新页面后重新上传，或升级浏览器至最新版本。若问题持续，建议使用Chrome、Edge等主流浏览器获得最佳体验。
+        - generic [ref=e287]:
+          - heading "🔒 我上传的文件会被上传或记录吗？是否安全？" [level=3] [ref=e288]
+          - paragraph [ref=e289]: 完全不会！所有文件读取、MD5计算、校验对比均在您的浏览器本地实时完成，无需联网上传，不发送任何网络请求。您上传的文件、生成的MD5值、输入的校验内容等所有信息均不会离开您的设备，也不会被存储、记录或追踪，彻底保护您的文件安全与隐私。
+      - generic "工具快速切换" [ref=e290]:
+        - list [ref=e292]:
+          - listitem [ref=e293] [cursor=pointer]: 热门推荐
+          - listitem [ref=e294] [cursor=pointer]: 站长工具
+          - listitem [ref=e295] [cursor=pointer]: 编程开发
+          - listitem [ref=e296] [cursor=pointer]: 文本处理
+          - listitem [ref=e297] [cursor=pointer]: 图像处理
+          - listitem [ref=e298] [cursor=pointer]: 文档转换
+          - listitem [ref=e299] [cursor=pointer]: 音频视频
+          - listitem [ref=e300] [cursor=pointer]: 便民工具
+          - listitem [ref=e301] [cursor=pointer]: 编码加密
+          - listitem [ref=e302] [cursor=pointer]: 单位转换
+        - table [ref=e304]:
+          - rowgroup [ref=e305]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e306]:
+              - cell "微信聊天模拟器" [ref=e307]:
+                - link "微信聊天模拟器" [ref=e308] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e309]:
+                - link "微信零钱模拟器" [ref=e310] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e311]:
+                - link "文字转语音工具" [ref=e312] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e313]:
+                - link "法定退休年龄计算器" [ref=e314] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e315]:
+                - link "身份证号码查询" [ref=e316] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e317]:
+                - link "在线随机点名" [ref=e318] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e319]:
+              - cell "报名证件照处理" [ref=e320]:
+                - link "报名证件照处理" [ref=e321] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e322]:
+                - link "随机密码生成器" [ref=e323] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e324]:
+                - link "二维码生成器" [ref=e325] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e326]:
+                - link "世界高清地图" [ref=e327] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e328]:
+                - link "键盘按键检测" [ref=e329] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e330]:
+                - link "手机归属地查询" [ref=e331] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e332]:
+              - cell "在线字数统计" [ref=e333]:
+                - link "在线字数统计" [ref=e334] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e335]:
+                - link "JSON格式化/压缩" [ref=e336] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e337]:
+                - link "Base64编码/解码" [ref=e338] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e339]:
+                - link "图片高清压缩" [ref=e340] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e341]:
+                - link "摩斯密码编码/解码" [ref=e342] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e343]:
+                - link "节日时间倒计时" [ref=e344] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e345]:
+              - cell "本机IP地址查询" [ref=e346]:
+                - link "本机IP地址查询" [ref=e347] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e348]:
+                - link "Unix时间戳转换" [ref=e349] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e350]:
+                - link "图片取色器" [ref=e351] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e352]:
+                - link "色盲色弱测试" [ref=e353] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e354]:
+                - link "SVG在线编辑器" [ref=e355] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e356]:
+                - link "中国高清地图" [ref=e357] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e358]:
+              - cell "查看网页源码" [ref=e359]:
+                - link "查看网页源码" [ref=e360] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e361]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e362]
+        - paragraph [ref=e363]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e364]
+    - generic [ref=e365]:
+      - navigation "页脚链接" [ref=e366]:
+        - link "关于我们" [ref=e367] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e368] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e369] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e370] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e371] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e372] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e373] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e374] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e375] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e376]:
+        - generic [ref=e377]:
+          - text: © 2025
+          - link "懒人工具" [ref=e378] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e380] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e381]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e382] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

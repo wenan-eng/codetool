@@ -6249,5 +6249,541 @@
       "escape",
       "aes-encrypt"
     ]
+  },
+  {
+    "id": "base64-file",
+    "title": "Base64转文件在线工具",
+    "h1": "Base64转文件在线工具",
+    "description": "Base64转文件在线工具，粘贴 base64 或 Data URL 字符串即可自动识别文件类型与大小，自定义文件名一键下载还原文件，适用于文件溯源、接口数据分析，全部本地处理不上传。",
+    "title_en": "Base64 to File Online",
+    "h1_en": "Base64 to File Online",
+    "description_en": "Paste a base64 or Data URL string to auto-detect file type and size, set a custom name and download the restored file. Ideal for file forensics and API payload analysis, fully local.",
+    "title_es": "Base64 a Archivo en Línea",
+    "h1_es": "Base64 a Archivo en Línea",
+    "description_es": "Pegue una cadena base64 o Data URL para detectar automáticamente el tipo y tamaño del archivo, personalice el nombre y descargue el archivo restaurado, todo local.",
+    "tags": [
+      "Base64转文件",
+      "Data URL",
+      "文件下载",
+      "解码"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-base64-file.svg",
+    "faqs": [
+      {
+        "q": "支持哪些输入格式？",
+        "a": "支持标准 Data URL（data:type;base64,xxx）和纯 base64 字符串；纯 base64 会通过魔数自动嗅探常见文件类型。"
+      },
+      {
+        "q": "文件类型是怎么识别的？",
+        "a": "优先读取 Data URL 中声明的 MIME；裸 base64 则按 PNG、JPEG、GIF、PDF、ZIP 等文件头魔数智能识别。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，解析与下载均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which input formats are supported?",
+        "a": "Standard Data URLs (data:type;base64,xxx) and raw base64 strings; raw input is sniffed by magic bytes for common types."
+      },
+      {
+        "q": "How is the file type detected?",
+        "a": "The MIME from the Data URL takes priority; for raw base64, magic numbers of PNG, JPEG, GIF, PDF, ZIP and more are recognized automatically."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, parsing and downloading run entirely in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué formatos de entrada admite?",
+        "a": "Data URLs estándar (data:type;base64,xxx) y cadenas base64 puras; las puras se identifican por bytes mágicos de tipos comunes."
+      },
+      {
+        "q": "¿Cómo se detecta el tipo de archivo?",
+        "a": "El MIME del Data URL tiene prioridad; para base64 puro se reconocen las firmas de PNG, JPEG, GIF, PDF, ZIP y más."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, el análisis y la descarga se ejecutan en su navegador."
+      }
+    ],
+    "related": [
+      "file-base64",
+      "base64-image",
+      "image-base64"
+    ]
+  },
+  {
+    "id": "file-base64",
+    "title": "文件转Base64在线工具",
+    "h1": "文件转Base64在线工具",
+    "description": "文件转Base64在线工具，选择或拖拽任意格式文件即时生成完整 Data URL 与纯 base64 数据，展示文件名、类型与大小，一键复制用于图片内嵌、配置转码与 API 调试，全部本地处理。",
+    "title_en": "File to Base64 Online",
+    "h1_en": "File to Base64 Online",
+    "description_en": "Pick or drag any file to instantly generate its full Data URL and pure base64, with name, type and size shown. One-click copy for embedding and API debugging, fully local.",
+    "title_es": "Archivo a Base64 en Línea",
+    "h1_es": "Archivo a Base64 en Línea",
+    "description_es": "Seleccione o arrastre cualquier archivo para generar al instante su Data URL completo y base64 puro, con nombre, tipo y tamaño. Copia con un clic, todo local.",
+    "tags": [
+      "文件转Base64",
+      "Data URL",
+      "编码",
+      "内嵌"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-file-base64.svg",
+    "faqs": [
+      {
+        "q": "生成的结果是什么格式？",
+        "a": "默认输出完整 Data URL（data:类型;base64,数据），可直接用于 CSS/HTML 内嵌或接口传输。"
+      },
+      {
+        "q": "有文件大小限制吗？",
+        "a": "受浏览器内存限制，建议单个文件不超过几十 MB；超大文件可能导致页面卡顿。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，文件仅在本地读取并转换。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is the output format?",
+        "a": "A full Data URL (data:type;base64,payload) by default, ready for CSS/HTML embedding or API transport."
+      },
+      {
+        "q": "Any file size limit?",
+        "a": "Limited by browser memory; keep files under tens of MB to avoid slowdowns."
+      },
+      {
+        "q": "Will my file be uploaded?",
+        "a": "No, files are read and converted locally only."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cuál es el formato de salida?",
+        "a": "Un Data URL completo (data:tipo;base64,datos) por defecto, listo para incrustar o enviar por API."
+      },
+      {
+        "q": "¿Hay límite de tamaño?",
+        "a": "Limitado por la memoria del navegador; se recomienda no superar decenas de MB."
+      },
+      {
+        "q": "¿Se subirá mi archivo?",
+        "a": "No, los archivos se leen y convierten localmente."
+      }
+    ],
+    "related": [
+      "image-base64",
+      "base64-file",
+      "base64-encode"
+    ]
+  },
+  {
+    "id": "base64-image",
+    "title": "Base64转图片在线工具",
+    "h1": "Base64转图片在线工具",
+    "description": "Base64转图片在线工具，粘贴 base64 或 Data URL 即时预览图片，展示尺寸、类型与大小，支持一键下载 PNG/JPG 等格式，适用于接口返回解析与前端调试，全部本地处理。",
+    "title_en": "Base64 to Image Online",
+    "h1_en": "Base64 to Image Online",
+    "description_en": "Paste base64 or a Data URL to preview the image instantly with dimensions, type and size, then download as PNG/JPG. Great for API response parsing and frontend debugging, fully local.",
+    "title_es": "Base64 a Imagen en Línea",
+    "h1_es": "Base64 a Imagen en Línea",
+    "description_es": "Pegue base64 o un Data URL para previsualizar la imagen al instante con dimensiones, tipo y tamaño, y descárguela como PNG/JPG, todo local.",
+    "tags": [
+      "Base64转图片",
+      "图片预览",
+      "解码",
+      "前端调试"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-base64-image.svg",
+    "faqs": [
+      {
+        "q": "为什么我的 base64 无法预览？",
+        "a": "请检查字符串是否完整、是否包含 data:image/ 前缀；损坏或不完整的 base64 会给出明确错误提示。"
+      },
+      {
+        "q": "支持哪些图片格式？",
+        "a": "支持浏览器可解码的全部格式：PNG、JPEG、GIF、WebP、BMP、SVG 等。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，预览与下载均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Why won't my base64 preview?",
+        "a": "Check that the string is complete and includes the data:image/ prefix; corrupted or truncated base64 produces a clear error."
+      },
+      {
+        "q": "Which image formats are supported?",
+        "a": "All browser-decodable formats: PNG, JPEG, GIF, WebP, BMP, SVG and more."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, previewing and downloading run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Por qué no se previsualiza mi base64?",
+        "a": "Verifique que la cadena esté completa e incluya el prefijo data:image/; un base64 dañado genera un error claro."
+      },
+      {
+        "q": "¿Qué formatos de imagen admite?",
+        "a": "Todos los formatos decodificables por el navegador: PNG, JPEG, GIF, WebP, BMP, SVG y más."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, la vista previa y la descarga se ejecutan localmente."
+      }
+    ],
+    "related": [
+      "image-base64",
+      "base64-file",
+      "file-base64"
+    ]
+  },
+  {
+    "id": "image-base64",
+    "title": "图片转Base64在线工具",
+    "h1": "图片转Base64在线工具",
+    "description": "图片转Base64在线工具，选择或拖拽图片即时生成 Data URL 与纯 base64 双模式输出，实时预览并展示宽高、类型与大小，适用于图片内嵌、配置文件转码，全部本地处理。",
+    "title_en": "Image to Base64 Online",
+    "h1_en": "Image to Base64 Online",
+    "description_en": "Pick or drag an image to instantly get Data URL and pure base64 output modes, live preview with dimensions, type and size, ideal for embedding and config encoding, fully local.",
+    "title_es": "Imagen a Base64 en Línea",
+    "h1_es": "Imagen a Base64 en Línea",
+    "description_es": "Seleccione o arrastre una imagen para obtener al instante modo Data URL y base64 puro, vista previa con dimensiones, tipo y tamaño, todo local.",
+    "tags": [
+      "图片转Base64",
+      "内嵌图片",
+      "Data URL",
+      "编码"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-base64.svg",
+    "faqs": [
+      {
+        "q": "两种输出模式有什么区别？",
+        "a": "完整 Data URL 可直接放入 img src 或 CSS url()；纯 base64 适合作为接口参数或存储字段。"
+      },
+      {
+        "q": "转换会压缩图片吗？",
+        "a": "不会，输出与原文件字节完全一致的无损编码结果。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，图片仅在本地读取并转换。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Difference between the two output modes?",
+        "a": "Full Data URL goes directly into img src or CSS url(); pure base64 suits API parameters or storage fields."
+      },
+      {
+        "q": "Does conversion compress the image?",
+        "a": "No, the output is a lossless encoding identical to the original bytes."
+      },
+      {
+        "q": "Will my image be uploaded?",
+        "a": "No, images are read and converted locally only."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Diferencia entre los dos modos de salida?",
+        "a": "El Data URL completo va directo en img src o CSS url(); el base64 puro es ideal para parámetros de API o almacenamiento."
+      },
+      {
+        "q": "¿La conversión comprime la imagen?",
+        "a": "No, la salida es una codificación sin pérdida idéntica a los bytes originales."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, las imágenes se leen y convierten localmente."
+      }
+    ],
+    "related": [
+      "file-base64",
+      "base64-image",
+      "base64-encode"
+    ]
+  },
+  {
+    "id": "lsb-extract",
+    "title": "LSB图片隐写提取工具",
+    "h1": "LSB图片隐写提取工具",
+    "description": "LSB图片隐写提取工具，从隐写图片的像素最低有效位中还原隐藏文字信息，适用于隐写信息读取、隐私数据恢复与数字水印验证，全程本地处理不上传。",
+    "title_en": "LSB Steganography Extractor",
+    "h1_en": "LSB Steganography Extractor",
+    "description_en": "Recover hidden text from the least significant bits of stego image pixels, useful for steganalysis, privacy recovery and watermark verification, fully local.",
+    "title_es": "Extractor de Esteganografía LSB",
+    "h1_es": "Extractor de Esteganografía LSB",
+    "description_es": "Recupere texto oculto de los bits menos significativos de píxeles de imagen, útil para estegoanálisis y verificación de marcas de agua, todo local.",
+    "tags": [
+      "LSB隐写",
+      "图片隐写提取",
+      "数字水印",
+      "隐写分析"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-lsb-extract.svg",
+    "faqs": [
+      {
+        "q": "什么样的图片可以提取？",
+        "a": "由本站 LSB 图片隐写工具或兼容算法（RGB 通道逐位嵌入）生成的图片均可提取；普通未隐写图片会提示未检测到数据。"
+      },
+      {
+        "q": "提取失败有哪些原因？",
+        "a": "图片经过压缩转码（如隐写后转 JPG）、裁剪缩放都会破坏低位数据；PNG 无损格式保存的隐写图成功率最高。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有解析均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which images can be extracted?",
+        "a": "Images produced by our LSB embed tool or compatible RGB per-channel embedding work; plain images report no hidden data."
+      },
+      {
+        "q": "Why might extraction fail?",
+        "a": "Recompression (e.g. converting to JPEG), cropping or resizing destroys low-bit data; lossless PNG stego images have the highest success rate."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all parsing runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué imágenes se pueden procesar?",
+        "a": "Las generadas por nuestra herramienta LSB o algoritmos compatibles de incrustación RGB; las imágenes normales informan sin datos ocultos."
+      },
+      {
+        "q": "¿Por qué puede fallar la extracción?",
+        "a": "Recomprimir (p.ej. convertir a JPEG), recortar o redimensionar destruye los bits bajos; los PNG sin pérdida tienen mayor éxito."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el análisis se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "lsb-embed",
+      "md5-verify",
+      "base64-image"
+    ]
+  },
+  {
+    "id": "lsb-embed",
+    "title": "LSB图片隐写工具",
+    "h1": "LSB图片隐写工具",
+    "description": "LSB图片隐写工具，上传图片自动计算可隐藏容量，将秘密文字写入像素最低有效位生成外观不变的隐写图片，PNG 无损下载，适用于信息隐藏与数字水印，全程本地处理。",
+    "title_en": "LSB Image Steganography",
+    "h1_en": "LSB Image Steganography",
+    "description_en": "Upload an image to see its capacity, embed secret text into pixel least significant bits and download a visually identical lossless PNG, for information hiding and watermarks, fully local.",
+    "title_es": "Esteganografía LSB de Imágenes",
+    "h1_es": "Esteganografía LSB de Imágenes",
+    "description_es": "Suba una imagen para ver su capacidad, incruste texto secreto en los bits menos significativos y descargue un PNG sin pérdida visualmente idéntico, todo local.",
+    "tags": [
+      "LSB隐写",
+      "图片隐藏文字",
+      "数字水印",
+      "信息隐藏"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-lsb-embed.svg",
+    "faqs": [
+      {
+        "q": "隐写后的图片肉眼能看出区别吗？",
+        "a": "不能。每个颜色通道仅修改最低 1 位，视觉上与原图完全一致，需专用工具才能提取。"
+      },
+      {
+        "q": "一张图最多能藏多少字？",
+        "a": "容量约为 宽×高×3÷8 字节减去头部开销，例如 1000×1000 图约可隐藏 37 万字符，上传后自动显示精确容量。"
+      },
+      {
+        "q": "隐写图应该保存为什么格式？",
+        "a": "务必选择 PNG 等无损格式；JPG 有损压缩会破坏隐写数据导致无法提取。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Can anyone see the difference?",
+        "a": "No. Only the lowest bit of each channel changes, keeping the image visually identical; extraction requires a dedicated tool."
+      },
+      {
+        "q": "How much text can one image hold?",
+        "a": "Roughly width × height × 3 ÷ 8 bytes minus header overhead; e.g. a 1000×1000 image holds about 370k characters. Exact capacity shows after upload."
+      },
+      {
+        "q": "What format should I save the stego image as?",
+        "a": "Always use lossless formats like PNG; JPEG's lossy compression destroys the hidden data."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Se nota la diferencia a simple vista?",
+        "a": "No. Solo cambia el bit más bajo de cada canal; la imagen es visualmente idéntica y requiere herramienta dedicada para extraer."
+      },
+      {
+        "q": "¿Cuánto texto cabe en una imagen?",
+        "a": "Aproximadamente ancho × alto × 3 ÷ 8 bytes menos cabecera; una imagen de 1000×1000 admite unos 370 mil caracteres. La capacidad exacta se muestra tras subir."
+      },
+      {
+        "q": "¿En qué formato guardar la imagen estego?",
+        "a": "Siempre en formatos sin pérdida como PNG; la compresión con pérdida de JPEG destruye los datos ocultos."
+      }
+    ],
+    "related": [
+      "lsb-extract",
+      "image-base64",
+      "md5-verify"
+    ]
+  },
+  {
+    "id": "md5-verify",
+    "title": "文件MD5哈希值在线计算与校验",
+    "h1": "文件MD5哈希值在线计算与校验",
+    "description": "文件MD5哈希值在线计算与校验工具，上传任意格式文件即时计算 MD5 值，输入期望值一键比对判断文件完整性，适用于下载校验、传输验证与防篡改检查，全部本地计算不上传。",
+    "title_en": "File MD5 Checksum & Verify Online",
+    "h1_en": "File MD5 Checksum & Verify Online",
+    "description_en": "Compute the MD5 of any file instantly and compare it against an expected value to verify integrity — perfect for download checks, transfer validation and tamper detection, fully local.",
+    "title_es": "Verificación MD5 de Archivos en Línea",
+    "h1_es": "Verificación MD5 de Archivos en Línea",
+    "description_es": "Calcule el MD5 de cualquier archivo al instante y compárelo con el valor esperado para verificar integridad, ideal para descargas y anti-manipulación, todo local.",
+    "tags": [
+      "文件MD5",
+      "MD5校验",
+      "完整性验证",
+      "防篡改"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-md5-verify.svg",
+    "faqs": [
+      {
+        "q": "如何校验下载的文件是否完整？",
+        "a": "上传文件得到 MD5 值，与官方公布的 MD5 对比：一致说明文件完整，不一致则可能损坏或被篡改。"
+      },
+      {
+        "q": "大文件计算会很慢吗？",
+        "a": "受浏览器内存限制，建议几百 MB 以内的文件；计算在本地进行，速度取决于设备性能。"
+      },
+      {
+        "q": "文件会被上传吗？",
+        "a": "不会，文件仅在本地读取并计算，不经过网络。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How do I verify a downloaded file?",
+        "a": "Upload the file to get its MD5 and compare with the official value: a match means intact, otherwise it may be corrupted or tampered."
+      },
+      {
+        "q": "Is computing large files slow?",
+        "a": "Limited by browser memory, files up to a few hundred MB are recommended; computation is local and depends on device performance."
+      },
+      {
+        "q": "Will my file be uploaded?",
+        "a": "No, files are read and hashed locally without any network transfer."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo verifico un archivo descargado?",
+        "a": "Suba el archivo para obtener su MD5 y compárelo con el valor oficial: si coincide está intacto, si no puede estar dañado."
+      },
+      {
+        "q": "¿Es lento con archivos grandes?",
+        "a": "Limitado por la memoria del navegador, se recomiendan archivos de hasta cientos de MB; el cálculo es local."
+      },
+      {
+        "q": "¿Se subirá mi archivo?",
+        "a": "No, los archivos se leen y calculan localmente sin pasar por la red."
+      }
+    ],
+    "related": [
+      "md5-batch-verify",
+      "md5",
+      "lsb-extract"
+    ]
+  },
+  {
+    "id": "md5-batch-verify",
+    "title": "批量文件MD5校验哈希值校验工具",
+    "h1": "批量文件MD5校验哈希值校验工具",
+    "description": "批量文件MD5校验工具，一次上传多个文件并行计算 MD5 哈希值，表格汇总展示文件名、大小与哈希值，支持单条复制与 CSV 导出，适用于安装包批量校验与资产盘点，全部本地计算。",
+    "title_en": "Batch File MD5 Checksum Tool",
+    "h1_en": "Batch File MD5 Checksum Tool",
+    "description_en": "Upload multiple files at once to compute MD5 hashes in batch, summarized in a table with name, size and hash, single-copy and CSV export supported — great for package verification, fully local.",
+    "title_es": "Verificación MD5 de Archivos por Lotes",
+    "h1_es": "Verificación MD5 de Archivos por Lotes",
+    "description_es": "Suba varios archivos a la vez para calcular MD5 en lote, resumidos en una tabla con nombre, tamaño y hash, con copia individual y exportación CSV, todo local.",
+    "tags": [
+      "批量MD5",
+      "文件校验",
+      "CSV导出",
+      "哈希批量"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-md5-batch-verify.svg",
+    "faqs": [
+      {
+        "q": "一次最多可以上传多少个文件？",
+        "a": "没有硬性数量限制，但受浏览器内存约束，建议单批不超过几十个且单个文件不过大。"
+      },
+      {
+        "q": "如何导出校验结果？",
+        "a": "点击「导出Excel(CSV)」按钮即可下载包含文件名、大小与 MD5 的 CSV 表格，可直接用 Excel 打开。"
+      },
+      {
+        "q": "文件会被上传吗？",
+        "a": "不会，所有文件均在本地读取并计算。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How many files can I upload at once?",
+        "a": "No hard limit, but browser memory applies; batches of dozens of reasonably sized files are recommended."
+      },
+      {
+        "q": "How do I export results?",
+        "a": "Click Export CSV to download a spreadsheet containing name, size and MD5, openable directly in Excel."
+      },
+      {
+        "q": "Will my files be uploaded?",
+        "a": "No, all files are read and hashed locally."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cuántos archivos puedo subir a la vez?",
+        "a": "Sin límite estricto, pero la memoria del navegador aplica; se recomiendan lotes de docenas de archivos moderados."
+      },
+      {
+        "q": "¿Cómo exporto los resultados?",
+        "a": "Haga clic en Exportar CSV para descargar una tabla con nombre, tamaño y MD5, abrible directamente en Excel."
+      },
+      {
+        "q": "¿Se subirán mis archivos?",
+        "a": "No, todos los archivos se leen y calculan localmente."
+      }
+    ],
+    "related": [
+      "md5-verify",
+      "md5-batch",
+      "md5"
+    ]
   }
 ]

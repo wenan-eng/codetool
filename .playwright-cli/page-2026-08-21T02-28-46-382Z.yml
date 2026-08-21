@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/md5
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/md5
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/md5
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - heading "MD5在线加密工具" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: MD5加密
+          - generic [ref=e22]: 哈希
+          - generic [ref=e23]: 摘要算法
+          - generic [ref=e24]: 32位
+        - paragraph [ref=e25]: MD5在线加密工具，纯前端实现 RFC 1321 标准 MD5 算法，输入任意文本即时生成 32 位大写、32 位小写与 16 位三种密文，支持中文与长文本，一键复制，全部本地计算不上传。
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - button "MD5加密" [ref=e29] [cursor=pointer]
+          - button "查看示例" [ref=e30] [cursor=pointer]
+          - button "清空数据" [ref=e31] [cursor=pointer]
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: 输入
+            - textbox "请在此输入您要MD5加密的文本内容..." [ref=e35]
+          - generic [ref=e36]:
+            - generic [ref=e37]: 结果
+            - generic [ref=e38]: 点击「MD5加密」后结果将显示在此处
+        - generic [ref=e39]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e40]:
+        - heading "使用说明" [level=2] [ref=e41]
+        - list [ref=e42]:
+          - listitem [ref=e43]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e44]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e45]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e46]: 所有操作本地完成，保障隐私
+      - generic [ref=e47]:
+        - heading "同类推荐" [level=2] [ref=e48]
+        - generic [ref=e49]:
+          - link "批量MD5加密工具" [ref=e50] [cursor=pointer]:
+            - /url: /zh/md5-batch
+            - generic [ref=e51]: 批量MD5加密工具
+          - link "SHA系列哈希值生成器" [ref=e52] [cursor=pointer]:
+            - /url: /zh/sha
+            - generic [ref=e53]: SHA系列哈希值生成器
+          - link "MD4在线加密工具" [ref=e54] [cursor=pointer]:
+            - /url: /zh/md4
+            - generic [ref=e55]: MD4在线加密工具
+      - generic [ref=e56]:
+        - heading "常见问题" [level=2] [ref=e57]
+        - group [ref=e58]:
+          - generic "MD5 是加密吗？" [ref=e59] [cursor=pointer]
+        - group [ref=e60]:
+          - generic "32 位和 16 位 MD5 有什么区别？" [ref=e61] [cursor=pointer]
+        - group [ref=e62]:
+          - generic "会被上传吗？" [ref=e63] [cursor=pointer]
+  - contentinfo [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - heading "热门推荐" [level=4] [ref=e67]
+        - link "JSON" [ref=e68] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e69]:
+        - heading "站长工具" [level=4] [ref=e70]
+        - link "IP" [ref=e71] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e72]:
+        - heading "关于" [level=4] [ref=e73]
+        - link "关于我们" [ref=e74] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e75] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e76]:
+        - heading "合规" [level=4] [ref=e77]
+        - link "服务条款" [ref=e78] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e79] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e80]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e81]
