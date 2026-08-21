@@ -8929,5 +8929,541 @@
       "time-converter",
       "temperature-converter"
     ]
+  },
+  {
+    "id": "pressure-converter",
+    "title": "压力单位在线换算工具",
+    "h1": "压力单位在线换算工具",
+    "description": "压力单位在线换算工具，支持帕斯卡、巴、毫巴、标准大气压、毫米汞柱、psi、托共 9 种压力单位双向换算，精确因子即时计算，适用于轮胎胎压、液压工程与气象分析，全部本地计算不上传。",
+    "title_en": "Pressure Unit Converter Online",
+    "h1_en": "Pressure Unit Converter Online",
+    "description_en": "Convert across 9 pressure units: Pa, bar, mbar, atm, mmHg, psi, Torr and more with exact factors — for tire pressure, hydraulics and meteorology, fully local.",
+    "title_es": "Conversor de Presión en Línea",
+    "h1_es": "Conversor de Presión en Línea",
+    "description_es": "Convierta entre 9 unidades de presión: Pa, bar, mbar, atm, mmHg, psi, Torr y más con factores exactos, todo local.",
+    "tags": [
+      "压力换算",
+      "帕斯卡",
+      "psi",
+      "大气压"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "胎压常用什么单位？",
+        "a": "国内常用 bar 或 kPa（如 2.5bar=250kPa），美国用 psi（约 36psi），本工具可一键互转。"
+      },
+      {
+        "q": "mmHg 和 Torr 一样吗？",
+        "a": "实用中视为相等：1 mmHg ≈ 133.322 Pa ≈ 1 Torr，血压计的 mmHg 就是这个单位。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which units do tire pressures use?",
+        "a": "China commonly uses bar or kPa (2.5 bar = 250 kPa); the US uses psi (~36 psi) — convert instantly here."
+      },
+      {
+        "q": "Are mmHg and Torr the same?",
+        "a": "Practically yes: 1 mmHg ≈ 133.322 Pa ≈ 1 Torr; blood pressure readings use mmHg."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué unidades usa la presión de neumáticos?",
+        "a": "En China bar o kPa (2,5 bar = 250 kPa); en EE.UU. psi (~36 psi); convierta al instante aquí."
+      },
+      {
+        "q": "¿mmHg y Torr son iguales?",
+        "a": "En la práctica sí: 1 mmHg ≈ 133,322 Pa ≈ 1 Torr; la tensión arterial usa mmHg."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "force-converter",
+      "power-converter",
+      "density-converter"
+    ]
+  },
+  {
+    "id": "power-converter",
+    "title": "功率单位在线换算工具",
+    "h1": "功率单位在线换算工具",
+    "description": "功率单位在线换算工具，支持瓦特千瓦兆瓦、机械马力公制马力、卡每秒与英热每小时共 7 种功率单位双向换算，适用于电机选型、汽车参数与空调能耗对比，全部本地计算不上传。",
+    "title_en": "Power Unit Converter Online",
+    "h1_en": "Power Unit Converter Online",
+    "description_en": "Convert across 7 power units: W, kW, MW, mechanical/metric horsepower, cal/s and BTU/h — for motor sizing, car specs and AC energy comparison, fully local.",
+    "title_es": "Conversor de Potencia en Línea",
+    "h1_es": "Conversor de Potencia en Línea",
+    "description_es": "Convierta entre 7 unidades de potencia: W, kW, MW, caballos mecánicos/métricos, cal/s y BTU/h, todo local.",
+    "tags": [
+      "功率换算",
+      "马力千瓦",
+      "瓦特",
+      "单位转换"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "马力和千瓦怎么换？",
+        "a": "1 公制马力(ps)=735.49875 瓦；1 机械马力(hp)≈745.7 瓦。150ps 的车约等于 110kW。"
+      },
+      {
+        "q": "两种马力有什么区别？",
+        "a": "公制马力 ps 按每秒 75 千克力·米定义；机械马力 hp 是英制定义，略大 1.4%，购车时注意标注体系。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How do horsepower and kilowatts convert?",
+        "a": "1 metric hp (ps) = 735.49875 W; 1 mechanical hp ≈ 745.7 W. A 150 ps car is about 110 kW."
+      },
+      {
+        "q": "Difference between the two horsepowers?",
+        "a": "Metric ps is defined as 75 kgf·m/s; mechanical hp is the imperial definition, ~1.4% larger — check which system a spec uses."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir caballos y kilovatios?",
+        "a": "1 CV métrico = 735,49875 W; 1 hp mecánico ≈ 745,7 W. Un coche de 150 CV ronda 110 kW."
+      },
+      {
+        "q": "¿Diferencia entre los dos caballos?",
+        "a": "El CV métrico se define como 75 kgf·m/s; el hp imperial es un 1,4% mayor; verifique el sistema usado."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "energy-converter",
+      "torque-converter",
+      "pressure-converter"
+    ]
+  },
+  {
+    "id": "force-converter",
+    "title": "力单位转换器",
+    "h1": "力单位转换器",
+    "description": "力单位转换器，支持牛顿、千牛、达因、千克力、磅力、吨力共 6 种力学单位双向换算，精确重力加速度因子即时计算，适用于工程设计、材料测试与物理学习，全部本地计算不上传。",
+    "title_en": "Force Unit Converter",
+    "h1_en": "Force Unit Converter",
+    "description_en": "Convert across 6 force units: N, kN, dyne, kgf, lbf and tf with exact gravity-based factors — for engineering design, material testing and physics study, fully local.",
+    "title_es": "Conversor de Fuerza",
+    "h1_es": "Conversor de Fuerza",
+    "description_es": "Convierta entre 6 unidades de fuerza: N, kN, dina, kgf, lbf y tf con factores exactos, todo local.",
+    "tags": [
+      "力换算",
+      "牛顿",
+      "千克力",
+      "磅力"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "千克力是怎么定义的？",
+        "a": "1 kgf = 1 千克质量在标准重力加速度 9.80665 m/s² 下所受的重力，即 9.80665 牛顿。"
+      },
+      {
+        "q": "kgf 和 N 哪个是国际单位？",
+        "a": "牛顿 N 是 SI 国际单位制导出单位，kgf 属工程惯用单位，正式文件建议使用 N。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How is kilogram-force defined?",
+        "a": "1 kgf is the weight of 1 kg under standard gravity 9.80665 m/s², i.e. exactly 9.80665 N."
+      },
+      {
+        "q": "Which is the SI unit, kgf or N?",
+        "a": "The newton is the SI derived unit; kgf is a legacy engineering unit — prefer N in formal documents."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo se define el kilogramo-fuerza?",
+        "a": "1 kgf es el peso de 1 kg bajo gravedad estándar 9,80665 m/s², es decir exactamente 9,80665 N."
+      },
+      {
+        "q": "¿Cuál es la unidad SI?",
+        "a": "El newton es la unidad derivada del SI; el kgf es una unidad tradicional de ingeniería; prefiera N en documentos formales."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "torque-converter",
+      "weight-converter",
+      "pressure-converter"
+    ]
+  },
+  {
+    "id": "torque-converter",
+    "title": "扭矩单位转换器",
+    "h1": "扭矩单位转换器",
+    "description": "扭矩单位转换器，支持牛米、千牛米、千克力米、磅力英尺、磅力英寸共 5 种扭矩单位双向换算，精确因子即时计算，适用于汽车参数对比、紧固件扭矩设定与机械设计，全部本地计算不上传。",
+    "title_en": "Torque Unit Converter",
+    "h1_en": "Torque Unit Converter",
+    "description_en": "Convert across 5 torque units: N·m, kN·m, kgf·m, lbf·ft and lbf·in with exact factors — for car specs, fastener torque settings and machine design, fully local.",
+    "title_es": "Conversor de Par de Torsión",
+    "h1_es": "Conversor de Par de Torsión",
+    "description_es": "Convierta entre 5 unidades de par: N·m, kN·m, kgf·m, lbf·ft y lbf·in con factores exactos, todo local.",
+    "tags": [
+      "扭矩换算",
+      "牛米",
+      "磅力英尺",
+      "紧固扭矩"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "汽车扭矩常用什么单位？",
+        "a": "国内与欧洲用 N·m（如 300 N·m），美国常用 lbf·ft（如 221 lb-ft），300 N·m ≈ 221 lbf·ft。"
+      },
+      {
+        "q": "拧螺丝的扭矩值怎么参考？",
+        "a": "紧固件通常按 M 规格给定 N·m 扭矩值，使用扭力扳手前先换算成扳手标定单位。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What units do car torque specs use?",
+        "a": "China/Europe use N·m (e.g. 300 N·m); the US uses lb-ft (e.g. 221 lb-ft). 300 N·m ≈ 221 lb-ft."
+      },
+      {
+        "q": "How to use bolt torque values?",
+        "a": "Fasteners list N·m by size class; convert to your torque wrench's calibration unit before tightening."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué unidades usan los coches?",
+        "a": "China/Europa usan N·m (p. ej. 300 N·m); EE.UU. lb-ft (p. ej. 221 lb-ft). 300 N·m ≈ 221 lb-ft."
+      },
+      {
+        "q": "¿Cómo usar valores de apriete?",
+        "a": "Los tornillos indican N·m por clase; convierta a la unidad de su llave dinamométrica antes de apretar."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "force-converter",
+      "power-converter",
+      "length-converter"
+    ]
+  },
+  {
+    "id": "heat-converter",
+    "title": "热量单位在线换算工具",
+    "h1": "热量单位在线换算工具",
+    "description": "热量能量单位在线换算工具，支持焦耳千焦、卡路里千卡、瓦时千瓦时、英热单位与电子伏特共 8 种能量单位双向换算，适用于食品热量、电费估算与物理化学计算，全部本地计算不上传。",
+    "title_en": "Heat/Energy Unit Converter Online",
+    "h1_en": "Heat/Energy Unit Converter Online",
+    "description_en": "Convert across 8 energy units: J, kJ, cal, kcal, Wh, kWh, BTU and eV — for food calories, electricity costs and physics homework, fully local.",
+    "title_es": "Conversor de Caloría/Energía",
+    "h1_es": "Conversor de Caloría/Energía",
+    "description_es": "Convierta entre 8 unidades de energía: J, kJ, cal, kcal, Wh, kWh, BTU y eV, para calorías de alimentos y costes eléctricos, todo local.",
+    "tags": [
+      "热量换算",
+      "卡路里",
+      "千瓦时",
+      "能量单位"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-heat.svg",
+    "faqs": [
+      {
+        "q": "食品的大卡和千焦怎么换？",
+        "a": "营养学的大卡就是千卡 kcal，1 kcal = 4.184 kJ；包装上「2000 kJ」约等于 478 大卡。"
+      },
+      {
+        "q": "一度电是多少能量？",
+        "a": "1 度电 = 1 kWh = 3600 千焦 = 859.8 千卡，可供 40W 灯泡亮 25 小时。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Food calories vs kilojoules?",
+        "a": "A food Calorie is a kilocalorie: 1 kcal = 4.184 kJ; a label reading 2000 kJ is about 478 kcal."
+      },
+      {
+        "q": "How much energy is one kWh?",
+        "a": "1 kWh = 3.6 MJ = 859.8 kcal — enough to run a 40 W bulb for 25 hours."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Calorías de alimentos frente a kilojulios?",
+        "a": "Una Caloría alimentaria es una kilocaloría: 1 kcal = 4,184 kJ; 2000 kJ del envase son unas 478 kcal."
+      },
+      {
+        "q": "¿Cuánta energía es un kWh?",
+        "a": "1 kWh = 3,6 MJ = 859,8 kcal; suficiente para una bombilla de 40 W durante 25 horas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "power-converter",
+      "temperature-converter",
+      "cct-converter"
+    ]
+  },
+  {
+    "id": "frequency-converter",
+    "title": "频率单位在线换算工具",
+    "h1": "频率单位在线换算工具",
+    "description": "频率单位在线换算工具，支持赫兹千赫兆赫吉赫及转每分钟共 5 种频率单位双向换算，精确因子即时计算，适用于无线电频段、CPU 主频与电机转速对照，全部本地计算不上传。",
+    "title_en": "Frequency Unit Converter Online",
+    "h1_en": "Frequency Unit Converter Online",
+    "description_en": "Convert across 5 frequency units: Hz, kHz, MHz, GHz and rpm — for radio bands, CPU clocks and motor speeds, with exact factors, fully local.",
+    "title_es": "Conversor de Frecuencia en Línea",
+    "h1_es": "Conversor de Frecuencia en Línea",
+    "description_es": "Convierta entre 5 unidades de frecuencia: Hz, kHz, MHz, GHz y rpm, para radio, CPU y motores, todo local.",
+    "tags": [
+      "频率换算",
+      "赫兹",
+      "GHz",
+      "转速"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-frequency-converter.svg",
+    "faqs": [
+      {
+        "q": "GHz 和 MHz 怎么换？",
+        "a": "1 GHz = 1000 MHz = 10⁹ Hz；WiFi 5G 频段指 5 GHz = 5000 MHz。"
+      },
+      {
+        "q": "rpm 和 Hz 什么关系？",
+        "a": "60 rpm = 1 Hz（每秒一转）；电机铭牌 2900 rpm 约等于 48.3 Hz。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How do GHz and MHz convert?",
+        "a": "1 GHz = 1000 MHz = 10⁹ Hz; the WiFi \"5G band\" means 5 GHz = 5000 MHz."
+      },
+      {
+        "q": "Relation between rpm and Hz?",
+        "a": "60 rpm = 1 Hz (one revolution per second); a 2900 rpm motor runs at about 48.3 Hz."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo convertir GHz y MHz?",
+        "a": "1 GHz = 1000 MHz = 10⁹ Hz; la banda WiFi de 5G significa 5 GHz = 5000 MHz."
+      },
+      {
+        "q": "¿Relación entre rpm y Hz?",
+        "a": "60 rpm = 1 Hz (una vuelta por segundo); un motor de 2900 rpm gira a unos 48,3 Hz."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "bandwidth-converter",
+      "time-converter",
+      "power-converter"
+    ]
+  },
+  {
+    "id": "density-converter",
+    "title": "密度单位在线换算工具",
+    "h1": "密度单位在线换算工具",
+    "description": "密度单位在线换算工具，支持千克每立方米、克每立方厘米、克每升、磅每立方英尺英寸共 5 种密度单位双向换算，精确因子即时计算，适用于材料鉴别、化工配方与实验数据处理，全部本地计算不上传。",
+    "title_en": "Density Unit Converter Online",
+    "h1_en": "Density Unit Converter Online",
+    "description_en": "Convert across 5 density units: kg/m³, g/cm³, g/L, lb/ft³ and lb/in³ with exact factors — for material ID, chemical formulas and lab data, fully local.",
+    "title_es": "Conversor de Densidad en Línea",
+    "h1_es": "Conversor de Densidad en Línea",
+    "description_es": "Convierta entre 5 unidades de densidad: kg/m³, g/cm³, g/L, lb/ft³ y lb/in³ con factores exactos, todo local.",
+    "tags": [
+      "密度换算",
+      "克立方厘米",
+      "材料密度",
+      "单位转换"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-density-converter.svg",
+    "faqs": [
+      {
+        "q": "水的密度是多少？",
+        "a": "4°C 时纯水密度为 1 g/cm³ = 1000 kg/m³，是其他物质密度的天然参照基准。"
+      },
+      {
+        "q": "g/cm³ 和 kg/m³ 差多少？",
+        "a": "1 g/cm³ = 1000 kg/m³，相差一千倍；金属铝 2.7 g/cm³ 即 2700 kg/m³。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is water's density?",
+        "a": "Pure water at 4°C is 1 g/cm³ = 1000 kg/m³ — the natural reference for everything else."
+      },
+      {
+        "q": "How do g/cm³ and kg/m³ relate?",
+        "a": "1 g/cm³ = 1000 kg/m³, a factor of one thousand; aluminum at 2.7 g/cm³ equals 2700 kg/m³."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cuál es la densidad del agua?",
+        "a": "Agua pura a 4 °C: 1 g/cm³ = 1000 kg/m³, la referencia natural para todo lo demás."
+      },
+      {
+        "q": "¿Relación entre g/cm³ y kg/m³?",
+        "a": "1 g/cm³ = 1000 kg/m³, mil veces más; el aluminio con 2,7 g/cm³ equivale a 2700 kg/m³."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "weight-converter",
+      "volume-converter",
+      "pressure-converter"
+    ]
+  },
+  {
+    "id": "fuel-consumption-converter",
+    "title": "油耗单位在线换算工具",
+    "h1": "油耗单位在线换算工具",
+    "description": "油耗单位在线换算工具，支持升/百公里、千米/升、美制mpg、英制mpg四种油耗表示法互转，采用倒数关系精确换算，适用于购车对比、跨境自驾与油耗经济性评估，全部本地计算不上传。",
+    "title_en": "Fuel Consumption Converter",
+    "h1_en": "Fuel Consumption Converter",
+    "description_en": "Convert between L/100km, km/L, US mpg and UK mpg using exact reciprocal relations — for car shopping, cross-border driving and economy analysis, fully local.",
+    "title_es": "Conversor de Consumo de Combustible",
+    "h1_es": "Conversor de Consumo de Combustible",
+    "description_es": "Convierta entre L/100km, km/L, mpg estadounidense y británico con relaciones recíprocas exactas, para comparar coches y viajes, todo local.",
+    "tags": [
+      "油耗换算",
+      "百公里油耗",
+      "mpg",
+      "燃油经济性"
+    ],
+    "category": "单位换算",
+    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "faqs": [
+      {
+        "q": "L/100km 和 mpg 为什么是倒数关系？",
+        "a": "L/100km 表示走 100 公里耗多少油（越小越省），mpg 表示一加仑跑多少英里（越大越省），两者互为倒数需用常数换算：235.215/mpg(US)=L/100km。"
+      },
+      {
+        "q": "美制和英制 mpg 差多少？",
+        "a": "英制加仑更大，同一辆车英制 mpg 数值更高：235.215/mpg(US) = 282.481/mpg(UK)，对比时务必区分。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有换算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Why are L/100km and mpg reciprocal?",
+        "a": "L/100km measures fuel per distance (lower is better) while mpg measures distance per fuel (higher is better), so they invert via constants: 235.215/mpg(US) = L/100km."
+      },
+      {
+        "q": "US vs UK mpg difference?",
+        "a": "The imperial gallon is larger so UK mpg reads higher for the same car: 235.215/mpg(US) = 282.481/mpg(UK) — always check which system."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversions run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Por qué L/100km y mpg son recíprocos?",
+        "a": "L/100km mide combustible por distancia (menos es mejor) y mpg distancia por combustible (más es mejor); se invierten vía constantes: 235,215/mpg(EE.UU.) = L/100km."
+      },
+      {
+        "q": "¿Diferencia entre mpg de EE.UU. y Reino Unido?",
+        "a": "El galón imperial es mayor, así que el mpg británico lee más alto: 235,215/mpg(EE.UU.) = 282,481/mpg(RU); verifique siempre el sistema."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todas las conversiones se ejecutan localmente en su navegador."
+      }
+    ],
+    "related": [
+      "volume-converter",
+      "speed-converter",
+      "power-converter"
+    ]
   }
 ]

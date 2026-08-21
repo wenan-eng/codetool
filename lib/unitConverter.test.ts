@@ -55,3 +55,36 @@ describe("getUnits", () => {
     expect(getUnits("length")).toHaveLength(12)
   })
 })
+
+describe("wave2 categories", () => {
+  it("压力：atm 转 kPa", () => {
+    expect(convertUnit("pressure", 1, "atm", "kPa")).toBeCloseTo(101.325, 3)
+  })
+  it("功率：公制马力转瓦", () => {
+    expect(convertUnit("power", 1, "ps", "W")).toBeCloseTo(735.49875, 5)
+  })
+  it("力：千克力转牛顿", () => {
+    expect(convertUnit("force", 1, "kgf", "N")).toBeCloseTo(9.80665, 10)
+  })
+  it("扭矩：磅力英尺转牛米", () => {
+    expect(convertUnit("torque", 1, "lbf·ft", "N·m")).toBeCloseTo(1.355818, 5)
+  })
+  it("能量：千卡转千焦", () => {
+    expect(convertUnit("energy", 1, "kcal", "kJ")).toBeCloseTo(4.184, 3)
+  })
+  it("频率：rpm 转赫兹", () => {
+    expect(convertUnit("frequency", 60, "rpm", "Hz")).toBeCloseTo(1, 10)
+  })
+  it("密度：g/cm³ 转 kg/m³", () => {
+    expect(convertUnit("density", 1, "g/cm³", "kg/m³")).toBeCloseTo(1000, 10)
+  })
+  it("油耗：mpg 与 L/100km 倒数换算", () => {
+    const l100 = convertUnit("fuel", 235.2145833, "mpg(US)", "L/100km")
+    expect(l100).toBeCloseTo(1, 6)
+    const back = convertUnit("fuel", l100, "L/100km", "mpg(US)")
+    expect(back).toBeCloseTo(235.2145833, 4)
+  })
+  it("油耗：0 值报错", () => {
+    expect(() => convertUnit("fuel", 0, "mpg(US)", "L/100km")).toThrow(/不能为 0/)
+  })
+})

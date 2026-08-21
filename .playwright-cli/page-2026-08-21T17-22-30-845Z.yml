@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+      - generic [ref=e10]:
+        - generic [ref=e11]: 搜索工具
+        - generic [ref=e12]:
+          - link "中文" [ref=e13] [cursor=pointer]:
+            - /url: /zh/temperature-converter
+          - link "English" [ref=e14] [cursor=pointer]:
+            - /url: /en/temperature-converter
+          - link "Español" [ref=e15] [cursor=pointer]:
+            - /url: /es/temperature-converter
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e19]:
+        - heading "温度单位在线换算工具" [level=1] [ref=e20]
+        - generic [ref=e21]:
+          - generic [ref=e22]: 温度换算
+          - generic [ref=e23]: 摄氏华氏
+          - generic [ref=e24]: 开尔文
+          - generic [ref=e25]: 温度单位
+        - paragraph [ref=e26]: 温度单位在线换算工具，支持摄氏度、华氏度、开尔文、兰氏度四种温标仿射换算，公式内置零误差，适用于科研实验、烹饪烘焙与国际旅行，全部本地计算不上传。
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: 源单位
+            - textbox "请输入要转换的数值" [ref=e31]: "1"
+            - combobox [ref=e32]:
+              - option "°C（摄氏度）" [selected]
+              - option "°F（华氏度）"
+              - option "K（开尔文）"
+              - option "°R（兰氏度）"
+          - button "⇄" [ref=e33] [cursor=pointer]
+          - generic [ref=e34]:
+            - generic [ref=e35]: 目标单位
+            - generic [ref=e36]: —
+            - combobox [ref=e37]:
+              - option "°C（摄氏度）"
+              - option "°F（华氏度）" [selected]
+              - option "K（开尔文）"
+              - option "°R（兰氏度）"
+        - generic [ref=e38]:
+          - button "单位转换" [ref=e39] [cursor=pointer]
+          - button "清空数据" [ref=e40] [cursor=pointer]
+        - paragraph [ref=e41]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e42]:
+        - heading "使用说明" [level=2] [ref=e43]
+        - list [ref=e44]:
+          - listitem [ref=e45]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e46]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e47]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e48]: 所有操作本地完成，保障隐私
+      - generic [ref=e49]:
+        - heading "同类推荐" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - link "heat-converter" [ref=e52] [cursor=pointer]:
+            - /url: /zh/heat-converter
+            - generic [ref=e53]: heat-converter
+          - link "cct-converter" [ref=e54] [cursor=pointer]:
+            - /url: /zh/cct-converter
+            - generic [ref=e55]: cct-converter
+          - link "wind-speed-converter" [ref=e56] [cursor=pointer]:
+            - /url: /zh/wind-speed-converter
+            - generic [ref=e57]: wind-speed-converter
+      - generic [ref=e58]:
+        - heading "常见问题" [level=2] [ref=e59]
+        - group [ref=e60]:
+          - generic "摄氏和华氏怎么互转？" [ref=e61] [cursor=pointer]
+        - group [ref=e62]:
+          - generic "开尔文和摄氏的关系？" [ref=e63] [cursor=pointer]
+        - group [ref=e64]:
+          - generic "会被上传吗？" [ref=e65] [cursor=pointer]
+  - contentinfo [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - heading "热门推荐" [level=4] [ref=e69]
+        - link "JSON" [ref=e70] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e71]:
+        - heading "站长工具" [level=4] [ref=e72]
+        - link "IP" [ref=e73] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e74]:
+        - heading "关于" [level=4] [ref=e75]
+        - link "关于我们" [ref=e76] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e77] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e78]:
+        - heading "合规" [level=4] [ref=e79]
+        - link "服务条款" [ref=e80] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e81] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e82]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e83]
