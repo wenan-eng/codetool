@@ -115,14 +115,14 @@
 
 | # | id | 名称 | 分组 | 状态 | commit | 验证 |
 |---|----|------|------|------|--------|------|
-| 85 | letter-converter | 字母大小写转换 | 文本处理 | todo | - | - |
-| 86 | symbol-converter | 中英文符号转换器 | 文本处理 | todo | - | - |
-| 87 | remove-emoji | Emoji表情去除神器 | 文本处理 | todo | - | - |
-| 88 | word-count | 在线字数统计 | 文本处理 | todo | - | - |
-| 89 | line-text | 换行符转文本换行 | 文本处理 | todo | - | - |
-| 90 | text-line | 文本换行转换行符 | 文本处理 | todo | - | - |
-| 91 | text-replace | 文本批量替换 | 文本处理 | todo | - | - |
-| 92 | text-split | 文本分割神器 | 文本处理 | todo | - | - |
+| 85 | letter-converter | 字母大小写转换 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
+| 86 | symbol-converter | 中英文符号转换器 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
+| 87 | remove-emoji | Emoji表情去除神器 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
+| 88 | word-count | 在线字数统计 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
+| 89 | line-text | 换行符转文本换行 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
+| 90 | text-line | 文本换行转换行符 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
+| 91 | text-replace | 文本批量替换 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
+| 92 | text-split | 文本分割神器 | 文本处理 | deployed | b3w1push | 200 Pass 线上验证 |
 | 93 | mobile-extractor | 手机号去重提取 | 文本处理 | todo | - | - |
 | 94 | email-extractor | 文本邮箱提取器 | 文本处理 | todo | - | - |
 | 95 | url-extractor | 通用文本URL提取 | 文本处理 | todo | - | - |
