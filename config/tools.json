@@ -11877,5 +11877,675 @@
       "image-jpg",
       "image-compressor"
     ]
+  },
+  {
+    "id": "watermark",
+    "title": "图片添加水印",
+    "h1": "图片添加水印",
+    "description": "图片添加水印工具，自定义文字与不透明度，支持平铺满图或右下角单个两种布局，描边设计确保任何背景清晰可见，保护原创图片版权，全程本地处理不上传。",
+    "title_en": "Image Watermark Tool",
+    "h1_en": "Image Watermark Tool",
+    "description_en": "Add custom text watermarks with adjustable opacity, tiled across the image or a single bottom-right mark — stroke-outlined for visibility on any background, fully local.",
+    "title_es": "Marca de Agua en Imagen",
+    "h1_es": "Marca de Agua en Imagen",
+    "description_es": "Añada marcas de agua de texto con opacidad ajustable, en mosaico o esquina única, con contorno visible sobre cualquier fondo, todo local.",
+    "tags": [
+      "水印",
+      "版权保护",
+      "批量水印",
+      "图片标记"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-watermark.svg",
+    "faqs": [
+      {
+        "q": "平铺和单个水印怎么选？",
+        "a": "防盗用推荐平铺满图，任何局部裁剪都带水印；仅标注来源用右下角单个更美观。"
+      },
+      {
+        "q": "水印文字会模糊吗？",
+        "a": "按原图尺寸矢量绘制文字，输出 PNG 无损，大图上文字依然锐利清晰。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Tiled or single watermark?",
+        "a": "Tiled deters cropping-based theft; a single bottom-right mark is cleaner for source attribution."
+      },
+      {
+        "q": "Will the watermark text blur?",
+        "a": "Text is drawn vectorially at full resolution and exported as lossless PNG, staying sharp on large images."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Mosaico o individual?",
+        "a": "El mosaico disuade el robo por recorte; la marca única en la esquina es más estética para atribución."
+      },
+      {
+        "q": "¿Se difumina el texto?",
+        "a": "El texto se dibuja vectorialmente a resolución completa y se exporta en PNG sin pérdida."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "watermark-bulk",
+      "image-compressor",
+      "nine-grid"
+    ]
+  },
+  {
+    "id": "image-compressor",
+    "title": "图片高清压缩",
+    "h1": "图片高清压缩",
+    "description": "图片高清压缩工具，质量与尺寸双维度调节，实时显示压缩前后体积对比与节省百分比，JPG 输出兼顾画质与大小，适用于网站配图、聊天发送与存储优化，全部本地处理不上传。",
+    "title_en": "Smart Image Compressor",
+    "h1_en": "Smart Image Compressor",
+    "description_en": "Compress by quality and scale with live before/after size comparison and savings percentage in JPG output — for web images, chat sending and storage, fully local.",
+    "title_es": "Compresor Inteligente de Imágenes",
+    "h1_es": "Compresor Inteligente de Imágenes",
+    "description_es": "Comprima por calidad y escala con comparación de tamaño antes/después y porcentaje ahorrado en salida JPG, todo local.",
+    "tags": [
+      "图片压缩",
+      "减小体积",
+      "高清压缩",
+      "网站优化"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-compressor.svg",
+    "faqs": [
+      {
+        "q": "怎么平衡画质和体积？",
+        "a": "先保持 100% 尺寸调质量至 70-80；仍需更小再降尺寸比例，每档 10% 逐步尝试并观察节省百分比。"
+      },
+      {
+        "q": "提示节省 0% 怎么办？",
+        "a": "说明原图已高度压缩，继续压会明显劣化；可尝试降低尺寸比例获得实质体积下降。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How to balance quality and size?",
+        "a": "Keep 100% scale first and tune quality to 70-80; then reduce scale in 10% steps watching the savings percentage."
+      },
+      {
+        "q": "It says 0% saved — why?",
+        "a": "The source is already well compressed; further quality loss would be visible. Lower the scale for real size reduction instead."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo equilibrar calidad y tamaño?",
+        "a": "Primero calidad 70-80 al 100% de escala; luego reduzca escala en pasos del 10% observando el ahorro."
+      },
+      {
+        "q": "Dice 0% de ahorro, ¿por qué?",
+        "a": "La original ya está muy comprimida; bajar más degrada visiblemente. Reduzca la escala para ganar espacio."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-quality",
+      "image-size-revise",
+      "png2jpg"
+    ]
+  },
+  {
+    "id": "color-picker",
+    "title": "图片取色器",
+    "h1": "图片取色器",
+    "description": "图片取色器，点击图片任意位置即时读取该点 HEX 与 RGB 色值并显示坐标，一键复制色号，适用于设计配色参考、前端还原设计与摄影后期对色，全部本地处理不上传。",
+    "title_en": "Image Color Picker",
+    "h1_en": "Image Color Picker",
+    "description_en": "Click anywhere on an image to instantly read its HEX/RGB value with coordinates and copy it in one click — for design reference and frontend fidelity, fully local.",
+    "title_es": "Cuentagotas de Imagen",
+    "h1_es": "Cuentagotas de Imagen",
+    "description_es": "Haga clic en cualquier punto para leer su valor HEX/RGB con coordenadas y copiarlo al instante, todo local.",
+    "tags": [
+      "取色器",
+      "颜色拾取",
+      "HEX RGB",
+      "设计工具"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-color-picker.svg",
+    "faqs": [
+      {
+        "q": "可以连续取多个颜色吗？",
+        "a": "可以，每次点击立即更新结果面板，配合复制按钮逐个收集所需色号。"
+      },
+      {
+        "q": "取色精度受缩放影响吗？",
+        "a": "不受影响，坐标按原始分辨率精确换算，放大预览也不会偏移实际取色位置。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有读取均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Can I pick multiple colors?",
+        "a": "Yes, each click updates the result panel instantly; collect colors one by one with the copy button."
+      },
+      {
+        "q": "Does zooming affect accuracy?",
+        "a": "No, coordinates map precisely to the original resolution so preview zoom never shifts the sampled pixel."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, all reading happens locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Puedo tomar varios colores?",
+        "a": "Sí, cada clic actualiza el panel; recopile colores uno a uno con el botón copiar."
+      },
+      {
+        "q": "¿El zoom afecta la precisión?",
+        "a": "No, las coordenadas se mapean a la resolución original sin desplazamientos."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, toda la lectura ocurre localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-color",
+      "color-converter",
+      "image-hsl"
+    ]
+  },
+  {
+    "id": "image-color",
+    "title": "图片配色提取器",
+    "h1": "图片配色提取器",
+    "description": "图片配色提取器，智能统计图片主色生成最多八色的配色方案，显示各色占比并支持一键复制 HEX 色号，适用于 UI 主题定制、PPT 配色与家居软装灵感，全部本地计算不上传。",
+    "title_en": "Image Palette Extractor",
+    "h1_en": "Image Palette Extractor",
+    "description_en": "Extract up to 8 dominant colors from any image with usage percentages and one-click HEX copy — for UI themes, slide decks and interior inspiration, fully local.",
+    "title_es": "Extractor de Paleta de Colores",
+    "h1_es": "Extractor de Paleta de Colores",
+    "description_es": "Extraiga hasta 8 colores dominantes con porcentajes de uso y copie los HEX con un clic, todo local.",
+    "tags": [
+      "配色提取",
+      "主色调",
+      "色板",
+      "UI配色"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-color.svg",
+    "faqs": [
+      {
+        "q": "配色是怎么计算出来的？",
+        "a": "将图片缩样后按 RGB 各通道高 4 位分桶统计频次，取占比最高的前八个桶的加权平均色。"
+      },
+      {
+        "q": "为什么有些颜色和肉眼看到的不完全一样？",
+        "a": "桶内取平均会把相近色合并，极端高光阴影会被稀释；这是保证配色和谐统一的取舍。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有计算均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How is the palette computed?",
+        "a": "The image is downsampled and bucketed by the top 4 bits of each RGB channel; the eight largest buckets return their weighted average colors."
+      },
+      {
+        "q": "Why do some colors differ slightly from what I see?",
+        "a": "Bucket averaging merges close shades and dilutes extreme highlights/shadows — a tradeoff for harmonious palettes."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all computation runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo se calcula la paleta?",
+        "a": "Se muestrea la imagen y se agrupa por los 4 bits altos de cada canal RGB; los ocho grupos mayores dan colores promedio ponderados."
+      },
+      {
+        "q": "¿Por qué algunos colores difieren un poco?",
+        "a": "El promedio por grupo fusiona tonos cercanos y atenúa extremos: una decisión para paletas armoniosas."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo el cálculo se ejecuta localmente en su navegador."
+      }
+    ],
+    "related": [
+      "color-picker",
+      "cct-converter",
+      "image-hsl"
+    ]
+  },
+  {
+    "id": "exif",
+    "title": "图片Exif查看器",
+    "h1": "图片Exif查看器",
+    "description": "图片Exif查看器，解析 JPEG 照片的 EXIF 元数据：相机型号、曝光时间、光圈、ISO、焦距、拍摄时间与镜头信息一表呈现，摄影学习与素材溯源利器，全程本地解析不上传。",
+    "title_en": "Image EXIF Viewer",
+    "h1_en": "Image EXIF Viewer",
+    "description_en": "Parse JPEG EXIF metadata — camera model, exposure, aperture, ISO, focal length, capture time and lens info in one table — for photography study and asset tracing, fully local.",
+    "title_es": "Visor EXIF de Imágenes",
+    "h1_es": "Visor EXIF de Imágenes",
+    "description_es": "Analice el EXIF de fotos JPEG: cámara, exposición, apertura, ISO, focal, fecha y objetivo en una tabla, todo local.",
+    "tags": [
+      "EXIF",
+      "照片信息",
+      "相机参数",
+      "元数据"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-exif.svg",
+    "faqs": [
+      {
+        "q": "哪些照片有 EXIF？",
+        "a": "相机与手机直出的 JPEG 通常携带完整 EXIF；微信等社交平台传输后会剥离；PNG/WebP 一般不含 EXIF。"
+      },
+      {
+        "q": "查看 EXIF 会泄露我的位置吗？",
+        "a": "恰恰相反：本地解析意味着照片不离开设备；若担心分享照片泄露 GPS，应先用本工具确认是否含定位标签再发布。"
+      },
+      {
+        "q": "照片会被上传吗？",
+        "a": "不会，二进制解析完全在浏览器内存中完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which photos carry EXIF?",
+        "a": "Camera and phone JPEGs usually do; messaging apps strip it during upload; PNG/WebP rarely contain EXIF."
+      },
+      {
+        "q": "Could viewing EXIF leak my location?",
+        "a": "Quite the opposite: local parsing keeps the photo on your device. To protect privacy when sharing, check here first for GPS tags."
+      },
+      {
+        "q": "Is my photo uploaded?",
+        "a": "No, the binary parsing happens entirely in browser memory."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué fotos tienen EXIF?",
+        "a": "Los JPEG directos de cámaras y móviles suelen tenerlo; las apps sociales lo eliminan; PNG/WebP rara vez."
+      },
+      {
+        "q": "¿Ver el EXIF filtra mi ubicación?",
+        "a": "Al contrario: el análisis local mantiene la foto en su dispositivo. Antes de compartirla, revise aquí si hay etiquetas GPS."
+      },
+      {
+        "q": "¿Se subirá mi foto?",
+        "a": "No, el análisis binario ocurre íntegramente en la memoria del navegador."
+      }
+    ],
+    "related": [
+      "md5-verify",
+      "image-quality",
+      "color-picker"
+    ]
+  },
+  {
+    "id": "image-placeholder",
+    "title": "占位图片生成器",
+    "h1": "占位图片生成器",
+    "description": "占位图片生成器，自定义宽高背景前景色与文字，斜线纹理装饰即时生成 PNG，适用于网页原型开发、设计稿占位与演示文档配图，全部本地生成不上传。",
+    "title_en": "Placeholder Image Generator",
+    "h1_en": "Placeholder Image Generator",
+    "description_en": "Generate placeholder images with custom dimensions, background/text colors and diagonal texture as instant PNGs — for prototypes, mockups and demos, fully local.",
+    "title_es": "Generador de Imágenes Placeholder",
+    "h1_es": "Generador de Imágenes Placeholder",
+    "description_es": "Genere imágenes placeholder con dimensiones, colores y texto personalizados como PNG instantáneo, para prototipos y maquetas, todo local.",
+    "tags": [
+      "占位图",
+      "假图生成",
+      "原型开发",
+      "placeholder"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-placeholder.svg",
+    "faqs": [
+      {
+        "q": "最大能生成多大的占位图？",
+        "a": "单边最大 4000 像素，覆盖绝大多数网页与文档场景；更大尺寸可能受浏览器画布限制。"
+      },
+      {
+        "q": "生成的图可以直接用于线上吗？",
+        "a": "可以，PNG 为真实图片文件；生产环境建议改用自托管静态文件以保证加载稳定性。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，图片在浏览器本地绘制生成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is the maximum size?",
+        "a": "Up to 4000 px per side, covering most web and document scenarios; larger sizes may hit canvas limits."
+      },
+      {
+        "q": "Can I use these in production?",
+        "a": "Yes, the PNG is a real file; for production prefer self-hosted static assets for reliability."
+      },
+      {
+        "q": "Is anything uploaded?",
+        "a": "No, the image is drawn locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Tamaño máximo?",
+        "a": "Hasta 4000 px por lado, suficiente para web y documentos; tamaños mayores pueden limitarse por el lienzo."
+      },
+      {
+        "q": "¿Sirven para producción?",
+        "a": "Sí, el PNG es un archivo real; en producción prefiera archivos estáticos propios por fiabilidad."
+      },
+      {
+        "q": "¿Se sube algo?",
+        "a": "No, la imagen se dibuja localmente en su navegador."
+      }
+    ],
+    "related": [
+      "nine-grid",
+      "round-image",
+      "word-count"
+    ]
+  },
+  {
+    "id": "round-image",
+    "title": "生成透明圆角图片",
+    "h1": "生成透明圆角图片",
+    "description": "生成透明圆角图片工具，0-100% 无级调节圆角程度，棋盘格实时预览透明区域，PNG 透明通道导出可直接叠加于任意背景，适用于头像处理与 UI 素材制作，全部本地处理不上传。",
+    "title_en": "Rounded Corner Image Maker",
+    "h1_en": "Rounded Corner Image Maker",
+    "description_en": "Adjust corner roundness from 0-100% with live transparent checkerboard preview and export straight to transparent PNG — for avatars and UI assets, fully local.",
+    "title_es": "Imagen con Esquinas Redondeadas",
+    "h1_es": "Imagen con Esquinas Redondeadas",
+    "description_es": "Ajuste el redondeo del 0 al 100% con previsualización de transparencia y exporte a PNG, todo local.",
+    "tags": [
+      "圆角图片",
+      "透明PNG",
+      "头像处理",
+      "UI素材"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-round-image.svg",
+    "faqs": [
+      {
+        "q": "100% 圆角是什么形状？",
+        "a": "达到内切圆形极限即圆形头像效果；50% 左右是常见的卡片圆角观感。"
+      },
+      {
+        "q": "为什么导出必须是 PNG？",
+        "a": "JPG 不支持透明通道，白色底会替代透明区域；只有 PNG 能保留真正的透明圆角。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，全部处理在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What does 100% roundness look like?",
+        "a": "It reaches the inscribed-circle limit, i.e. a circular avatar effect; around 50% gives typical card corner feel."
+      },
+      {
+        "q": "Why must the export be PNG?",
+        "a": "JPEG lacks alpha so transparency becomes solid white; only PNG preserves true rounded transparency."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, everything runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué aspecto tiene 100%?",
+        "a": "Llega al círculo inscrito, efecto avatar circular; alrededor del 50% da el típico redondeo de tarjetas."
+      },
+      {
+        "q": "¿Por qué exportar en PNG?",
+        "a": "JPEG no admite canal alfa; solo el PNG conserva la transparencia real de las esquinas."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "nine-grid",
+      "watermark",
+      "image-cropping"
+    ]
+  },
+  {
+    "id": "nine-grid",
+    "title": "朋友圈九宫格生成",
+    "h1": "朋友圈九宫格生成",
+    "description": "朋友圈九宫格生成工具，图片自动居中裁切为正方形后均分为九块，单张下载或依次全部下载，按序发布即可拼出完整大图效果，适用于社交平台创意晒图，全部本地处理不上传。",
+    "title_en": "Nine Grid Image Splitter",
+    "h1_en": "Nine Grid Image Splitter",
+    "description_en": "Center-crop any image to square then slice into nine pieces — download individually or all at once and post in order for the classic social media grid effect, fully local.",
+    "title_es": "Divisor de Cuadrícula Nueve",
+    "h1_es": "Divisor de Cuadrícula Nueve",
+    "description_es": "Recorte centrado cuadrado y división en nueve piezas; descárguelas individualmente o todas seguidas, todo local.",
+    "tags": [
+      "九宫格",
+      "朋友圈切图",
+      "社交晒图",
+      "图片切割"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-nine-grid.svg",
+    "faqs": [
+      {
+        "q": "非正方形图片会变形吗？",
+        "a": "不会，工具自动居中裁切出最大内切正方形后再分割，画面主体通常不受影响。"
+      },
+      {
+        "q": "发布顺序有要求吗？",
+        "a": "有，从左上到右下按 1-9 编号依次发布，拼出来的才是完整原图。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，切割与下载均在浏览器本地完成。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Do non-square images distort?",
+        "a": "No, the largest centered square is cropped first before slicing, keeping your subject intact."
+      },
+      {
+        "q": "Does posting order matter?",
+        "a": "Yes — post pieces numbered 1-9 from top-left to bottom-right to reconstruct the full image."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, slicing and downloading run locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Las imágenes no cuadradas se deforman?",
+        "a": "No, primero se recorta el cuadrado central máximo antes de dividir, conservando el sujeto."
+      },
+      {
+        "q": "¿Importa el orden de publicación?",
+        "a": "Sí: publique las piezas numeradas 1-9 de arriba-izquierda a abajo-derecha para reconstruir la imagen."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, el corte y la descarga ocurren localmente en su navegador."
+      }
+    ],
+    "related": [
+      "image-cutter",
+      "round-image",
+      "watermark"
+    ]
+  },
+  {
+    "id": "qrcode",
+    "title": "二维码生成器",
+    "h1": "二维码生成器",
+    "description": "二维码生成器，支持文本、网址与 WiFi 三种模式：WiFi 模式生成扫码即连的无线配置码，尺寸无级可调最高 800px，PNG 无损下载，适用于名片、海报与设备配网，全部本地生成不上传。",
+    "title_en": "QR Code Generator",
+    "h1_en": "QR Code Generator",
+    "description_en": "Generate QR codes from text, URLs or WiFi credentials (scan-to-connect) in sizes up to 800px with lossless PNG download — for business cards, posters and device provisioning, fully local.",
+    "title_es": "Generador de Códigos QR",
+    "h1_es": "Generador de Códigos QR",
+    "description_es": "Genere códigos QR de texto, URL o credenciales WiFi (escanear para conectar) hasta 800px con descarga PNG, todo local.",
+    "tags": [
+      "二维码生成",
+      "WiFi码",
+      "文本转码",
+      "网址二维码"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-qrcode.svg",
+    "faqs": [
+      {
+        "q": "WiFi 二维码怎么用？",
+        "a": "填入名称密码生成后，客人用手机相机扫码即可自动加入网络，无需手动输密码。"
+      },
+      {
+        "q": "生成的码会过期吗？",
+        "a": "不会，二维码只是内容的编码载体，只要内容有效永久可用，且生成过程不经任何服务器。"
+      },
+      {
+        "q": "内容会被上传吗？",
+        "a": "不会，编码完全在浏览器本地完成，敏感信息（如 WiFi 密码）不出设备。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How does the WiFi QR work?",
+        "a": "Fill in SSID/password and guests scan to join automatically — no manual typing needed."
+      },
+      {
+        "q": "Do generated codes expire?",
+        "a": "Never. A QR merely encodes its content, staying valid forever; generation never touches a server."
+      },
+      {
+        "q": "Is my content uploaded?",
+        "a": "No, encoding runs entirely in your browser — even WiFi passwords stay on-device."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo funciona el QR WiFi?",
+        "a": "Introduzca nombre y contraseña y los invitados escanean para conectarse automáticamente."
+      },
+      {
+        "q": "¿Caducan los códigos generados?",
+        "a": "Nunca; un QR solo codifica su contenido y sigue válido indefinidamente, sin pasar por servidores."
+      },
+      {
+        "q": "¿Se sube mi contenido?",
+        "a": "No, la codificación ocurre íntegramente en su navegador; incluso claves WiFi permanecen en el dispositivo."
+      }
+    ],
+    "related": [
+      "qrcode-decode",
+      "wifi-qrcode",
+      "vcard-qrcode"
+    ]
+  },
+  {
+    "id": "qrcode-decode",
+    "title": "二维码解码器",
+    "h1": "二维码解码器",
+    "description": "二维码解码器，上传含二维码的截图或照片即可离线解出其中的网址、文本或 WiFi 信息，无需对准摄像头扫描，截图取证与链接核对更方便，全部本地解码不上传。",
+    "title_en": "QR Code Decoder",
+    "h1_en": "QR Code Decoder",
+    "description_en": "Decode URLs, text or WiFi info from screenshots or photos offline — no camera scanning needed, perfect for verifying links, fully local.",
+    "title_es": "Decodificador de Códigos QR",
+    "h1_es": "Decodificador de Códigos QR",
+    "description_es": "Decodifique URL, texto o WiFi desde capturas o fotos sin cámara, ideal para verificar enlaces, todo local.",
+    "tags": [
+      "二维码解码",
+      "识别二维码",
+      "截图解析",
+      "链接检查"
+    ],
+    "category": "图片处理",
+    "icon": "https://www.lanren-tools.com/static/images/logo-qrcode-decode.svg",
+    "faqs": [
+      {
+        "q": "什么样的图片能解码？",
+        "a": "二维码完整且对比清晰的截图照片均可；过度压缩模糊或部分遮挡会影响识别成功率。"
+      },
+      {
+        "q": "解码安全吗？会不会自动打开链接？",
+        "a": "只显示解码文本绝不自动访问，方便先核实链接真伪再决定是否打开，防范恶意二维码。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，解码算法完全在浏览器本地运行。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Which images can be decoded?",
+        "a": "Clear complete QR codes in screenshots or photos work best; heavy compression, blur or partial occlusion reduce success rates."
+      },
+      {
+        "q": "Is decoding safe? Will links auto-open?",
+        "a": "Only the decoded text is shown, nothing opens automatically — verify link authenticity first to avoid malicious QR codes."
+      },
+      {
+        "q": "Is my image uploaded?",
+        "a": "No, the decoding algorithm runs entirely in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué imágenes se pueden decodificar?",
+        "a": "Códigos completos y nítidos en capturas o fotos; compresión excesiva u oclusión reducen el éxito."
+      },
+      {
+        "q": "¿Es seguro? ¿Abre enlaces automáticamente?",
+        "a": "Solo muestra el texto decodificado sin abrir nada; verifique el enlace antes de acceder para evitar QR maliciosos."
+      },
+      {
+        "q": "¿Se subirá mi imagen?",
+        "a": "No, el algoritmo de decodificación corre íntegramente en su navegador."
+      }
+    ],
+    "related": [
+      "qrcode",
+      "url-extractor",
+      "net-parser"
+    ]
   }
 ]
