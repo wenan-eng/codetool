@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/camel
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/camel
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/camel
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - heading "在线驼峰/下划线互转工具" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: 驼峰转下划线
+          - generic [ref=e22]: 下划线转驼峰
+          - generic [ref=e23]: 变量命名
+          - generic [ref=e24]: 代码重构
+        - paragraph [ref=e25]: 在线驼峰与下划线互转工具，支持批量转换变量名，自动识别驼峰命名（camelCase）与下划线命名（snake_case），一键互转，适用于 Java、JavaScript、Python 等多语言代码重构，全部本地处理，保障隐私。
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - button "驼峰转下划线" [ref=e29] [cursor=pointer]
+          - button "下划线转驼峰" [ref=e30] [cursor=pointer]
+          - button "查看示例" [ref=e31] [cursor=pointer]
+          - button "复制结果" [ref=e32] [cursor=pointer]
+          - button "清空数据" [ref=e33] [cursor=pointer]
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]: 输入
+            - textbox "请输入要转换的文本，支持多行代码，如：myVariableName 或 my_variable_name" [ref=e37]
+          - generic [ref=e38]:
+            - generic [ref=e40]: 结果
+            - textbox "转换结果将显示在这里" [ref=e41]
+        - generic [ref=e42]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e43]:
+        - heading "使用说明" [level=2] [ref=e44]
+        - list [ref=e45]:
+          - listitem [ref=e46]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e47]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e48]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e49]: 所有操作本地完成，保障隐私
+      - generic [ref=e50]:
+        - heading "同类推荐" [level=2] [ref=e51]
+        - generic [ref=e52]:
+          - link "在线JSON格式化/压缩工具" [ref=e53] [cursor=pointer]:
+            - /url: /zh/json-formatter
+            - generic [ref=e54]: 在线JSON格式化/压缩工具
+          - link "在线进制转换工具" [ref=e55] [cursor=pointer]:
+            - /url: /zh/hex-converter
+            - generic [ref=e56]: 在线进制转换工具
+      - generic [ref=e57]:
+        - heading "常见问题" [level=2] [ref=e58]
+        - group [ref=e59]:
+          - generic "什么是驼峰与下划线命名？" [ref=e60] [cursor=pointer]
+        - group [ref=e61]:
+          - generic "如何批量转换？" [ref=e62] [cursor=pointer]
+        - group [ref=e63]:
+          - generic "支持哪些语言？" [ref=e64] [cursor=pointer]
+        - group [ref=e65]:
+          - generic "会被上传吗？" [ref=e66] [cursor=pointer]
+  - contentinfo [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - heading "热门推荐" [level=4] [ref=e70]
+        - link "JSON" [ref=e71] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e72]:
+        - heading "站长工具" [level=4] [ref=e73]
+        - link "IP" [ref=e74] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e75]:
+        - heading "关于" [level=4] [ref=e76]
+        - link "关于我们" [ref=e77] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e78] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e79]:
+        - heading "合规" [level=4] [ref=e80]
+        - link "服务条款" [ref=e81] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e82] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e83]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e84]

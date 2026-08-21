@@ -1,0 +1,254 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/screen-inspector
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/screen-inspector
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/screen-inspector
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "在线屏幕信息查看工具" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: 屏幕分辨率
+          - generic [ref=e21]: 视口
+          - generic [ref=e22]: 像素比
+          - generic [ref=e23]: 颜色深度
+        - paragraph [ref=e24]: 在线屏幕信息查看工具，实时显示屏幕分辨率、可用区域、视口大小、设备像素比、颜色深度、像素深度、屏幕方向、宽高比等，一键复制，全部本地处理保障隐私。
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - button "刷新" [ref=e29] [cursor=pointer]
+              - button "复制 JSON" [ref=e30] [cursor=pointer]
+            - generic [ref=e31]: 窗口变化时自动更新 · 18:25:29
+          - generic [ref=e33]:
+            - generic [ref=e34]: Viewport / Screen 100%
+            - generic [ref=e35]: 1280 × 720 / 1280 × 720
+          - generic [ref=e38]: 所有操作均在浏览器本地完成，不上传数据
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: 屏幕
+              - generic [ref=e43]: 实时
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - generic [ref=e46]:
+                  - generic [ref=e47]: 屏幕分辨率
+                  - generic [ref=e48]: 1280 × 720
+                  - generic [ref=e49]: 1280 × 720 · 16:9 · 0.92 MP
+                - button "复制" [ref=e50] [cursor=pointer]
+              - generic [ref=e51]:
+                - generic [ref=e52]:
+                  - generic [ref=e53]: 可用区域
+                  - generic [ref=e54]: 1280 × 720
+                  - generic [ref=e55]: 宽度 1280 · 高度 720
+                - button "复制" [ref=e56] [cursor=pointer]
+              - generic [ref=e57]:
+                - generic [ref=e58]:
+                  - generic [ref=e59]: 宽高比
+                  - generic [ref=e60]: 16:9
+                  - generic [ref=e61]: 总像素 0.92 MP
+                - button "复制" [ref=e62] [cursor=pointer]
+              - generic [ref=e63]:
+                - generic [ref=e64]:
+                  - generic [ref=e65]: 断点分类
+                  - generic [ref=e66]: 桌面端
+                  - generic [ref=e67]: desktop
+                - button "复制" [ref=e68] [cursor=pointer]
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]: 视口与窗口
+              - generic [ref=e72]: 实时
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - generic [ref=e75]:
+                  - generic [ref=e76]: 视口大小
+                  - generic [ref=e77]: 1280 × 720
+                  - generic [ref=e78]: inner 1280 × 720
+                - button "复制" [ref=e79] [cursor=pointer]
+              - generic [ref=e80]:
+                - generic [ref=e81]:
+                  - generic [ref=e82]: 窗口外部
+                  - generic [ref=e83]: 1280 × 720
+                  - generic [ref=e84]: outerWidth × outerHeight
+                - button "复制" [ref=e85] [cursor=pointer]
+              - generic [ref=e86]:
+                - generic [ref=e87]:
+                  - generic [ref=e88]: 设备像素比
+                  - generic [ref=e89]: "1"
+                  - generic [ref=e90]: 1× 标准
+                - button "复制" [ref=e91] [cursor=pointer]
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - generic [ref=e94]: 屏幕方向 / 旋转角度
+                  - generic [ref=e95]: landscape-primary
+                  - generic [ref=e96]: 0°
+                - button "复制" [ref=e97] [cursor=pointer]
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - generic [ref=e100]: 显示与系统
+              - generic [ref=e101]: 实时
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: 颜色深度
+                  - generic [ref=e106]: 24-bit
+                  - generic [ref=e107]: 24-bit True Color
+                - button "复制" [ref=e108] [cursor=pointer]
+              - generic [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: 像素深度
+                  - generic [ref=e112]: 24-bit
+                  - generic [ref=e113]: 1× 标准
+                - button "复制" [ref=e114] [cursor=pointer]
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - generic [ref=e117]: screen.width / height
+                  - generic [ref=e118]: 1280 / 720
+                  - generic [ref=e119]: window.screen
+                - button "复制" [ref=e120] [cursor=pointer]
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - generic [ref=e123]: pixelCount
+                  - generic [ref=e124]: 921,600
+                  - generic [ref=e125]: 0.92 MP
+                - button "复制" [ref=e126] [cursor=pointer]
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - generic [ref=e129]: JSON
+            - generic [ref=e130]: getScreenInfo() · tick 1
+          - generic [ref=e131]: "{ \"screenWidth\": 1280, \"screenHeight\": 720, \"availWidth\": 1280, \"availHeight\": 720, \"colorDepth\": 24, \"pixelDepth\": 24, \"viewportWidth\": 1280, \"viewportHeight\": 720, \"outerWidth\": 1280, \"outerHeight\": 720, \"devicePixelRatio\": 1, \"orientationType\": \"landscape-primary\", \"orientationAngle\": 0, \"screenResolution\": \"1280 × 720\", \"viewportResolution\": \"1280 × 720\", \"availResolution\": \"1280 × 720\", \"aspectRatio\": \"16:9\", \"megapixels\": \"0.92 MP\", \"colorDepthLabel\": \"24-bit True Color\", \"viewportCategory\": \"desktop\", \"pixelCount\": 921600 }"
+        - generic [ref=e132]:
+          - generic [ref=e133]: Details
+          - table [ref=e135]:
+            - rowgroup [ref=e136]:
+              - row "Key Value" [ref=e137]:
+                - columnheader "Key" [ref=e138]
+                - columnheader "Value" [ref=e139]
+            - rowgroup [ref=e140]:
+              - row "screenWidth 1280" [ref=e141]:
+                - cell "screenWidth" [ref=e142]
+                - cell "1280" [ref=e143]
+              - row "screenHeight 720" [ref=e144]:
+                - cell "screenHeight" [ref=e145]
+                - cell "720" [ref=e146]
+              - row "availWidth 1280" [ref=e147]:
+                - cell "availWidth" [ref=e148]
+                - cell "1280" [ref=e149]
+              - row "availHeight 720" [ref=e150]:
+                - cell "availHeight" [ref=e151]
+                - cell "720" [ref=e152]
+              - row "colorDepth 24" [ref=e153]:
+                - cell "colorDepth" [ref=e154]
+                - cell "24" [ref=e155]
+              - row "pixelDepth 24" [ref=e156]:
+                - cell "pixelDepth" [ref=e157]
+                - cell "24" [ref=e158]
+              - row "viewportWidth 1280" [ref=e159]:
+                - cell "viewportWidth" [ref=e160]
+                - cell "1280" [ref=e161]
+              - row "viewportHeight 720" [ref=e162]:
+                - cell "viewportHeight" [ref=e163]
+                - cell "720" [ref=e164]
+              - row "outerWidth 1280" [ref=e165]:
+                - cell "outerWidth" [ref=e166]
+                - cell "1280" [ref=e167]
+              - row "outerHeight 720" [ref=e168]:
+                - cell "outerHeight" [ref=e169]
+                - cell "720" [ref=e170]
+              - row "devicePixelRatio 1" [ref=e171]:
+                - cell "devicePixelRatio" [ref=e172]
+                - cell "1" [ref=e173]
+              - row "orientationType landscape-primary" [ref=e174]:
+                - cell "orientationType" [ref=e175]
+                - cell "landscape-primary" [ref=e176]
+              - row "orientationAngle 0" [ref=e177]:
+                - cell "orientationAngle" [ref=e178]
+                - cell "0" [ref=e179]
+              - row "screenResolution 1280 × 720" [ref=e180]:
+                - cell "screenResolution" [ref=e181]
+                - cell "1280 × 720" [ref=e182]
+              - row "viewportResolution 1280 × 720" [ref=e183]:
+                - cell "viewportResolution" [ref=e184]
+                - cell "1280 × 720" [ref=e185]
+              - row "availResolution 1280 × 720" [ref=e186]:
+                - cell "availResolution" [ref=e187]
+                - cell "1280 × 720" [ref=e188]
+              - row "aspectRatio 16:9" [ref=e189]:
+                - cell "aspectRatio" [ref=e190]
+                - cell "16:9" [ref=e191]
+              - row "megapixels 0.92 MP" [ref=e192]:
+                - cell "megapixels" [ref=e193]
+                - cell "0.92 MP" [ref=e194]
+              - row "colorDepthLabel 24-bit True Color" [ref=e195]:
+                - cell "colorDepthLabel" [ref=e196]
+                - cell "24-bit True Color" [ref=e197]
+              - row "viewportCategory desktop" [ref=e198]:
+                - cell "viewportCategory" [ref=e199]
+                - cell "desktop" [ref=e200]
+              - row "pixelCount 921600" [ref=e201]:
+                - cell "pixelCount" [ref=e202]
+                - cell "921600" [ref=e203]
+      - generic [ref=e204]:
+        - heading "使用说明" [level=2] [ref=e205]
+        - list [ref=e206]:
+          - listitem [ref=e207]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e208]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e209]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e210]: 所有操作本地完成，保障隐私
+      - generic [ref=e211]:
+        - heading "同类推荐" [level=2] [ref=e212]
+        - generic [ref=e213]:
+          - link "json-formatter" [ref=e214] [cursor=pointer]:
+            - /url: /zh/json-formatter
+          - link "timestamp" [ref=e215] [cursor=pointer]:
+            - /url: /zh/timestamp
+          - link "hex-converter" [ref=e216] [cursor=pointer]:
+            - /url: /zh/hex-converter
+      - generic [ref=e217]:
+        - heading "常见问题" [level=2] [ref=e218]
+        - group [ref=e219]:
+          - generic "屏幕信息包含哪些？" [ref=e220] [cursor=pointer]
+        - group [ref=e221]:
+          - generic "数据会上传吗？" [ref=e222] [cursor=pointer]
+        - group [ref=e223]:
+          - generic "视口大小会实时更新吗？" [ref=e224] [cursor=pointer]
+        - group [ref=e225]:
+          - generic "如何复制结果？" [ref=e226] [cursor=pointer]
+  - contentinfo [ref=e227]:
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - heading "热门推荐" [level=4] [ref=e230]
+        - link "JSON" [ref=e231] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e232]:
+        - heading "站长工具" [level=4] [ref=e233]
+        - link "IP" [ref=e234] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e235]:
+        - heading "关于" [level=4] [ref=e236]
+        - link "关于我们" [ref=e237] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e238] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e239]:
+        - heading "合规" [level=4] [ref=e240]
+        - link "服务条款" [ref=e241] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e242] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e243]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e244]

@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/strip-comments
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/strip-comments
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/strip-comments
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "在线代码注释移除工具" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: 移除注释
+          - generic [ref=e21]: 代码清理
+          - generic [ref=e22]: JS注释
+          - generic [ref=e23]: Python注释
+        - paragraph [ref=e24]: "在线移除代码中的注释，支持 JavaScript、Python、HTML、CSS、SQL 等多语言，自动识别 // /* */ # <!-- --> 等注释格式，保留字符串内注释符号，全部本地处理保障隐私。"
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - button "移除注释" [ref=e28] [cursor=pointer]
+          - generic [ref=e29]:
+            - generic [ref=e30]: "语言:"
+            - combobox "语言:" [ref=e31]:
+              - option "JavaScript / TypeScript" [selected]
+              - option "Python"
+              - option "HTML"
+              - option "CSS"
+              - option "SQL"
+              - option "Java / C / Go"
+          - button "查看示例" [ref=e32] [cursor=pointer]
+          - button "复制结果" [ref=e33] [cursor=pointer]
+          - button "清空数据" [ref=e34] [cursor=pointer]
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]: 输入
+            - textbox "请输入带注释的代码" [ref=e38]
+          - generic [ref=e39]:
+            - generic [ref=e41]: 结果
+            - textbox "移除注释后的结果将显示在这里" [ref=e42]
+        - generic [ref=e43]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e44]:
+        - heading "使用说明" [level=2] [ref=e45]
+        - list [ref=e46]:
+          - listitem [ref=e47]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e48]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e49]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e50]: 所有操作本地完成，保障隐私
+      - generic [ref=e51]:
+        - heading "同类推荐" [level=2] [ref=e52]
+        - generic [ref=e53]:
+          - link "html-filter" [ref=e54] [cursor=pointer]:
+            - /url: /zh/html-filter
+          - link "js-formatter" [ref=e55] [cursor=pointer]:
+            - /url: /zh/js-formatter
+          - link "css-formatter" [ref=e56] [cursor=pointer]:
+            - /url: /zh/css-formatter
+      - generic [ref=e57]:
+        - heading "常见问题" [level=2] [ref=e58]
+        - group [ref=e59]:
+          - generic "支持哪些语言的注释移除？" [ref=e60] [cursor=pointer]
+        - group [ref=e61]:
+          - generic "会误删字符串内的注释符号吗？" [ref=e62] [cursor=pointer]
+        - group [ref=e63]:
+          - generic "如何使用？" [ref=e64] [cursor=pointer]
+        - group [ref=e65]:
+          - generic "会被上传吗？" [ref=e66] [cursor=pointer]
+  - contentinfo [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - heading "热门推荐" [level=4] [ref=e70]
+        - link "JSON" [ref=e71] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e72]:
+        - heading "站长工具" [level=4] [ref=e73]
+        - link "IP" [ref=e74] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e75]:
+        - heading "关于" [level=4] [ref=e76]
+        - link "关于我们" [ref=e77] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e78] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e79]:
+        - heading "合规" [level=4] [ref=e80]
+        - link "服务条款" [ref=e81] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e82] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e83]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e84]

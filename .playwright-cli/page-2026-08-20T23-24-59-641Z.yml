@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/line-chart
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/line-chart
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/line-chart
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "在线折线图生成器" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: 折线图
+          - generic [ref=e21]: 趋势
+          - generic [ref=e22]: Chart.js
+          - generic [ref=e23]: SVG
+        - paragraph [ref=e24]: 在线折线图生成器，输入标签与数值（每行 label,value 或表头 CSV）一键生成折线图，支持曲线平滑、点标记、Chart.js 配置导出与 SVG 下载，全部本地处理。
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - button "生成图表" [ref=e28] [cursor=pointer]
+            - button "查看示例" [ref=e29] [cursor=pointer]
+            - button "复制配置" [ref=e30] [cursor=pointer]
+            - button "复制 SVG" [ref=e31] [cursor=pointer]
+            - button "下载 SVG" [ref=e32] [cursor=pointer]
+            - button "清空数据" [ref=e33] [cursor=pointer]
+            - generic [ref=e34]: 支持表头，如 label,value 或 Month,Sales,Profit 多系列
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e38]: 数据输入（每行 标签,数值）
+              - textbox "请输入数据，例如： Jan,100 Feb,120" [ref=e39]:
+                - /placeholder: "请输入数据，例如：\nJan,100\nFeb,120"
+              - generic [ref=e40]: 支持表头，如 label,value 或 Month,Sales,Profit 多系列
+            - generic [ref=e41]:
+              - generic [ref=e43]: 图表配置（JSON）
+              - textbox "点击“生成图表”查看配置 JSON" [ref=e44]
+          - generic [ref=e45]: 所有操作均在浏览器本地完成，不上传数据。未安装 Chart.js 时使用 SVG 兜底保证预览可用。
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - heading "预览 · line-chart" [level=3] [ref=e48]
+            - generic [ref=e49]: SVG preview (Chart.js not installed, JSON config available)
+          - generic [ref=e52]:
+            - generic [ref=e53]: 📊
+            - generic [ref=e54]: 在上方输入数据并点击“生成图表”以预览
+            - generic [ref=e55]: 支持 label,value 多行 / CSV / JSON
+      - generic [ref=e56]:
+        - heading "使用说明" [level=2] [ref=e57]
+        - list [ref=e58]:
+          - listitem [ref=e59]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e60]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e61]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e62]: 所有操作本地完成，保障隐私
+      - generic [ref=e63]:
+        - heading "同类推荐" [level=2] [ref=e64]
+        - generic [ref=e65]:
+          - link "bar-chart" [ref=e66] [cursor=pointer]:
+            - /url: /zh/bar-chart
+          - link "pie-chart" [ref=e67] [cursor=pointer]:
+            - /url: /zh/pie-chart
+          - link "horizontal-bar-chart" [ref=e68] [cursor=pointer]:
+            - /url: /zh/horizontal-bar-chart
+      - generic [ref=e69]:
+        - heading "常见问题" [level=2] [ref=e70]
+        - group [ref=e71]:
+          - generic "如何输入数据？" [ref=e72] [cursor=pointer]
+        - group [ref=e73]:
+          - generic "如何生成与导出？" [ref=e74] [cursor=pointer]
+        - group [ref=e75]:
+          - generic "支持哪些数据格式？" [ref=e76] [cursor=pointer]
+        - group [ref=e77]:
+          - generic "会被上传吗？" [ref=e78] [cursor=pointer]
+  - contentinfo [ref=e79]:
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - heading "热门推荐" [level=4] [ref=e82]
+        - link "JSON" [ref=e83] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e84]:
+        - heading "站长工具" [level=4] [ref=e85]
+        - link "IP" [ref=e86] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e87]:
+        - heading "关于" [level=4] [ref=e88]
+        - link "关于我们" [ref=e89] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e90] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e91]:
+        - heading "合规" [level=4] [ref=e92]
+        - link "服务条款" [ref=e93] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e94] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e95]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e96]

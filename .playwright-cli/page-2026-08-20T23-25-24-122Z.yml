@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/pwa-manifest
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/pwa-manifest
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/pwa-manifest
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "在线PWA Manifest生成器" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: PWA
+          - generic [ref=e21]: Manifest
+          - generic [ref=e22]: 图标配置
+          - generic [ref=e23]: 生成器
+        - paragraph [ref=e24]: 可视化配置 PWA manifest.json：填写 name、short_name、icons、theme_color、display、start_url 等表单字段，实时生成可下载的 JSON，支持导入已有 manifest 回填表单，本地处理。
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: PWA Manifest 可视化配置
+          - generic [ref=e29]:
+            - button "生成 JSON" [ref=e30] [cursor=pointer]
+            - button "复制 JSON" [ref=e31] [cursor=pointer]
+            - button "下载 manifest.json" [ref=e32] [cursor=pointer]
+            - button "重置" [ref=e33] [cursor=pointer]
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]:
+                - generic [ref=e38]: 应用名称 *
+                - textbox "应用名称 *" [ref=e39]: My App
+              - generic [ref=e40]:
+                - generic [ref=e41]: 短名称 *
+                - textbox "短名称 *" [ref=e42]: App
+            - generic [ref=e43]:
+              - text: 描述
+              - textbox "描述" [ref=e44]: An awesome PWA app
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - generic [ref=e47]: 启动地址 *
+                - textbox "启动地址 *" [ref=e48]: /
+              - generic [ref=e49]:
+                - text: 作用域
+                - textbox "作用域" [ref=e50]: /
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - text: 显示模式
+                - combobox "显示模式" [ref=e53]:
+                  - option "standalone" [selected]
+                  - option "fullscreen"
+                  - option "minimal-ui"
+                  - option "browser"
+              - generic [ref=e54]:
+                - text: 方向
+                - combobox "方向" [ref=e55]:
+                  - option "any" [selected]
+                  - option "natural"
+                  - option "portrait"
+                  - option "landscape"
+                  - option "portrait-primary"
+                  - option "landscape-primary"
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - text: 主题色
+                - generic [ref=e58]:
+                  - 'textbox "主题色 #0ea5e9" [ref=e59]': "#0ea5e9"
+                  - textbox [ref=e60]: "#0ea5e9"
+              - generic [ref=e61]:
+                - text: 背景色
+                - generic [ref=e62]:
+                  - 'textbox "背景色 #ffffff" [ref=e63]': "#ffffff"
+                  - textbox [ref=e64]: "#ffffff"
+            - generic [ref=e65]:
+              - text: 语言
+              - textbox "语言" [ref=e66]:
+                - /placeholder: zh-CN
+                - text: zh-CN
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - generic [ref=e69]: 图标
+                - button "+ 添加图标" [ref=e70] [cursor=pointer]
+              - generic [ref=e71]:
+                - generic [ref=e72]:
+                  - text: src
+                  - textbox "src" [ref=e73]:
+                    - /placeholder: /icon-192.png
+                    - text: /icon-192.png
+                - generic [ref=e74]:
+                  - text: sizes
+                  - textbox "sizes" [ref=e75]:
+                    - /placeholder: 192x192
+                    - text: 192x192
+                - generic [ref=e76]:
+                  - text: type
+                  - textbox "type" [ref=e77]:
+                    - /placeholder: image/png
+                    - text: image/png
+                - button "✕" [ref=e78] [cursor=pointer]
+              - generic [ref=e79]:
+                - generic [ref=e80]:
+                  - text: src
+                  - textbox "src" [ref=e81]:
+                    - /placeholder: /icon-192.png
+                    - text: /icon-512.png
+                - generic [ref=e82]:
+                  - text: sizes
+                  - textbox "sizes" [ref=e83]:
+                    - /placeholder: 192x192
+                    - text: 512x512
+                - generic [ref=e84]:
+                  - text: type
+                  - textbox "type" [ref=e85]:
+                    - /placeholder: image/png
+                    - text: image/png
+                - button "✕" [ref=e86] [cursor=pointer]
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e89]: 预览与输出 — manifest.json
+              - generic [ref=e90]: 26 行
+            - textbox [ref=e91]: "{ \"name\": \"My App\", \"short_name\": \"App\", \"description\": \"An awesome PWA app\", \"start_url\": \"/\", \"scope\": \"/\", \"display\": \"standalone\", \"orientation\": \"any\", \"background_color\": \"#ffffff\", \"theme_color\": \"#0ea5e9\", \"icons\": [ { \"src\": \"/icon-192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\", \"purpose\": \"any\" }, { \"src\": \"/icon-512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"any maskable\" } ], \"lang\": \"zh-CN\" }"
+            - generic [ref=e92]:
+              - generic [ref=e93]: 导入 JSON 到表单
+              - generic [ref=e94]:
+                - 'textbox "{\"name\":\"...\"}" [ref=e95]'
+                - button "→" [ref=e96] [cursor=pointer]
+            - generic [ref=e97]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e98]:
+        - heading "使用说明" [level=2] [ref=e99]
+        - list [ref=e100]:
+          - listitem [ref=e101]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e102]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e103]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e104]: 所有操作本地完成，保障隐私
+      - generic [ref=e105]:
+        - heading "同类推荐" [level=2] [ref=e106]
+        - generic [ref=e107]:
+          - link "button-css" [ref=e108] [cursor=pointer]:
+            - /url: /zh/button-css
+          - link "json-formatter" [ref=e109] [cursor=pointer]:
+            - /url: /zh/json-formatter
+          - link "html-formatter" [ref=e110] [cursor=pointer]:
+            - /url: /zh/html-formatter
+      - generic [ref=e111]:
+        - heading "常见问题" [level=2] [ref=e112]
+        - group [ref=e113]:
+          - generic "PWA Manifest 是什么？" [ref=e114] [cursor=pointer]
+        - group [ref=e115]:
+          - generic "如何生成 manifest？" [ref=e116] [cursor=pointer]
+        - group [ref=e117]:
+          - generic "如何配置图标？" [ref=e118] [cursor=pointer]
+        - group [ref=e119]:
+          - generic "会被上传吗？" [ref=e120] [cursor=pointer]
+  - contentinfo [ref=e121]:
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - heading "热门推荐" [level=4] [ref=e124]
+        - link "JSON" [ref=e125] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e126]:
+        - heading "站长工具" [level=4] [ref=e127]
+        - link "IP" [ref=e128] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e129]:
+        - heading "关于" [level=4] [ref=e130]
+        - link "关于我们" [ref=e131] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e132] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e133]:
+        - heading "合规" [level=4] [ref=e134]
+        - link "服务条款" [ref=e135] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e136] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e137]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e138]

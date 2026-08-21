@@ -1,0 +1,92 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/html-escape
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/html-escape
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/html-escape
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "在线HTML字符转义/反转义工具" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: HTML转义
+          - generic [ref=e21]: HTML反转义
+          - generic [ref=e22]: 字符转义
+          - generic [ref=e23]: HTML实体
+        - paragraph [ref=e24]: 在线HTML字符转义与反转义工具，支持将 < > & " ' 等特殊字符与 HTML 实体 &lt; &gt; &amp; &quot; &#39; 双向转换，支持数值实体 &#x / &# 编码，一键转义/反转义、示例与复制，全部本地处理保障隐私。
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - button "HTML转义" [ref=e28] [cursor=pointer]
+          - button "HTML反转义" [ref=e29] [cursor=pointer]
+          - button "查看示例" [ref=e30] [cursor=pointer]
+          - button "复制结果" [ref=e31] [cursor=pointer]
+          - button "清空数据" [ref=e32] [cursor=pointer]
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]: 输入
+            - textbox "请输入要转义的 HTML 字符：" [ref=e36]
+          - generic [ref=e37]:
+            - generic [ref=e39]: 结果
+            - textbox "转换结果将显示在这里" [ref=e40]
+        - generic [ref=e41]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e42]:
+        - heading "使用说明" [level=2] [ref=e43]
+        - list [ref=e44]:
+          - listitem [ref=e45]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e46]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e47]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e48]: 所有操作本地完成，保障隐私
+      - generic [ref=e49]:
+        - heading "同类推荐" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - link "camel" [ref=e52] [cursor=pointer]:
+            - /url: /zh/camel
+          - link "hex-converter" [ref=e53] [cursor=pointer]:
+            - /url: /zh/hex-converter
+      - generic [ref=e54]:
+        - heading "常见问题" [level=2] [ref=e55]
+        - group [ref=e56]:
+          - generic "什么是HTML字符转义？为什么需要它？" [ref=e57] [cursor=pointer]
+        - group [ref=e58]:
+          - generic "会影响哪些字符？中文和数字会被转换吗？" [ref=e59] [cursor=pointer]
+        - group [ref=e60]:
+          - generic "什么时候用转义/反转义？" [ref=e61] [cursor=pointer]
+        - group [ref=e62]:
+          - generic "会被上传吗？" [ref=e63] [cursor=pointer]
+  - contentinfo [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - heading "热门推荐" [level=4] [ref=e67]
+        - link "JSON" [ref=e68] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e69]:
+        - heading "站长工具" [level=4] [ref=e70]
+        - link "IP" [ref=e71] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e72]:
+        - heading "关于" [level=4] [ref=e73]
+        - link "关于我们" [ref=e74] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e75] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e76]:
+        - heading "合规" [level=4] [ref=e77]
+        - link "服务条款" [ref=e78] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e79] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e80]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e81]

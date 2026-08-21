@@ -1,0 +1,492 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "在线进制转换工具" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "二进制转换" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=二进制转换
+          - img [ref=e126]
+          - text: 二进制转换
+        - link "八进制转换" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=八进制转换
+          - img [ref=e130]
+          - text: 八进制转换
+        - link "十六进制转换" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=十六进制转换
+          - img [ref=e134]
+          - text: 十六进制转换
+        - link "进制计算器" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=进制计算器
+          - img [ref=e138]
+          - text: 进制计算器
+        - link "多进制转换" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=多进制转换
+          - img [ref=e142]
+          - text: 多进制转换
+    - paragraph [ref=e145]: 使用我们的「进制转换工具」，支持多进制数值互转与结果展示，兼容常用及扩展进制格式，实时输出转换结果。支持手动输入任意进制数，一键查看各进制对应值。
+    - main [ref=e146]:
+      - generic [ref=e147]:
+        - generic [ref=e148]: 请选择进制类型、对应的数值：
+        - generic [ref=e149]:
+          - generic [ref=e150] [cursor=pointer]:
+            - radio "二进制"
+            - generic [ref=e151]: 二进制
+          - generic [ref=e152] [cursor=pointer]:
+            - radio "八进制"
+            - generic [ref=e153]: 八进制
+          - generic [ref=e154] [cursor=pointer]:
+            - radio "十进制" [checked]
+            - generic [ref=e155]: 十进制
+          - generic [ref=e156] [cursor=pointer]:
+            - radio "十六进制"
+            - generic [ref=e157]: 十六进制
+          - generic [ref=e158] [cursor=pointer]:
+            - radio "三十二进制"
+            - generic [ref=e159]: 三十二进制
+          - generic [ref=e160] [cursor=pointer]:
+            - radio "三十六进制"
+            - generic [ref=e161]: 三十六进制
+        - textbox "请输入要转换的数值" [ref=e162]: "255"
+        - generic [ref=e163]:
+          - button "进制转换" [active] [ref=e164] [cursor=pointer]:
+            - img [ref=e165]
+            - text: 进制转换
+          - button "清空数据" [ref=e167] [cursor=pointer]:
+            - img [ref=e168]
+            - text: 清空数据
+      - generic [ref=e176]:
+        - generic [ref=e177]: 转换结果：
+        - table [ref=e179]:
+          - rowgroup [ref=e180]:
+            - row "进制 结果 解释" [ref=e181]:
+              - columnheader "进制" [ref=e182]
+              - columnheader "结果" [ref=e183]
+              - columnheader "解释" [ref=e184]
+            - row "2 11111111 二进制是计算机底层表示方式，所有数据最终都以 0 和 1 存储。此值用于位运算、内存操作等低级处理。" [ref=e456]:
+              - cell "2" [ref=e186]
+              - cell "11111111" [ref=e457]:
+                - textbox [ref=e188]: "11111111"
+              - cell "二进制是计算机底层表示方式，所有数据最终都以 0 和 1 存储。此值用于位运算、内存操作等低级处理。" [ref=e189]
+            - row "8 377 八进制曾广泛用于 Unix/Linux 权限系统（如 chmod 755），虽然现代使用减少，但仍见于某些遗留系统和嵌入式开发中。" [ref=e458]:
+              - cell "8" [ref=e191]
+              - cell "377" [ref=e459]:
+                - textbox [ref=e193]: "377"
+              - cell "八进制曾广泛用于 Unix/Linux 权限系统（如 chmod 755），虽然现代使用减少，但仍见于某些遗留系统和嵌入式开发中。" [ref=e194]
+            - row "10 255 十进制是我们日常使用的数字系统，便于人类阅读和计算，适用于普通用户输入与展示。" [ref=e460]:
+              - cell "10" [ref=e196]
+              - cell "255" [ref=e461]:
+                - textbox [ref=e198]: "255"
+              - cell "十进制是我们日常使用的数字系统，便于人类阅读和计算，适用于普通用户输入与展示。" [ref=e199]
+            - row "16 FF 十六进制常用于表示内存地址、颜色值（#FF5733）、哈希码等。它比二进制更紧凑，易于程序员理解和调试。" [ref=e462]:
+              - cell "16" [ref=e201]
+              - cell "FF" [ref=e463]:
+                - textbox [ref=e203]: FF
+              - cell "十六进制常用于表示内存地址、颜色值（#FF5733）、哈希码等。它比二进制更紧凑，易于程序员理解和调试。" [ref=e204]
+            - row "32 7V 32进制使用字母+数字编码，适合生成短链接、唯一ID等场景，避免混淆字符（如不使用 I、L、O、0 等）。" [ref=e464]:
+              - cell "32" [ref=e206]
+              - cell "7V" [ref=e465]:
+                - textbox [ref=e208]: 7V
+              - cell "32进制使用字母+数字编码，适合生成短链接、唯一ID等场景，避免混淆字符（如不使用 I、L、O、0 等）。" [ref=e209]
+            - row "36 73 36进制充分利用 0-9 和 A-Z，能将大数压缩成较短字符串，适用于紧凑型 ID 编码、序列号生成等空间敏感场景。" [ref=e466]:
+              - cell "36" [ref=e211]
+              - cell "73" [ref=e467]:
+                - textbox [ref=e213]: "73"
+              - cell "36进制充分利用 0-9 和 A-Z，能将大数压缩成较短字符串，适用于紧凑型 ID 编码、序列号生成等空间敏感场景。" [ref=e214]
+            - row "52 Ev 52进制采用大小写字母（A-Z, a-z）构成字符集，不含数字，适合区分类型的标识符生成；常用于短链接或内部ID编码，但需注意视觉混淆问题（如 l 和 I）。" [ref=e468]:
+              - cell "52" [ref=e216]
+              - cell "Ev" [ref=e469]:
+                - textbox [ref=e218]: Ev
+              - cell "52进制采用大小写字母（A-Z, a-z）构成字符集，不含数字，适合区分类型的标识符生成；常用于短链接或内部ID编码，但需注意视觉混淆问题（如 l 和 I）。" [ref=e219]
+            - row "58 5Q 58进制（如 Base58）去除易混淆字符（0、O、I、l），提升可读性和安全性，广泛应用于区块链地址（如比特币）、去中心化系统中的唯一标识编码。" [ref=e470]:
+              - cell "58" [ref=e221]
+              - cell "5Q" [ref=e471]:
+                - textbox [ref=e223]: 5Q
+              - cell "58进制（如 Base58）去除易混淆字符（0、O、I、l），提升可读性和安全性，广泛应用于区块链地址（如比特币）、去中心化系统中的唯一标识编码。" [ref=e224]
+            - row "62 47 62进制包含 0-9、A-Z、a-z，最大程度压缩数值为短字符串，非常适合短链接服务（如 TinyURL）、分布式ID对外展示等需要高密度编码的场景。" [ref=e472]:
+              - cell "62" [ref=e226]
+              - cell "47" [ref=e473]:
+                - textbox [ref=e228]: "47"
+              - cell "62进制包含 0-9、A-Z、a-z，最大程度压缩数值为短字符串，非常适合短链接服务（如 TinyURL）、分布式ID对外展示等需要高密度编码的场景。" [ref=e229]
+            - row "64 _w 64进制（Base64）用于将二进制数据编码为文本，常见于数据传输（如图片嵌入网页、JWT token、邮件附件），支持标准与URL安全变体（Base64URL），兼顾效率与兼容性。" [ref=e474]:
+              - cell "64" [ref=e231]
+              - cell "_w" [ref=e475]:
+                - textbox [ref=e233]: _w
+              - cell "64进制（Base64）用于将二进制数据编码为文本，常见于数据传输（如图片嵌入网页、JWT token、邮件附件），支持标准与URL安全变体（Base64URL），兼顾效率与兼容性。" [ref=e234]
+    - region "工具使用帮助与相关信息" [ref=e235]:
+      - generic [ref=e236]:
+        - heading "使用说明" [level=2] [ref=e237]:
+          - img [ref=e238]
+          - text: 使用说明
+        - paragraph [ref=e240]:
+          - text: 🔢
+          - strong [ref=e241]: 选择输入进制
+        - paragraph [ref=e242]: 在“请选择进制类型”区域中，点击选择你当前要输入的数值所属的进制，支持：二进制、八进制、十进制、十六进制、三十二进制、三十六进制，以及扩展进制（52/58/62/64进制）。系统将根据所选进制正确解析输入内容。
+        - paragraph [ref=e243]:
+          - text: ⌨️
+          - strong [ref=e244]: 输入待转换数值
+        - paragraph [ref=e245]: 在输入框中填写对应进制下的有效数值。例如：选择“二进制”时请输入仅含 0 和 1 的字符串；选择“十六进制”时可输入 0-9 与 A-F 字符；选择 Base58 等扩展进制时，请确保不包含易混淆字符（如 0、O、I、l）。
+        - paragraph [ref=e246]:
+          - text: 🔄
+          - strong [ref=e247]: 执行进制转换
+        - paragraph [ref=e248]: 点击“进制转换”按钮后，系统会将你输入的数值先转换为十进制基准，再自动计算并显示其在其他所有支持进制下的等效表示。结果以只读输入框形式展示，方便手动选中复制。
+        - paragraph [ref=e249]:
+          - text: 📋
+          - strong [ref=e250]: 查看与复制结果
+        - paragraph [ref=e251]: 转换完成后，下方表格会列出从 2 进制到 64 进制的各项结果。每个结果均位于可编辑样式的输入框中（实际为 readonly），你可以点击任意结果框并使用 Ctrl+C（或右键复制）将其粘贴至其他位置使用。
+        - paragraph [ref=e252]:
+          - text: 🗑️
+          - strong [ref=e253]: 清空数据
+        - paragraph [ref=e254]: 点击“清空数据”按钮，可一键清除输入框内容及所有转换结果，恢复工具至初始状态，便于进行下一次独立操作。
+      - generic [ref=e255]:
+        - heading "同类推荐" [level=2] [ref=e256]:
+          - img [ref=e257]
+          - text: 同类推荐
+        - generic [ref=e259]:
+          - article [ref=e260]:
+            - link "PHP序列化/反序列化 工具图标 PHP序列化/反序列化 支持PHP序列化与反序列化双向精确转换和数组/JSON格式对照，适用于PHP开发调试和数据格式转换等场景。" [ref=e261] [cursor=pointer]:
+              - /url: /php-serialize/
+              - heading "PHP序列化/反序列化 工具图标 PHP序列化/反序列化" [level=3] [ref=e262]:
+                - img "PHP序列化/反序列化 工具图标" [ref=e263]
+                - generic [ref=e264]: PHP序列化/反序列化
+              - paragraph [ref=e265]: 支持PHP序列化与反序列化双向精确转换和数组/JSON格式对照，适用于PHP开发调试和数据格式转换等场景。
+          - article [ref=e266]:
+            - link "HTML图片链接提取 工具图标 HTML图片链接提取 HTML图片链接去重提取并分行展示，适用于网页开发、资源整理和批量处理图片链接等场景。" [ref=e267] [cursor=pointer]:
+              - /url: /image-extract/
+              - heading "HTML图片链接提取 工具图标 HTML图片链接提取" [level=3] [ref=e268]:
+                - img "HTML图片链接提取 工具图标" [ref=e269]
+                - generic [ref=e270]: HTML图片链接提取
+              - paragraph [ref=e271]: HTML图片链接去重提取并分行展示，适用于网页开发、资源整理和批量处理图片链接等场景。
+          - article [ref=e272]:
+            - link "EXCEL转JSON 工具图标 EXCEL转JSON 支持解析Excel文件转JSON，精准提取表格结构化数据，适用于数据格式转换、开发接口调试等场景。" [ref=e273] [cursor=pointer]:
+              - /url: /excel-json/
+              - heading "EXCEL转JSON 工具图标 EXCEL转JSON" [level=3] [ref=e274]:
+                - img "EXCEL转JSON 工具图标" [ref=e275]
+                - generic [ref=e276]: EXCEL转JSON
+              - paragraph [ref=e277]: 支持解析Excel文件转JSON，精准提取表格结构化数据，适用于数据格式转换、开发接口调试等场景。
+          - article [ref=e278]:
+            - link "JSON转EXCEL 工具图标 JSON转EXCEL 支持解析JSON数据转 Excel，精准生成标准化表格文件，适用于数据格式转换、办公数据整理等场景。" [ref=e279] [cursor=pointer]:
+              - /url: /json-excel/
+              - heading "JSON转EXCEL 工具图标 JSON转EXCEL" [level=3] [ref=e280]:
+                - img "JSON转EXCEL 工具图标" [ref=e281]
+                - generic [ref=e282]: JSON转EXCEL
+              - paragraph [ref=e283]: 支持解析JSON数据转 Excel，精准生成标准化表格文件，适用于数据格式转换、办公数据整理等场景。
+          - article [ref=e284]:
+            - link "CSS页面加载动画 工具图标 CSS页面加载动画 CSS载入Loading动画代码大全，涵盖圆形旋转、进度条跳动、骨架屏闪烁、圆点脉冲等多种动态效果。" [ref=e285] [cursor=pointer]:
+              - /url: /loading/
+              - heading "CSS页面加载动画 工具图标 CSS页面加载动画" [level=3] [ref=e286]:
+                - img "CSS页面加载动画 工具图标" [ref=e287]
+                - generic [ref=e288]: CSS页面加载动画
+              - paragraph [ref=e289]: CSS载入Loading动画代码大全，涵盖圆形旋转、进度条跳动、骨架屏闪烁、圆点脉冲等多种动态效果。
+          - article [ref=e290]:
+            - link "HTML字符转义 工具图标 HTML字符转义 HTML字符安全转换工具，支持特殊字符与实体编码双向实时互转，保障网页内容安全显示。" [ref=e291] [cursor=pointer]:
+              - /url: /html-escape/
+              - heading "HTML字符转义 工具图标 HTML字符转义" [level=3] [ref=e292]:
+                - img "HTML字符转义 工具图标" [ref=e293]
+                - generic [ref=e294]: HTML字符转义
+              - paragraph [ref=e295]: HTML字符安全转换工具，支持特殊字符与实体编码双向实时互转，保障网页内容安全显示。
+          - article [ref=e296]:
+            - link "SQL格式化/压缩 工具图标 SQL格式化/压缩 一键SQL美化，实时压缩/格式化，支持多库语法全兼容，快速生成规范语句，提升开发效率！" [ref=e297] [cursor=pointer]:
+              - /url: /sql-format/
+              - heading "SQL格式化/压缩 工具图标 SQL格式化/压缩" [level=3] [ref=e298]:
+                - img "SQL格式化/压缩 工具图标" [ref=e299]
+                - generic [ref=e300]: SQL格式化/压缩
+              - paragraph [ref=e301]: 一键SQL美化，实时压缩/格式化，支持多库语法全兼容，快速生成规范语句，提升开发效率！
+          - article [ref=e302]:
+            - link "JSON格式化/压缩 工具图标 JSON格式化/压缩 秒级响应！JSON智能美化与无损压缩自由切换，高亮显示+自动校验，让数据处理更直观、更流畅！" [ref=e303] [cursor=pointer]:
+              - /url: /json-formatter/
+              - heading "JSON格式化/压缩 工具图标 JSON格式化/压缩" [level=3] [ref=e304]:
+                - img "JSON格式化/压缩 工具图标" [ref=e305]
+                - generic [ref=e306]: JSON格式化/压缩
+              - paragraph [ref=e307]: 秒级响应！JSON智能美化与无损压缩自由切换，高亮显示+自动校验，让数据处理更直观、更流畅！
+          - article [ref=e308]:
+            - link "CSS代码格式化/压缩 工具图标 CSS代码格式化/压缩 一键CSS处理，智能美化/极致压缩，支持双模式秒级转换，全面优化代码结构，提升开发效率！" [ref=e309] [cursor=pointer]:
+              - /url: /css-formatter/
+              - heading "CSS代码格式化/压缩 工具图标 CSS代码格式化/压缩" [level=3] [ref=e310]:
+                - img "CSS代码格式化/压缩 工具图标" [ref=e311]
+                - generic [ref=e312]: CSS代码格式化/压缩
+              - paragraph [ref=e313]: 一键CSS处理，智能美化/极致压缩，支持双模式秒级转换，全面优化代码结构，提升开发效率！
+          - article [ref=e314]:
+            - link "HTML代码美化/压缩 工具图标 HTML代码美化/压缩 一键格式化，实时解析/智能排版，支持HTML5全语法秒级响应，全面优化代码结构，提升开发效率！" [ref=e315] [cursor=pointer]:
+              - /url: /html-formatter/
+              - heading "HTML代码美化/压缩 工具图标 HTML代码美化/压缩" [level=3] [ref=e316]:
+                - img "HTML代码美化/压缩 工具图标" [ref=e317]
+                - generic [ref=e318]: HTML代码美化/压缩
+              - paragraph [ref=e319]: 一键格式化，实时解析/智能排版，支持HTML5全语法秒级响应，全面优化代码结构，提升开发效率！
+          - article [ref=e320]:
+            - link "下划线&驼峰命名互换 工具图标 下划线&驼峰命名互换 专业在线编程命名转换工具，支持驼峰与下划线互转和多格式适配，提供双向转换功能，满足多语言开发需求。" [ref=e321] [cursor=pointer]:
+              - /url: /camel/
+              - heading "下划线&驼峰命名互换 工具图标 下划线&驼峰命名互换" [level=3] [ref=e322]:
+                - img "下划线&驼峰命名互换 工具图标" [ref=e323]
+                - generic [ref=e324]: 下划线&驼峰命名互换
+              - paragraph [ref=e325]: 专业在线编程命名转换工具，支持驼峰与下划线互转和多格式适配，提供双向转换功能，满足多语言开发需求。
+          - article [ref=e326]:
+            - link "Unix时间戳转换 工具图标 Unix时间戳转换 时间戳与标准时间双向转换，支持秒级与毫秒级输入，支持时区切换，自动识别格式，实时显示当前时间戳。" [ref=e327] [cursor=pointer]:
+              - /url: /timestamp/
+              - heading "Unix时间戳转换 工具图标 Unix时间戳转换" [level=3] [ref=e328]:
+                - img "Unix时间戳转换 工具图标" [ref=e329]
+                - generic [ref=e330]: Unix时间戳转换
+              - paragraph [ref=e331]: 时间戳与标准时间双向转换，支持秒级与毫秒级输入，支持时区切换，自动识别格式，实时显示当前时间戳。
+      - generic [ref=e332]:
+        - heading "常见问题" [level=2] [ref=e333]:
+          - img [ref=e334]
+          - text: 常见问题
+        - generic [ref=e338]:
+          - heading "✔️ 支持哪些进制之间的转换？" [level=3] [ref=e339]
+          - paragraph [ref=e340]:
+            - text: 支持
+            - strong [ref=e341]: 2 到 36 进制
+            - text: 的任意互转，涵盖：二进制（bin）、八进制（oct）、十进制（dec）并可拓展至三十六进制，适用于编程、教学和数字系统分析。
+        - generic [ref=e342]:
+          - heading "📌 如何使用工具进行进制转换？" [level=3] [ref=e343]
+          - paragraph [ref=e344]:
+            - text: 本工具同时支持
+            - strong [ref=e345]: 文本编码
+            - text: 和
+            - strong [ref=e346]: 图片文件编码
+            - text: 。对于图片，支持点击上传或拖拽操作，兼容 PNG、JPG、GIF 等主流格式。
+        - generic [ref=e347]:
+          - heading "🎯 十六进制输入需要加 0x 前缀吗？" [level=3] [ref=e348]
+          - paragraph [ref=e349]:
+            - text: 不需要！工具支持带前缀（如
+            - code [ref=e350]: 0b
+            - text: 、
+            - code [ref=e351]: 0o
+            - text: 、
+            - code [ref=e352]: 0x
+            - text: ）或直接输入数值。例如：
+            - code [ref=e353]: FF
+            - text: 、
+            - code [ref=e354]: "0xFF"
+            - text: 、
+            - code [ref=e355]: "#FF"
+            - text: 均可被正确解析为十六进制数，提升灵活性与用户体验。
+        - generic [ref=e356]:
+          - heading "🔭 这个工具适合程序员和学生使用吗？" [level=3] [ref=e357]
+          - paragraph [ref=e358]: 非常适合！对计算机基础学习者和需转换颜色值、位运算参数的前端 / 嵌入式开发者，它都很实用。清晰的结果对照与实时反馈，能大幅提效、助于理解。
+        - generic [ref=e359]:
+          - heading "🔒 所有进制转换是在本地完成的吗？数据安全吗？" [level=3] [ref=e360]
+          - paragraph [ref=e361]:
+            - text: 是的！所有进制转换均在您的浏览器中
+            - strong [ref=e362]: 实时本地运算
+            - text: ，无需联网，不上传任何输入内容，完全保护隐私。即使断网也可正常使用，安全可靠。
+      - generic "工具快速切换" [ref=e363]:
+        - list [ref=e365]:
+          - listitem [ref=e366] [cursor=pointer]: 热门推荐
+          - listitem [ref=e367] [cursor=pointer]: 站长工具
+          - listitem [ref=e368] [cursor=pointer]: 编程开发
+          - listitem [ref=e369] [cursor=pointer]: 文本处理
+          - listitem [ref=e370] [cursor=pointer]: 图像处理
+          - listitem [ref=e371] [cursor=pointer]: 文档转换
+          - listitem [ref=e372] [cursor=pointer]: 音频视频
+          - listitem [ref=e373] [cursor=pointer]: 便民工具
+          - listitem [ref=e374] [cursor=pointer]: 编码加密
+          - listitem [ref=e375] [cursor=pointer]: 单位转换
+        - table [ref=e377]:
+          - rowgroup [ref=e378]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e379]:
+              - cell "微信聊天模拟器" [ref=e380]:
+                - link "微信聊天模拟器" [ref=e381] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e382]:
+                - link "微信零钱模拟器" [ref=e383] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e384]:
+                - link "文字转语音工具" [ref=e385] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e386]:
+                - link "法定退休年龄计算器" [ref=e387] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e388]:
+                - link "身份证号码查询" [ref=e389] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e390]:
+                - link "在线随机点名" [ref=e391] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e392]:
+              - cell "报名证件照处理" [ref=e393]:
+                - link "报名证件照处理" [ref=e394] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e395]:
+                - link "随机密码生成器" [ref=e396] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e397]:
+                - link "二维码生成器" [ref=e398] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e399]:
+                - link "世界高清地图" [ref=e400] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e401]:
+                - link "键盘按键检测" [ref=e402] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e403]:
+                - link "手机归属地查询" [ref=e404] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e405]:
+              - cell "在线字数统计" [ref=e406]:
+                - link "在线字数统计" [ref=e407] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e408]:
+                - link "JSON格式化/压缩" [ref=e409] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e410]:
+                - link "Base64编码/解码" [ref=e411] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e412]:
+                - link "图片高清压缩" [ref=e413] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e414]:
+                - link "摩斯密码编码/解码" [ref=e415] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e416]:
+                - link "节日时间倒计时" [ref=e417] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e418]:
+              - cell "本机IP地址查询" [ref=e419]:
+                - link "本机IP地址查询" [ref=e420] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e421]:
+                - link "Unix时间戳转换" [ref=e422] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e423]:
+                - link "图片取色器" [ref=e424] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e425]:
+                - link "色盲色弱测试" [ref=e426] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e427]:
+                - link "SVG在线编辑器" [ref=e428] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e429]:
+                - link "中国高清地图" [ref=e430] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e431]:
+              - cell "查看网页源码" [ref=e432]:
+                - link "查看网页源码" [ref=e433] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e434]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e435]
+        - paragraph [ref=e436]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e437]
+    - generic [ref=e438]:
+      - navigation "页脚链接" [ref=e439]:
+        - link "关于我们" [ref=e440] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e441] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e442] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e443] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e444] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e445] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e446] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e447] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e448] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e449]:
+        - generic [ref=e450]:
+          - text: © 2025
+          - link "懒人工具" [ref=e451] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e453] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e454]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e455] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

@@ -1,0 +1,206 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/timestamp
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/timestamp
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/timestamp
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "在线Unix时间戳转换工具" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: 时间戳转换
+          - generic [ref=e21]: Unix时间
+          - generic [ref=e22]: 时区转换
+          - generic [ref=e23]: 毫秒时间戳
+        - paragraph [ref=e24]: 使用我们的在线Unix时间戳转换工具，轻松实现时间戳与标准时间之间的双向转换，支持秒级与毫秒级、25个时区切换，实时显示当前时间戳，全部本地处理保障隐私。
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]: 当前时间戳
+            - generic [ref=e29]:
+              - button "切换单位 (→ ms)" [ref=e30] [cursor=pointer]
+              - button "停止" [ref=e31] [cursor=pointer]
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e35]: "1787268290"
+              - generic [ref=e36]: 秒
+            - button "复制" [ref=e37] [cursor=pointer]
+          - generic [ref=e38]: "北京时间: 2026-08-21 07:24:50 (UTC+8)"
+          - generic [ref=e39]: 所有操作均在浏览器本地完成，不上传数据
+        - generic [ref=e40]:
+          - generic [ref=e41]: 时间戳转日期
+          - generic [ref=e42]:
+            - textbox "请输入时间戳，支持10位秒或13位毫秒，如 1700000000" [ref=e43]
+            - combobox [ref=e44]:
+              - option "威克岛时间 (UTC-12)"
+              - option "萨摩亚时间 (UTC-11)"
+              - option "夏威夷时间 (UTC-10)"
+              - option "阿拉斯加时间 (UTC-9)"
+              - option "洛杉矶时间 (UTC-8)"
+              - option "丹佛时间 (UTC-7)"
+              - option "芝加哥时间 (UTC-6)"
+              - option "纽约时间 (UTC-5)"
+              - option "多伦多时间 (UTC-4)"
+              - option "布宜诺斯艾利斯时间 (UTC-3)"
+              - option "南乔治亚岛时间 (UTC-2)"
+              - option "亚速尔群岛时间 (UTC-1)"
+              - option "伦敦时间 (UTC+0)"
+              - option "巴黎时间 (UTC+1)"
+              - option "开罗时间 (UTC+2)"
+              - option "莫斯科时间 (UTC+3)"
+              - option "迪拜时间 (UTC+4)"
+              - option "卡拉奇时间 (UTC+5)"
+              - option "新德里时间 (UTC+5:30)"
+              - option "达卡时间 (UTC+6)"
+              - option "曼谷时间 (UTC+7)"
+              - option "北京时间 (UTC+8)" [selected]
+              - option "东京时间 (UTC+9)"
+              - option "悉尼时间 (UTC+10)"
+              - option "马加丹时间 (UTC+11)"
+              - option "奥克兰时间 (UTC+12)"
+          - generic [ref=e45]:
+            - button "转成日期时间" [ref=e46] [cursor=pointer]
+            - button "清空数据" [ref=e47] [cursor=pointer]
+          - generic [ref=e48]:
+            - textbox "日期结果" [ref=e49]
+            - button "复制" [ref=e50] [cursor=pointer]
+        - generic [ref=e51]:
+          - generic [ref=e52]: 日期转时间戳
+          - generic [ref=e53]:
+            - textbox "请输入日期时间，如 2023-11-14 22:13:20" [ref=e54]
+            - combobox [ref=e55]:
+              - option "威克岛时间 (UTC-12)"
+              - option "萨摩亚时间 (UTC-11)"
+              - option "夏威夷时间 (UTC-10)"
+              - option "阿拉斯加时间 (UTC-9)"
+              - option "洛杉矶时间 (UTC-8)"
+              - option "丹佛时间 (UTC-7)"
+              - option "芝加哥时间 (UTC-6)"
+              - option "纽约时间 (UTC-5)"
+              - option "多伦多时间 (UTC-4)"
+              - option "布宜诺斯艾利斯时间 (UTC-3)"
+              - option "南乔治亚岛时间 (UTC-2)"
+              - option "亚速尔群岛时间 (UTC-1)"
+              - option "伦敦时间 (UTC+0)"
+              - option "巴黎时间 (UTC+1)"
+              - option "开罗时间 (UTC+2)"
+              - option "莫斯科时间 (UTC+3)"
+              - option "迪拜时间 (UTC+4)"
+              - option "卡拉奇时间 (UTC+5)"
+              - option "新德里时间 (UTC+5:30)"
+              - option "达卡时间 (UTC+6)"
+              - option "曼谷时间 (UTC+7)"
+              - option "北京时间 (UTC+8)" [selected]
+              - option "东京时间 (UTC+9)"
+              - option "悉尼时间 (UTC+10)"
+              - option "马加丹时间 (UTC+11)"
+              - option "奥克兰时间 (UTC+12)"
+          - generic [ref=e56]:
+            - generic [ref=e57]: 或分别输入年月日时分秒（留空日期框时生效）：
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - generic [ref=e60]: 年
+                - textbox "年" [ref=e61]:
+                  - /placeholder: "2023"
+                  - text: "2026"
+              - generic [ref=e62]:
+                - generic [ref=e63]: 月
+                - textbox "月" [ref=e64]:
+                  - /placeholder: "11"
+                  - text: "08"
+              - generic [ref=e65]:
+                - generic [ref=e66]: 日
+                - textbox "日" [ref=e67]:
+                  - /placeholder: "14"
+                  - text: "20"
+              - generic [ref=e68]:
+                - generic [ref=e69]: 时
+                - textbox "时" [ref=e70]:
+                  - /placeholder: "22"
+                  - text: "18"
+              - generic [ref=e71]:
+                - generic [ref=e72]: 分
+                - textbox "分" [ref=e73]:
+                  - /placeholder: "13"
+                  - text: "24"
+              - generic [ref=e74]:
+                - generic [ref=e75]: 秒
+                - textbox "秒" [ref=e76]:
+                  - /placeholder: "20"
+                  - text: "50"
+          - generic [ref=e77]:
+            - button "转成时间戳" [ref=e78] [cursor=pointer]
+            - button "清空数据" [ref=e79] [cursor=pointer]
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: 秒 (10位)
+              - textbox "—" [ref=e83]
+              - button "复制" [ref=e84] [cursor=pointer]
+            - generic [ref=e85]:
+              - generic [ref=e86]: 毫秒 (13位)
+              - textbox "—" [ref=e87]
+              - button "复制" [ref=e88] [cursor=pointer]
+      - generic [ref=e89]:
+        - heading "使用说明" [level=2] [ref=e90]
+        - list [ref=e91]:
+          - listitem [ref=e92]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e93]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e94]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e95]: 所有操作本地完成，保障隐私
+      - generic [ref=e96]:
+        - heading "同类推荐" [level=2] [ref=e97]
+        - generic [ref=e98]:
+          - link "timestamp-batch" [ref=e99] [cursor=pointer]:
+            - /url: /zh/timestamp-batch
+          - link "hex-converter" [ref=e100] [cursor=pointer]:
+            - /url: /zh/hex-converter
+          - link "json-formatter" [ref=e101] [cursor=pointer]:
+            - /url: /zh/json-formatter
+      - generic [ref=e102]:
+        - heading "常见问题" [level=2] [ref=e103]
+        - group [ref=e104]:
+          - generic "什么是Unix时间戳？" [ref=e105] [cursor=pointer]
+        - group [ref=e106]:
+          - generic "10位和13位时间戳有什么区别？" [ref=e107] [cursor=pointer]
+        - group [ref=e108]:
+          - generic "如何将时间戳转为日期？" [ref=e109] [cursor=pointer]
+        - group [ref=e110]:
+          - generic "如何将日期转为时间戳？" [ref=e111] [cursor=pointer]
+  - contentinfo [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - heading "热门推荐" [level=4] [ref=e115]
+        - link "JSON" [ref=e116] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e117]:
+        - heading "站长工具" [level=4] [ref=e118]
+        - link "IP" [ref=e119] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e120]:
+        - heading "关于" [level=4] [ref=e121]
+        - link "关于我们" [ref=e122] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e123] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e124]:
+        - heading "合规" [level=4] [ref=e125]
+        - link "服务条款" [ref=e126] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e127] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e128]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e129]

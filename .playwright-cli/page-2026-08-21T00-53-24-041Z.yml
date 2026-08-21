@@ -1,0 +1,472 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "在线URL编码/解码工具" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "URL编码" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=URL编码
+          - img [ref=e126]
+          - text: URL编码
+        - link "ULR解码" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=ULR解码
+          - img [ref=e130]
+          - text: ULR解码
+        - link "form urlencode" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=form urlencode
+          - img [ref=e134]
+          - text: form urlencode
+        - link "网址编码" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=网址编码
+          - img [ref=e138]
+          - text: 网址编码
+        - link "URL转义" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=URL转义
+          - img [ref=e142]
+          - text: URL转义
+    - paragraph [ref=e145]: 使用我们的「URL 编码解码工具」，将含有中文、空格或特殊符号的文本转换为可在链接中安全传输的标准格式，编码可靠，解码准确，让信息完整抵达目标系统。
+    - main [ref=e146]:
+      - textbox "请输入要进行 URL 编码/解码的文本内容..." [ref=e149]
+      - generic [ref=e150]:
+        - button "URL 编码" [ref=e151] [cursor=pointer]:
+          - img [ref=e152]
+          - text: URL 编码
+        - button "URL 解码" [ref=e156] [cursor=pointer]:
+          - img [ref=e157]
+          - text: URL 解码
+        - button "查看示例" [ref=e160] [cursor=pointer]:
+          - img [ref=e161]
+          - text: 查看示例
+        - button "复制结果" [ref=e163] [cursor=pointer]:
+          - img [ref=e164]
+          - text: 复制结果
+        - button "清空数据" [ref=e166] [cursor=pointer]:
+          - img [ref=e167]
+          - text: 清空数据
+    - generic [ref=e169]:
+      - link "万维广告联盟" [ref=e170] [cursor=pointer]:
+        - /url: https://wwads.cn/click/bundle?code=FjfreEGd1Ba2fkxQkO0KZfYSyyLE5z
+        - img "万维广告联盟" [ref=e171]
+      - generic [ref=e172]:
+        - link "🔥码云GVP开源项目 16k star Uniapp + ElementUI 功能强大 支持多语言、二开方便" [ref=e173] [cursor=pointer]:
+          - /url: https://wwads.cn/click/bundle?code=FjfreEGd1Ba2fkxQkO0KZfYSyyLE5z
+        - link "广告" [ref=e174] [cursor=pointer]:
+          - /url: https://wwads.cn/?utm_source=property-486&utm_medium=footer
+          - img [ref=e175]
+          - generic [ref=e176]: 广告
+      - generic "隐藏广告" [ref=e177] [cursor=pointer]:
+        - img [ref=e178]
+    - region "工具使用帮助与相关信息" [ref=e179]:
+      - generic [ref=e180]:
+        - heading "使用说明" [level=2] [ref=e181]:
+          - img [ref=e182]
+          - text: 使用说明
+        - paragraph [ref=e184]:
+          - text: 📝
+          - strong [ref=e185]: 文本输入
+        - paragraph [ref=e186]:
+          - text: "在【文本输入】区域中，可直接粘贴需要进行 URL 编码或解码的任意文本内容。支持中文、英文、特殊字符、空格、符号（如 `?`, `=`, `&`, `#`）以及完整的 URL 链接（如"
+          - code [ref=e187]: https://example.com/search?q=你好&lang=zh
+          - text: ）。输入后点击“URL 编码”或“URL 解码”按钮即可实时处理。
+        - paragraph [ref=e188]:
+          - text: 🔍
+          - strong [ref=e189]: 查看示例
+        - paragraph [ref=e190]:
+          - text: 点击“查看示例”按钮，系统将自动填充一个典型示例（如
+          - code [ref=e191]: https://www.google.com/search?q=hello 世界
+          - text: ）到输入框，并立即执行 URL 编码，展示编码后的结果（
+          - code [ref=e192]: https%3A%2F%2F...
+          - text: ），帮助你快速了解编码前后变化。
+        - paragraph [ref=e193]:
+          - text: 🔐
+          - strong [ref=e194]: URL 编码
+        - paragraph [ref=e195]:
+          - text: 点击“URL 编码”按钮，系统会将输入内容中的特殊字符（如空格、中文、标点等）转换为标准的百分号编码格式（如空格 →
+          - code [ref=e196]: "%20"
+          - text: "，`:` →"
+          - code [ref=e197]: "%3A"
+          - text: ）。适用于构造安全的 URL 参数、API 请求链接或防止传输错误。
+        - paragraph [ref=e198]:
+          - text: 🔓
+          - strong [ref=e199]: URL 解码
+        - paragraph [ref=e200]:
+          - text: 若输入的是已编码的字符串（如
+          - code [ref=e201]: "%E4%BD%A0%E5%A5%BD"
+          - text: ），点击“URL 解码”按钮可将其还原为原始可读文本（如“你好”）。常用于解析浏览器地址栏参数、日志分析或调试接口数据。
+        - paragraph [ref=e202]:
+          - text: 📋
+          - strong [ref=e203]: 获取输出结果
+        - paragraph [ref=e204]: 编码或解码完成后，结果会自动显示在【输出结果】区域。你可以手动选择复制内容，或点击“复制结果”按钮一键将结果复制到剪贴板，方便后续使用。
+        - paragraph [ref=e205]:
+          - text: 🗑️
+          - strong [ref=e206]: 清空数据
+        - paragraph [ref=e207]: 点击“清空数据”按钮可清除所有输入内容和输出结果，界面恢复初始状态。所有操作均在浏览器本地完成，不涉及任何网络请求，保障你的数据隐私与安全。
+      - generic [ref=e208]:
+        - heading "同类推荐" [level=2] [ref=e209]:
+          - img [ref=e210]
+          - text: 同类推荐
+        - generic [ref=e212]:
+          - article [ref=e213]:
+            - link "AES加密/解密 工具图标 AES加密/解密 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。" [ref=e214] [cursor=pointer]:
+              - /url: /aes-encrypt/
+              - heading "AES加密/解密 工具图标 AES加密/解密" [level=3] [ref=e215]:
+                - img "AES加密/解密 工具图标" [ref=e216]
+                - generic [ref=e217]: AES加密/解密
+              - paragraph [ref=e218]: 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。
+          - article [ref=e219]:
+            - link "HTpasswd密码生成器 工具图标 HTpasswd密码生成器 实时HTpasswd密码生成，输入即转换，支持 SHA1/SHA256/MD5 算法兼容，快速获取标准化认证格式。" [ref=e220] [cursor=pointer]:
+              - /url: /htpasswd/
+              - heading "HTpasswd密码生成器 工具图标 HTpasswd密码生成器" [level=3] [ref=e221]:
+                - img "HTpasswd密码生成器 工具图标" [ref=e222]
+                - generic [ref=e223]: HTpasswd密码生成器
+              - paragraph [ref=e224]: 实时HTpasswd密码生成，输入即转换，支持 SHA1/SHA256/MD5 算法兼容，快速获取标准化认证格式。
+          - article [ref=e225]:
+            - link "随机密码生成器 工具图标 随机密码生成器 一键密码生成，实时输出结果，结合使用场景自定义长度与字符类型，快速生成高强度密码。" [ref=e226] [cursor=pointer]:
+              - /url: /random-pwd/
+              - heading "随机密码生成器 工具图标 随机密码生成器" [level=3] [ref=e227]:
+                - img "随机密码生成器 工具图标" [ref=e228]
+                - generic [ref=e229]: 随机密码生成器
+              - paragraph [ref=e230]: 一键密码生成，实时输出结果，结合使用场景自定义长度与字符类型，快速生成高强度密码。
+          - article [ref=e231]:
+            - link "Escape编码/解码 工具图标 Escape编码/解码 一键转换Escape编码，实时编码解码文本，支持传统字符格式，快速处理遗留系统数据。" [ref=e232] [cursor=pointer]:
+              - /url: /escape/
+              - heading "Escape编码/解码 工具图标 Escape编码/解码" [level=3] [ref=e233]:
+                - img "Escape编码/解码 工具图标" [ref=e234]
+                - generic [ref=e235]: Escape编码/解码
+              - paragraph [ref=e236]: 一键转换Escape编码，实时编码解码文本，支持传统字符格式，快速处理遗留系统数据。
+          - article [ref=e237]:
+            - link "UTF-8编码/解码 工具图标 UTF-8编码/解码 实时 UTF-8 编码解码，输入即转换，支持全字符兼容，快速获取标准化 UTF-8 转义编码。" [ref=e238] [cursor=pointer]:
+              - /url: /utf-8/
+              - heading "UTF-8编码/解码 工具图标 UTF-8编码/解码" [level=3] [ref=e239]:
+                - img "UTF-8编码/解码 工具图标" [ref=e240]
+                - generic [ref=e241]: UTF-8编码/解码
+              - paragraph [ref=e242]: 实时 UTF-8 编码解码，输入即转换，支持全字符兼容，快速获取标准化 UTF-8 转义编码。
+          - article [ref=e243]:
+            - link "HTMl实体编码/解码 工具图标 HTMl实体编码/解码 实时 HTML 实体编码解码，输入即转换，支持全字符兼容，快速获取标准化 HTML 实体编码。" [ref=e244] [cursor=pointer]:
+              - /url: /html-entity/
+              - heading "HTMl实体编码/解码 工具图标 HTMl实体编码/解码" [level=3] [ref=e245]:
+                - img "HTMl实体编码/解码 工具图标" [ref=e246]
+                - generic [ref=e247]: HTMl实体编码/解码
+              - paragraph [ref=e248]: 实时 HTML 实体编码解码，输入即转换，支持全字符兼容，快速获取标准化 HTML 实体编码。
+          - article [ref=e249]:
+            - link "摩斯密码编码/解码 工具图标 摩斯密码编码/解码 一键转换摩斯密码，实时编码解码文本，支持标准字符格式，快速获取加密通信内容。" [ref=e250] [cursor=pointer]:
+              - /url: /morse/
+              - heading "摩斯密码编码/解码 工具图标 摩斯密码编码/解码" [level=3] [ref=e251]:
+                - img "摩斯密码编码/解码 工具图标" [ref=e252]
+                - generic [ref=e253]: 摩斯密码编码/解码
+              - paragraph [ref=e254]: 一键转换摩斯密码，实时编码解码文本，支持标准字符格式，快速获取加密通信内容。
+          - article [ref=e255]:
+            - link "JWT解码查看器 工具图标 JWT解码查看器 支持一键解析 JWT 令牌数据，输出标准格式化 JSON，适用于接口调试、令牌校验、信息查看等场景。" [ref=e256] [cursor=pointer]:
+              - /url: /jwt-decoder/
+              - heading "JWT解码查看器 工具图标 JWT解码查看器" [level=3] [ref=e257]:
+                - img "JWT解码查看器 工具图标" [ref=e258]
+                - generic [ref=e259]: JWT解码查看器
+              - paragraph [ref=e260]: 支持一键解析 JWT 令牌数据，输出标准格式化 JSON，适用于接口调试、令牌校验、信息查看等场景。
+          - article [ref=e261]:
+            - link "Gzip编码/解码 工具图标 Gzip编码/解码 在线Gzip压缩与解压工具，支持文本直接压缩或Base64数据解压，可一键复制与清空，操作简单快捷！" [ref=e262] [cursor=pointer]:
+              - /url: /gzip/
+              - heading "Gzip编码/解码 工具图标 Gzip编码/解码" [level=3] [ref=e263]:
+                - img "Gzip编码/解码 工具图标" [ref=e264]
+                - generic [ref=e265]: Gzip编码/解码
+              - paragraph [ref=e266]: 在线Gzip压缩与解压工具，支持文本直接压缩或Base64数据解压，可一键复制与清空，操作简单快捷！
+          - article [ref=e267]:
+            - link "Base64编码/解码 工具图标 Base64编码/解码 一键编码解码，实时转换Base64，支持文本图片双模式，快速生成安全数据，提升开发效率！" [ref=e268] [cursor=pointer]:
+              - /url: /base64-encode/
+              - heading "Base64编码/解码 工具图标 Base64编码/解码" [level=3] [ref=e269]:
+                - img "Base64编码/解码 工具图标" [ref=e270]
+                - generic [ref=e271]: Base64编码/解码
+              - paragraph [ref=e272]: 一键编码解码，实时转换Base64，支持文本图片双模式，快速生成安全数据，提升开发效率！
+          - article [ref=e273]:
+            - link "MD5安全加密 工具图标 MD5安全加密 智能计算MD5值，生成32位与16位密文，支持大小写切换和一键复制，保障数据安全高效处理！" [ref=e274] [cursor=pointer]:
+              - /url: /md5/
+              - heading "MD5安全加密 工具图标 MD5安全加密" [level=3] [ref=e275]:
+                - img "MD5安全加密 工具图标" [ref=e276]
+                - generic [ref=e277]: MD5安全加密
+              - paragraph [ref=e278]: 智能计算MD5值，生成32位与16位密文，支持大小写切换和一键复制，保障数据安全高效处理！
+          - article [ref=e279]:
+            - link "JS混淆加密 工具图标 JS混淆加密 智能混淆代码，自动加密核心逻辑，绑定安全域名并动态防护，降低代码被盗用风险。" [ref=e280] [cursor=pointer]:
+              - /url: /js-obfuscator/
+              - heading "JS混淆加密 工具图标 JS混淆加密" [level=3] [ref=e281]:
+                - img "JS混淆加密 工具图标" [ref=e282]
+                - generic [ref=e283]: JS混淆加密
+              - paragraph [ref=e284]: 智能混淆代码，自动加密核心逻辑，绑定安全域名并动态防护，降低代码被盗用风险。
+      - generic [ref=e285]:
+        - heading "常见问题" [level=2] [ref=e286]:
+          - img [ref=e287]
+          - text: 常见问题
+        - generic [ref=e291]:
+          - heading "✔️ 什么是 URL 编码？为什么需要它？" [level=3] [ref=e292]
+          - paragraph [ref=e293]:
+            - text: URL 编码（又称百分号编码）是一种将特殊字符转换为
+            - code [ref=e294]: "%xx"
+            - text: 格式（如空格 →
+            - code [ref=e295]: "%20"
+            - text: ，中文 →
+            - code [ref=e296]: "%E4%BD%A0%E5%A5%BD"
+            - text: ）的机制，确保字符串能在 URL、查询参数或 API 请求中安全传输。浏览器和服务器在处理链接时会自动进行编码与解码。
+        - generic [ref=e297]:
+          - heading "📌 哪些内容需要进行 URL 编码？" [level=3] [ref=e298]
+          - paragraph [ref=e299]:
+            - text: 当 URL 中包含
+            - strong [ref=e300]: 非 ASCII 字符
+            - text: （如中文、emoji）、
+            - strong [ref=e301]: 特殊符号
+            - text: "（如 `?`, `&`, `=`, `#`, `+`, 空格等）或作为参数传递的动态数据时，必须进行 URL 编码，否则可能导致链接解析错误或数据丢失。"
+        - generic [ref=e302]:
+          - heading "🎯 什么时候应该使用“URL 编码”而不是“URL 解码”？" [level=3] [ref=e303]
+          - paragraph [ref=e304]:
+            - text: 当你需要
+            - strong [ref=e305]: 构造一个带参数的链接
+            - text: （如搜索关键词含“电影”），应使用“URL 编码”；而当你从日志、地址栏复制了一段已编码的字符串（如
+            - code [ref=e306]: "%E7%94%B5%E5%BD%B1"
+            - text: ），想查看原始内容时，则应使用“URL 解码”。
+        - generic [ref=e307]:
+          - heading "📘 输入的内容会被发送到服务器吗？安全吗？" [level=3] [ref=e308]
+          - paragraph [ref=e309]: 不会！本工具所有操作均在您的浏览器本地完成，不涉及任何网络请求。输入内容不会上传至服务器，也不会被记录或追踪，完全保障您的数据隐私与安全。
+        - generic [ref=e310]:
+          - heading "🔭 能对整个 URL 进行编码吗？需要注意什么？" [level=3] [ref=e311]
+          - paragraph [ref=e312]:
+            - text: 可以，但
+            - strong [ref=e313]: 不建议对完整 URL 全体编码
+            - text: 。正确做法是只对参数值部分编码（如
+            - code [ref=e314]: q=你好
+            - text: 中的“你好”）。若对整个 URL 编码，会导致协议（
+            - code [ref=e315]: https://
+            - text: ）和域名也被编码，从而无法正常访问。
+        - generic [ref=e316]:
+          - heading "📚 encodeURI 和 encodeURIComponent 有什么区别？" [level=3] [ref=e317]
+          - paragraph [ref=e318]:
+            - code [ref=e319]: encodeURI
+            - text: 用于编码整个 URL，保留
+            - code [ref=e320]: ":"
+            - text: ","
+            - code [ref=e321]: /
+            - text: ","
+            - code [ref=e322]: "?"
+            - text: ","
+            - code [ref=e323]: "#"
+            - text: 等结构字符；而
+            - code [ref=e324]: encodeURIComponent
+            - text: 会对所有特殊字符编码，更适合用于参数值。本工具使用的是
+            - strong [ref=e325]: encodeURIComponent
+            - text: 标准，符合大多数开发场景需求。
+      - generic "工具快速切换" [ref=e326]:
+        - list [ref=e328]:
+          - listitem [ref=e329] [cursor=pointer]: 热门推荐
+          - listitem [ref=e330] [cursor=pointer]: 站长工具
+          - listitem [ref=e331] [cursor=pointer]: 编程开发
+          - listitem [ref=e332] [cursor=pointer]: 文本处理
+          - listitem [ref=e333] [cursor=pointer]: 图像处理
+          - listitem [ref=e334] [cursor=pointer]: 文档转换
+          - listitem [ref=e335] [cursor=pointer]: 音频视频
+          - listitem [ref=e336] [cursor=pointer]: 便民工具
+          - listitem [ref=e337] [cursor=pointer]: 编码加密
+          - listitem [ref=e338] [cursor=pointer]: 单位转换
+        - table [ref=e340]:
+          - rowgroup [ref=e341]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e342]:
+              - cell "微信聊天模拟器" [ref=e343]:
+                - link "微信聊天模拟器" [ref=e344] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e345]:
+                - link "微信零钱模拟器" [ref=e346] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e347]:
+                - link "文字转语音工具" [ref=e348] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e349]:
+                - link "法定退休年龄计算器" [ref=e350] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e351]:
+                - link "身份证号码查询" [ref=e352] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e353]:
+                - link "在线随机点名" [ref=e354] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e355]:
+              - cell "报名证件照处理" [ref=e356]:
+                - link "报名证件照处理" [ref=e357] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e358]:
+                - link "随机密码生成器" [ref=e359] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e360]:
+                - link "二维码生成器" [ref=e361] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e362]:
+                - link "世界高清地图" [ref=e363] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e364]:
+                - link "键盘按键检测" [ref=e365] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e366]:
+                - link "手机归属地查询" [ref=e367] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e368]:
+              - cell "在线字数统计" [ref=e369]:
+                - link "在线字数统计" [ref=e370] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e371]:
+                - link "JSON格式化/压缩" [ref=e372] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e373]:
+                - link "Base64编码/解码" [ref=e374] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e375]:
+                - link "图片高清压缩" [ref=e376] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e377]:
+                - link "摩斯密码编码/解码" [ref=e378] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e379]:
+                - link "节日时间倒计时" [ref=e380] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e381]:
+              - cell "本机IP地址查询" [ref=e382]:
+                - link "本机IP地址查询" [ref=e383] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e384]:
+                - link "Unix时间戳转换" [ref=e385] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e386]:
+                - link "图片取色器" [ref=e387] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e388]:
+                - link "色盲色弱测试" [ref=e389] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e390]:
+                - link "SVG在线编辑器" [ref=e391] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e392]:
+                - link "中国高清地图" [ref=e393] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e394]:
+              - cell "查看网页源码" [ref=e395]:
+                - link "查看网页源码" [ref=e396] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e397]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e398]
+        - paragraph [ref=e399]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e400]
+    - generic [ref=e401]:
+      - navigation "页脚链接" [ref=e402]:
+        - link "关于我们" [ref=e403] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e404] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e405] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e406] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e407] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e408] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e409] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e410] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e411] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e412]:
+        - generic [ref=e413]:
+          - text: © 2025
+          - link "懒人工具" [ref=e414] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e416] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e417]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e418] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

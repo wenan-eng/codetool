@@ -1,0 +1,380 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - heading "一站式免费在线工具箱 - 分类齐全，即开即用" [level=1] [ref=e105]
+    - generic [ref=e106]:
+      - generic [ref=e107]: 搜索工具
+      - textbox "搜索工具" [ref=e108]:
+        - /placeholder: 输入关键词，按回车搜索，使用组合键 Alt+Q 调用...
+      - button "清空搜索": ✕
+    - heading "编码解码" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - article [ref=e111]:
+        - link "Base64编码/解码 工具图标 Base64编码/解码 一键编码解码，实时转换Base64，支持文本图片双模式，快速生成安全数据，提升开发效率！" [ref=e112] [cursor=pointer]:
+          - /url: /base64-encode/
+          - heading "Base64编码/解码 工具图标 Base64编码/解码" [level=3] [ref=e113]:
+            - img "Base64编码/解码 工具图标" [ref=e114]
+            - generic [ref=e115]: Base64编码/解码
+          - paragraph [ref=e116]: 一键编码解码，实时转换Base64，支持文本图片双模式，快速生成安全数据，提升开发效率！
+      - article [ref=e117]:
+        - link "Base64批量编码/解码 工具图标 Base64批量编码/解码 支持逐行独立 Base64 批量编码解码，适配开发运维、接口参数转码、文本批量加密解密等场景。" [ref=e118] [cursor=pointer]:
+          - /url: /base64-bulk/
+          - heading "Base64批量编码/解码 工具图标 Base64批量编码/解码" [level=3] [ref=e119]:
+            - img "Base64批量编码/解码 工具图标" [ref=e120]
+            - generic [ref=e121]: Base64批量编码/解码
+          - paragraph [ref=e122]: 支持逐行独立 Base64 批量编码解码，适配开发运维、接口参数转码、文本批量加密解密等场景。
+      - article [ref=e123]:
+        - link "Base64转文件 工具图标 Base64转文件 支持Base64解码分析与信息提取，可自定义文件名称，自动识别文件类型并计算文件大小，适配文件溯源、解码文件下载。" [ref=e124] [cursor=pointer]:
+          - /url: /base64-file/
+          - heading "Base64转文件 工具图标 Base64转文件" [level=3] [ref=e125]:
+            - img "Base64转文件 工具图标" [ref=e126]
+            - generic [ref=e127]: Base64转文件
+          - paragraph [ref=e128]: 支持Base64解码分析与信息提取，可自定义文件名称，自动识别文件类型并计算文件大小，适配文件溯源、解码文件下载。
+      - article [ref=e129]:
+        - link "文件转Base64 工具图标 文件转Base64 支持任意文件快速转换为Base64格式，实时生成编码结果，适配图片内嵌、配置文件转码、API调试等开发运维场景。" [ref=e130] [cursor=pointer]:
+          - /url: /file-base64/
+          - heading "文件转Base64 工具图标 文件转Base64" [level=3] [ref=e131]:
+            - img "文件转Base64 工具图标" [ref=e132]
+            - generic [ref=e133]: 文件转Base64
+          - paragraph [ref=e134]: 支持任意文件快速转换为Base64格式，实时生成编码结果，适配图片内嵌、配置文件转码、API调试等开发运维场景。
+      - article [ref=e135]:
+        - link "Base64转图片 工具图标 Base64转图片 支持 Base64 快速转图片，实时预览、一键下载，适配接口返回解析、配置文件解码、前端开发调试等开发运维场景。" [ref=e136] [cursor=pointer]:
+          - /url: /base64-image/
+          - heading "Base64转图片 工具图标 Base64转图片" [level=3] [ref=e137]:
+            - img "Base64转图片 工具图标" [ref=e138]
+            - generic [ref=e139]: Base64转图片
+          - paragraph [ref=e140]: 支持 Base64 快速转图片，实时预览、一键下载，适配接口返回解析、配置文件解码、前端开发调试等开发运维场景。
+      - article [ref=e141]:
+        - link "图片转Base64 工具图标 图片转Base64 支持图片快速转 Base64，实时预览、一键复制，适配图片内嵌、配置文件转码等开发运维场景。" [ref=e142] [cursor=pointer]:
+          - /url: /image-base64/
+          - heading "图片转Base64 工具图标 图片转Base64" [level=3] [ref=e143]:
+            - img "图片转Base64 工具图标" [ref=e144]
+            - generic [ref=e145]: 图片转Base64
+          - paragraph [ref=e146]: 支持图片快速转 Base64，实时预览、一键复制，适配图片内嵌、配置文件转码等开发运维场景。
+      - article [ref=e147]:
+        - link "Base32编码/解码 工具图标 Base32编码/解码 支持 Base32 编码解码、智能结果展示，适用于前端开发、数据格式转换、字符传输、测试验证等场景。" [ref=e148] [cursor=pointer]:
+          - /url: /base32-encode/
+          - heading "Base32编码/解码 工具图标 Base32编码/解码" [level=3] [ref=e149]:
+            - img "Base32编码/解码 工具图标" [ref=e150]
+            - generic [ref=e151]: Base32编码/解码
+          - paragraph [ref=e152]: 支持 Base32 编码解码、智能结果展示，适用于前端开发、数据格式转换、字符传输、测试验证等场景。
+      - article [ref=e153]:
+        - link "URL编码/解码 工具图标 URL编码/解码 实时 URL 编码解码，输入即转换，支持全字符兼容，快速获取标准化编码结果，提升开发与调试效率。" [ref=e154] [cursor=pointer]:
+          - /url: /url-encode/
+          - heading "URL编码/解码 工具图标 URL编码/解码" [level=3] [ref=e155]:
+            - img "URL编码/解码 工具图标" [ref=e156]
+            - generic [ref=e157]: URL编码/解码
+          - paragraph [ref=e158]: 实时 URL 编码解码，输入即转换，支持全字符兼容，快速获取标准化编码结果，提升开发与调试效率。
+      - article [ref=e159]:
+        - link "URL16进制编码解码 工具图标 URL16进制编码解码 生成标准URL十六进制密文，提供专属格式加密结果，适用于网址伪装传输、路径安全隐藏等场景。" [ref=e160] [cursor=pointer]:
+          - /url: /url-hex-encode/
+          - heading "URL16进制编码解码 工具图标 URL16进制编码解码" [level=3] [ref=e161]:
+            - img "URL16进制编码解码 工具图标" [ref=e162]
+            - generic [ref=e163]: URL16进制编码解码
+          - paragraph [ref=e164]: 生成标准URL十六进制密文，提供专属格式加密结果，适用于网址伪装传输、路径安全隐藏等场景。
+      - article [ref=e165]:
+        - link "Escape编码/解码 工具图标 Escape编码/解码 一键转换Escape编码，实时编码解码文本，支持传统字符格式，快速处理遗留系统数据。" [ref=e166] [cursor=pointer]:
+          - /url: /escape/
+          - heading "Escape编码/解码 工具图标 Escape编码/解码" [level=3] [ref=e167]:
+            - img "Escape编码/解码 工具图标" [ref=e168]
+            - generic [ref=e169]: Escape编码/解码
+          - paragraph [ref=e170]: 一键转换Escape编码，实时编码解码文本，支持传统字符格式，快速处理遗留系统数据。
+      - article [ref=e171]:
+        - link "UTF-8编码/解码 工具图标 UTF-8编码/解码 实时 UTF-8 编码解码，输入即转换，支持全字符兼容，快速获取标准化 UTF-8 转义编码。" [ref=e172] [cursor=pointer]:
+          - /url: /utf-8/
+          - heading "UTF-8编码/解码 工具图标 UTF-8编码/解码" [level=3] [ref=e173]:
+            - img "UTF-8编码/解码 工具图标" [ref=e174]
+            - generic [ref=e175]: UTF-8编码/解码
+          - paragraph [ref=e176]: 实时 UTF-8 编码解码，输入即转换，支持全字符兼容，快速获取标准化 UTF-8 转义编码。
+      - article [ref=e177]:
+        - link "HTML实体编码/解码 工具图标 HTML实体编码/解码 实时 HTML 实体编码解码，输入即转换，支持全字符兼容，快速获取标准化 HTML 实体编码。" [ref=e178] [cursor=pointer]:
+          - /url: /html-entity/
+          - heading "HTML实体编码/解码 工具图标 HTML实体编码/解码" [level=3] [ref=e179]:
+            - img "HTML实体编码/解码 工具图标" [ref=e180]
+            - generic [ref=e181]: HTML实体编码/解码
+          - paragraph [ref=e182]: 实时 HTML 实体编码解码，输入即转换，支持全字符兼容，快速获取标准化 HTML 实体编码。
+      - article [ref=e183]:
+        - link "Gzip编码/解码 工具图标 Gzip编码/解码 在线Gzip压缩与解压工具，支持文本直接压缩或Base64数据解压，可一键复制与清空，操作简单快捷！" [ref=e184] [cursor=pointer]:
+          - /url: /gzip/
+          - heading "Gzip编码/解码 工具图标 Gzip编码/解码" [level=3] [ref=e185]:
+            - img "Gzip编码/解码 工具图标" [ref=e186]
+            - generic [ref=e187]: Gzip编码/解码
+          - paragraph [ref=e188]: 在线Gzip压缩与解压工具，支持文本直接压缩或Base64数据解压，可一键复制与清空，操作简单快捷！
+      - article [ref=e189]:
+        - link "摩斯密码编码/解码 工具图标 摩斯密码编码/解码 一键转换摩斯密码，实时编码解码文本，支持标准字符格式，快速获取加密通信内容。" [ref=e190] [cursor=pointer]:
+          - /url: /morse/
+          - heading "摩斯密码编码/解码 工具图标 摩斯密码编码/解码" [level=3] [ref=e191]:
+            - img "摩斯密码编码/解码 工具图标" [ref=e192]
+            - generic [ref=e193]: 摩斯密码编码/解码
+          - paragraph [ref=e194]: 一键转换摩斯密码，实时编码解码文本，支持标准字符格式，快速获取加密通信内容。
+      - article [ref=e195]:
+        - link "文本与十六进制互转 工具图标 文本与十六进制互转 自动转换文本与十六进制编码，支持中英文数字符号，实现双向格式化标准输出。" [ref=e196] [cursor=pointer]:
+          - /url: /text-hex/
+          - heading "文本与十六进制互转 工具图标 文本与十六进制互转" [level=3] [ref=e197]:
+            - img "文本与十六进制互转 工具图标" [ref=e198]
+            - generic [ref=e199]: 文本与十六进制互转
+          - paragraph [ref=e200]: 自动转换文本与十六进制编码，支持中英文数字符号，实现双向格式化标准输出。
+      - article [ref=e201]:
+        - link "文本与八进制互转 工具图标 文本与八进制互转 自动转换文本与八进制编码，支持中英文数字符号，实现双向格式化标准输出。" [ref=e202] [cursor=pointer]:
+          - /url: /text-octal/
+          - heading "文本与八进制互转 工具图标 文本与八进制互转" [level=3] [ref=e203]:
+            - img "文本与八进制互转 工具图标" [ref=e204]
+            - generic [ref=e205]: 文本与八进制互转
+          - paragraph [ref=e206]: 自动转换文本与八进制编码，支持中英文数字符号，实现双向格式化标准输出。
+      - article [ref=e207]:
+        - link "文本与二进制互转 工具图标 文本与二进制互转 自动转换文本与二进制编码，支持中英文数字符号，实现双向格式化标准输出。" [ref=e208] [cursor=pointer]:
+          - /url: /text-bin/
+          - heading "文本与二进制互转 工具图标 文本与二进制互转" [level=3] [ref=e209]:
+            - img "文本与二进制互转 工具图标" [ref=e210]
+            - generic [ref=e211]: 文本与二进制互转
+          - paragraph [ref=e212]: 自动转换文本与二进制编码，支持中英文数字符号，实现双向格式化标准输出。
+    - heading "哈希加密" [level=2] [ref=e213]
+    - generic [ref=e214]:
+      - article [ref=e215]:
+        - link "MD5安全加密 工具图标 MD5安全加密 智能计算MD5值，生成32位与16位密文，支持大小写切换和一键复制，保障数据安全高效处理！" [ref=e216] [cursor=pointer]:
+          - /url: /md5/
+          - heading "MD5安全加密 工具图标 MD5安全加密" [level=3] [ref=e217]:
+            - img "MD5安全加密 工具图标" [ref=e218]
+            - generic [ref=e219]: MD5安全加密
+          - paragraph [ref=e220]: 智能计算MD5值，生成32位与16位密文，支持大小写切换和一键复制，保障数据安全高效处理！
+      - article [ref=e221]:
+        - link "批量MD5加密 工具图标 批量MD5加密 批量MD5加密工具，精准解析多行文本输入，并支持8/16/32位截取、大小写切换与结果一键复制。" [ref=e222] [cursor=pointer]:
+          - /url: /md5-batch/
+          - heading "批量MD5加密 工具图标 批量MD5加密" [level=3] [ref=e223]:
+            - img "批量MD5加密 工具图标" [ref=e224]
+            - generic [ref=e225]: 批量MD5加密
+          - paragraph [ref=e226]: 批量MD5加密工具，精准解析多行文本输入，并支持8/16/32位截取、大小写切换与结果一键复制。
+      - article [ref=e227]:
+        - link "文件MD5哈希值校验 工具图标 文件MD5哈希值校验 支持在线校验文件完整性，适用于文件传输验证、软件下载校验、防止文件篡改等场景。" [ref=e228] [cursor=pointer]:
+          - /url: /md5-verify/
+          - heading "文件MD5哈希值校验 工具图标 文件MD5哈希值校验" [level=3] [ref=e229]:
+            - img "文件MD5哈希值校验 工具图标" [ref=e230]
+            - generic [ref=e231]: 文件MD5哈希值校验
+          - paragraph [ref=e232]: 支持在线校验文件完整性，适用于文件传输验证、软件下载校验、防止文件篡改等场景。
+      - article [ref=e233]:
+        - link "批量文件MD5校验 工具图标 批量文件MD5校验 支持在线批量计算文件MD5哈希值，适用于多文件传输验证、软件安装包批量校验、防止文件篡改等场景。" [ref=e234] [cursor=pointer]:
+          - /url: /md5-batch-verify/
+          - heading "批量文件MD5校验 工具图标 批量文件MD5校验" [level=3] [ref=e235]:
+            - img "批量文件MD5校验 工具图标" [ref=e236]
+            - generic [ref=e237]: 批量文件MD5校验
+          - paragraph [ref=e238]: 支持在线批量计算文件MD5哈希值，适用于多文件传输验证、软件安装包批量校验、防止文件篡改等场景。
+      - article [ref=e239]:
+        - link "MD4安全加密 工具图标 MD4安全加密 生成标准MD4哈希密文，提供多格式加密结果，适用于开发校验兼容、老旧数据摘要、日常文本加密等场景。" [ref=e240] [cursor=pointer]:
+          - /url: /md4/
+          - heading "MD4安全加密 工具图标 MD4安全加密" [level=3] [ref=e241]:
+            - img "MD4安全加密 工具图标" [ref=e242]
+            - generic [ref=e243]: MD4安全加密
+          - paragraph [ref=e244]: 生成标准MD4哈希密文，提供多格式加密结果，适用于开发校验兼容、老旧数据摘要、日常文本加密等场景。
+      - article [ref=e245]:
+        - link "SHA系列哈希值生成 工具图标 SHA系列哈希值生成 支持SHA-1、SHA-224、SHA-256、SHA-384、SHA-512五种安全哈希算法，可自定义输出大小写格式。" [ref=e246] [cursor=pointer]:
+          - /url: /sha/
+          - heading "SHA系列哈希值生成 工具图标 SHA系列哈希值生成" [level=3] [ref=e247]:
+            - img "SHA系列哈希值生成 工具图标" [ref=e248]
+            - generic [ref=e249]: SHA系列哈希值生成
+          - paragraph [ref=e250]: 支持SHA-1、SHA-224、SHA-256、SHA-384、SHA-512五种安全哈希算法，可自定义输出大小写格式。
+      - article [ref=e251]:
+        - link "MySQL密码哈希生成 工具图标 MySQL密码哈希生成 支持生成 标准 * 开头 41 位格式的 MySQL 密码哈希，适用于数据库密码设置、迁移、批量用户配置等场景。" [ref=e252] [cursor=pointer]:
+          - /url: /mysql-password/
+          - heading "MySQL密码哈希生成 工具图标 MySQL密码哈希生成" [level=3] [ref=e253]:
+            - img "MySQL密码哈希生成 工具图标" [ref=e254]
+            - generic [ref=e255]: MySQL密码哈希生成
+          - paragraph [ref=e256]: 支持生成 标准 * 开头 41 位格式的 MySQL 密码哈希，适用于数据库密码设置、迁移、批量用户配置等场景。
+      - article [ref=e257]:
+        - link "HTpasswd密码生成器 工具图标 HTpasswd密码生成器 实时HTpasswd密码生成，输入即转换，支持 SHA1/SHA256/MD5 算法兼容，快速获取标准化认证格式。" [ref=e258] [cursor=pointer]:
+          - /url: /htpasswd/
+          - heading "HTpasswd密码生成器 工具图标 HTpasswd密码生成器" [level=3] [ref=e259]:
+            - img "HTpasswd密码生成器 工具图标" [ref=e260]
+            - generic [ref=e261]: HTpasswd密码生成器
+          - paragraph [ref=e262]: 实时HTpasswd密码生成，输入即转换，支持 SHA1/SHA256/MD5 算法兼容，快速获取标准化认证格式。
+      - article [ref=e263]:
+        - link "AES加密/解密 工具图标 AES加密/解密 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。" [ref=e264] [cursor=pointer]:
+          - /url: /aes-encrypt/
+          - heading "AES加密/解密 工具图标 AES加密/解密" [level=3] [ref=e265]:
+            - img "AES加密/解密 工具图标" [ref=e266]
+            - generic [ref=e267]: AES加密/解密
+          - paragraph [ref=e268]: 支持CBC、GCM、CTR、ECB等主流AES加密模式，可自定义密钥与初始向量，提供IV生成、结果复制等实用功能。
+      - article [ref=e269]:
+        - link "DES加密/解密 工具图标 DES加密/解密 支持CBC、ECB等主流DES加密模式，可自定义8字符密钥与初始向量，提供IV生成、结果复制等实用功能。" [ref=e270] [cursor=pointer]:
+          - /url: /des-encrypt/
+          - heading "DES加密/解密 工具图标 DES加密/解密" [level=3] [ref=e271]:
+            - img "DES加密/解密 工具图标" [ref=e272]
+            - generic [ref=e273]: DES加密/解密
+          - paragraph [ref=e274]: 支持CBC、ECB等主流DES加密模式，可自定义8字符密钥与初始向量，提供IV生成、结果复制等实用功能。
+    - heading "其他工具" [level=2] [ref=e275]
+    - generic [ref=e276]:
+      - article [ref=e277]:
+        - link "密码熵值计算器 工具图标 密码熵值计算器 智能分析字符类型，精确计算密码长度、字符池大小、熵值（比特）及总组合数。" [ref=e278] [cursor=pointer]:
+          - /url: /entropy-calculator/
+          - heading "密码熵值计算器 工具图标 密码熵值计算器" [level=3] [ref=e279]:
+            - img "密码熵值计算器 工具图标" [ref=e280]
+            - generic [ref=e281]: 密码熵值计算器
+          - paragraph [ref=e282]: 智能分析字符类型，精确计算密码长度、字符池大小、熵值（比特）及总组合数。
+      - article [ref=e283]:
+        - link "随机密码生成器 工具图标 随机密码生成器 一键密码生成，实时输出结果，结合使用场景自定义长度与字符类型，快速生成高强度密码。" [ref=e284] [cursor=pointer]:
+          - /url: /random-pwd/
+          - heading "随机密码生成器 工具图标 随机密码生成器" [level=3] [ref=e285]:
+            - img "随机密码生成器 工具图标" [ref=e286]
+            - generic [ref=e287]: 随机密码生成器
+          - paragraph [ref=e288]: 一键密码生成，实时输出结果，结合使用场景自定义长度与字符类型，快速生成高强度密码。
+      - article [ref=e289]:
+        - link "JWT解码查看器 工具图标 JWT解码查看器 支持一键解析 JWT 令牌数据，输出标准格式化 JSON，适用于接口调试、令牌校验、信息查看等场景。" [ref=e290] [cursor=pointer]:
+          - /url: /jwt-decoder/
+          - heading "JWT解码查看器 工具图标 JWT解码查看器" [level=3] [ref=e291]:
+            - img "JWT解码查看器 工具图标" [ref=e292]
+            - generic [ref=e293]: JWT解码查看器
+          - paragraph [ref=e294]: 支持一键解析 JWT 令牌数据，输出标准格式化 JSON，适用于接口调试、令牌校验、信息查看等场景。
+      - article [ref=e295]:
+        - link "JS混淆加密 工具图标 JS混淆加密 智能混淆代码，自动加密核心逻辑，绑定安全域名并动态防护，降低代码被盗用风险。" [ref=e296] [cursor=pointer]:
+          - /url: /js-obfuscator/
+          - heading "JS混淆加密 工具图标 JS混淆加密" [level=3] [ref=e297]:
+            - img "JS混淆加密 工具图标" [ref=e298]
+            - generic [ref=e299]: JS混淆加密
+          - paragraph [ref=e300]: 智能混淆代码，自动加密核心逻辑，绑定安全域名并动态防护，降低代码被盗用风险。
+      - article [ref=e301]:
+        - link "专业JS代码混淆加密 工具图标 专业JS代码混淆加密 支持域名授权绑定、防盗用弹窗提醒、静默跳转保护、密码验证等多重安全机制。" [ref=e302] [cursor=pointer]:
+          - /url: /js-obfuscator-advanced/
+          - heading "专业JS代码混淆加密 工具图标 专业JS代码混淆加密" [level=3] [ref=e303]:
+            - img "专业JS代码混淆加密 工具图标" [ref=e304]
+            - generic [ref=e305]: 专业JS代码混淆加密
+          - paragraph [ref=e306]: 支持域名授权绑定、防盗用弹窗提醒、静默跳转保护、密码验证等多重安全机制。
+      - article [ref=e307]:
+        - link "LSB图片隐写提取 工具图标 LSB图片隐写提取 从图片中还原出隐藏的文字信息，广泛适用于隐写信息读取、隐私数据恢复及数字水印验证等场景。" [ref=e308] [cursor=pointer]:
+          - /url: /lsb-extract/
+          - heading "LSB图片隐写提取 工具图标 LSB图片隐写提取" [level=3] [ref=e309]:
+            - img "LSB图片隐写提取 工具图标" [ref=e310]
+            - generic [ref=e311]: LSB图片隐写提取
+          - paragraph [ref=e312]: 从图片中还原出隐藏的文字信息，广泛适用于隐写信息读取、隐私数据恢复及数字水印验证等场景。
+      - article [ref=e313]:
+        - link "LSB图片隐写 工具图标 LSB图片隐写 上传图片即可自动计算可隐藏文字数量，输入秘密信息后一键生成隐写图片。" [ref=e314] [cursor=pointer]:
+          - /url: /lsb-embed/
+          - heading "LSB图片隐写 工具图标 LSB图片隐写" [level=3] [ref=e315]:
+            - img "LSB图片隐写 工具图标" [ref=e316]
+            - generic [ref=e317]: LSB图片隐写
+          - paragraph [ref=e318]: 上传图片即可自动计算可隐藏文字数量，输入秘密信息后一键生成隐写图片。
+    - generic [ref=e319]:
+      - heading "编码加密介绍" [level=2] [ref=e320]
+      - generic [ref=e321]:
+        - heading "什么是编码加密工具？" [level=3] [ref=e322]
+        - paragraph [ref=e323]: ✨ 编码加密是懒人工具平台旗下专注于数据安全与编码转换的核心栏目。作为精心设计的在线实用程序集合🔐，我们致力于为用户提供安全、可靠的加密编码解决方案。懒人工具始终秉承 "让复杂变简单" 的核心理念🎯，帮助用户轻松完成各种数据加密和编码转换任务⚡。
+      - generic [ref=e324]:
+        - heading "编码加密工具提供哪些功能？" [level=3] [ref=e325]
+        - paragraph [ref=e326]: 我们提供Base64编码、MD5加密、SHA系列哈希、AES/DES加密、URL编码、HTML实体编码、摩斯电码、二维码生成等多种安全编码功能💼，覆盖数据加密、信息编码、安全传输、数字签名等多个领域🎯。无论是数据保护、密码加密、数据传输，还是信息编码，都能在这里找到专业的安全工具✨！
+      - generic [ref=e327]:
+        - heading "适用哪些人群？" [level=3] [ref=e328]
+        - paragraph [ref=e329]: 本工具适用于开发人员、安全工程师、测试人员、数据分析师、网络安全爱好者、学生及所有需要处理数据安全和编码转换的用户👨‍💻。无论您是开发安全应用🔒、测试系统漏洞、加密敏感数据，还是学习编码知识，这些工具都能为您提供专业可靠的服务✨。
+      - generic [ref=e330]:
+        - heading "使用编码加密工具有什么优势？" [level=3] [ref=e331]
+        - paragraph [ref=e332]: 所有工具均可在线使用🌐，无需安装专业软件，支持实时加密编码，操作简单安全👆。处理结果准确可靠，支持多种加密算法和编码标准，能够满足从学习研究到企业级安全的各种需求🏠。同时，工具响应迅速，界面专业直观🍃，让数据安全处理变得轻松高效😊。
+      - generic [ref=e333]:
+        - heading "为什么选择编码加密工具？" [level=3] [ref=e334]
+        - paragraph [ref=e335]: 我们将复杂的数据加密算法封装成简单易用的在线工具✨，让您无需深入了解密码学原理就能快速完成各种安全处理任务🎯。无论是数据加密、哈希计算、编码转换还是安全验证，我们都能提供专业的技术支持。平台持续更新🔄，不断完善加密算法和安全标准，为您的数据安全🔐和开发工作提供全方位的保障。
+    - generic [ref=e336]:
+      - navigation "页脚链接" [ref=e337]:
+        - link "关于我们" [ref=e338] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e339] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e340] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e341] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e342] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e343] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e344] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e345] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e346] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e347]:
+        - generic [ref=e348]:
+          - text: © 2025
+          - link "懒人工具" [ref=e349] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e351] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e352]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e353] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

@@ -1,0 +1,494 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - heading "一站式免费在线工具箱 - 分类齐全，即开即用" [level=1] [ref=e105]
+    - generic [ref=e106]:
+      - generic [ref=e107]: 搜索工具
+      - textbox "搜索工具" [ref=e108]:
+        - /placeholder: 输入关键词，按回车搜索，使用组合键 Alt+Q 调用...
+      - button "清空搜索": ✕
+    - heading "代码美化" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - article [ref=e111]:
+        - link "JavaScript美化/压缩 工具图标 JavaScript美化/压缩 可以美化任意JS代码的格式结构、压缩代码文件体积、优化函数与对象层级关系、清理注释与冗余空格等核心功能。" [ref=e112] [cursor=pointer]:
+          - /url: /js-formatter/
+          - heading "JavaScript美化/压缩 工具图标 JavaScript美化/压缩" [level=3] [ref=e113]:
+            - img "JavaScript美化/压缩 工具图标" [ref=e114]
+            - generic [ref=e115]: JavaScript美化/压缩
+          - paragraph [ref=e116]: 可以美化任意JS代码的格式结构、压缩代码文件体积、优化函数与对象层级关系、清理注释与冗余空格等核心功能。
+      - article [ref=e117]:
+        - link "HTML代码美化/压缩 工具图标 HTML代码美化/压缩 一键格式化，实时解析/智能排版，支持HTML5全语法秒级响应，全面优化代码结构，提升开发效率！" [ref=e118] [cursor=pointer]:
+          - /url: /html-formatter/
+          - heading "HTML代码美化/压缩 工具图标 HTML代码美化/压缩" [level=3] [ref=e119]:
+            - img "HTML代码美化/压缩 工具图标" [ref=e120]
+            - generic [ref=e121]: HTML代码美化/压缩
+          - paragraph [ref=e122]: 一键格式化，实时解析/智能排版，支持HTML5全语法秒级响应，全面优化代码结构，提升开发效率！
+      - article [ref=e123]:
+        - link "CSS代码格式化/压缩 工具图标 CSS代码格式化/压缩 一键CSS处理，智能美化/极致压缩，支持双模式秒级转换，全面优化代码结构，提升开发效率！" [ref=e124] [cursor=pointer]:
+          - /url: /css-formatter/
+          - heading "CSS代码格式化/压缩 工具图标 CSS代码格式化/压缩" [level=3] [ref=e125]:
+            - img "CSS代码格式化/压缩 工具图标" [ref=e126]
+            - generic [ref=e127]: CSS代码格式化/压缩
+          - paragraph [ref=e128]: 一键CSS处理，智能美化/极致压缩，支持双模式秒级转换，全面优化代码结构，提升开发效率！
+      - article [ref=e129]:
+        - link "JSON格式化/压缩 工具图标 JSON格式化/压缩 秒级响应！JSON智能美化与无损压缩自由切换，高亮显示+自动校验，让数据处理更直观、更流畅！" [ref=e130] [cursor=pointer]:
+          - /url: /json-formatter/
+          - heading "JSON格式化/压缩 工具图标 JSON格式化/压缩" [level=3] [ref=e131]:
+            - img "JSON格式化/压缩 工具图标" [ref=e132]
+            - generic [ref=e133]: JSON格式化/压缩
+          - paragraph [ref=e134]: 秒级响应！JSON智能美化与无损压缩自由切换，高亮显示+自动校验，让数据处理更直观、更流畅！
+      - article [ref=e135]:
+        - link "SQL格式化/压缩 工具图标 SQL格式化/压缩 一键SQL美化，实时压缩/格式化，支持多库语法全兼容，快速生成规范语句，提升开发效率！" [ref=e136] [cursor=pointer]:
+          - /url: /sql-format/
+          - heading "SQL格式化/压缩 工具图标 SQL格式化/压缩" [level=3] [ref=e137]:
+            - img "SQL格式化/压缩 工具图标" [ref=e138]
+            - generic [ref=e139]: SQL格式化/压缩
+          - paragraph [ref=e140]: 一键SQL美化，实时压缩/格式化，支持多库语法全兼容，快速生成规范语句，提升开发效率！
+      - article [ref=e141]:
+        - link "YAML格式化 工具图标 YAML格式化 支持实时解析格式化校验本地 YAML 文件，适用于配置文件编写、接口调试与项目配置管理等场景。" [ref=e142] [cursor=pointer]:
+          - /url: /yaml-formatter/
+          - heading "YAML格式化 工具图标 YAML格式化" [level=3] [ref=e143]:
+            - img "YAML格式化 工具图标" [ref=e144]
+            - generic [ref=e145]: YAML格式化
+          - paragraph [ref=e146]: 支持实时解析格式化校验本地 YAML 文件，适用于配置文件编写、接口调试与项目配置管理等场景。
+      - article [ref=e147]:
+        - link "代码注释清理 工具图标 代码注释清理 实现选择代码类型的快速净化，根据选择的编程语言一键清除所有注释内容。" [ref=e148] [cursor=pointer]:
+          - /url: /strip-comments/
+          - heading "代码注释清理 工具图标 代码注释清理" [level=3] [ref=e149]:
+            - img "代码注释清理 工具图标" [ref=e150]
+            - generic [ref=e151]: 代码注释清理
+          - paragraph [ref=e152]: 实现选择代码类型的快速净化，根据选择的编程语言一键清除所有注释内容。
+      - article [ref=e153]:
+        - link "HTML代码过滤 工具图标 HTML代码过滤 支持HTML标签、JS脚本、CSS样式等批量净化清理，适用于网页内容提纯、网页重构开发等场景。" [ref=e154] [cursor=pointer]:
+          - /url: /html-filter/
+          - heading "HTML代码过滤 工具图标 HTML代码过滤" [level=3] [ref=e155]:
+            - img "HTML代码过滤 工具图标" [ref=e156]
+            - generic [ref=e157]: HTML代码过滤
+          - paragraph [ref=e158]: 支持HTML标签、JS脚本、CSS样式等批量净化清理，适用于网页内容提纯、网页重构开发等场景。
+    - heading "数据转换" [level=2] [ref=e159]
+    - generic [ref=e160]:
+      - article [ref=e161]:
+        - link "JSON转CSV 工具图标 JSON转CSV 支持将JSON数据转为标准CSV格式，适用于结构化数据导出、表格化数据展示等场景。" [ref=e162] [cursor=pointer]:
+          - /url: /json-csv/
+          - heading "JSON转CSV 工具图标 JSON转CSV" [level=3] [ref=e163]:
+            - img "JSON转CSV 工具图标" [ref=e164]
+            - generic [ref=e165]: JSON转CSV
+          - paragraph [ref=e166]: 支持将JSON数据转为标准CSV格式，适用于结构化数据导出、表格化数据展示等场景。
+      - article [ref=e167]:
+        - link "CSV转JSON 工具图标 CSV转JSON 支持将CSV数据转为标准JSON格式，适用于表格数据解析、跨系统数据互通等场景。" [ref=e168] [cursor=pointer]:
+          - /url: /csv-json/
+          - heading "CSV转JSON 工具图标 CSV转JSON" [level=3] [ref=e169]:
+            - img "CSV转JSON 工具图标" [ref=e170]
+            - generic [ref=e171]: CSV转JSON
+          - paragraph [ref=e172]: 支持将CSV数据转为标准JSON格式，适用于表格数据解析、跨系统数据互通等场景。
+      - article [ref=e173]:
+        - link "JSON转EXCEL 工具图标 JSON转EXCEL 支持解析JSON数据转 Excel，精准生成标准化表格文件，适用于数据格式转换、办公数据整理等场景。" [ref=e174] [cursor=pointer]:
+          - /url: /json-excel/
+          - heading "JSON转EXCEL 工具图标 JSON转EXCEL" [level=3] [ref=e175]:
+            - img "JSON转EXCEL 工具图标" [ref=e176]
+            - generic [ref=e177]: JSON转EXCEL
+          - paragraph [ref=e178]: 支持解析JSON数据转 Excel，精准生成标准化表格文件，适用于数据格式转换、办公数据整理等场景。
+      - article [ref=e179]:
+        - link "EXCEL转JSON 工具图标 EXCEL转JSON 支持解析Excel文件转JSON，精准提取表格结构化数据，适用于数据格式转换、开发接口调试等场景。" [ref=e180] [cursor=pointer]:
+          - /url: /excel-json/
+          - heading "EXCEL转JSON 工具图标 EXCEL转JSON" [level=3] [ref=e181]:
+            - img "EXCEL转JSON 工具图标" [ref=e182]
+            - generic [ref=e183]: EXCEL转JSON
+          - paragraph [ref=e184]: 支持解析Excel文件转JSON，精准提取表格结构化数据，适用于数据格式转换、开发接口调试等场景。
+      - article [ref=e185]:
+        - link "JSON转SQL转换器 工具图标 JSON转SQL转换器 实现JSON数据快速转换为数据库插入语句，支持一键生成SQL插入语句、自动识别字段与数据类型等。" [ref=e186] [cursor=pointer]:
+          - /url: /json-sql/
+          - heading "JSON转SQL转换器 工具图标 JSON转SQL转换器" [level=3] [ref=e187]:
+            - img "JSON转SQL转换器 工具图标" [ref=e188]
+            - generic [ref=e189]: JSON转SQL转换器
+          - paragraph [ref=e190]: 实现JSON数据快速转换为数据库插入语句，支持一键生成SQL插入语句、自动识别字段与数据类型等。
+      - article [ref=e191]:
+        - link "SQL转JSON转换器 工具图标 SQL转JSON转换器 实现SQL INSERT语句快速转换为结构化JSON数组，支持一键生成标准JSON格式、自动识别字段与数据类型。" [ref=e192] [cursor=pointer]:
+          - /url: /sql-json/
+          - heading "SQL转JSON转换器 工具图标 SQL转JSON转换器" [level=3] [ref=e193]:
+            - img "SQL转JSON转换器 工具图标" [ref=e194]
+            - generic [ref=e195]: SQL转JSON转换器
+          - paragraph [ref=e196]: 实现SQL INSERT语句快速转换为结构化JSON数组，支持一键生成标准JSON格式、自动识别字段与数据类型。
+      - article [ref=e197]:
+        - link "JSON转YAML 工具图标 JSON转YAML 支持将JSON数据转为标准YAML格式，适用于配置文件编写、跨平台数据兼容等场景。" [ref=e198] [cursor=pointer]:
+          - /url: /json-yaml/
+          - heading "JSON转YAML 工具图标 JSON转YAML" [level=3] [ref=e199]:
+            - img "JSON转YAML 工具图标" [ref=e200]
+            - generic [ref=e201]: JSON转YAML
+          - paragraph [ref=e202]: 支持将JSON数据转为标准YAML格式，适用于配置文件编写、跨平台数据兼容等场景。
+      - article [ref=e203]:
+        - link "YAML转JSON 工具图标 YAML转JSON 支持将YAML数据转为标准JSON格式，适用于配置文件解析、异构系统数据交互等场景。" [ref=e204] [cursor=pointer]:
+          - /url: /yaml-json/
+          - heading "YAML转JSON 工具图标 YAML转JSON" [level=3] [ref=e205]:
+            - img "YAML转JSON 工具图标" [ref=e206]
+            - generic [ref=e207]: YAML转JSON
+          - paragraph [ref=e208]: 支持将YAML数据转为标准JSON格式，适用于配置文件解析、异构系统数据交互等场景。
+      - article [ref=e209]:
+        - link "JSON转XML 工具图标 JSON转XML 支持将JSON数据转为标准XML格式，适用于数据格式适配、接口数据解析、跨平台数据交互等场景。" [ref=e210] [cursor=pointer]:
+          - /url: /json-xml/
+          - heading "JSON转XML 工具图标 JSON转XML" [level=3] [ref=e211]:
+            - img "JSON转XML 工具图标" [ref=e212]
+            - generic [ref=e213]: JSON转XML
+          - paragraph [ref=e214]: 支持将JSON数据转为标准XML格式，适用于数据格式适配、接口数据解析、跨平台数据交互等场景。
+      - article [ref=e215]:
+        - link "XML转JSON 工具图标 XML转JSON 支持将XML数据转为标准JSON格式，适用于数据格式适配、接口数据解析、跨平台数据交互等场景。" [ref=e216] [cursor=pointer]:
+          - /url: /xml-json/
+          - heading "XML转JSON 工具图标 XML转JSON" [level=3] [ref=e217]:
+            - img "XML转JSON 工具图标" [ref=e218]
+            - generic [ref=e219]: XML转JSON
+          - paragraph [ref=e220]: 支持将XML数据转为标准JSON格式，适用于数据格式适配、接口数据解析、跨平台数据交互等场景。
+      - article [ref=e221]:
+        - link "JSON转Base64 工具图标 JSON转Base64 实现JSON数据快速在线编码与转换，一键Base64编码转换、实时查看编码结果、自动校验JSON格式。" [ref=e222] [cursor=pointer]:
+          - /url: /json-base64/
+          - heading "JSON转Base64 工具图标 JSON转Base64" [level=3] [ref=e223]:
+            - img "JSON转Base64 工具图标" [ref=e224]
+            - generic [ref=e225]: JSON转Base64
+          - paragraph [ref=e226]: 实现JSON数据快速在线编码与转换，一键Base64编码转换、实时查看编码结果、自动校验JSON格式。
+      - article [ref=e227]:
+        - link "XML转Base64 工具图标 XML转Base64 实现XML文档快速在线编码与转换，一键Base64编码转换、实时查看编码结果。" [ref=e228] [cursor=pointer]:
+          - /url: /xml-base64/
+          - heading "XML转Base64 工具图标 XML转Base64" [level=3] [ref=e229]:
+            - img "XML转Base64 工具图标" [ref=e230]
+            - generic [ref=e231]: XML转Base64
+          - paragraph [ref=e232]: 实现XML文档快速在线编码与转换，一键Base64编码转换、实时查看编码结果。
+      - article [ref=e233]:
+        - link "JSON转Cookie 工具图标 JSON转Cookie 支持JSON数据结构转换为标准Cookie键值对字符串，多层级嵌套对象自动序列化。" [ref=e234] [cursor=pointer]:
+          - /url: /json-cookie/
+          - heading "JSON转Cookie 工具图标 JSON转Cookie" [level=3] [ref=e235]:
+            - img "JSON转Cookie 工具图标" [ref=e236]
+            - generic [ref=e237]: JSON转Cookie
+          - paragraph [ref=e238]: 支持JSON数据结构转换为标准Cookie键值对字符串，多层级嵌套对象自动序列化。
+      - article [ref=e239]:
+        - link "Cookie转JSON 工具图标 Cookie转JSON 自动完成格式转换处理，转换后保持Cookie键值对应关系不变、数据类型不变，支持一键复制或清空重试。" [ref=e240] [cursor=pointer]:
+          - /url: /cookie-json/
+          - heading "Cookie转JSON 工具图标 Cookie转JSON" [level=3] [ref=e241]:
+            - img "Cookie转JSON 工具图标" [ref=e242]
+            - generic [ref=e243]: Cookie转JSON
+          - paragraph [ref=e244]: 自动完成格式转换处理，转换后保持Cookie键值对应关系不变、数据类型不变，支持一键复制或清空重试。
+    - heading "图表工具" [level=2] [ref=e245]
+    - generic [ref=e246]:
+      - article [ref=e247]:
+        - link "折线图在线制作 工具图标 折线图在线制作 实现数据可视化图表的快速生成，可一键输入数据并自动渲染为平滑折线图。" [ref=e248] [cursor=pointer]:
+          - /url: /line-chart/
+          - heading "折线图在线制作 工具图标 折线图在线制作" [level=3] [ref=e249]:
+            - img "折线图在线制作 工具图标" [ref=e250]
+            - generic [ref=e251]: 折线图在线制作
+          - paragraph [ref=e252]: 实现数据可视化图表的快速生成，可一键输入数据并自动渲染为平滑折线图。
+      - article [ref=e253]:
+        - link "柱状图在线制作 工具图标 柱状图在线制作 实现数据对比图表的快速生成，可一键输入分类数据并自动渲染为柱状图。" [ref=e254] [cursor=pointer]:
+          - /url: /bar-chart/
+          - heading "柱状图在线制作 工具图标 柱状图在线制作" [level=3] [ref=e255]:
+            - img "柱状图在线制作 工具图标" [ref=e256]
+            - generic [ref=e257]: 柱状图在线制作
+          - paragraph [ref=e258]: 实现数据对比图表的快速生成，可一键输入分类数据并自动渲染为柱状图。
+      - article [ref=e259]:
+        - link "饼状图在线生成 工具图标 饼状图在线生成 实现数据占比分布的快速可视化，支持自定义图表标题、多套配色方案自由切换。" [ref=e260] [cursor=pointer]:
+          - /url: /pie-chart/
+          - heading "饼状图在线生成 工具图标 饼状图在线生成" [level=3] [ref=e261]:
+            - img "饼状图在线生成 工具图标" [ref=e262]
+            - generic [ref=e263]: 饼状图在线生成
+          - paragraph [ref=e264]: 实现数据占比分布的快速可视化，支持自定义图表标题、多套配色方案自由切换。
+      - article [ref=e265]:
+        - link "条形图在线制作 工具图标 条形图在线制作 实现数据可视化图表的快速生成，可一键输入数据并自动渲染为平滑折线图。" [ref=e266] [cursor=pointer]:
+          - /url: /horizontal-bar-chart/
+          - heading "条形图在线制作 工具图标 条形图在线制作" [level=3] [ref=e267]:
+            - img "条形图在线制作 工具图标" [ref=e268]
+            - generic [ref=e269]: 条形图在线制作
+          - paragraph [ref=e270]: 实现数据可视化图表的快速生成，可一键输入数据并自动渲染为平滑折线图。
+      - article [ref=e271]:
+        - link "面积图在线生成 工具图标 面积图在线生成 实现数据趋势变化的快速可视化，可一键输入分类与数值数据并自动渲染为平滑面积图。" [ref=e272] [cursor=pointer]:
+          - /url: /area-chart/
+          - heading "面积图在线生成 工具图标 面积图在线生成" [level=3] [ref=e273]:
+            - img "面积图在线生成 工具图标" [ref=e274]
+            - generic [ref=e275]: 面积图在线生成
+          - paragraph [ref=e276]: 实现数据趋势变化的快速可视化，可一键输入分类与数值数据并自动渲染为平滑面积图。
+      - article [ref=e277]:
+        - link "环形图在线生成 工具图标 环形图在线生成 实现数据占比分布的快速可视化，可一键输入分类与数值数据并自动渲染为环形图。" [ref=e278] [cursor=pointer]:
+          - /url: /doughnut-chart/
+          - heading "环形图在线生成 工具图标 环形图在线生成" [level=3] [ref=e279]:
+            - img "环形图在线生成 工具图标" [ref=e280]
+            - generic [ref=e281]: 环形图在线生成
+          - paragraph [ref=e282]: 实现数据占比分布的快速可视化，可一键输入分类与数值数据并自动渲染为环形图。
+      - article [ref=e283]:
+        - link "散点图在线制作 工具图标 散点图在线制作 实现数据分布与相关性的快速可视化，可一键输入坐标数据并自动渲染为散点图。" [ref=e284] [cursor=pointer]:
+          - /url: /scatter-chart/
+          - heading "散点图在线制作 工具图标 散点图在线制作" [level=3] [ref=e285]:
+            - img "散点图在线制作 工具图标" [ref=e286]
+            - generic [ref=e287]: 散点图在线制作
+          - paragraph [ref=e288]: 实现数据分布与相关性的快速可视化，可一键输入坐标数据并自动渲染为散点图。
+      - article [ref=e289]:
+        - link "雷达图在线制作 工具图标 雷达图在线制作 实现多维度数据综合评估的快速可视化，可一键输入维度与评分数据并自动渲染为雷达图。" [ref=e290] [cursor=pointer]:
+          - /url: /radar-chart/
+          - heading "雷达图在线制作 工具图标 雷达图在线制作" [level=3] [ref=e291]:
+            - img "雷达图在线制作 工具图标" [ref=e292]
+            - generic [ref=e293]: 雷达图在线制作
+          - paragraph [ref=e294]: 实现多维度数据综合评估的快速可视化，可一键输入维度与评分数据并自动渲染为雷达图。
+      - article [ref=e295]:
+        - link "直方图在线生成 工具图标 直方图在线生成 实现数据频数分布的快速可视化，可一键输入区间与频数数据并自动渲染为直方图。" [ref=e296] [cursor=pointer]:
+          - /url: /histogram-chart/
+          - heading "直方图在线生成 工具图标 直方图在线生成" [level=3] [ref=e297]:
+            - img "直方图在线生成 工具图标" [ref=e298]
+            - generic [ref=e299]: 直方图在线生成
+          - paragraph [ref=e300]: 实现数据频数分布的快速可视化，可一键输入区间与频数数据并自动渲染为直方图。
+      - article [ref=e301]:
+        - link "多系列折线图生成 工具图标 多系列折线图生成 实现多维度数据趋势对比的快速可视化，可一键输入多组分类与数值数据并自动渲染为多系列折线图。" [ref=e302] [cursor=pointer]:
+          - /url: /multi-line-chart/
+          - heading "多系列折线图生成 工具图标 多系列折线图生成" [level=3] [ref=e303]:
+            - img "多系列折线图生成 工具图标" [ref=e304]
+            - generic [ref=e305]: 多系列折线图生成
+          - paragraph [ref=e306]: 实现多维度数据趋势对比的快速可视化，可一键输入多组分类与数值数据并自动渲染为多系列折线图。
+      - article [ref=e307]:
+        - link "堆积面积图生成 工具图标 堆积面积图生成 实现数据趋势变化的快速可视化，可一键输入分类与数值数据并自动渲染为平滑面积图。" [ref=e308] [cursor=pointer]:
+          - /url: /stacked-area-chart/
+          - heading "堆积面积图生成 工具图标 堆积面积图生成" [level=3] [ref=e309]:
+            - img "堆积面积图生成 工具图标" [ref=e310]
+            - generic [ref=e311]: 堆积面积图生成
+          - paragraph [ref=e312]: 实现数据趋势变化的快速可视化，可一键输入分类与数值数据并自动渲染为平滑面积图。
+      - article [ref=e313]:
+        - link "瀑布图在线生成 工具图标 瀑布图在线生成 可一键输入起始值、收入与支出数据并自动渲染为瀑布图，适用于财务分析。" [ref=e314] [cursor=pointer]:
+          - /url: /waterfall-chart/
+          - heading "瀑布图在线生成 工具图标 瀑布图在线生成" [level=3] [ref=e315]:
+            - img "瀑布图在线生成 工具图标" [ref=e316]
+            - generic [ref=e317]: 瀑布图在线生成
+          - paragraph [ref=e318]: 可一键输入起始值、收入与支出数据并自动渲染为瀑布图，适用于财务分析。
+    - heading "开发辅助" [level=2] [ref=e319]
+    - generic [ref=e320]:
+      - article [ref=e321]:
+        - link "Unix时间戳转换 工具图标 Unix时间戳转换 时间戳与标准时间双向转换，支持秒级与毫秒级输入，支持时区切换，自动识别格式，实时显示当前时间戳。" [ref=e322] [cursor=pointer]:
+          - /url: /timestamp/
+          - heading "Unix时间戳转换 工具图标 Unix时间戳转换" [level=3] [ref=e323]:
+            - img "Unix时间戳转换 工具图标" [ref=e324]
+            - generic [ref=e325]: Unix时间戳转换
+          - paragraph [ref=e326]: 时间戳与标准时间双向转换，支持秒级与毫秒级输入，支持时区切换，自动识别格式，实时显示当前时间戳。
+      - article [ref=e327]:
+        - link "时间戳批量转换 工具图标 时间戳批量转换 实现时间戳的快速批量转换与格式化输出，可自定义日期显示格式、自动识别秒级毫秒级时间戳。" [ref=e328] [cursor=pointer]:
+          - /url: /timestamp-batch/
+          - heading "时间戳批量转换 工具图标 时间戳批量转换" [level=3] [ref=e329]:
+            - img "时间戳批量转换 工具图标" [ref=e330]
+            - generic [ref=e331]: 时间戳批量转换
+          - paragraph [ref=e332]: 实现时间戳的快速批量转换与格式化输出，可自定义日期显示格式、自动识别秒级毫秒级时间戳。
+      - article [ref=e333]:
+        - link "日期时间格式转换 工具图标 日期时间格式转换 实现日期时间格式的快速统一转换，可自定义目标输出格式、批量处理多条数据、智能识别多种输入格式。" [ref=e334] [cursor=pointer]:
+          - /url: /datetime-converter/
+          - heading "日期时间格式转换 工具图标 日期时间格式转换" [level=3] [ref=e335]:
+            - img "日期时间格式转换 工具图标" [ref=e336]
+            - generic [ref=e337]: 日期时间格式转换
+          - paragraph [ref=e338]: 实现日期时间格式的快速统一转换，可自定义目标输出格式、批量处理多条数据、智能识别多种输入格式。
+      - article [ref=e339]:
+        - link "进制转换器 工具图标 进制转换器 支持多种进制间的相互转换，输入数值后自动计算各进制结果，并可手动复制输出值。" [ref=e340] [cursor=pointer]:
+          - /url: /hex-converter/
+          - heading "进制转换器 工具图标 进制转换器" [level=3] [ref=e341]:
+            - img "进制转换器 工具图标" [ref=e342]
+            - generic [ref=e343]: 进制转换器
+          - paragraph [ref=e344]: 支持多种进制间的相互转换，输入数值后自动计算各进制结果，并可手动复制输出值。
+      - article [ref=e345]:
+        - link "下划线&驼峰命名互换 工具图标 下划线&驼峰命名互换 专业在线编程命名转换工具，支持驼峰与下划线互转和多格式适配，提供双向转换功能，满足多语言开发需求。" [ref=e346] [cursor=pointer]:
+          - /url: /camel/
+          - heading "下划线&驼峰命名互换 工具图标 下划线&驼峰命名互换" [level=3] [ref=e347]:
+            - img "下划线&驼峰命名互换 工具图标" [ref=e348]
+            - generic [ref=e349]: 下划线&驼峰命名互换
+          - paragraph [ref=e350]: 专业在线编程命名转换工具，支持驼峰与下划线互转和多格式适配，提供双向转换功能，满足多语言开发需求。
+      - article [ref=e351]:
+        - link "HTML字符转义 工具图标 HTML字符转义 HTML字符安全转换工具，支持特殊字符与实体编码双向实时互转，保障网页内容安全显示。" [ref=e352] [cursor=pointer]:
+          - /url: /html-escape/
+          - heading "HTML字符转义 工具图标 HTML字符转义" [level=3] [ref=e353]:
+            - img "HTML字符转义 工具图标" [ref=e354]
+            - generic [ref=e355]: HTML字符转义
+          - paragraph [ref=e356]: HTML字符安全转换工具，支持特殊字符与实体编码双向实时互转，保障网页内容安全显示。
+      - article [ref=e357]:
+        - link "JSON数据扁平化 工具图标 JSON数据扁平化 支持快速扁平化JSON嵌套数据，生成标准单层键值对格式，适用于数据解析、跨系统交互、大数据处理等场景。" [ref=e358] [cursor=pointer]:
+          - /url: /json-flatten/
+          - heading "JSON数据扁平化 工具图标 JSON数据扁平化" [level=3] [ref=e359]:
+            - img "JSON数据扁平化 工具图标" [ref=e360]
+            - generic [ref=e361]: JSON数据扁平化
+          - paragraph [ref=e362]: 支持快速扁平化JSON嵌套数据，生成标准单层键值对格式，适用于数据解析、跨系统交互、大数据处理等场景。
+      - article [ref=e363]:
+        - link "JSON数据反扁平化 工具图标 JSON数据反扁平化 支持快速反扁平化JSON单层数据，生成标准嵌套层级格式，适用于数据还原、接口开发、配置解析等场景。" [ref=e364] [cursor=pointer]:
+          - /url: /json-unflatten/
+          - heading "JSON数据反扁平化 工具图标 JSON数据反扁平化" [level=3] [ref=e365]:
+            - img "JSON数据反扁平化 工具图标" [ref=e366]
+            - generic [ref=e367]: JSON数据反扁平化
+          - paragraph [ref=e368]: 支持快速反扁平化JSON单层数据，生成标准嵌套层级格式，适用于数据还原、接口开发、配置解析等场景。
+      - article [ref=e369]:
+        - link "JSON键名排序 工具图标 JSON键名排序 支持一键排序JSON数据内容，生成标准JSON格式，适用于本地数据整理、接口参数优化等场景。" [ref=e370] [cursor=pointer]:
+          - /url: /json-sort/
+          - heading "JSON键名排序 工具图标 JSON键名排序" [level=3] [ref=e371]:
+            - img "JSON键名排序 工具图标" [ref=e372]
+            - generic [ref=e373]: JSON键名排序
+          - paragraph [ref=e374]: 支持一键排序JSON数据内容，生成标准JSON格式，适用于本地数据整理、接口参数优化等场景。
+      - article [ref=e375]:
+        - link "PHP序列化/反序列化 工具图标 PHP序列化/反序列化 支持PHP序列化与反序列化双向精确转换和数组/JSON格式对照，适用于PHP开发调试和数据格式转换等场景。" [ref=e376] [cursor=pointer]:
+          - /url: /php-serialize/
+          - heading "PHP序列化/反序列化 工具图标 PHP序列化/反序列化" [level=3] [ref=e377]:
+            - img "PHP序列化/反序列化 工具图标" [ref=e378]
+            - generic [ref=e379]: PHP序列化/反序列化
+          - paragraph [ref=e380]: 支持PHP序列化与反序列化双向精确转换和数组/JSON格式对照，适用于PHP开发调试和数据格式转换等场景。
+      - article [ref=e381]:
+        - link "CSV批量合并器 工具图标 CSV批量合并器 智能合并多个 CSV 表格数据，精准控制表头保留与空行过滤，完整保留原始数据结构与列对齐格式。" [ref=e382] [cursor=pointer]:
+          - /url: /csv-merge/
+          - heading "CSV批量合并器 工具图标 CSV批量合并器" [level=3] [ref=e383]:
+            - img "CSV批量合并器 工具图标" [ref=e384]
+            - generic [ref=e385]: CSV批量合并器
+          - paragraph [ref=e386]: 智能合并多个 CSV 表格数据，精准控制表头保留与空行过滤，完整保留原始数据结构与列对齐格式。
+      - article [ref=e387]:
+        - link "PWA 可视化配置 工具图标 PWA 可视化配置 支持可视化配置PWA Manifest文件，生成标准JSON格式，适用于网页应用封装、离线应用开发等场景。" [ref=e388] [cursor=pointer]:
+          - /url: /pwa-manifest/
+          - heading "PWA 可视化配置 工具图标 PWA 可视化配置" [level=3] [ref=e389]:
+            - img "PWA 可视化配置 工具图标" [ref=e390]
+            - generic [ref=e391]: PWA 可视化配置
+          - paragraph [ref=e392]: 支持可视化配置PWA Manifest文件，生成标准JSON格式，适用于网页应用封装、离线应用开发等场景。
+      - article [ref=e393]:
+        - link "按钮CSS生成器 工具图标 按钮CSS生成器 实现按钮可视化自定义与实时预览，一键生成规范按钮CSS代码并复制使用。" [ref=e394] [cursor=pointer]:
+          - /url: /button-css/
+          - heading "按钮CSS生成器 工具图标 按钮CSS生成器" [level=3] [ref=e395]:
+            - img "按钮CSS生成器 工具图标" [ref=e396]
+            - generic [ref=e397]: 按钮CSS生成器
+          - paragraph [ref=e398]: 实现按钮可视化自定义与实时预览，一键生成规范按钮CSS代码并复制使用。
+      - article [ref=e399]:
+        - link "CSS页面加载动画 工具图标 CSS页面加载动画 CSS载入Loading动画代码大全，涵盖圆形旋转、进度条跳动、骨架屏闪烁、圆点脉冲等多种动态效果。" [ref=e400] [cursor=pointer]:
+          - /url: /loading/
+          - heading "CSS页面加载动画 工具图标 CSS页面加载动画" [level=3] [ref=e401]:
+            - img "CSS页面加载动画 工具图标" [ref=e402]
+            - generic [ref=e403]: CSS页面加载动画
+          - paragraph [ref=e404]: CSS载入Loading动画代码大全，涵盖圆形旋转、进度条跳动、骨架屏闪烁、圆点脉冲等多种动态效果。
+      - article [ref=e405]:
+        - link "屏幕参数查看器 工具图标 屏幕参数查看器 支持实时采集屏幕分辨率、可用工作区、视口尺寸、色彩深度等，适用于响应式布局调试等场景。" [ref=e406] [cursor=pointer]:
+          - /url: /screen-inspector/
+          - heading "屏幕参数查看器 工具图标 屏幕参数查看器" [level=3] [ref=e407]:
+            - img "屏幕参数查看器 工具图标" [ref=e408]
+            - generic [ref=e409]: 屏幕参数查看器
+          - paragraph [ref=e410]: 支持实时采集屏幕分辨率、可用工作区、视口尺寸、色彩深度等，适用于响应式布局调试等场景。
+      - article [ref=e411]:
+        - link "HTML图片链接提取 工具图标 HTML图片链接提取 HTML图片链接去重提取并分行展示，适用于网页开发、资源整理和批量处理图片链接等场景。" [ref=e412] [cursor=pointer]:
+          - /url: /image-extract/
+          - heading "HTML图片链接提取 工具图标 HTML图片链接提取" [level=3] [ref=e413]:
+            - img "HTML图片链接提取 工具图标" [ref=e414]
+            - generic [ref=e415]: HTML图片链接提取
+          - paragraph [ref=e416]: HTML图片链接去重提取并分行展示，适用于网页开发、资源整理和批量处理图片链接等场景。
+    - generic [ref=e417]:
+      - heading "编程开发介绍" [level=2] [ref=e418]
+      - generic [ref=e419]:
+        - heading "什么是编程开发工具？" [level=3] [ref=e420]
+        - paragraph [ref=e421]: ✨ 编程开发是懒人工具平台旗下专注于代码编写与调试的核心栏目。作为精心设计的在线实用程序集合💻，我们致力于为开发者提供专业、高效的编程辅助解决方案。懒人工具始终秉承 "让复杂变简单" 的核心理念🎯，帮助开发者轻松完成各种编码任务和调试工作⚡。
+      - generic [ref=e422]:
+        - heading "编程开发工具提供哪些功能？" [level=3] [ref=e423]
+        - paragraph [ref=e424]: 我们提供代码格式化、JSON验证、正则表达式测试、代码压缩、加密解密、编码转换、SQL格式化、API测试等多种开发辅助功能💼，覆盖前端开发、后端开发、数据库管理、网络安全等多个领域🎯。无论是日常编码、调试排错、数据验证，还是性能优化，都能在这里找到得心应手的开发工具✨！
+      - generic [ref=e425]:
+        - heading "适用哪些人群？" [level=3] [ref=e426]
+        - paragraph [ref=e427]: 本工具适用于前端工程师、后端开发、全栈工程师、移动端开发、数据库管理员、测试工程师及所有需要编写和调试代码的用户👨‍💻。无论您是开发网站🌐、构建应用📱、优化数据库，还是进行代码审查，这些工具都能为您提供专业的技术支持✨。
+      - generic [ref=e428]:
+        - heading "使用编程开发工具有什么优势？" [level=3] [ref=e429]
+        - paragraph [ref=e430]: 所有工具均可在线使用🌐，无需配置开发环境，支持实时调试，操作简单高效👆。处理结果准确可靠，支持多种编程语言和技术栈，能够满足从学习练习到企业级开发的各种需求🏠。同时，工具响应迅速，界面专业直观🍃，让开发工作变得事半功倍😊。
+      - generic [ref=e431]:
+        - heading "为什么选择编程开发工具？" [level=3] [ref=e432]
+        - paragraph [ref=e433]: 我们将复杂的开发环境配置和调试过程封装成简单易用的在线工具✨，让您无需搭建本地环境就能快速验证代码和调试程序🎯。无论是语法检查、数据验证、代码优化还是安全测试，我们都能提供专业的开发支持。平台持续更新🔄，不断适配新的技术框架和开发需求，为您的编程学习🎓和项目开发提供全方位的助力。
+    - generic [ref=e434]:
+      - navigation "页脚链接" [ref=e435]:
+        - link "关于我们" [ref=e436] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e437] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e438] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e439] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e440] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e441] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e442] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e443] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e444] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e445]:
+        - generic [ref=e446]:
+          - text: © 2025
+          - link "懒人工具" [ref=e447] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e449] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e450]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e451] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

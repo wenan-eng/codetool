@@ -1,0 +1,172 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - generic "即将上线" [ref=e6]: 编程开发
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/hex-converter
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/hex-converter
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/hex-converter
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "在线进制转换工具" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: 进制转换
+          - generic [ref=e21]: 二进制
+          - generic [ref=e22]: 十六进制
+          - generic [ref=e23]: Base58
+        - paragraph [ref=e24]: 使用我们的进制转换工具，支持2/8/10/16/32/36/52/58/62/64进制间的在线互转，输入数值后实时计算并展示各进制结果，兼容常用及扩展编码格式，适用于开发调试与数据编码查看。
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: 请选择进制类型、对应的数值：
+          - generic [ref=e28]:
+            - button "二进制" [ref=e29] [cursor=pointer]
+            - button "八进制" [ref=e30] [cursor=pointer]
+            - button "十进制" [ref=e31] [cursor=pointer]
+            - button "十六进制" [ref=e32] [cursor=pointer]
+            - button "三十二进制" [ref=e33] [cursor=pointer]
+            - button "三十六进制" [ref=e34] [cursor=pointer]
+          - textbox "请输入要转换的数值" [ref=e35]: "255"
+          - generic [ref=e36]:
+            - button "进制转换" [active] [ref=e37] [cursor=pointer]
+            - button "清空数据" [ref=e38] [cursor=pointer]
+          - generic [ref=e39]: 所有操作均在浏览器本地完成，不上传数据
+        - generic [ref=e40]:
+          - generic [ref=e41]: 转换结果：
+          - table [ref=e43]:
+            - rowgroup [ref=e44]:
+              - row "进制 结果 解释" [ref=e45]:
+                - columnheader "进制" [ref=e46]
+                - columnheader "结果" [ref=e47]
+                - columnheader "解释" [ref=e48]
+            - rowgroup [ref=e49]:
+              - row "2 11111111 复制 二进制是计算机底层表示方式，所有数据最终都以 0 和 1 存储。此值用于位运算、内存操作等低级处理。" [ref=e161]:
+                - cell "2" [ref=e51]
+                - cell "11111111 复制" [ref=e162]:
+                  - generic [ref=e53]:
+                    - textbox "—" [ref=e54]: "11111111"
+                    - button "复制" [ref=e55] [cursor=pointer]
+                - cell "二进制是计算机底层表示方式，所有数据最终都以 0 和 1 存储。此值用于位运算、内存操作等低级处理。" [ref=e56]
+              - row "8 377 复制 八进制曾广泛用于 Unix/Linux 权限系统（如 chmod 755），虽然现代使用减少，但仍见于某些遗留系统和嵌入式开发中。" [ref=e163]:
+                - cell "8" [ref=e58]
+                - cell "377 复制" [ref=e164]:
+                  - generic [ref=e60]:
+                    - textbox "—" [ref=e61]: "377"
+                    - button "复制" [ref=e62] [cursor=pointer]
+                - cell "八进制曾广泛用于 Unix/Linux 权限系统（如 chmod 755），虽然现代使用减少，但仍见于某些遗留系统和嵌入式开发中。" [ref=e63]
+              - row "10 255 复制 十进制是我们日常使用的数字系统，便于人类阅读和计算，适用于普通用户输入与展示。" [ref=e165]:
+                - cell "10" [ref=e65]
+                - cell "255 复制" [ref=e166]:
+                  - generic [ref=e67]:
+                    - textbox "—" [ref=e68]: "255"
+                    - button "复制" [ref=e69] [cursor=pointer]
+                - cell "十进制是我们日常使用的数字系统，便于人类阅读和计算，适用于普通用户输入与展示。" [ref=e70]
+              - row "16 FF 复制 十六进制常用于表示内存地址、颜色值（#FF5733）、哈希码等。它比二进制更紧凑，易于程序员理解和调试。" [ref=e167]:
+                - cell "16" [ref=e72]
+                - cell "FF 复制" [ref=e168]:
+                  - generic [ref=e74]:
+                    - textbox "—" [ref=e75]: FF
+                    - button "复制" [ref=e76] [cursor=pointer]
+                - cell "十六进制常用于表示内存地址、颜色值（#FF5733）、哈希码等。它比二进制更紧凑，易于程序员理解和调试。" [ref=e77]
+              - row "32 7V 复制 32进制使用字母+数字编码，适合生成短链接、唯一ID等场景，避免混淆字符（如不使用 I、L、O、0 等）。" [ref=e169]:
+                - cell "32" [ref=e79]
+                - cell "7V 复制" [ref=e170]:
+                  - generic [ref=e81]:
+                    - textbox "—" [ref=e82]: 7V
+                    - button "复制" [ref=e83] [cursor=pointer]
+                - cell "32进制使用字母+数字编码，适合生成短链接、唯一ID等场景，避免混淆字符（如不使用 I、L、O、0 等）。" [ref=e84]
+              - row "36 73 复制 36进制充分利用 0-9 和 A-Z，能将大数压缩成较短字符串，适用于紧凑型 ID 编码、序列号生成等空间敏感场景。" [ref=e171]:
+                - cell "36" [ref=e86]
+                - cell "73 复制" [ref=e172]:
+                  - generic [ref=e88]:
+                    - textbox "—" [ref=e89]: "73"
+                    - button "复制" [ref=e90] [cursor=pointer]
+                - cell "36进制充分利用 0-9 和 A-Z，能将大数压缩成较短字符串，适用于紧凑型 ID 编码、序列号生成等空间敏感场景。" [ref=e91]
+              - row "52 Ev 复制 52进制采用大小写字母（A-Z, a-z）构成字符集，不含数字，适合区分类型的标识符生成。" [ref=e173]:
+                - cell "52" [ref=e93]
+                - cell "Ev 复制" [ref=e174]:
+                  - generic [ref=e95]:
+                    - textbox "—" [ref=e96]: Ev
+                    - button "复制" [ref=e97] [cursor=pointer]
+                - cell "52进制采用大小写字母（A-Z, a-z）构成字符集，不含数字，适合区分类型的标识符生成。" [ref=e98]
+              - row "58 5Q 复制 58进制（如 Base58）去除易混淆字符（0、O、I、l），广泛应用于区块链地址（如比特币）。" [ref=e175]:
+                - cell "58" [ref=e100]
+                - cell "5Q 复制" [ref=e176]:
+                  - generic [ref=e102]:
+                    - textbox "—" [ref=e103]: 5Q
+                    - button "复制" [ref=e104] [cursor=pointer]
+                - cell "58进制（如 Base58）去除易混淆字符（0、O、I、l），广泛应用于区块链地址（如比特币）。" [ref=e105]
+              - row "62 47 复制 62进制包含 0-9、A-Z、a-z，最大程度压缩数值为短字符串，非常适合短链接服务。" [ref=e177]:
+                - cell "62" [ref=e107]
+                - cell "47 复制" [ref=e178]:
+                  - generic [ref=e109]:
+                    - textbox "—" [ref=e110]: "47"
+                    - button "复制" [ref=e111] [cursor=pointer]
+                - cell "62进制包含 0-9、A-Z、a-z，最大程度压缩数值为短字符串，非常适合短链接服务。" [ref=e112]
+              - row "64 _w 复制 64进制（Base64）用于将二进制数据编码为文本，常见于数据传输（如图片嵌入网页、JWT）。" [ref=e179]:
+                - cell "64" [ref=e114]
+                - cell "_w 复制" [ref=e180]:
+                  - generic [ref=e116]:
+                    - textbox "—" [ref=e117]: _w
+                    - button "复制" [ref=e118] [cursor=pointer]
+                - cell "64进制（Base64）用于将二进制数据编码为文本，常见于数据传输（如图片嵌入网页、JWT）。" [ref=e119]
+      - generic [ref=e120]:
+        - heading "使用说明" [level=2] [ref=e121]
+        - list [ref=e122]:
+          - listitem [ref=e123]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e124]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e125]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e126]: 所有操作本地完成，保障隐私
+      - generic [ref=e127]:
+        - heading "同类推荐" [level=2] [ref=e128]
+        - generic [ref=e129]:
+          - link "json-formatter" [ref=e130] [cursor=pointer]:
+            - /url: /zh/json-formatter
+          - link "timestamp" [ref=e131] [cursor=pointer]:
+            - /url: /zh/timestamp
+          - link "camel" [ref=e132] [cursor=pointer]:
+            - /url: /zh/camel
+      - generic [ref=e133]:
+        - heading "常见问题" [level=2] [ref=e134]
+        - group [ref=e135]:
+          - generic "支持哪些进制？" [ref=e136] [cursor=pointer]
+        - group [ref=e137]:
+          - generic "如何转换？" [ref=e138] [cursor=pointer]
+        - group [ref=e139]:
+          - generic "Base58/62/64是什么？" [ref=e140] [cursor=pointer]
+        - group [ref=e141]:
+          - generic "会被上传吗？" [ref=e142] [cursor=pointer]
+  - contentinfo [ref=e143]:
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - heading "热门推荐" [level=4] [ref=e146]
+        - link "JSON" [ref=e147] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e148]:
+        - heading "站长工具" [level=4] [ref=e149]
+        - link "IP" [ref=e150] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e151]:
+        - heading "关于" [level=4] [ref=e152]
+        - link "关于我们" [ref=e153] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e154] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e155]:
+        - heading "合规" [level=4] [ref=e156]
+        - link "服务条款" [ref=e157] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e158] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e159]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e160]

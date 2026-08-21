@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/json-flatten
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/json-flatten
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/json-flatten
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "在线JSON扁平化工具" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: JSON扁平化
+          - generic [ref=e21]: 点号
+          - generic [ref=e22]: 嵌套转扁平
+          - generic [ref=e23]: JSON工具
+        - paragraph [ref=e24]: "在线 JSON 扁平化工具，将嵌套 JSON 转为点号扁平结构，如 {a:{b:1}} → {\"a.b\":1}，支持数组索引扁平，本地处理即时转换。"
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - button "扁平化" [ref=e28] [cursor=pointer]
+          - button "查看示例" [ref=e29] [cursor=pointer]
+          - button "复制结果" [ref=e30] [cursor=pointer]
+          - button "清空数据" [ref=e31] [cursor=pointer]
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: 嵌套 JSON
+            - 'textbox "请输入嵌套 JSON，例如 {\"a\":{\"b\":1}}" [ref=e35]'
+          - generic [ref=e36]:
+            - generic [ref=e38]: 扁平结果（点号）
+            - textbox "扁平化结果将显示在这里" [ref=e39]
+        - generic [ref=e40]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e41]:
+        - heading "使用说明" [level=2] [ref=e42]
+        - list [ref=e43]:
+          - listitem [ref=e44]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e45]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e46]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e47]: 所有操作本地完成，保障隐私
+      - generic [ref=e48]:
+        - heading "同类推荐" [level=2] [ref=e49]
+        - generic [ref=e50]:
+          - link "json-unflatten" [ref=e51] [cursor=pointer]:
+            - /url: /zh/json-unflatten
+          - link "json-sort" [ref=e52] [cursor=pointer]:
+            - /url: /zh/json-sort
+          - link "json-formatter" [ref=e53] [cursor=pointer]:
+            - /url: /zh/json-formatter
+      - generic [ref=e54]:
+        - heading "常见问题" [level=2] [ref=e55]
+        - group [ref=e56]:
+          - generic "什么是 JSON 扁平化？" [ref=e57] [cursor=pointer]
+        - group [ref=e58]:
+          - generic "如何使用扁平化工具？" [ref=e59] [cursor=pointer]
+        - group [ref=e60]:
+          - generic "支持数组吗？" [ref=e61] [cursor=pointer]
+        - group [ref=e62]:
+          - generic "会被上传吗？" [ref=e63] [cursor=pointer]
+  - contentinfo [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - heading "热门推荐" [level=4] [ref=e67]
+        - link "JSON" [ref=e68] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e69]:
+        - heading "站长工具" [level=4] [ref=e70]
+        - link "IP" [ref=e71] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e72]:
+        - heading "关于" [level=4] [ref=e73]
+        - link "关于我们" [ref=e74] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e75] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e76]:
+        - heading "合规" [level=4] [ref=e77]
+        - link "服务条款" [ref=e78] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e79] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e80]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e81]

@@ -1,0 +1,2 @@
+[     731ms] [WARNING] A preload for 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4188363142718866' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://www.codetool.site/_next/static/chunks/app/%5Blocale%5D/layout-9b09e83989fc1ea1.js:0
+[    2401ms] [WARNING] AdSense head tag doesn't support data-nscript attribute. @ https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4188363142718866:302

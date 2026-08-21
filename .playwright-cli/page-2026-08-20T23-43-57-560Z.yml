@@ -1,0 +1,84 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/json-formatter
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/json-formatter
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/json-formatter
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - heading "在线JSON格式化/压缩工具" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: JSON美化
+          - generic [ref=e22]: JSON压缩
+          - generic [ref=e23]: JSON解析
+          - generic [ref=e24]: JSON校验
+        - paragraph [ref=e25]: 使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性，实时处理，全面提升开发调试效率。
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - button "JSON美化" [ref=e28] [cursor=pointer]
+          - button "JSON压缩" [ref=e29] [cursor=pointer]
+          - button "查看示例" [ref=e30] [cursor=pointer]
+          - button "复制结果" [ref=e31] [cursor=pointer]
+          - button "清空数据" [ref=e32] [cursor=pointer]
+        - textbox "请输入要格式化/压缩的JSON代码" [ref=e34]
+        - generic [ref=e35]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e36]:
+        - heading "使用说明" [level=2] [ref=e37]
+        - list [ref=e38]:
+          - listitem [ref=e39]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e40]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e41]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e42]: 所有操作本地完成，保障隐私
+      - generic [ref=e43]:
+        - heading "同类推荐" [level=2] [ref=e44]
+        - link "在线JSON格式化/压缩工具" [ref=e46] [cursor=pointer]:
+          - /url: /zh/json-formatter
+          - generic [ref=e47]: 在线JSON格式化/压缩工具
+      - generic [ref=e48]:
+        - heading "常见问题" [level=2] [ref=e49]
+        - group [ref=e50]:
+          - generic "什么是JSON美化与压缩？" [ref=e51] [cursor=pointer]
+        - group [ref=e52]:
+          - generic "如何美化混乱的JSON？" [ref=e53] [cursor=pointer]
+        - group [ref=e54]:
+          - generic "如何压缩JSON？" [ref=e55] [cursor=pointer]
+        - group [ref=e56]:
+          - generic "会被上传吗？" [ref=e57] [cursor=pointer]
+  - contentinfo [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - heading "热门推荐" [level=4] [ref=e61]
+        - link "JSON" [ref=e62] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e63]:
+        - heading "站长工具" [level=4] [ref=e64]
+        - link "IP" [ref=e65] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e66]:
+        - heading "关于" [level=4] [ref=e67]
+        - link "关于我们" [ref=e68] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e69] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e70]:
+        - heading "合规" [level=4] [ref=e71]
+        - link "服务条款" [ref=e72] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e73] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e74]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e75]

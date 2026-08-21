@@ -1,0 +1,457 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "懒人工具 懒人工具" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "懒人工具" [ref=e6]
+      - img "懒人工具" [ref=e7]:
+        - generic [ref=e8]: 懒人工具
+    - navigation "主菜单" [ref=e9]:
+      - link "首页 Alt H" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 首页
+        - generic [ref=e15]:
+          - generic [ref=e16]: Alt
+          - generic [ref=e17]: H
+      - link "最近使用 Alt R" [ref=e18] [cursor=pointer]:
+        - /url: /recent/
+        - img [ref=e20]
+        - generic [ref=e23]: 最近使用
+        - generic [ref=e24]:
+          - generic [ref=e25]: Alt
+          - generic [ref=e26]: R
+      - link "专题 Alt T" [ref=e27] [cursor=pointer]:
+        - /url: /topics/
+        - img [ref=e29]
+        - generic [ref=e31]: 专题
+        - generic [ref=e32]:
+          - generic [ref=e33]: Alt
+          - generic [ref=e34]: T
+      - button "展开子菜单 全部分类" [expanded] [ref=e35] [cursor=pointer]:
+        - generic "展开子菜单" [ref=e36]:
+          - img [ref=e37]
+        - generic [ref=e40]: 全部分类
+        - img [ref=e42]
+      - generic [ref=e44]:
+        - link "会员尊享" [ref=e45] [cursor=pointer]:
+          - /url: /vip/
+          - img [ref=e47]
+          - generic [ref=e50]: 会员尊享
+        - link "站长工具" [ref=e51] [cursor=pointer]:
+          - /url: /webmaster/
+          - img [ref=e53]
+          - generic [ref=e55]: 站长工具
+        - link "编程开发" [ref=e56] [cursor=pointer]:
+          - /url: /code/
+          - img [ref=e58]
+          - generic [ref=e61]: 编程开发
+        - link "文本处理" [ref=e62] [cursor=pointer]:
+          - /url: /text/
+          - img [ref=e64]
+          - generic [ref=e66]: 文本处理
+        - link "图像处理" [ref=e67] [cursor=pointer]:
+          - /url: /image/
+          - img [ref=e69]
+          - generic [ref=e73]: 图像处理
+        - link "文档转换" [ref=e74] [cursor=pointer]:
+          - /url: /doc-convert/
+          - img [ref=e76]
+          - generic [ref=e79]: 文档转换
+        - link "音频视频" [ref=e80] [cursor=pointer]:
+          - /url: /media/
+          - img [ref=e82]
+          - generic [ref=e84]: 音频视频
+        - link "便民工具" [ref=e85] [cursor=pointer]:
+          - /url: /life/
+          - img [ref=e87]
+          - generic [ref=e89]: 便民工具
+        - link "编码加密" [ref=e90] [cursor=pointer]:
+          - /url: /encode/
+          - img [ref=e92]
+          - generic [ref=e94]: 编码加密
+        - link "单位转换" [ref=e95] [cursor=pointer]:
+          - /url: /unit/
+          - img [ref=e97]
+          - generic [ref=e99]: 单位转换
+    - generic [ref=e101] [cursor=pointer]:
+      - img "默认头像" [ref=e102]
+      - generic [ref=e103]: 未登录
+  - main [ref=e104]:
+    - generic [ref=e105]:
+      - button "返回上一页" [ref=e106] [cursor=pointer]:
+        - img [ref=e107]
+        - generic [ref=e109]: 返回上一页
+      - button "打开/关闭搜索" [ref=e110] [cursor=pointer]:
+        - img [ref=e111]
+      - button "建议新功能" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "收藏此工具" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+      - button "分享此工具" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+    - heading "在线驼峰/下划线变量命名互转工具" [level=1] [ref=e122]
+    - generic "关键词搜索推荐" [ref=e123]:
+      - generic [ref=e124]:
+        - link "变量命名" [ref=e125] [cursor=pointer]:
+          - /url: /search?q=变量命名
+          - img [ref=e126]
+          - text: 变量命名
+        - link "驼峰转下划线" [ref=e129] [cursor=pointer]:
+          - /url: /search?q=驼峰转下划线
+          - img [ref=e130]
+          - text: 驼峰转下划线
+        - link "下划线转驼峰" [ref=e133] [cursor=pointer]:
+          - /url: /search?q=下划线转驼峰
+          - img [ref=e134]
+          - text: 下划线转驼峰
+        - link "命名规范" [ref=e137] [cursor=pointer]:
+          - /url: /search?q=命名规范
+          - img [ref=e138]
+          - text: 命名规范
+        - link "驼峰命名法" [ref=e141] [cursor=pointer]:
+          - /url: /search?q=驼峰命名法
+          - img [ref=e142]
+          - text: 驼峰命名法
+        - link "下划线命名法" [ref=e145] [cursor=pointer]:
+          - /url: /search?q=下划线命名法
+          - img [ref=e146]
+          - text: 下划线命名法
+    - paragraph [ref=e149]: 使用我们的「驼峰/下划线变量命名互转工具」，支持camelCase与snake_case双向智能转换，实时生成规范变量命名，自动精准识别命名模式，兼容多种编程语言格式，提升开发效率与代码可读性。
+    - main [ref=e150]:
+      - generic [ref=e152]:
+        - text: 请输入要转换的文本内容：
+        - textbox "请输入要转换的文本内容（查看示例前，先选择语言类型）。" [ref=e153]
+      - generic [ref=e154]:
+        - button "JavaScript" [ref=e156] [cursor=pointer]:
+          - generic [ref=e157]: JavaScript
+          - img [ref=e158]
+        - button "驼峰转下划线" [ref=e160] [cursor=pointer]:
+          - img [ref=e161]
+          - text: 驼峰转下划线
+        - button "下划线转驼峰" [ref=e165] [cursor=pointer]:
+          - img [ref=e166]
+          - text: 下划线转驼峰
+        - button "查看示例" [ref=e169] [cursor=pointer]:
+          - img [ref=e170]
+          - text: 查看示例
+        - button "复制结果" [ref=e172] [cursor=pointer]:
+          - img [ref=e173]
+          - text: 复制结果
+        - button "清空数据" [ref=e175] [cursor=pointer]:
+          - img [ref=e176]
+          - text: 清空数据
+      - textbox "转换结果..." [ref=e179]
+    - region "工具使用帮助与相关信息" [ref=e180]:
+      - generic [ref=e181]:
+        - heading "使用说明" [level=2] [ref=e182]:
+          - img [ref=e183]
+          - text: 使用说明
+        - paragraph [ref=e185]:
+          - text: 📝
+          - strong [ref=e186]: 文本输入
+        - paragraph [ref=e187]: 在【请输入要转换的文本内容】输入框中，可直接粘贴或手动输入需要转换的变量名或代码片段。支持驼峰命名（camelCase）、下划线命名（snake_case）、中英文混合文本、数字及批量数据输入，系统将自动识别并处理所有命名格式。
+        - paragraph [ref=e188]:
+          - text: 🔄
+          - strong [ref=e189]: 驼峰转下划线
+        - paragraph [ref=e190]:
+          - text: 点击 "驼峰转下划线" 按钮，系统会将输入的所有驼峰命名变量转换为下划线命名格式。如：
+          - code [ref=e191]: userName
+          - text: →
+          - code [ref=e192]: user_name
+          - text: 、
+          - code [ref=e193]: maxLimitCount
+          - text: →
+          - code [ref=e194]: max_limit_count
+          - text: 。适用于将camelCase转换为snake_case的编程场景。
+        - paragraph [ref=e195]:
+          - text: 🔄
+          - strong [ref=e196]: 下划线转驼峰
+        - paragraph [ref=e197]:
+          - text: 点击 "下划线转驼峰" 按钮，系统会将输入的所有下划线命名变量转换为驼峰命名格式。如：
+          - code [ref=e198]: user_name
+          - text: →
+          - code [ref=e199]: userName
+          - text: 、
+          - code [ref=e200]: max_limit_count
+          - text: →
+          - code [ref=e201]: maxLimitCount
+          - text: 。适用于将snake_case转换为camelCase的编程需求。
+        - paragraph [ref=e202]:
+          - text: 🔍
+          - strong [ref=e203]: 查看示例
+        - paragraph [ref=e204]: 点击 "查看示例" 按钮，系统将自动填充涵盖多种命名风格与场景的典型示例到输入框，包含基础变量、常量、函数名等不同类型，直观演示驼峰与下划线格式间的转换逻辑与结果，帮助您快速熟悉工具功能与应用场景。
+        - paragraph [ref=e205]:
+          - text: 📋
+          - strong [ref=e206]: 复制结果
+        - paragraph [ref=e207]: 可以通过鼠标直接拖拽选中目标内容进行手动复制，或一键点击 "复制结果" 按钮自动将转换后的全部文本复制到系统剪贴板，支持快速粘贴至各类代码编辑器、开发工具或其他应用场景，显著提升编码效率。
+        - paragraph [ref=e208]:
+          - text: 🗑️
+          - strong [ref=e209]: 清空数据
+        - paragraph [ref=e210]: 点击 "清空数据" 按钮可清除输入框和输出框中的全部内容，恢复初始状态。所有操作均在浏览器本地完成，不上传任何数据，确保隐私安全，无痕使用。
+      - generic [ref=e211]:
+        - heading "同类推荐" [level=2] [ref=e212]:
+          - img [ref=e213]
+          - text: 同类推荐
+        - generic [ref=e215]:
+          - article [ref=e216]:
+            - link "PHP序列化/反序列化 工具图标 PHP序列化/反序列化 支持PHP序列化与反序列化双向精确转换和数组/JSON格式对照，适用于PHP开发调试和数据格式转换等场景。" [ref=e217] [cursor=pointer]:
+              - /url: /php-serialize/
+              - heading "PHP序列化/反序列化 工具图标 PHP序列化/反序列化" [level=3] [ref=e218]:
+                - img "PHP序列化/反序列化 工具图标" [ref=e219]
+                - generic [ref=e220]: PHP序列化/反序列化
+              - paragraph [ref=e221]: 支持PHP序列化与反序列化双向精确转换和数组/JSON格式对照，适用于PHP开发调试和数据格式转换等场景。
+          - article [ref=e222]:
+            - link "HTML图片链接提取 工具图标 HTML图片链接提取 HTML图片链接去重提取并分行展示，适用于网页开发、资源整理和批量处理图片链接等场景。" [ref=e223] [cursor=pointer]:
+              - /url: /image-extract/
+              - heading "HTML图片链接提取 工具图标 HTML图片链接提取" [level=3] [ref=e224]:
+                - img "HTML图片链接提取 工具图标" [ref=e225]
+                - generic [ref=e226]: HTML图片链接提取
+              - paragraph [ref=e227]: HTML图片链接去重提取并分行展示，适用于网页开发、资源整理和批量处理图片链接等场景。
+          - article [ref=e228]:
+            - link "EXCEL转JSON 工具图标 EXCEL转JSON 支持解析Excel文件转JSON，精准提取表格结构化数据，适用于数据格式转换、开发接口调试等场景。" [ref=e229] [cursor=pointer]:
+              - /url: /excel-json/
+              - heading "EXCEL转JSON 工具图标 EXCEL转JSON" [level=3] [ref=e230]:
+                - img "EXCEL转JSON 工具图标" [ref=e231]
+                - generic [ref=e232]: EXCEL转JSON
+              - paragraph [ref=e233]: 支持解析Excel文件转JSON，精准提取表格结构化数据，适用于数据格式转换、开发接口调试等场景。
+          - article [ref=e234]:
+            - link "JSON转EXCEL 工具图标 JSON转EXCEL 支持解析JSON数据转 Excel，精准生成标准化表格文件，适用于数据格式转换、办公数据整理等场景。" [ref=e235] [cursor=pointer]:
+              - /url: /json-excel/
+              - heading "JSON转EXCEL 工具图标 JSON转EXCEL" [level=3] [ref=e236]:
+                - img "JSON转EXCEL 工具图标" [ref=e237]
+                - generic [ref=e238]: JSON转EXCEL
+              - paragraph [ref=e239]: 支持解析JSON数据转 Excel，精准生成标准化表格文件，适用于数据格式转换、办公数据整理等场景。
+          - article [ref=e240]:
+            - link "CSS页面加载动画 工具图标 CSS页面加载动画 CSS载入Loading动画代码大全，涵盖圆形旋转、进度条跳动、骨架屏闪烁、圆点脉冲等多种动态效果。" [ref=e241] [cursor=pointer]:
+              - /url: /loading/
+              - heading "CSS页面加载动画 工具图标 CSS页面加载动画" [level=3] [ref=e242]:
+                - img "CSS页面加载动画 工具图标" [ref=e243]
+                - generic [ref=e244]: CSS页面加载动画
+              - paragraph [ref=e245]: CSS载入Loading动画代码大全，涵盖圆形旋转、进度条跳动、骨架屏闪烁、圆点脉冲等多种动态效果。
+          - article [ref=e246]:
+            - link "HTML字符转义 工具图标 HTML字符转义 HTML字符安全转换工具，支持特殊字符与实体编码双向实时互转，保障网页内容安全显示。" [ref=e247] [cursor=pointer]:
+              - /url: /html-escape/
+              - heading "HTML字符转义 工具图标 HTML字符转义" [level=3] [ref=e248]:
+                - img "HTML字符转义 工具图标" [ref=e249]
+                - generic [ref=e250]: HTML字符转义
+              - paragraph [ref=e251]: HTML字符安全转换工具，支持特殊字符与实体编码双向实时互转，保障网页内容安全显示。
+          - article [ref=e252]:
+            - link "进制转换器 工具图标 进制转换器 支持多种进制间的相互转换，输入数值后自动计算各进制结果，并可手动复制输出值。" [ref=e253] [cursor=pointer]:
+              - /url: /hex-converter/
+              - heading "进制转换器 工具图标 进制转换器" [level=3] [ref=e254]:
+                - img "进制转换器 工具图标" [ref=e255]
+                - generic [ref=e256]: 进制转换器
+              - paragraph [ref=e257]: 支持多种进制间的相互转换，输入数值后自动计算各进制结果，并可手动复制输出值。
+          - article [ref=e258]:
+            - link "SQL格式化/压缩 工具图标 SQL格式化/压缩 一键SQL美化，实时压缩/格式化，支持多库语法全兼容，快速生成规范语句，提升开发效率！" [ref=e259] [cursor=pointer]:
+              - /url: /sql-format/
+              - heading "SQL格式化/压缩 工具图标 SQL格式化/压缩" [level=3] [ref=e260]:
+                - img "SQL格式化/压缩 工具图标" [ref=e261]
+                - generic [ref=e262]: SQL格式化/压缩
+              - paragraph [ref=e263]: 一键SQL美化，实时压缩/格式化，支持多库语法全兼容，快速生成规范语句，提升开发效率！
+          - article [ref=e264]:
+            - link "JSON格式化/压缩 工具图标 JSON格式化/压缩 秒级响应！JSON智能美化与无损压缩自由切换，高亮显示+自动校验，让数据处理更直观、更流畅！" [ref=e265] [cursor=pointer]:
+              - /url: /json-formatter/
+              - heading "JSON格式化/压缩 工具图标 JSON格式化/压缩" [level=3] [ref=e266]:
+                - img "JSON格式化/压缩 工具图标" [ref=e267]
+                - generic [ref=e268]: JSON格式化/压缩
+              - paragraph [ref=e269]: 秒级响应！JSON智能美化与无损压缩自由切换，高亮显示+自动校验，让数据处理更直观、更流畅！
+          - article [ref=e270]:
+            - link "CSS代码格式化/压缩 工具图标 CSS代码格式化/压缩 一键CSS处理，智能美化/极致压缩，支持双模式秒级转换，全面优化代码结构，提升开发效率！" [ref=e271] [cursor=pointer]:
+              - /url: /css-formatter/
+              - heading "CSS代码格式化/压缩 工具图标 CSS代码格式化/压缩" [level=3] [ref=e272]:
+                - img "CSS代码格式化/压缩 工具图标" [ref=e273]
+                - generic [ref=e274]: CSS代码格式化/压缩
+              - paragraph [ref=e275]: 一键CSS处理，智能美化/极致压缩，支持双模式秒级转换，全面优化代码结构，提升开发效率！
+          - article [ref=e276]:
+            - link "HTML代码美化/压缩 工具图标 HTML代码美化/压缩 一键格式化，实时解析/智能排版，支持HTML5全语法秒级响应，全面优化代码结构，提升开发效率！" [ref=e277] [cursor=pointer]:
+              - /url: /html-formatter/
+              - heading "HTML代码美化/压缩 工具图标 HTML代码美化/压缩" [level=3] [ref=e278]:
+                - img "HTML代码美化/压缩 工具图标" [ref=e279]
+                - generic [ref=e280]: HTML代码美化/压缩
+              - paragraph [ref=e281]: 一键格式化，实时解析/智能排版，支持HTML5全语法秒级响应，全面优化代码结构，提升开发效率！
+          - article [ref=e282]:
+            - link "Unix时间戳转换 工具图标 Unix时间戳转换 时间戳与标准时间双向转换，支持秒级与毫秒级输入，支持时区切换，自动识别格式，实时显示当前时间戳。" [ref=e283] [cursor=pointer]:
+              - /url: /timestamp/
+              - heading "Unix时间戳转换 工具图标 Unix时间戳转换" [level=3] [ref=e284]:
+                - img "Unix时间戳转换 工具图标" [ref=e285]
+                - generic [ref=e286]: Unix时间戳转换
+              - paragraph [ref=e287]: 时间戳与标准时间双向转换，支持秒级与毫秒级输入，支持时区切换，自动识别格式，实时显示当前时间戳。
+      - generic [ref=e288]:
+        - heading "常见问题" [level=2] [ref=e289]:
+          - img [ref=e290]
+          - text: 常见问题
+        - generic [ref=e294]:
+          - heading "✔️ 什么是驼峰命名法和下划线命名法？" [level=3] [ref=e295]
+          - paragraph [ref=e296]:
+            - text: 驼峰命名法（camelCase）指单词首字母大写、中间无分隔符的命名方式，如
+            - code [ref=e297]: userName
+            - text: ；下划线命名法（snake_case）指单词间用下划线连接的命名方式，如
+            - code [ref=e298]: user_name
+            - text: 。两者是编程中最常用的两种变量命名规范。
+        - generic [ref=e299]:
+          - heading "📌 转换是否实时进行？需要手动刷新吗？" [level=3] [ref=e300]
+          - paragraph [ref=e301]:
+            - text: 转换是即时完成的！点击对应按钮后，结果将
+            - strong [ref=e302]: 实时显示
+            - text: 在输出框中，无需页面刷新或等待。您可以在输入和输出框之间快速切换对比，随时调整转换内容。
+        - generic [ref=e303]:
+          - heading "🎯 什么情况下使用驼峰转下划线？什么情况下使用下划线转驼峰？" [level=3] [ref=e304]
+          - paragraph [ref=e305]:
+            - strong [ref=e306]: 驼峰转下划线
+            - text: 适用于：Python/Ruby等偏好下划线风格的项目、数据库字段名转换、API参数规范化；
+            - strong [ref=e307]: 下划线转驼峰
+            - text: 适用于：JavaScript/Java等偏好驼峰风格的项目、前端变量命名统一、框架代码迁移。
+        - generic [ref=e308]:
+          - heading "📘 转换过程能处理混合命名的变量吗？比如同时包含大小写和下划线？" [level=3] [ref=e309]
+          - paragraph [ref=e310]:
+            - text: 完全可以处理！工具能智能识别并转换混合命名格式，如
+            - code [ref=e311]: HTTP_Request_Count
+            - text: 转换为
+            - code [ref=e312]: http_request_count
+            - text: ，或
+            - code [ref=e313]: user_firstName
+            - text: 转换为
+            - code [ref=e314]: userFirstName
+            - text: 。
+        - generic [ref=e315]:
+          - heading "🔧 工具支持哪些编程语言的命名转换？有特殊要求吗？" [level=3] [ref=e316]
+          - paragraph [ref=e317]: 本工具支持多种编程语言的命名转换，包括JavaScript、Java、Python、PHP等。无需指定语言类型，系统会自动识别命名模式并按通用规则进行标准化转换。
+        - generic [ref=e318]:
+          - heading "🔒 处理的数据安全吗？会不会被上传到服务器？" [level=3] [ref=e319]
+          - paragraph [ref=e320]:
+            - text: 绝对安全！所有转换操作均在
+            - strong [ref=e321]: 浏览器本地完成
+            - text: ，无需网络连接，不上传任何数据到服务器。输入内容不会被记录或存储，可放心处理包含敏感信息的代码片段。
+      - generic "工具快速切换" [ref=e322]:
+        - list [ref=e324]:
+          - listitem [ref=e325] [cursor=pointer]: 热门推荐
+          - listitem [ref=e326] [cursor=pointer]: 站长工具
+          - listitem [ref=e327] [cursor=pointer]: 编程开发
+          - listitem [ref=e328] [cursor=pointer]: 文本处理
+          - listitem [ref=e329] [cursor=pointer]: 图像处理
+          - listitem [ref=e330] [cursor=pointer]: 文档转换
+          - listitem [ref=e331] [cursor=pointer]: 音频视频
+          - listitem [ref=e332] [cursor=pointer]: 便民工具
+          - listitem [ref=e333] [cursor=pointer]: 编码加密
+          - listitem [ref=e334] [cursor=pointer]: 单位转换
+        - table [ref=e336]:
+          - rowgroup [ref=e337]:
+            - row "微信聊天模拟器 微信零钱模拟器 文字转语音工具 法定退休年龄计算器 身份证号码查询 在线随机点名" [ref=e338]:
+              - cell "微信聊天模拟器" [ref=e339]:
+                - link "微信聊天模拟器" [ref=e340] [cursor=pointer]:
+                  - /url: /wechat/
+              - cell "微信零钱模拟器" [ref=e341]:
+                - link "微信零钱模拟器" [ref=e342] [cursor=pointer]:
+                  - /url: /wechat-wallet/
+              - cell "文字转语音工具" [ref=e343]:
+                - link "文字转语音工具" [ref=e344] [cursor=pointer]:
+                  - /url: /tts/
+              - cell "法定退休年龄计算器" [ref=e345]:
+                - link "法定退休年龄计算器" [ref=e346] [cursor=pointer]:
+                  - /url: /retirement-calculator/
+              - cell "身份证号码查询" [ref=e347]:
+                - link "身份证号码查询" [ref=e348] [cursor=pointer]:
+                  - /url: /identity/
+              - cell "在线随机点名" [ref=e349]:
+                - link "在线随机点名" [ref=e350] [cursor=pointer]:
+                  - /url: /roll-call/
+            - row "报名证件照处理 随机密码生成器 二维码生成器 世界高清地图 键盘按键检测 手机归属地查询" [ref=e351]:
+              - cell "报名证件照处理" [ref=e352]:
+                - link "报名证件照处理" [ref=e353] [cursor=pointer]:
+                  - /url: /id-photo/
+              - cell "随机密码生成器" [ref=e354]:
+                - link "随机密码生成器" [ref=e355] [cursor=pointer]:
+                  - /url: /random-pwd/
+              - cell "二维码生成器" [ref=e356]:
+                - link "二维码生成器" [ref=e357] [cursor=pointer]:
+                  - /url: /qrcode/
+              - cell "世界高清地图" [ref=e358]:
+                - link "世界高清地图" [ref=e359] [cursor=pointer]:
+                  - /url: /world-map/
+              - cell "键盘按键检测" [ref=e360]:
+                - link "键盘按键检测" [ref=e361] [cursor=pointer]:
+                  - /url: /keyboard/
+              - cell "手机归属地查询" [ref=e362]:
+                - link "手机归属地查询" [ref=e363] [cursor=pointer]:
+                  - /url: /phone-location/
+            - row "在线字数统计 JSON格式化/压缩 Base64编码/解码 图片高清压缩 摩斯密码编码/解码 节日时间倒计时" [ref=e364]:
+              - cell "在线字数统计" [ref=e365]:
+                - link "在线字数统计" [ref=e366] [cursor=pointer]:
+                  - /url: /word-count/
+              - cell "JSON格式化/压缩" [ref=e367]:
+                - link "JSON格式化/压缩" [ref=e368] [cursor=pointer]:
+                  - /url: /json-formatter/
+              - cell "Base64编码/解码" [ref=e369]:
+                - link "Base64编码/解码" [ref=e370] [cursor=pointer]:
+                  - /url: /base64-encode/
+              - cell "图片高清压缩" [ref=e371]:
+                - link "图片高清压缩" [ref=e372] [cursor=pointer]:
+                  - /url: /image-compressor/
+              - cell "摩斯密码编码/解码" [ref=e373]:
+                - link "摩斯密码编码/解码" [ref=e374] [cursor=pointer]:
+                  - /url: /morse/
+              - cell "节日时间倒计时" [ref=e375]:
+                - link "节日时间倒计时" [ref=e376] [cursor=pointer]:
+                  - /url: /countdown/
+            - row "本机IP地址查询 Unix时间戳转换 图片取色器 色盲色弱测试 SVG在线编辑器 中国高清地图" [ref=e377]:
+              - cell "本机IP地址查询" [ref=e378]:
+                - link "本机IP地址查询" [ref=e379] [cursor=pointer]:
+                  - /url: /myip/
+              - cell "Unix时间戳转换" [ref=e380]:
+                - link "Unix时间戳转换" [ref=e381] [cursor=pointer]:
+                  - /url: /timestamp/
+              - cell "图片取色器" [ref=e382]:
+                - link "图片取色器" [ref=e383] [cursor=pointer]:
+                  - /url: /color-picker/
+              - cell "色盲色弱测试" [ref=e384]:
+                - link "色盲色弱测试" [ref=e385] [cursor=pointer]:
+                  - /url: /color-blindness/
+              - cell "SVG在线编辑器" [ref=e386]:
+                - link "SVG在线编辑器" [ref=e387] [cursor=pointer]:
+                  - /url: /svgeditor/
+              - cell "中国高清地图" [ref=e388]:
+                - link "中国高清地图" [ref=e389] [cursor=pointer]:
+                  - /url: /china-map/
+            - row "查看网页源码" [ref=e390]:
+              - cell "查看网页源码" [ref=e391]:
+                - link "查看网页源码" [ref=e392] [cursor=pointer]:
+                  - /url: /view-source/
+      - generic [ref=e393]:
+        - heading "🧡 每一份支持，都让我们走得更坚定" [level=2] [ref=e394]
+        - paragraph [ref=e395]: 每一次打赏，都会化作深夜默默修缮的灯火 🌙，只为让你用得更顺手一点 ✨。
+        - img "微信/支付宝二合一收款二维码" [ref=e396]
+    - generic [ref=e397]:
+      - navigation "页脚链接" [ref=e398]:
+        - link "关于我们" [ref=e399] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=e400] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "最新上线" [ref=e401] [cursor=pointer]:
+          - /url: /updates/
+        - link "懒人博客" [ref=e402] [cursor=pointer]:
+          - /url: /blog/
+        - link "更新日志" [ref=e403] [cursor=pointer]:
+          - /url: /changelog/
+        - link "广告服务" [ref=e404] [cursor=pointer]:
+          - /url: /ad/
+        - link "隐私政策" [ref=e405] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - link "Cookie政策" [ref=e406] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - link "反馈建议" [ref=e407] [cursor=pointer]:
+          - /url: /feedback/
+      - generic [ref=e408]:
+        - generic [ref=e409]:
+          - text: © 2025
+          - link "懒人工具" [ref=e410] [cursor=pointer]:
+            - /url: https://www.lanren-tools.com
+          - text: All Rights Reserved
+        - link "鲁ICP备2024126651号-3" [ref=e412] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+        - generic [ref=e413]:
+          - text: 阿里云提供
+          - link "云服务器 - 特惠服务" [ref=e414] [cursor=pointer]:
+            - /url: https://www.aliyun.com/minisite/goods?userCode=zsonfg5s
+            - text: 云服务器
+          - text: 特惠支持

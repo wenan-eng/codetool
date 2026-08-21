@@ -1,0 +1,248 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - heading "免费在线工具箱" [level=1] [ref=e17]
+      - generic [ref=e18]:
+        - link "在线JSON格式化/压缩工具 使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性，实时处理，全面提升..." [ref=e19] [cursor=pointer]:
+          - /url: /zh/json-formatter
+          - generic [ref=e21]: 在线JSON格式化/压缩工具
+          - generic [ref=e22]: 使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性，实时处理，全面提升...
+        - link "在线进制转换工具 使用我们的进制转换工具，支持2/8/10/16/32/36/52/58/62/64进制间的在线互转，输入数值后实时计算并..." [ref=e23] [cursor=pointer]:
+          - /url: /zh/hex-converter
+          - generic [ref=e25]: 在线进制转换工具
+          - generic [ref=e26]: 使用我们的进制转换工具，支持2/8/10/16/32/36/52/58/62/64进制间的在线互转，输入数值后实时计算并...
+        - link "在线HTML字符转义/反转义工具 在线HTML字符转义与反转义工具，支持将 < > & \" ' 等特殊字符与 HTML 实体 &lt; &gt; &amp..." [ref=e27] [cursor=pointer]:
+          - /url: /zh/html-escape
+          - generic [ref=e29]: 在线HTML字符转义/反转义工具
+          - generic [ref=e30]: 在线HTML字符转义与反转义工具，支持将 < > & " ' 等特殊字符与 HTML 实体 &lt; &gt; &amp...
+        - link "在线日期时间格式转换工具 在线日期时间格式转换工具，支持 YYYY-MM-DD、YYYY/MM/DD、MM-DD-YYYY、ISO 8601、时间..." [ref=e31] [cursor=pointer]:
+          - /url: /zh/datetime-converter
+          - generic [ref=e33]: 在线日期时间格式转换工具
+          - generic [ref=e34]: 在线日期时间格式转换工具，支持 YYYY-MM-DD、YYYY/MM/DD、MM-DD-YYYY、ISO 8601、时间...
+        - link "在线驼峰/下划线互转工具 在线驼峰与下划线互转工具，支持批量转换变量名，自动识别驼峰命名（camelCase）与下划线命名（snake_case）..." [ref=e35] [cursor=pointer]:
+          - /url: /zh/camel
+          - generic [ref=e37]: 在线驼峰/下划线互转工具
+          - generic [ref=e38]: 在线驼峰与下划线互转工具，支持批量转换变量名，自动识别驼峰命名（camelCase）与下划线命名（snake_case）...
+        - 'link "在线JSON扁平化工具 在线 JSON 扁平化工具，将嵌套 JSON 转为点号扁平结构，如 {a:{b:1}} → {\"a.b\":1}，支持数组..." [ref=e39] [cursor=pointer]':
+          - /url: /zh/json-flatten
+          - generic [ref=e41]: 在线JSON扁平化工具
+          - generic [ref=e42]: "在线 JSON 扁平化工具，将嵌套 JSON 转为点号扁平结构，如 {a:{b:1}} → {\"a.b\":1}，支持数组..."
+        - 'link "在线JSON还原嵌套工具 在线 JSON 反扁平化工具，将点号扁平的 JSON 还原为嵌套结构，如 {\"a.b\":1} → {a:{b:1}}，自..." [ref=e43] [cursor=pointer]':
+          - /url: /zh/json-unflatten
+          - generic [ref=e45]: 在线JSON还原嵌套工具
+          - generic [ref=e46]: "在线 JSON 反扁平化工具，将点号扁平的 JSON 还原为嵌套结构，如 {\"a.b\":1} → {a:{b:1}}，自..."
+        - link "在线JSON排序工具 在线 JSON 键排序工具，递归按字母序对所有层级键排序，支持对象与数组，保持值不变，本地处理。..." [ref=e47] [cursor=pointer]:
+          - /url: /zh/json-sort
+          - generic [ref=e49]: 在线JSON排序工具
+          - generic [ref=e50]: 在线 JSON 键排序工具，递归按字母序对所有层级键排序，支持对象与数组，保持值不变，本地处理。...
+        - link "在线Unix时间戳转换工具 使用我们的在线Unix时间戳转换工具，轻松实现时间戳与标准时间之间的双向转换，支持秒级与毫秒级、25个时区切换，实时显示..." [ref=e51] [cursor=pointer]:
+          - /url: /zh/timestamp
+          - generic [ref=e53]: 在线Unix时间戳转换工具
+          - generic [ref=e54]: 使用我们的在线Unix时间戳转换工具，轻松实现时间戳与标准时间之间的双向转换，支持秒级与毫秒级、25个时区切换，实时显示...
+        - link "在线批量时间戳转换工具 使用我们的批量时间戳转换工具，实现时间戳的快速批量转换与格式化输出，可自定义7种日期格式、自动识别秒级毫秒级、支持批量处..." [ref=e55] [cursor=pointer]:
+          - /url: /zh/timestamp-batch
+          - generic [ref=e57]: 在线批量时间戳转换工具
+          - generic [ref=e58]: 使用我们的批量时间戳转换工具，实现时间戳的快速批量转换与格式化输出，可自定义7种日期格式、自动识别秒级毫秒级、支持批量处...
+        - link "在线 JS 代码美化/压缩工具 在线 JavaScript 代码美化与压缩工具，支持一键美化缩进换行与压缩去空白，2 空格缩进，本地处理即时格式化，提升..." [ref=e59] [cursor=pointer]:
+          - /url: /zh/js-formatter
+          - generic [ref=e61]: 在线 JS 代码美化/压缩工具
+          - generic [ref=e62]: 在线 JavaScript 代码美化与压缩工具，支持一键美化缩进换行与压缩去空白，2 空格缩进，本地处理即时格式化，提升...
+        - link "在线 HTML 代码美化/压缩工具 在线 HTML 代码美化与压缩工具，自动在标签间换行并按层级 2 空格缩进，美化混乱 HTML；一键压缩移除空白到单行，..." [ref=e63] [cursor=pointer]:
+          - /url: /zh/html-formatter
+          - generic [ref=e65]: 在线 HTML 代码美化/压缩工具
+          - generic [ref=e66]: 在线 HTML 代码美化与压缩工具，自动在标签间换行并按层级 2 空格缩进，美化混乱 HTML；一键压缩移除空白到单行，...
+        - link "在线 CSS 代码美化/压缩工具 在线 CSS 代码美化与压缩工具，支持花括号换行、属性缩进 2 空格、移除注释，压缩到单行最小体积，本地处理即时生效。..." [ref=e67] [cursor=pointer]:
+          - /url: /zh/css-formatter
+          - generic [ref=e69]: 在线 CSS 代码美化/压缩工具
+          - generic [ref=e70]: 在线 CSS 代码美化与压缩工具，支持花括号换行、属性缩进 2 空格、移除注释，压缩到单行最小体积，本地处理即时生效。...
+        - link "在线 SQL 格式化/压缩工具 在线 SQL 格式化与压缩工具，自动将关键字大写并在 SELECT/FROM/WHERE/JOIN 等前换行缩进 2 空..." [ref=e71] [cursor=pointer]:
+          - /url: /zh/sql-format
+          - generic [ref=e73]: 在线 SQL 格式化/压缩工具
+          - generic [ref=e74]: 在线 SQL 格式化与压缩工具，自动将关键字大写并在 SELECT/FROM/WHERE/JOIN 等前换行缩进 2 空...
+        - link "在线 YAML 格式化/压缩工具 在线 YAML 格式化与压缩工具，美化时按 key 边界换行并 2 空格缩进嵌套，压缩时合并为单行并规范冒号空格，本地处..." [ref=e75] [cursor=pointer]:
+          - /url: /zh/yaml-formatter
+          - generic [ref=e77]: 在线 YAML 格式化/压缩工具
+          - generic [ref=e78]: 在线 YAML 格式化与压缩工具，美化时按 key 边界换行并 2 空格缩进嵌套，压缩时合并为单行并规范冒号空格，本地处...
+        - link "在线JSON转SQL工具 在线JSON转SQL工具，将JSON数组一键生成 INSERT INTO 语句，自动识别列名、处理字符串转义与 NULL..." [ref=e79] [cursor=pointer]:
+          - /url: /zh/json-sql
+          - generic [ref=e81]: 在线JSON转SQL工具
+          - generic [ref=e82]: 在线JSON转SQL工具，将JSON数组一键生成 INSERT INTO 语句，自动识别列名、处理字符串转义与 NULL...
+        - link "在线SQL转JSON工具 在线SQL转JSON工具，解析 INSERT INTO 语句还原为JSON数组，支持多行 VALUES、字符串转义与 N..." [ref=e83] [cursor=pointer]:
+          - /url: /zh/sql-json
+          - generic [ref=e85]: 在线SQL转JSON工具
+          - generic [ref=e86]: 在线SQL转JSON工具，解析 INSERT INTO 语句还原为JSON数组，支持多行 VALUES、字符串转义与 N...
+        - link "在线JSON转Cookie工具 在线JSON转Cookie工具，将扁平JSON对象转为 Cookie 字符串 k=v; k2=v2，自动 encodeU..." [ref=e87] [cursor=pointer]:
+          - /url: /zh/json-cookie
+          - generic [ref=e89]: 在线JSON转Cookie工具
+          - generic [ref=e90]: 在线JSON转Cookie工具，将扁平JSON对象转为 Cookie 字符串 k=v; k2=v2，自动 encodeU...
+        - link "在线Cookie转JSON工具 在线Cookie转JSON工具，将 Cookie 字符串解析为JSON对象，自动 decodeURIComponent ..." [ref=e91] [cursor=pointer]:
+          - /url: /zh/cookie-json
+          - generic [ref=e93]: 在线Cookie转JSON工具
+          - generic [ref=e94]: 在线Cookie转JSON工具，将 Cookie 字符串解析为JSON对象，自动 decodeURIComponent ...
+        - link "在线JSON转Base64工具 在线JSON转Base64工具，将JSON字符串UTF-8编码为Base64，支持中文与 Emoji，解码时校验JSON..." [ref=e95] [cursor=pointer]:
+          - /url: /zh/json-base64
+          - generic [ref=e97]: 在线JSON转Base64工具
+          - generic [ref=e98]: 在线JSON转Base64工具，将JSON字符串UTF-8编码为Base64，支持中文与 Emoji，解码时校验JSON...
+        - link "在线XML转Base64工具 在线XML转Base64工具，将XML字符串UTF-8编码为Base64并可逆向解码，支持中文标签与声明头，全部本地处理..." [ref=e99] [cursor=pointer]:
+          - /url: /zh/xml-base64
+          - generic [ref=e101]: 在线XML转Base64工具
+          - generic [ref=e102]: 在线XML转Base64工具，将XML字符串UTF-8编码为Base64并可逆向解码，支持中文标签与声明头，全部本地处理...
+        - link "在线JSON转Excel工具 在线JSON转Excel工具，将JSON数组转为CSV表格，自动提取表头、处理逗号引号转义与中文，支持Excel直接打开..." [ref=e103] [cursor=pointer]:
+          - /url: /zh/json-excel
+          - generic [ref=e105]: 在线JSON转Excel工具
+          - generic [ref=e106]: 在线JSON转Excel工具，将JSON数组转为CSV表格，自动提取表头、处理逗号引号转义与中文，支持Excel直接打开...
+        - link "在线Excel转JSON工具 在线Excel转JSON工具，将CSV表格解析为JSON数组，自动识别表头、处理引号转义与数值类型推断，支持中文，本地处..." [ref=e107] [cursor=pointer]:
+          - /url: /zh/excel-json
+          - generic [ref=e109]: 在线Excel转JSON工具
+          - generic [ref=e110]: 在线Excel转JSON工具，将CSV表格解析为JSON数组，自动识别表头、处理引号转义与数值类型推断，支持中文，本地处...
+        - link "在线JSON转CSV工具 在线JSON转CSV工具，支持JSON数组转CSV表格，自动提取表头、处理引号与逗号转义，本地处理保障隐私，适用于数据导..." [ref=e111] [cursor=pointer]:
+          - /url: /zh/json-csv
+          - generic [ref=e113]: 在线JSON转CSV工具
+          - generic [ref=e114]: 在线JSON转CSV工具，支持JSON数组转CSV表格，自动提取表头、处理引号与逗号转义，本地处理保障隐私，适用于数据导...
+        - link "在线CSV转JSON工具 在线CSV转JSON工具，将CSV表格转为JSON数组，首行作表头，自动识别数字与布尔值，支持引号转义，本地处理即时转换..." [ref=e115] [cursor=pointer]:
+          - /url: /zh/csv-json
+          - generic [ref=e117]: 在线CSV转JSON工具
+          - generic [ref=e118]: 在线CSV转JSON工具，将CSV表格转为JSON数组，首行作表头，自动识别数字与布尔值，支持引号转义，本地处理即时转换...
+        - link "在线JSON转YAML工具 在线JSON转YAML工具，将JSON转为YAML格式，支持嵌套对象与数组，保持缩进与类型，本地处理即时转换，适用于配置..." [ref=e119] [cursor=pointer]:
+          - /url: /zh/json-yaml
+          - generic [ref=e121]: 在线JSON转YAML工具
+          - generic [ref=e122]: 在线JSON转YAML工具，将JSON转为YAML格式，支持嵌套对象与数组，保持缩进与类型，本地处理即时转换，适用于配置...
+        - link "在线YAML转JSON工具 在线YAML转JSON工具，将YAML配置转为JSON格式，支持缩进嵌套与列表解析，自动识别类型，本地处理保障隐私。..." [ref=e123] [cursor=pointer]:
+          - /url: /zh/yaml-json
+          - generic [ref=e125]: 在线YAML转JSON工具
+          - generic [ref=e126]: 在线YAML转JSON工具，将YAML配置转为JSON格式，支持缩进嵌套与列表解析，自动识别类型，本地处理保障隐私。...
+        - link "在线JSON转XML工具 在线JSON转XML工具，将JSON转为XML格式，自动以 root 为根节点，数组用 item 包裹，支持嵌套与转义，..." [ref=e127] [cursor=pointer]:
+          - /url: /zh/json-xml
+          - generic [ref=e129]: 在线JSON转XML工具
+          - generic [ref=e130]: 在线JSON转XML工具，将JSON转为XML格式，自动以 root 为根节点，数组用 item 包裹，支持嵌套与转义，...
+        - link "在线XML转JSON工具 在线XML转JSON工具，将XML转为JSON格式，自动解析根节点与重复标签为数组，识别数值与布尔，支持实体解码，本地处..." [ref=e131] [cursor=pointer]:
+          - /url: /zh/xml-json
+          - generic [ref=e133]: 在线XML转JSON工具
+          - generic [ref=e134]: 在线XML转JSON工具，将XML转为JSON格式，自动解析根节点与重复标签为数组，识别数值与布尔，支持实体解码，本地处...
+        - link "在线屏幕信息查看工具 在线屏幕信息查看工具，实时显示屏幕分辨率、可用区域、视口大小、设备像素比、颜色深度、像素深度、屏幕方向、宽高比等，一键复..." [ref=e135] [cursor=pointer]:
+          - /url: /zh/screen-inspector
+          - generic [ref=e137]: 在线屏幕信息查看工具
+          - generic [ref=e138]: 在线屏幕信息查看工具，实时显示屏幕分辨率、可用区域、视口大小、设备像素比、颜色深度、像素深度、屏幕方向、宽高比等，一键复...
+        - link "在线PHP序列化/反序列化工具 在线 PHP serialize/unserialize 工具，支持字符串、整数、布尔、数组与对象与 JSON 双向互转..." [ref=e139] [cursor=pointer]:
+          - /url: /zh/php-serialize
+          - generic [ref=e141]: 在线PHP序列化/反序列化工具
+          - generic [ref=e142]: 在线 PHP serialize/unserialize 工具，支持字符串、整数、布尔、数组与对象与 JSON 双向互转...
+        - link "在线PWA Manifest生成器 可视化配置 PWA manifest.json：填写 name、short_name、icons、theme_color..." [ref=e143] [cursor=pointer]:
+          - /url: /zh/pwa-manifest
+          - generic [ref=e145]: 在线PWA Manifest生成器
+          - generic [ref=e146]: 可视化配置 PWA manifest.json：填写 name、short_name、icons、theme_color...
+        - link "在线按钮CSS生成器 可视化按钮 CSS 生成器：拖动调节背景色、圆角、内边距、字号、边框、阴影等，实时预览效果，一键复制 CSS 与 HTM..." [ref=e147] [cursor=pointer]:
+          - /url: /zh/button-css
+          - generic [ref=e149]: 在线按钮CSS生成器
+          - generic [ref=e150]: 可视化按钮 CSS 生成器：拖动调节背景色、圆角、内边距、字号、边框、阴影等，实时预览效果，一键复制 CSS 与 HTM...
+        - link "在线CSS加载动画画廊 CSS 加载动画画廊：展示旋转圆环、跳动圆点、条形、脉冲、双环、骨架屏、进度条、输入中等 8 种纯 CSS 动画，带实时..." [ref=e151] [cursor=pointer]:
+          - /url: /zh/loading
+          - generic [ref=e153]: 在线CSS加载动画画廊
+          - generic [ref=e154]: CSS 加载动画画廊：展示旋转圆环、跳动圆点、条形、脉冲、双环、骨架屏、进度条、输入中等 8 种纯 CSS 动画，带实时...
+        - link "在线代码注释移除工具 在线移除代码中的注释，支持 JavaScript、Python、HTML、CSS、SQL 等多语言，自动识别 // /*..." [ref=e155] [cursor=pointer]:
+          - /url: /zh/strip-comments
+          - generic [ref=e157]: 在线代码注释移除工具
+          - generic [ref=e158]: 在线移除代码中的注释，支持 JavaScript、Python、HTML、CSS、SQL 等多语言，自动识别 // /*...
+        - link "在线HTML过滤工具 在线过滤 HTML 标签，支持移除 <script> <style>、提取纯文本、按白名单保留标签，自动解码实体与合并空..." [ref=e159] [cursor=pointer]:
+          - /url: /zh/html-filter
+          - generic [ref=e161]: 在线HTML过滤工具
+          - generic [ref=e162]: 在线过滤 HTML 标签，支持移除 <script> <style>、提取纯文本、按白名单保留标签，自动解码实体与合并空...
+        - link "在线CSV合并工具 在线合并多个 CSV 表格，自动处理表头去重与列对齐，支持不同表头并集、引号逗号转义，空行过滤，全部本地处理。..." [ref=e163] [cursor=pointer]:
+          - /url: /zh/csv-merge
+          - generic [ref=e165]: 在线CSV合并工具
+          - generic [ref=e166]: 在线合并多个 CSV 表格，自动处理表头去重与列对齐，支持不同表头并集、引号逗号转义，空行过滤，全部本地处理。...
+        - link "在线图片链接提取工具 在线从 HTML 中提取 <img> 图片链接，通过正则匹配 src 属性，支持单双引号、无引号及大小写不敏感，每行一个..." [ref=e167] [cursor=pointer]:
+          - /url: /zh/image-extract
+          - generic [ref=e169]: 在线图片链接提取工具
+          - generic [ref=e170]: 在线从 HTML 中提取 <img> 图片链接，通过正则匹配 src 属性，支持单双引号、无引号及大小写不敏感，每行一个...
+        - link "在线折线图生成器 在线折线图生成器，输入标签与数值（每行 label,value 或表头 CSV）一键生成折线图，支持曲线平滑、点标记、C..." [ref=e171] [cursor=pointer]:
+          - /url: /zh/line-chart
+          - generic [ref=e173]: 在线折线图生成器
+          - generic [ref=e174]: 在线折线图生成器，输入标签与数值（每行 label,value 或表头 CSV）一键生成折线图，支持曲线平滑、点标记、C...
+        - link "在线柱状图生成器 在线柱状图生成器，输入标签与数值快速生成柱状图，支持多色柱、圆角、数值标注、Chart.js 配置与 SVG 导出，本地..." [ref=e175] [cursor=pointer]:
+          - /url: /zh/bar-chart
+          - generic [ref=e177]: 在线柱状图生成器
+          - generic [ref=e178]: 在线柱状图生成器，输入标签与数值快速生成柱状图，支持多色柱、圆角、数值标注、Chart.js 配置与 SVG 导出，本地...
+        - link "在线饼图生成器 在线饼图生成器，输入分类与数值一键生成饼图，自动计算百分比、图例与配色，支持 Chart.js 配置导出与 SVG 下载..." [ref=e179] [cursor=pointer]:
+          - /url: /zh/pie-chart
+          - generic [ref=e181]: 在线饼图生成器
+          - generic [ref=e182]: 在线饼图生成器，输入分类与数值一键生成饼图，自动计算百分比、图例与配色，支持 Chart.js 配置导出与 SVG 下载...
+        - link "在线横向柱状图生成器 在线横向柱状图生成器，将标签与数值生成横向条形图，适合排名与对比展示，支持 Chart.js 横向配置与 SVG 导出，..." [ref=e183] [cursor=pointer]:
+          - /url: /zh/horizontal-bar-chart
+          - generic [ref=e185]: 在线横向柱状图生成器
+          - generic [ref=e186]: 在线横向柱状图生成器，将标签与数值生成横向条形图，适合排名与对比展示，支持 Chart.js 横向配置与 SVG 导出，...
+        - link "在线面积图生成器 在线面积图生成器，基于折线的填充面积图，适合展示趋势与累计效果，支持平滑填充、透明度与 Chart.js 配置导出，本地..." [ref=e187] [cursor=pointer]:
+          - /url: /zh/area-chart
+          - generic [ref=e189]: 在线面积图生成器
+          - generic [ref=e190]: 在线面积图生成器，基于折线的填充面积图，适合展示趋势与累计效果，支持平滑填充、透明度与 Chart.js 配置导出，本地...
+        - link "在线环形图生成器 在线环形图生成器，生成带中心空白的环形图，适合占比展示，支持环形切割、配色与 Chart.js 配置导出，SVG 下载，..." [ref=e191] [cursor=pointer]:
+          - /url: /zh/doughnut-chart
+          - generic [ref=e193]: 在线环形图生成器
+          - generic [ref=e194]: 在线环形图生成器，生成带中心空白的环形图，适合占比展示，支持环形切割、配色与 Chart.js 配置导出，SVG 下载，...
+        - link "在线散点图生成器 在线散点图生成器，输入 x,y 坐标点生成散点图，支持表头 x,y、数值散点与回归趋势，支持 Chart.js 散点配置..." [ref=e195] [cursor=pointer]:
+          - /url: /zh/scatter-chart
+          - generic [ref=e197]: 在线散点图生成器
+          - generic [ref=e198]: 在线散点图生成器，输入 x,y 坐标点生成散点图，支持表头 x,y、数值散点与回归趋势，支持 Chart.js 散点配置...
+        - link "在线雷达图生成器 在线雷达图生成器，多维度指标对比的蜘蛛网图，支持多系列、填充与网线，适合能力评估与对比，Chart.js 配置与 SVG..." [ref=e199] [cursor=pointer]:
+          - /url: /zh/radar-chart
+          - generic [ref=e201]: 在线雷达图生成器
+          - generic [ref=e202]: 在线雷达图生成器，多维度指标对比的蜘蛛网图，支持多系列、填充与网线，适合能力评估与对比，Chart.js 配置与 SVG...
+        - link "在线直方图生成器 在线直方图生成器，输入区间与频数生成直方图，柱间无缝适合分布展示，支持 Chart.js 直方图配置与 SVG 导出，本..." [ref=e203] [cursor=pointer]:
+          - /url: /zh/histogram-chart
+          - generic [ref=e205]: 在线直方图生成器
+          - generic [ref=e206]: 在线直方图生成器，输入区间与频数生成直方图，柱间无缝适合分布展示，支持 Chart.js 直方图配置与 SVG 导出，本...
+        - link "在线多折线图生成器 在线多折线图生成器，支持表头 Month,Series1,Series2 多系列折线对比，自动配色与图例，Chart.j..." [ref=e207] [cursor=pointer]:
+          - /url: /zh/multi-line-chart
+          - generic [ref=e209]: 在线多折线图生成器
+          - generic [ref=e210]: 在线多折线图生成器，支持表头 Month,Series1,Series2 多系列折线对比，自动配色与图例，Chart.j...
+        - link "在线堆叠面积图生成器 在线堆叠面积图生成器，多系列堆叠面积展示总量与构成，支持堆叠填充、透明度与图例，Chart.js 堆叠配置与 SVG 导..." [ref=e211] [cursor=pointer]:
+          - /url: /zh/stacked-area-chart
+          - generic [ref=e213]: 在线堆叠面积图生成器
+          - generic [ref=e214]: 在线堆叠面积图生成器，多系列堆叠面积展示总量与构成，支持堆叠填充、透明度与图例，Chart.js 堆叠配置与 SVG 导...
+        - link "在线瀑布图生成器 在线瀑布图生成器，展示增减累计过程的瀑布图，自动区分正负与总计柱，支持浮动条与 Chart.js 配置导出，SVG 下载..." [ref=e215] [cursor=pointer]:
+          - /url: /zh/waterfall-chart
+          - generic [ref=e217]: 在线瀑布图生成器
+          - generic [ref=e218]: 在线瀑布图生成器，展示增减累计过程的瀑布图，自动区分正负与总计柱，支持浮动条与 Chart.js 配置导出，SVG 下载...
+  - contentinfo [ref=e219]:
+    - generic [ref=e220]:
+      - generic [ref=e221]:
+        - heading "热门推荐" [level=4] [ref=e222]
+        - link "JSON" [ref=e223] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e224]:
+        - heading "站长工具" [level=4] [ref=e225]
+        - link "IP" [ref=e226] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e227]:
+        - heading "关于" [level=4] [ref=e228]
+        - link "关于我们" [ref=e229] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e230] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e231]:
+        - heading "合规" [level=4] [ref=e232]
+        - link "服务条款" [ref=e233] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e234] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e235]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e236]

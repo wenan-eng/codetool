@@ -4644,5 +4644,541 @@
       "pie-chart"
     ],
     "icon": "https://www.lanren-tools.com/static/images/logo-waterfall-chart.svg"
+  },
+  {
+    "id": "url-encode",
+    "title": "在线URL编码/解码工具",
+    "h1": "在线URL编码/解码工具",
+    "description": "在线 URL 编码与解码工具，基于 encodeURIComponent 标准实现，支持中文、特殊字符与 Emoji 的百分号编码（Percent-Encoding），一键互转 URL 安全字符串，适用于链接参数处理与调试，全部本地处理，保障隐私。",
+    "title_en": "Online URL Encoder / Decoder",
+    "h1_en": "Online URL Encoder / Decoder",
+    "description_en": "Encode and decode URLs with standard percent-encoding. Handles Chinese, special characters and emoji for query strings and links, with local processing, no upload.",
+    "title_es": "Codificador / Decodificador de URL en Línea",
+    "h1_es": "Codificador / Decodificador de URL en Línea",
+    "description_es": "Codifique y decodifique URLs con percent-encoding estándar. Admite chino, caracteres especiales y emoji para parámetros y enlaces, con procesamiento local sin subida.",
+    "tags": [
+      "URL编码",
+      "URL解码",
+      "百分号编码",
+      "encodeURIComponent"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-url-hex-encode.svg",
+    "faqs": [
+      {
+        "q": "什么是 URL 编码？",
+        "a": "URL 编码（百分号编码）将非字母数字字符转换为 %XX 形式，如空格变 %20、中文按 UTF-8 变 %E4%BD%A0，保证链接在网络上安全传输。"
+      },
+      {
+        "q": "编码和解码有什么区别？",
+        "a": "编码把文本转为可安全传输的 %XX 格式；解码把 %XX 还原为原始文本。粘贴内容后点击「URL 编码」或「URL 解码」即可。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有编解码均在浏览器本地完成，不上传任何数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is URL encoding?",
+        "a": "URL encoding (percent-encoding) converts non-alphanumeric characters to %XX form, e.g. space to %20, Chinese to UTF-8 bytes like %E4%BD%A0, keeping links safe in transit."
+      },
+      {
+        "q": "Difference between encode and decode?",
+        "a": "Encoding turns text into safe %XX format; decoding restores the original text. Paste content and click URL Encode or URL Decode."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all encoding and decoding runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es la codificación URL?",
+        "a": "La codificación URL (percent-encoding) convierte caracteres no alfanuméricos a forma %XX, como espacio a %20 o chino a bytes UTF-8 como %E4%BD%A0."
+      },
+      {
+        "q": "¿Diferencia entre codificar y decodificar?",
+        "a": "Codificar convierte texto a formato %XX seguro; decodificar restaura el texto original. Pegue el contenido y haga clic en Codificar o Decodificar URL."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la conversión se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "escape",
+      "utf-8",
+      "html-entity"
+    ]
+  },
+  {
+    "id": "escape",
+    "title": "在线Escape编码/解码工具",
+    "h1": "在线Escape编码/解码工具",
+    "description": "在线 Escape 编码与解码工具，实现传统 JavaScript escape()/unescape() 算法：字母数字及 @*_+-./ 保留，其余按 Latin-1 输出 %XX，宽字符输出 %uXXXX，适用于旧系统数据兼容与调试，全部本地处理。",
+    "title_en": "Online Escape Encoder / Decoder",
+    "h1_en": "Online Escape Encoder / Decoder",
+    "description_en": "Classic JavaScript escape()/unescape() implementation: alphanumerics and @*_+-./ preserved, others as %XX or %uXXXX, ideal for legacy data compatibility, fully local.",
+    "title_es": "Codificador / Decodificador Escape en Línea",
+    "h1_es": "Codificador / Decodificador Escape en Línea",
+    "description_es": "Implementación clásica de escape()/unescape() de JavaScript: conserva alfanuméricos y @*_+-./, otros como %XX o %uXXXX, procesamiento local sin subida.",
+    "tags": [
+      "Escape编码",
+      "Escape解码",
+      "unescape",
+      "%uXXXX"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-escape.svg",
+    "faqs": [
+      {
+        "q": "Escape 编码是什么？",
+        "a": "Escape 是早期 JavaScript 的编码函数：ASCII 字母数字和 @*_+-./ 原样保留，Latin-1 字符输出 %XX，中文等宽字符输出 %uXXXX，如「你」→ %u4F60。"
+      },
+      {
+        "q": "它和 URL 编码有何不同？",
+        "a": "URL 编码按 UTF-8 字节输出 %XX；Escape 对单个字符直接输出 %uXXXX，不经过 UTF-8 转换，两者结果不同但可通过本工具互解。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有编解码均在浏览器本地完成，不上传任何数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is Escape encoding?",
+        "a": "Escape is a legacy JavaScript encoder: ASCII alphanumerics and @*_+-./ stay as-is, Latin-1 chars become %XX, wide chars like Chinese become %uXXXX, e.g. 你 → %u4F60."
+      },
+      {
+        "q": "How is it different from URL encoding?",
+        "a": "URL encoding emits UTF-8 bytes as %XX; Escape outputs each char directly as %uXXXX without UTF-8 conversion. Results differ but both are decodable here."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all encoding and decoding runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es la codificación Escape?",
+        "a": "Escape es un codificador heredado de JavaScript: los alfanuméricos ASCII y @*_+-./ se conservan, Latin-1 sale como %XX y los caracteres anchos como %uXXXX, p.ej. 你 → %u4F60."
+      },
+      {
+        "q": "¿En qué difiere de la codificación URL?",
+        "a": "La codificación URL emite bytes UTF-8 como %XX; Escape emite cada carácter como %uXXXX sin conversión UTF-8. Ambos son decodificables aquí."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "url-encode",
+      "utf-8",
+      "html-entity"
+    ]
+  },
+  {
+    "id": "utf-8",
+    "title": "在线UTF-8转码工具",
+    "h1": "在线UTF-8转码工具",
+    "description": "在线 UTF-8 与中文互转工具，将中文及非 ASCII 字符转为 Unicode 转义序列（Emoji 自动拆分代理对），也可将转义序列一键还原为原文，适用于代码调试与配置文件处理，全部本地完成。",
+    "title_en": "Online UTF-8 / Unicode Converter",
+    "h1_en": "Online UTF-8 / Unicode Converter",
+    "description_en": "Convert Chinese and non-ASCII text to Unicode escape sequences (emoji split into surrogate pairs) and back, with tolerant decoding of mixed plain text, fully local.",
+    "title_es": "Conversor UTF-8 / Unicode en Línea",
+    "h1_es": "Conversor UTF-8 / Unicode en Línea",
+    "description_es": "Convierta texto chino y no ASCII a secuencias de escape Unicode (emoji divididos en pares sustitutos) y viceversa, con decodificación tolerante, procesamiento local sin subida.",
+    "tags": [
+      "UTF8编码",
+      "UTF8解码",
+      "Unicode转义",
+      "中文转码"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-html-entity.svg",
+    "faqs": [
+      {
+        "q": "Unicode 转义是什么？",
+        "a": "它是 Unicode 码位的十六进制表示形式，「你」的码位为 4F60。JavaScript、JSON、Java 等广泛使用该格式表示非 ASCII 字符。"
+      },
+      {
+        "q": "Emoji 会被如何处理？",
+        "a": "Emoji 属于增补平面字符，由两个代理对组成，编码时会拆成两个连续转义单元，解码时自动还原。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转码均在浏览器本地完成，不上传任何数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is a Unicode escape?",
+        "a": "It is the hexadecimal form of a Unicode code point; 你 has code point 4F60. JavaScript, JSON, Java and more use it to represent non-ASCII characters."
+      },
+      {
+        "q": "How is emoji handled?",
+        "a": "Emoji are supplementary-plane characters made of surrogate pairs; they split into two consecutive escape units and restore automatically on decode."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversion runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es un escape Unicode?",
+        "a": "Es la forma hexadecimal de un punto de código Unicode; 你 tiene el punto 4F60. JavaScript, JSON, Java y más lo usan para caracteres no ASCII."
+      },
+      {
+        "q": "¿Cómo se manejan los emoji?",
+        "a": "Los emoji son caracteres del plano suplementario formados por pares sustitutos; se dividen en dos unidades de escape consecutivas y se restauran al decodificar."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "url-encode",
+      "escape",
+      "html-entity"
+    ]
+  },
+  {
+    "id": "html-entity",
+    "title": "在线HTML实体编码/解码工具",
+    "h1": "在线HTML实体编码/解码工具",
+    "description": "在线 HTML 实体编码与解码工具，将 & < > \" ' 及中文等非 ASCII 字符转为命名实体或 &#xxxx; 数字实体，解码支持 40+ 常见命名实体与十进制/十六进制数字实体，防止 XSS 与标签冲突，全部本地处理。",
+    "title_en": "Online HTML Entity Encoder / Decoder",
+    "h1_en": "Online HTML Entity Encoder / Decoder",
+    "description_en": "Convert &, <, >, quotes and non-ASCII text into named or numeric HTML entities, decode 40+ named entities plus decimal/hex references, prevent XSS and tag conflicts, fully local.",
+    "title_es": "Codificador / Decodificador de Entidades HTML en Línea",
+    "h1_es": "Codificador / Decodificador de Entidades HTML en Línea",
+    "description_es": "Convierta &, <, >, comillas y texto no ASCII a entidades HTML nombradas o numéricas, decodifique 40+ entidades y referencias decimales/hex, procesamiento local sin subida.",
+    "tags": [
+      "HTML实体",
+      "HTML转义",
+      "数字实体",
+      "防XSS"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-html-entity.svg",
+    "faqs": [
+      {
+        "q": "HTML 实体是什么？",
+        "a": "HTML 实体是用 &name; 或 &#number; 表示特殊字符的写法，如 < 写作 &lt;、「你」写作 &#20320;，避免与标签语法冲突。"
+      },
+      {
+        "q": "为什么 & < > 引号要单独处理？",
+        "a": "它们是 HTML 语法保留字符，直接输出会破坏页面结构甚至引发 XSS，编码后可安全显示原文。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有编解码均在浏览器本地完成，不上传任何数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is an HTML entity?",
+        "a": "An HTML entity represents special characters as &name; or &#number;, e.g. < as &lt;, 你 as &#20320;, avoiding conflicts with tag syntax."
+      },
+      {
+        "q": "Why handle & < > and quotes specially?",
+        "a": "They are reserved HTML syntax characters; raw output can break page structure or enable XSS, so encoding them displays the original text safely."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all encoding and decoding runs locally in your browser."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es una entidad HTML?",
+        "a": "Una entidad HTML representa caracteres especiales como &name; o &#number;, p.ej. < como &lt; o 你 como &#20320;, evitando conflictos con la sintaxis de etiquetas."
+      },
+      {
+        "q": "¿Por qué tratar & < > y comillas aparte?",
+        "a": "Son caracteres reservados de la sintaxis HTML; mostrarlos sin codificar puede romper la página o provocar XSS, por eso se codifican."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, todo se procesa localmente en su navegador."
+      }
+    ],
+    "related": [
+      "url-encode",
+      "escape",
+      "utf-8"
+    ]
+  },
+  {
+    "id": "morse",
+    "title": "在线摩斯密码编码/解码工具",
+    "h1": "在线摩斯密码编码/解码工具",
+    "description": "在线摩斯密码编码与解码工具，支持 A-Z、0-9 及常用标点的标准 ITU 摩斯电码互转，字符间空格分隔、单词间斜杠分隔，未知字符自动跳过，全部本地处理，保障隐私。",
+    "title_en": "Online Morse Code Encoder / Decoder",
+    "h1_en": "Online Morse Code Encoder / Decoder",
+    "description_en": "Encode and decode standard ITU Morse code for A-Z, 0-9 and common punctuation. Spaces separate characters, slashes separate words, unknown characters are skipped, all processed locally.",
+    "title_es": "Codificador / Decodificador de Código Morse en Línea",
+    "h1_es": "Codificador / Decodificador de Código Morse en Línea",
+    "description_es": "Codifique y decodifique código Morse ITU estándar para A-Z, 0-9 y puntuación común. Los espacios separan caracteres, las barras separan palabras, los caracteres desconocidos se omiten, todo procesado localmente.",
+    "tags": [
+      "摩斯密码",
+      "摩斯电码",
+      "编码解码",
+      "电报码"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-morse.svg",
+    "faqs": [
+      {
+        "q": "什么是摩斯密码？",
+        "a": "摩斯密码（Morse code）用点（.）和划（-）的组合表示字母数字，是经典的电报编码方式。本工具采用标准 ITU 摩斯表。"
+      },
+      {
+        "q": "如何区分字符和单词？",
+        "a": "编码结果中字符之间用空格分隔，单词之间用「 / 」分隔，例如 SOS 编码为 ... --- ...。"
+      },
+      {
+        "q": "支持中文吗？",
+        "a": "标准摩斯电码不包含中文，输入中的中文等未定义字符会在编码时自动跳过，仅转换 A-Z、0-9 及常用标点。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "What is Morse code?",
+        "a": "Morse code represents letters and digits with combinations of dots (.) and dashes (-), the classic telegraph encoding. This tool uses the standard ITU table."
+      },
+      {
+        "q": "How are characters and words separated?",
+        "a": "In encoded output, characters are separated by spaces and words by \" / \", e.g. SOS encodes to ... --- ... ."
+      },
+      {
+        "q": "Does it support Chinese?",
+        "a": "Standard Morse code has no Chinese. Undefined characters such as Chinese are skipped during encoding; only A-Z, 0-9 and common punctuation are converted."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Qué es el código Morse?",
+        "a": "El código Morse representa letras y dígitos con combinaciones de puntos (.) y rayas (-), la codificación telegráfica clásica. Esta herramienta usa la tabla ITU estándar."
+      },
+      {
+        "q": "¿Cómo se separan caracteres y palabras?",
+        "a": "En la salida codificada, los caracteres se separan con espacios y las palabras con \" / \", por ejemplo SOS se codifica como ... --- ... ."
+      },
+      {
+        "q": "¿Soporta chino?",
+        "a": "El código Morse estándar no incluye chino. Los caracteres no definidos se omiten al codificar; solo se convierten A-Z, 0-9 y puntuación común."
+      }
+    ],
+    "related": [
+      "text-hex",
+      "text-octal",
+      "text-bin"
+    ]
+  },
+  {
+    "id": "text-hex",
+    "title": "在线文本与十六进制互转工具",
+    "h1": "在线文本与十六进制互转工具",
+    "description": "在线文本与十六进制互转工具，基于 UTF-8 编码将任意文本（含中文、emoji）转为十六进制字节序列，字节值两位补零、空格分隔，支持双向转换与容错解析，全部本地处理。",
+    "title_en": "Online Text to Hexadecimal Converter",
+    "h1_en": "Online Text to Hexadecimal Converter",
+    "description_en": "Convert any text (Chinese, emoji included) to UTF-8 hexadecimal byte sequences and back. Two-digit zero-padded bytes separated by spaces, tolerant parsing, fully local processing.",
+    "title_es": "Conversor de Texto a Hexadecimal en Línea",
+    "h1_es": "Conversor de Texto a Hexadecimal en Línea",
+    "description_es": "Convierta cualquier texto (incluido chino y emoji) a secuencias de bytes hexadecimales UTF-8 y viceversa. Bytes de dos dígitos con ceros separados por espacios, análisis tolerante, procesamiento local.",
+    "tags": [
+      "文本转十六进制",
+      "十六进制转文本",
+      "UTF-8",
+      "进制转换"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-text-hex.svg",
+    "faqs": [
+      {
+        "q": "中文是如何转换的？",
+        "a": "工具先将文本按 UTF-8 编码为字节序列，再把每个字节转为两位十六进制数，例如「你」编码为 E4 BD A0。"
+      },
+      {
+        "q": "支持哪些输入格式？",
+        "a": "解码时容忍空格或逗号分隔、大小写混合的十六进制串；遇到非法字节会给出明确错误提示。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换均在浏览器本地完成，不上传任何数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "How is Chinese converted?",
+        "a": "Text is first encoded as UTF-8 bytes, then each byte becomes a two-digit hex value, e.g. 你 encodes to E4 BD A0."
+      },
+      {
+        "q": "Which input formats are supported?",
+        "a": "Decoding tolerates space or comma separators and mixed-case hex; invalid bytes produce a clear error message."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversion runs locally in your browser, nothing is uploaded."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Cómo se convierte el chino?",
+        "a": "El texto primero se codifica en bytes UTF-8 y cada byte se convierte en un valor hex de dos dígitos, p. ej. 你 se codifica como E4 BD A0."
+      },
+      {
+        "q": "¿Qué formatos de entrada admite?",
+        "a": "La decodificación tolera separadores de espacio o coma y hex en mayúsculas/minúsculas; los bytes inválidos generan un mensaje de error claro."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la conversión se ejecuta localmente en su navegador, no se sube nada."
+      }
+    ],
+    "related": [
+      "morse",
+      "text-octal",
+      "text-bin"
+    ]
+  },
+  {
+    "id": "text-octal",
+    "title": "在线文本与八进制互转工具",
+    "h1": "在线文本与八进制互转工具",
+    "description": "在线文本与八进制互转工具，基于 UTF-8 编码将任意文本（含中文、emoji）转为八进制字节序列，字节值三位补零、空格分隔，支持双向转换与容错解析，全部本地处理。",
+    "title_en": "Online Text to Octal Converter",
+    "h1_en": "Online Text to Octal Converter",
+    "description_en": "Convert any text (Chinese, emoji included) to UTF-8 octal byte sequences and back. Three-digit zero-padded bytes separated by spaces, tolerant parsing, fully local processing.",
+    "title_es": "Conversor de Texto a Octal en Línea",
+    "h1_es": "Conversor de Texto a Octal en Línea",
+    "description_es": "Convierta cualquier texto (incluido chino y emoji) a secuencias de bytes octales UTF-8 y viceversa. Bytes de tres dígitos con ceros separados por espacios, análisis tolerante, procesamiento local.",
+    "tags": [
+      "文本转八进制",
+      "八进制转文本",
+      "UTF-8",
+      "进制转换"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-text-octal.svg",
+    "faqs": [
+      {
+        "q": "八进制输出为什么是三位一组？",
+        "a": "一个字节最大为 255，即八进制 377，恰好三位，因此每个字节固定补零到三位，便于对齐阅读。"
+      },
+      {
+        "q": "和十六进制互转有什么区别？",
+        "a": "两者都基于 UTF-8 字节，仅表示进制不同：八进制每位只有 0-7，同样内容位数更多，常用于 Unix 权限等场景的习惯表达。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换均在浏览器本地完成，不上传任何数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Why is octal output three digits per group?",
+        "a": "A byte maxes at 255, which is octal 377 — exactly three digits — so each byte is zero-padded to three digits for alignment."
+      },
+      {
+        "q": "How does it differ from hexadecimal conversion?",
+        "a": "Both use UTF-8 bytes, only the base differs: octal digits are 0-7 and need more positions, commonly seen in Unix permission notation."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversion runs locally in your browser, nothing is uploaded."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Por qué la salida octal tiene tres dígitos por grupo?",
+        "a": "Un byte llega como máximo a 255, es decir 377 en octal — exactamente tres dígitos — por eso cada byte se rellena con ceros a tres dígitos."
+      },
+      {
+        "q": "¿En qué difiere de la conversión hexadecimal?",
+        "a": "Ambos usan bytes UTF-8, solo cambia la base: los dígitos octales son 0-7 y requieren más posiciones, comunes en permisos Unix."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la conversión se ejecuta localmente en su navegador, no se sube nada."
+      }
+    ],
+    "related": [
+      "morse",
+      "text-hex",
+      "text-bin"
+    ]
+  },
+  {
+    "id": "text-bin",
+    "title": "在线文本与二进制互转工具",
+    "h1": "在线文本与二进制互转工具",
+    "description": "在线文本与二进制互转工具，基于 UTF-8 编码将任意文本（含中文、emoji）转为二进制位串，每字节八位补零、空格分隔，支持双向转换与容错解析，全部本地处理。",
+    "title_en": "Online Text to Binary Converter",
+    "h1_en": "Online Text to Binary Converter",
+    "description_en": "Convert any text (Chinese, emoji included) to UTF-8 binary bit strings and back. Eight-bit zero-padded bytes separated by spaces, tolerant parsing, fully local processing.",
+    "title_es": "Conversor de Texto a Binario en Línea",
+    "h1_es": "Conversor de Texto a Binario en Línea",
+    "description_es": "Convierta cualquier texto (incluido chino y emoji) a cadenas binarias UTF-8 y viceversa. Bytes de ocho bits con ceros separados por espacios, análisis tolerante, procesamiento local.",
+    "tags": [
+      "文本转二进制",
+      "二进制转文本",
+      "UTF-8",
+      "进制转换"
+    ],
+    "category": "编码转换",
+    "icon": "https://www.lanren-tools.com/static/images/logo-text-bin.svg",
+    "faqs": [
+      {
+        "q": "二进制输出为什么是八位一组？",
+        "a": "一个字节等于 8 个比特，因此每个 UTF-8 字节固定显示为 8 位二进制数，例如大写字母 A 为 01000001。"
+      },
+      {
+        "q": "一个汉字占多少位？",
+        "a": "常用汉字在 UTF-8 中占 3 个字节即 24 位二进制，例如「你」为 11100100 10111101 10100000。"
+      },
+      {
+        "q": "会被上传吗？",
+        "a": "不会，所有转换均在浏览器本地完成，不上传任何数据。"
+      }
+    ],
+    "faqs_en": [
+      {
+        "q": "Why is binary output grouped in eights?",
+        "a": "One byte equals 8 bits, so each UTF-8 byte is shown as an 8-bit binary number, e.g. capital A is 01000001."
+      },
+      {
+        "q": "How many bits does a Chinese character take?",
+        "a": "Common Chinese characters take 3 UTF-8 bytes, i.e. 24 bits, e.g. 你 is 11100100 10111101 10100000."
+      },
+      {
+        "q": "Will my data be uploaded?",
+        "a": "No, all conversion runs locally in your browser, nothing is uploaded."
+      }
+    ],
+    "faqs_es": [
+      {
+        "q": "¿Por qué la salida binaria se agrupa de a ocho?",
+        "a": "Un byte equivale a 8 bits, así que cada byte UTF-8 se muestra como un número binario de 8 bits, p. ej. la letra A es 01000001."
+      },
+      {
+        "q": "¿Cuántos bits ocupa un carácter chino?",
+        "a": "Los caracteres chinos comunes ocupan 3 bytes UTF-8, es decir 24 bits, p. ej. 你 es 11100100 10111101 10100000."
+      },
+      {
+        "q": "¿Se subirán mis datos?",
+        "a": "No, toda la conversión se ejecuta localmente en su navegador, no se sube nada."
+      }
+    ],
+    "related": [
+      "morse",
+      "text-hex",
+      "text-octal"
+    ]
   }
 ]

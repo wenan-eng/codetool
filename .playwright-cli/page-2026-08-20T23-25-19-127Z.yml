@@ -1,0 +1,155 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/button-css
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/button-css
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/button-css
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "在线按钮CSS生成器" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: 按钮CSS
+          - generic [ref=e21]: CSS生成器
+          - generic [ref=e22]: 样式预览
+          - generic [ref=e23]: 前端工具
+        - paragraph [ref=e24]: 可视化按钮 CSS 生成器：拖动调节背景色、圆角、内边距、字号、边框、阴影等，实时预览效果，一键复制 CSS 与 HTML，本地处理即时生效。
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: 按钮 CSS 生成器
+          - button "重置" [ref=e29] [cursor=pointer]
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - text: 按钮文字
+              - textbox "按钮文字" [ref=e33]: Button
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - text: 背景色
+                - generic [ref=e36]:
+                  - 'textbox "背景色 #3b82f6" [ref=e37]': "#3b82f6"
+                  - textbox [ref=e38]: "#3b82f6"
+              - generic [ref=e39]:
+                - text: 文字颜色
+                - generic [ref=e40]:
+                  - 'textbox "文字颜色 #ffffff" [ref=e41]': "#ffffff"
+                  - textbox [ref=e42]: "#ffffff"
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - text: 边框颜色
+                - generic [ref=e45]:
+                  - 'textbox "边框颜色 #3b82f6" [ref=e46]': "#3b82f6"
+                  - textbox [ref=e47]: "#3b82f6"
+              - generic [ref=e48]:
+                - text: 悬停背景
+                - generic [ref=e49]:
+                  - 'textbox "悬停背景 #2563eb" [ref=e50]': "#2563eb"
+                  - textbox [ref=e51]: "#2563eb"
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - generic [ref=e54]: 圆角
+                - generic [ref=e55]: 8px
+              - slider "圆角 8px" [ref=e56]: "8"
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - generic [ref=e59]: 纵向内边距
+                - generic [ref=e60]: 10px
+              - slider "纵向内边距 10px" [ref=e61]: "10"
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: 横向内边距
+                - generic [ref=e65]: 20px
+              - slider "横向内边距 20px" [ref=e66]: "20"
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - generic [ref=e69]: 字号
+                - generic [ref=e70]: 14px
+              - slider "字号 14px" [ref=e71]: "14"
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e74]: 边框宽度 (px)
+                - spinbutton "边框宽度 (px)" [ref=e75]: "1"
+              - generic [ref=e76]:
+                - text: 字重
+                - combobox "字重" [ref=e77]:
+                  - option "400"
+                  - option "500"
+                  - option "600" [selected]
+                  - option "700"
+            - generic [ref=e78]:
+              - text: 阴影
+              - textbox "阴影" [ref=e79]:
+                - /placeholder: 0 2px 8px rgba(0,0,0,0.15)
+                - text: 0 2px 8px rgba(59,130,246,0.3)
+          - generic [ref=e80]:
+            - button "Button" [ref=e82] [cursor=pointer]
+            - generic [ref=e83]:
+              - generic [ref=e84]: CSS 输出
+              - generic [ref=e85]:
+                - button "复制 CSS" [ref=e86] [cursor=pointer]
+                - button "复制 HTML" [ref=e87] [cursor=pointer]
+            - textbox [ref=e88]: ".btn { display: inline-flex; align-items: center; justify-content: center; background-color: #3b82f6; color: #ffffff; border: 1px solid #3b82f6; border-radius: 8px; padding: 10px 20px; font-size: 14px; font-weight: 600; box-shadow: 0 2px 8px rgba(59,130,246,0.3); transition: all 0.2s ease; cursor: pointer; } .btn:hover { background-color: #2563eb; color: #ffffff; } <button class=\"btn\">Button</button>"
+            - generic [ref=e89]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e90]:
+        - heading "使用说明" [level=2] [ref=e91]
+        - list [ref=e92]:
+          - listitem [ref=e93]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e94]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e95]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e96]: 所有操作本地完成，保障隐私
+      - generic [ref=e97]:
+        - heading "同类推荐" [level=2] [ref=e98]
+        - generic [ref=e99]:
+          - link "pwa-manifest" [ref=e100] [cursor=pointer]:
+            - /url: /zh/pwa-manifest
+          - link "loading" [ref=e101] [cursor=pointer]:
+            - /url: /zh/loading
+          - link "css-formatter" [ref=e102] [cursor=pointer]:
+            - /url: /zh/css-formatter
+      - generic [ref=e103]:
+        - heading "常见问题" [level=2] [ref=e104]
+        - group [ref=e105]:
+          - generic "按钮 CSS 生成器做什么？" [ref=e106] [cursor=pointer]
+        - group [ref=e107]:
+          - generic "如何复制结果？" [ref=e108] [cursor=pointer]
+        - group [ref=e109]:
+          - generic "支持悬停效果吗？" [ref=e110] [cursor=pointer]
+        - group [ref=e111]:
+          - generic "会被上传吗？" [ref=e112] [cursor=pointer]
+  - contentinfo [ref=e113]:
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "热门推荐" [level=4] [ref=e116]
+        - link "JSON" [ref=e117] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e118]:
+        - heading "站长工具" [level=4] [ref=e119]
+        - link "IP" [ref=e120] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e121]:
+        - heading "关于" [level=4] [ref=e122]
+        - link "关于我们" [ref=e123] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e124] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e125]:
+        - heading "合规" [level=4] [ref=e126]
+        - link "服务条款" [ref=e127] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e128] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e129]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e130]

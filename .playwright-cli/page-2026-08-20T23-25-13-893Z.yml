@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - generic "即将上线" [ref=e7]: 文本处理
+        - generic "即将上线" [ref=e8]: 编码加密
+      - generic [ref=e9]:
+        - generic [ref=e10]: 搜索工具
+        - generic [ref=e11]:
+          - link "中文" [ref=e12] [cursor=pointer]:
+            - /url: /zh/php-serialize
+          - link "English" [ref=e13] [cursor=pointer]:
+            - /url: /en/php-serialize
+          - link "Español" [ref=e14] [cursor=pointer]:
+            - /url: /es/php-serialize
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "在线PHP序列化/反序列化工具" [level=1] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: PHP序列化
+          - generic [ref=e21]: 反序列化
+          - generic [ref=e22]: JSON转PHP
+          - generic [ref=e23]: PHP工具
+        - paragraph [ref=e24]: 在线 PHP serialize/unserialize 工具，支持字符串、整数、布尔、数组与对象与 JSON 双向互转，自动处理 UTF-8 字节长度，本地处理保障隐私。
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - button "JSON转PHP序列化" [ref=e28] [cursor=pointer]
+          - button "PHP反序列化转JSON" [ref=e29] [cursor=pointer]
+          - button "查看JSON示例" [ref=e30] [cursor=pointer]
+          - button "查看PHP示例" [ref=e31] [cursor=pointer]
+          - button "清空数据" [ref=e32] [cursor=pointer]
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - generic [ref=e36]: JSON
+              - button "复制结果" [ref=e37] [cursor=pointer]
+            - 'textbox "请输入 JSON，如 {\"a\":1,\"b\":[2,3]}" [ref=e38]'
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]: PHP序列化
+              - button "复制结果" [ref=e42] [cursor=pointer]
+            - 'textbox "请输入 PHP 序列化字符串，如 a:2:{i:0;s:3:\"foo\";i:1;s:3:\"bar\";}" [ref=e43]'
+        - generic [ref=e44]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e45]:
+        - heading "使用说明" [level=2] [ref=e46]
+        - list [ref=e47]:
+          - listitem [ref=e48]: 粘贴或输入任意合法 JSON，支持嵌套、数组、转义
+          - listitem [ref=e49]: 点击“JSON美化”自动缩进换行
+          - listitem [ref=e50]: 点击“JSON压缩”移除空白为单行
+          - listitem [ref=e51]: 所有操作本地完成，保障隐私
+      - generic [ref=e52]:
+        - heading "同类推荐" [level=2] [ref=e53]
+        - generic [ref=e54]:
+          - link "json-formatter" [ref=e55] [cursor=pointer]:
+            - /url: /zh/json-formatter
+          - link "json-flatten" [ref=e56] [cursor=pointer]:
+            - /url: /zh/json-flatten
+          - link "json-base64" [ref=e57] [cursor=pointer]:
+            - /url: /zh/json-base64
+      - generic [ref=e58]:
+        - heading "常见问题" [level=2] [ref=e59]
+        - group [ref=e60]:
+          - generic "什么是 PHP 序列化？" [ref=e61] [cursor=pointer]
+        - group [ref=e62]:
+          - generic "如何 JSON 转 PHP 序列化？" [ref=e63] [cursor=pointer]
+        - group [ref=e64]:
+          - generic "支持哪些类型？" [ref=e65] [cursor=pointer]
+        - group [ref=e66]:
+          - generic "会被上传吗？" [ref=e67] [cursor=pointer]
+  - contentinfo [ref=e68]:
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - heading "热门推荐" [level=4] [ref=e71]
+        - link "JSON" [ref=e72] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e73]:
+        - heading "站长工具" [level=4] [ref=e74]
+        - link "IP" [ref=e75] [cursor=pointer]:
+          - /url: /zh/myip
+      - generic [ref=e76]:
+        - heading "关于" [level=4] [ref=e77]
+        - link "关于我们" [ref=e78] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e79] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e80]:
+        - heading "合规" [level=4] [ref=e81]
+        - link "服务条款" [ref=e82] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e83] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e84]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e85]
