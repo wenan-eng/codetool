@@ -88,7 +88,25 @@
     "related": [
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json.svg",
+    "usage": [
+      "将需要处理的代码粘贴到输入框",
+      "点击功能按钮自动完成格式化与清理",
+      "复制输出结果直接使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the code into the input area",
+      "Click the action button to format or clean automatically",
+      "Copy the output and use it right away",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el código en el área de entrada",
+      "Pulse el botón para formatear o limpiar automáticamente",
+      "Copie el resultado y úselo de inmediato",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "hex-converter",
@@ -181,7 +199,25 @@
       "timestamp",
       "camel"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-binary.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-binary.svg",
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "html-escape",
@@ -273,7 +309,25 @@
       "camel",
       "hex-converter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-html-escape.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-html-escape.svg",
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "datetime-converter",
@@ -366,7 +420,25 @@
       "camel",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-datetime-converter.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-datetime-converter.svg",
+    "usage": [
+      "输入时间戳或日期时间字符串",
+      "自动双向换算本地与 UTC 时间",
+      "切换秒/毫秒精度后复制结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Enter a timestamp or date-time string",
+      "Converts both ways between local time and UTC",
+      "Switch second/millisecond precision and copy",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Introduzca una marca de tiempo o fecha-hora",
+      "Convierte en ambos sentidos entre hora local y UTC",
+      "Cambie la precisión segundos/milisegundos y copie",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "camel",
@@ -458,7 +530,25 @@
       "json-formatter",
       "hex-converter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-camel.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-camel.svg",
+    "usage": [
+      "输入变量名、短语或多行列表",
+      "选择 camelCase、snake_case 等目标风格",
+      "逐行批量转换后一键复制",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Type names, phrases, or a multi-line list",
+      "Pick camelCase, snake_case or other target style",
+      "Batch-convert every line and copy at once",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Escriba nombres, frases o una lista multilínea",
+      "Elija camelCase, snake_case u otro estilo",
+      "Convierta todas las líneas y cópielas",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "json-flatten",
@@ -551,7 +641,25 @@
       "json-sort",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-flatten.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-flatten.svg",
+    "usage": [
+      "粘贴需要处理的 JSON 数据",
+      "按需选择操作选项并点击执行",
+      "复制结构化后的 JSON 结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the JSON data to process",
+      "Choose options and run the operation",
+      "Copy the restructured JSON result",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos JSON a procesar",
+      "Elija las opciones y ejecute la operación",
+      "Copie el JSON reestructurado",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "json-unflatten",
@@ -644,7 +752,25 @@
       "json-sort",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-unflatten.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-unflatten.svg",
+    "usage": [
+      "粘贴需要处理的 JSON 数据",
+      "按需选择操作选项并点击执行",
+      "复制结构化后的 JSON 结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the JSON data to process",
+      "Choose options and run the operation",
+      "Copy the restructured JSON result",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos JSON a procesar",
+      "Elija las opciones y ejecute la operación",
+      "Copie el JSON reestructurado",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "json-sort",
@@ -737,7 +863,25 @@
       "json-unflatten",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-sort.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-sort.svg",
+    "usage": [
+      "粘贴需要处理的 JSON 数据",
+      "按需选择操作选项并点击执行",
+      "复制结构化后的 JSON 结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the JSON data to process",
+      "Choose options and run the operation",
+      "Copy the restructured JSON result",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos JSON a procesar",
+      "Elija las opciones y ejecute la operación",
+      "Copie el JSON reestructurado",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "timestamp",
@@ -830,7 +974,25 @@
       "hex-converter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-timestamp.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-timestamp.svg",
+    "usage": [
+      "输入时间戳或日期时间字符串",
+      "自动双向换算本地与 UTC 时间",
+      "切换秒/毫秒精度后复制结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Enter a timestamp or date-time string",
+      "Converts both ways between local time and UTC",
+      "Switch second/millisecond precision and copy",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Introduzca una marca de tiempo o fecha-hora",
+      "Convierte en ambos sentidos entre hora local y UTC",
+      "Cambie la precisión segundos/milisegundos y copie",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "timestamp-batch",
@@ -923,7 +1085,25 @@
       "hex-converter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-timestamp-batch.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-timestamp-batch.svg",
+    "usage": [
+      "输入时间戳或日期时间字符串",
+      "自动双向换算本地与 UTC 时间",
+      "切换秒/毫秒精度后复制结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Enter a timestamp or date-time string",
+      "Converts both ways between local time and UTC",
+      "Switch second/millisecond precision and copy",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Introduzca una marca de tiempo o fecha-hora",
+      "Convierte en ambos sentidos entre hora local y UTC",
+      "Cambie la precisión segundos/milisegundos y copie",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "js-formatter",
@@ -1016,7 +1196,25 @@
       "css-formatter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-js-formatter.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-js-formatter.svg",
+    "usage": [
+      "将需要处理的代码粘贴到输入框",
+      "点击功能按钮自动完成格式化与清理",
+      "复制输出结果直接使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the code into the input area",
+      "Click the action button to format or clean automatically",
+      "Copy the output and use it right away",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el código en el área de entrada",
+      "Pulse el botón para formatear o limpiar automáticamente",
+      "Copie el resultado y úselo de inmediato",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "html-formatter",
@@ -1109,7 +1307,25 @@
       "css-formatter",
       "html-escape"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-html.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-html.svg",
+    "usage": [
+      "将需要处理的代码粘贴到输入框",
+      "点击功能按钮自动完成格式化与清理",
+      "复制输出结果直接使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the code into the input area",
+      "Click the action button to format or clean automatically",
+      "Copy the output and use it right away",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el código en el área de entrada",
+      "Pulse el botón para formatear o limpiar automáticamente",
+      "Copie el resultado y úselo de inmediato",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "css-formatter",
@@ -1202,7 +1418,25 @@
       "html-formatter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-css3.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-css3.svg",
+    "usage": [
+      "将需要处理的代码粘贴到输入框",
+      "点击功能按钮自动完成格式化与清理",
+      "复制输出结果直接使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the code into the input area",
+      "Click the action button to format or clean automatically",
+      "Copy the output and use it right away",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el código en el área de entrada",
+      "Pulse el botón para formatear o limpiar automáticamente",
+      "Copie el resultado y úselo de inmediato",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "sql-format",
@@ -1295,7 +1529,25 @@
       "js-formatter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-sql.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-sql.svg",
+    "usage": [
+      "将需要处理的代码粘贴到输入框",
+      "点击功能按钮自动完成格式化与清理",
+      "复制输出结果直接使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the code into the input area",
+      "Click the action button to format or clean automatically",
+      "Copy the output and use it right away",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el código en el área de entrada",
+      "Pulse el botón para formatear o limpiar automáticamente",
+      "Copie el resultado y úselo de inmediato",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "yaml-formatter",
@@ -1388,7 +1640,25 @@
       "js-formatter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-yaml-formatter.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-yaml-formatter.svg",
+    "usage": [
+      "将需要处理的代码粘贴到输入框",
+      "点击功能按钮自动完成格式化与清理",
+      "复制输出结果直接使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the code into the input area",
+      "Click the action button to format or clean automatically",
+      "Copy the output and use it right away",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el código en el área de entrada",
+      "Pulse el botón para formatear o limpiar automáticamente",
+      "Copie el resultado y úselo de inmediato",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "json-sql",
@@ -1481,7 +1751,25 @@
       "json-excel",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-sql.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-sql.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "sql-json",
@@ -1574,7 +1862,25 @@
       "excel-json",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-sql-json.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-sql-json.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "json-cookie",
@@ -1667,7 +1973,25 @@
       "json-formatter",
       "html-escape"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-cookie.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-cookie.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "cookie-json",
@@ -1760,7 +2084,25 @@
       "json-formatter",
       "html-escape"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-cookie-json.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-cookie-json.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "json-base64",
@@ -1853,7 +2195,25 @@
       "json-formatter",
       "hex-converter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-base64.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-base64.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "xml-base64",
@@ -1946,7 +2306,25 @@
       "html-escape",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-xml-base64.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-xml-base64.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "json-excel",
@@ -2039,7 +2417,25 @@
       "json-sql",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-excel.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-excel.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "excel-json",
@@ -2132,7 +2528,25 @@
       "sql-json",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-excel-json.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-excel-json.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "json-csv",
@@ -2225,7 +2639,25 @@
       "json-yaml",
       "json-xml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-csv.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-csv.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "csv-json",
@@ -2318,7 +2750,25 @@
       "json-yaml",
       "json-xml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-csv-json.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-csv-json.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "json-yaml",
@@ -2411,7 +2861,25 @@
       "json-csv",
       "json-xml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-yaml.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-yaml.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "yaml-json",
@@ -2504,7 +2972,25 @@
       "json-csv",
       "json-xml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-yaml-json.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-yaml-json.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "json-xml",
@@ -2597,7 +3083,25 @@
       "json-csv",
       "json-yaml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-xml.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-json-xml.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "xml-json",
@@ -2690,7 +3194,25 @@
       "json-csv",
       "json-yaml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-xml-json.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-xml-json.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "screen-inspector",
@@ -2783,7 +3305,25 @@
       "timestamp",
       "hex-converter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-screen-inspector.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-screen-inspector.svg",
+    "usage": [
+      "打开页面即自动采集当前环境信息",
+      "查看屏幕、系统、浏览器等参数明细",
+      "调试适配问题时对照参考",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Environment info is collected the moment you open the page",
+      "Inspect screen, OS and browser details",
+      "Handy reference while debugging responsive issues",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "La información se recopila al abrir la página",
+      "Consulte pantalla, sistema y navegador",
+      "Útil al depurar problemas de adaptación",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "php-serialize",
@@ -2876,7 +3416,25 @@
       "json-flatten",
       "json-base64"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-php-serialize.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-php-serialize.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "pwa-manifest",
@@ -2969,7 +3527,25 @@
       "json-formatter",
       "html-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-pwa-manifest.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-pwa-manifest.svg",
+    "usage": [
+      "调整颜色、圆角、动画速度等参数",
+      "在预览区实时查看视觉效果",
+      "复制生成的 CSS/JSON 配置到项目使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Tweak color, radius, animation speed and more",
+      "Watch the live preview update",
+      "Copy the generated CSS/JSON into your project",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Ajuste color, radio, velocidad de animación y más",
+      "Vea la vista previa en vivo",
+      "Copie el CSS/JSON generado en su proyecto",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "button-css",
@@ -3062,7 +3638,25 @@
       "loading",
       "css-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-button-css.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-button-css.svg",
+    "usage": [
+      "调整颜色、圆角、动画速度等参数",
+      "在预览区实时查看视觉效果",
+      "复制生成的 CSS/JSON 配置到项目使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Tweak color, radius, animation speed and more",
+      "Watch the live preview update",
+      "Copy the generated CSS/JSON into your project",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Ajuste color, radio, velocidad de animación y más",
+      "Vea la vista previa en vivo",
+      "Copie el CSS/JSON generado en su proyecto",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "loading",
@@ -3155,7 +3749,25 @@
       "pwa-manifest",
       "css-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-loading.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-loading.svg",
+    "usage": [
+      "调整颜色、圆角、动画速度等参数",
+      "在预览区实时查看视觉效果",
+      "复制生成的 CSS/JSON 配置到项目使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Tweak color, radius, animation speed and more",
+      "Watch the live preview update",
+      "Copy the generated CSS/JSON into your project",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Ajuste color, radio, velocidad de animación y más",
+      "Vea la vista previa en vivo",
+      "Copie el CSS/JSON generado en su proyecto",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "strip-comments",
@@ -3248,7 +3860,25 @@
       "js-formatter",
       "css-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-strip-comments.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-strip-comments.svg",
+    "usage": [
+      "将需要处理的代码粘贴到输入框",
+      "点击功能按钮自动完成格式化与清理",
+      "复制输出结果直接使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the code into the input area",
+      "Click the action button to format or clean automatically",
+      "Copy the output and use it right away",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el código en el área de entrada",
+      "Pulse el botón para formatear o limpiar automáticamente",
+      "Copie el resultado y úselo de inmediato",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "html-filter",
@@ -3341,7 +3971,25 @@
       "image-extract",
       "html-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-html-filter.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-html-filter.svg",
+    "usage": [
+      "将需要处理的代码粘贴到输入框",
+      "点击功能按钮自动完成格式化与清理",
+      "复制输出结果直接使用",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the code into the input area",
+      "Click the action button to format or clean automatically",
+      "Copy the output and use it right away",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el código en el área de entrada",
+      "Pulse el botón para formatear o limpiar automáticamente",
+      "Copie el resultado y úselo de inmediato",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "csv-merge",
@@ -3434,7 +4082,25 @@
       "image-extract",
       "strip-comments"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-csv-merge.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-csv-merge.svg",
+    "usage": [
+      "在左侧输入框粘贴源数据",
+      "确认目标格式后点击转换按钮",
+      "复制或下载右侧的转换结果",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste the source data into the left panel",
+      "Confirm the target format and click Convert",
+      "Copy or download the result from the right panel",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue los datos de origen en el panel izquierdo",
+      "Confirme el formato de destino y pulse Convertir",
+      "Copie o descargue el resultado del panel derecho",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "image-extract",
@@ -3527,7 +4193,25 @@
       "csv-merge",
       "html-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-extract.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-image-extract.svg",
+    "usage": [
+      "粘贴网页 HTML 源码或 URL 列表",
+      "自动提取全部图片链接并去重",
+      "逐张预览并批量复制地址",
+      "所有解析与处理均在浏览器本地完成，代码不会上传服务器"
+    ],
+    "usage_en": [
+      "Paste page HTML or a list of URLs",
+      "All image links are extracted and deduplicated",
+      "Preview each image and batch-copy addresses",
+      "All processing runs locally in your browser; your code is never uploaded"
+    ],
+    "usage_es": [
+      "Pegue el HTML de la página o una lista de URL",
+      "Extrae y deduplica todos los enlaces de imagen",
+      "Previsualice cada imagen y copie en lote",
+      "Todo el procesamiento ocurre localmente en su navegador; su código nunca se sube"
+    ]
   },
   {
     "id": "line-chart",
@@ -3620,7 +4304,25 @@
       "pie-chart",
       "horizontal-bar-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-line-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-line-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "bar-chart",
@@ -3713,7 +4415,25 @@
       "pie-chart",
       "horizontal-bar-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-bar-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-bar-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "pie-chart",
@@ -3806,7 +4526,25 @@
       "bar-chart",
       "horizontal-bar-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-pie-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-pie-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "horizontal-bar-chart",
@@ -3899,7 +4637,25 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-horizontal-bar-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-horizontal-bar-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "area-chart",
@@ -3992,7 +4748,25 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-area-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-area-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "doughnut-chart",
@@ -4085,7 +4859,25 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-doughnut-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-doughnut-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "scatter-chart",
@@ -4178,7 +4970,25 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-scatter-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-scatter-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "radar-chart",
@@ -4271,7 +5081,25 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-radar-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-radar-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "histogram-chart",
@@ -4364,7 +5192,25 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-histogram-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-histogram-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "multi-line-chart",
@@ -4457,7 +5303,25 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-multi-line-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-multi-line-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "stacked-area-chart",
@@ -4550,7 +5414,25 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-stacked-area-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-stacked-area-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "waterfall-chart",
@@ -4643,7 +5525,25 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-waterfall-chart.svg"
+    "icon": "https://www.lanren-tools.com/static/images/logo-waterfall-chart.svg",
+    "usage": [
+      "在数据编辑器中修改分类与数值",
+      "图表随数据实时重绘",
+      "导出 PNG 或复制图表配置",
+      "图表由你的数据在本地实时渲染，数据不出设备"
+    ],
+    "usage_en": [
+      "Edit categories and values in the data editor",
+      "The chart redraws in real time",
+      "Export as PNG or copy the chart configuration",
+      "Charts render locally from your data — nothing leaves your device"
+    ],
+    "usage_es": [
+      "Edite categorías y valores en el editor",
+      "El gráfico se redibuja en tiempo real",
+      "Exporte a PNG o copie la configuración",
+      "Los gráficos se generan localmente con sus datos — nada sale de su dispositivo"
+    ]
   },
   {
     "id": "url-encode",
@@ -4710,6 +5610,24 @@
       "escape",
       "utf-8",
       "html-entity"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -4777,6 +5695,24 @@
       "url-encode",
       "utf-8",
       "html-entity"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -4844,6 +5780,24 @@
       "url-encode",
       "escape",
       "html-entity"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -4911,6 +5865,24 @@
       "url-encode",
       "escape",
       "utf-8"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -4978,6 +5950,24 @@
       "text-hex",
       "text-octal",
       "text-bin"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5045,6 +6035,24 @@
       "morse",
       "text-octal",
       "text-bin"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5112,6 +6120,24 @@
       "morse",
       "text-hex",
       "text-bin"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5179,6 +6205,24 @@
       "morse",
       "text-hex",
       "text-octal"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5245,6 +6289,24 @@
     "related": [
       "base64-encode",
       "base64-bulk"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5311,6 +6373,24 @@
     "related": [
       "base32-encode",
       "base64-bulk"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5377,6 +6457,24 @@
     "related": [
       "base32-encode",
       "base64-encode"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5444,6 +6542,24 @@
       "random-pwd",
       "entropy-calculator",
       "gzip"
+    ],
+    "usage": [
+      "粘贴完整的 JWT 令牌",
+      "自动解析 Header、Payload 与过期时间",
+      "注意：仅解码内容，不验证签名",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the full JWT token",
+      "Header, Payload and expiry are parsed automatically",
+      "Note: decodes content only; signature is not verified",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el token JWT completo",
+      "Header, Payload y caducidad se analizan automáticamente",
+      "Nota: solo decodifica; no verifica la firma",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5511,6 +6627,24 @@
       "jwt-decoder",
       "entropy-calculator",
       "gzip"
+    ],
+    "usage": [
+      "设置长度与字符集等规则",
+      "点击生成按钮产出随机结果",
+      "一键复制并妥善保存",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Set length and character-set rules",
+      "Click generate to produce random results",
+      "Copy in one click and store safely",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Defina longitud y conjunto de caracteres",
+      "Pulse generar para producir resultados aleatorios",
+      "Cópielo con un clic y guárdelo bien",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5578,6 +6712,24 @@
       "random-pwd",
       "jwt-decoder",
       "gzip"
+    ],
+    "usage": [
+      "输入或粘贴要评估的密码",
+      "实时查看熵值与破解耗时估算",
+      "对照建议调整密码强度",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Type or paste the password to evaluate",
+      "See entropy and estimated crack time live",
+      "Strengthen the password based on suggestions",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Escriba o pegue la contraseña a evaluar",
+      "Vea la entropía y el tiempo estimado de descifrado",
+      "Refuerce la contraseña según las sugerencias",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5645,6 +6797,24 @@
       "jwt-decoder",
       "random-pwd",
       "entropy-calculator"
+    ],
+    "usage": [
+      "粘贴文本或导入 .gz 压缩文件",
+      "选择压缩或解压方向执行",
+      "下载或复制处理结果",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste text or import a .gz file",
+      "Choose compress or decompress and run",
+      "Download or copy the output",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue texto o importe un archivo .gz",
+      "Elija comprimir o descomprimir y ejecute",
+      "Descargue o copie el resultado",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5712,6 +6882,24 @@
       "md5-batch",
       "sha",
       "md4"
+    ],
+    "usage": [
+      "在输入框粘贴待摘要的文本",
+      "MD5在线加密工具即时计算哈希值，无需点击",
+      "复制哈希值用于完整性校验",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the text into the input box",
+      "Online MD5 Encryptor computes the hash instantly — no button needed",
+      "Copy the hash for integrity checks",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto en el cuadro de entrada",
+      "Cifrador MD5 en Línea calcula el hash al instante — sin botones",
+      "Copie el hash para verificar integridad",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5779,6 +6967,24 @@
       "md5",
       "sha",
       "md4"
+    ],
+    "usage": [
+      "在输入框粘贴待摘要的文本",
+      "批量MD5加密工具即时计算哈希值，无需点击",
+      "复制哈希值用于完整性校验",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the text into the input box",
+      "Bulk MD5 Encryptor computes the hash instantly — no button needed",
+      "Copy the hash for integrity checks",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto en el cuadro de entrada",
+      "Cifrador MD5 por Lotes calcula el hash al instante — sin botones",
+      "Copie el hash para verificar integridad",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5846,6 +7052,24 @@
       "md5",
       "md4",
       "mysql-password"
+    ],
+    "usage": [
+      "在输入框粘贴待摘要的文本",
+      "SHA系列哈希值生成器即时计算哈希值，无需点击",
+      "复制哈希值用于完整性校验",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the text into the input box",
+      "SHA Hash Generator computes the hash instantly — no button needed",
+      "Copy the hash for integrity checks",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto en el cuadro de entrada",
+      "Generador de Hash SHA calcula el hash al instante — sin botones",
+      "Copie el hash para verificar integridad",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5913,6 +7137,24 @@
       "md5",
       "sha",
       "md5-batch"
+    ],
+    "usage": [
+      "在输入框粘贴待摘要的文本",
+      "MD4在线加密工具即时计算哈希值，无需点击",
+      "复制哈希值用于完整性校验",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the text into the input box",
+      "Online MD4 Encryptor computes the hash instantly — no button needed",
+      "Copy the hash for integrity checks",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto en el cuadro de entrada",
+      "Cifrador MD4 en Línea calcula el hash al instante — sin botones",
+      "Copie el hash para verificar integridad",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -5980,6 +7222,24 @@
       "htpasswd",
       "sha",
       "md5"
+    ],
+    "usage": [
+      "在输入框粘贴待摘要的文本",
+      "MySQL密码哈希生成工具即时计算哈希值，无需点击",
+      "复制哈希值用于完整性校验",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the text into the input box",
+      "MySQL PASSWORD Hash Generator computes the hash instantly — no button needed",
+      "Copy the hash for integrity checks",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto en el cuadro de entrada",
+      "Generador de Hash PASSWORD de MySQL calcula el hash al instante — sin botones",
+      "Copie el hash para verificar integridad",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6047,6 +7307,24 @@
       "mysql-password",
       "random-pwd",
       "sha"
+    ],
+    "usage": [
+      "输入用户名与密码",
+      "点击生成 Basic Auth 认证条目",
+      "复制内容追加到 .htpasswd 文件",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Enter a username and password",
+      "Generate the Basic Auth entry",
+      "Append the output to your .htpasswd file",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Introduzca usuario y contraseña",
+      "Genere la entrada de Basic Auth",
+      "Añada el resultado a su archivo .htpasswd",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6114,6 +7392,24 @@
       "des-encrypt",
       "gzip",
       "url-hex-encode"
+    ],
+    "usage": [
+      "输入明文与密钥，选择模式与填充",
+      "点击加密或解密按钮执行",
+      "复制结果并妥善保管密钥",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Enter plaintext and key, choose mode and padding",
+      "Click Encrypt or Decrypt to execute",
+      "Copy the result and keep your key safe",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Introduzca texto claro y clave, elija modo y relleno",
+      "Pulse Cifrar o Descifrar para ejecutar",
+      "Copie el resultado y guarde bien su clave",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6181,6 +7477,24 @@
       "aes-encrypt",
       "url-hex-encode",
       "gzip"
+    ],
+    "usage": [
+      "输入明文与密钥，选择模式与填充",
+      "点击加密或解密按钮执行",
+      "复制结果并妥善保管密钥",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Enter plaintext and key, choose mode and padding",
+      "Click Encrypt or Decrypt to execute",
+      "Copy the result and keep your key safe",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Introduzca texto claro y clave, elija modo y relleno",
+      "Pulse Cifrar o Descifrar para ejecutar",
+      "Copie el resultado y guarde bien su clave",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6248,6 +7562,24 @@
       "url-encode",
       "escape",
       "aes-encrypt"
+    ],
+    "usage": [
+      "在输入框粘贴原始文本",
+      "选择编码或解码方向",
+      "结果即时生成，一键复制",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste the raw text into the input box",
+      "Choose encode or decode direction",
+      "Output appears instantly — copy in one click",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el texto original en el cuadro",
+      "Elija codificar o decodificar",
+      "El resultado aparece al instante — cópielo con un clic",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6315,6 +7647,24 @@
       "file-base64",
       "base64-image",
       "image-base64"
+    ],
+    "usage": [
+      "选择本地文件或图片（不会上传）",
+      "自动转换为 Base64 字符串或 Data URL",
+      "复制结果嵌入代码或下载",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Pick a local file or image (never uploaded)",
+      "It is converted to a Base64 string or Data URL automatically",
+      "Copy the result into code or download it",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Elija un archivo o imagen local (nunca se sube)",
+      "Se convierte automáticamente a Base64 o Data URL",
+      "Copie el resultado en su código o descárguelo",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6382,6 +7732,24 @@
       "image-base64",
       "base64-file",
       "base64-encode"
+    ],
+    "usage": [
+      "选择本地文件或图片（不会上传）",
+      "自动转换为 Base64 字符串或 Data URL",
+      "复制结果嵌入代码或下载",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Pick a local file or image (never uploaded)",
+      "It is converted to a Base64 string or Data URL automatically",
+      "Copy the result into code or download it",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Elija un archivo o imagen local (nunca se sube)",
+      "Se convierte automáticamente a Base64 o Data URL",
+      "Copie el resultado en su código o descárguelo",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6449,6 +7817,24 @@
       "image-base64",
       "base64-file",
       "file-base64"
+    ],
+    "usage": [
+      "选择本地文件或图片（不会上传）",
+      "自动转换为 Base64 字符串或 Data URL",
+      "复制结果嵌入代码或下载",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Pick a local file or image (never uploaded)",
+      "It is converted to a Base64 string or Data URL automatically",
+      "Copy the result into code or download it",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Elija un archivo o imagen local (nunca se sube)",
+      "Se convierte automáticamente a Base64 o Data URL",
+      "Copie el resultado en su código o descárguelo",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6516,6 +7902,24 @@
       "file-base64",
       "base64-image",
       "base64-encode"
+    ],
+    "usage": [
+      "选择本地文件或图片（不会上传）",
+      "自动转换为 Base64 字符串或 Data URL",
+      "复制结果嵌入代码或下载",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Pick a local file or image (never uploaded)",
+      "It is converted to a Base64 string or Data URL automatically",
+      "Copy the result into code or download it",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Elija un archivo o imagen local (nunca se sube)",
+      "Se convierte automáticamente a Base64 o Data URL",
+      "Copie el resultado en su código o descárguelo",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6583,6 +7987,24 @@
       "lsb-embed",
       "md5-verify",
       "base64-image"
+    ],
+    "usage": [
+      "上传载体图片并填写隐藏信息",
+      "点击嵌入或提取执行隐写操作",
+      "下载含隐藏信息的图片或提取文本",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Upload a carrier image and enter hidden text",
+      "Run Embed or Extract to perform steganography",
+      "Download the resulting image or extracted text",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Suba una imagen portadora y escriba el texto oculto",
+      "Ejecute Incrustar o Extraer",
+      "Descargue la imagen resultante o el texto extraído",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6650,6 +8072,24 @@
       "lsb-extract",
       "image-base64",
       "md5-verify"
+    ],
+    "usage": [
+      "上传载体图片并填写隐藏信息",
+      "点击嵌入或提取执行隐写操作",
+      "下载含隐藏信息的图片或提取文本",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Upload a carrier image and enter hidden text",
+      "Run Embed or Extract to perform steganography",
+      "Download the resulting image or extracted text",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Suba una imagen portadora y escriba el texto oculto",
+      "Ejecute Incrustar o Extraer",
+      "Descargue la imagen resultante o el texto extraído",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6717,6 +8157,24 @@
       "md5-batch-verify",
       "md5",
       "lsb-extract"
+    ],
+    "usage": [
+      "分别粘贴原文与待比对的哈希值",
+      "点击验证按钮自动比对",
+      "查看一致/不一致的校验结论",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Enter the original text and the hash to compare",
+      "Click Verify to compare automatically",
+      "A match / mismatch verdict is displayed",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Introduzca el texto original y el hash a comparar",
+      "Pulse Verificar para comparar automáticamente",
+      "Se muestra si coinciden o no",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6784,6 +8242,24 @@
       "md5-verify",
       "md5-batch",
       "md5"
+    ],
+    "usage": [
+      "分别粘贴原文与待比对的哈希值",
+      "点击验证按钮自动比对",
+      "查看一致/不一致的校验结论",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Enter the original text and the hash to compare",
+      "Click Verify to compare automatically",
+      "A match / mismatch verdict is displayed",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Introduzca el texto original y el hash a comparar",
+      "Pulse Verificar para comparar automáticamente",
+      "Se muestra si coinciden o no",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6851,6 +8327,24 @@
       "js-obfuscator-advanced",
       "md5",
       "aes-encrypt"
+    ],
+    "usage": [
+      "粘贴 JavaScript 源码",
+      "按需调整混淆强度与选项",
+      "生成混淆代码并复制使用",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste your JavaScript source code",
+      "Tune obfuscation strength and options as needed",
+      "Generate the obfuscated code and copy it",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el código fuente JavaScript",
+      "Ajuste la intensidad y opciones de ofuscación",
+      "Genere el código ofuscado y cópielo",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6918,6 +8412,24 @@
       "js-obfuscator",
       "aes-encrypt",
       "htpasswd"
+    ],
+    "usage": [
+      "粘贴 JavaScript 源码",
+      "按需调整混淆强度与选项",
+      "生成混淆代码并复制使用",
+      "全部编解码在浏览器本地完成，敏感内容不会离开你的设备"
+    ],
+    "usage_en": [
+      "Paste your JavaScript source code",
+      "Tune obfuscation strength and options as needed",
+      "Generate the obfuscated code and copy it",
+      "All encoding/decoding runs locally; sensitive content never leaves your device"
+    ],
+    "usage_es": [
+      "Pegue el código fuente JavaScript",
+      "Ajuste la intensidad y opciones de ofuscación",
+      "Genere el código ofuscado y cópielo",
+      "Toda la codificación se ejecuta localmente; el contenido confidencial nunca sale de su dispositivo"
     ]
   },
   {
@@ -6985,6 +8497,24 @@
       "symbol-converter",
       "remove-emoji",
       "word-count"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7052,6 +8582,24 @@
       "letter-converter",
       "text-replace",
       "word-count"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7119,6 +8667,24 @@
       "word-count",
       "text-replace",
       "letter-converter"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7186,6 +8752,24 @@
       "remove-emoji",
       "letter-converter",
       "text-extract"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7253,6 +8837,24 @@
       "text-line",
       "text-split",
       "text-replace"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7320,6 +8922,24 @@
       "line-text",
       "text-split",
       "text-replace"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7387,6 +9007,24 @@
       "text-split",
       "symbol-converter",
       "line-text"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7454,6 +9092,24 @@
       "text-replace",
       "line-text",
       "word-count"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7521,6 +9177,24 @@
       "email-extractor",
       "url-extractor",
       "text-extract"
+    ],
+    "usage": [
+      "粘贴原始长文本或日志内容",
+      "自动匹配并提取目标信息",
+      "去重整理后一键复制结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste raw long text or logs",
+      "Target information is matched and extracted automatically",
+      "Results are deduplicated — copy in one click",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto largo o registros originales",
+      "La información objetivo se extrae automáticamente",
+      "Resultado deduplicado — cópielo con un clic",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7588,6 +9262,24 @@
       "mobile-extractor",
       "url-extractor",
       "text-extract"
+    ],
+    "usage": [
+      "粘贴原始长文本或日志内容",
+      "自动匹配并提取目标信息",
+      "去重整理后一键复制结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste raw long text or logs",
+      "Target information is matched and extracted automatically",
+      "Results are deduplicated — copy in one click",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto largo o registros originales",
+      "La información objetivo se extrae automáticamente",
+      "Resultado deduplicado — cópielo con un clic",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7655,6 +9347,24 @@
       "net-parser",
       "email-extractor",
       "text-extract"
+    ],
+    "usage": [
+      "粘贴原始长文本或日志内容",
+      "自动匹配并提取目标信息",
+      "去重整理后一键复制结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste raw long text or logs",
+      "Target information is matched and extracted automatically",
+      "Results are deduplicated — copy in one click",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto largo o registros originales",
+      "La información objetivo se extrae automáticamente",
+      "Resultado deduplicado — cópielo con un clic",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7722,6 +9432,24 @@
       "idcard-extract",
       "mobile-extractor",
       "word-count"
+    ],
+    "usage": [
+      "粘贴原始长文本或日志内容",
+      "自动匹配并提取目标信息",
+      "去重整理后一键复制结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste raw long text or logs",
+      "Target information is matched and extracted automatically",
+      "Results are deduplicated — copy in one click",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto largo o registros originales",
+      "La información objetivo se extrae automáticamente",
+      "Resultado deduplicado — cópielo con un clic",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7789,6 +9517,24 @@
       "idcard-date",
       "mobile-extractor",
       "md5-batch-verify"
+    ],
+    "usage": [
+      "粘贴原始长文本或日志内容",
+      "自动匹配并提取目标信息",
+      "去重整理后一键复制结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste raw long text or logs",
+      "Target information is matched and extracted automatically",
+      "Results are deduplicated — copy in one click",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto largo o registros originales",
+      "La información objetivo se extrae automáticamente",
+      "Resultado deduplicado — cópielo con un clic",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7856,6 +9602,24 @@
       "url-extractor",
       "jwt-decoder",
       "letter-converter"
+    ],
+    "usage": [
+      "粘贴原始长文本或日志内容",
+      "自动匹配并提取目标信息",
+      "去重整理后一键复制结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste raw long text or logs",
+      "Target information is matched and extracted automatically",
+      "Results are deduplicated — copy in one click",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto largo o registros originales",
+      "La información objetivo se extrae automáticamente",
+      "Resultado deduplicado — cópielo con un clic",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7923,6 +9687,24 @@
       "mobile-extractor",
       "email-extractor",
       "word-count"
+    ],
+    "usage": [
+      "粘贴原始长文本或日志内容",
+      "自动匹配并提取目标信息",
+      "去重整理后一键复制结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste raw long text or logs",
+      "Target information is matched and extracted automatically",
+      "Results are deduplicated — copy in one click",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto largo o registros originales",
+      "La información objetivo se extrae automáticamente",
+      "Resultado deduplicado — cópielo con un clic",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -7990,6 +9772,24 @@
       "mars-converter",
       "pinyin-converter",
       "symbol-converter"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -8057,6 +9857,24 @@
       "chinese-converter",
       "letter-circle",
       "pinyin-converter"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -8124,6 +9942,24 @@
       "string-random",
       "mars-converter",
       "sequence-generator"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -8191,6 +10027,24 @@
       "random-pwd",
       "sequence-generator",
       "letter-circle"
+    ],
+    "usage": [
+      "设置长度与字符集等规则",
+      "点击生成按钮产出随机结果",
+      "一键复制并妥善保存",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Set length and character-set rules",
+      "Click generate to produce random results",
+      "Copy in one click and store safely",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Defina longitud y conjunto de caracteres",
+      "Pulse generar para producir resultados aleatorios",
+      "Cópielo con un clic y guárdelo bien",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -8258,6 +10112,24 @@
       "string-random",
       "letter-circle",
       "word-count"
+    ],
+    "usage": [
+      "设置长度与字符集等规则",
+      "点击生成按钮产出随机结果",
+      "一键复制并妥善保存",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Set length and character-set rules",
+      "Click generate to produce random results",
+      "Copy in one click and store safely",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Defina longitud y conjunto de caracteres",
+      "Pulse generar para producir resultados aleatorios",
+      "Cópielo con un clic y guárdelo bien",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -8325,6 +10197,24 @@
       "remove-emoji",
       "word-count",
       "text-replace"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -8392,6 +10282,24 @@
       "chinese-converter",
       "word-count",
       "mars-converter"
+    ],
+    "usage": [
+      "将文本粘贴到编辑框",
+      "选择需要的处理选项并执行",
+      "复制处理后的文本结果",
+      "文本处理全程本地运行，不收集任何文本数据"
+    ],
+    "usage_en": [
+      "Paste your text into the editor",
+      "Choose the processing option and run",
+      "Copy the transformed text",
+      "Text processing runs entirely locally; we never collect any text data"
+    ],
+    "usage_es": [
+      "Pegue el texto en el editor",
+      "Elija la opción de procesado y ejecútela",
+      "Copie el texto transformado",
+      "El procesamiento de texto se ejecuta localmente; nunca recopilamos texto"
     ]
   },
   {
@@ -8459,6 +10367,24 @@
       "weight-converter",
       "area-converter",
       "speed-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -8526,6 +10452,24 @@
       "length-converter",
       "volume-converter",
       "density-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -8593,6 +10537,24 @@
       "heat-converter",
       "cct-converter",
       "wind-speed-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -8660,6 +10622,24 @@
       "length-converter",
       "volume-converter",
       "pressure-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -8727,6 +10707,24 @@
       "area-converter",
       "weight-converter",
       "fuel-consumption-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -8794,6 +10792,24 @@
       "wind-speed-converter",
       "length-converter",
       "time-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -8861,6 +10877,24 @@
       "timestamp",
       "datetime-converter",
       "speed-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -8928,6 +10962,24 @@
       "length-converter",
       "time-converter",
       "temperature-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -8995,6 +11047,24 @@
       "force-converter",
       "power-converter",
       "density-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9062,6 +11132,24 @@
       "energy-converter",
       "torque-converter",
       "pressure-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9129,6 +11217,24 @@
       "torque-converter",
       "weight-converter",
       "pressure-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9196,6 +11302,24 @@
       "force-converter",
       "power-converter",
       "length-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9263,6 +11387,24 @@
       "power-converter",
       "temperature-converter",
       "cct-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9330,6 +11472,24 @@
       "bandwidth-converter",
       "time-converter",
       "power-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9397,6 +11557,24 @@
       "weight-converter",
       "volume-converter",
       "pressure-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9464,6 +11642,24 @@
       "volume-converter",
       "speed-converter",
       "power-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9531,6 +11727,24 @@
       "current-converter",
       "resistance-converter",
       "power-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9598,6 +11812,24 @@
       "voltage-converter",
       "resistance-converter",
       "charge-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9665,6 +11897,24 @@
       "voltage-converter",
       "current-converter",
       "capacitance-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9732,6 +11982,24 @@
       "resistance-converter",
       "voltage-converter",
       "charge-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9799,6 +12067,24 @@
       "current-converter",
       "capacitance-converter",
       "weight-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9866,6 +12152,24 @@
       "sound-converter",
       "cct-converter",
       "heat-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -9933,6 +12237,24 @@
       "illuminance-converter",
       "frequency-converter",
       "cct-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -10000,6 +12322,24 @@
       "temperature-converter",
       "illuminance-converter",
       "sound-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -10067,6 +12407,24 @@
       "speed-converter",
       "pressure-converter",
       "temperature-converter"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -10134,6 +12492,24 @@
       "frequency-converter",
       "dataurl-tool",
       "word-count"
+    ],
+    "usage": [
+      "在输入框输入要换算的数值",
+      "选择源单位与目标单位",
+      "结果即时显示，支持反向换算与复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter the value you want to convert",
+      "Select the source unit and target unit",
+      "Result appears instantly — reverse conversion supported",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca el valor que desea convertir",
+      "Seleccione la unidad de origen y de destino",
+      "El resultado aparece al instante — con conversión inversa",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -10201,6 +12577,24 @@
       "font-size-converter",
       "letter-converter",
       "text-formatter"
+    ],
+    "usage": [
+      "输入 rem 或 px 数值",
+      "基于根字号自动换算另一侧",
+      "支持双向输入与批量换算",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter a rem or px value",
+      "Auto-converts using the root font size",
+      "Bidirectional input with batch conversion",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca un valor rem o px",
+      "Convierte automáticamente según el font-size raíz",
+      "Entrada bidireccional con conversión por lotes",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -10268,6 +12662,24 @@
       "rem-px",
       "letter-converter",
       "pinyin-converter"
+    ],
+    "usage": [
+      "输入 rem 或 px 数值",
+      "基于根字号自动换算另一侧",
+      "支持双向输入与批量换算",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter a rem or px value",
+      "Auto-converts using the root font size",
+      "Bidirectional input with batch conversion",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca un valor rem o px",
+      "Convierte automáticamente según el font-size raíz",
+      "Entrada bidireccional con conversión por lotes",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -10335,6 +12747,24 @@
       "hex-converter",
       "text-bin",
       "bit-calculator"
+    ],
+    "usage": [
+      "输入一个数值",
+      "选择源进制与目标进制（2-36）",
+      "即时显示换算结果并可复制",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Enter a number",
+      "Choose source and target bases (2-36)",
+      "Result appears instantly, ready to copy",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Introduzca un número",
+      "Elija base origen y destino (2-36)",
+      "El resultado aparece al instante, listo para copiar",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -10402,6 +12832,24 @@
       "unit-converter",
       "length-converter",
       "weight-converter"
+    ],
+    "usage": [
+      "按提示选择或输入基本条件",
+      "点击查询立即得出参考结果",
+      "结果仅供日常生活参考",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Provide the basic inputs as prompted",
+      "Get an instant reference result",
+      "For everyday reference only",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Indique los datos básicos solicitados",
+      "Obtenga un resultado de referencia al instante",
+      "Solo como referencia cotidiana",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -10469,6 +12917,24 @@
       "base-converter",
       "word-count",
       "number-checker"
+    ],
+    "usage": [
+      "按提示选择或输入基本条件",
+      "点击查询立即得出参考结果",
+      "结果仅供日常生活参考",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Provide the basic inputs as prompted",
+      "Get an instant reference result",
+      "For everyday reference only",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Indique los datos básicos solicitados",
+      "Obtenga un resultado de referencia al instante",
+      "Solo como referencia cotidiana",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -10536,6 +13002,24 @@
       "rmb-upper",
       "shoe-size",
       "random-pwd"
+    ],
+    "usage": [
+      "按提示选择或输入基本条件",
+      "点击查询立即得出参考结果",
+      "结果仅供日常生活参考",
+      "换算基于国际标准系数在本地即时计算，无需联网"
+    ],
+    "usage_en": [
+      "Provide the basic inputs as prompted",
+      "Get an instant reference result",
+      "For everyday reference only",
+      "Conversions use standard factors computed locally — works offline too"
+    ],
+    "usage_es": [
+      "Indique los datos básicos solicitados",
+      "Obtenga un resultado de referencia al instante",
+      "Solo como referencia cotidiana",
+      "Las conversiones usan factores estándar calculados localmente — funciona sin conexión"
     ]
   },
   {
@@ -10603,6 +13087,24 @@
       "image-contrast",
       "image-saturation",
       "image-compressor"
+    ],
+    "usage": [
+      "上传或拖入需要调整的图片",
+      "拖动滑杆实时预览图片亮度调整效果",
+      "满意后点击导出保存新图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload or drop the image you want to adjust",
+      "Drag the sliders to preview the effect in real time",
+      "Export and save the adjusted image when satisfied",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba o arrastre la imagen que desea ajustar",
+      "Mueva los controles para previsualizar el efecto en tiempo real",
+      "Exporte la imagen ajustada cuando esté satisfecho",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -10670,6 +13172,24 @@
       "image-brightness",
       "image-hsl",
       "image-sharpener"
+    ],
+    "usage": [
+      "上传或拖入需要调整的图片",
+      "拖动滑杆实时预览图片对比度调整效果",
+      "满意后点击导出保存新图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload or drop the image you want to adjust",
+      "Drag the sliders to preview the effect in real time",
+      "Export and save the adjusted image when satisfied",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba o arrastre la imagen que desea ajustar",
+      "Mueva los controles para previsualizar el efecto en tiempo real",
+      "Exporte la imagen ajustada cuando esté satisfecho",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -10737,6 +13257,24 @@
       "image-hsl",
       "image-fader",
       "image-contrast"
+    ],
+    "usage": [
+      "上传或拖入需要调整的图片",
+      "拖动滑杆实时预览色彩饱和度调整效果",
+      "满意后点击导出保存新图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload or drop the image you want to adjust",
+      "Drag the sliders to preview the effect in real time",
+      "Export and save the adjusted image when satisfied",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba o arrastre la imagen que desea ajustar",
+      "Mueva los controles para previsualizar el efecto en tiempo real",
+      "Exporte la imagen ajustada cuando esté satisfecho",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -10804,6 +13342,24 @@
       "image-saturation",
       "image-brightness",
       "image-temperature"
+    ],
+    "usage": [
+      "上传或拖入需要调整的图片",
+      "拖动滑杆实时预览图片HSL色彩调整效果",
+      "满意后点击导出保存新图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload or drop the image you want to adjust",
+      "Drag the sliders to preview the effect in real time",
+      "Export and save the adjusted image when satisfied",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba o arrastre la imagen que desea ajustar",
+      "Mueva los controles para previsualizar el efecto en tiempo real",
+      "Exporte la imagen ajustada cuando esté satisfecho",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -10871,6 +13427,24 @@
       "cct-converter",
       "image-hsl",
       "image-highlight"
+    ],
+    "usage": [
+      "上传或拖入需要调整的图片",
+      "拖动滑杆实时预览图片冷暖色调调整效果",
+      "满意后点击导出保存新图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload or drop the image you want to adjust",
+      "Drag the sliders to preview the effect in real time",
+      "Export and save the adjusted image when satisfied",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba o arrastre la imagen que desea ajustar",
+      "Mueva los controles para previsualizar el efecto en tiempo real",
+      "Exporte la imagen ajustada cuando esté satisfecho",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -10938,6 +13512,24 @@
       "image-brightness",
       "image-contrast",
       "image-temperature"
+    ],
+    "usage": [
+      "上传或拖入需要调整的图片",
+      "拖动滑杆实时预览图片高光调整效果",
+      "满意后点击导出保存新图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload or drop the image you want to adjust",
+      "Drag the sliders to preview the effect in real time",
+      "Export and save the adjusted image when satisfied",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba o arrastre la imagen que desea ajustar",
+      "Mueva los controles para previsualizar el efecto en tiempo real",
+      "Exporte la imagen ajustada cuando esté satisfecho",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11005,6 +13597,24 @@
       "image-brightness",
       "image-saturation",
       "watermark"
+    ],
+    "usage": [
+      "上传或拖入需要调整的图片",
+      "拖动滑杆实时预览图片色彩淡化器效果",
+      "满意后点击导出保存新图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload or drop the image you want to adjust",
+      "Drag the sliders to preview the effect in real time",
+      "Export and save the adjusted image when satisfied",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba o arrastre la imagen que desea ajustar",
+      "Mueva los controles para previsualizar el efecto en tiempo real",
+      "Exporte la imagen ajustada cuando esté satisfecho",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11072,6 +13682,24 @@
       "blur-image",
       "image-contrast",
       "image-quality"
+    ],
+    "usage": [
+      "上传或拖入需要调整的图片",
+      "拖动滑杆实时预览图片锐化处理效果",
+      "满意后点击导出保存新图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload or drop the image you want to adjust",
+      "Drag the sliders to preview the effect in real time",
+      "Export and save the adjusted image when satisfied",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba o arrastre la imagen que desea ajustar",
+      "Mueva los controles para previsualizar el efecto en tiempo real",
+      "Exporte la imagen ajustada cuando esté satisfecho",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11139,6 +13767,24 @@
       "image-sharpener",
       "image-size-revise",
       "image-mirror"
+    ],
+    "usage": [
+      "上传或拖入需要调整的图片",
+      "拖动滑杆实时预览图片虚化处理效果",
+      "满意后点击导出保存新图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload or drop the image you want to adjust",
+      "Drag the sliders to preview the effect in real time",
+      "Export and save the adjusted image when satisfied",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba o arrastre la imagen que desea ajustar",
+      "Mueva los controles para previsualizar el efecto en tiempo real",
+      "Exporte la imagen ajustada cuando esté satisfecho",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11206,6 +13852,24 @@
       "image-cropping",
       "image-mirror",
       "image-size-revise"
+    ],
+    "usage": [
+      "选择本地图片（文件不上传服务器）",
+      "按需设置参数并实时预览效果",
+      "点击下载按钮保存处理后的图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local image (files never leave your device)",
+      "Adjust options and preview instantly",
+      "Click download to save the processed image",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Elija una imagen local (nunca sale de su dispositivo)",
+      "Ajuste las opciones con vista previa instantánea",
+      "Descargue para guardar la imagen procesada",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11273,6 +13937,24 @@
       "image-rotate",
       "image-cropping",
       "nine-grid"
+    ],
+    "usage": [
+      "选择本地图片（文件不上传服务器）",
+      "按需设置参数并实时预览效果",
+      "点击下载按钮保存处理后的图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local image (files never leave your device)",
+      "Adjust options and preview instantly",
+      "Click download to save the processed image",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Elija una imagen local (nunca sale de su dispositivo)",
+      "Ajuste las opciones con vista previa instantánea",
+      "Descargue para guardar la imagen procesada",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11340,6 +14022,24 @@
       "image-cropping",
       "image-compressor",
       "image-quality"
+    ],
+    "usage": [
+      "选择本地图片（文件不上传服务器）",
+      "按需设置参数并实时预览效果",
+      "点击下载按钮保存处理后的图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local image (files never leave your device)",
+      "Adjust options and preview instantly",
+      "Click download to save the processed image",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Elija una imagen local (nunca sale de su dispositivo)",
+      "Ajuste las opciones con vista previa instantánea",
+      "Descargue para guardar la imagen procesada",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11407,6 +14107,24 @@
       "image-rotate",
       "image-size-revise",
       "id-photo"
+    ],
+    "usage": [
+      "选择本地图片（文件不上传服务器）",
+      "按需设置参数并实时预览效果",
+      "点击下载按钮保存处理后的图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local image (files never leave your device)",
+      "Adjust options and preview instantly",
+      "Click download to save the processed image",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Elija una imagen local (nunca sale de su dispositivo)",
+      "Ajuste las opciones con vista previa instantánea",
+      "Descargue para guardar la imagen procesada",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11474,6 +14192,24 @@
       "image-compressor",
       "image-size-revise",
       "png2jpg"
+    ],
+    "usage": [
+      "选择本地图片（文件不上传服务器）",
+      "按需设置参数并实时预览效果",
+      "点击下载按钮保存处理后的图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local image (files never leave your device)",
+      "Adjust options and preview instantly",
+      "Click download to save the processed image",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Elija una imagen local (nunca sale de su dispositivo)",
+      "Ajuste las opciones con vista previa instantánea",
+      "Descargue para guardar la imagen procesada",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11541,6 +14277,24 @@
       "image-png",
       "image-jpg",
       "image-compressor"
+    ],
+    "usage": [
+      "上传一张或多张原始格式图片",
+      "点击按钮开始转换为目标格式",
+      "转换完成后逐张下载",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload one or more images in the source format",
+      "Click to convert to the target format",
+      "Download each converted file when done",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba una o más imágenes en el formato original",
+      "Pulse para convertirlas al formato destino",
+      "Descargue cada archivo convertido al terminar",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11608,6 +14362,24 @@
       "image-jpg",
       "image-webp",
       "png2jpg"
+    ],
+    "usage": [
+      "上传一张或多张原始格式图片",
+      "点击按钮开始转换为目标格式",
+      "转换完成后逐张下载",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload one or more images in the source format",
+      "Click to convert to the target format",
+      "Download each converted file when done",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba una o más imágenes en el formato original",
+      "Pulse para convertirlas al formato destino",
+      "Descargue cada archivo convertido al terminar",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11675,6 +14447,24 @@
       "image-png",
       "image-jpg",
       "image-compressor"
+    ],
+    "usage": [
+      "上传一张或多张原始格式图片",
+      "点击按钮开始转换为目标格式",
+      "转换完成后逐张下载",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload one or more images in the source format",
+      "Click to convert to the target format",
+      "Download each converted file when done",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba una o más imágenes en el formato original",
+      "Pulse para convertirlas al formato destino",
+      "Descargue cada archivo convertido al terminar",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11742,6 +14532,24 @@
       "image-png",
       "image-jpg",
       "image-compressor"
+    ],
+    "usage": [
+      "上传一张或多张原始格式图片",
+      "点击按钮开始转换为目标格式",
+      "转换完成后逐张下载",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload one or more images in the source format",
+      "Click to convert to the target format",
+      "Download each converted file when done",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba una o más imágenes en el formato original",
+      "Pulse para convertirlas al formato destino",
+      "Descargue cada archivo convertido al terminar",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11809,6 +14617,24 @@
       "image-png",
       "image-jpg",
       "image-compressor"
+    ],
+    "usage": [
+      "上传一张或多张原始格式图片",
+      "点击按钮开始转换为目标格式",
+      "转换完成后逐张下载",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload one or more images in the source format",
+      "Click to convert to the target format",
+      "Download each converted file when done",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba una o más imágenes en el formato original",
+      "Pulse para convertirlas al formato destino",
+      "Descargue cada archivo convertido al terminar",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11876,6 +14702,24 @@
       "image-png",
       "image-jpg",
       "image-compressor"
+    ],
+    "usage": [
+      "上传一张或多张原始格式图片",
+      "点击按钮开始转换为目标格式",
+      "转换完成后逐张下载",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload one or more images in the source format",
+      "Click to convert to the target format",
+      "Download each converted file when done",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba una o más imágenes en el formato original",
+      "Pulse para convertirlas al formato destino",
+      "Descargue cada archivo convertido al terminar",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -11943,6 +14787,24 @@
       "watermark-bulk",
       "image-compressor",
       "nine-grid"
+    ],
+    "usage": [
+      "选择本地图片（文件不上传服务器）",
+      "按需设置参数并实时预览效果",
+      "点击下载按钮保存处理后的图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local image (files never leave your device)",
+      "Adjust options and preview instantly",
+      "Click download to save the processed image",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Elija una imagen local (nunca sale de su dispositivo)",
+      "Ajuste las opciones con vista previa instantánea",
+      "Descargue para guardar la imagen procesada",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -12010,6 +14872,24 @@
       "image-quality",
       "image-size-revise",
       "png2jpg"
+    ],
+    "usage": [
+      "选择本地图片（文件不上传服务器）",
+      "按需设置参数并实时预览效果",
+      "点击下载按钮保存处理后的图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local image (files never leave your device)",
+      "Adjust options and preview instantly",
+      "Click download to save the processed image",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Elija una imagen local (nunca sale de su dispositivo)",
+      "Ajuste las opciones con vista previa instantánea",
+      "Descargue para guardar la imagen procesada",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -12077,6 +14957,24 @@
       "image-color",
       "color-converter",
       "image-hsl"
+    ],
+    "usage": [
+      "在取色板选取颜色或上传图片吸取颜色",
+      "查看 HEX、RGB、HSL 等多种格式色值",
+      "一键复制所需格式到剪贴板",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Pick a color from the palette or sample an uploaded image",
+      "Read HEX, RGB, HSL and other formats at once",
+      "Copy the format you need in one click",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Elija un color de la paleta o muestree una imagen",
+      "Vea HEX, RGB, HSL y otros formatos",
+      "Copie el formato que necesite con un clic",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -12144,6 +15042,24 @@
       "color-picker",
       "cct-converter",
       "image-hsl"
+    ],
+    "usage": [
+      "上传需要分析配色的图片",
+      "自动提取主色调与调色板",
+      "复制色值用于设计配色方案",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload the image you want to analyze",
+      "Dominant colors and a palette are extracted automatically",
+      "Copy the values for your design palette",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba la imagen que desea analizar",
+      "Extrae automáticamente los colores dominantes",
+      "Copie los valores para su paleta de diseño",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -12211,6 +15127,24 @@
       "md5-verify",
       "image-quality",
       "color-picker"
+    ],
+    "usage": [
+      "上传拍摄原图（JPG 等含元数据的格式）",
+      "自动读取相机型号、拍摄时间、GPS 等 EXIF 信息",
+      "注意分享前可先清除敏感元数据",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Upload an original photo (JPG or other formats with metadata)",
+      "Camera model, capture time, GPS and other EXIF data are read automatically",
+      "Tip: strip sensitive metadata before sharing",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Suba una foto original (JPG u otro formato con metadatos)",
+      "Lee automáticamente cámara, fecha, GPS y demás datos EXIF",
+      "Consejo: elimine metadatos sensibles antes de compartir",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -12278,6 +15212,24 @@
       "nine-grid",
       "round-image",
       "word-count"
+    ],
+    "usage": [
+      "设置宽度、高度、背景色等参数",
+      "实时预览占位图效果",
+      "直接引用生成的占位图地址",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Set width, height, background color and more",
+      "Preview the placeholder live",
+      "Reference the generated placeholder URL directly",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Defina ancho, alto, color de fondo y más",
+      "Previsualice el marcador en vivo",
+      "Referencie directamente la URL generada",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -12345,6 +15297,24 @@
       "nine-grid",
       "watermark",
       "image-cropping"
+    ],
+    "usage": [
+      "选择本地图片（文件不上传服务器）",
+      "按需设置参数并实时预览效果",
+      "点击下载按钮保存处理后的图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local image (files never leave your device)",
+      "Adjust options and preview instantly",
+      "Click download to save the processed image",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Elija una imagen local (nunca sale de su dispositivo)",
+      "Ajuste las opciones con vista previa instantánea",
+      "Descargue para guardar la imagen procesada",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -12412,6 +15382,24 @@
       "image-cutter",
       "round-image",
       "watermark"
+    ],
+    "usage": [
+      "选择本地图片（文件不上传服务器）",
+      "按需设置参数并实时预览效果",
+      "点击下载按钮保存处理后的图片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local image (files never leave your device)",
+      "Adjust options and preview instantly",
+      "Click download to save the processed image",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Elija una imagen local (nunca sale de su dispositivo)",
+      "Ajuste las opciones con vista previa instantánea",
+      "Descargue para guardar la imagen procesada",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -12479,6 +15467,24 @@
       "qrcode-decode",
       "wifi-qrcode",
       "vcard-qrcode"
+    ],
+    "usage": [
+      "输入文本、网址或联系方式等内容",
+      "即时生成对应二维码并预览",
+      "下载 PNG 图片用于印刷或分享",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "Enter text, a URL or contact info",
+      "A QR code is generated and previewed instantly",
+      "Download the PNG for print or sharing",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "Introduzca texto, URL o contacto",
+      "El código QR se genera al instante",
+      "Descargue el PNG para imprimir o compartir",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -12546,6 +15552,44 @@
       "qrcode",
       "url-extractor",
       "net-parser"
+    ],
+    "usage": [
+      "上",
+      "传",
+      "二",
+      "维",
+      "码",
+      "图",
+      "片",
+      "图片仅在浏览器内处理，全程不会上传到任何服务器"
+    ],
+    "usage_en": [
+      "自",
+      "动",
+      "解",
+      "析",
+      "其",
+      "中",
+      "的",
+      "文",
+      "本",
+      "或",
+      "链",
+      "接",
+      "Images are processed inside your browser only — never uploaded to any server"
+    ],
+    "usage_es": [
+      "复",
+      "制",
+      "解",
+      "码",
+      "内",
+      "容",
+      "安",
+      "全",
+      "打",
+      "开",
+      "Las imágenes se procesan solo en su navegador — nunca se suben a ningún servidor"
     ]
   },
   {
@@ -12613,6 +15657,24 @@
       "car-loan-calculator",
       "bonus-tax-calculator",
       "stamp-duty-calculator"
+    ],
+    "usage": [
+      "按表单输入金额、利率、期限等参数",
+      "点击开始计算生成明细",
+      "核对各项结果后再做决策",
+      "计算完全在本地进行，输入信息不会被记录；结果仅供参考"
+    ],
+    "usage_en": [
+      "Fill in amounts, rate, term and other fields",
+      "Click calculate to see the breakdown",
+      "Review every figure before deciding",
+      "Calculations run fully locally; inputs are never stored. Results are for reference only"
+    ],
+    "usage_es": [
+      "Rellene importe, tasa, plazo y demás campos",
+      "Pulse calcular para ver el detalle",
+      "Revise cada cifra antes de decidir",
+      "Los cálculos son locales; sus datos no se guardan. Resultados solo de referencia"
     ]
   },
   {
@@ -12680,6 +15742,24 @@
       "loan-calculator",
       "bonus-tax-calculator",
       "stamp-duty-calculator"
+    ],
+    "usage": [
+      "按表单输入金额、利率、期限等参数",
+      "点击开始计算生成明细",
+      "核对各项结果后再做决策",
+      "计算完全在本地进行，输入信息不会被记录；结果仅供参考"
+    ],
+    "usage_en": [
+      "Fill in amounts, rate, term and other fields",
+      "Click calculate to see the breakdown",
+      "Review every figure before deciding",
+      "Calculations run fully locally; inputs are never stored. Results are for reference only"
+    ],
+    "usage_es": [
+      "Rellene importe, tasa, plazo y demás campos",
+      "Pulse calcular para ver el detalle",
+      "Revise cada cifra antes de decidir",
+      "Los cálculos son locales; sus datos no se guardan. Resultados solo de referencia"
     ]
   },
   {
@@ -12747,6 +15827,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "stamp-duty-calculator"
+    ],
+    "usage": [
+      "按表单输入金额、利率、期限等参数",
+      "点击开始计算生成明细",
+      "核对各项结果后再做决策",
+      "计算完全在本地进行，输入信息不会被记录；结果仅供参考"
+    ],
+    "usage_en": [
+      "Fill in amounts, rate, term and other fields",
+      "Click calculate to see the breakdown",
+      "Review every figure before deciding",
+      "Calculations run fully locally; inputs are never stored. Results are for reference only"
+    ],
+    "usage_es": [
+      "Rellene importe, tasa, plazo y demás campos",
+      "Pulse calcular para ver el detalle",
+      "Revise cada cifra antes de decidir",
+      "Los cálculos son locales; sus datos no se guardan. Resultados solo de referencia"
     ]
   },
   {
@@ -12814,6 +15912,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按表单输入金额、利率、期限等参数",
+      "点击开始计算生成明细",
+      "核对各项结果后再做决策",
+      "计算完全在本地进行，输入信息不会被记录；结果仅供参考"
+    ],
+    "usage_en": [
+      "Fill in amounts, rate, term and other fields",
+      "Click calculate to see the breakdown",
+      "Review every figure before deciding",
+      "Calculations run fully locally; inputs are never stored. Results are for reference only"
+    ],
+    "usage_es": [
+      "Rellene importe, tasa, plazo y demás campos",
+      "Pulse calcular para ver el detalle",
+      "Revise cada cifra antes de decidir",
+      "Los cálculos son locales; sus datos no se guardan. Resultados solo de referencia"
     ]
   },
   {
@@ -12881,6 +15997,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按表单输入金额、利率、期限等参数",
+      "点击开始计算生成明细",
+      "核对各项结果后再做决策",
+      "计算完全在本地进行，输入信息不会被记录；结果仅供参考"
+    ],
+    "usage_en": [
+      "Fill in amounts, rate, term and other fields",
+      "Click calculate to see the breakdown",
+      "Review every figure before deciding",
+      "Calculations run fully locally; inputs are never stored. Results are for reference only"
+    ],
+    "usage_es": [
+      "Rellene importe, tasa, plazo y demás campos",
+      "Pulse calcular para ver el detalle",
+      "Revise cada cifra antes de decidir",
+      "Los cálculos son locales; sus datos no se guardan. Resultados solo de referencia"
     ]
   },
   {
@@ -12948,6 +16082,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按表单输入金额、利率、期限等参数",
+      "点击开始计算生成明细",
+      "核对各项结果后再做决策",
+      "计算完全在本地进行，输入信息不会被记录；结果仅供参考"
+    ],
+    "usage_en": [
+      "Fill in amounts, rate, term and other fields",
+      "Click calculate to see the breakdown",
+      "Review every figure before deciding",
+      "Calculations run fully locally; inputs are never stored. Results are for reference only"
+    ],
+    "usage_es": [
+      "Rellene importe, tasa, plazo y demás campos",
+      "Pulse calcular para ver el detalle",
+      "Revise cada cifra antes de decidir",
+      "Los cálculos son locales; sus datos no se guardan. Resultados solo de referencia"
     ]
   },
   {
@@ -13015,6 +16167,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按表单输入金额、利率、期限等参数",
+      "点击开始计算生成明细",
+      "核对各项结果后再做决策",
+      "计算完全在本地进行，输入信息不会被记录；结果仅供参考"
+    ],
+    "usage_en": [
+      "Fill in amounts, rate, term and other fields",
+      "Click calculate to see the breakdown",
+      "Review every figure before deciding",
+      "Calculations run fully locally; inputs are never stored. Results are for reference only"
+    ],
+    "usage_es": [
+      "Rellene importe, tasa, plazo y demás campos",
+      "Pulse calcular para ver el detalle",
+      "Revise cada cifra antes de decidir",
+      "Los cálculos son locales; sus datos no se guardan. Resultados solo de referencia"
     ]
   },
   {
@@ -13082,6 +16252,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "打开页面自动加载节日列表",
+      "倒计时每秒实时刷新",
+      "无需任何操作即可查看全部节日",
+      "计算完全在本地进行，输入信息不会被记录；结果仅供参考"
+    ],
+    "usage_en": [
+      "The festival list loads automatically on open",
+      "Countdowns refresh every second",
+      "Zero setup — view all festivals at a glance",
+      "Calculations run fully locally; inputs are never stored. Results are for reference only"
+    ],
+    "usage_es": [
+      "La lista de festividades carga automáticamente",
+      "La cuenta atrás se actualiza cada segundo",
+      "Sin configuración — vea todas de un vistazo",
+      "Los cálculos son locales; sus datos no se guardan. Resultados solo de referencia"
     ]
   },
   {
@@ -13149,6 +16337,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "输入 IP、CIDR 或子网参数",
+      "点击转换/计算按钮执行",
+      "复制网络地址、掩码等结果",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Enter an IP, CIDR, or subnet parameter",
+      "Click convert/calculate to run",
+      "Copy network address, mask and more",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Introduzca IP, CIDR o parámetros de subred",
+      "Pulse convertir/calcular para ejecutar",
+      "Copie dirección de red, máscara y más",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13216,6 +16422,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "输入 IP、CIDR 或子网参数",
+      "点击转换/计算按钮执行",
+      "复制网络地址、掩码等结果",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Enter an IP, CIDR, or subnet parameter",
+      "Click convert/calculate to run",
+      "Copy network address, mask and more",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Introduzca IP, CIDR o parámetros de subred",
+      "Pulse convertir/calcular para ejecutar",
+      "Copie dirección de red, máscara y más",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13283,6 +16507,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "输入 IP、CIDR 或子网参数",
+      "点击转换/计算按钮执行",
+      "复制网络地址、掩码等结果",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Enter an IP, CIDR, or subnet parameter",
+      "Click convert/calculate to run",
+      "Copy network address, mask and more",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Introduzca IP, CIDR o parámetros de subred",
+      "Pulse convertir/calcular para ejecutar",
+      "Copie dirección de red, máscara y más",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13350,6 +16592,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "设置长度与字符集等规则",
+      "点击生成按钮产出随机结果",
+      "一键复制并妥善保存",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Set length and character-set rules",
+      "Click generate to produce random results",
+      "Copy in one click and store safely",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Defina longitud y conjunto de caracteres",
+      "Pulse generar para producir resultados aleatorios",
+      "Cópielo con un clic y guárdelo bien",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13417,6 +16677,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按界面提示填写规则、路径或内容",
+      "点击生成或检测按钮执行",
+      "复制结果或下载对应文件",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Fill in rules, paths or content as guided by the UI",
+      "Click generate or check to run",
+      "Copy the result or download the file",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Rellene reglas, rutas o contenido según la guía",
+      "Pulse generar o comprobar",
+      "Copie el resultado o descargue el archivo",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13484,6 +16762,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按界面提示填写规则、路径或内容",
+      "点击生成或检测按钮执行",
+      "复制结果或下载对应文件",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Fill in rules, paths or content as guided by the UI",
+      "Click generate or check to run",
+      "Copy the result or download the file",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Rellene reglas, rutas o contenido según la guía",
+      "Pulse generar o comprobar",
+      "Copie el resultado o descargue el archivo",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13551,6 +16847,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按界面提示填写规则、路径或内容",
+      "点击生成或检测按钮执行",
+      "复制结果或下载对应文件",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Fill in rules, paths or content as guided by the UI",
+      "Click generate or check to run",
+      "Copy the result or download the file",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Rellene reglas, rutas o contenido según la guía",
+      "Pulse generar o comprobar",
+      "Copie el resultado o descargue el archivo",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13618,6 +16932,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按界面提示填写规则、路径或内容",
+      "点击生成或检测按钮执行",
+      "复制结果或下载对应文件",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Fill in rules, paths or content as guided by the UI",
+      "Click generate or check to run",
+      "Copy the result or download the file",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Rellene reglas, rutas o contenido según la guía",
+      "Pulse generar o comprobar",
+      "Copie el resultado o descargue el archivo",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13685,6 +17017,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按界面提示填写规则、路径或内容",
+      "点击生成或检测按钮执行",
+      "复制结果或下载对应文件",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Fill in rules, paths or content as guided by the UI",
+      "Click generate or check to run",
+      "Copy the result or download the file",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Rellene reglas, rutas o contenido según la guía",
+      "Pulse generar o comprobar",
+      "Copie el resultado o descargue el archivo",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13752,6 +17102,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按表单输入金额、利率、期限等参数",
+      "点击开始计算生成明细",
+      "核对各项结果后再做决策",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Fill in amounts, rate, term and other fields",
+      "Click calculate to see the breakdown",
+      "Review every figure before deciding",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Rellene importe, tasa, plazo y demás campos",
+      "Pulse calcular para ver el detalle",
+      "Revise cada cifra antes de decidir",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13819,6 +17187,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "打开页面即自动采集当前环境信息",
+      "查看屏幕、系统、浏览器等参数明细",
+      "调试适配问题时对照参考",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Environment info is collected the moment you open the page",
+      "Inspect screen, OS and browser details",
+      "Handy reference while debugging responsive issues",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "La información se recopila al abrir la página",
+      "Consulte pantalla, sistema y navegador",
+      "Útil al depurar problemas de adaptación",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13886,6 +17272,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "打开页面即自动采集当前环境信息",
+      "查看屏幕、系统、浏览器等参数明细",
+      "调试适配问题时对照参考",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Environment info is collected the moment you open the page",
+      "Inspect screen, OS and browser details",
+      "Handy reference while debugging responsive issues",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "La información se recopila al abrir la página",
+      "Consulte pantalla, sistema y navegador",
+      "Útil al depurar problemas de adaptación",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -13953,6 +17357,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "打开页面即自动采集当前环境信息",
+      "查看屏幕、系统、浏览器等参数明细",
+      "调试适配问题时对照参考",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Environment info is collected the moment you open the page",
+      "Inspect screen, OS and browser details",
+      "Handy reference while debugging responsive issues",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "La información se recopila al abrir la página",
+      "Consulte pantalla, sistema y navegador",
+      "Útil al depurar problemas de adaptación",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -14020,6 +17442,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "按界面提示填写规则、路径或内容",
+      "点击生成或检测按钮执行",
+      "复制结果或下载对应文件",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Fill in rules, paths or content as guided by the UI",
+      "Click generate or check to run",
+      "Copy the result or download the file",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Rellene reglas, rutas o contenido según la guía",
+      "Pulse generar o comprobar",
+      "Copie el resultado o descargue el archivo",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -14087,6 +17527,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "粘贴原始长文本或日志内容",
+      "自动匹配并提取目标信息",
+      "去重整理后一键复制结果",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Paste raw long text or logs",
+      "Target information is matched and extracted automatically",
+      "Results are deduplicated — copy in one click",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Pegue el texto largo o registros originales",
+      "La información objetivo se extrae automáticamente",
+      "Resultado deduplicado — cópielo con un clic",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -14154,6 +17612,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "粘贴原始长文本或日志内容",
+      "自动匹配并提取目标信息",
+      "去重整理后一键复制结果",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Paste raw long text or logs",
+      "Target information is matched and extracted automatically",
+      "Results are deduplicated — copy in one click",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Pegue el texto largo o registros originales",
+      "La información objetivo se extrae automáticamente",
+      "Resultado deduplicado — cópielo con un clic",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -14221,6 +17697,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "粘贴原始长文本或日志内容",
+      "自动匹配并提取目标信息",
+      "去重整理后一键复制结果",
+      "所有检测与生成本地执行，不产生任何上传行为"
+    ],
+    "usage_en": [
+      "Paste raw long text or logs",
+      "Target information is matched and extracted automatically",
+      "Results are deduplicated — copy in one click",
+      "All checks and generation run locally — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Pegue el texto largo o registros originales",
+      "La información objetivo se extrae automáticamente",
+      "Resultado deduplicado — cópielo con un clic",
+      "Todo se genera y comprueba localmente — nada se sube"
     ]
   },
   {
@@ -14288,6 +17782,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "首次使用需允许浏览器麦克风/屏幕权限",
+      "点击开始按钮进行测量或录制",
+      "完成后停止并回放、下载文件",
+      "音视频通过浏览器原生能力本地处理，内容不会上传任何服务器"
+    ],
+    "usage_en": [
+      "Grant microphone/screen permission on first use",
+      "Press start to measure or record",
+      "Stop when done, then replay and download",
+      "Audio/video is handled natively in your browser — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Conceda permiso de micrófono/pantalla la primera vez",
+      "Pulse iniciar para medir o grabar",
+      "Detenga al terminar, reproduzca y descargue",
+      "El audio/video se procesa nativamente en su navegador — nada se sube"
     ]
   },
   {
@@ -14355,6 +17867,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "首次使用需允许浏览器麦克风/屏幕权限",
+      "点击开始按钮进行测量或录制",
+      "完成后停止并回放、下载文件",
+      "音视频通过浏览器原生能力本地处理，内容不会上传任何服务器"
+    ],
+    "usage_en": [
+      "Grant microphone/screen permission on first use",
+      "Press start to measure or record",
+      "Stop when done, then replay and download",
+      "Audio/video is handled natively in your browser — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Conceda permiso de micrófono/pantalla la primera vez",
+      "Pulse iniciar para medir o grabar",
+      "Detenga al terminar, reproduzca y descargue",
+      "El audio/video se procesa nativamente en su navegador — nada se sube"
     ]
   },
   {
@@ -14422,6 +17952,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "选择本地媒体文件或在文本框输入内容",
+      "使用播放控件与倍速调节自由控制",
+      "全程本地播放，内容不会上传",
+      "音视频通过浏览器原生能力本地处理，内容不会上传任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local media file or type your content",
+      "Control playback with speed adjustments",
+      "Plays fully locally — nothing is uploaded",
+      "Audio/video is handled natively in your browser — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Elija un archivo local o escriba su contenido",
+      "Controle la reproducción y la velocidad",
+      "Se reproduce localmente — nada se sube",
+      "El audio/video se procesa nativamente en su navegador — nada se sube"
     ]
   },
   {
@@ -14489,6 +18037,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "选择本地媒体文件或在文本框输入内容",
+      "使用播放控件与倍速调节自由控制",
+      "全程本地播放，内容不会上传",
+      "音视频通过浏览器原生能力本地处理，内容不会上传任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local media file or type your content",
+      "Control playback with speed adjustments",
+      "Plays fully locally — nothing is uploaded",
+      "Audio/video is handled natively in your browser — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Elija un archivo local o escriba su contenido",
+      "Controle la reproducción y la velocidad",
+      "Se reproduce localmente — nada se sube",
+      "El audio/video se procesa nativamente en su navegador — nada se sube"
     ]
   },
   {
@@ -14556,6 +18122,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "首次使用需允许浏览器麦克风/屏幕权限",
+      "点击开始按钮进行测量或录制",
+      "完成后停止并回放、下载文件",
+      "音视频通过浏览器原生能力本地处理，内容不会上传任何服务器"
+    ],
+    "usage_en": [
+      "Grant microphone/screen permission on first use",
+      "Press start to measure or record",
+      "Stop when done, then replay and download",
+      "Audio/video is handled natively in your browser — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Conceda permiso de micrófono/pantalla la primera vez",
+      "Pulse iniciar para medir o grabar",
+      "Detenga al terminar, reproduzca y descargue",
+      "El audio/video se procesa nativamente en su navegador — nada se sube"
     ]
   },
   {
@@ -14623,6 +18207,24 @@
       "loan-calculator",
       "car-loan-calculator",
       "bonus-tax-calculator"
+    ],
+    "usage": [
+      "选择本地媒体文件或在文本框输入内容",
+      "使用播放控件与倍速调节自由控制",
+      "全程本地播放，内容不会上传",
+      "音视频通过浏览器原生能力本地处理，内容不会上传任何服务器"
+    ],
+    "usage_en": [
+      "Pick a local media file or type your content",
+      "Control playback with speed adjustments",
+      "Plays fully locally — nothing is uploaded",
+      "Audio/video is handled natively in your browser — nothing is uploaded"
+    ],
+    "usage_es": [
+      "Elija un archivo local o escriba su contenido",
+      "Controle la reproducción y la velocidad",
+      "Se reproduce localmente — nada se sube",
+      "El audio/video se procesa nativamente en su navegador — nada se sube"
     ]
   }
 ]

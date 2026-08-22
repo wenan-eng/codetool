@@ -8,10 +8,10 @@ export function generateMetadata({ params:{locale} }: { params:{locale:string} }
   return {
     alternates: {
       languages: {
-        zh: 'https://codetool.site/zh',
-        en: 'https://codetool.site/en',
-        es: 'https://codetool.site/es',
-        'x-default': 'https://codetool.site/zh',
+        zh: 'https://www.codetool.site/zh',
+        en: 'https://www.codetool.site/en',
+        es: 'https://www.codetool.site/es',
+        'x-default': 'https://www.codetool.site/zh',
       }
     }
   }

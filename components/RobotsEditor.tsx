@@ -38,7 +38,7 @@ export default function RobotsEditor({ toolId, locale = "zh" }: { toolId: "robot
           </div>
           <label className="flex flex-col gap-1 text-sm"><span className="text-gray-600">{t("禁止目录（每行一个）", "Disallow (one per line)", "Disallow (uno por línea)")}</span><textarea value={disallow} onChange={e => setDisallow(e.target.value)} className="h-24 p-3 border rounded-xl font-mono text-xs" /></label>
           <label className="flex flex-col gap-1 text-sm"><span className="text-gray-600">{t("允许目录（每行一个，可选）", "Allow (one per line, optional)", "Allow (opcional)")}</span><textarea value={allow} onChange={e => setAllow(e.target.value)} className="h-16 p-3 border rounded-xl font-mono text-xs" /></label>
-          <label className="flex flex-col gap-1 text-sm"><span className="text-gray-600">Sitemap</span><input value={sitemap} onChange={e => setSitemap(e.target.value)} placeholder="https://codetool.site/sitemap.xml" className="p-2.5 border rounded-lg font-mono text-xs" /></label>
+          <label className="flex flex-col gap-1 text-sm"><span className="text-gray-600">Sitemap</span><input value={sitemap} onChange={e => setSitemap(e.target.value)} placeholder="https://www.codetool.site/sitemap.xml" className="p-2.5 border rounded-lg font-mono text-xs" /></label>
           <button onClick={generate} className="self-start px-5 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700">{t("生成 robots.txt", "Generate robots.txt", "Generar robots.txt")}</button>
           {output && (
             <>

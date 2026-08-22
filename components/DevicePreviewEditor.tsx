@@ -25,7 +25,7 @@ export default function DevicePreviewEditor({ locale = "zh" }: { locale?: string
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-col md:flex-row gap-3">
-        <input value={url} onChange={e => setUrl(e.target.value)} placeholder="https://codetool.site" className="flex-1 p-3 border rounded-xl font-mono text-sm" onKeyDown={e => { if (e.key === "Enter") open() }} />
+        <input value={url} onChange={e => setUrl(e.target.value)} placeholder="https://www.codetool.site" className="flex-1 p-3 border rounded-xl font-mono text-sm" onKeyDown={e => { if (e.key === "Enter") open() }} />
         <button onClick={open} className="px-5 py-2 bg-blue-600 text-white rounded-xl text-sm hover:bg-blue-700">{t("加载预览", "Load Preview", "Cargar vista")}</button>
       </div>
       <div className="flex gap-2 flex-wrap">

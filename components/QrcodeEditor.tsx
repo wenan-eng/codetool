@@ -4,7 +4,7 @@ import QRCode from "qrcode"
 
 const PRESETS: { key: string; label: string; placeholder: string }[] = [
   { key: "text", label: "文本", placeholder: "请输入任意文本内容..." },
-  { key: "url", label: "网址", placeholder: "https://codetool.site" },
+  { key: "url", label: "网址", placeholder: "https://www.codetool.site" },
   { key: "wifi", label: "WiFi", placeholder: "WiFi名称" },
 ]
 

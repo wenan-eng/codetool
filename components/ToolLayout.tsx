@@ -131,10 +131,11 @@ export default function ToolLayout({ tool, locale = "zh" }: { tool: any, locale?
       <section className="bg-white rounded-xl border p-6">
         <h2 className="font-semibold mb-4">{msgs.usageTitle}</h2>
         <ul className="text-sm text-gray-600 space-y-2 list-disc pl-5">
-          <li>{msgs.usage1}</li>
-          <li>{msgs.usage2}</li>
-          <li>{msgs.usage3}</li>
-          <li>{msgs.usage4}</li>
+          {(() => {
+            const usage: string[] | undefined = locale==='en' ? (tool.usage_en || tool.usage) : locale==='es' ? (tool.usage_es || tool.usage) : tool.usage
+            const items = usage && usage.length ? usage : [msgs.usage1, msgs.usage2, msgs.usage3, msgs.usage4]
+            return items.map((u:string,i:number)=><li key={i}>{u}</li>)
+          })()}
         </ul>
       </section>
       <section className="bg-white rounded-xl border p-6">
