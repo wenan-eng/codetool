@@ -1,0 +1,112 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+        - link "图片处理" [ref=e10] [cursor=pointer]:
+          - /url: /zh/image
+        - link "站长工具" [ref=e11] [cursor=pointer]:
+          - /url: /zh/webmaster
+        - link "生活计算" [ref=e12] [cursor=pointer]:
+          - /url: /zh/life
+        - link "影音媒体" [ref=e13] [cursor=pointer]:
+          - /url: /zh/media
+      - generic [ref=e14]:
+        - generic [ref=e15]: 搜索工具
+        - generic [ref=e16]:
+          - link "中文" [ref=e17] [cursor=pointer]:
+            - /url: /zh/loan-calculator
+          - link "English" [ref=e18] [cursor=pointer]:
+            - /url: /en/loan-calculator
+          - link "Español" [ref=e19] [cursor=pointer]:
+            - /url: /es/loan-calculator
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - heading "贷款计算器" [level=1] [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26]: 贷款计算
+          - generic [ref=e27]: 生活计算
+          - generic [ref=e28]: 免费工具
+          - generic [ref=e29]: 本地处理
+        - paragraph [ref=e30]: 在线贷款计算器，支持等额本息与等额本金两种还款方式，输出月供、总利息与还款总额明细，适用于房贷与消费贷对比规划。
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: 贷款总额 (元)
+            - textbox "贷款总额 (元)" [ref=e35]:
+              - /placeholder: "543000"
+              - text: "1000000"
+          - generic [ref=e36]:
+            - generic [ref=e37]: 年利率 (%)
+            - textbox "年利率 (%)" [ref=e38]:
+              - /placeholder: "4.25"
+              - text: "4.25"
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: 期限(年)
+            - textbox "期限(年)" [ref=e42]: "30"
+          - combobox [ref=e43]:
+            - option "等额本息" [selected]
+            - option "等额本金"
+        - button "开始计算" [ref=e44] [cursor=pointer]
+      - generic [ref=e45]:
+        - heading "使用说明" [level=2] [ref=e46]
+        - list [ref=e47]:
+          - listitem [ref=e48]: 按表单输入金额、利率、期限等参数
+          - listitem [ref=e49]: 点击开始计算生成明细
+          - listitem [ref=e50]: 核对各项结果后再做决策
+          - listitem [ref=e51]: 计算完全在本地进行，输入信息不会被记录；结果仅供参考
+      - generic [ref=e52]:
+        - heading "同类推荐" [level=2] [ref=e53]
+        - generic [ref=e54]:
+          - link "购车贷款计算器" [ref=e55] [cursor=pointer]:
+            - /url: /zh/car-loan-calculator
+            - generic [ref=e56]: 购车贷款计算器
+          - link "年终奖个税计算器" [ref=e57] [cursor=pointer]:
+            - /url: /zh/bonus-tax-calculator
+            - generic [ref=e58]: 年终奖个税计算器
+          - link "印花税计算器" [ref=e59] [cursor=pointer]:
+            - /url: /zh/stamp-duty-calculator
+            - generic [ref=e60]: 印花税计算器
+      - generic [ref=e61]:
+        - heading "常见问题" [level=2] [ref=e62]
+        - group [ref=e63]:
+          - generic "数据会被上传吗？" [ref=e64] [cursor=pointer]
+        - group [ref=e65]:
+          - generic "结果准确吗？" [ref=e66] [cursor=pointer]
+        - group [ref=e67]:
+          - generic "支持哪些浏览器？" [ref=e68] [cursor=pointer]
+  - contentinfo [ref=e69]:
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - heading "热门推荐" [level=4] [ref=e72]
+        - link "JSON" [ref=e73] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e74]:
+        - heading "站长工具" [level=4] [ref=e75]
+        - link "IP" [ref=e76] [cursor=pointer]:
+          - /url: /zh/client-info
+      - generic [ref=e77]:
+        - heading "关于" [level=4] [ref=e78]
+        - link "关于我们" [ref=e79] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e80] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e81]:
+        - heading "合规" [level=4] [ref=e82]
+        - link "服务条款" [ref=e83] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e84] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e85]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e86]

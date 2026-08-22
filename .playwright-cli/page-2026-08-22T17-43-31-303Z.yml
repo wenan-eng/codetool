@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+        - link "图片处理" [ref=e10] [cursor=pointer]:
+          - /url: /zh/image
+        - link "站长工具" [ref=e11] [cursor=pointer]:
+          - /url: /zh/webmaster
+        - link "生活计算" [ref=e12] [cursor=pointer]:
+          - /url: /zh/life
+        - link "影音媒体" [ref=e13] [cursor=pointer]:
+          - /url: /zh/media
+      - generic [ref=e14]:
+        - generic [ref=e15]: 搜索工具
+        - generic [ref=e16]:
+          - link "中文" [ref=e17] [cursor=pointer]:
+            - /url: /zh/tts
+          - link "English" [ref=e18] [cursor=pointer]:
+            - /url: /en/tts
+          - link "Español" [ref=e19] [cursor=pointer]:
+            - /url: /es/tts
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - heading "文字转语音工具" [level=1] [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26]: 文字转语
+          - generic [ref=e27]: 影音媒体
+          - generic [ref=e28]: 免费工具
+          - generic [ref=e29]: 本地处理
+        - paragraph [ref=e30]: 文字转语音工具，基于浏览器 SpeechSynthesis 引擎朗读文本，可选语种语速音调，发音练习与文章试听。
+      - generic [ref=e31]:
+        - textbox "输入要朗读的文字内容..." [ref=e32]
+        - generic [ref=e33]:
+          - generic [ref=e34]: 发音人
+          - combobox "发音人" [ref=e35]:
+            - option "婷婷 (zh-CN)" [selected]
+            - option "Albert (en-US)"
+            - option "Alice (it-IT)"
+            - option "Alva (sv-SE)"
+            - option "Amélie (fr-CA)"
+            - option "Amira (ms-MY)"
+            - option "Anna (de-DE)"
+            - option "Bad News (en-US)"
+            - option "Bahh (en-US)"
+            - option "Bells (en-US)"
+            - option "Boing (en-US)"
+            - option "Bubbles (en-US)"
+            - option "Carmit (he-IL)"
+            - option "Cellos (en-US)"
+            - option "Damayanti (id-ID)"
+            - option "Daniel (en-GB)"
+            - option "Daria (bg-BG)"
+            - option "Ellen (nl-BE)"
+            - option "Fred (en-US)"
+            - option "Geeta (te-IN)"
+            - option "Good News (en-US)"
+            - option "Ioana (ro-RO)"
+            - option "Jester (en-US)"
+            - option "Joana (pt-PT)"
+            - option "Junior (en-US)"
+            - option "Kanya (th-TH)"
+            - option "Karen (en-AU)"
+            - option "Kathy (en-US)"
+            - option "Kyoko (ja-JP)"
+            - option "Lana (hr-HR)"
+            - option "Laura (sk-SK)"
+            - option "Lekha (hi-IN)"
+            - option "Lesya (uk-UA)"
+            - option "Linh (vi-VN)"
+            - option "Luciana (pt-BR)"
+            - option "Majed (ar-001)"
+            - option "Melina (el-GR)"
+            - option "Milena (ru-RU)"
+            - option "Moira (en-IE)"
+            - option "Montse (ca-ES)"
+            - option "Mónica (es-ES)"
+            - option "Nora (nb-NO)"
+            - option "Organ (en-US)"
+            - option "Paulina (es-MX)"
+            - option "Piya (bn-IN)"
+            - option "Ralph (en-US)"
+            - option "Rishi (en-IN)"
+            - option "Samantha (en-US)"
+            - option "Sara (da-DK)"
+            - option "Satu (fi-FI)"
+            - option "Soumya (kn-IN)"
+            - option "Superstar (en-US)"
+            - option "Tessa (en-ZA)"
+            - option "Thomas (fr-FR)"
+            - option "Tina (sl-SI)"
+            - option "Trinoids (en-US)"
+            - option "Tünde (hu-HU)"
+            - option "Vani (ta-IN)"
+            - option "Whisper (en-US)"
+            - option "Wobble (en-US)"
+            - option "Xander (nl-NL)"
+            - option "Yelda (tr-TR)"
+            - option "Yuna (ko-KR)"
+            - option "Zarvox (en-US)"
+            - option "Zosia (pl-PL)"
+            - option "Zuzana (cs-CZ)"
+            - option "善怡 (yue-HK)"
+            - option "美嘉 (zh-TW)"
+        - generic [ref=e36]:
+          - generic [ref=e37]: 语速
+          - slider "语速 1x" [ref=e38]: "1"
+          - generic [ref=e39]: 1x
+        - generic [ref=e40]:
+          - generic [ref=e41]: 音调
+          - slider "音调 1" [ref=e42]: "1"
+          - generic [ref=e43]: "1"
+        - generic [ref=e44]:
+          - button "🔊 开始朗读" [disabled] [ref=e45]
+          - button "⏹️ 停止" [ref=e46] [cursor=pointer]
+        - paragraph [ref=e47]: 由浏览器内置语音引擎本地合成，文本不上传；受系统已安装语音包限制。
+      - generic [ref=e48]:
+        - heading "使用说明" [level=2] [ref=e49]
+        - list [ref=e50]:
+          - listitem [ref=e51]: 选择本地媒体文件或在文本框输入内容
+          - listitem [ref=e52]: 使用播放控件与倍速调节自由控制
+          - listitem [ref=e53]: 全程本地播放，内容不会上传
+          - listitem [ref=e54]: 音视频通过浏览器原生能力本地处理，内容不会上传任何服务器
+      - generic [ref=e55]:
+        - heading "同类推荐" [level=2] [ref=e56]
+        - generic [ref=e57]:
+          - link "贷款计算器" [ref=e58] [cursor=pointer]:
+            - /url: /zh/loan-calculator
+            - generic [ref=e59]: 贷款计算器
+          - link "购车贷款计算器" [ref=e60] [cursor=pointer]:
+            - /url: /zh/car-loan-calculator
+            - generic [ref=e61]: 购车贷款计算器
+          - link "年终奖个税计算器" [ref=e62] [cursor=pointer]:
+            - /url: /zh/bonus-tax-calculator
+            - generic [ref=e63]: 年终奖个税计算器
+      - generic [ref=e64]:
+        - heading "常见问题" [level=2] [ref=e65]
+        - group [ref=e66]:
+          - generic "数据会被上传吗？" [ref=e67] [cursor=pointer]
+        - group [ref=e68]:
+          - generic "结果准确吗？" [ref=e69] [cursor=pointer]
+        - group [ref=e70]:
+          - generic "支持哪些浏览器？" [ref=e71] [cursor=pointer]
+  - contentinfo [ref=e72]:
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - heading "热门推荐" [level=4] [ref=e75]
+        - link "JSON" [ref=e76] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e77]:
+        - heading "站长工具" [level=4] [ref=e78]
+        - link "IP" [ref=e79] [cursor=pointer]:
+          - /url: /zh/client-info
+      - generic [ref=e80]:
+        - heading "关于" [level=4] [ref=e81]
+        - link "关于我们" [ref=e82] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e83] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e84]:
+        - heading "合规" [level=4] [ref=e85]
+        - link "服务条款" [ref=e86] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e87] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e88]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e89]

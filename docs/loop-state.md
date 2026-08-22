@@ -281,3 +281,21 @@
 | 197 | audio-player | 本地音乐播放器 | 影音媒体 | deployed | b6w4push | 200 Pass 线上验证 |
 | 198 | screen-recorder | 屏幕录制器 | 影音媒体 | deployed | b6w4push | 200 Pass 线上验证 |
 | 199 | tts | 文字转语音工具 | 影音媒体 | deployed | b6w4push | 200 Pass 线上验证 |
+
+
+---
+
+## 全站回归大扫尾 — 2026-08-22 完成
+
+| # | 检查项 | 结果 | 修复 |
+|---|---|---|---|
+| 1 | 全量 URL 健康 | 624/624 全部 200（199工具×3语言+分类+首页） | - |
+| 2 | sitemap 校验 | 636 loc 全为裸域 codetool.site，每个都经 308 跳转 | sitemap.ts/robots.ts/hreflang 统一 https://www.codetool.site，上线验证生效 |
+| 3 | 站内死链扫描 | 641 内链中 /myip 三语死链（Footer 引用未实现工具） | Footer 改指 /client-info，复扫 0 死链 |
+| 4 | 使用说明重复（用户发现） | ToolLayout 硬编码 JSON 文案，597 页千篇一律 | scripts/gen_usage.py 为 199 工具生成三语专属 usage：25 动作族+9 类隐私条=60 种组合，上线验证各异 |
+| 5 | i18n 笔误（抽查发现） | 11 个组件 t() 三元末支误写 es:es，中文页错显西语 | 批量修复，中文页验证恢复 |
+| 6 | 浏览器交互抽查 | 8 分类各 1 工具真实驱动输入→输出全对（json-formatter/base64/word-count/length/qrcode/cidr/loan/tts） | - |
+| 7 | 性能快检 | TTFB 0.33-1.1s；HTML 23KB；JS brotli+immutable 缓存 | - |
+
+终态：vitest 1918/1918 · build 641 页 SSG · 0 新增 TS 错误 · 线上全部复验通过
+遗留观察项（非阻塞）：HTML 响应未启用压缩（部署平台层配置，页面仅 ~23KB 可接受）
