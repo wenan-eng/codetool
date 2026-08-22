@@ -7,7 +7,7 @@ function MediaPickerEditor({ kind, locale }: { kind: "video" | "audio"; locale?:
   const [rate, setRate] = useState(1)
   const mediaRef = useRef<HTMLVideoElement & HTMLAudioElement>(null)
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
 
   const loadFile = (file: File) => {
     setUrl(URL.createObjectURL(file))

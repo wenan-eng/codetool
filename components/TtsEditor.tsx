@@ -9,7 +9,7 @@ export default function TtsEditor({ locale = "zh" }: { locale?: string }) {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([])
   const [voiceIdx, setVoiceIdx] = useState(0)
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
 
   useEffect(() => {
     const load = () => setVoices(window.speechSynthesis?.getVoices() ?? [])

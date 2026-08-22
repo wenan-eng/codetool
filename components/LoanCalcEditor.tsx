@@ -10,7 +10,7 @@ export default function LoanCalcEditor({ locale = "zh" }: { locale?: string }) {
   const [rows, setRows] = useState<[string, string][]>([])
   const [error, setError] = useState("")
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
   const fmt = (n: number) => n.toLocaleString("zh-CN", { maximumFractionDigits: 2 })
 
   const run = () => {

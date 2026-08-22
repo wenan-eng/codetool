@@ -1,0 +1,96 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+        - link "图片处理" [ref=e10] [cursor=pointer]:
+          - /url: /zh/image
+        - link "站长工具" [ref=e11] [cursor=pointer]:
+          - /url: /zh/webmaster
+        - link "生活计算" [ref=e12] [cursor=pointer]:
+          - /url: /zh/life
+        - link "影音媒体" [ref=e13] [cursor=pointer]:
+          - /url: /zh/media
+      - generic [ref=e14]:
+        - generic [ref=e15]: 搜索工具
+        - generic [ref=e16]:
+          - link "中文" [ref=e17] [cursor=pointer]:
+            - /url: /zh/json-formatter
+          - link "English" [ref=e18] [cursor=pointer]:
+            - /url: /en/json-formatter
+          - link "Español" [ref=e19] [cursor=pointer]:
+            - /url: /es/json-formatter
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - heading "在线JSON格式化/压缩工具" [level=1] [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26]: JSON美化
+          - generic [ref=e27]: JSON压缩
+          - generic [ref=e28]: JSON解析
+          - generic [ref=e29]: JSON校验
+        - paragraph [ref=e30]: 使用我们的JSON代码美化/压缩工具可以美化任意JSON数据的格式结构、压缩代码体积、校验语法准确性，实时处理，全面提升开发调试效率。
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - button "JSON美化" [active] [ref=e33] [cursor=pointer]
+          - button "JSON压缩" [ref=e34] [cursor=pointer]
+          - button "查看示例" [ref=e35] [cursor=pointer]
+          - button "复制结果" [ref=e36] [cursor=pointer]
+          - button "清空数据" [ref=e37] [cursor=pointer]
+        - textbox "请输入要格式化/压缩的JSON代码" [ref=e39]: "{ \"b\": 2, \"a\": [ 1, 2 ] }"
+        - generic [ref=e40]: 所有操作均在浏览器本地完成，不上传数据
+      - generic [ref=e41]:
+        - heading "使用说明" [level=2] [ref=e42]
+        - list [ref=e43]:
+          - listitem [ref=e44]: 将需要处理的代码粘贴到输入框
+          - listitem [ref=e45]: 点击功能按钮自动完成格式化与清理
+          - listitem [ref=e46]: 复制输出结果直接使用
+          - listitem [ref=e47]: 所有解析与处理均在浏览器本地完成，代码不会上传服务器
+      - generic [ref=e48]:
+        - heading "同类推荐" [level=2] [ref=e49]
+        - link "在线JSON格式化/压缩工具" [ref=e51] [cursor=pointer]:
+          - /url: /zh/json-formatter
+          - generic [ref=e52]: 在线JSON格式化/压缩工具
+      - generic [ref=e53]:
+        - heading "常见问题" [level=2] [ref=e54]
+        - group [ref=e55]:
+          - generic "什么是JSON美化与压缩？" [ref=e56] [cursor=pointer]
+        - group [ref=e57]:
+          - generic "如何美化混乱的JSON？" [ref=e58] [cursor=pointer]
+        - group [ref=e59]:
+          - generic "如何压缩JSON？" [ref=e60] [cursor=pointer]
+        - group [ref=e61]:
+          - generic "会被上传吗？" [ref=e62] [cursor=pointer]
+  - contentinfo [ref=e63]:
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - heading "热门推荐" [level=4] [ref=e66]
+        - link "JSON" [ref=e67] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e68]:
+        - heading "站长工具" [level=4] [ref=e69]
+        - link "IP" [ref=e70] [cursor=pointer]:
+          - /url: /zh/client-info
+      - generic [ref=e71]:
+        - heading "关于" [level=4] [ref=e72]
+        - link "关于我们" [ref=e73] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e74] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e75]:
+        - heading "合规" [level=4] [ref=e76]
+        - link "服务条款" [ref=e77] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e78] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e79]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e80]

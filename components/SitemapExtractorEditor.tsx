@@ -6,7 +6,7 @@ export default function SitemapExtractorEditor({ locale = "zh" }: { locale?: str
   const [urls, setUrls] = useState<string[]>([])
   const [copied, setCopied] = useState(false)
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
 
   const extract = () => {
     const matches = input.match(/<loc>\s*([^<\s]+)\s*<\/loc>/gi) || []

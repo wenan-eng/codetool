@@ -25,7 +25,7 @@ export default function ColorConverterEditor({ locale = "zh" }: { locale?: strin
   const rgb = hexToRgb(color) ?? [59, 130, 246]
   const [h, s, l] = rgbToHsl(rgb[0], rgb[1], rgb[2])
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
 
   const formats = [
     { label: "HEX", value: color.toUpperCase() },

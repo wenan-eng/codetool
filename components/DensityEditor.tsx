@@ -6,7 +6,7 @@ export default function DensityEditor({ locale = "zh" }: { locale?: string }) {
   const [input, setInput] = useState("")
   const [rows, setRows] = useState<{ word: string; count: number; pct: number }[]>([])
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
 
   const run = () => {
     setRows(keywordDensity(input))

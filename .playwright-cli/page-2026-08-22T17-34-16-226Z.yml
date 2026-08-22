@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "工具箱" [ref=e4] [cursor=pointer]:
+        - /url: /zh
+      - navigation [ref=e5]:
+        - link "编程开发" [ref=e6] [cursor=pointer]:
+          - /url: /zh/code
+        - link "文本处理" [ref=e7] [cursor=pointer]:
+          - /url: /zh/text
+        - link "编码加密" [ref=e8] [cursor=pointer]:
+          - /url: /zh/encode
+        - link "单位换算" [ref=e9] [cursor=pointer]:
+          - /url: /zh/unit
+        - link "图片处理" [ref=e10] [cursor=pointer]:
+          - /url: /zh/image
+        - link "站长工具" [ref=e11] [cursor=pointer]:
+          - /url: /zh/webmaster
+        - link "生活计算" [ref=e12] [cursor=pointer]:
+          - /url: /zh/life
+        - link "影音媒体" [ref=e13] [cursor=pointer]:
+          - /url: /zh/media
+      - generic [ref=e14]:
+        - generic [ref=e15]: 搜索工具
+        - generic [ref=e16]:
+          - link "中文" [ref=e17] [cursor=pointer]:
+            - /url: /zh/qrcode
+          - link "English" [ref=e18] [cursor=pointer]:
+            - /url: /en/qrcode
+          - link "Español" [ref=e19] [cursor=pointer]:
+            - /url: /es/qrcode
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - heading "二维码生成器" [level=1] [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26]: 二维码生成
+          - generic [ref=e27]: WiFi码
+          - generic [ref=e28]: 文本转码
+          - generic [ref=e29]: 网址二维码
+        - paragraph [ref=e30]: 二维码生成器，支持文本、网址与 WiFi 三种模式：WiFi 模式生成扫码即连的无线配置码，尺寸无级可调最高 800px，PNG 无损下载，适用于名片、海报与设备配网，全部本地生成不上传。
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - button "文本" [ref=e33] [cursor=pointer]
+          - button "网址" [ref=e34] [cursor=pointer]
+          - button "WiFi" [ref=e35] [cursor=pointer]
+        - textbox "请输入任意文本内容..." [ref=e36]
+        - generic [ref=e37]:
+          - generic [ref=e38]: 尺寸
+          - slider "尺寸 300px" [ref=e39]: "304"
+          - generic [ref=e40]: 300px
+        - button "⬇️ 下载二维码 PNG" [ref=e43] [cursor=pointer]
+        - paragraph [ref=e44]: 所有生成均在浏览器本地完成，不上传数据
+      - generic [ref=e45]:
+        - heading "使用说明" [level=2] [ref=e46]
+        - list [ref=e47]:
+          - listitem [ref=e48]: 输入文本、网址或联系方式等内容
+          - listitem [ref=e49]: 即时生成对应二维码并预览
+          - listitem [ref=e50]: 下载 PNG 图片用于印刷或分享
+          - listitem [ref=e51]: 图片仅在浏览器内处理，全程不会上传到任何服务器
+      - generic [ref=e52]:
+        - heading "同类推荐" [level=2] [ref=e53]
+        - generic [ref=e54]:
+          - link "二维码解码器" [ref=e55] [cursor=pointer]:
+            - /url: /zh/qrcode-decode
+            - generic [ref=e56]: 二维码解码器
+          - link "wifi-qrcode" [ref=e57] [cursor=pointer]:
+            - /url: /zh/wifi-qrcode
+            - generic [ref=e58]: wifi-qrcode
+          - link "vcard-qrcode" [ref=e59] [cursor=pointer]:
+            - /url: /zh/vcard-qrcode
+            - generic [ref=e60]: vcard-qrcode
+      - generic [ref=e61]:
+        - heading "常见问题" [level=2] [ref=e62]
+        - group [ref=e63]:
+          - generic "WiFi 二维码怎么用？" [ref=e64] [cursor=pointer]
+        - group [ref=e65]:
+          - generic "生成的码会过期吗？" [ref=e66] [cursor=pointer]
+        - group [ref=e67]:
+          - generic "内容会被上传吗？" [ref=e68] [cursor=pointer]
+  - contentinfo [ref=e69]:
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - heading "热门推荐" [level=4] [ref=e72]
+        - link "JSON" [ref=e73] [cursor=pointer]:
+          - /url: /zh/json-formatter
+      - generic [ref=e74]:
+        - heading "站长工具" [level=4] [ref=e75]
+        - link "IP" [ref=e76] [cursor=pointer]:
+          - /url: /zh/client-info
+      - generic [ref=e77]:
+        - heading "关于" [level=4] [ref=e78]
+        - link "关于我们" [ref=e79] [cursor=pointer]:
+          - /url: /zh/about
+        - link "隐私政策" [ref=e80] [cursor=pointer]:
+          - /url: /zh/privacy
+      - generic [ref=e81]:
+        - heading "合规" [level=4] [ref=e82]
+        - link "服务条款" [ref=e83] [cursor=pointer]:
+          - /url: /zh/terms
+        - link "联系我们" [ref=e84] [cursor=pointer]:
+          - /url: /zh/contact
+    - generic [ref=e85]: © 2026 工具箱 All Rights Reserved
+  - alert [ref=e86]

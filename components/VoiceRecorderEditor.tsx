@@ -8,7 +8,7 @@ export default function VoiceRecorderEditor({ locale = "zh" }: { locale?: string
   const recorderRef = useRef<MediaRecorder | null>(null)
   const chunksRef = useRef<Blob[]>([])
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
 
   const start = async () => {
     setError("")

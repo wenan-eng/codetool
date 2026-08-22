@@ -6,7 +6,7 @@ export default function ShortcutEditor({ locale = "zh" }: { locale?: string }) {
   const [url, setUrl] = useState("https://")
   const [done, setDone] = useState(false)
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
 
   const create = () => {
     const content = `[InternetShortcut]\nURL=${url.trim()}\nIconIndex=0\n`

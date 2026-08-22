@@ -7,7 +7,7 @@ export default function LogAnalysisEditor({ locale = "zh" }: { locale?: string }
   const [error, setError] = useState("")
   const inputRef = useRef<HTMLInputElement>(null)
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
   const fmt = (n: number) => n.toLocaleString()
 
   const loadFile = async (file: File) => {

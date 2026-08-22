@@ -9,7 +9,7 @@ export default function ScreenRecorderEditor({ locale = "zh" }: { locale?: strin
   const chunksRef = useRef<Blob[]>([])
   const streamRef = useRef<MediaStream | null>(null)
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
 
   const start = async () => {
     setError("")

@@ -10,7 +10,7 @@ export default function DecibelMeterEditor({ locale = "zh" }: { locale?: string 
   const ctxRef = useRef<AudioContext | null>(null)
   const streamRef = useRef<MediaStream | null>(null)
 
-  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : es)
+  const t = (zh: string, en: string, es: string) => (locale === "en" ? en : locale === "es" ? es : zh)
   const label = db < 30 ? t("安静", "Quiet", "Silencio") : db < 60 ? t("正常交谈", "Normal", "Normal") : db < 85 ? t("嘈杂", "Noisy", "Ruidoso") : t("有害音量!", "Harmful!", "¡Dañino!")
 
   const stop = () => {
