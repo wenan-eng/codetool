@@ -1,5 +1,6 @@
 import tools from "@/config/tools.json"
 import { locales } from "@/i18n"
+import { buildPageMetadata } from "@/lib/meta"
 import zh from "@/messages/zh.json"
 import en from "@/messages/en.json"
 import es from "@/messages/es.json"
@@ -9,7 +10,7 @@ export function generateStaticParams(){ return locales.map(locale=>({locale})) }
 
 export function generateMetadata({params}:{params:{locale:string}}){
   const msgs = messagesMap[params.locale] || zh
-  return { title: msgs.home.title, description: msgs.tool.desc }
+  return buildPageMetadata({ locale: params.locale, path: "", title: msgs.home.title, description: msgs.tool.desc })
 }
 
 export default function Home({params}:{params:{locale:string}}){

@@ -88,7 +88,7 @@
     "related": [
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json.svg",
+    "icon": "/icons/json-formatter.svg",
     "usage": [
       "将需要处理的代码粘贴到输入框",
       "点击功能按钮自动完成格式化与清理",
@@ -199,7 +199,7 @@
       "timestamp",
       "camel"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-binary.svg",
+    "icon": "/icons/hex-converter.svg",
     "usage": [
       "在输入框粘贴原始文本",
       "选择编码或解码方向",
@@ -309,7 +309,7 @@
       "camel",
       "hex-converter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-html-escape.svg",
+    "icon": "/icons/html-escape.svg",
     "usage": [
       "在输入框粘贴原始文本",
       "选择编码或解码方向",
@@ -420,7 +420,7 @@
       "camel",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-datetime-converter.svg",
+    "icon": "/icons/datetime-converter.svg",
     "usage": [
       "输入时间戳或日期时间字符串",
       "自动双向换算本地与 UTC 时间",
@@ -530,7 +530,7 @@
       "json-formatter",
       "hex-converter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-camel.svg",
+    "icon": "/icons/camel.svg",
     "usage": [
       "输入变量名、短语或多行列表",
       "选择 camelCase、snake_case 等目标风格",
@@ -641,7 +641,7 @@
       "json-sort",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-flatten.svg",
+    "icon": "/icons/json-flatten.svg",
     "usage": [
       "粘贴需要处理的 JSON 数据",
       "按需选择操作选项并点击执行",
@@ -752,7 +752,7 @@
       "json-sort",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-unflatten.svg",
+    "icon": "/icons/json-unflatten.svg",
     "usage": [
       "粘贴需要处理的 JSON 数据",
       "按需选择操作选项并点击执行",
@@ -776,7 +776,7 @@
     "id": "json-sort",
     "title": "在线JSON排序工具",
     "h1": "在线JSON排序工具",
-    "description": "在线 JSON 键排序工具，递归按字母序对所有层级键排序，支持对象与数组，保持值不变，本地处理。",
+    "description": "对 JSON 对象的键名按字母顺序递归排序，覆盖嵌套对象与数组内的每一层，可选升序或降序，排序过程不修改任何值与数据类型。接口文档对比、配置文件整理、代码评审前统一键序都靠它，全部计算在浏览器本地完成，敏感配置不会上传服务器。",
     "title_en": "Online JSON Sort",
     "h1_en": "Online JSON Sort",
     "description_en": "Sort JSON keys alphabetically at all levels recursively, supports objects and arrays with values preserved and local processing.",
@@ -863,7 +863,7 @@
       "json-unflatten",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-sort.svg",
+    "icon": "/icons/json-sort.svg",
     "usage": [
       "粘贴需要处理的 JSON 数据",
       "按需选择操作选项并点击执行",
@@ -974,7 +974,7 @@
       "hex-converter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-timestamp.svg",
+    "icon": "/icons/timestamp.svg",
     "usage": [
       "输入时间戳或日期时间字符串",
       "自动双向换算本地与 UTC 时间",
@@ -1085,7 +1085,7 @@
       "hex-converter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-timestamp-batch.svg",
+    "icon": "/icons/timestamp-batch.svg",
     "usage": [
       "输入时间戳或日期时间字符串",
       "自动双向换算本地与 UTC 时间",
@@ -1196,7 +1196,7 @@
       "css-formatter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-js-formatter.svg",
+    "icon": "/icons/js-formatter.svg",
     "usage": [
       "将需要处理的代码粘贴到输入框",
       "点击功能按钮自动完成格式化与清理",
@@ -1307,7 +1307,7 @@
       "css-formatter",
       "html-escape"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-html.svg",
+    "icon": "/icons/html-formatter.svg",
     "usage": [
       "将需要处理的代码粘贴到输入框",
       "点击功能按钮自动完成格式化与清理",
@@ -1418,7 +1418,7 @@
       "html-formatter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-css3.svg",
+    "icon": "/icons/css-formatter.svg",
     "usage": [
       "将需要处理的代码粘贴到输入框",
       "点击功能按钮自动完成格式化与清理",
@@ -1529,7 +1529,7 @@
       "js-formatter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-sql.svg",
+    "icon": "/icons/sql-format.svg",
     "usage": [
       "将需要处理的代码粘贴到输入框",
       "点击功能按钮自动完成格式化与清理",
@@ -1640,7 +1640,7 @@
       "js-formatter",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-yaml-formatter.svg",
+    "icon": "/icons/yaml-formatter.svg",
     "usage": [
       "将需要处理的代码粘贴到输入框",
       "点击功能按钮自动完成格式化与清理",
@@ -1751,7 +1751,7 @@
       "json-excel",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-sql.svg",
+    "icon": "/icons/json-sql.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -1862,7 +1862,7 @@
       "excel-json",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-sql-json.svg",
+    "icon": "/icons/sql-json.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -1973,7 +1973,7 @@
       "json-formatter",
       "html-escape"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-cookie.svg",
+    "icon": "/icons/json-cookie.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -2084,7 +2084,7 @@
       "json-formatter",
       "html-escape"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-cookie-json.svg",
+    "icon": "/icons/cookie-json.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -2195,7 +2195,7 @@
       "json-formatter",
       "hex-converter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-base64.svg",
+    "icon": "/icons/json-base64.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -2306,7 +2306,7 @@
       "html-escape",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-xml-base64.svg",
+    "icon": "/icons/xml-base64.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -2417,7 +2417,7 @@
       "json-sql",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-excel.svg",
+    "icon": "/icons/json-excel.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -2528,7 +2528,7 @@
       "sql-json",
       "json-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-excel-json.svg",
+    "icon": "/icons/excel-json.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -2639,7 +2639,7 @@
       "json-yaml",
       "json-xml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-csv.svg",
+    "icon": "/icons/json-csv.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -2750,7 +2750,7 @@
       "json-yaml",
       "json-xml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-csv-json.svg",
+    "icon": "/icons/csv-json.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -2861,7 +2861,7 @@
       "json-csv",
       "json-xml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-yaml.svg",
+    "icon": "/icons/json-yaml.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -2972,7 +2972,7 @@
       "json-csv",
       "json-xml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-yaml-json.svg",
+    "icon": "/icons/yaml-json.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -3083,7 +3083,7 @@
       "json-csv",
       "json-yaml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-json-xml.svg",
+    "icon": "/icons/json-xml.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -3194,7 +3194,7 @@
       "json-csv",
       "json-yaml"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-xml-json.svg",
+    "icon": "/icons/xml-json.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -3305,7 +3305,7 @@
       "timestamp",
       "hex-converter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-screen-inspector.svg",
+    "icon": "/icons/screen-inspector.svg",
     "usage": [
       "打开页面即自动采集当前环境信息",
       "查看屏幕、系统、浏览器等参数明细",
@@ -3416,7 +3416,7 @@
       "json-flatten",
       "json-base64"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-php-serialize.svg",
+    "icon": "/icons/php-serialize.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -3527,7 +3527,7 @@
       "json-formatter",
       "html-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-pwa-manifest.svg",
+    "icon": "/icons/pwa-manifest.svg",
     "usage": [
       "调整颜色、圆角、动画速度等参数",
       "在预览区实时查看视觉效果",
@@ -3638,7 +3638,7 @@
       "loading",
       "css-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-button-css.svg",
+    "icon": "/icons/button-css.svg",
     "usage": [
       "调整颜色、圆角、动画速度等参数",
       "在预览区实时查看视觉效果",
@@ -3749,7 +3749,7 @@
       "pwa-manifest",
       "css-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-loading.svg",
+    "icon": "/icons/loading.svg",
     "usage": [
       "调整颜色、圆角、动画速度等参数",
       "在预览区实时查看视觉效果",
@@ -3860,7 +3860,7 @@
       "js-formatter",
       "css-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-strip-comments.svg",
+    "icon": "/icons/strip-comments.svg",
     "usage": [
       "将需要处理的代码粘贴到输入框",
       "点击功能按钮自动完成格式化与清理",
@@ -3971,7 +3971,7 @@
       "image-extract",
       "html-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-html-filter.svg",
+    "icon": "/icons/html-filter.svg",
     "usage": [
       "将需要处理的代码粘贴到输入框",
       "点击功能按钮自动完成格式化与清理",
@@ -4082,7 +4082,7 @@
       "image-extract",
       "strip-comments"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-csv-merge.svg",
+    "icon": "/icons/csv-merge.svg",
     "usage": [
       "在左侧输入框粘贴源数据",
       "确认目标格式后点击转换按钮",
@@ -4193,7 +4193,7 @@
       "csv-merge",
       "html-formatter"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-extract.svg",
+    "icon": "/icons/image-extract.svg",
     "usage": [
       "粘贴网页 HTML 源码或 URL 列表",
       "自动提取全部图片链接并去重",
@@ -4304,7 +4304,7 @@
       "pie-chart",
       "horizontal-bar-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-line-chart.svg",
+    "icon": "/icons/line-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -4415,7 +4415,7 @@
       "pie-chart",
       "horizontal-bar-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-bar-chart.svg",
+    "icon": "/icons/bar-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -4526,7 +4526,7 @@
       "bar-chart",
       "horizontal-bar-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-pie-chart.svg",
+    "icon": "/icons/pie-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -4637,7 +4637,7 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-horizontal-bar-chart.svg",
+    "icon": "/icons/horizontal-bar-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -4748,7 +4748,7 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-area-chart.svg",
+    "icon": "/icons/area-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -4859,7 +4859,7 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-doughnut-chart.svg",
+    "icon": "/icons/doughnut-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -4970,7 +4970,7 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-scatter-chart.svg",
+    "icon": "/icons/scatter-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -5081,7 +5081,7 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-radar-chart.svg",
+    "icon": "/icons/radar-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -5192,7 +5192,7 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-histogram-chart.svg",
+    "icon": "/icons/histogram-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -5303,7 +5303,7 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-multi-line-chart.svg",
+    "icon": "/icons/multi-line-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -5414,7 +5414,7 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-stacked-area-chart.svg",
+    "icon": "/icons/stacked-area-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -5441,7 +5441,7 @@
     "description": "在线瀑布图生成器，展示增减累计过程的瀑布图，自动区分正负与总计柱，支持浮动条与 Chart.js 配置导出，SVG 下载，本地处理。",
     "title_en": "Online Waterfall Chart Generator",
     "h1_en": "Online Waterfall Chart Generator",
-    "description_en": "Generate waterfall charts for增减 cumulative process, auto positive/negative and total, with floating bars, Chart.js export and SVG, local.",
+    "description_en": "Generate waterfall charts that visualize cumulative increases and decreases, with automatic positive, negative and total bars, floating bars, Chart.js config export and SVG download. Fully local processing.",
     "title_es": "Generador de Gráfico de Cascada en Línea",
     "h1_es": "Generador de Gráfico de Cascada en Línea",
     "description_es": "Genera gráficos de cascada para proceso acumulativo, distingue positivos/negativos y total, barras flotantes, Chart.js y SVG, local.",
@@ -5525,7 +5525,7 @@
       "bar-chart",
       "pie-chart"
     ],
-    "icon": "https://www.lanren-tools.com/static/images/logo-waterfall-chart.svg",
+    "icon": "/icons/waterfall-chart.svg",
     "usage": [
       "在数据编辑器中修改分类与数值",
       "图表随数据实时重绘",
@@ -5563,7 +5563,7 @@
       "encodeURIComponent"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-url-hex-encode.svg",
+    "icon": "/icons/url-encode.svg",
     "faqs": [
       {
         "q": "什么是 URL 编码？",
@@ -5648,7 +5648,7 @@
       "%uXXXX"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-escape.svg",
+    "icon": "/icons/escape.svg",
     "faqs": [
       {
         "q": "Escape 编码是什么？",
@@ -5733,7 +5733,7 @@
       "中文转码"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-html-entity.svg",
+    "icon": "/icons/utf-8.svg",
     "faqs": [
       {
         "q": "Unicode 转义是什么？",
@@ -5818,7 +5818,7 @@
       "防XSS"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-html-entity.svg",
+    "icon": "/icons/html-entity.svg",
     "faqs": [
       {
         "q": "HTML 实体是什么？",
@@ -5903,7 +5903,7 @@
       "电报码"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-morse.svg",
+    "icon": "/icons/morse.svg",
     "faqs": [
       {
         "q": "什么是摩斯密码？",
@@ -5988,7 +5988,7 @@
       "进制转换"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-text-hex.svg",
+    "icon": "/icons/text-hex.svg",
     "faqs": [
       {
         "q": "中文是如何转换的？",
@@ -6073,7 +6073,7 @@
       "进制转换"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-text-octal.svg",
+    "icon": "/icons/text-octal.svg",
     "faqs": [
       {
         "q": "八进制输出为什么是三位一组？",
@@ -6158,7 +6158,7 @@
       "进制转换"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-text-bin.svg",
+    "icon": "/icons/text-bin.svg",
     "faqs": [
       {
         "q": "二进制输出为什么是八位一组？",
@@ -6243,7 +6243,7 @@
       "编码转换"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-base64-bulk.svg",
+    "icon": "/icons/base32-encode.svg",
     "faqs": [
       {
         "q": "什么是 Base32？",
@@ -6327,7 +6327,7 @@
       "编码转换"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-base64-bulk.svg",
+    "icon": "/icons/base64-encode.svg",
     "faqs": [
       {
         "q": "什么是 Base64？",
@@ -6411,7 +6411,7 @@
       "编码转换"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-base64-bulk.svg",
+    "icon": "/icons/base64-bulk.svg",
     "faqs": [
       {
         "q": "如何批量转换？",
@@ -6495,7 +6495,7 @@
       "Base64URL"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-jwt-decoder.svg",
+    "icon": "/icons/jwt-decoder.svg",
     "faqs": [
       {
         "q": "JWT 解码会验证签名吗？",
@@ -6580,7 +6580,7 @@
       "安全随机数"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-random-pwd.svg",
+    "icon": "/icons/random-pwd.svg",
     "faqs": [
       {
         "q": "生成的密码安全吗？",
@@ -6665,7 +6665,7 @@
       "信息熵"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-entropy-calculator.svg",
+    "icon": "/icons/entropy-calculator.svg",
     "faqs": [
       {
         "q": "密码熵是怎么计算的？",
@@ -6750,7 +6750,7 @@
       "文本压缩"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-gzip.svg",
+    "icon": "/icons/gzip.svg",
     "faqs": [
       {
         "q": "编码结果是什么格式？",
@@ -6835,7 +6835,7 @@
       "32位"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-md5.svg",
+    "icon": "/icons/md5.svg",
     "faqs": [
       {
         "q": "MD5 是加密吗？",
@@ -6920,7 +6920,7 @@
       "MD5"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-md5-batch.svg",
+    "icon": "/icons/md5-batch.svg",
     "faqs": [
       {
         "q": "如何批量加密？",
@@ -7005,7 +7005,7 @@
       "摘要算法"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-sha.svg",
+    "icon": "/icons/sha.svg",
     "faqs": [
       {
         "q": "应该选哪种 SHA 算法？",
@@ -7090,7 +7090,7 @@
       "摘要算法"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-md4.svg",
+    "icon": "/icons/md4.svg",
     "faqs": [
       {
         "q": "MD4 还安全吗？",
@@ -7175,7 +7175,7 @@
       "数据库"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-mysql-password.svg",
+    "icon": "/icons/mysql-password.svg",
     "faqs": [
       {
         "q": "生成的哈希格式是什么？",
@@ -7260,7 +7260,7 @@
       "Basic Auth"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-htpasswd.svg",
+    "icon": "/icons/htpasswd.svg",
     "faqs": [
       {
         "q": "生成的结果怎么用？",
@@ -7345,7 +7345,7 @@
       "GCM"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-aes-encrypt.svg",
+    "icon": "/icons/aes-encrypt.svg",
     "faqs": [
       {
         "q": "三种模式怎么选？",
@@ -7430,7 +7430,7 @@
       "ECB"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-des-encrypt.svg",
+    "icon": "/icons/des-encrypt.svg",
     "faqs": [
       {
         "q": "DES 还能用于生产环境吗？",
@@ -7515,7 +7515,7 @@
       "转码"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-url-hex-encode.svg",
+    "icon": "/icons/url-hex-encode.svg",
     "faqs": [
       {
         "q": "和普通 URL 编码有何不同？",
@@ -7600,7 +7600,7 @@
       "解码"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-base64-file.svg",
+    "icon": "/icons/base64-file.svg",
     "faqs": [
       {
         "q": "支持哪些输入格式？",
@@ -7685,7 +7685,7 @@
       "内嵌"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-file-base64.svg",
+    "icon": "/icons/file-base64.svg",
     "faqs": [
       {
         "q": "生成的结果是什么格式？",
@@ -7770,7 +7770,7 @@
       "前端调试"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-base64-image.svg",
+    "icon": "/icons/base64-image.svg",
     "faqs": [
       {
         "q": "为什么我的 base64 无法预览？",
@@ -7855,7 +7855,7 @@
       "编码"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-base64.svg",
+    "icon": "/icons/image-base64.svg",
     "faqs": [
       {
         "q": "两种输出模式有什么区别？",
@@ -7940,7 +7940,7 @@
       "隐写分析"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-lsb-extract.svg",
+    "icon": "/icons/lsb-extract.svg",
     "faqs": [
       {
         "q": "什么样的图片可以提取？",
@@ -8025,7 +8025,7 @@
       "信息隐藏"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-lsb-embed.svg",
+    "icon": "/icons/lsb-embed.svg",
     "faqs": [
       {
         "q": "隐写后的图片肉眼能看出区别吗？",
@@ -8110,7 +8110,7 @@
       "防篡改"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-md5-verify.svg",
+    "icon": "/icons/md5-verify.svg",
     "faqs": [
       {
         "q": "如何校验下载的文件是否完整？",
@@ -8195,7 +8195,7 @@
       "哈希批量"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-md5-batch-verify.svg",
+    "icon": "/icons/md5-batch-verify.svg",
     "faqs": [
       {
         "q": "一次最多可以上传多少个文件？",
@@ -8280,7 +8280,7 @@
       "前端安全"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-js-obfuscator-advanced.svg",
+    "icon": "/icons/js-obfuscator.svg",
     "faqs": [
       {
         "q": "混淆后的代码还能正常运行吗？",
@@ -8365,7 +8365,7 @@
       "代码保护"
     ],
     "category": "编码转换",
-    "icon": "https://www.lanren-tools.com/static/images/logo-js-obfuscator-advanced.svg",
+    "icon": "/icons/js-obfuscator-advanced.svg",
     "faqs": [
       {
         "q": "域名授权是怎么工作的？",
@@ -8450,7 +8450,7 @@
       "字母转换"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-letter-circle.svg",
+    "icon": "/icons/letter-converter.svg",
     "faqs": [
       {
         "q": "支持哪些转换模式？",
@@ -8535,7 +8535,7 @@
       "中英文"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-symbol-converter.svg",
+    "icon": "/icons/symbol-converter.svg",
     "faqs": [
       {
         "q": "支持哪些符号的互转？",
@@ -8620,7 +8620,7 @@
       "数据清理"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-emoji.svg",
+    "icon": "/icons/remove-emoji.svg",
     "faqs": [
       {
         "q": "能去除哪些类型的 Emoji？",
@@ -8705,7 +8705,7 @@
       "写作工具"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-word-count.svg",
+    "icon": "/icons/word-count.svg",
     "faqs": [
       {
         "q": "各统计维度是怎么定义的？",
@@ -8790,7 +8790,7 @@
       "文本处理"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-line-text.svg",
+    "icon": "/icons/line-text.svg",
     "faqs": [
       {
         "q": "什么是字面换行符？",
@@ -8875,7 +8875,7 @@
       "文本处理"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-text-line.svg",
+    "icon": "/icons/text-line.svg",
     "faqs": [
       {
         "q": "什么时候需要这个工具？",
@@ -8960,7 +8960,7 @@
       "文本处理"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-text-replace.svg",
+    "icon": "/icons/text-replace.svg",
     "faqs": [
       {
         "q": "正则模式和普通模式有什么区别？",
@@ -9045,7 +9045,7 @@
       "文本处理"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-text-split.svg",
+    "icon": "/icons/text-split.svg",
     "faqs": [
       {
         "q": "默认怎么分割？",
@@ -9130,7 +9130,7 @@
       "文本提取"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-mobile-extractor.svg",
+    "icon": "/icons/mobile-extractor.svg",
     "faqs": [
       {
         "q": "会误提取座机或其他数字吗？",
@@ -9215,7 +9215,7 @@
       "文本提取"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-email-extractor.svg",
+    "icon": "/icons/email-extractor.svg",
     "faqs": [
       {
         "q": "支持带加号和点的复杂邮箱吗？",
@@ -9300,7 +9300,7 @@
       "SEO"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-url-extractor.svg",
+    "icon": "/icons/url-extractor.svg",
     "faqs": [
       {
         "q": "www 开头的网址能提取吗？",
@@ -9385,7 +9385,7 @@
       "批量提取"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-idcard-date.svg",
+    "icon": "/icons/idcard-date.svg",
     "faqs": [
       {
         "q": "15 位和 18 位都支持吗？",
@@ -9470,7 +9470,7 @@
       "批量提取"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-idcard-extract.svg",
+    "icon": "/icons/idcard-extract.svg",
     "faqs": [
       {
         "q": "性别是怎么判断的？",
@@ -9555,7 +9555,7 @@
       "接口调试"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-url-extractor.svg",
+    "icon": "/icons/net-parser.svg",
     "faqs": [
       {
         "q": "不带协议的网址能解析吗？",
@@ -9640,7 +9640,7 @@
       "语料分析"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-text-extract.svg",
+    "icon": "/icons/text-extract.svg",
     "faqs": [
       {
         "q": "六种提取模式分别适合什么场景？",
@@ -9725,7 +9725,7 @@
       "中文转换"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-symbol-converter.svg",
+    "icon": "/icons/chinese-converter.svg",
     "faqs": [
       {
         "q": "覆盖多少简繁对照字？",
@@ -9810,7 +9810,7 @@
       "趣味转换"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-symbol-converter.svg",
+    "icon": "/icons/mars-converter.svg",
     "faqs": [
       {
         "q": "什么是火星文？",
@@ -9895,7 +9895,7 @@
       "昵称生成"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-letter-circle.svg",
+    "icon": "/icons/letter-circle.svg",
     "faqs": [
       {
         "q": "哪些字符会被加圈？",
@@ -9980,7 +9980,7 @@
       "邀请码"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-string-random.svg",
+    "icon": "/icons/string-random.svg",
     "faqs": [
       {
         "q": "默认字符集为什么少了 0O1lI？",
@@ -10065,7 +10065,7 @@
       "批量生成"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-string-random.svg",
+    "icon": "/icons/sequence-generator.svg",
     "faqs": [
       {
         "q": "补零是什么意思？",
@@ -10150,7 +10150,7 @@
       "格式清理"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-text-formatter.svg",
+    "icon": "/icons/text-formatter.svg",
     "faqs": [
       {
         "q": "从网页复制的乱格式怎么整理？",
@@ -10235,7 +10235,7 @@
       "拼音标注"
     ],
     "category": "文本处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-word-count.svg",
+    "icon": "/icons/pinyin-converter.svg",
     "faqs": [
       {
         "q": "多音字怎么处理？",
@@ -10320,7 +10320,7 @@
       "英寸厘米"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/length-converter.svg",
     "faqs": [
       {
         "q": "支持哪些长度单位？",
@@ -10405,7 +10405,7 @@
       "斤两"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/weight-converter.svg",
     "faqs": [
       {
         "q": "克拉怎么换算？",
@@ -10490,7 +10490,7 @@
       "温度单位"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/temperature-converter.svg",
     "faqs": [
       {
         "q": "摄氏和华氏怎么互转？",
@@ -10575,7 +10575,7 @@
       "单位转换"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-area.svg",
+    "icon": "/icons/area-converter.svg",
     "faqs": [
       {
         "q": "一亩等于多少平方米？",
@@ -10660,7 +10660,7 @@
       "单位转换"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-area.svg",
+    "icon": "/icons/volume-converter.svg",
     "faqs": [
       {
         "q": "美制加仑和升怎么换？",
@@ -10745,7 +10745,7 @@
       "节马赫"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/speed-converter.svg",
     "faqs": [
       {
         "q": "km/h 和 mph 怎么换？",
@@ -10830,7 +10830,7 @@
       "单位转换"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/time-converter.svg",
     "faqs": [
       {
         "q": "一天等于多少秒？",
@@ -10915,7 +10915,7 @@
       "单位转换"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/angle-converter.svg",
     "faqs": [
       {
         "q": "弧度和度怎么换？",
@@ -11000,7 +11000,7 @@
       "大气压"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/pressure-converter.svg",
     "faqs": [
       {
         "q": "胎压常用什么单位？",
@@ -11085,7 +11085,7 @@
       "单位转换"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/power-converter.svg",
     "faqs": [
       {
         "q": "马力和千瓦怎么换？",
@@ -11129,7 +11129,7 @@
       }
     ],
     "related": [
-      "energy-converter",
+      "voltage-converter",
       "torque-converter",
       "pressure-converter"
     ],
@@ -11170,7 +11170,7 @@
       "磅力"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/force-converter.svg",
     "faqs": [
       {
         "q": "千克力是怎么定义的？",
@@ -11255,7 +11255,7 @@
       "紧固扭矩"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/torque-converter.svg",
     "faqs": [
       {
         "q": "汽车扭矩常用什么单位？",
@@ -11340,7 +11340,7 @@
       "能量单位"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-heat.svg",
+    "icon": "/icons/heat-converter.svg",
     "faqs": [
       {
         "q": "食品的大卡和千焦怎么换？",
@@ -11425,7 +11425,7 @@
       "转速"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-frequency-converter.svg",
+    "icon": "/icons/frequency-converter.svg",
     "faqs": [
       {
         "q": "GHz 和 MHz 怎么换？",
@@ -11510,7 +11510,7 @@
       "单位转换"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-density-converter.svg",
+    "icon": "/icons/density-converter.svg",
     "faqs": [
       {
         "q": "水的密度是多少？",
@@ -11595,7 +11595,7 @@
       "燃油经济性"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/fuel-consumption-converter.svg",
     "faqs": [
       {
         "q": "L/100km 和 mpg 为什么是倒数关系？",
@@ -11680,7 +11680,7 @@
       "电子电路"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-illuminance-converter.svg",
+    "icon": "/icons/voltage-converter.svg",
     "faqs": [
       {
         "q": "常见电池电压是多少？",
@@ -11765,7 +11765,7 @@
       "电路设计"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-illuminance-converter.svg",
+    "icon": "/icons/current-converter.svg",
     "faqs": [
       {
         "q": "人体安全电流是多少？",
@@ -11850,7 +11850,7 @@
       "电路"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-illuminance-converter.svg",
+    "icon": "/icons/resistance-converter.svg",
     "faqs": [
       {
         "q": "贴片电阻的 kΩ MΩ 怎么读？",
@@ -12105,7 +12105,7 @@
       "灯光设计"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-illuminance-converter.svg",
+    "icon": "/icons/illuminance-converter.svg",
     "faqs": [
       {
         "q": "办公室照度标准是多少？",
@@ -12190,7 +12190,7 @@
       "音频工程"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-sound-converter.svg",
+    "icon": "/icons/sound-converter.svg",
     "faqs": [
       {
         "q": "分贝和贝尔什么关系？",
@@ -12275,7 +12275,7 @@
       "摄影滤镜"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-cct-converter.svg",
+    "icon": "/icons/cct-converter.svg",
     "faqs": [
       {
         "q": "什么是迈尔德(mired)？",
@@ -12360,7 +12360,7 @@
       "米每秒"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-angle.svg",
+    "icon": "/icons/wind-speed-converter.svg",
     "faqs": [
       {
         "q": "台风的风速是多少？",
@@ -12490,7 +12490,7 @@
     ],
     "related": [
       "frequency-converter",
-      "dataurl-tool",
+      "base-converter",
       "word-count"
     ],
     "usage": [
@@ -12530,7 +12530,7 @@
       "前端开发"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-rem-px.svg",
+    "icon": "/icons/rem-px.svg",
     "faqs": [
       {
         "q": "默认根字号为什么是 16px？",
@@ -12700,7 +12700,7 @@
       "编程工具"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-base-converter.svg",
+    "icon": "/icons/base-converter.svg",
     "faqs": [
       {
         "q": "支持哪些进制？",
@@ -12746,7 +12746,7 @@
     "related": [
       "hex-converter",
       "text-bin",
-      "bit-calculator"
+      "bandwidth-converter"
     ],
     "usage": [
       "输入一个数值",
@@ -12785,7 +12785,7 @@
       "EU美码英码"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-shoe-size.svg",
+    "icon": "/icons/shoe-size.svg",
     "faqs": [
       {
         "q": "各国鞋码有什么区别？",
@@ -12829,7 +12829,7 @@
       }
     ],
     "related": [
-      "unit-converter",
+      "rmb-upper",
       "length-converter",
       "weight-converter"
     ],
@@ -12870,7 +12870,7 @@
       "记账"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-base-converter.svg",
+    "icon": "/icons/rmb-upper.svg",
     "faqs": [
       {
         "q": "1050 元的大写怎么写？",
@@ -12916,7 +12916,7 @@
     "related": [
       "base-converter",
       "word-count",
-      "number-checker"
+      "shoe-size"
     ],
     "usage": [
       "按提示选择或输入基本条件",
@@ -12955,7 +12955,7 @@
       "遗传规律"
     ],
     "category": "单位换算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-blood-type.svg",
+    "icon": "/icons/blood-type.svg",
     "faqs": [
       {
         "q": "父母都是 O 型孩子是什么血型？",
@@ -13040,7 +13040,7 @@
       "图片编辑"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-brightness.svg",
+    "icon": "/icons/image-brightness.svg",
     "faqs": [
       {
         "q": "支持哪些格式？",
@@ -13125,7 +13125,7 @@
       "调色"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-contrast.svg",
+    "icon": "/icons/image-contrast.svg",
     "faqs": [
       {
         "q": "对比度调太高会怎样？",
@@ -13210,7 +13210,7 @@
       "调色"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-saturation.svg",
+    "icon": "/icons/image-saturation.svg",
     "faqs": [
       {
         "q": "饱和度 -100 是什么效果？",
@@ -13295,7 +13295,7 @@
       "色彩调整"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-hsl.svg",
+    "icon": "/icons/image-hsl.svg",
     "faqs": [
       {
         "q": "色相 180 度是什么效果？",
@@ -13380,7 +13380,7 @@
       "氛围"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-temperature.svg",
+    "icon": "/icons/image-temperature.svg",
     "faqs": [
       {
         "q": "正值和负值分别是什么效果？",
@@ -13465,7 +13465,7 @@
       "修图"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-highlight.svg",
+    "icon": "/icons/image-highlight.svg",
     "faqs": [
       {
         "q": "和亮度调整有什么区别？",
@@ -13550,7 +13550,7 @@
       "底图"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-fader.svg",
+    "icon": "/icons/image-fader.svg",
     "faqs": [
       {
         "q": "100% 淡化是什么效果？",
@@ -13635,7 +13635,7 @@
       "照片修复"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-sharpener.svg",
+    "icon": "/icons/image-sharpener.svg",
     "faqs": [
       {
         "q": "锐化强度多少合适？",
@@ -13720,7 +13720,7 @@
       "背景虚化"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-blur-image.svg",
+    "icon": "/icons/blur-image.svg",
     "faqs": [
       {
         "q": "模糊半径怎么选？",
@@ -13805,7 +13805,7 @@
       "文档矫正"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-rotate.svg",
+    "icon": "/icons/image-rotate.svg",
     "faqs": [
       {
         "q": "旋转后为什么有空白角？",
@@ -13890,7 +13890,7 @@
       "图片翻转"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-mirror.svg",
+    "icon": "/icons/image-mirror.svg",
     "faqs": [
       {
         "q": "镜像翻转和旋转的区别？",
@@ -13975,7 +13975,7 @@
       "图片大小"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-size-revise.svg",
+    "icon": "/icons/image-size-revise.svg",
     "faqs": [
       {
         "q": "放大图片会模糊吗？",
@@ -14060,7 +14060,7 @@
       "构图"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-cropping.svg",
+    "icon": "/icons/image-cropping.svg",
     "faqs": [
       {
         "q": "坐标从哪里开始算？",
@@ -14106,7 +14106,7 @@
     "related": [
       "image-rotate",
       "image-size-revise",
-      "id-photo"
+      "round-image"
     ],
     "usage": [
       "选择本地图片（文件不上传服务器）",
@@ -14145,7 +14145,7 @@
       "图片瘦身"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-quality.svg",
+    "icon": "/icons/image-quality.svg",
     "faqs": [
       {
         "q": "质量设多少最合适？",
@@ -14219,7 +14219,7 @@
     "description": "图片转JPG格式在线工具，上传即转无需安装软件，有损压缩体积小巧，兼容一切设备与平台，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
     "title_en": "Convert Image to JPG Online",
     "h1_en": "Convert Image to JPG Online",
-    "description_en": "Convert any image to JPG right in your browser — no install needed, 有损压缩体积小巧，兼容一切设备与平台. Fully local, images never leave your device.",
+    "description_en": "Convert any image to JPG right in your browser — no installation needed. Lossy compression keeps files small and compatible with every device and platform. Fully local, images never leave your device.",
     "title_es": "Convertir Imagen a JPG en Línea",
     "h1_es": "Convertir Imagen a JPG en Línea",
     "description_es": "Convierta cualquier imagen a JPG en su navegador sin instalar nada, todo local.",
@@ -14230,7 +14230,7 @@
       "本地处理"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-jpg.svg",
+    "icon": "/icons/image-jpg.svg",
     "faqs": [
       {
         "q": "转换会损失画质吗？",
@@ -14304,7 +14304,7 @@
     "description": "图片转PNG格式在线工具，上传即转无需安装软件，无损压缩支持透明通道，截图与图标首选，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
     "title_en": "Convert Image to PNG Online",
     "h1_en": "Convert Image to PNG Online",
-    "description_en": "Convert any image to PNG right in your browser — no install needed, 无损压缩支持透明通道，截图与图标首选. Fully local, images never leave your device.",
+    "description_en": "Convert any image to PNG right in your browser — no installation needed. Lossless compression with full transparency support, ideal for screenshots and icons. Fully local, images never leave your device.",
     "title_es": "Convertir Imagen a PNG en Línea",
     "h1_es": "Convertir Imagen a PNG en Línea",
     "description_es": "Convierta cualquier imagen a PNG en su navegador sin instalar nada, todo local.",
@@ -14315,7 +14315,7 @@
       "本地处理"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-png.svg",
+    "icon": "/icons/image-png.svg",
     "faqs": [
       {
         "q": "转换会损失画质吗？",
@@ -14389,7 +14389,7 @@
     "description": "图片转WebP格式在线工具，上传即转无需安装软件，现代格式同等画质体积更小，网页加载更快，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
     "title_en": "Convert Image to WebP Online",
     "h1_en": "Convert Image to WebP Online",
-    "description_en": "Convert any image to WebP right in your browser — no install needed, 现代格式同等画质体积更小，网页加载更快. Fully local, images never leave your device.",
+    "description_en": "Convert any image to WebP right in your browser — no installation needed. This modern format delivers the same quality at smaller sizes for faster web pages. Fully local, images never leave your device.",
     "title_es": "Convertir Imagen a WebP en Línea",
     "h1_es": "Convertir Imagen a WebP en Línea",
     "description_es": "Convierta cualquier imagen a WebP en su navegador sin instalar nada, todo local.",
@@ -14400,7 +14400,7 @@
       "本地处理"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-webp.svg",
+    "icon": "/icons/image-webp.svg",
     "faqs": [
       {
         "q": "转换会损失画质吗？",
@@ -14474,7 +14474,7 @@
     "description": "图片转BMP格式在线工具，上传即转无需安装软件，无压缩位图原始像素，工业软件与老系统兼容，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
     "title_en": "Convert Image to BMP Online",
     "h1_en": "Convert Image to BMP Online",
-    "description_en": "Convert any image to BMP right in your browser — no install needed, 无压缩位图原始像素，工业软件与老系统兼容. Fully local, images never leave your device.",
+    "description_en": "Convert any image to BMP right in your browser — no installation needed. Uncompressed bitmap keeps raw pixels, compatible with industrial software and legacy systems. Fully local, images never leave your device.",
     "title_es": "Convertir Imagen a BMP en Línea",
     "h1_es": "Convertir Imagen a BMP en Línea",
     "description_es": "Convierta cualquier imagen a BMP en su navegador sin instalar nada, todo local.",
@@ -14485,7 +14485,7 @@
       "本地处理"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-bmp.svg",
+    "icon": "/icons/image-bmp.svg",
     "faqs": [
       {
         "q": "转换会损失画质吗？",
@@ -14559,7 +14559,7 @@
     "description": "图片转JPG格式在线工具，上传即转无需安装软件，透明区域自动填充白底，避免黑底异常，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
     "title_en": "Convert Image to JPG Online",
     "h1_en": "Convert Image to JPG Online",
-    "description_en": "Convert any image to JPG right in your browser — no install needed, 透明区域自动填充白底，避免黑底异常. Fully local, images never leave your device.",
+    "description_en": "Convert any image to JPG right in your browser — no installation needed. Transparent areas are automatically filled with white to avoid black-background artifacts. Fully local, images never leave your device.",
     "title_es": "Convertir Imagen a JPG en Línea",
     "h1_es": "Convertir Imagen a JPG en Línea",
     "description_es": "Convierta cualquier imagen a JPG en su navegador sin instalar nada, todo local.",
@@ -14644,7 +14644,7 @@
     "description": "图片转JPG格式在线工具，上传即转无需安装软件，新格式转通用格式，老设备也能打开，转换全程在浏览器本地完成，图片不上传服务器保障隐私。",
     "title_en": "Convert Image to JPG Online",
     "h1_en": "Convert Image to JPG Online",
-    "description_en": "Convert any image to JPG right in your browser — no install needed, 新格式转通用格式，老设备也能打开. Fully local, images never leave your device.",
+    "description_en": "Convert any image to JPG right in your browser — no installation needed. Turn the modern format into universally supported JPGs that even older devices can open. Fully local, images never leave your device.",
     "title_es": "Convertir Imagen a JPG en Línea",
     "h1_es": "Convertir Imagen a JPG en Línea",
     "description_es": "Convierta cualquier imagen a JPG en su navegador sin instalar nada, todo local.",
@@ -14740,7 +14740,7 @@
       "图片标记"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-watermark.svg",
+    "icon": "/icons/watermark.svg",
     "faqs": [
       {
         "q": "平铺和单个水印怎么选？",
@@ -14784,7 +14784,7 @@
       }
     ],
     "related": [
-      "watermark-bulk",
+      "exif",
       "image-compressor",
       "nine-grid"
     ],
@@ -14910,7 +14910,7 @@
       "设计工具"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-color-picker.svg",
+    "icon": "/icons/color-picker.svg",
     "faqs": [
       {
         "q": "可以连续取多个颜色吗？",
@@ -14995,7 +14995,7 @@
       "UI配色"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-color.svg",
+    "icon": "/icons/image-color.svg",
     "faqs": [
       {
         "q": "配色是怎么计算出来的？",
@@ -15080,7 +15080,7 @@
       "元数据"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-exif.svg",
+    "icon": "/icons/exif.svg",
     "faqs": [
       {
         "q": "哪些照片有 EXIF？",
@@ -15165,7 +15165,7 @@
       "placeholder"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-image-placeholder.svg",
+    "icon": "/icons/image-placeholder.svg",
     "faqs": [
       {
         "q": "最大能生成多大的占位图？",
@@ -15250,7 +15250,7 @@
       "UI素材"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-round-image.svg",
+    "icon": "/icons/round-image.svg",
     "faqs": [
       {
         "q": "100% 圆角是什么形状？",
@@ -15335,7 +15335,7 @@
       "图片切割"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-nine-grid.svg",
+    "icon": "/icons/nine-grid.svg",
     "faqs": [
       {
         "q": "非正方形图片会变形吗？",
@@ -15379,7 +15379,7 @@
       }
     ],
     "related": [
-      "image-cutter",
+      "image-cropping",
       "round-image",
       "watermark"
     ],
@@ -15420,7 +15420,7 @@
       "网址二维码"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-qrcode.svg",
+    "icon": "/icons/qrcode.svg",
     "faqs": [
       {
         "q": "WiFi 二维码怎么用？",
@@ -15465,8 +15465,8 @@
     ],
     "related": [
       "qrcode-decode",
-      "wifi-qrcode",
-      "vcard-qrcode"
+      "color-picker",
+      "watermark"
     ],
     "usage": [
       "输入文本、网址或联系方式等内容",
@@ -15505,7 +15505,7 @@
       "链接检查"
     ],
     "category": "图片处理",
-    "icon": "https://www.lanren-tools.com/static/images/logo-qrcode-decode.svg",
+    "icon": "/icons/qrcode-decode.svg",
     "faqs": [
       {
         "q": "什么样的图片能解码？",
@@ -15597,11 +15597,11 @@
     "title": "贷款计算器",
     "h1": "贷款计算器",
     "description": "在线贷款计算器，支持等额本息与等额本金两种还款方式，输出月供、总利息与还款总额明细，适用于房贷与消费贷对比规划。",
-    "title_en": "贷款计算器",
-    "h1_en": "贷款计算器",
+    "title_en": "Loan Calculator | Monthly Payment & Interest",
+    "h1_en": "Loan Calculator",
     "description_en": "Online loan calculator with equal installment and equal principal modes showing monthly payment, interest and totals for mortgage planning.",
-    "title_es": "贷款计算器",
-    "h1_es": "贷款计算器",
+    "title_es": "Calculadora de Préstamos en Línea",
+    "h1_es": "Calculadora de Préstamos",
     "description_es": "Online loan calculator with equal installment and equal principal modes showing monthly payment, interest and totals for mortgage planning.",
     "tags": [
       "贷款计算",
@@ -15610,7 +15610,7 @@
       "本地处理"
     ],
     "category": "生活计算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-loan-calculator.svg",
+    "icon": "/icons/loan-calculator.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -15681,12 +15681,12 @@
     "id": "car-loan-calculator",
     "title": "购车贷款计算器",
     "h1": "购车贷款计算器",
-    "description": "购车贷款计算器，输入车价首付比例年利率与期限即时算出月供与总成本，含首付明细，买车预算规划神器。",
-    "title_en": "购车贷款计算器",
-    "h1_en": "购车贷款计算器",
+    "description": "输入车价、首付比例、年利率与贷款期限，即时算出每月还款额、利息总额与落地总成本，并给出首付与贷款金额明细。等额本息按标准公式逐期拆解，买车前对比不同首付与期限方案轻松直观，所有计算在本地浏览器完成，车辆价格信息不上传。",
+    "title_en": "Car Loan Calculator | Payment & Total Cost",
+    "h1_en": "Car Loan Calculator",
     "description_en": "Car loan calculator: price, down payment, rate and term in, monthly payment and total cost out, with down payment breakdown.",
-    "title_es": "购车贷款计算器",
-    "h1_es": "购车贷款计算器",
+    "title_es": "Calculadora de Financiación de Coches",
+    "h1_es": "Calculadora de Financiación de Coches",
     "description_es": "Car loan calculator: price, down payment, rate and term in, monthly payment and total cost out, with down payment breakdown.",
     "tags": [
       "购车贷款",
@@ -15695,7 +15695,7 @@
       "本地处理"
     ],
     "category": "生活计算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-car-loan-calculator.svg",
+    "icon": "/icons/car-loan-calculator.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -15766,12 +15766,12 @@
     "id": "bonus-tax-calculator",
     "title": "年终奖个税计算器",
     "h1": "年终奖个税计算器",
-    "description": "年终奖个税计算器，按全年一次性奖金单独计税政策精确算税，支持与并入综合所得两种方式对比税负。",
-    "title_en": "年终奖个税计算器",
-    "h1_en": "年终奖个税计算器",
+    "description": "按全年一次性奖金单独计税政策精确计算应缴个税与到手金额，支持单独计税与并入综合所得两种方式一键对比，自动算出更省税的发放方案。年终奖临界点多发一元少拿千元的坑一目了然，HR 核算与个人规划都适用，薪资数据仅在浏览器本地运算不上传。",
+    "title_en": "China Annual Bonus Tax Calculator",
+    "h1_en": "Annual Bonus Tax Calculator",
     "description_en": "Annual bonus tax calculator per the one-time bonus preferential policy, comparable against combined taxation.",
-    "title_es": "年终奖个税计算器",
-    "h1_es": "年终奖个税计算器",
+    "title_es": "Calculadora de Impuestos de la Paga Extra",
+    "h1_es": "Calculadora de Impuestos de la Paga Extra",
     "description_es": "Annual bonus tax calculator per the one-time bonus preferential policy, comparable against combined taxation.",
     "tags": [
       "年终奖个",
@@ -15780,7 +15780,7 @@
       "本地处理"
     ],
     "category": "生活计算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-bonus-tax-calculator.svg",
+    "icon": "/icons/bonus-tax-calculator.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -15851,12 +15851,12 @@
     "id": "stamp-duty-calculator",
     "title": "印花税计算器",
     "h1": "印花税计算器",
-    "description": "印花税计算器，按合同金额与税率档位快速计算应缴税额，房产交易与合同签订前的税费预估工具。",
-    "title_en": "印花税计算器",
-    "h1_en": "印花税计算器",
+    "description": "按合同金额与对应税率档位快速算出印花税应缴税额，覆盖买卖、租赁、借款、承揽等常见合同类型。房产交易、公司签约前先估税费成本，避免预算遗漏与临时凑钱，计算过程在浏览器本地完成，合同金额无需上传任何服务器。",
+    "title_en": "Stamp Duty Calculator | Contract Tax",
+    "h1_en": "Stamp Duty Calculator",
     "description_en": "Stamp duty calculator by contract value and rate tier for property deals and pre-signing estimates.",
-    "title_es": "印花税计算器",
-    "h1_es": "印花税计算器",
+    "title_es": "Calculadora del Impuesto de Timbre",
+    "h1_es": "Calculadora del Impuesto de Timbre",
     "description_es": "Stamp duty calculator by contract value and rate tier for property deals and pre-signing estimates.",
     "tags": [
       "印花税计",
@@ -15865,7 +15865,7 @@
       "本地处理"
     ],
     "category": "生活计算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-stamp-duty-calculator.svg",
+    "icon": "/icons/stamp-duty-calculator.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -15936,12 +15936,12 @@
     "id": "profit-roi-calculator",
     "title": "利润率/ROI计算器",
     "h1": "利润率/ROI计算器",
-    "description": "利润率/ROI计算器，输入成本售价或收益即时得出毛利率净利率与投资回报率，生意定价与项目复盘必备。",
-    "title_en": "利润率/ROI计算器",
-    "h1_en": "利润率/ROI计算器",
+    "description": "输入成本与售价或投入与收益，即时得出毛利率、净利率与投资回报率 ROI，反向定价也能由目标利润率推算建议售价。生意报价、电商选品、项目复盘时快速评估赚不赚钱，纯前端本地计算，经营数据不出本机。",
+    "title_en": "Profit Margin & ROI Calculator",
+    "h1_en": "Profit Margin & ROI Calculator",
     "description_en": "Profit margin & ROI calculator: cost/price/revenue in, gross/net margins and ROI out instantly.",
-    "title_es": "利润率/ROI计算器",
-    "h1_es": "利润率/ROI计算器",
+    "title_es": "Calculadora de Margen y ROI",
+    "h1_es": "Calculadora de Margen y ROI",
     "description_es": "Profit margin & ROI calculator: cost/price/revenue in, gross/net margins and ROI out instantly.",
     "tags": [
       "利润率/",
@@ -15950,7 +15950,7 @@
       "本地处理"
     ],
     "category": "生活计算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-profit-roi-calculator.svg",
+    "icon": "/icons/profit-roi-calculator.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -16021,12 +16021,12 @@
     "id": "wangshangdai-calculator",
     "title": "网商贷利息计算器",
     "h1": "网商贷利息计算器",
-    "description": "网商贷利息计算器，按日利率折算年化，输入本金期限得出总利息与每期还款，借款前先算清成本。",
-    "title_en": "网商贷利息计算器",
-    "h1_en": "网商贷利息计算器",
+    "description": "按日利率折算年化利率，输入借款本金、期限与日利率即得总利息、每期还款额与还款计划明细。借款前先算清真实资金成本，方便与银行消费贷横向对比再做决定，全部估算在你的浏览器本地进行，借款数据不留存不上传。",
+    "title_en": "Wangshangdai Loan Interest Calculator",
+    "h1_en": "Wangshangdai Interest Calculator",
     "description_en": "Wangshangdai interest calculator converting daily rate to APR: principal and term in, total interest out.",
-    "title_es": "网商贷利息计算器",
-    "h1_es": "网商贷利息计算器",
+    "title_es": "Calculadora de Intereses de Wangshangdai",
+    "h1_es": "Calculadora de Intereses de Wangshangdai",
     "description_es": "Wangshangdai interest calculator converting daily rate to APR: principal and term in, total interest out.",
     "tags": [
       "网商贷利",
@@ -16035,7 +16035,7 @@
       "本地处理"
     ],
     "category": "生活计算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-wangshangdai-calculator.svg",
+    "icon": "/icons/wangshangdai-calculator.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -16106,12 +16106,12 @@
     "id": "payslip",
     "title": "工资条生成器",
     "h1": "工资条生成器",
-    "description": "工资条生成器，录入基本工资五险一金与个税自动生成规范工资条表格并可导出，小微企业人事好帮手。",
-    "title_en": "工资条生成器",
-    "h1_en": "工资条生成器",
+    "description": "录入基本工资、五险一金缴纳基数与个税，自动套算生成规范的工资条表格，支持导出保存与打印排版。小微企业人事、财务代发与个体雇主都能快速出单，员工收入构成清晰可查，薪资数据全程本地处理绝不外传。",
+    "title_en": "Payslip Generator | Salary Statement Maker",
+    "h1_en": "Payslip Generator",
     "description_en": "Payslip generator producing standard tables from base salary, insurance and tax inputs, exportable for small-business HR.",
-    "title_es": "工资条生成器",
-    "h1_es": "工资条生成器",
+    "title_es": "Generador de Nóminas en Línea",
+    "h1_es": "Generador de Nóminas",
     "description_es": "Payslip generator producing standard tables from base salary, insurance and tax inputs, exportable for small-business HR.",
     "tags": [
       "工资条生",
@@ -16120,7 +16120,7 @@
       "本地处理"
     ],
     "category": "生活计算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-payslip.svg",
+    "icon": "/icons/payslip.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -16191,12 +16191,12 @@
     "id": "countdown",
     "title": "节日时间倒计时",
     "h1": "节日时间倒计时",
-    "description": "节日时间倒计时，内置主要节日日期实时刷新剩余天时分秒，重要日子一目了然。",
-    "title_en": "节日时间倒计时",
-    "h1_en": "节日时间倒计时",
+    "description": "内置元旦、春节、国庆等主要节日日期，实时刷新剩余天、时、分、秒，也可自定任意目标日期创建专属倒计时，重要日子一目了然。适合投影在大屏、设为浏览器主页或日常提醒，纯网页运行无需安装，数据仅保存在本地浏览器。",
+    "title_en": "Holiday Countdown Timer",
+    "h1_en": "Holiday Countdown Timer",
     "description_en": "Holiday countdown with built-in festival dates, live days/hours/minutes remaining.",
-    "title_es": "节日时间倒计时",
-    "h1_es": "节日时间倒计时",
+    "title_es": "Cuenta Atrás para Días Festivos",
+    "h1_es": "Cuenta Atrás para Días Festivos",
     "description_es": "Holiday countdown with built-in festival dates, live days/hours/minutes remaining.",
     "tags": [
       "节日时间",
@@ -16205,7 +16205,7 @@
       "本地处理"
     ],
     "category": "生活计算",
-    "icon": "https://www.lanren-tools.com/static/images/logo-countdown.svg",
+    "icon": "/icons/countdown.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -16276,12 +16276,12 @@
     "id": "ip2int",
     "title": "IP地址与INT互转",
     "h1": "IP地址与INT互转",
-    "description": "IP地址与INT整数双向互转工具，输入 IPv4 自动识别方向转换，网络编程与数据库存储场景常用。",
-    "title_en": "IP地址与INT互转",
-    "h1_en": "IP地址与INT互转",
+    "description": "IPv4 地址与 INT 整数双向互转，粘贴任一格式自动识别方向并即时转换，同时给出二进制表示便于理解存储原理。网络编程、数据库字段设计与日志分析中经常用到，转换逻辑纯前端实现，IP 数据不经服务器直接本地出结果。",
+    "title_en": "IP Address to Integer Converter",
+    "h1_en": "IP to Integer Converter",
     "description_en": "Two-way IPv4 ↔ integer converter with auto direction detection, common in network programming and DB storage.",
-    "title_es": "IP地址与INT互转",
-    "h1_es": "IP地址与INT互转",
+    "title_es": "Conversor de Dirección IP a Entero",
+    "h1_es": "Conversor de IP a Entero",
     "description_es": "Two-way IPv4 ↔ integer converter with auto direction detection, common in network programming and DB storage.",
     "tags": [
       "IP地址",
@@ -16290,7 +16290,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-ip2int.svg",
+    "icon": "/icons/ip2int.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -16361,12 +16361,12 @@
     "id": "cidr-converter",
     "title": "CIDR/子网掩码转换器",
     "h1": "CIDR/子网掩码转换器",
-    "description": "CIDR/子网掩码转换器，输入 IP/前缀长度即得网络地址、掩码、广播地址、可用范围与主机数。",
-    "title_en": "CIDR/子网掩码转换器",
-    "h1_en": "CIDR/子网掩码转换器",
+    "description": "输入 IP 地址与 CIDR 前缀长度，立即得出网络地址、子网掩码、广播地址、可用主机范围与主机容量，并标注网络类别与私网属性。网络规划、路由配置与运维排障的高频小工具，所有位运算在浏览器本地完成，无需联网查询。",
+    "title_en": "CIDR & Subnet Mask Converter",
+    "h1_en": "CIDR / Subnet Mask Converter",
     "description_en": "CIDR/mask converter: IP/prefix in, network address, mask, broadcast, usable range and host count out.",
-    "title_es": "CIDR/子网掩码转换器",
-    "h1_es": "CIDR/子网掩码转换器",
+    "title_es": "Conversor CIDR y Máscara de Subred",
+    "h1_es": "Conversor CIDR / Máscara de Subred",
     "description_es": "CIDR/mask converter: IP/prefix in, network address, mask, broadcast, usable range and host count out.",
     "tags": [
       "CIDR",
@@ -16375,7 +16375,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-cidr-converter.svg",
+    "icon": "/icons/cidr-converter.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -16446,12 +16446,12 @@
     "id": "ip-subnet",
     "title": "子网掩码计算器",
     "h1": "子网掩码计算器",
-    "description": "IPv4子网掩码计算器，选择掩码位输入任意 IP 即得所属子网的完整信息，网络规划必备。",
-    "title_en": "子网掩码计算器",
-    "h1_en": "子网掩码计算器",
+    "description": "IPv4 子网掩码计算器，选择掩码位数并输入任意 IP，即刻返回所属子网的完整信息：网络号、广播地址、可用主机区间与总数。划分子网、分配网段前先验证可行性，避免手工二进制换算出错，计算全程在本地进行不上传。",
+    "title_en": "Subnet Mask Calculator for IPv4",
+    "h1_en": "IPv4 Subnet Calculator",
     "description_en": "IPv4 subnet calculator: pick a prefix length, enter any IP and get its full subnet breakdown.",
-    "title_es": "子网掩码计算器",
-    "h1_es": "子网掩码计算器",
+    "title_es": "Calculadora de Máscara de Subred IPv4",
+    "h1_es": "Calculadora de Subred IPv4",
     "description_es": "IPv4 subnet calculator: pick a prefix length, enter any IP and get its full subnet breakdown.",
     "tags": [
       "子网掩码",
@@ -16460,7 +16460,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-ip-subnet.svg",
+    "icon": "/icons/ip-subnet.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -16531,12 +16531,12 @@
     "id": "ip-generator",
     "title": "随机IP地址生成器",
     "h1": "随机IP地址生成器",
-    "description": "随机IP地址生成器，批量生成公网 IPv4 地址并自动排除保留段与私有段，测试数据准备利器。",
-    "title_en": "随机IP地址生成器",
-    "h1_en": "随机IP地址生成器",
+    "description": "批量随机生成公网 IPv4 地址，自动排除 10.x、192.168.x 等私有段与保留段，可指定生成数量并一键复制导出。软件测试造数据、演示环境填充表单都很顺手，生成规则完全在前端本地运行，不依赖任何后端接口。",
+    "title_en": "Random IP Address Generator",
+    "h1_en": "Random IP Address Generator",
     "description_en": "Random public IPv4 generator excluding reserved and private ranges in batch — handy test data.",
-    "title_es": "随机IP地址生成器",
-    "h1_es": "随机IP地址生成器",
+    "title_es": "Generador Aleatorio de Direcciones IP",
+    "h1_es": "Generador de Direcciones IP",
     "description_es": "Random public IPv4 generator excluding reserved and private ranges in batch — handy test data.",
     "tags": [
       "随机IP",
@@ -16545,7 +16545,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-ip-generator.svg",
+    "icon": "/icons/ip-generator.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -16617,11 +16617,11 @@
     "title": "Robots文件生成",
     "h1": "Robots文件生成",
     "description": "Robots文件生成器，可视化配置 User-agent、Allow/Disallow 规则、抓取延迟与 Sitemap，一键输出规范 robots.txt。",
-    "title_en": "Robots文件生成",
-    "h1_en": "Robots文件生成",
+    "title_en": "robots.txt Generator",
+    "h1_en": "robots.txt Generator",
     "description_en": "Visual robots.txt generator covering User-agent, Allow/Disallow rules, crawl-delay and sitemap directives.",
-    "title_es": "Robots文件生成",
-    "h1_es": "Robots文件生成",
+    "title_es": "Generador de Archivo robots.txt",
+    "h1_es": "Generador de robots.txt",
     "description_es": "Visual robots.txt generator covering User-agent, Allow/Disallow rules, crawl-delay and sitemap directives.",
     "tags": [
       "Robo",
@@ -16630,7 +16630,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-robots.svg",
+    "icon": "/icons/robots.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -16702,11 +16702,11 @@
     "title": "Robots文件检测",
     "h1": "Robots文件检测",
     "description": "Robots文件检测工具，粘贴 robots.txt 内容逐行校验语法问题：空值、未知指令、路径格式与缺失 Disallow 提醒。",
-    "title_en": "Robots文件检测",
-    "h1_en": "Robots文件检测",
+    "title_en": "Robots.txt Checker & Tester",
+    "h1_en": "Robots.txt Checker",
     "description_en": "Robots.txt validator checking blank values, unknown directives, path formats and missing Disallow line by line.",
-    "title_es": "Robots文件检测",
-    "h1_es": "Robots文件检测",
+    "title_es": "Comprobador de Archivo robots.txt",
+    "h1_es": "Comprobador de robots.txt",
     "description_es": "Robots.txt validator checking blank values, unknown directives, path formats and missing Disallow line by line.",
     "tags": [
       "Robo",
@@ -16715,7 +16715,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-robots-check.svg",
+    "icon": "/icons/robots-check.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -16787,11 +16787,11 @@
     "title": "网页META标签生成器",
     "h1": "网页META标签生成器",
     "description": "网页META标签生成器，填写标题描述关键词作者即可生成含 charset、viewport、robots 与 Open Graph 的完整头部代码。",
-    "title_en": "网页META标签生成器",
-    "h1_en": "网页META标签生成器",
+    "title_en": "Meta Tags Generator for Web Pages",
+    "h1_en": "Meta Tag Generator",
     "description_en": "META tag generator producing complete head code with charset, viewport, robots and Open Graph from simple inputs.",
-    "title_es": "网页META标签生成器",
-    "h1_es": "网页META标签生成器",
+    "title_es": "Generador de Etiquetas Meta",
+    "h1_es": "Generador de Etiquetas Meta",
     "description_es": "META tag generator producing complete head code with charset, viewport, robots and Open Graph from simple inputs.",
     "tags": [
       "网页ME",
@@ -16871,12 +16871,12 @@
     "id": "regex-generator",
     "title": "正则表达式生成器",
     "h1": "正则表达式生成器",
-    "description": "正则表达式生成器，按常见场景（手机号邮箱URL数字等）可视化拼装正则并实时匹配预览。",
-    "title_en": "正则表达式生成器",
-    "h1_en": "正则表达式生成器",
+    "description": "按手机号、邮箱、URL、身份证、数字范围等常见场景可视化拼装正则表达式，实时高亮匹配预览，所见即所得地调整规则后再复制到代码中使用。正则新手免踩语法坑，老手也能快速起稿，匹配测试全部在浏览器本地执行。",
+    "title_en": "Regex Generator & Pattern Builder",
+    "h1_en": "Regex Generator",
     "description_en": "Regex generator assembling patterns visually for common cases (phone, email, URL, numbers) with live match preview.",
-    "title_es": "正则表达式生成器",
-    "h1_es": "正则表达式生成器",
+    "title_es": "Generador de Expresiones Regulares",
+    "h1_es": "Generador de Expresiones Regulares",
     "description_es": "Regex generator assembling patterns visually for common cases (phone, email, URL, numbers) with live match preview.",
     "tags": [
       "正则表达",
@@ -16956,12 +16956,12 @@
     "id": "color-converter",
     "title": "颜色拾取转换器",
     "h1": "颜色拾取转换器",
-    "description": "颜色拾取转换器，HEX、RGB、HSL 三格式互转并支持取色板选择，前端配色与设计对色常用。",
-    "title_en": "颜色拾取转换器",
-    "h1_en": "颜色拾取转换器",
+    "description": "HEX、RGB、HSL 三种颜色格式任意互转，配合取色板点选即可拾取颜色并同步显示三种表示，还能查看明暗变体辅助配色决策。前端调样式、设计师对色值、PPT 配色都高频使用，取色与转换全在本地浏览器完成，颜色数据不上传。",
+    "title_en": "Color Picker & Converter (HEX, RGB, HSL)",
+    "h1_en": "Color Picker & Converter",
     "description_en": "Color converter across HEX, RGB and HSL with a picker — everyday tool for frontend colors and design matching.",
-    "title_es": "颜色拾取转换器",
-    "h1_es": "颜色拾取转换器",
+    "title_es": "Selector y Conversor de Colores",
+    "h1_es": "Selector y Conversor de Colores",
     "description_es": "Color converter across HEX, RGB and HSL with a picker — everyday tool for frontend colors and design matching.",
     "tags": [
       "颜色拾取",
@@ -17041,12 +17041,12 @@
     "id": "proportion-calculator",
     "title": "比例计算器",
     "h1": "比例计算器",
-    "description": "比例计算器，已知比例三项求第四项 a:b=c:d，配比调液、地图缩放与摄影构图常用。",
-    "title_en": "比例计算器",
-    "h1_en": "比例计算器",
+    "description": "已知比例三项求第四项，a:b=c:d 输入任意三个数值即解出未知项，并展示交叉相乘的推导过程便于核对。调配药液、地图比例尺换算、摄影构图裁切与烘焙配方缩放都常用，计算在浏览器本地即时完成，简单可靠零等待。",
+    "title_en": "Ratio Calculator (a:b = c:d)",
+    "h1_en": "Ratio Calculator",
     "description_en": "Proportion calculator solving the fourth term of a:b=c:d — for mixing ratios, map scales and photography framing.",
-    "title_es": "比例计算器",
-    "h1_es": "比例计算器",
+    "title_es": "Calculadora de Proporciones",
+    "h1_es": "Calculadora de Proporciones",
     "description_es": "Proportion calculator solving the fourth term of a:b=c:d — for mixing ratios, map scales and photography framing.",
     "tags": [
       "比例计算",
@@ -17055,7 +17055,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-proportion-calculator.svg",
+    "icon": "/icons/proportion-calculator.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -17127,11 +17127,11 @@
     "title": "常用USER_AGENT大全",
     "h1": "常用USER_AGENT大全",
     "description": "常用USER_AGENT大全，收录主流浏览器与搜索引擎爬虫的 UA 字符串，点击复制用于开发调试与爬虫伪装声明。",
-    "title_en": "常用USER_AGENT大全",
-    "h1_en": "常用USER_AGENT大全",
+    "title_en": "User Agent List & Lookup",
+    "h1_en": "User Agent List",
     "description_en": "A collection of mainstream browser and crawler UA strings, copy-ready for development debugging.",
-    "title_es": "常用USER_AGENT大全",
-    "h1_es": "常用USER_AGENT大全",
+    "title_es": "Lista de User Agent Completa",
+    "h1_es": "Lista de User Agents",
     "description_es": "A collection of mainstream browser and crawler UA strings, copy-ready for development debugging.",
     "tags": [
       "常用US",
@@ -17140,7 +17140,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-user-agent.svg",
+    "icon": "/icons/user-agent.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -17212,11 +17212,11 @@
     "title": "浏览器信息检测",
     "h1": "浏览器信息检测",
     "description": "浏览器信息检测，展示当前浏览器的 User-Agent、屏幕分辨率、语言、时区与 Cookie 支持等本机信息，环境排查利器。",
-    "title_en": "浏览器信息检测",
-    "h1_en": "浏览器信息检测",
+    "title_en": "Browser Info Checker",
+    "h1_en": "Browser Information Checker",
     "description_en": "Browser info inspector showing your UA, screen size, language, timezone and cookie support for environment debugging.",
-    "title_es": "浏览器信息检测",
-    "h1_es": "浏览器信息检测",
+    "title_es": "Detector de Información del Navegador",
+    "h1_es": "Información del Navegador",
     "description_es": "Browser info inspector showing your UA, screen size, language, timezone and cookie support for environment debugging.",
     "tags": [
       "浏览器信",
@@ -17225,7 +17225,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-client-info.svg",
+    "icon": "/icons/client-info.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -17296,12 +17296,12 @@
     "id": "device-preview",
     "title": "网页在线设备模拟器",
     "h1": "网页在线设备模拟器",
-    "description": "网页在线设备模拟器，在可调节尺寸的 iframe 中预览目标网址在不同设备分辨率下的表现。",
-    "title_en": "网页在线设备模拟器",
-    "h1_en": "网页在线设备模拟器",
+    "description": "在可自由调节尺寸的内嵌框架中预览目标网址，模拟手机、平板、桌面等常见分辨率下的显示效果，检查响应式断点是否正常。改版验收与适配调试不用来回切换真机，页面仅在本地渲染加载，网址不会被第三方记录。",
+    "title_en": "Responsive Device Preview Tool",
+    "h1_en": "Responsive Device Simulator",
     "description_en": "Device previewer rendering any URL in a resizable iframe to check responsive layouts at various resolutions.",
-    "title_es": "网页在线设备模拟器",
-    "h1_es": "网页在线设备模拟器",
+    "title_es": "Simulador de Dispositivos para Webs",
+    "h1_es": "Simulador de Dispositivos en Línea",
     "description_es": "Device previewer rendering any URL in a resizable iframe to check responsive layouts at various resolutions.",
     "tags": [
       "网页在线",
@@ -17310,7 +17310,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-device-preview.svg",
+    "icon": "/icons/device-preview.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -17381,12 +17381,12 @@
     "id": "shortcut",
     "title": "创建网页快捷方式",
     "h1": "创建网页快捷方式",
-    "description": "创建网页快捷方式，输入名称与网址即可下载 .url 快捷方式文件，双击直达常用网站。",
-    "title_en": "创建网页快捷方式",
-    "h1_en": "创建网页快捷方式",
+    "description": "输入名称与网址即可生成 .url 快捷方式文件并下载，双击即用默认浏览器直达常用网站，也支持放到桌面或文件夹里随时双击打开。给家里长辈做一键直达、给同事分发内部系统入口都很方便，文件在本地即时生成，不含任何追踪代码。",
+    "title_en": "Website Shortcut (.url) Creator",
+    "h1_en": "Website Shortcut Creator",
     "description_en": "Create .url shortcut files from a name and address — double-click access to your favorite sites.",
-    "title_es": "创建网页快捷方式",
-    "h1_es": "创建网页快捷方式",
+    "title_es": "Crear Acceso Directo a una Web",
+    "h1_es": "Creador de Accesos Directos Web",
     "description_es": "Create .url shortcut files from a name and address — double-click access to your favorite sites.",
     "tags": [
       "创建网页",
@@ -17395,7 +17395,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-shortcut.svg",
+    "icon": "/icons/shortcut.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -17467,11 +17467,11 @@
     "title": "Sitemap链接提取",
     "h1": "Sitemap链接提取",
     "description": "Sitemap链接提取器，粘贴 sitemap XML 内容自动提取全部 URL 列表，支持复制与下载 TXT。",
-    "title_en": "Sitemap链接提取",
-    "h1_en": "Sitemap链接提取",
+    "title_en": "Sitemap URL Extractor",
+    "h1_en": "Sitemap Link Extractor",
     "description_en": "Sitemap link extractor pulling every URL out of pasted sitemap XML, copyable and downloadable as TXT.",
-    "title_es": "Sitemap链接提取",
-    "h1_es": "Sitemap链接提取",
+    "title_es": "Extractor de Enlaces del Sitemap",
+    "h1_es": "Extractor de URLs del Sitemap",
     "description_es": "Sitemap link extractor pulling every URL out of pasted sitemap XML, copyable and downloadable as TXT.",
     "tags": [
       "Site",
@@ -17480,7 +17480,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-sitemap-extractor.svg",
+    "icon": "/icons/sitemap-extractor.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -17551,12 +17551,12 @@
     "id": "density",
     "title": "网页关键词密度检测",
     "h1": "网页关键词密度检测",
-    "description": "网页关键词密度检测，粘贴 HTML 或正文统计词频占比，SEO 内容优化参考指标。",
-    "title_en": "网页关键词密度检测",
-    "h1_en": "网页关键词密度检测",
+    "description": "粘贴 HTML 或纯文本正文，统计各关键词出现次数与占比，输出按频率排序的词频报告，帮助检查核心词布局是否自然、有无堆砌风险。SEO 编辑与内容审核的常规参考指标，分析全程在你的浏览器本地完成，稿件内容不上传。",
+    "title_en": "Keyword Density Checker",
+    "h1_en": "Keyword Density Checker",
     "description_en": "Keyword density checker computing term frequencies from pasted HTML or body text for SEO optimization.",
-    "title_es": "网页关键词密度检测",
-    "h1_es": "网页关键词密度检测",
+    "title_es": "Analizador de Densidad de Palabras Clave",
+    "h1_es": "Densidad de Palabras Clave",
     "description_es": "Keyword density checker computing term frequencies from pasted HTML or body text for SEO optimization.",
     "tags": [
       "网页关键",
@@ -17565,7 +17565,7 @@
       "本地处理"
     ],
     "category": "站长工具",
-    "icon": "https://www.lanren-tools.com/static/images/logo-density-converter.svg",
+    "icon": "/icons/density.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -17637,11 +17637,11 @@
     "title": "日志文件分析器",
     "h1": "日志文件分析器",
     "description": "日志文件分析器，上传 Nginx/Apache 日志本地解析 PV、UV、状态码分布与 TOP 访问 IP。",
-    "title_en": "日志文件分析器",
-    "h1_en": "日志文件分析器",
+    "title_en": "Log File Analyzer Online",
+    "h1_en": "Log File Analyzer",
     "description_en": "Log file analyzer parsing uploaded Nginx/Apache logs locally for PV, UV, status codes and top IPs.",
-    "title_es": "日志文件分析器",
-    "h1_es": "日志文件分析器",
+    "title_es": "Analizador de Archivos de Registro",
+    "h1_es": "Analizador de Logs",
     "description_es": "Log file analyzer parsing uploaded Nginx/Apache logs locally for PV, UV, status codes and top IPs.",
     "tags": [
       "日志文件",
@@ -17721,12 +17721,12 @@
     "id": "decibel-meter",
     "title": "分贝噪音测试仪",
     "h1": "分贝噪音测试仪",
-    "description": "分贝噪音测试仪，基于麦克风实时测量环境噪音分贝值并绘制音量曲线，噪声评估参考工具。",
-    "title_en": "分贝噪音测试仪",
-    "h1_en": "分贝噪音测试仪",
+    "description": "调用麦克风实时采样环境声音，以分贝 dB 数值呈现当前音量并绘制随时间变化的曲线，附常见声音响度参考区间便于判断噪声水平。办公室、卧室与录音环境的快速评估，音频仅在本地实时处理，不会录制保存更不上传。",
+    "title_en": "Decibel Meter | Noise Level Test",
+    "h1_en": "Decibel Noise Meter",
     "description_en": "Decibel meter measuring ambient noise via your microphone with a live level curve — a reference for noise assessment.",
-    "title_es": "分贝噪音测试仪",
-    "h1_es": "分贝噪音测试仪",
+    "title_es": "Medidor de Decibelios en Línea",
+    "h1_es": "Medidor de Ruido en Decibelios",
     "description_es": "Decibel meter measuring ambient noise via your microphone with a live level curve — a reference for noise assessment.",
     "tags": [
       "分贝噪音",
@@ -17735,7 +17735,7 @@
       "本地处理"
     ],
     "category": "影音媒体",
-    "icon": "https://www.lanren-tools.com/static/images/logo-decibel-meter.svg",
+    "icon": "/icons/decibel-meter.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -17806,12 +17806,12 @@
     "id": "voice-recorder",
     "title": "在线录音助手",
     "h1": "在线录音助手",
-    "description": "在线录音助手，使用浏览器麦克风录制声音并支持回放与 WAV 下载，会议速记与配音素材采集。",
-    "title_en": "在线录音助手",
-    "h1_en": "在线录音助手",
+    "description": "使用浏览器麦克风一键开始录音，随时暂停继续，录完即可回放试听并下载 WAV 文件，界面极简无多余设置。会议速记、外语跟读、配音小样与灵感捕捉随手可用，录音数据只在你的设备上产生和保存，绝不经过服务器。",
+    "title_en": "Online Voice Recorder",
+    "h1_en": "Online Voice Recorder",
     "description_en": "Online voice recorder capturing microphone audio with playback and WAV download for meetings and dubbing.",
-    "title_es": "在线录音助手",
-    "h1_es": "在线录音助手",
+    "title_es": "Grabadora de Voz en Línea",
+    "h1_es": "Grabadora de Voz en Línea",
     "description_es": "Online voice recorder capturing microphone audio with playback and WAV download for meetings and dubbing.",
     "tags": [
       "在线录音",
@@ -17820,7 +17820,7 @@
       "本地处理"
     ],
     "category": "影音媒体",
-    "icon": "https://www.lanren-tools.com/static/images/logo-voice-recorder.svg",
+    "icon": "/icons/voice-recorder.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -17891,12 +17891,12 @@
     "id": "video-player",
     "title": "本地视频播放器",
     "h1": "本地视频播放器",
-    "description": "本地视频播放器，选择本地视频文件在浏览器直接播放，支持倍速与全屏，视频文件不离开设备。",
-    "title_en": "本地视频播放器",
-    "h1_en": "本地视频播放器",
+    "description": "选择本地视频文件即可在浏览器直接播放，无需上传也不装软件，支持倍速播放、进度拖拽与全屏切换，常见 MP4/WebM 格式通吃。看网课、检查素材、快速过片都很顺手，视频文件始终留在本机，隐私零顾虑。",
+    "title_en": "Local Video Player (No Upload)",
+    "h1_en": "Local Video Player",
     "description_en": "Local video player playing files straight in the browser with speed control and fullscreen — files never leave your device.",
-    "title_es": "本地视频播放器",
-    "h1_es": "本地视频播放器",
+    "title_es": "Reproductor de Vídeo Local",
+    "h1_es": "Reproductor de Vídeo Local",
     "description_es": "Local video player playing files straight in the browser with speed control and fullscreen — files never leave your device.",
     "tags": [
       "本地视频",
@@ -17905,7 +17905,7 @@
       "本地处理"
     ],
     "category": "影音媒体",
-    "icon": "https://www.lanren-tools.com/static/images/logo-video-player.svg",
+    "icon": "/icons/video-player.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -17976,12 +17976,12 @@
     "id": "audio-player",
     "title": "本地音乐播放器",
     "h1": "本地音乐播放器",
-    "description": "本地音乐播放器，选择本地音频文件循环播放，支持进度拖拽与倍速，听写转录好帮手。",
-    "title_en": "本地音乐播放器",
-    "h1_en": "本地音乐播放器",
+    "description": "选择本地音频文件即开即播，支持循环播放、进度拖拽与倍速调节，听写转录、语言学习与音乐片段反复试听都很方便。多格式兼容且界面干净无干扰，音频文件全程留在本地浏览器中播放，不存在上传环节。",
+    "title_en": "Local Music Player (No Upload)",
+    "h1_en": "Local Music Player",
     "description_en": "Local audio player with loop playback, seeking and speed control — great for transcription listening.",
-    "title_es": "本地音乐播放器",
-    "h1_es": "本地音乐播放器",
+    "title_es": "Reproductor de Música Local",
+    "h1_es": "Reproductor de Música Local",
     "description_es": "Local audio player with loop playback, seeking and speed control — great for transcription listening.",
     "tags": [
       "本地音乐",
@@ -17990,7 +17990,7 @@
       "本地处理"
     ],
     "category": "影音媒体",
-    "icon": "https://www.lanren-tools.com/static/images/logo-audio-player.svg",
+    "icon": "/icons/audio-player.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -18062,11 +18062,11 @@
     "title": "屏幕录制器",
     "h1": "屏幕录制器",
     "description": "屏幕录制器，基于浏览器 ScreenCapture API 录制屏幕为 WebM 文件本地下载，录教程演示无需安装软件。",
-    "title_en": "屏幕录制器",
-    "h1_en": "屏幕录制器",
+    "title_en": "Screen Recorder Online",
+    "h1_en": "Screen Recorder",
     "description_en": "Screen recorder using ScreenCapture API to capture your display as a downloadable WebM — no install needed.",
-    "title_es": "屏幕录制器",
-    "h1_es": "屏幕录制器",
+    "title_es": "Grabadora de Pantalla en Línea",
+    "h1_es": "Grabadora de Pantalla",
     "description_es": "Screen recorder using ScreenCapture API to capture your display as a downloadable WebM — no install needed.",
     "tags": [
       "屏幕录制",
@@ -18075,7 +18075,7 @@
       "本地处理"
     ],
     "category": "影音媒体",
-    "icon": "https://www.lanren-tools.com/static/images/logo-screen-recorder.svg",
+    "icon": "/icons/screen-recorder.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",
@@ -18147,11 +18147,11 @@
     "title": "文字转语音工具",
     "h1": "文字转语音工具",
     "description": "文字转语音工具，基于浏览器 SpeechSynthesis 引擎朗读文本，可选语种语速音调，发音练习与文章试听。",
-    "title_en": "文字转语音工具",
-    "h1_en": "文字转语音工具",
+    "title_en": "Text to Speech (TTS) Tool",
+    "h1_en": "Text to Speech Converter",
     "description_en": "Text-to-speech powered by browser SpeechSynthesis with language, rate and pitch options for reading aloud.",
-    "title_es": "文字转语音工具",
-    "h1_es": "文字转语音工具",
+    "title_es": "Texto a Voz (TTS) en Línea",
+    "h1_es": "Conversor de Texto a Voz",
     "description_es": "Text-to-speech powered by browser SpeechSynthesis with language, rate and pitch options for reading aloud.",
     "tags": [
       "文字转语",
@@ -18160,7 +18160,7 @@
       "本地处理"
     ],
     "category": "影音媒体",
-    "icon": "https://www.lanren-tools.com/static/images/logo-tts.svg",
+    "icon": "/icons/tts.svg",
     "faqs": [
       {
         "q": "数据会被上传吗？",

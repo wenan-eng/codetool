@@ -1,5 +1,6 @@
 import tools from "@/config/tools.json"
 import { locales } from "@/i18n"
+import { buildPageMetadata } from "@/lib/meta"
 import zh from "@/messages/zh.json"
 import en from "@/messages/en.json"
 import es from "@/messages/es.json"
@@ -8,7 +9,7 @@ export function generateStaticParams(){ return locales.map(locale=>({locale})) }
 export function generateMetadata({params}:{params:{locale:string}}){
   const title = params.locale==='en' ? 'Webmaster Tools' : params.locale==='es' ? 'Herramientas de Webmaster' : '站长工具工具'
   const desc = params.locale==='en' ? 'All image tools: adjust, convert, compress and more — all local.' : params.locale==='es' ? 'Todas las herramientas de imagen.' : '涵盖调色、裁剪、格式转换、水印等图片工具，本地处理不上传。'
-  return { title, description: desc }
+  return buildPageMetadata({ locale: params.locale, path: "webmaster", title, description: desc })
 }
 export default function ImageCategory({params}:{params:{locale:string}}){
   const locale = params.locale

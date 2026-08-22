@@ -1,5 +1,6 @@
 import tools from "@/config/tools.json"
 import { locales } from "@/i18n"
+import { buildPageMetadata } from "@/lib/meta"
 import zh from "@/messages/zh.json"
 import en from "@/messages/en.json"
 import es from "@/messages/es.json"
@@ -8,7 +9,7 @@ export function generateStaticParams(){ return locales.map(locale=>({locale})) }
 export function generateMetadata({params}:{params:{locale:string}}){
   const title = params.locale==='en' ? 'Text Tools' : params.locale==='es' ? 'Herramientas de Texto' : '文本处理工具'
   const desc = params.locale==='en' ? 'All text tools: case converter, extractors, formatters and more.' : params.locale==='es' ? 'Todas las herramientas de texto.' : '涵盖大小写转换、信息提取、简繁转换等工具，持续上线中。'
-  return { title, description: desc }
+  return buildPageMetadata({ locale: params.locale, path: "text", title, description: desc })
 }
 export default function TextCategory({params}:{params:{locale:string}}){
   const locale = params.locale

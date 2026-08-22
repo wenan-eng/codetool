@@ -1,21 +1,12 @@
 import "../globals.css"
+import type { Metadata } from "next"
 import Script from "next/script"
 import { locales } from "@/i18n"
+import { SITE_URL } from "@/lib/meta"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 export function generateStaticParams(){ return locales.map(locale=>({locale})) }
-export function generateMetadata({ params:{locale} }: { params:{locale:string} }){
-  return {
-    alternates: {
-      languages: {
-        zh: 'https://www.codetool.site/zh',
-        en: 'https://www.codetool.site/en',
-        es: 'https://www.codetool.site/es',
-        'x-default': 'https://www.codetool.site/zh',
-      }
-    }
-  }
-}
+export const metadata: Metadata = { metadataBase: new URL(SITE_URL) }
 export default function LocaleLayout({children, params:{locale}}:{children:React.ReactNode, params:{locale:string}}){
   return (
     <html lang={locale}>

@@ -1,5 +1,6 @@
 import tools from "@/config/tools.json"
 import { locales } from "@/i18n"
+import { buildPageMetadata } from "@/lib/meta"
 import zh from "@/messages/zh.json"
 import en from "@/messages/en.json"
 import es from "@/messages/es.json"
@@ -9,7 +10,7 @@ export function generateMetadata({params}:{params:{locale:string}}){
   const msgs = messagesMap[params.locale] || zh
   const title = params.locale==='en' ? 'Development Tools' : params.locale==='es' ? 'Herramientas Desarrollo' : '编程开发工具'
   const desc = params.locale==='en' ? 'All coding tools: formatter, converter, charts and helpers.' : params.locale==='es' ? 'Todas las herramientas de programación.' : '涵盖代码美化、数据转换、图表工具、开发辅助共 50 款。'
-  return { title, description: desc }
+  return buildPageMetadata({ locale: params.locale, path: "code", title, description: desc })
 }
 export default function CodeCategory({params}:{params:{locale:string}}){
   const locale = params.locale

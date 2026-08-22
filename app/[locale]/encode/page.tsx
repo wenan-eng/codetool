@@ -1,5 +1,6 @@
 import tools from "@/config/tools.json"
 import { locales } from "@/i18n"
+import { buildPageMetadata } from "@/lib/meta"
 import zh from "@/messages/zh.json"
 import en from "@/messages/en.json"
 import es from "@/messages/es.json"
@@ -8,7 +9,7 @@ export function generateStaticParams(){ return locales.map(locale=>({locale})) }
 export function generateMetadata({params}:{params:{locale:string}}){
   const title = params.locale==='en' ? 'Encoding Tools' : params.locale==='es' ? 'Herramientas de Codificación' : '编码转换工具'
   const desc = params.locale==='en' ? 'All encoding tools: Base64, URL, hash, encryption and more.' : params.locale==='es' ? 'Todas las herramientas de codificación.' : '涵盖编解码、哈希加密、文件转换等工具，持续上线中。'
-  return { title, description: desc }
+  return buildPageMetadata({ locale: params.locale, path: "encode", title, description: desc })
 }
 export default function EncodeCategory({params}:{params:{locale:string}}){
   const locale = params.locale

@@ -2,13 +2,14 @@ import { locales } from "@/i18n"
 import zh from "@/messages/zh.json"
 import en from "@/messages/en.json"
 import es from "@/messages/es.json"
+import { buildPageMetadata } from "@/lib/meta"
 const messagesMap: Record<string, any> = { zh, en, es }
 
 export function generateStaticParams(){ return locales.map(locale=>({locale})) }
 
 export function generateMetadata({params}:{params:{locale:string}}){
   const msgs = messagesMap[params.locale] || zh
-  return { title: msgs.pages.contact.title }
+  return buildPageMetadata({ locale: params.locale, path: "contact", title: msgs.pages.contact.title, description: msgs.pages.contact.p1 })
 }
 
 export default function Page({params}:{params:{locale:string}}){

@@ -1,5 +1,6 @@
 import tools from "@/config/tools.json"
 import { locales } from "@/i18n"
+import { buildPageMetadata } from "@/lib/meta"
 import zh from "@/messages/zh.json"
 import en from "@/messages/en.json"
 import es from "@/messages/es.json"
@@ -8,7 +9,7 @@ export function generateStaticParams(){ return locales.map(locale=>({locale})) }
 export function generateMetadata({params}:{params:{locale:string}}){
   const title = params.locale==='en' ? 'Unit Converters' : params.locale==='es' ? 'Conversores de Unidades' : '单位换算工具'
   const desc = params.locale==='en' ? 'All unit converters: length, weight, temperature, pressure and more.' : params.locale==='es' ? 'Todos los conversores de unidades.' : '涵盖长度、重量、温度、压力等 30 余种单位换算，持续上线中。'
-  return { title, description: desc }
+  return buildPageMetadata({ locale: params.locale, path: "unit", title, description: desc })
 }
 export default function UnitCategory({params}:{params:{locale:string}}){
   const locale = params.locale
